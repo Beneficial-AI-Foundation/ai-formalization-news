@@ -774,6 +774,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.22748",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+   "url": "https://arxiv.org/abs/2611.22748",
+   "authors": [
+    "Kwanghoon Choi"
+   ],
+   "published": "2026-11-17T13:16:39Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \\textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.22613",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -791,6 +808,24 @@
    "summary": "Adds a Python backend to the Isabelle/HOL code generator, extending verified implementations to Python for scientific computing and education.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.22572",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Datatypes In, Zippers Out!",
+   "url": "https://arxiv.org/abs/2611.22572",
+   "authors": [
+    "Smayan Agarwal",
+    "Aalok Thakkar"
+   ],
+   "published": "2026-11-17T10:57:51Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "u:e9b2b2f349e2a752",
@@ -826,6 +861,24 @@
    "summary": "Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view for path abstraction and cumulative rewards.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.21914",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "A Temporal Algebraic Framework for Data Stream Evaluation Under Delayed Labels and Distribution Shifts",
+   "url": "https://arxiv.org/abs/2611.21914",
+   "authors": [
+    "Ronaldo C. Prati",
+    "Elaine Ribeiro de Faria"
+   ],
+   "published": "2026-11-16T21:28:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.21826",
@@ -868,6 +921,25 @@
    "summary": "AuXSpec autoformalizes program specifications in Lean using executable postconditions as scalable feedback for training specification models.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.21402",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Harmonic-Mean Aggregation of Continuous-Time Markov Chains with Reachability Error Bounds",
+   "url": "https://arxiv.org/abs/2611.21402",
+   "authors": [
+    "Bingqing Hu",
+    "Landon Taylor",
+    "Zhen Zhang"
+   ],
+   "published": "2026-11-16T16:54:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Abstracting a continuous-time Markov chain by grouping its states into blocks raises a fundamental question: which rates should the abstract chain use when states within a block have different exit rates and transition probabilities? We study harmonic-mean aggregation, which matches the mean waiting time and next-block distribution of a local experiment that uniformly selects a state within the block and observes its next jump. Equivalently, the abstract transition rates are averages of the concrete rates with inverse-exit-rate weights. Since the aggregation does not preserve reachability…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.21299",
@@ -1022,6 +1094,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.19940",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Strong Standard Completeness of a Hypersequent Calculus for Cyclic Involutive Residuated Lattices",
+   "url": "https://arxiv.org/abs/2611.19940",
+   "authors": [
+    "SanMin Wang"
+   ],
+   "published": "2026-11-15T11:14:32Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a hypersequent calculus $H_R$ for cyclic involutive residuated lattices and prove strong standard completeness for arbitrary theories in a fixed countable propositional language. Standard models are chains on $[0,1]$; neither commutativity nor equality of the monoid unit and the dualizing constant is assumed. The chain semantics is the class $K_R$ defined by unit cyclicity and all ordered finite-history conditions. Every countable member of $K_R$ embeds into a standard chain preserving the entire signature. The construction combines central-support reconstruction, gap insertion…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.23319",
    "type": "paper",
    "source": "arXiv physics.plasm-ph",
@@ -1091,6 +1180,24 @@
    "summary": "Formalizes the denotational semantics of einsum-style tensor operations and mechanically verifies rewriting rules that improve tensor performance.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.18541",
+   "type": "paper",
+   "source": "arXiv math.RA",
+   "source_id": "arxiv-api",
+   "title": "No free lattice contains an infinite ascending chain of copies of FL(3)",
+   "url": "https://arxiv.org/abs/2611.18541",
+   "authors": [
+    "William DeMeo",
+    "Ralph Freese"
+   ],
+   "published": "2026-11-13T18:49:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author's 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \\dots$ with $Θ_k \\circ Θ_j = Θ_j$ for $j < k$, so that each later embedding fixes the image of each earlier one pointwise. Every proper self-embedding of FL(3) whose fixed sublattice contains a free generating triple fixes one of the three generators…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.18369",
@@ -1289,6 +1396,24 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.15992",
+   "type": "paper",
+   "source": "arXiv cs.CC",
+   "source_id": "arxiv-api",
+   "title": "The multiplicative complexity of the three-bit low-half multiplier",
+   "url": "https://arxiv.org/abs/2611.15992",
+   "authors": [
+    "Bshara Alhodali",
+    "Gregory Morse"
+   ],
+   "published": "2026-11-11T20:44:53Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We prove that the multiplicative complexity of the three-bit low-half multiplier is six, giving a structural, enumeration-free lower-bound proof valid against unrestricted nonlinear reuse in Boolean XOR-AND circuits. The value was first established by SAT searches of the first author and independently confirmed by the second author. An explicit six-AND circuit supplies the upper bound. The lower bound combines derivatives, quadratic products, complementary minors, and extraction modulo a Boolean ideal. Independent finite checks accompany the arguments. $\\mathrm{MC}(M_3)=6$ is fully…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "u:a7899944b31c35a5",
    "type": "social",
    "source": "#formalverification on Mathstodon",
@@ -1472,6 +1597,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.14586",
+   "type": "paper",
+   "source": "arXiv stat.ML",
+   "source_id": "arxiv-api",
+   "title": "Finite-Cadence Refresh Equilibria for Streaming Prior-Anchored Ridge: A Closed-Form Forgetting Window and Spectral Correction",
+   "url": "https://arxiv.org/abs/2611.14586",
+   "authors": [
+    "Mrigank Shekhar Singh"
+   ],
+   "published": "2026-11-10T06:42:46Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Recursive estimators on drifting streams must forget stale data fast enough to track the target, yet slowly enough to average out noise. In prior-anchored ridge regression, this trade-off admits a closed-form spectral decomposition in which each eigen-direction interpolates between the data solution and the prior with pull weight $s_i = ρ/ (μ_i + ρ)$. When the anchor is refreshed every $k$ steps, we show that the moving-frame offset converges to a finite-cadence equilibrium that lags the pure-leaky path by an explicit $Δ_k(s)$ while reducing estimation variance by a factor $Ψ(s, r_k)$…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.13627",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -1507,6 +1649,26 @@
    "summary": "Megrez is a knowledge-guided agent that formalizes textbook mathematics in a Rocq library built on Morse-Kelley set theory.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.12712",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL",
+   "url": "https://arxiv.org/abs/2611.12712",
+   "authors": [
+    "Bernat Homs",
+    "Oscar Palomar",
+    "Miquel Moreto",
+    "Marcelo Orenes-Vera"
+   ],
+   "published": "2026-11-09T17:03:14Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "With the growing interest in using AI (Artificial Intelligence) for RTL (Register-Transfer Level) hardware development, robust and comprehensive verification has become more important than ever. As Large Language Models (LLMs) increasingly assist in creating and modifying RTL designs, ensuring that these changes preserve existing functionality is paramount for building trust in AI-driven workflows. We present SVApshot, a fully automated framework that leverages LLMs to generate and systematically attempt to correct SystemVerilog Assertions (SVA) for RTL modules, completely removing the human…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "u:8cbfac78780bbb34",
@@ -1562,6 +1724,25 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.11805",
+   "type": "paper",
+   "source": "arXiv math.NA",
+   "source_id": "arxiv-api",
+   "title": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
+   "url": "https://arxiv.org/abs/2611.11805",
+   "authors": [
+    "Lianghao Cao",
+    "George Stepaniants",
+    "Andrew M. Stuart"
+   ],
+   "published": "2026-11-09T03:08:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.11641",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1581,6 +1762,43 @@
    "summary": "Embeds Syracuse and Collatz maps into entire functions and includes machine-checked multipliers, a dynamics paper with some formal-checking content.",
    "score": 2,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.11633",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "An Interpretable Fuzzy Tree for Turbofan Remaining Useful Life with an Auditable Per-Component Diagnostic Layer",
+   "url": "https://arxiv.org/abs/2611.11633",
+   "authors": [
+    "Hugo Henry",
+    "Bharadwaj Dogga",
+    "Scott Philips",
+    "Kelly Cohen"
+   ],
+   "published": "2026-11-08T21:31:57Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Data-driven remaining useful life (RUL) estimators for turbofan engines are accurate but opaque, and their internal features typically encode remaining life rather than any specific component's state. This paper presents an interpretable genetic fuzzy tree that predicts RUL from cruise-condition sensor means on N-CMAPSS while exposing a per-component diagnostic layer inspectable rule by rule. The tree follows the engine hierarchy: sensors to component health, then to bounded component damage, spool damage, and RUL, so each level answers a different maintenance question. Training is staged so…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11506",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "On the Relative Security of Prompt Injection: Mechanised Definitions, Defences and Verdicts for LLM Agents",
+   "url": "https://arxiv.org/abs/2611.11506",
+   "authors": [
+    "Brijesh Dongol"
+   ],
+   "published": "2026-11-08T17:20:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it. Noninterference is too strong for such agents, since a useful agent lets untrusted content influence what it does and may disclose the user's data by design, and declassification needs a release policy written for each task. We instead state security relative to a reference agent, which runs the same plan under the same runtime monitor with a model that never obeys untrusted content. An agent is relatively secure if every leak it has is a leak the reference already has. Our…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.12985",
@@ -1624,6 +1842,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.10810",
+   "type": "paper",
+   "source": "arXiv cs.DB",
+   "source_id": "arxiv-api",
+   "title": "Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines",
+   "url": "https://arxiv.org/abs/2611.10810",
+   "authors": [
+    "Andreas Andreakis"
+   ],
+   "published": "2026-11-07T15:43:02Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "u:4bdb196c6ef1a465",
    "type": "news",
    "source": "Rocq Discourse",
@@ -1639,6 +1874,49 @@
    "summary": "SLOT, an early-stage formally verified model checker for actor-based languages with I/O, announced on Rocq Discourse.",
    "score": 2,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.10233",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "ProofDiff: Auditable Argument-Level Comparison of AI-Generated Mathematical Proofs",
+   "url": "https://arxiv.org/abs/2611.10233",
+   "authors": [
+    "Matan Tsafrir",
+    "Esdras Medeiros",
+    "Jorge Poco",
+    "Kevin Gomez",
+    "Eduardo V. Teixeira",
+    "Claudio Silva"
+   ],
+   "published": "2026-11-06T21:18:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical understanding depends on the route from hypotheses to conclusion: how the parts of a proof function and which dependencies carry the argument forward. This structure can persist when wording or notation changes, while a small alteration to a hypothesis or inference can produce a different argument beneath similar prose. Formal verification can establish that a rewrite proves the same theorem, but not whether it follows the same mathematical route. Comparing informal proofs, especially those produced or revised by generative models, therefore requires reconstructing which claims…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.09410",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Nothing Is Shared Until You Synchronise: Reinterpreting Java for Data-Race Freedom",
+   "url": "https://arxiv.org/abs/2611.09410",
+   "authors": [
+    "Luke Cheeseman",
+    "Elias Castegren",
+    "David Black-Schaffer",
+    "Erik Österlund",
+    "Tobias Wrigstad"
+   ],
+   "published": "2026-11-06T12:43:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In mainstream shared-memory languages, programmers use synchronisation mechanisms such as locks to isolate shared data accesses across threads to avoid data races. Yet synchronisation enforces only a temporal ordering, while shared memory still communicates updates between threads at every ordinary read and write. To achieve isolation, programmers therefore need to understand the connection between ordering and communication, and to apply synchronisation correctly and consistently, while compilers and hardware optimise assuming they have. When programmers synchronise incorrectly, they lose…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.09134",
@@ -1720,6 +1998,27 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.07962",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research",
+   "url": "https://arxiv.org/abs/2611.07962",
+   "authors": [
+    "Yifan Luo",
+    "Zhengying Liu",
+    "Yang Yuan",
+    "Zhilin Yang",
+    "Andrew Chi-Chih Yao"
+   ],
+   "published": "2026-11-05T12:58:43Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research accomplishments and progress toward long-standing research goals. TCSExam-Full contains 100 expert-reviewed tasks, with submissions checked by the Lean kernel or an executable task checker…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.07432",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1735,6 +2034,25 @@
    "summary": "Develops the theory of Eigenius, a proof-relevant dependent type theory for a persistent store of typed knowledge over constructive institutions.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.07395",
+   "type": "paper",
+   "source": "arXiv math.AP",
+   "source_id": "arxiv-api",
+   "title": "Rigorously Certified Neural-Network Computation of Nonlinear Water Waves at Near-Machine Precision",
+   "url": "https://arxiv.org/abs/2611.07395",
+   "authors": [
+    "Michal Shavit",
+    "Yongji Wang",
+    "Tristan Buckmaster"
+   ],
+   "published": "2026-11-05T03:44:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a computational framework that combines machine-learning-based discovery with rigorous computer-assisted numerical certification and formal verification for strongly nonlinear partial differential equations. We demonstrate the approach for periodic gravity-capillary traveling water waves. Physics-informed neural networks are used as a search mechanism, with the wave profile, wave speed and, in continuation experiments, surface tension learned directly from the governing equations without training data. Through a staged training and refinement procedure, the neural networks achieve…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.07194",
@@ -1813,6 +2131,42 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.06003",
+   "type": "paper",
+   "source": "arXiv cs.DM",
+   "source_id": "arxiv-api",
+   "title": "How Unbalanced Must a Latin Rectangle Be?",
+   "url": "https://arxiv.org/abs/2611.06003",
+   "authors": [
+    "Zhengyu Li",
+    "Vijay Ganesh"
+   ],
+   "published": "2026-11-04T05:52:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We view a $k\\times n$ Latin rectangle as $n$ points in the grid $[n]^k$. Each symbol gives one point, whose coordinates are the columns it occupies. The rectangle is balanced when these points are pairwise equidistant in the $\\ell_1$ metric. Its imbalance measures the distance from this ideal. We study the minimum imbalance from three sides. Constructively, we use a simulated annealing that moves symbols within rows and only penalises column clashes. Against the reference table of Voboril et al. (2025), it improves 33 of the 51 non-square values for $8\\le n\\le 13$, by up to 39.4%, and…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.05695",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Demystifying Information Flow Downgrading using the Real--Ideal Paradigm",
+   "url": "https://arxiv.org/abs/2611.05695",
+   "authors": [
+    "Suraaj Kanniwadi",
+    "Andrew C. Myers"
+   ],
+   "published": "2026-11-03T22:23:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The real--ideal paradigm, an approach to security specification developed in the cryptography community, has the benefit that it can express sophisticated confidentiality and integrity requirements, even for decentralized systems. We show that this paradigm is the basis for a powerful and intuitive new semantic framework for language-based security. Our new framework cleanly and extensionally captures existing security definitions, including not only noninterference but also less understood information flow properties that involve downgrading, such as robust declassification and nonmalleable…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.05668",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1878,6 +2232,25 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.04993",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Linking as Evaluation: Correct Separate Compilation via First-Class Environments",
+   "url": "https://arxiv.org/abs/2611.04993",
+   "authors": [
+    "Jam Kabeer Ali Khan",
+    "Jinhao Tan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-11-03T14:44:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is correct when a linked program behaves like the program formed by merging its sources. This property is less routine to prove than type soundness because it requires a formal account of linking. We present $λ_{\\mathsf{SCE}}$, a simply typed calculus in which linking, modules, and environments are all first-class. Programmers control module linking through a link operator, which a type-directed elaboration translates into ordinary terms of a core…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "u:61a64f0581fa1f01",
    "type": "news",
    "source": "Rocq Discourse",
@@ -1893,6 +2266,28 @@
    "summary": "First release of rocq-segmap, a verified Rocq implementation of segment maps representing thinnings.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.04561",
+   "type": "paper",
+   "source": "arXiv cs.DC",
+   "source_id": "arxiv-api",
+   "title": "Distributed LTL Synthesis under Arbitrary Message Adversaries",
+   "url": "https://arxiv.org/abs/2611.04561",
+   "authors": [
+    "Benedikt Bollig",
+    "Patricia Bouyer-Decitre",
+    "Matthias Függer",
+    "Dhrubajyoti Ghosh",
+    "Thomas Nowak",
+    "Nathalie Sznajder"
+   ],
+   "published": "2026-11-03T09:26:15Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reactive synthesis is the problem of generating a program that produces outputs satisfying a logical specification for every input stream. We study distributed synthesis for two processes communicating in rounds over unreliable links, with at least one message delivered in every round. Despite this delivery guarantee, we show that synthesis from linear temporal logic specifications is undecidable, even when messages carry the processes' complete causal histories. More generally, we give a complete characterization of the communication restrictions that make synthesis decidable. Restrictions…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "u:b2544c2f78226752",
@@ -1912,6 +2307,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.04377",
+   "type": "paper",
+   "source": "arXiv cs.CC",
+   "source_id": "arxiv-api",
+   "title": "Monodromy Computation Model",
+   "url": "https://arxiv.org/abs/2611.04377",
+   "authors": [
+    "Xiaoyang Liu"
+   ],
+   "published": "2026-11-03T06:03:41Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A closed path can return to its starting point while analytic continuation reaches another branch. We construct a finite computational calculus in which retained logarithmic branches supply memory, analytic observations select operations, and descent through a covering exposes deeper memory. Three branch coordinates suffice, and every finite observation uses the same cubic power covering. Each program defines a globally real analytic return map whose integer-lattice execution is realized by actual path lifting. Our first theorem simulates every finite-alphabet, finite-control Post--Turing…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.04172",
    "type": "paper",
    "source": "arXiv math.LO",
@@ -1927,6 +2339,26 @@
    "summary": "Constructs a counterexample to a Friedman-Stanley question on Borel completeness, with the structural result formalized in Lean 4.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.03918",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Handling JAX",
+   "url": "https://arxiv.org/abs/2611.03918",
+   "authors": [
+    "Oghenevwogaga Ebresafe",
+    "Daniel Zheng",
+    "Gordon Plotkin",
+    "Ningning Xie"
+   ],
+   "published": "2026-11-02T20:23:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Languages that target hardware accelerators typically expose a restricted, first-order core without recursion or first-class functions, leaving programmers without a principled way to express computational effects. This paper presents a technique for compiling effect handlers to such a constrained target. We introduce a novel translation that statically eliminates effect handlers, and prove that it preserves both typing and semantics. Moreover, we address the challenges of integrating effect handlers with structured control flow, where continuations cannot be constructed statically. The…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2611.02843",
@@ -1966,6 +2398,42 @@
    "relevant": false
   },
   {
+   "id": "arxiv:2611.02237",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "Nonreciprocal Spherical Attention and Retrieval: Sharp Coarsening Clocks and Certified Score Correction",
+   "url": "https://arxiv.org/abs/2611.02237",
+   "authors": [
+    "Faruk Alpay",
+    "Taylan Alpay"
+   ],
+   "published": "2026-11-01T21:58:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval. For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\\lim_{β\\to\\infty}β^{-1}\\log T_β=1-\\cosφ$, without restricting particle-count growth. An explicit three-body flow has two rigorously separated metastable exponents. For finite compression, mass centering yields a sharp $O(r^2)$ attention-output error bound at fixed temperature, with an explicit spherical-normalization…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.02215",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "Discrimination, Calibration, and Ranking: A Unified Matrix Framework",
+   "url": "https://arxiv.org/abs/2611.02215",
+   "authors": [
+    "Ronaldo Cristiano Prati",
+    "Farangis Johari"
+   ],
+   "published": "2026-11-01T21:23:18Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Discrimination, calibration, and ranking are the three pillars of classifier evaluation, yet no single algebraic language spans all three. A recent indicator-matrix account unifies discrimination measures (precision, recall, F1, Matthews correlation) across binary, multiclass, multilabel and related settings, using Boolean cell operations on indicator label matrices, generalised to soft labels by t-norms. Calibration measures (Brier score, log-loss) and ranking measures (nDCG, AUC) fall outside it. We close the gap with two further classes of cell operators: deviation operators phi(y…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.02028",
    "type": "paper",
    "source": "arXiv cs.AI",
@@ -1990,6 +2458,23 @@
    "summary": "LARK uses Lean to formally verify LLM-generated GPU kernels against PyTorch reference implementations under exact arithmetic.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.01825",
+   "type": "paper",
+   "source": "arXiv cs.FL",
+   "source_id": "arxiv-api",
+   "title": "The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence",
+   "url": "https://arxiv.org/abs/2611.01825",
+   "authors": [
+    "Sherzod Turaev"
+   ],
+   "published": "2026-11-01T11:45:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   }
  ]
 }

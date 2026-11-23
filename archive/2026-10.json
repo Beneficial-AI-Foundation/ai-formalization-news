@@ -23,6 +23,26 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.00340",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Autoformalization for Ambiguous Inputs: Precision, Coverage, and Cost across SQL and Logical Forms",
+   "url": "https://arxiv.org/abs/2611.00340",
+   "authors": [
+    "Henry Shen",
+    "Xinling Liao",
+    "Adarsh Vatsa",
+    "William Eiers"
+   ],
+   "published": "2026-10-30T20:16:19Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Agentic systems translate natural-language requests into executable artifacts while managing ambiguity and inference cost. We evaluate seven autoformalization workflows on SQL and first-order logic benchmarks for ambiguous inputs. Across five SQL workflows, the raw model leads with F1 of 53.35% on AMBROSIA and 60.85% on AmbiQT. On AmP, DRIFT gains 15.98 F1 points over the raw model at 2.03 times its token cost, whereas LoC uses 18.65 times the raw model's tokens with lower F1. Within AutoCedar, structured interpretation lowers F1 by 6.44-6.95 points and raises AMBROSIA token use 2.2-fold…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2611.00287",
    "type": "paper",
    "source": "arXiv cs.SE",
@@ -41,6 +61,43 @@
    "summary": "VerusWeave is a benchmark for proof repair in concurrent Verus programs, targeting coding agents on atomic operations and abstract protocols.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2611.00269",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Automated Theorem Generation in First-Order Logic by Construction from Triangular Standard Contradictions",
+   "url": "https://arxiv.org/abs/2611.00269",
+   "authors": [
+    "Yang Xu",
+    "Shuwei Chen",
+    "Hailin Guo",
+    "Jun Liu"
+   ],
+   "published": "2026-10-30T18:54:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Automated theorem generation (ATG) seeks to construct new theorems rather than merely prove given conjectures. Existing approaches typically generate candidate statements that require subsequent proof or formal verification. We propose a constructive framework for ATG in first-order logic based on triangular standard contradictions. The method constructs minimally unsatisfiable clause sets from selected first-order literals, then forms theorems by retaining some clauses as premises and taking the negation of one clause, or a conjunction of clauses, as the conclusion. Minimal unsatisfiability…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.00176",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Coinduction in Grounded Arithmetic",
+   "url": "https://arxiv.org/abs/2611.00176",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-30T14:42:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A grounded arithmetic counts a sentence true only when a terminating process establishes it; a sentence no such process settles has no value. Such a logic can state that an event happens, but not that it never happens under unbounded choice. This paper extends such a logic so that it can. The base is Reflective Grounded Arithmetic (RGA) with Inductive Grounded Arithmetic (IGA)'s least-fixed-point reading and ground induction. It adds a separate greatest-fixed-point former $ν$ with Park's coinduction rule, proves that one former cannot carry both ground induction and coinduction, and adds a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2610.41536",
@@ -201,6 +258,29 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2610.38687",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Deogen: Automatic Benchmark Generation for Reasoning over Policies",
+   "url": "https://arxiv.org/abs/2610.38687",
+   "authors": [
+    "Sam Kouteili",
+    "William Liang",
+    "Keeran Murray",
+    "Adriana Zhou",
+    "Ramesh Viswanathan",
+    "Scott Shapiro",
+    "Ruzica Piskac"
+   ],
+   "published": "2026-10-28T18:56:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Language models are increasingly being deployed in regulated settings, where a model must apply given rules to the facts of a situation to determine a verdict. Benchmarking this capability, known as deontic reasoning, remains a costly and manual process, with existing datasets largely hand-crafted. In this paper, we present DeoGen, a scalable, automatic, and parametrizable benchmark generator for deontic reasoning. By autoformalizing policy rules to first-order logic, we can construct decision trees that capture possible outcome trajectories. Each path down a tree becomes a benchmark entry…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2610.38616",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -267,6 +347,59 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2610.37739",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+   "url": "https://arxiv.org/abs/2610.37739",
+   "authors": [
+    "Jiarui Yao",
+    "Ruida Wang",
+    "Tong Zhang"
+   ],
+   "published": "2026-10-27T16:49:33Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37524",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time",
+   "url": "https://arxiv.org/abs/2610.37524",
+   "authors": [
+    "Elisabeth Fink"
+   ],
+   "published": "2026-10-27T16:45:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Self-attention mechanisms have established the Transformer as the dominant backbone across natural language processing, source code intelligence, and automated theorem proving. However, all-to-all pairwise token comparison enforces a quadratic $\\mathcal{O}(N^2)$ compute and memory barrier alongside severe softmax attention dilution as sequence length $N$ scales beyond the training horizon. Inspired by recent advances in algebraic graph learning (\\textbf{WPNet}), this work introduces \\textbf{GTFormer}, a syntax-free hierarchical Graph Neural Network (GNN) that replaces flat self-attention for…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37498",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Global Choice without Excluded Middle in Dependent Type Theory",
+   "url": "https://arxiv.org/abs/2610.37498",
+   "authors": [
+    "Sewon Park"
+   ],
+   "published": "2026-10-27T16:22:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Diaconescu's theorem derives excluded middle from the axiom of choice, using propositional extensionality. We show that in dependent type theory without propositional extensionality, global choice alone does not imply excluded middle. We consider extensional Martin-Löf type theory with an impredicative universe of propositions included in the universe of types, extended with a global choice operator. We construct a consistent model of this type theory and show that the model refutes excluded middle and propositional extensionality. The model is built from staged sets, sets whose elements…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "u:b1cc44b2ee28b986",
    "type": "news",
    "source": "Rocq Discourse",
@@ -319,6 +452,42 @@
    "summary": "Studies compilation that preserves separation logic weakest preconditions from source to compiled programs, using a resource-aware simulation proof technique.",
    "score": 3,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2610.36798",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Polymorphic First-Class Environments",
+   "url": "https://arxiv.org/abs/2610.36798",
+   "authors": [
+    "Jinhao Tan",
+    "Jam Kabeer Ali Khan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-10-27T07:59:35Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "First-class environments expose runtime environments as ordinary values and support a substitution-free, environment-based operational semantics. They also support applications such as first-class modules, dynamic composition of environment fragments, and sandboxing via local environments. Existing environment-based calculi, however, are mostly studied in a simply typed setting and stop short of System F and polymorphism. We present $F_E$, a polymorphic calculus with first-class environments that conservatively extends System F with a small-step environment semantics. $F_E$ eliminates all…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36534",
+   "type": "paper",
+   "source": "arXiv math.NT",
+   "source_id": "arxiv-api",
+   "title": "Resolvent Components of Completely Normal Elements and the Morgan-Mullen Conjecture",
+   "url": "https://arxiv.org/abs/2610.36534",
+   "authors": [
+    "Florian Hellwig"
+   ],
+   "published": "2026-10-27T02:47:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We study completely normal elements of $\\mathbb{F}_{q^n}$ over $\\mathbb{F}_q$, that is, elements that are normal over every intermediate field, through partial Lagrange resolvents. In these coordinates, complete normality splits into independent components, in a way closely related to Hachenberger's decomposition theory. Our main tool is a structure theorem for the components; together with a finite computation, it shows that every component has weight (the sum of the probabilities that its conditions fail) at most $3/4$, uniformly in $n$. Combined with the classical character-sum method…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2610.36494",
@@ -423,6 +592,27 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2610.36105",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "AGDecode: Semantic Attribute Grammar Derivatives for Safety-Constrained Decoding of Large Language Models",
+   "url": "https://arxiv.org/abs/2610.36105",
+   "authors": [
+    "Rajan Maghera",
+    "Asher Tempest Arya",
+    "Aren A. Babikian",
+    "Marsha Chechik",
+    "Maryam Mehri Dehnavi"
+   ],
+   "published": "2026-10-26T18:18:41Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) are increasingly used for code generation, motivating techniques that guarantee the structural and semantic correctness of generated programs. Constrained decoding enforces correctness during generation by restricting token choices to those that admit at least one valid completion. While existing approaches can enforce syntactic constraints and selected semantic properties such as type safety, they either target specific properties or rely on operational pruning mechanisms that are difficult to generalize to data-dependent, inductive program properties. We…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
    "id": "arxiv:2610.35596",
    "type": "paper",
    "source": "arXiv stat.CO",
@@ -488,6 +678,23 @@
    "summary": "Archive of Formal Proofs entry on the irrationality of zeta(5).",
    "score": 2,
    "relevant": true
+  },
+  {
+   "id": "arxiv:2610.34548",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$",
+   "url": "https://arxiv.org/abs/2610.34548",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-25T20:17:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "What does a recursive definition mean in a grounded logic, where a sentence is true only if a terminating process makes it so? This paper takes Kripke's answer for truth, the least fixed point, as a rule. Reflective Grounded Arithmetic (RGA) writes any recursive definition as one self-referential term; Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, making each an inductive definition. IGA is omega-sound and proof-grounded: sound and complete for a semantics whose certificates are its own proofs. IGA proves Goodstein's theorem, the Kirby-Paris hydra game…",
+   "summary": null,
+   "score": null,
+   "relevant": null
   },
   {
    "id": "arxiv:2610.34490",
