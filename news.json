@@ -1,7 +1,58 @@
 {
  "version": 1,
- "updated": "2026-11-23T06:45:41Z",
+ "updated": "2026-11-23T09:26:59Z",
  "items": [
+  {
+   "id": "u:a0961ac118cfb251",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Weekly reads: Nov 16 – Nov 22, 2026. https://jaalonso.github.io/vestigium/en/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664793026717250",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T08:24:16Z",
+   "fetched": "2026-11-23T09:26:59Z",
+   "source_text": "Weekly reads: Nov 16 – Nov 22, 2026. https://jaalonso.github.io/vestigium/en/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization #CoqProver #Emacs #Haskell #HOL_Light #IsabelleHOL #ITP #Lean4Challenge #LeanProver #Logic #Math",
+   "summary": "English version of the weekly reading list covering AI for math, autoformalization, and interactive theorem provers including Lean, Coq and Isabelle.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:61a6efb4d54ffc9b",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lecturas de la semana: 16 nov – 22 nov 2026. https://jaalonso.github.io/vestigium/posts/2026/11/23-weekly_reads #AI #AI4Math…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664789281639086",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T08:23:19Z",
+   "fetched": "2026-11-23T09:26:59Z",
+   "source_text": "Lecturas de la semana: 16 nov – 22 nov 2026. https://jaalonso.github.io/vestigium/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization #CoqProver #Emacs #Haskell #HOL_Light #IsabelleHOL #ITP #Lean4Challenge #LeanProver #Logic #Math",
+   "summary": "Weekly reading list from José A. Alonso covering AI for math, autoformalization, and proof assistants such as Lean, Coq, Isabelle and HOL Light.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:610f4df395ff3d12",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "The war against slop and an emerging weapon to fight it: formal verification. ~ Richard MacManus…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664694629190941",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T07:59:15Z",
+   "fetched": "2026-11-23T09:26:59Z",
+   "source_text": "The war against slop and an emerging weapon to fight it: formal verification. ~ Richard MacManus. https://latent.space/p/formal-verification/ #LeanProver #FormalVerification",
+   "summary": "Richard MacManus argues that formal verification is an emerging way to fight low-quality AI-generated content, linking to a Latent Space essay.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:f2252f571a0215a8",
    "type": "social",

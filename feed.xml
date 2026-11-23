@@ -3,12 +3,48 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-23T06:45:41Z</updated>
+ <updated>2026-11-23T09:26:59Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664793026717250</id>
+  <title>Weekly reads: Nov 16 – Nov 22, 2026. https://jaalonso.github.io/vestigium/en/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664793026717250" rel="alternate" />
+  <published>2026-11-23T08:24:16Z</published>
+  <updated>2026-11-23T08:24:16Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">English version of the weekly reading list covering AI for math, autoformalization, and interactive theorem provers including Lean, Coq and Isabelle. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664789281639086</id>
+  <title>Lecturas de la semana: 16 nov – 22 nov 2026. https://jaalonso.github.io/vestigium/posts/2026/11/23-weekly_reads #AI #AI4Math…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664789281639086" rel="alternate" />
+  <published>2026-11-23T08:23:19Z</published>
+  <updated>2026-11-23T08:23:19Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Weekly reading list from José A. Alonso covering AI for math, autoformalization, and proof assistants such as Lean, Coq, Isabelle and HOL Light. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664694629190941</id>
+  <title>The war against slop and an emerging weapon to fight it: formal verification. ~ Richard MacManus…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664694629190941" rel="alternate" />
+  <published>2026-11-23T07:59:15Z</published>
+  <updated>2026-11-23T07:59:15Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Richard MacManus argues that formal verification is an emerging way to fight low-quality AI-generated content, linking to a Latent Space essay. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388</id>
   <title>Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…</title>
@@ -644,65 +680,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Argues category theory offers reusable programming language semantics and logical relations for proof assistants, a position on metatheory reuse. (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.21421</id>
-  <title>AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions</title>
-  <link href="https://arxiv.org/abs/2611.21421" rel="alternate" />
-  <published>2026-11-16T17:11:59Z</published>
-  <updated>2026-11-16T17:11:59Z</updated>
-  <author>
-   <name>Haocheng Wang</name>
-  </author>
-  <author>
-   <name>Weixuan Yuan</name>
-  </author>
-  <author>
-   <name>Florian Hübler</name>
-  </author>
-  <author>
-   <name>Yinya Huang</name>
-  </author>
-  <author>
-   <name>Zhijiang Guo</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">AuXSpec autoformalizes program specifications in Lean using executable postconditions as scalable feedback for training specification models. (arXiv cs.SE)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.21299</id>
-  <title>Turing Agent: Agentic Formal Verification for Mathematical Research</title>
-  <link href="https://arxiv.org/abs/2611.21299" rel="alternate" />
-  <published>2026-11-16T16:02:37Z</published>
-  <updated>2026-11-16T16:02:37Z</updated>
-  <author>
-   <name>Yang Chen</name>
-  </author>
-  <author>
-   <name>Qianyi Wang</name>
-  </author>
-  <author>
-   <name>Ronghui Yang</name>
-  </author>
-  <author>
-   <name>Zhanhao Li</name>
-  </author>
-  <author>
-   <name>Yu Cong</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Turing Agent orchestrates end-to-end formal verification of research-level mathematics, integrating theorem proving to check AI-generated proofs. (arXiv cs.AI)</summary>
- </entry>
- <entry>
-  <id>https://github.com/leanprover/lean4/releases/tag/v4.36.0</id>
-  <title>Lean 4 v4.36.0</title>
-  <link href="https://github.com/leanprover/lean4/releases/tag/v4.36.0" rel="alternate" />
-  <published>2026-11-16T15:45:27Z</published>
-  <updated>2026-11-16T15:45:27Z</updated>
-  <author>
-   <name>github-actions[bot]</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Release of Lean 4 v4.36.0 with a link to the release notes. (Lean 4 releases)</summary>
  </entry>
 </feed>

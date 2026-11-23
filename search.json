@@ -13,6 +13,39 @@
  ],
  "rows": [
   [
+   "u:a0961ac118cfb251",
+   "social",
+   "#leanprover on Mathstodon",
+   "Weekly reads: Nov 16 – Nov 22, 2026. https://jaalonso.github.io/vestigium/en/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117664793026717250",
+   "2026-11-23T08:24:16Z",
+   "English version of the weekly reading list covering AI for math, autoformalization, and interactive theorem provers including Lean, Coq and Isabelle.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
+   "u:61a6efb4d54ffc9b",
+   "social",
+   "#leanprover on Mathstodon",
+   "Lecturas de la semana: 16 nov – 22 nov 2026. https://jaalonso.github.io/vestigium/posts/2026/11/23-weekly_reads #AI #AI4Math…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117664789281639086",
+   "2026-11-23T08:23:19Z",
+   "Weekly reading list from José A. Alonso covering AI for math, autoformalization, and proof assistants such as Lean, Coq, Isabelle and HOL Light.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
+   "u:610f4df395ff3d12",
+   "social",
+   "#leanprover on Mathstodon",
+   "The war against slop and an emerging weapon to fight it: formal verification. ~ Richard MacManus…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117664694629190941",
+   "2026-11-23T07:59:15Z",
+   "Richard MacManus argues that formal verification is an emerging way to fight low-quality AI-generated content, linking to a Latent Space essay.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
    "u:f2252f571a0215a8",
    "social",
    "#leanprover on Mathstodon",
