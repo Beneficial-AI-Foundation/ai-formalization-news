@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest
+# The tests build Anthropic SDK clients on httpx2 mock transports.
+httpx2==2.14.0

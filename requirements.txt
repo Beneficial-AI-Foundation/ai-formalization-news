@@ -1,0 +1,7 @@
+anthropic==2.12.0
+feedparser==6.0.14
+jsonschema==4.26.0
+# news/claude.py imports pydantic directly (also a dependency of anthropic).
+pydantic==2.14.4
+PyYAML==6.0.4
+requests==2.34.2

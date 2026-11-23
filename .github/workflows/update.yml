@@ -1,0 +1,97 @@
+name: Update news
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # minute 17 of every hour, UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write    # push to the data branch
+  pages: write       # deploy
+  id-token: write    # deploy
+
+concurrency:
+  group: news-update
+  cancel-in-progress: false
+
+# The code comes from main; the generated data lives on its own branch, checked out
+# into data-branch/. The job never commits to main, which needs a reviewed pull request.
+env:
+  DATA_BRANCH: data
+
+jobs:
+  update:
+    # The data branch and the site are shared, so only main may write them.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    # Normal runs take one to two minutes; the job's own time budgets (fetch 150 s,
+    # Claude about 6 minutes at worst) keep time to save and deploy within this.
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      # Check out the branch head, not the commit that triggered the run, so a run that
+      # waited in the concurrency queue deploys the newest code.
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      # Fetched fresh on every run, so each run starts from the data the previous one pushed.
+      - name: Check out the data branch
+        run: .github/scripts/data_branch.sh checkout "$DATA_BRANCH" data-branch
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ETag, Last-Modified and last fetch times. Kept out of git so that an hour
+      # with nothing new makes no commit. The cache is keyed to seen.json on the data
+      # branch, so validators are only reused with the data they belong to; with
+      # no match, the run refetches everything and dedup drops the repeats.
+      - name: Restore HTTP cache
+        uses: actions/cache/restore@v6
+        with:
+          path: data-branch/http_cache.json
+          key: http-cache-${{ github.ref_name }}-${{ hashFiles('data-branch/seen.json') }}-${{ github.run_id }}
+          restore-keys: http-cache-${{ github.ref_name }}-${{ hashFiles('data-branch/seen.json') }}-
+
+      - name: Fetch, filter and write data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          USE_CLAUDE: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ZULIP_EMAIL: ${{ secrets.ZULIP_EMAIL }}
+          ZULIP_API_KEY: ${{ secrets.ZULIP_API_KEY }}
+        run: python -m news.run --data-dir data-branch
+
+      # Commit only when items changed. meta.json (the run time) is committed only
+      # together with such a change, but it is always deployed below.
+      - name: Commit data if it changed
+        run: .github/scripts/data_branch.sh commit "$DATA_BRANCH" data-branch
+
+      # Saved only after the data is safely in git, under the new seen.json.
+      - name: Save HTTP cache
+        uses: actions/cache/save@v6
+        with:
+          path: data-branch/http_cache.json
+          key: http-cache-${{ github.ref_name }}-${{ hashFiles('data-branch/seen.json') }}-${{ github.run_id }}
+
+      - name: Build Pages artifact
+        run: python -m news.serve --build-only --out _site --data-dir data-branch
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v5

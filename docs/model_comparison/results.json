@@ -1,0 +1,2943 @@
+{
+ "settings": {
+  "effort": "low",
+  "max_tokens": 16000,
+  "items": 100,
+  "system_prompt_chars": 2779
+ },
+ "usage": {
+  "claude-haiku-5-5": {
+   "model": "claude-haiku-5-5",
+   "requests": 1,
+   "input_tokens": 24673,
+   "output_tokens": 12478,
+   "seconds": 50.0,
+   "refusals": [],
+   "errors": [],
+   "cost_usd": 0.00871
+  },
+  "claude-sonnet-5-5": {
+   "model": "claude-sonnet-5-5",
+   "requests": 1,
+   "input_tokens": 24673,
+   "output_tokens": 8196,
+   "seconds": 44.3,
+   "refusals": [],
+   "errors": [],
+   "cost_usd": 0.13131
+  }
+ },
+ "rows": [
+  {
+   "id": "u:be95130e07f461d2",
+   "source": "#formalverification on Mathstodon",
+   "title": "This post aptly captures the \"limitations\" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming…",
+   "url": "https://mastodon.social/@orderwithchaos/117662656557828227",
+   "source_type": "social",
+   "text": "This post aptly captures the \"limitations\" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming into the LEAN proof of RH discussion consider these limitations. https://tagide.com/blog/research/formal-verification-is-not-the-silver-bullet/ via @crista…",
+   "claude-haiku-5-5": {
+    "id": "u:be95130e07f461d2",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Post sharing an essay on the limits of formal verification, applied to the recent Lean proof of the Riemann Hypothesis."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:be95130e07f461d2",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Post recommends a blog essay on the limitations of formal verification as they apply to the discussion of the Lean proof of the Riemann Hypothesis."
+   }
+  },
+  {
+   "id": "u:26b8afe8d4a5e32b",
+   "source": "#leanprover on Mathstodon",
+   "title": "I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a…",
+   "url": "https://mathstodon.xyz/@arhamzahid235711/117661742180814394",
+   "source_type": "social",
+   "text": "I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a table mapping 125 statements to the Lean declarations that formalize them. Prepared with heavy use of Claude; not refereed. Corrections very welcome…",
+   "claude-haiku-5-5": {
+    "id": "u:26b8afe8d4a5e32b",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Announces a 684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a table mapping statements to Lean declarations."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:26b8afe8d4a5e32b",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "A 684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, mapping 125 statements to Lean declarations; prepared with Claude and…"
+   }
+  },
+  {
+   "id": "u:d528d8cd29196429",
+   "source": "#leanprover on Mathstodon",
+   "title": "A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/…",
+   "url": "https://mastodon.social/@EvoMRI/117660098331068750",
+   "source_type": "social",
+   "text": "A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/ #dataviz #mathematics #leanprover",
+   "claude-haiku-5-5": {
+    "id": "u:d528d8cd29196429",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Points to an interactive dependency-tree visualisation for exploring the Lean proof of the Riemann Hypothesis."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:d528d8cd29196429",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Link to an interactive dependency tree for exploring the Lean proof of the Riemann Hypothesis."
+   }
+  },
+  {
+   "id": "u:4d92dcb72ea011ac",
+   "source": "#leanprover on Mathstodon",
+   "title": "Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819",
+   "source_type": "social",
+   "text": "Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "claude-haiku-5-5": {
+    "id": "u:4d92dcb72ea011ac",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares a Lean course covering basics through AI-assisted formalization, by David Muñoz-Lahoz."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:4d92dcb72ea011ac",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean through examples, a course by David Muñoz-Lahoz covering the basics through AI-assisted formalization."
+   }
+  },
+  {
+   "id": "u:e97da3b0e0d370d2",
+   "source": "#leanprover on Mathstodon",
+   "title": "Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093",
+   "source_type": "social",
+   "text": "Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "claude-haiku-5-5": {
+    "id": "u:e97da3b0e0d370d2",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Promotes a site on autoformalizing mathematics in Lean, by David Muñoz-Lahoz."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:e97da3b0e0d370d2",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Autoformalize your Math, a resource by David Muñoz-Lahoz on autoformalization in Lean."
+   }
+  },
+  {
+   "id": "u:73966443581772ee",
+   "source": "#leanprover on Mathstodon",
+   "title": "A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498",
+   "source_type": "social",
+   "text": "A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor. https://functionalanalysismadrid.com/lean_guide.pdf #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "claude-haiku-5-5": {
+    "id": "u:73966443581772ee",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares a beginner's guide to autoformalizing mathematics in Lean, by Liehr, Muñoz-Lahoz and Taylor."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:73966443581772ee",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "A beginner's guide to autoformalizing mathematics in Lean by Lukas Liehr, David Muñoz-Lahoz and Mitchell A. Taylor."
+   }
+  },
+  {
+   "id": "u:d70b47a7896f1646",
+   "source": "#leanprover on Mathstodon",
+   "title": "Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529",
+   "source_type": "social",
+   "text": "Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "claude-haiku-5-5": {
+    "id": "u:d70b47a7896f1646",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares Mitchell Taylor's Xena post Lean for the working mathematician."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:d70b47a7896f1646",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Link to Mitchell Taylor's Xena Project post, Lean for the working mathematician."
+   }
+  },
+  {
+   "id": "u:befaa0b537b99747",
+   "source": "#leanprover on Mathstodon",
+   "title": "Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed…",
+   "url": "https://manganiello.tech/@nemo/117658037494589749",
+   "source_type": "social",
+   "text": "Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including Lean’s kernel. A landmark for formal mathematics. ✅📐 #LeanProver #Math leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "claude-haiku-5-5": {
+    "id": "u:befaa0b537b99747",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean and Mathlib communities confirm Alpöge's 17-million-line Lean proof of the Riemann Hypothesis passed independent checks including the kernel."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:befaa0b537b99747",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean and Mathlib communities confirm Levent Alpöge's 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including Lean's kernel."
+   }
+  },
+  {
+   "id": "u:8c2ea09b22312bd6",
+   "source": "#leanprover on Mathstodon",
+   "title": "Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184",
+   "source_type": "social",
+   "text": "Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~ Emily Riehl. https://adam.math.hhu.de/#/g/emilyriehl/ReintroductionToProofs #LeanProver #LeanLang",
+   "claude-haiku-5-5": {
+    "id": "u:8c2ea09b22312bd6",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces Emily Riehl's Lean game Reintroduction to proofs, an introduction to dependent type theory for proof courses."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:8c2ea09b22312bd6",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Emily Riehl's Lean game introducing informal dependent type theory at the level of an introduction to proofs course."
+   }
+  },
+  {
+   "id": "u:08638e800f91cf17",
+   "source": "Xena (Kevin Buzzard)",
+   "title": "Lean for the working mathematician",
+   "url": "https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician",
+   "source_type": "blog",
+   "text": "[(Kevin Buzzard says) This is a guest post by Mitchell Taylor, a mathematician who gave a talk at Imperial’s PDE seminar a few weeks ago on the topic below. If you had shown me this blog post in 2024 and … Continue reading →",
+   "claude-haiku-5-5": {
+    "id": "u:08638e800f91cf17",
+    "relevant": true,
+    "type": "blog",
+    "score": 3,
+    "summary": "Kevin Buzzard's Xena blog relays a guest post by Mitchell Taylor on using Lean as a working mathematician."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:08638e800f91cf17",
+    "relevant": true,
+    "type": "blog",
+    "score": 3,
+    "summary": "Guest post by Mitchell Taylor on Lean for the working mathematician, based on a talk at Imperial's PDE seminar."
+   }
+  },
+  {
+   "id": "u:7285cad39d74b239",
+   "source": "Lean FRO on Bluesky",
+   "title": "The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v",
+   "source_type": "social",
+   "text": "The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as correct. Congratulations to Levent on this achievement. Full statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "claude-haiku-5-5": {
+    "id": "u:7285cad39d74b239",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean FRO says the Lean and Mathlib communities certify Alpöge's Lean proof of the Riemann Hypothesis as correct."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:7285cad39d74b239",
+    "relevant": true,
+    "type": "lean",
+    "score": 5,
+    "summary": "Lean and Mathlib communities release a joint statement certifying Levent Alpöge's Lean proof of the Riemann Hypothesis as correct."
+   }
+  },
+  {
+   "id": "u:1e3f9e33b1752f77",
+   "source": "#leanprover on Mathstodon",
+   "title": "Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintrod…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140",
+   "source_type": "social",
+   "text": "Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintroductionToProofs #LeanProver #LeanLang",
+   "claude-haiku-5-5": {
+    "id": "u:1e3f9e33b1752f77",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces the Verbose Lean edition of Reintroduction to proofs, by Bentkamp and Eugster."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:1e3f9e33b1752f77",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Verbose Lean edition of the Reintroduction to proofs game by Alexander Bentkamp and Jon Eugster."
+   }
+  },
+  {
+   "id": "u:9c836c18b69ca883",
+   "source": "#formalverification on Mathstodon",
+   "title": "The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean…",
+   "url": "https://functional.cafe/@leanprover/117655086500590301",
+   "source_type": "social",
+   "text": "The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the…",
+   "claude-haiku-5-5": {
+    "id": "u:9c836c18b69ca883",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Joint statement by Lean and Mathlib communities, endorsed by Lean FRO and Mathlib Initiative, on Lean verification of the Riemann Hypothesis."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:9c836c18b69ca883",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean and Mathlib communities issue a joint statement on the Lean verification of the Riemann Hypothesis, a 17-million-line library released by Levent Alpöge…"
+   }
+  },
+  {
+   "id": "u:18d9f9bc59b30c8a",
+   "source": "Lean community blog",
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+   "source_type": "lean",
+   "text": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code. We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. Our rationale is outlined below. The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness. We…",
+   "claude-haiku-5-5": {
+    "id": "u:18d9f9bc59b30c8a",
+    "relevant": true,
+    "type": "lean",
+    "score": 5,
+    "summary": "Lean community blog gives the joint statement that Alpöge's 17-million-line Lean proof of the Riemann Hypothesis is correct, with rationale."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:18d9f9bc59b30c8a",
+    "relevant": true,
+    "type": "lean",
+    "score": 5,
+    "summary": "Joint statement by the Lean and Mathlib communities confirming Alpöge's 17-million-line Lean proof of the Riemann Hypothesis, which depends directly only on…"
+   }
+  },
+  {
+   "id": "u:b0b14f1bf3f84607",
+   "source": "#leanprover on Mathstodon",
+   "title": "From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738",
+   "source_type": "social",
+   "text": "From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione. https://arxiv.org/abs/2611.18220 #LeanProver #LeanLang #ITP #Math",
+   "claude-haiku-5-5": {
+    "id": "u:b0b14f1bf3f84607",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares an arXiv paper introducing Lean 4 for machine-checked proofs in system identification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:b0b14f1bf3f84607",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Paper introducing Lean 4 to system identification and control researchers, from pen-and-paper to machine-checked proofs."
+   }
+  },
+  {
+   "id": "u:ba4bc0e3f651c8d8",
+   "source": "#leanprover on Mathstodon",
+   "title": "From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102",
+   "source_type": "social",
+   "text": "From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math #LeanProver #LeanLang #ITP",
+   "claude-haiku-5-5": {
+    "id": "u:ba4bc0e3f651c8d8",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Shares an arXiv paper on refining LLM math proofs using angelic execution, with Lean as the target."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:ba4bc0e3f651c8d8",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Paper on refining LLM-generated math proofs with sorry placeholders into complete proofs via angelic execution."
+   }
+  },
+  {
+   "id": "u:898fcec95b056c4f",
+   "source": "#leanprover on Mathstodon",
+   "title": "Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101",
+   "source_type": "social",
+   "text": "Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math #LeanProver #LeanLang #ITP",
+   "claude-haiku-5-5": {
+    "id": "u:898fcec95b056c4f",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Shares an arXiv paper on Turing Agent, an agentic system for formal verification of mathematical research."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:898fcec95b056c4f",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Turing Agent paper on agentic formal verification for mathematical research."
+   }
+  },
+  {
+   "id": "u:14594582fd53b35d",
+   "source": "#leanprover on Mathstodon",
+   "title": "Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249",
+   "source_type": "social",
+   "text": "Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes. http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf #LeanProver #LeanLang #ITP #AI4Math",
+   "claude-haiku-5-5": {
+    "id": "u:14594582fd53b35d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares a CMU technical report formalizing domain theory in Lean 4."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:14594582fd53b35d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "CMU report on domain theory in Lean 4 by Ericson, Scott, D'Silva and Milnes."
+   }
+  },
+  {
+   "id": "u:ad70c7b93318521d",
+   "source": "#leanprover on Mathstodon",
+   "title": "A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861",
+   "source_type": "social",
+   "text": "A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi. https://arxiv.org/abs/2611.20169v #LeanProver #LeanLang #ITP #AI4Math",
+   "claude-haiku-5-5": {
+    "id": "u:ad70c7b93318521d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares an arXiv paper with a formally verified convergence theorem for a tug-of-war scheme, done in Lean."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:ad70c7b93318521d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Paper presenting a formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian."
+   }
+  },
+  {
+   "id": "u:a0929aaff4953010",
+   "source": "#leanprover on Mathstodon",
+   "title": "a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh…",
+   "url": "https://mathstodon.xyz/@rzeta0/117650961463339881",
+   "source_type": "social",
+   "text": "a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh #leanprover",
+   "claude-haiku-5-5": {
+    "id": "u:a0929aaff4953010",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Links a live feed of an independent Lean check of the GRH proof."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:a0929aaff4953010",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Live feed of an independent Lean check of the GRH proof."
+   }
+  },
+  {
+   "id": "u:1b9cafd171f4a5b1",
+   "source": "#leanprover on Mathstodon",
+   "title": "Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths…",
+   "url": "https://mathstodon.xyz/@rzeta0/117650939257690781",
+   "source_type": "social",
+   "text": "Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths #leanprover #lean",
+   "claude-haiku-5-5": {
+    "id": "u:1b9cafd171f4a5b1",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Encourages newcomers to start learning Lean without a PhD, linking to a Mathstodon post."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:1b9cafd171f4a5b1",
+    "relevant": true,
+    "type": "social",
+    "score": 1,
+    "summary": "Post pointing newcomers to a thread on getting started with Lean without needing a PhD."
+   }
+  },
+  {
+   "id": "u:1b599e79317e20ab",
+   "source": "#leanprover on Mathstodon",
+   "title": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260",
+   "source_type": "social",
+   "text": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett. https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/ #LeanProver #AI4Math #AI #Math",
+   "claude-haiku-5-5": {
+    "id": "u:1b599e79317e20ab",
+    "relevant": true,
+    "type": "news",
+    "score": 4,
+    "summary": "Scientific American reports an Anthropic mathematician's claimed proof of the Riemann Hypothesis."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:1b599e79317e20ab",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Scientific American reports that an Anthropic mathematician claims to have proved the Riemann hypothesis."
+   }
+  },
+  {
+   "id": "u:fd71a9d69b0ab322",
+   "source": "#formalverification on Mathstodon",
+   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent…",
+   "url": "https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb",
+   "source_type": "social",
+   "text": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent Alpöge, a mathematician at Anthropic, posted a PDF claiming a proof of the Riemann Hypothesis, developed with Claude, and extending to the Generalized Riemann…",
+   "claude-haiku-5-5": {
+    "id": "u:fd71a9d69b0ab322",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Summarises a PDF by Levent Alpöge claiming a Riemann Hypothesis proof developed with Claude, with a Hacker News thread."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:fd71a9d69b0ab322",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Hacker News thread summary on Levent Alpöge, an Anthropic mathematician, posting a PDF claiming a Claude-assisted proof of the Riemann Hypothesis and its…"
+   }
+  },
+  {
+   "id": "u:952c9ab2da1354d1",
+   "source": "#leanprover on Mathstodon",
+   "title": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811",
+   "source_type": "social",
+   "text": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge",
+   "claude-haiku-5-5": {
+    "id": "u:952c9ab2da1354d1",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Announces Lean 4 challenge 31 on identity sequences having no convergent subsequences."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:952c9ab2da1354d1",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Lean 4 challenge 31: the identity sequence has no convergent subsequences."
+   }
+  },
+  {
+   "id": "u:7fa1a6fb596c45af",
+   "source": "#leanprover on Mathstodon",
+   "title": "Reto 31 de Lean 4: La sucesión identidad no tiene subsucesiones convergentes. https://jaalonso.github.io/calculemus/posts/2026/11/20-la_ide…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117647730059820902",
+   "source_type": "social",
+   "text": "Reto 31 de Lean 4: La sucesión identidad no tiene subsucesiones convergentes. https://jaalonso.github.io/calculemus/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Matemáticas #RetoLean4",
+   "claude-haiku-5-5": {
+    "id": "u:7fa1a6fb596c45af",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Spanish-language announcement of Lean 4 challenge 31 on the identity sequence."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:7fa1a6fb596c45af",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Spanish version of Lean 4 challenge 31: the identity sequence has no convergent subsequences."
+   }
+  },
+  {
+   "id": "u:8676f7f6becc11a9",
+   "source": "Lean FRO on Bluesky",
+   "title": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v",
+   "source_type": "social",
+   "text": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak. Scaling to libraries like Mathlib and CSLib is a core Lean FRO goal. See the release notes for more: https://lean-lang.org/doc/reference/latest/releases/v4.37.0/",
+   "claude-haiku-5-5": {
+    "id": "u:8676f7f6becc11a9",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6 percent, per Lean FRO."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:8676f7f6becc11a9",
+    "relevant": true,
+    "type": "lean",
+    "score": 3,
+    "summary": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak."
+   }
+  },
+  {
+   "id": "u:456db17d91515c25",
+   "source": "#formalverification on Mathstodon",
+   "title": "🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification…",
+   "url": "https://mastodon.social/@TWiT/117644887681769216",
+   "source_type": "social",
+   "text": "🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification. #SecurityNow #FormalVerification Download and subscribe here: https://twit.tv/shows/security-now/episodes/1105",
+   "claude-haiku-5-5": {
+    "id": "u:456db17d91515c25",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Security Now episode discussing AI's role in formal code verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:456db17d91515c25",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Security Now episode where Steve Gibson and Leo Laporte discuss AI's role in formal code verification."
+   }
+  },
+  {
+   "id": "arxiv:2611.26754",
+   "source": "arXiv physics.chem-ph",
+   "title": "Self-verifiable LLM-driven science and why it needs human researchers",
+   "url": "https://arxiv.org/abs/2611.26754",
+   "source_type": "paper",
+   "text": "Language models are now used throughout all sciences - for reading literature, extracting numbers from tables and spectra, analyzing data, drafting conclusions - and their answers arrive in the same polished confident tone whether they are right or wrong, so a result has to be re-derived by a human researcher before it can be relied on. The cost of that re-checking, not the ability to generate results, is what currently limits AI-assisted research. In the field of mathematics, this problem is solved by proof assistants like Lean 4 and Coq that let any formal statement and its proof be…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.26754",
+    "relevant": false,
+    "type": "paper",
+    "score": 2,
+    "summary": "Argues LLM-driven science needs human re-checking, mentioning proof assistants only as a contrast."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.26754",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Argues LLM-driven science needs human researchers to re-check results, contrasting with mathematics where proof assistants like Lean 4 and Coq make checking…"
+   }
+  },
+  {
+   "id": "u:c6031e195e7bf55c",
+   "source": "#leanprover on Mathstodon",
+   "title": "Digitalizing Physics in Lean 4 (An open-source, community project to digitalize results from physics into Lean 4). https://physlib.io/…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190",
+   "source_type": "social",
+   "text": "Digitalizing Physics in Lean 4 (An open-source, community project to digitalize results from physics into Lean 4). https://physlib.io/ #LeanProver #LeanLang #ITP #Physics",
+   "claude-haiku-5-5": {
+    "id": "u:c6031e195e7bf55c",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Introduces Physlib, a community project to digitalize physics results in Lean 4."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:c6031e195e7bf55c",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Physlib, an open-source community project to digitalize results from physics into Lean 4."
+   }
+  },
+  {
+   "id": "arxiv:2611.26221",
+   "source": "arXiv cs.PL",
+   "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+   "url": "https://arxiv.org/abs/2611.26221",
+   "source_type": "paper",
+   "text": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.26221",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Sightline derives data-flow summaries for LLM calls and mechanizes its key soundness property in Lean 4."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.26221",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Sightline computes calibrated data-flow summaries for LLM-integrated applications, with a soundness result mechanized in Lean 4."
+   }
+  },
+  {
+   "id": "u:3d403f7f34e4908a",
+   "source": "Rocq Discourse",
+   "title": "PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)",
+   "url": "https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197",
+   "source_type": "news",
+   "text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
+   "claude-haiku-5-5": {
+    "id": "u:3d403f7f34e4908a",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Advertises a funded PhD position on compiler verification at IT University of Copenhagen, deadline 1 January 2027."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:3d403f7f34e4908a",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Fully funded 3-year PhD position in compiler verification at ITU Copenhagen on the MAVERIC project, deadline 1 Jan 2027."
+   }
+  },
+  {
+   "id": "arxiv:2611.25599",
+   "source": "arXiv cs.CR",
+   "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+   "url": "https://arxiv.org/abs/2611.25599",
+   "source_type": "paper",
+   "text": "Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user's file system, processes, or privileges. Existing defense mechanisms rely on either LLM-based monitors, which lack provable safety guarantees, or stateless policy enforcement layers, which miss multi-step data flows and execution side-effects unmodeled by the policy language (e.g., network calls initiated inside a Python script). We introduce Tether, a framework…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.25599",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Tether is a stateful policy engine for monitoring AI agents, claimed to have provable guarantees."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.25599",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Tether is a verified stateful policy engine for system-level monitoring of AI agents that run shell commands."
+   }
+  },
+  {
+   "id": "arxiv:2611.25174",
+   "source": "arXiv cs.SE",
+   "title": "Formally Verified Semidefinite Programming",
+   "url": "https://arxiv.org/abs/2611.25174",
+   "source_type": "paper",
+   "text": "We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.25174",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents a Rust first-order semidefinite programming solver with its verification generated in Verus."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.25174",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Formally verified Rust semidefinite programming solver, with the full verification in Verus generated by Claude."
+   }
+  },
+  {
+   "id": "arxiv:2611.24788",
+   "source": "arXiv cs.LO",
+   "title": "Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving",
+   "url": "https://arxiv.org/abs/2611.24788",
+   "source_type": "paper",
+   "text": "Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.24788",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Isabelle Pool Server offers a pooled HTTP verification service for warm Isabelle sessions, for prover training and multi-agent proving."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.24788",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Isabelle Pool Server provides a pooled HTTP verification service with warm Isabelle sessions for prover training and multi-agent proving."
+   }
+  },
+  {
+   "id": "arxiv:2611.24649",
+   "source": "arXiv cs.PL",
+   "title": "A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies",
+   "url": "https://arxiv.org/abs/2611.24649",
+   "source_type": "paper",
+   "text": "Choreographic programming (CP) describes a distributed system as a global program and compiles it into communicating network programs via endpoint projection (EPP). Asynchrony captures the independent progress of communicating processes, while nondeterminism captures the range of behaviours that can arise from their interactions. However, the integration of both features into a theory of CP is absent. We present Nyarlathotep, the first asynchronous nondeterministic CP framework. We define its operational semantics of choreographies and networks using labelled transition systems. Besides…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.24649",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Gives a semantics for asynchronous nondeterministic choreographic programming; no formal verification content."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.24649",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Nyarlathotep, the first asynchronous nondeterministic choreographic programming framework, with operational semantics via labelled transition systems."
+   }
+  },
+  {
+   "id": "u:bc0aec336467039e",
+   "source": "Lean 4 releases",
+   "title": "Lean 4 v4.37.0-rc1 (pre-release)",
+   "url": "https://github.com/leanprover/lean4/releases/tag/v4.37.0-rc1",
+   "source_type": "lean",
+   "text": "This is release candidate 1 for the v4.37.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.37.0/) for more information.",
+   "claude-haiku-5-5": {
+    "id": "u:bc0aec336467039e",
+    "relevant": true,
+    "type": "lean",
+    "score": 4,
+    "summary": "Lean 4 v4.37.0 release candidate 1 is published, with release notes linked."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:bc0aec336467039e",
+    "relevant": true,
+    "type": "lean",
+    "score": 2,
+    "summary": "Lean 4 v4.37.0-rc1 pre-release announced with release notes."
+   }
+  },
+  {
+   "id": "arxiv:2611.24083",
+   "source": "arXiv cs.LG",
+   "title": "VESPA: Verifiable Symbolic Policy Adaptation for Safe Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.24083",
+   "source_type": "paper",
+   "text": "Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.24083",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "VESPA uses formal verification of safety constraints to adapt symbolic RL policies to be verifiably safe."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.24083",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "VESPA adapts reinforcement learning policies to satisfy safety constraints using symbolic policies and formal verification, avoiding retraining from scratch."
+   }
+  },
+  {
+   "id": "u:2226859d230100de",
+   "source": "Lean FRO on Bluesky",
+   "title": "Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f",
+   "source_type": "social",
+   "text": "Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now builds roughly 12% faster than before. 🔗 Release notes: https://lean-lang.org/doc/reference/latest/releases/v4.36.0/",
+   "claude-haiku-5-5": {
+    "id": "u:2226859d230100de",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean 4.36.0 released with 222 changes, mainly consolidation and performance, with Mathlib building about 12% faster."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:2226859d230100de",
+    "relevant": true,
+    "type": "lean",
+    "score": 3,
+    "summary": "Lean 4.36.0 released with 222 changes, focused on performance; Mathlib now builds roughly 12% faster."
+   }
+  },
+  {
+   "id": "u:d0f99c471d88ac28",
+   "source": "#formalverification on Mathstodon",
+   "title": "Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the…",
+   "url": "https://functional.cafe/@leanprover/117633077616639915",
+   "source_type": "social",
+   "text": "Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the highlights: • Much of the work went into performance, including keeping the type class cache between commands and removing several slowdowns that grew…",
+   "claude-haiku-5-5": {
+    "id": "u:d0f99c471d88ac28",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces Lean 4.36.0 release with 222 changes including 30 performance improvements."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:d0f99c471d88ac28",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean 4.36.0 is a consolidation release with 222 changes, including 30 performance improvements such as keeping the type class cache between commands."
+   }
+  },
+  {
+   "id": "u:586bb6a14034af20",
+   "source": "#formalverification on Mathstodon",
+   "title": "Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help…",
+   "url": "https://chaos.social/@lmstr/117633069880981216",
+   "source_type": "social",
+   "text": "Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better. #TLAPlus #FormalMethods #ModelChecking #FormalVerification #DistributedSystems…",
+   "claude-haiku-5-5": {
+    "id": "u:586bb6a14034af20",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Invites responses to the TLA+ 2026 Community Survey on how people use TLA+."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:586bb6a14034af20",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "The TLA+ 2026 Community Survey is open to learn how people use TLA+."
+   }
+  },
+  {
+   "id": "arxiv:2611.22748",
+   "source": "arXiv cs.PL",
+   "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+   "url": "https://arxiv.org/abs/2611.22748",
+   "source_type": "paper",
+   "text": "Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \\textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.22748",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Reconstructs EOPL interpreters as statically typed purely functional Haskell programs; not formal verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.22748",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Statically typed purely functional definitional interpreters in Haskell for Essentials of Programming Languages."
+   }
+  },
+  {
+   "id": "arxiv:2611.22613",
+   "source": "arXiv cs.PL",
+   "title": "Python Code Generation for Isabelle/HOL",
+   "url": "https://arxiv.org/abs/2611.22613",
+   "source_type": "paper",
+   "text": "The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.22613",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Adds a Python code generation backend to Isabelle/HOL's code generator for verified implementations."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.22613",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Python backend for Isabelle/HOL's code generator, adding Python to its targets of Standard ML, OCaml, Haskell, Scala and Go."
+   }
+  },
+  {
+   "id": "arxiv:2611.22572",
+   "source": "arXiv cs.PL",
+   "title": "Datatypes In, Zippers Out!",
+   "url": "https://arxiv.org/abs/2611.22572",
+   "source_type": "paper",
+   "text": "A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.22572",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Kamot converts Haskell algebraic datatypes into zipper implementations; no formal verification focus."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.22572",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Kamot converts regular algebraic datatype declarations into zipper implementations whose navigation, replacement and reconstruction are proved correct."
+   }
+  },
+  {
+   "id": "u:e9b2b2f349e2a752",
+   "source": "Rocq Discourse",
+   "title": "Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages",
+   "url": "https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193",
+   "source_type": "news",
+   "text": "rocq.rboud.com rocq-web rocq-web is Rocq 9.2 and coq-lsp compiled to WebAssembly, running in a Web Worker fully client side. It comes with 57 packages downloaded only when a file requires them. Among them are the standard library, Mathematical Components and analysis, Iris and stdpp, Equations, MetaRocq, Hierarchy-Builder and rocq-elpi, Flocq, Coquelicot, Interval and CoRN. Their OCaml plugins work too. The editor works like RocqIDE. You can check step by step or as you type, see the goals and what each tactic changed, and use hover, completion, go to definition (into the libraries’ sources…",
+   "claude-haiku-5-5": {
+    "id": "u:e9b2b2f349e2a752",
+    "relevant": true,
+    "type": "news",
+    "score": 4,
+    "summary": "Rocq-web runs Rocq 9.2 and coq-lsp in the browser via WebAssembly with 57 packages."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:e9b2b2f349e2a752",
+    "relevant": true,
+    "type": "news",
+    "score": 4,
+    "summary": "Rocq-web runs Rocq 9.2 and coq-lsp in the browser via WebAssembly, with 57 packages including Mathematical Components, Iris and MetaRocq."
+   }
+  },
+  {
+   "id": "arxiv:2611.22523",
+   "source": "arXiv cs.LO",
+   "title": "Path Abstraction for Markov Reward Models: An Isabelle Formalisation in a Free Monoid View",
+   "url": "https://arxiv.org/abs/2611.22523",
+   "source_type": "paper",
+   "text": "The classical definition of discrete-time Markov chains maps pairs of states to transition probabilities. An alternative, proposed in the context of path abstraction in probabilistic counterexample refinement, is to view them as a transition kernel on the free monoid on the state space, mapping paths directly to path probabilities. In this paper, we first extend the free monoid view and path abstraction algorithm to cumulative rewards on Markov reward models. We then use Isabelle/HOL to formalise Markov chains and reward models in this view, exploiting the discrete finite-prefix semantics to…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.22523",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view of path abstraction."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.22523",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Isabelle/HOL formalisation of path abstraction for Markov reward models using a free monoid view of Markov chains."
+   }
+  },
+  {
+   "id": "arxiv:2611.21914",
+   "source": "arXiv cs.LG",
+   "title": "A Temporal Algebraic Framework for Data Stream Evaluation Under Delayed Labels and Distribution Shifts",
+   "url": "https://arxiv.org/abs/2611.21914",
+   "source_type": "paper",
+   "text": "In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21914",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Algebraic evaluation framework for data streams with delayed labels and distribution shift; no formal methods."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21914",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Temporal algebraic framework for evaluating data streams under delayed labels and distribution shifts."
+   }
+  },
+  {
+   "id": "arxiv:2611.21826",
+   "source": "arXiv cs.PL",
+   "title": "Logical Relations on Display",
+   "url": "https://arxiv.org/abs/2611.21826",
+   "source_type": "paper",
+   "text": "The metatheory of programming languages suffers from a lack of reuse. Researchers develop individual calculi and prove standard properties, but very few results are truly reused across papers. The problem is worse in proof assistants, where developments routinely duplicate code from prior work or rebuild it from scratch. Category theory provides the most promising path toward reusable programming language semantics. Universal properties capture the type connectives---products, functions, sums---together with their $β$/$η$ laws. Free categorical structures identify syntactic calculi…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21826",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proposes category-theoretic logical relations for reusing programming language metatheory across proof assistant developments."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21826",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Reusable categorical approach to logical relations for programming language metatheory, motivated by code duplication in proof assistant developments."
+   }
+  },
+  {
+   "id": "arxiv:2611.21421",
+   "source": "arXiv cs.SE",
+   "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
+   "url": "https://arxiv.org/abs/2611.21421",
+   "source_type": "paper",
+   "text": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specification a major bottleneck to scaling formally correct code. Autoformalization from natural-language problems is promising, yet training specification models requires scalable feedback on whether generated specifications capture intended behavior. Prior approaches obtain this feedback through explicit proofs or separately implemented code with formal correspondence proofs, both expensive. We introduce AuXSpec, a Lean…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21421",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "AuXSpec learns to autoformalize program specifications in Lean using executable postconditions as feedback."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21421",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "AuXSpec learns to autoformalize program specifications in Lean using executable postconditions as scalable training feedback."
+   }
+  },
+  {
+   "id": "arxiv:2611.21402",
+   "source": "arXiv cs.LO",
+   "title": "Harmonic-Mean Aggregation of Continuous-Time Markov Chains with Reachability Error Bounds",
+   "url": "https://arxiv.org/abs/2611.21402",
+   "source_type": "paper",
+   "text": "Abstracting a continuous-time Markov chain by grouping its states into blocks raises a fundamental question: which rates should the abstract chain use when states within a block have different exit rates and transition probabilities? We study harmonic-mean aggregation, which matches the mean waiting time and next-block distribution of a local experiment that uniformly selects a state within the block and observes its next jump. Equivalently, the abstract transition rates are averages of the concrete rates with inverse-exit-rate weights. Since the aggregation does not preserve reachability…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21402",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Harmonic-mean aggregation for continuous-time Markov chains with reachability error bounds; no proof checking."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21402",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Harmonic-mean aggregation of continuous-time Markov chains with reachability error bounds."
+   }
+  },
+  {
+   "id": "arxiv:2611.21299",
+   "source": "arXiv cs.AI",
+   "title": "Turing Agent: Agentic Formal Verification for Mathematical Research",
+   "url": "https://arxiv.org/abs/2611.21299",
+   "source_type": "paper",
+   "text": "Large language models (LLMs) are rapidly advancing mathematical discovery, moving beyond benchmark-level problem solving to tackle frontier research problems. This progress is ushering mathematics into an era of proof abundance, raising a fundamental challenge: how can we ensure the correctness of the ever-growing volume of AI-generated proofs and transform them into trustworthy, machine-verified mathematical knowledge? We introduce Turing Agent, an agent harness designed to orchestrate end-to-end formal verification of research-level mathematics. Its wo-scale architecture integrates theorem…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21299",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Turing Agent orchestrates end-to-end formal verification of AI-generated research-level mathematical proofs."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21299",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Turing Agent is an agent harness orchestrating end-to-end formal verification of research-level mathematics and AI-generated proofs."
+   }
+  },
+  {
+   "id": "u:6657ef7daff028e4",
+   "source": "Lean 4 releases",
+   "title": "Lean 4 v4.36.0",
+   "url": "https://github.com/leanprover/lean4/releases/tag/v4.36.0",
+   "source_type": "lean",
+   "text": "This is the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
+   "claude-haiku-5-5": {
+    "id": "u:6657ef7daff028e4",
+    "relevant": true,
+    "type": "lean",
+    "score": 3,
+    "summary": "Lean 4 v4.36.0 is released, with a link to the release notes."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:6657ef7daff028e4",
+    "relevant": true,
+    "type": "lean",
+    "score": 2,
+    "summary": "Lean 4 v4.36.0 release announced with release notes."
+   }
+  },
+  {
+   "id": "u:41b364560b3242b8",
+   "source": "Import AI (Jack Clark)",
+   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+   "url": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development",
+   "source_type": "news",
+   "text": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are getting good at sub-contracting to make themselves better:…AI can now productively spend money to improve itself…Researchers have developed FrontierML, a benchmark “that measures […]",
+   "claude-haiku-5-5": {
+    "id": "u:41b364560b3242b8",
+    "relevant": false,
+    "type": "news",
+    "score": 1,
+    "summary": "General AI newsletter covering sub-contracting AI systems, a wet lab for AI and FrontierML."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:41b364560b3242b8",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "Import AI 481 newsletter on AI sub-contractors, a wet lab for AI, and subterfuge during development."
+   }
+  },
+  {
+   "id": "arxiv:2611.21084",
+   "source": "arXiv cs.PL",
+   "title": "CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents",
+   "url": "https://arxiv.org/abs/2611.21084",
+   "source_type": "paper",
+   "text": "We present CompCert4Lean, a large-scale port of CompCert 3.17's verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21084",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "CompCert4Lean ports the CompCert verified compiler core from Rocq to Lean, discharging all proof obligations without axioms."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21084",
+    "relevant": true,
+    "type": "paper",
+    "score": 5,
+    "summary": "CompCert4Lean ports CompCert 3.17's verified compiler core from Rocq to Lean in about six weeks using parallel LLM agents, discharging 4,908 proof obligations."
+   }
+  },
+  {
+   "id": "arxiv:2611.21009",
+   "source": "arXiv eess.SY",
+   "title": "Learning and Verifying Stabilizing Controllers with Structured Neural Control Lyapunov Functions",
+   "url": "https://arxiv.org/abs/2611.21009",
+   "source_type": "paper",
+   "text": "This work investigates the joint learning of neural controllers and control Lyapunov functions (CLFs) for nonlinear discrete-time systems. We exploit the structural properties of Input Convex Neural Networks and Polyak-Łojasiewicz Networks to guarantee positive definiteness of CLF candidates by construction, reducing the conditions requiring formal verification. We develop a mixed-integer programming framework to formally verify the remaining stability conditions and introduce an iterative region of attraction (ROA) expansion procedure to enlarge the certified ROA without retraining…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.21009",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Learns neural controllers and Lyapunov functions, using mixed-integer programming to formally verify stability conditions."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.21009",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Learning neural controllers with structured control Lyapunov functions, verified with a mixed-integer programming framework."
+   }
+  },
+  {
+   "id": "arxiv:2611.20781",
+   "source": "arXiv cs.LO",
+   "title": "Verification-Guided Safety-Repair of Learned Controllers",
+   "url": "https://arxiv.org/abs/2611.20781",
+   "source_type": "paper",
+   "text": "Formal verification can certify that a learned controller is safe. But what should be done when verification fails? Simply suppressing actions that lead to unsafe next states is insufficient because the dangerous action that ultimately caused the safety violation might have occurred many steps earlier. Retraining modifies the policy globally, thereby potentially introducing new failures. Instead, we introduce ReachECO, a verification-guided repair procedure that exploits the information of failed multi-step reachability analysis for synthesizing explicit constraints on controller behavior…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.20781",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "ReachECO repairs learned controllers using constraints derived from failed multi-step reachability verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.20781",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "ReachECO repairs learned controllers that fail verification by using failed multi-step reachability analysis to synthesize explicit constraints."
+   }
+  },
+  {
+   "id": "arxiv:2611.20671",
+   "source": "arXiv cs.CR",
+   "title": "MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis",
+   "url": "https://arxiv.org/abs/2611.20671",
+   "source_type": "paper",
+   "text": "Tamarin-based formal verification of security protocols requires expert-authored multiset rewriting rules and temporal-logic lemmas. Translating a natural-language protocol description into a complete formal model with an LLM is hard because syntactic, reachability, and property-level errors compound across the multi-step modeling process, and a single agent that both authors and self-evaluates cannot reliably localize them. We present MASTA, a multi-agent system that addresses these difficulties through three innovations. First, an operational--evaluative role decomposition assigns rule…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.20671",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "MASTA is a multi-agent system that generates Tamarin models and lemmas for formal security protocol verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.20671",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "MASTA is a multi-agent LLM system that builds Tamarin models and lemmas for security protocol verification from natural-language descriptions."
+   }
+  },
+  {
+   "id": "arxiv:2611.20576",
+   "source": "arXiv cs.PL",
+   "title": "Partial Borrows in Rust",
+   "url": "https://arxiv.org/abs/2611.20576",
+   "source_type": "paper",
+   "text": "Rust ensures memory safety by requiring exclusive access to mutably borrowed data. However, a borrow can prevent access to more data than necessary. For example, a method with an &mut self parameter borrows the entire struct, even when the method uses only some of its fields. Calling the method can therefore conflict with an existing borrow of a field the method never uses, causing Rust to reject the program. Resolving such conflicts can require programmers to compromise useful abstractions, make non-local changes to their programs, or worse, resort to unsafe code. We introduce view types, a…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.20576",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Introduces view types for partial borrows in Rust; a type-system design rather than verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.20576",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "View types for partial borrows in Rust to avoid borrow conflicts over struct fields."
+   }
+  },
+  {
+   "id": "arxiv:2611.19940",
+   "source": "arXiv math.LO",
+   "title": "Strong Standard Completeness of a Hypersequent Calculus for Cyclic Involutive Residuated Lattices",
+   "url": "https://arxiv.org/abs/2611.19940",
+   "source_type": "paper",
+   "text": "We present a hypersequent calculus $H_R$ for cyclic involutive residuated lattices and prove strong standard completeness for arbitrary theories in a fixed countable propositional language. Standard models are chains on $[0,1]$; neither commutativity nor equality of the monoid unit and the dualizing constant is assumed. The chain semantics is the class $K_R$ defined by unit cyclicity and all ordered finite-history conditions. Every countable member of $K_R$ embeds into a standard chain preserving the entire signature. The construction combines central-support reconstruction, gap insertion…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.19940",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Hypersequent calculus with strong standard completeness for cyclic involutive residuated lattices."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.19940",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Hypersequent calculus for cyclic involutive residuated lattices with strong standard completeness."
+   }
+  },
+  {
+   "id": "arxiv:2611.23319",
+   "source": "arXiv physics.plasm-ph",
+   "title": "Reusing formal Vlasov-Maxwell proofs to certify plasma solver outputs",
+   "url": "https://arxiv.org/abs/2611.23319",
+   "source_type": "paper",
+   "text": "AI now produces machine-checked mathematics faster than researchers can read it. Can such theorems do practical computational work? We reuse one from \\mbox{OpenAI's} Lean~4 relativistic Vlasov--Maxwell library: initial fields determine the field at an outside point until plasma signals reach it, and the energy leaving a surrounding box before they reach its faces. New Lean proofs and numerical bounds give particle-free references for particle-in-cell simulations across three tasks. Domain size follows analytically from observation time, exposing boundary and initialization errors in WarpX…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.23319",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Reuses a formal Lean Vlasov-Maxwell proof library with new proofs to certify plasma simulation outputs."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.23319",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Reuses OpenAI's Lean 4 relativistic Vlasov-Maxwell library theorems and new Lean proofs to certify plasma solver outputs for particle-in-cell simulations."
+   }
+  },
+  {
+   "id": "arxiv:2611.19618",
+   "source": "arXiv quant-ph",
+   "title": "Latency-Preserving Rewrites and Translation Validation for Dynamic Quantum Circuits",
+   "url": "https://arxiv.org/abs/2611.19618",
+   "source_type": "paper",
+   "text": "A dynamic quantum circuit measures qubits during a run and chooses later operations from the outcomes. These branches make the qubits wait: the outcome must reach the classical controller, and the controller must decide. We present qlin, a compiler that reduces this waiting time. qlin moves operations out of branches without delaying the program, a property proved in Lean 4. For error-correction decoders, which branch on syndromes that are almost always zero, qlin compiles the likely syndromes into one multiway branch and keeps the original program for the rest. A cost model decides when a…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.19618",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "qlin compiles dynamic quantum circuits to reduce latency, with a latency-preservation property proved in Lean 4."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.19618",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "qlin compiler for dynamic quantum circuits reduces waiting latency, with latency preservation of rewrites proved in Lean 4."
+   }
+  },
+  {
+   "id": "arxiv:2611.19569",
+   "source": "arXiv cs.SE",
+   "title": "Learning from Mutants: Teaching Small Language Models to Synthesise Loop Invariants",
+   "url": "https://arxiv.org/abs/2611.19569",
+   "source_type": "paper",
+   "text": "Large language models (LLMs) have proven promising for synthesising loop invariants, a long-standing obstacle to automated program verification. Yet, frontier LLMs are typically accessible only through third-party APIs, hampering reproducibility and local deployment. Small language models (SLMs) sidestep these obstacles but require task-specific fine-tuning, for which high-quality training data is needed. We present a failure-driven data curation method for fine-tuning language models to synthesise loop invariants. Inspired by mutation testing, our approach applies semantic mutation…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.19569",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Fine-tunes small language models to synthesise loop invariants for program verification using mutant-driven data."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.19569",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Fine-tuning small language models to synthesise loop invariants for program verification, using mutation-inspired training data curation."
+   }
+  },
+  {
+   "id": "arxiv:2611.19505",
+   "source": "arXiv cs.PL",
+   "title": "Formalizing $\\mathsf{einsum}$ with Named Tensor Notation",
+   "url": "https://arxiv.org/abs/2611.19505",
+   "source_type": "paper",
+   "text": "Einstein notation ($\\mathsf{einsum}$) is a widely adopted tensor operation that has proven useful in areas such as machine learning and quantum computing. But it had no formal semantics until recently, and its properties had no mechanized verification. We formalize the denotational semantics of a language of tensors (multi-dimensional arrays) that supports $\\mathsf{einsum}$ and repeated tensors ($\\mathsf{expand}$). With this semantics, we verify equational rewriting rules about $\\mathsf{einsum}$ and $\\mathsf{expand}$ that improve the performance of tensor computation. Whereas typical…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.19505",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Formal semantics for einsum and tensor expansion, with equational rewriting rules verified in a mechanized setting."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.19505",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Formal denotational semantics of einsum and expand with named tensors, with mechanized verification of equational rewriting rules."
+   }
+  },
+  {
+   "id": "arxiv:2611.18541",
+   "source": "arXiv math.RA",
+   "title": "No free lattice contains an infinite ascending chain of copies of FL(3)",
+   "url": "https://arxiv.org/abs/2611.18541",
+   "source_type": "paper",
+   "text": "No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author's 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \\dots$ with $Θ_k \\circ Θ_j = Θ_j$ for $j < k$, so that each later embedding fixes the image of each earlier one pointwise. Every proper self-embedding of FL(3) whose fixed sublattice contains a free generating triple fixes one of the three generators…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.18541",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Shows no free lattice contains an infinite ascending chain of copies of FL(3); pure lattice theory."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.18541",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3)."
+   }
+  },
+  {
+   "id": "arxiv:2611.18369",
+   "source": "arXiv cs.DS",
+   "title": "How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean",
+   "url": "https://arxiv.org/abs/2611.18369",
+   "source_type": "paper",
+   "text": "For which sets F of edge modifications do a graph G and the modified graph share a maximum cardinality search (MCS) ordering? We prove that they do whenever, along every proper common MCS prefix, each unchosen vertex's neighbour count in the second graph exceeds its count in the first by zero or one. In particular, inserting or deleting any matching, or flipping a single edge, preserves a common ordering, and under the same hypothesis every common MCS prefix extends to a full common ordering without backtracking. Neither part of the hypothesis can simply be dropped: inserting a triangle, a…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.18369",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Studies stability of maximum cardinality search orderings under edge updates, with results verified in Lean."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.18369",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Conditions under which maximum cardinality search orderings are preserved under edge modifications, proved and verified in Lean."
+   }
+  },
+  {
+   "id": "arxiv:2611.18220",
+   "source": "arXiv eess.SY",
+   "title": "From Pen-and-Paper to Machine-Checked Proofs: Lean for System Identification",
+   "url": "https://arxiv.org/abs/2611.18220",
+   "source_type": "paper",
+   "text": "Mathematical proofs in scientific papers are often long and intricate, relying on chains of references to earlier results. This makes it difficult for readers and reviewers to verify each and every step. Interactive theorem proving offers a complement: the theorem and its proof are written as code, and every inference is checked by a small, trusted piece of software called the kernel. This paper serves as an introduction to the Lean 4 proof assistant for a system identification and control audience, assuming no prior exposure to formal methods. We first show how a Lean proof is read using…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.18220",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Introduces Lean 4 theorem proving for a system identification and control audience, with worked examples."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.18220",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Introduction to the Lean 4 proof assistant for a system identification and control audience, showing how to read and write machine-checked proofs."
+   }
+  },
+  {
+   "id": "arxiv:2611.18055",
+   "source": "arXiv cs.PL",
+   "title": "DeCompCert: A Verified Decompiler for CompCert-Generated AArch64",
+   "url": "https://arxiv.org/abs/2611.18055",
+   "source_type": "paper",
+   "text": "DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert. It reconstructs CompCert C through nine reverse passes, combining deductively verified transformations with translation validation. Untrusted OCaml and Datalog analyses propose candidate reconstructions, while verified validators accept only candidates that satisfy the required semantic correspondence. The composed correctness theorem guarantees that every defined, safe behavior of an accepted C reconstruction is matched by the input CompCert assembly; under a safety assumption, the two programs are…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.18055",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "DeCompCert is a Rocq-verified decompiler reconstructing CompCert C from AArch64 assembly via validated passes."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.18055",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "DeCompCert is a Rocq-verified decompiler for CompCert-generated AArch64 assembly, combining verified transformations with translation validation."
+   }
+  },
+  {
+   "id": "arxiv:2611.18036",
+   "source": "arXiv cs.PL",
+   "title": "C-to-Rust Translation Validation at the LLVM IR Level via AI-Assisted Refinement Proof",
+   "url": "https://arxiv.org/abs/2611.18036",
+   "source_type": "paper",
+   "text": "Migrating C codebases to Rust is a promising approach to securing legacy software, but existing translators do not guarantee that a translated Rust program preserves the behavior of the C program. Neither rule-based nor large language model (LLM)-based translators have been formally verified, and existing approaches to checking translation correctness are limited to testing and bounded checks, which cannot reason about all possible executions. In this work, we present R2C2, which validates C-to-Rust translation by proving in Rocq that the Rust program refines the C program, i.e., every…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.18036",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "R2C2 validates C-to-Rust translations by proving in Rocq that the Rust program refines the C program at LLVM IR level."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.18036",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "R2C2 validates C-to-Rust translation at the LLVM IR level by proving in Rocq, with AI assistance, that the Rust program refines the C program."
+   }
+  },
+  {
+   "id": "arxiv:2611.17884",
+   "source": "arXiv math.LO",
+   "title": "HOL in HOL: mechanized soundness, completeness and consistency, with and without infinity",
+   "url": "https://arxiv.org/abs/2611.17884",
+   "source_type": "paper",
+   "text": "What can a logic certify about a copy of itself? For Church's simple theory of types, formalized as a deep embedding in Isabelle/HOL with Henkin semantics and a natural-deduction calculus, the answer has two tiers. On the first tier, plain Isabelle/HOL certifies the logic without an axiom of infinity, by a standard model with one individual. On the second tier, the logic with a Dedekind-style axiom of infinity is certified only in Isabelle/HOL extended by a large enough set-theoretic universe. Both tiers appear in Harrison's self-verification of HOL Light. What the present formalization adds…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.17884",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Mechanises soundness, completeness and consistency of simple type theory in Isabelle/HOL, including self-verification issues."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.17884",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Isabelle/HOL deep embedding of Church's simple theory of types with mechanized soundness, completeness and consistency, with and without an axiom of infinity."
+   }
+  },
+  {
+   "id": "u:9a5d4cfa33de8a17",
+   "source": "Archive of Formal Proofs",
+   "title": "Tokenization, Indentation-sensitive Grammars & Executable Recognizers",
+   "url": "https://isa-afp.org/entries/TIGER_Lexer_Parser.html",
+   "source_type": "paper",
+   "text": "Tokenization, Indentation-sensitive Grammars & Executable Recognizers in the AFP",
+   "claude-haiku-5-5": {
+    "id": "u:9a5d4cfa33de8a17",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Archive of Formal Proofs entry on tokenization, indentation-sensitive grammars and executable recognizers."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:9a5d4cfa33de8a17",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Archive of Formal Proofs entry on tokenization, indentation-sensitive grammars and executable recognizers."
+   }
+  },
+  {
+   "id": "u:762f03f8984448f6",
+   "source": "Rocq Discourse",
+   "title": "Course announcement: Agentic Proof Engineering",
+   "url": "https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182",
+   "source_type": "news",
+   "text": "Next semester, I will be organizing a graduate seminar on Agentic Proof Engineering – building formal proofs about software systems, at scale, in collaboration with AI agents – at the University of Pennsylvania. It will be simulcast as a live webinar for participants outside Penn. The course meets on Mondays and Wednesdays from 10:15AM to 11:45AM (US Eastern time) starting on January 20, 2027. Sessions will be recorded, and there will be asynchronous channels for discussion and collaboration. Further logistical details will be announced on the course’s mailing list, which you are cordially…",
+   "claude-haiku-5-5": {
+    "id": "u:762f03f8984448f6",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces a graduate seminar on agentic proof engineering for formal proofs of software, with a live webinar option."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:762f03f8984448f6",
+    "relevant": true,
+    "type": "news",
+    "score": 4,
+    "summary": "Penn graduate seminar on Agentic Proof Engineering, building formal proofs about software with AI agents, starting January 20, 2027 and open via webinar."
+   }
+  },
+  {
+   "id": "arxiv:2611.16886",
+   "source": "arXiv cs.LO",
+   "title": "LLM-Assisted Verification in Dafny",
+   "url": "https://arxiv.org/abs/2611.16886",
+   "source_type": "paper",
+   "text": "Formal verification of complex algorithms requires expertise in program specification, invariant construction, mathematical proof, and the management of automated theorem provers. Although large language models (LLMs) can generate program code and proof fragments, reliably developing complete machine-checked verifications remains challenging: it requires an iterative process of constructing and validating specifications and invariants, building proofs, diagnosing solver failures, and optimizing verification performance. This paper presents a systematic ten-step workflow for LLM-assisted…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.16886",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents a ten-step workflow for LLM-assisted formal verification of algorithms in Dafny."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.16886",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Ten-step workflow for LLM-assisted formal verification of complex algorithms in Dafny."
+   }
+  },
+  {
+   "id": "u:6320a20aac8c6e41",
+   "source": "#formalverification on Mathstodon",
+   "title": "It's nice to see news about #formalverification on a major tech news site (#arstechnica). The impact of formal verification in the age of…",
+   "url": "https://fediscience.org/@GeorgWeissenbacher/117603681881764825",
+   "source_type": "social",
+   "text": "It's nice to see news about #formalverification on a major tech news site (#arstechnica). The impact of formal verification in the age of #agentic_AI is impressive. https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/ #ai",
+   "claude-haiku-5-5": {
+    "id": "u:6320a20aac8c6e41",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Shares an Ars Technica article on Signal encryption passing an AI-powered mathematical verification check."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:6320a20aac8c6e41",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Post notes Ars Technica coverage of AI-powered formal verification of Signal's encryption."
+   }
+  },
+  {
+   "id": "u:f237589ca492ef3e",
+   "source": "#formalverification on Mathstodon",
+   "title": "Introducing #AlphaProof Code: a breakthrough in verifying complex software at depth https://deepmind.google/blog/introducing-alphaproof-cod…",
+   "url": "https://mastodon.top/@frankel/117602694109753464",
+   "source_type": "social",
+   "text": "Introducing #AlphaProof Code: a breakthrough in verifying complex software at depth https://deepmind.google/blog/introducing-alphaproof-code/ #formalverification #google",
+   "claude-haiku-5-5": {
+    "id": "u:f237589ca492ef3e",
+    "relevant": true,
+    "type": "news",
+    "score": 5,
+    "summary": "DeepMind introduces AlphaProof Code for verifying complex software at depth."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:f237589ca492ef3e",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Google DeepMind introduces AlphaProof Code, for verifying complex software at depth."
+   }
+  },
+  {
+   "id": "u:493748425ffbe989",
+   "source": "Xena (Kevin Buzzard)",
+   "title": "“…and the proof is checked in Lean”",
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean",
+   "source_type": "blog",
+   "text": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important signal that can be extracted from … Continue reading →",
+   "claude-haiku-5-5": {
+    "id": "u:493748425ffbe989",
+    "relevant": true,
+    "type": "blog",
+    "score": 4,
+    "summary": "Xena post explaining how to interpret claims that a theorem is correct because it was checked in Lean."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:493748425ffbe989",
+    "relevant": true,
+    "type": "blog",
+    "score": 4,
+    "summary": "Explains how to interpret claims that a theorem is correct because it was checked in Lean, and what signal can be extracted from such checks."
+   }
+  },
+  {
+   "id": "arxiv:2611.15992",
+   "source": "arXiv cs.CC",
+   "title": "The multiplicative complexity of the three-bit low-half multiplier",
+   "url": "https://arxiv.org/abs/2611.15992",
+   "source_type": "paper",
+   "text": "We prove that the multiplicative complexity of the three-bit low-half multiplier is six, giving a structural, enumeration-free lower-bound proof valid against unrestricted nonlinear reuse in Boolean XOR-AND circuits. The value was first established by SAT searches of the first author and independently confirmed by the second author. An explicit six-AND circuit supplies the upper bound. The lower bound combines derivatives, quadratic products, complementary minors, and extraction modulo a Boolean ideal. Independent finite checks accompany the arguments. $\\mathrm{MC}(M_3)=6$ is fully…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.15992",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Proves the multiplicative complexity of the three-bit low-half multiplier is six; circuit complexity."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.15992",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Proves the multiplicative complexity of the three-bit low-half multiplier is six, with SAT searches and independent finite checks."
+   }
+  },
+  {
+   "id": "u:a7899944b31c35a5",
+   "source": "#formalverification on Mathstodon",
+   "title": "POV: your security audit used to take years deepmind's agents just formally verified signal's actual code, down to machine instructions…",
+   "url": "https://mastodon.social/@mohith808/117598461664906874",
+   "source_type": "social",
+   "text": "POV: your security audit used to take years deepmind's agents just formally verified signal's actual code, down to machine instructions, in 4 weeks millions of lines of lean. humans reviewed about 1% of the code they re-added two old bugs. it proved both versions insecure…",
+   "claude-haiku-5-5": {
+    "id": "u:a7899944b31c35a5",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post saying DeepMind agents formally verified Signal's code in Lean, down to machine instructions, in four weeks."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:a7899944b31c35a5",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post says DeepMind agents formally verified Signal's code down to machine instructions in 4 weeks, with millions of lines of Lean."
+   }
+  },
+  {
+   "id": "arxiv:2611.15548",
+   "source": "arXiv cs.SE",
+   "title": "DafnyCert: Certifying Specification Strength in Dafny",
+   "url": "https://arxiv.org/abs/2611.15548",
+   "source_type": "paper",
+   "text": "Formally verifying a method with Dafny guarantees correctness relative to its specification. However, a specification may be too permissive, allowing multiple outputs for the same input, even when the implementation produces only one. In this paper, we propose checkable certificates that provide independently verifiable evidence of whether a specification is weak or strong. A certificate of weakness contains an alternative implementation that verifies against the original specification, together with a witness input on which the original and alternative implementations produce different…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.15548",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "DafnyCert produces checkable certificates showing whether a Dafny specification is weak or strong."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.15548",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "DafnyCert provides checkable certificates showing whether a Dafny specification is weak or strong, using alternative implementations and witness inputs."
+   }
+  },
+  {
+   "id": "arxiv:2611.15207",
+   "source": "arXiv cs.SE",
+   "title": "Pre-QED: Environment Specifications for Agentic Verification",
+   "url": "https://arxiv.org/abs/2611.15207",
+   "source_type": "paper",
+   "text": "LLM agents are making formal verification practical at scale. Recently, many attempts have raised this as an enticing possibility. However, formal verification at scale is only meaningful if deep formal specifications capturing functionality are available for checking. Unfortunately, recent works seek to bypass this issue by using shallow specifications devised for purposes other than verification. OSS-Verify from Anthropic and Theorem, for example, reuses the fuzz harnesses of open-source libraries as specifications and has an agent prove that each harness never crashes. However, a fuzz…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.15207",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Pre-QED argues agentic verification needs deep environment specifications rather than shallow fuzz harness specs."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.15207",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Pre-QED argues agentic verification needs deep environment specifications rather than reusing fuzz harnesses as specifications."
+   }
+  },
+  {
+   "id": "arxiv:2611.15108",
+   "source": "arXiv cs.LO",
+   "title": "Typed Knowledge over Constructive Institutions: A Proof-Relevant Type Theory for Verified Science",
+   "url": "https://arxiv.org/abs/2611.15108",
+   "source_type": "paper",
+   "text": "Mathematical proof assistants such as Coq, Agda, and Lean 4 build proof irrelevance into definitional conversion ($p \\equiv q$ for $p, q : P$ with $P : Prop$), erasing which derivation established a theorem. While natural for mathematics over fixed axioms, judgmental proof irrelevance is incompatible with verified scientific stores, which must inspect and compare independent derivations of a claim to assess consilience and compute counterfactual retractions when an assay, reagent, or model is invalidated. Moreover, combining definitional proof irrelevance with subsingleton elimination breaks…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.15108",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Proposes a proof-relevant type theory for verified scientific knowledge, contrasting with proof irrelevance in Coq and Lean."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.15108",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proof-relevant type theory over constructive institutions for verified scientific knowledge, arguing against judgmental proof irrelevance in Coq, Agda and Lean."
+   }
+  },
+  {
+   "id": "u:cffadc382921a71f",
+   "source": "Xena (Kevin Buzzard)",
+   "title": "A Modern Reorganization of Mathematics",
+   "url": "https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics",
+   "source_type": "blog",
+   "text": "[Everyone is doing guest posts these days, so here’s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang] We … Continue reading →",
+   "claude-haiku-5-5": {
+    "id": "u:cffadc382921a71f",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "Guest post by several authors on a modern reorganization of mathematics around the Weil conjectures."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:cffadc382921a71f",
+    "relevant": true,
+    "type": "blog",
+    "score": 4,
+    "summary": "Guest post by a team of mathematicians on the Weil conjectures and a modern reorganization of mathematics."
+   }
+  },
+  {
+   "id": "u:60e3525eb46bf736",
+   "source": "#formalverification on Mathstodon",
+   "title": "A New #AI Tool From #Google #DeepMind Proved the #Signal Protocol Is Secure DeepMind researchers were able to formally verify that the…",
+   "url": "https://hachyderm.io/@BenjaminHCCarr/117594878326541813",
+   "source_type": "social",
+   "text": "A New #AI Tool From #Google #DeepMind Proved the #Signal Protocol Is Secure DeepMind researchers were able to formally verify that the widely used #encryption protocol works as intended. Their stretch goal? Do the same for “all the #software of the world.” More broadly, AI-aided…",
+   "claude-haiku-5-5": {
+    "id": "u:60e3525eb46bf736",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post reporting DeepMind researchers formally verified that the Signal protocol works as intended with an AI tool."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:60e3525eb46bf736",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "DeepMind AI tool formally verified the Signal protocol, with a stated goal of doing the same for all the software of the world."
+   }
+  },
+  {
+   "id": "u:0dcaf857d606a986",
+   "source": "Lean FRO on Bluesky",
+   "title": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3mzyilu4foc2r",
+   "source_type": "social",
+   "text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
+   "claude-haiku-5-5": {
+    "id": "u:0dcaf857d606a986",
+    "relevant": true,
+    "type": "news",
+    "score": 2,
+    "summary": "Lean FRO job posting for a Technical Communications and Content Lead, full-time and remote."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:0dcaf857d606a986",
+    "relevant": true,
+    "type": "news",
+    "score": 2,
+    "summary": "Lean FRO is hiring a full-time remote Technical Communications & Content Lead."
+   }
+  },
+  {
+   "id": "arxiv:2611.14201",
+   "source": "arXiv cs.PL",
+   "title": "CFGKAT: A Complete Calculus for Non-Local Control Flow",
+   "url": "https://arxiv.org/abs/2611.14201",
+   "source_type": "paper",
+   "text": "CFGKAT is an extension of guarded Kleene Algebra with Tests (GKAT) that adds non-local control flow (e.g., break, goto) while maintaining an efficient decision procedure. An axiomatization of equivalence for CFGKAT presents unique barriers created by the presence of non-local control flow and contextual semantics of goto which compromises compositional reasoning. In this paper, we overcome these barriers and present a sound and complete axiomatization of program equivalence in CFGKAT. We verify the loop case of the Erosa-Hendren goto elimination algorithm, a difficult syntactic metatheorem…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.14201",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "CFGKAT extends guarded Kleene algebra with tests to non-local control flow, with a complete equational axiomatization."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.14201",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "CFGKAT extends guarded Kleene Algebra with Tests with non-local control flow, with a sound and complete axiomatization and verification of goto elimination."
+   }
+  },
+  {
+   "id": "arxiv:2611.14106",
+   "source": "arXiv cs.SE",
+   "title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+   "url": "https://arxiv.org/abs/2611.14106",
+   "source_type": "paper",
+   "text": "Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large language models (LLMs) have shown promise in automating proof synthesis. However, these approaches typically constrain the model to a rigid tactic-generation loop, in which the surrounding system controls premise retrieval, proof-state management, and backtracking. We introduce ProofCoder, an agentic proof-synthesis system for Rocq that approaches theorem proving from a coding-agent…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.14106",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "ProofCoder is a coding-agent style proof synthesis system for Rocq software verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.14106",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "ProofCoder is an agentic proof-synthesis system for Rocq that approaches theorem proving from a coding-agent perspective."
+   }
+  },
+  {
+   "id": "arxiv:2611.13697",
+   "source": "arXiv math.LO",
+   "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
+   "url": "https://arxiv.org/abs/2611.13697",
+   "source_type": "paper",
+   "text": "Reflective Grounded Arithmetic (RGA) is a paracomplete arithmetic in which every term is a program and truth is grounded evaluation. RGA discharges a hypothesis only when it proves the hypothesis decided. This paper shows, in a machine-checked Isabelle/HOL development, how Gödel's incompleteness theorems hold for RGA and for systems built on it. RGA's implication is material and RGA has the disjunction property, so the implications the textbook proof of the second theorem uses fail while its entailments and rules hold: Gödel's proof survives as entailments. RGA does not prove its consistency…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.13697",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Machine-checked Isabelle/HOL development showing how Godel's incompleteness theorems hold in Reflective Grounded Arithmetic."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.13697",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Machine-checked Isabelle/HOL development of Gödel's incompleteness theorems for Reflective Grounded Arithmetic."
+   }
+  },
+  {
+   "id": "arxiv:2611.14586",
+   "source": "arXiv stat.ML",
+   "title": "Finite-Cadence Refresh Equilibria for Streaming Prior-Anchored Ridge: A Closed-Form Forgetting Window and Spectral Correction",
+   "url": "https://arxiv.org/abs/2611.14586",
+   "source_type": "paper",
+   "text": "Recursive estimators on drifting streams must forget stale data fast enough to track the target, yet slowly enough to average out noise. In prior-anchored ridge regression, this trade-off admits a closed-form spectral decomposition in which each eigen-direction interpolates between the data solution and the prior with pull weight $s_i = ρ/ (μ_i + ρ)$. When the anchor is refreshed every $k$ steps, we show that the moving-frame offset converges to a finite-cadence equilibrium that lags the pure-leaky path by an explicit $Δ_k(s)$ while reducing estimation variance by a factor $Ψ(s, r_k)$…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.14586",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Closed-form forgetting window for streaming prior-anchored ridge regression; statistics only."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.14586",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Closed-form forgetting window and spectral correction for streaming prior-anchored ridge regression with periodic refresh."
+   }
+  },
+  {
+   "id": "arxiv:2611.13627",
+   "source": "arXiv cs.PL",
+   "title": "Curriculum proof repair with learned counterexamples",
+   "url": "https://arxiv.org/abs/2611.13627",
+   "source_type": "paper",
+   "text": "Language models (LMs) have substantially lowered the barrier to applying formal verification for building reliable and secure software. Existing approaches commonly follow the verifier-in-the-loop paradigm, but the verifier often provides only coarse, binary pass/fail feedback, which offers little actionable signal on how the proof should be repaired. Recent work shows that counterexamples provide more actionable feedback by grounding proof failures in concrete program states, but generating useful ones at inference time requires costly iterative refinement. We present TopoVerus, an LM-based…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.13627",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "TopoVerus uses learned counterexamples in curriculum-based LM proof repair for formal verification."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.13627",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "TopoVerus uses learned counterexamples to repair failing Verus proofs through a curriculum approach."
+   }
+  },
+  {
+   "id": "arxiv:2611.13613",
+   "source": "arXiv cs.AI",
+   "title": "Megrez: A Knowledge-Guided Agent for Formal Mathematics over MK Set Theory",
+   "url": "https://arxiv.org/abs/2611.13613",
+   "source_type": "paper",
+   "text": "General-purpose coding agents equipped with proof-assistant tools have shown strong performance on standalone competition problems, yet cumulative textbook formalization inside a low-resource mathematical library still faces three obstacles: aligning textbook concepts with library declarations, keeping long-horizon search synchronized with live proof states, and integrating locally verified proofs reliably into a growing codebase. We present Megrez, a knowledge-guided formalization agent for Rocq libraries built on Morse--Kelley (MK) set theory. Megrez coordinates a general coding agent…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.13613",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Megrez is a knowledge-guided coding agent for formalizing textbook mathematics in Rocq over MK set theory."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.13613",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Megrez is a knowledge-guided agent for formalizing textbook mathematics in Rocq libraries built on Morse-Kelley set theory."
+   }
+  },
+  {
+   "id": "arxiv:2611.12712",
+   "source": "arXiv cs.SE",
+   "title": "Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL",
+   "url": "https://arxiv.org/abs/2611.12712",
+   "source_type": "paper",
+   "text": "With the growing interest in using AI (Artificial Intelligence) for RTL (Register-Transfer Level) hardware development, robust and comprehensive verification has become more important than ever. As Large Language Models (LLMs) increasingly assist in creating and modifying RTL designs, ensuring that these changes preserve existing functionality is paramount for building trust in AI-driven workflows. We present SVApshot, a fully automated framework that leverages LLMs to generate and systematically attempt to correct SystemVerilog Assertions (SVA) for RTL modules, completely removing the human…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.12712",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "SVApshot uses LLMs to generate and correct SystemVerilog assertions to verify AI-modified RTL designs."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.12712",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "SVApshot uses LLMs to generate SystemVerilog Assertions to check that AI-written RTL preserves existing functionality."
+   }
+  },
+  {
+   "id": "u:8cbfac78780bbb34",
+   "source": "Rocq Discourse",
+   "title": "Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon",
+   "url": "https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181",
+   "source_type": "news",
+   "text": "Dear all, It is our pleasure to announce the first session of the second year of our working group dedicated to proof assistants and their use at ENS de Lyon, one week from now. The working group will be hybrid, see the locations at the bottom of the mail. The detailed schedule for Nov 16, 2026 with talks from Cyril Cohen, Reynald Affeldt et Alexandre Moine 10:30-12:00 Rocq Tutorial #1 (reloaded) Cyril Cohen: an introduction to the Rocq prover. 13:30-14:45 First talk Title: Formal verification of tilt estimation using the Rocq prover Presenter: Reynald Affeldt (joint work with Lynda…",
+   "claude-haiku-5-5": {
+    "id": "u:8cbfac78780bbb34",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces the Nov 16 2026 session of the ENS de Lyon proof assistant seminar, with Rocq tutorials and talks."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:8cbfac78780bbb34",
+    "relevant": true,
+    "type": "news",
+    "score": 2,
+    "summary": "Proof Assistant Seminar at ENS de Lyon on Nov 16, 2026, with a Rocq tutorial and talks including formal verification of tilt estimation in Rocq."
+   }
+  },
+  {
+   "id": "u:08f9983ae92b0fee",
+   "source": "Import AI (Jack Clark)",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence",
+   "source_type": "news",
+   "text": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable […]",
+   "claude-haiku-5-5": {
+    "id": "u:08f9983ae92b0fee",
+    "relevant": false,
+    "type": "news",
+    "score": 1,
+    "summary": "General AI newsletter covering space economies, AI for science and robotics hands."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:08f9983ae92b0fee",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "Import AI 480 newsletter covering space economies, AI for science progress, and Meta's robotic hands."
+   }
+  },
+  {
+   "id": "arxiv:2611.13042",
+   "source": "arXiv cs.AI",
+   "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
+   "url": "https://arxiv.org/abs/2611.13042",
+   "source_type": "paper",
+   "text": "Artificial intelligence (AI) systems now produce research results in bulk: in October 2026 a single laboratory released more than 700 AI-generated mathematics manuscripts, only part of them with machine-checked proofs. Such volumes will be checked mostly by AI agents that call specialised software. A passing check certifies only the artefact that was checked. For proofs translated into the proof assistant Lean, it has been shown that this artefact may state something other than the author's text, and that deciding whether a translation is faithful is undecidable in general. The human…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.13042",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Human-in-the-loop framework for checking AI-produced research, noting Lean translations may not be faithful to source text."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.13042",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Human-in-the-loop framework for checking AI-produced research results, addressing whether Lean translations of proofs faithfully state the author's claim."
+   }
+  },
+  {
+   "id": "u:0a5a7aa670ac5b79",
+   "source": "Rocq Discourse",
+   "title": "2027 Dutch Winter School on Logic and Verification",
+   "url": "https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180",
+   "source_type": "news",
+   "text": "While this event takes place in the Netherlands, people from all over the world who are most welcome! ================================================= Call for Participation 2027 Dutch Winter School on Logic and Verification 18-22 January 2027 Leiden University, The Netherlands https://www.cyclic-structures.nl/winter-school/2027.html ================================================= The 2027 Dutch Winter School on Logic and Verification is a 4.5 day event aimed at PhD/graduate students in theoretical computer science with an interest in software verification, logic, and type theory. Strong…",
+   "claude-haiku-5-5": {
+    "id": "u:0a5a7aa670ac5b79",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Call for participation in the 2027 Dutch Winter School on Logic and Verification, 18-22 January 2027 at Leiden."
+   },
+   "claude-sonnet-5-5": {
+    "id": "u:0a5a7aa670ac5b79",
+    "relevant": true,
+    "type": "news",
+    "score": 2,
+    "summary": "Call for participation in the 2027 Dutch Winter School on Logic and Verification, 18-22 January 2027 at Leiden University."
+   }
+  },
+  {
+   "id": "arxiv:2611.11805",
+   "source": "arXiv math.NA",
+   "title": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
+   "url": "https://arxiv.org/abs/2611.11805",
+   "source_type": "paper",
+   "text": "We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.11805",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Operator learning of microstructure-dependent constitutive models for inelastic homogenization."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.11805",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Operator learning of microstructure-dependent internal-variable models for inelastic homogenization."
+   }
+  },
+  {
+   "id": "arxiv:2611.11641",
+   "source": "arXiv cs.LO",
+   "title": "Spectral Stability, Fatou Basin Contraction, and Machine-Checked Multipliers in Holomorphic Extensions of Generalized Syracuse Dynamics",
+   "url": "https://arxiv.org/abs/2611.11641",
+   "source_type": "paper",
+   "text": "We embed the Syracuse operator $T(n) = n/2$ (even $n$), $T(n) = (3n+1)/2$ (odd $n$) and the Collatz map $C(n)$ into $\\mathbb{C}$ via entire functions of exponential type $π$: $f(z) = \\frac{1}{4}(1 + 4z - (1 + 2z)\\cos(πz))$ and $F(z) = \\frac{1}{4}(2 + 7z - (2 + 5z)\\cos(πz))$. We prove five results: (1) every integer periodic cycle $C \\subset \\mathbb{N}^+$ of $T$ is a strictly attracting Fatou cycle of $f$ with multiplier $μ_f(C) = 3^{N_{\\mathrm{odd}}}/2^N = \\prod_{n \\in C\\text{ odd}} \\frac{3n}{3n+1} \\in (0,1)$, and $μ_f(O_{1,2}) = μ_F(O_{1,4,2}) = 3/4 1$) isolates $B(O_{1,2})$; (4) on…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.11641",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Holomorphic extensions of Syracuse and Collatz dynamics, with some results described as machine-checked."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.11641",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Holomorphic extensions of Syracuse and Collatz dynamics with machine-checked multipliers."
+   }
+  },
+  {
+   "id": "arxiv:2611.11633",
+   "source": "arXiv cs.AI",
+   "title": "An Interpretable Fuzzy Tree for Turbofan Remaining Useful Life with an Auditable Per-Component Diagnostic Layer",
+   "url": "https://arxiv.org/abs/2611.11633",
+   "source_type": "paper",
+   "text": "Data-driven remaining useful life (RUL) estimators for turbofan engines are accurate but opaque, and their internal features typically encode remaining life rather than any specific component's state. This paper presents an interpretable genetic fuzzy tree that predicts RUL from cruise-condition sensor means on N-CMAPSS while exposing a per-component diagnostic layer inspectable rule by rule. The tree follows the engine hierarchy: sensors to component health, then to bounded component damage, spool damage, and RUL, so each level answers a different maintenance question. Training is staged so…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.11633",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Interpretable fuzzy tree for turbofan remaining useful life with per-component diagnostics."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.11633",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Interpretable genetic fuzzy tree for turbofan remaining useful life with a per-component diagnostic layer."
+   }
+  },
+  {
+   "id": "arxiv:2611.11506",
+   "source": "arXiv cs.CR",
+   "title": "On the Relative Security of Prompt Injection: Mechanised Definitions, Defences and Verdicts for LLM Agents",
+   "url": "https://arxiv.org/abs/2611.11506",
+   "source_type": "paper",
+   "text": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it. Noninterference is too strong for such agents, since a useful agent lets untrusted content influence what it does and may disclose the user's data by design, and declassification needs a release policy written for each task. We instead state security relative to a reference agent, which runs the same plan under the same runtime monitor with a model that never obeys untrusted content. An agent is relatively secure if every leak it has is a leak the reference already has. Our…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.11506",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Defines relative security for prompt injection in LLM agents with mechanised definitions and defences."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.11506",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Mechanised definitions and verdicts for prompt injection security of LLM agents, stated relative to a reference agent."
+   }
+  },
+  {
+   "id": "arxiv:2611.12985",
+   "source": "arXiv cs.PL",
+   "title": "Parametric Proof-Carrying Compilation for Quantum Error-Correction",
+   "url": "https://arxiv.org/abs/2611.12985",
+   "source_type": "paper",
+   "text": "We present PC-QEC, a proof-carrying compilation framework for quantum error correction parameterized by both code distance and syndrome-extraction scheme. It covers all four schemes---Standard, Flag, Shor and Knill---with circuit-level distance guarantees for every legal code distance in each proved family under the declared error and readout contracts. The circuit-level model permits single-wire Pauli errors at every operation's qubit operands, capturing data errors, readout errors and ancilla errors that propagate into multi-qubit hook errors. For each family and scheme, supplied…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.12985",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "PC-QEC is a proof-carrying compilation framework giving circuit-level distance guarantees for quantum error correction."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.12985",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "PC-QEC is a proof-carrying compilation framework for quantum error correction with circuit-level distance guarantees across code distances and…"
+   }
+  },
+  {
+   "id": "arxiv:2611.11110",
+   "source": "arXiv stat.CO",
+   "title": "Statopia: A Prover--Library Ecosystem for Automated Formalization and Proof Discovery in Statistics",
+   "url": "https://arxiv.org/abs/2611.11110",
+   "source_type": "paper",
+   "text": "Theoretical results in statistics and machine learning rest on long, technically delicate proofs, and fluent arguments generated by large language models are not necessarily correct. Automated formalization makes such arguments mechanically checkable, and automated proving goes further by discovering machine-checked proofs for statements whose proofs are incomplete or missing altogether. Both require reconstructing assumptions from source materials, accessing specialized mathematical infrastructure and managing long proof developments. We present Statopia, an ecosystem that jointly develops…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.11110",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Statopia is an ecosystem for automated formalization and proof discovery in statistics across provers and libraries."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.11110",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Statopia is an ecosystem for automated formalization and proof discovery in statistics, combining provers with specialized libraries."
+   }
+  },
+  {
+   "id": "arxiv:2611.10810",
+   "source": "arXiv cs.DB",
+   "title": "Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines",
+   "url": "https://arxiv.org/abs/2611.10810",
+   "source_type": "paper",
+   "text": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even…",
+   "claude-haiku-5-5": {
+    "id": "arxiv:2611.10810",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Extends DBLog incremental snapshots to handle orphan rows in change data capture pipelines."
+   },
+   "claude-sonnet-5-5": {
+    "id": "arxiv:2611.10810",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Extends DBLog-based incremental snapshots to handle orphan rows in change data capture pipelines."
+   }
+  }
+ ],
+ "haiku_medium": {
+  "usage": {
+   "model": "claude-haiku-5-5",
+   "requests": 1,
+   "input_tokens": 24673,
+   "output_tokens": 15301,
+   "seconds": 60.0
+  },
+  "judgements": {
+   "u:be95130e07f461d2": {
+    "id": "u:be95130e07f461d2",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Post sharing an essay on the limitations of formal verification, applied to the recent Lean proof of the Riemann Hypothesis."
+   },
+   "u:26b8afe8d4a5e32b": {
+    "id": "u:26b8afe8d4a5e32b",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Announces a 684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a table mapping statements to Lean declarations."
+   },
+   "u:d528d8cd29196429": {
+    "id": "u:d528d8cd29196429",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Links an interactive dependency-tree explorer for the Lean proof of the Riemann Hypothesis."
+   },
+   "u:4d92dcb72ea011ac": {
+    "id": "u:4d92dcb72ea011ac",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces a Lean course by David Muñoz-Lahoz running from basics to AI-assisted formalization."
+   },
+   "u:e97da3b0e0d370d2": {
+    "id": "u:e97da3b0e0d370d2",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Points to a resource by David Muñoz-Lahoz on autoformalizing mathematics in Lean."
+   },
+   "u:73966443581772ee": {
+    "id": "u:73966443581772ee",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares a beginner's guide PDF on autoformalizing mathematics in Lean by Liehr, Muñoz-Lahoz and Taylor."
+   },
+   "u:d70b47a7896f1646": {
+    "id": "u:d70b47a7896f1646",
+    "relevant": true,
+    "type": "blog",
+    "score": 3,
+    "summary": "Xena blog guest post by Mitchell Taylor on using Lean for working mathematicians."
+   },
+   "u:befaa0b537b99747": {
+    "id": "u:befaa0b537b99747",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean and Mathlib communities confirm that Alpöge's 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including the Lean kernel."
+   },
+   "u:8c2ea09b22312bd6": {
+    "id": "u:8c2ea09b22312bd6",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces Emily Riehl's Lean game introducing informal dependent type theory at an introduction-to-proofs level."
+   },
+   "u:08638e800f91cf17": {
+    "id": "u:08638e800f91cf17",
+    "relevant": true,
+    "type": "blog",
+    "score": 3,
+    "summary": "Xena blog guest post by Mitchell Taylor, from a talk on using Lean in mathematical work."
+   },
+   "u:7285cad39d74b239": {
+    "id": "u:7285cad39d74b239",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean FRO posts a joint statement certifying Alpöge's Lean proof of the Riemann Hypothesis as correct."
+   },
+   "u:1e3f9e33b1752f77": {
+    "id": "u:1e3f9e33b1752f77",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces a verbose Lean edition of Emily Riehl's Reintroduction to Proofs by Bentkamp and Eugster."
+   },
+   "u:9c836c18b69ca883": {
+    "id": "u:9c836c18b69ca883",
+    "relevant": true,
+    "type": "social",
+    "score": 5,
+    "summary": "Lean and Mathlib communities issue a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by Lean FRO and Mathlib Initiative."
+   },
+   "u:18d9f9bc59b30c8a": {
+    "id": "u:18d9f9bc59b30c8a",
+    "relevant": true,
+    "type": "lean",
+    "score": 5,
+    "summary": "Joint statement from the Lean and Mathlib communities giving the rationale for confidence in the 17-million-line Lean proof of the Riemann Hypothesis."
+   },
+   "u:b0b14f1bf3f84607": {
+    "id": "u:b0b14f1bf3f84607",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Shares an arXiv paper introducing Lean 4 for machine-checked proofs in system identification, written for a control audience."
+   },
+   "u:ba4bc0e3f651c8d8": {
+    "id": "u:ba4bc0e3f651c8d8",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares an arXiv paper on refining LLM-generated math proofs from sorry placeholders to complete proofs via angelic execution."
+   },
+   "u:898fcec95b056c4f": {
+    "id": "u:898fcec95b056c4f",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares an arXiv paper on Turing Agent, an agent harness for end-to-end formal verification of research-level mathematics."
+   },
+   "u:14594582fd53b35d": {
+    "id": "u:14594582fd53b35d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares a CMU report formalizing domain theory in Lean 4."
+   },
+   "u:ad70c7b93318521d": {
+    "id": "u:ad70c7b93318521d",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Shares an arXiv paper with a formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian."
+   },
+   "u:a0929aaff4953010": {
+    "id": "u:a0929aaff4953010",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Links a live feed of an independent Lean check of the GRH proof."
+   },
+   "u:1b9cafd171f4a5b1": {
+    "id": "u:1b9cafd171f4a5b1",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Encourages readers that no PhD is needed to start learning Lean, given its recent news coverage."
+   },
+   "u:1b599e79317e20ab": {
+    "id": "u:1b599e79317e20ab",
+    "relevant": true,
+    "type": "news",
+    "score": 4,
+    "summary": "Scientific American reports an Anthropic mathematician's claimed proof of the Riemann Hypothesis, with Lean tagged in the post."
+   },
+   "u:fd71a9d69b0ab322": {
+    "id": "u:fd71a9d69b0ab322",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Hacker News thread on a PDF by an Anthropic mathematician claiming a Riemann Hypothesis proof developed with Claude."
+   },
+   "u:952c9ab2da1354d1": {
+    "id": "u:952c9ab2da1354d1",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Announces Lean 4 challenge 31, showing the identity sequence has no convergent subsequences."
+   },
+   "u:7fa1a6fb596c45af": {
+    "id": "u:7fa1a6fb596c45af",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Spanish-language announcement of Lean 4 challenge 31 on the identity sequence having no convergent subsequences."
+   },
+   "u:8676f7f6becc11a9": {
+    "id": "u:8676f7f6becc11a9",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean FRO reports that Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%."
+   },
+   "u:456db17d91515c25": {
+    "id": "u:456db17d91515c25",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Security Now episode discussing AI's role in formal code verification and what proofs say about software."
+   },
+   "arxiv:2611.26754": {
+    "id": "arxiv:2611.26754",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Argues that LLM-driven science needs human re-checking of results and mentions proof assistants only as a contrast with mathematics."
+   },
+   "u:c6031e195e7bf55c": {
+    "id": "u:c6031e195e7bf55c",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces physlib.io, a community project to digitalize physics results into Lean 4."
+   },
+   "arxiv:2611.26221": {
+    "id": "arxiv:2611.26221",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents Sightline, a data-flow analysis for LLM-integrated programs, with a key property proved in Lean 4."
+   },
+   "u:3d403f7f34e4908a": {
+    "id": "u:3d403f7f34e4908a",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces a funded PhD position in compiler verification at IT University of Copenhagen, starting April 2027."
+   },
+   "arxiv:2611.25599": {
+    "id": "arxiv:2611.25599",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents Tether, a verified stateful policy engine that monitors AI agent actions with provable safety guarantees."
+   },
+   "arxiv:2611.25174": {
+    "id": "arxiv:2611.25174",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Describes a formally verified Rust semidefinite programming solver, with the Verus verification generated by Claude."
+   },
+   "arxiv:2611.24788": {
+    "id": "arxiv:2611.24788",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents Isabelle Pool Server, a pooled HTTP verification service for warm Isabelle sessions used in prover training and multi-agent proving."
+   },
+   "arxiv:2611.24649": {
+    "id": "arxiv:2611.24649",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Presents a semantic framework for asynchronous nondeterministic choreographic programming, with no verification content."
+   },
+   "u:bc0aec336467039e": {
+    "id": "u:bc0aec336467039e",
+    "relevant": true,
+    "type": "lean",
+    "score": 3,
+    "summary": "Pre-release announcement of Lean 4 v4.37.0-rc1, with a link to its release notes."
+   },
+   "arxiv:2611.24083": {
+    "id": "arxiv:2611.24083",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proposes learning safe RL policies with symbolic structure and formal verification of safety constraints, to avoid retraining from scratch."
+   },
+   "u:2226859d230100de": {
+    "id": "u:2226859d230100de",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Lean FRO announces Lean 4.36.0 with 222 changes, mostly performance work that cut Mathlib build time by about 12%."
+   },
+   "u:d0f99c471d88ac28": {
+    "id": "u:d0f99c471d88ac28",
+    "relevant": true,
+    "type": "social",
+    "score": 3,
+    "summary": "Announces the Lean 4.36.0 release, a consolidation release with 222 changes including 30 performance improvements."
+   },
+   "u:586bb6a14034af20": {
+    "id": "u:586bb6a14034af20",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Invites TLA+ users to take the 2026 TLA+ Community Survey."
+   },
+   "arxiv:2611.22748": {
+    "id": "arxiv:2611.22748",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Reconstructs interpreters from Essentials of Programming Languages in statically typed Haskell, with no verification content."
+   },
+   "arxiv:2611.22613": {
+    "id": "arxiv:2611.22613",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Adds a Python backend to the Isabelle/HOL code generator for producing executable Python from verified functions."
+   },
+   "arxiv:2611.22572": {
+    "id": "arxiv:2611.22572",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Presents Kamot, a tool that generates zipper implementations from Haskell datatype declarations."
+   },
+   "u:e9b2b2f349e2a752": {
+    "id": "u:e9b2b2f349e2a752",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces rocq-web, Rocq 9.2 and coq-lsp compiled to WebAssembly to run in a browser with 57 packages."
+   },
+   "arxiv:2611.22523": {
+    "id": "arxiv:2611.22523",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view with path abstraction."
+   },
+   "arxiv:2611.21914": {
+    "id": "arxiv:2611.21914",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Extends an algebraic evaluation framework to data streams with delayed labels and distribution shift."
+   },
+   "arxiv:2611.21826": {
+    "id": "arxiv:2611.21826",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proposes categorical universal properties as a basis for reusable mechanized logical relations in programming language metatheory."
+   },
+   "arxiv:2611.21421": {
+    "id": "arxiv:2611.21421",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents AuXSpec, which trains models to autoformalize program specifications in Lean using executable postconditions as feedback."
+   },
+   "arxiv:2611.21402": {
+    "id": "arxiv:2611.21402",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Studies harmonic-mean aggregation of continuous-time Markov chains with reachability error bounds."
+   },
+   "arxiv:2611.21299": {
+    "id": "arxiv:2611.21299",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Introduces Turing Agent, an agent harness that orchestrates formal verification of AI-generated research mathematics."
+   },
+   "u:6657ef7daff028e4": {
+    "id": "u:6657ef7daff028e4",
+    "relevant": true,
+    "type": "lean",
+    "score": 3,
+    "summary": "Release announcement for Lean 4 v4.36.0, with a link to its release notes."
+   },
+   "u:41b364560b3242b8": {
+    "id": "u:41b364560b3242b8",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "General AI newsletter covering AI systems that sub-contract, a benchmark, and related research news."
+   },
+   "arxiv:2611.21084": {
+    "id": "arxiv:2611.21084",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Describes CompCert4Lean, a port of the CompCert verified C compiler core from Rocq to Lean with all proof obligations discharged."
+   },
+   "arxiv:2611.21009": {
+    "id": "arxiv:2611.21009",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Learns neural controllers and Lyapunov functions and uses mixed-integer programming to formally verify stability conditions."
+   },
+   "arxiv:2611.20781": {
+    "id": "arxiv:2611.20781",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Introduces ReachECO, a repair method for learned controllers that uses failed multi-step reachability analysis to add constraints."
+   },
+   "arxiv:2611.20671": {
+    "id": "arxiv:2611.20671",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents MASTA, a multi-agent system that generates Tamarin models and lemmas for formal analysis of security protocols."
+   },
+   "arxiv:2611.20576": {
+    "id": "arxiv:2611.20576",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Introduces view types to let Rust borrows cover only the fields a method uses."
+   },
+   "arxiv:2611.19940": {
+    "id": "arxiv:2611.19940",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Presents a hypersequent calculus for cyclic involutive residuated lattices with a strong standard completeness result."
+   },
+   "arxiv:2611.23319": {
+    "id": "arxiv:2611.23319",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Reuses formal Lean proofs from a relativistic Vlasov-Maxwell library to give particle-free references for plasma simulation checks."
+   },
+   "arxiv:2611.19618": {
+    "id": "arxiv:2611.19618",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents qlin, a compiler for dynamic quantum circuits with a latency-preserving rewrite proved in Lean 4 and translation validation."
+   },
+   "arxiv:2611.19569": {
+    "id": "arxiv:2611.19569",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Fine-tunes small language models to synthesise loop invariants for program verification using mutation-based data curation."
+   },
+   "arxiv:2611.19505": {
+    "id": "arxiv:2611.19505",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Gives a mechanized denotational semantics for einsum and verifies tensor rewriting rules over a named tensor language."
+   },
+   "arxiv:2611.18541": {
+    "id": "arxiv:2611.18541",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Proves that no free lattice contains an infinite ascending chain of copies of FL(3)."
+   },
+   "arxiv:2611.18369": {
+    "id": "arxiv:2611.18369",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proves stability of maximum cardinality search orderings under edge updates, with the results verified in Lean."
+   },
+   "arxiv:2611.18220": {
+    "id": "arxiv:2611.18220",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Introduces Lean 4 proof assistant use for system identification and control researchers, with no prior formal methods background assumed."
+   },
+   "arxiv:2611.18055": {
+    "id": "arxiv:2611.18055",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents DeCompCert, a Rocq-verified decompiler for CompCert-generated AArch64 assembly combining verified passes and translation validation."
+   },
+   "arxiv:2611.18036": {
+    "id": "arxiv:2611.18036",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents R2C2, which validates C-to-Rust translation by proving in Rocq that the Rust program refines the C program."
+   },
+   "arxiv:2611.17884": {
+    "id": "arxiv:2611.17884",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Mechanizes soundness, completeness and consistency of Church's simple type theory in Isabelle/HOL, with and without infinity."
+   },
+   "u:9a5d4cfa33de8a17": {
+    "id": "u:9a5d4cfa33de8a17",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Archive of Formal Proofs entry on tokenization, indentation-sensitive grammars and executable recognizers."
+   },
+   "u:762f03f8984448f6": {
+    "id": "u:762f03f8984448f6",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces a graduate seminar at Penn on agentic proof engineering, with a live webinar option starting January 2027."
+   },
+   "arxiv:2611.16886": {
+    "id": "arxiv:2611.16886",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents a ten-step workflow for LLM-assisted formal verification of algorithms in Dafny."
+   },
+   "u:6320a20aac8c6e41": {
+    "id": "u:6320a20aac8c6e41",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post praising Ars Technica coverage of Signal encryption passing an AI-powered mathematical check."
+   },
+   "u:f237589ca492ef3e": {
+    "id": "u:f237589ca492ef3e",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Links DeepMind's introduction of AlphaProof Code for verifying complex software."
+   },
+   "u:493748425ffbe989": {
+    "id": "u:493748425ffbe989",
+    "relevant": true,
+    "type": "blog",
+    "score": 3,
+    "summary": "Xena blog post explaining how to interpret claims that a theorem is correct because it was checked in Lean."
+   },
+   "arxiv:2611.15992": {
+    "id": "arxiv:2611.15992",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Proves the multiplicative complexity of the three-bit low-half multiplier is six, using circuit lower-bound arguments."
+   },
+   "u:a7899944b31c35a5": {
+    "id": "u:a7899944b31c35a5",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post reporting that DeepMind agents formally verified Signal's code down to machine instructions in Lean in four weeks."
+   },
+   "arxiv:2611.15548": {
+    "id": "arxiv:2611.15548",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Proposes checkable certificates showing whether a Dafny specification is weak or strong, with independently verifiable evidence."
+   },
+   "arxiv:2611.15207": {
+    "id": "arxiv:2611.15207",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Argues that agentic formal verification needs deep environment specifications rather than shallow fuzz-harness specifications."
+   },
+   "arxiv:2611.15108": {
+    "id": "arxiv:2611.15108",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Proposes a proof-relevant type theory for verified scientific knowledge, contrasting it with proof irrelevance in Coq, Agda and Lean."
+   },
+   "u:cffadc382921a71f": {
+    "id": "u:cffadc382921a71f",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "Xena guest post by several authors on a modern reorganization of mathematics around the Weil conjectures."
+   },
+   "u:60e3525eb46bf736": {
+    "id": "u:60e3525eb46bf736",
+    "relevant": true,
+    "type": "social",
+    "score": 4,
+    "summary": "Post reporting that DeepMind's AI tool formally verified that the Signal protocol works as intended."
+   },
+   "u:0dcaf857d606a986": {
+    "id": "u:0dcaf857d606a986",
+    "relevant": true,
+    "type": "social",
+    "score": 2,
+    "summary": "Lean FRO is hiring a full-time remote Technical Communications and Content Lead."
+   },
+   "arxiv:2611.14201": {
+    "id": "arxiv:2611.14201",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents CFGKAT, a sound and complete axiomatization for non-local control flow, and verifies a loop case of goto elimination."
+   },
+   "arxiv:2611.14106": {
+    "id": "arxiv:2611.14106",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents ProofCoder, an agentic proof-synthesis system for Rocq that works like a coding agent rather than a tactic loop."
+   },
+   "arxiv:2611.13697": {
+    "id": "arxiv:2611.13697",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Shows in a machine-checked Isabelle/HOL development how Gödel's incompleteness theorems hold for Reflective Grounded Arithmetic."
+   },
+   "arxiv:2611.14586": {
+    "id": "arxiv:2611.14586",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Analyses forgetting windows and refresh cadence for streaming prior-anchored ridge regression."
+   },
+   "arxiv:2611.13627": {
+    "id": "arxiv:2611.13627",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents TopoVerus, a language-model proof repair method that uses learned counterexamples in a curriculum."
+   },
+   "arxiv:2611.13613": {
+    "id": "arxiv:2611.13613",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents Megrez, a knowledge-guided agent for formalizing textbook mathematics in a Rocq library built on MK set theory."
+   },
+   "arxiv:2611.12712": {
+    "id": "arxiv:2611.12712",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Presents SVApshot, which generates and corrects SystemVerilog assertions to check that AI-edited RTL keeps its functionality."
+   },
+   "u:8cbfac78780bbb34": {
+    "id": "u:8cbfac78780bbb34",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Announces a hybrid proof assistant working group session at ENS de Lyon with Rocq tutorials and talks on formal verification."
+   },
+   "arxiv:2611.13042": {
+    "id": "arxiv:2611.13042",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Proposes a human-in-the-loop framework for checking AI-produced research results, including faithfulness of Lean translations."
+   },
+   "u:0a5a7aa670ac5b79": {
+    "id": "u:0a5a7aa670ac5b79",
+    "relevant": true,
+    "type": "news",
+    "score": 3,
+    "summary": "Call for participation in the 2027 Dutch Winter School on Logic and Verification, 18-22 January 2027 at Leiden University."
+   },
+   "arxiv:2611.11805": {
+    "id": "arxiv:2611.11805",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Studies operator learning of microstructure-dependent constitutive models for inelastic homogenization."
+   },
+   "arxiv:2611.11641": {
+    "id": "arxiv:2611.11641",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Embeds Syracuse and Collatz maps into entire functions and proves multiplier results, with some results machine-checked."
+   },
+   "arxiv:2611.11633": {
+    "id": "arxiv:2611.11633",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Presents an interpretable fuzzy tree for turbofan remaining useful life with per-component diagnostics."
+   },
+   "arxiv:2611.11506": {
+    "id": "arxiv:2611.11506",
+    "relevant": true,
+    "type": "paper",
+    "score": 2,
+    "summary": "Defines relative security for prompt injection in LLM agents with mechanised definitions and verdicts for defences."
+   },
+   "arxiv:2611.12985": {
+    "id": "arxiv:2611.12985",
+    "relevant": true,
+    "type": "paper",
+    "score": 3,
+    "summary": "Presents PC-QEC, a proof-carrying compilation framework for quantum error correction with circuit-level distance guarantees."
+   },
+   "arxiv:2611.11110": {
+    "id": "arxiv:2611.11110",
+    "relevant": true,
+    "type": "paper",
+    "score": 4,
+    "summary": "Presents Statopia, an ecosystem for automated formalization and proof discovery in statistics across provers and libraries."
+   },
+   "arxiv:2611.10810": {
+    "id": "arxiv:2611.10810",
+    "relevant": false,
+    "type": "paper",
+    "score": 1,
+    "summary": "Extends DBLog-based incremental snapshots to handle orphan rows in change data capture pipelines."
+   },
+   "u:08f9983ae92b0fee": {
+    "id": "u:08f9983ae92b0fee",
+    "relevant": false,
+    "type": "blog",
+    "score": 1,
+    "summary": "General AI newsletter covering AI for science, a startup converting a conjecture into a theorem, and other AI topics."
+   }
+  }
+ }
+}

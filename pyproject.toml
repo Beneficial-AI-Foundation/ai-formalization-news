@@ -1,0 +1,10 @@
+[project]
+name = "baif-news"
+version = "1.0.0"
+description = "BAIF AI and formalization news: fetch, dedup, filter, summarise, publish"
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Constructed fixture: rss.arxiv.org item format, filled with five real papers from arxiv-api.xml.
+     The live feed was empty (weekend) when fixtures were saved on 23 Nov 2026. -->
+<rss xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>cs.LO, cs.PL updates on arXiv.org</title>
+    <link>http://rss.arxiv.org/rss/cs.LO+cs.PL</link>
+    <description>cs.LO, cs.PL updates on the arXiv.org e-print archive.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2026 05:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+    <item>
+      <title>Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications</title>
+      <link>https://arxiv.org/abs/2611.26221</link>
+      <description>arXiv:2611.26221v1 Announce Type: new 
+Abstract: Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a placeholder flows to the output of a transformer, to first order, only through the attention that reads it (no reading, no flow), and that a faint reading or sensitivity cannot certify that a placeholder does not flow. Unlike reading, the log-probability gradients and Fisher signals of existing methods vanish on confident outputs, and single-span removal fails on duplicated content. Our tool, Sightline, reads a recorded call in one forward pass, learns from labels which reads are uses, and calibrates the pruning to miss at most a chosen fraction $α$ of true flows, on average over call sites, when deployment is exchangeable with calibration. On 2,103 unseen repository families and four models, Sightline is the most accurate summary against the seven closest methods and a hidden-state probe. Calibrated at $α$ = 1%, it misses about 1% of true flows and prunes 43.9-65.6% of spurious flows, 1.6 to 2.6 times as many as the best baseline, and still 43.8-60.1% when calibrated on another collection. Through an open surrogate, it reads models treated as closed about as accurately as they read themselves, without their labels. In the information-flow control of an LLM agent, it removes about half of the labels from inputs that do not flow.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.26221v1</guid>
+      <category>cs.PL</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Zihao Xu, Yuekang Li, Ruitao Feng, Haifeng Shen</dc:creator>
+    </item>
+    <item>
+      <title>Formally Verified Semidefinite Programming</title>
+      <link>https://arxiv.org/abs/2611.25174</link>
+      <description>arXiv:2611.25174v1 Announce Type: new 
+Abstract: We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.25174v1</guid>
+      <category>cs.SE</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Perry Hart</dc:creator>
+    </item>
+    <item>
+      <title>Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving</title>
+      <link>https://arxiv.org/abs/2611.24788</link>
+      <description>arXiv:2611.24788v1 Announce Type: cross 
+Abstract: Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with PIDE MCP, a PIDE frontend for agents, at one worker and ahead of it at eight, at its commit of October 2026 (the tool is now PIDE AI). Once its sessions are up it scales to 32 concurrent workers on one host at 24 times the single-worker rate, and under memory pressure it refuses new sessions rather than losing existing ones. IPS is free software and publicly available at https://github.com/Deep-LCF/Isabelle-Pool-Server</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.24788v1</guid>
+      <category>cs.LO</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xuanwei Ren, Wenda Li</dc:creator>
+    </item>
+    <item>
+      <title>A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies</title>
+      <link>https://arxiv.org/abs/2611.24649</link>
+      <description>arXiv:2611.24649v1 Announce Type: replace 
+Abstract: Choreographic programming (CP) describes a distributed system as a global program and compiles it into communicating network programs via endpoint projection (EPP). Asynchrony captures the independent progress of communicating processes, while nondeterminism captures the range of behaviours that can arise from their interactions. However, the integration of both features into a theory of CP is absent. We present Nyarlathotep, the first asynchronous nondeterministic CP framework. We define its operational semantics of choreographies and networks using labelled transition systems. Besides asynchrony and choreographic nondeterminism, Nyarlathotep supports expressive features including general branching, out-of-order execution, and general recursion with parameterised procedures that processes can enter independently. We prove EPP sound and complete, establishing strong behavioural equivalence between the semantics of choreographies and their projected networks. We prove that projected networks are communication-safe and deadlock-free. We mechanised all our results in Lean 4.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.24649v1</guid>
+      <category>cs.PL</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>replace</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xueying Qin, Marco Peressotti, Fabrizio Montesi</dc:creator>
+    </item>
+    <item>
+      <title>Statically Typed Purely Functional Definitional Interpreters for {\it Essentials of Programming Languages}</title>
+      <link>https://arxiv.org/abs/2611.22748</link>
+      <description>arXiv:2611.22748v1 Announce Type: new 
+Abstract: Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional metalanguage, for pedagogical use. We preserve the object languages, examples, and tests of EOPL while making their semantic components explicit through algebraic data types, evaluator signatures, and explicit semantic domains. Across 15 interpreters and 6 type checkers, language extensions are exposed as systematic type-directed changes. The reconstruction is currently used in undergraduate and graduate programming language courses, where students learn interpreter construction through incremental and test-driven development. We further illustrate its pedagogical use through three case studies that progressively extend students&#x27; experience: composing mutable state and exception handling, deriving an actor-based interpreter from the typed structure of the EOPL thread interpreter, and translating the CHECKED interpreter and type checker into Rocq to mechanize type safety. Together, the classroom experience and case studies suggest that the reconstruction provides a concrete bridge from learning programming language concepts through executable interpreters to language design and mechanized reasoning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.22748v1</guid>
+      <category>cs.PL</category>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Kwanghoon Choi</dc:creator>
+    </item>
+  </channel>
+</rss>
