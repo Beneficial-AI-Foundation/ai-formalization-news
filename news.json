@@ -15,9 +15,9 @@
    "published": "2026-11-23T06:29:56Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:954868bc34ee290c",
@@ -32,9 +32,9 @@
    "published": "2026-11-23T06:26:28Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.26906",
@@ -51,9 +51,9 @@
    "published": "2026-11-23T05:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware predict-and-verify system that allocates computation across unresolved subgoals and heterogeneous LLM solvers. BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises the allocation as verification feedback…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:be95130e07f461d2",
@@ -68,9 +68,9 @@
    "published": "2026-11-22T23:20:56Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This post aptly captures the \"limitations\" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming into the LEAN proof of RH discussion consider these limitations. https://tagide.com/blog/research/formal-verification-is-not-the-silver-bullet/ via @crista…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on the limitations of formal verification, applied to the recent Lean proof of the Riemann Hypothesis.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:26b8afe8d4a5e32b",
@@ -85,9 +85,9 @@
    "published": "2026-11-22T19:28:24Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a table mapping 125 statements to the Lean declarations that formalize them. Prepared with heavy use of Claude; not refereed. Corrections very welcome…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a mapping to Lean declarations.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:d528d8cd29196429",
@@ -102,9 +102,9 @@
    "published": "2026-11-22T12:30:21Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/ #dataviz #mathematics #leanprover",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Link to an interactive dependency tree for exploring the Lean proof of the Riemann Hypothesis.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:4d92dcb72ea011ac",
@@ -119,9 +119,9 @@
    "published": "2026-11-22T10:56:21Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean course through examples, from basics to AI-assisted formalization, by David Muñoz-Lahoz.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:e97da3b0e0d370d2",
@@ -136,9 +136,9 @@
    "published": "2026-11-22T10:50:42Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Site offering tools to autoformalize mathematics in Lean by David Muñoz-Lahoz.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:73966443581772ee",
@@ -153,9 +153,9 @@
    "published": "2026-11-22T08:25:50Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor. https://functionalanalysismadrid.com/lean_guide.pdf #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Beginner's guide to autoformalizing mathematics in Lean by Liehr, Muñoz-Lahoz and Taylor.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:d70b47a7896f1646",
@@ -170,9 +170,9 @@
    "published": "2026-11-22T08:23:33Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Mitchell Taylor's post Lean for the working mathematician, shared on Mathstodon.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:befaa0b537b99747",
@@ -187,9 +187,9 @@
    "published": "2026-11-22T03:46:15Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including Lean’s kernel. A landmark for formal mathematics. ✅📐 #LeanProver #Math leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean and Mathlib communities confirm Alpöge's 17-million-line Riemann Hypothesis proof passed independent checks including the kernel.",
+   "score": 5,
+   "relevant": true
   },
   {
    "id": "u:8c2ea09b22312bd6",
@@ -204,9 +204,9 @@
    "published": "2026-11-21T18:04:47Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~ Emily Riehl. https://adam.math.hhu.de/#/g/emilyriehl/ReintroductionToProofs #LeanProver #LeanLang",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean game by Emily Riehl introducing informal dependent type theory at an introduction-to-proofs level.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:08638e800f91cf17",
@@ -221,9 +221,9 @@
    "published": "2026-11-21T17:16:37Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "[(Kevin Buzzard says) This is a guest post by Mitchell Taylor, a mathematician who gave a talk at Imperial’s PDE seminar a few weeks ago on the topic below. If you had shown me this blog post in 2024 and … Continue reading →",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Guest post by Mitchell Taylor on using Lean for working mathematicians, adapted from a talk at Imperial's PDE seminar.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:7285cad39d74b239",
@@ -238,9 +238,9 @@
    "published": "2026-11-21T16:34:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as correct. Congratulations to Levent on this achievement. Full statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean and Mathlib communities certify Levent Alpöge's Lean proof of the Riemann Hypothesis as correct.",
+   "score": 5,
+   "relevant": true
   },
   {
    "id": "u:1e3f9e33b1752f77",
@@ -255,9 +255,9 @@
    "published": "2026-11-21T15:53:42Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintroductionToProofs #LeanProver #LeanLang",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Verbose Lean edition of Reintroduction to Proofs, a Lean-based course by Bentkamp and Eugster.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:9c836c18b69ca883",
@@ -272,9 +272,9 @@
    "published": "2026-11-21T15:15:47Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Joint Lean and Mathlib statement endorsed by Lean FRO and Mathlib Initiative on the Lean verification of the Riemann Hypothesis.",
+   "score": 5,
+   "relevant": true
   },
   {
    "id": "u:18d9f9bc59b30c8a",
@@ -289,9 +289,9 @@
    "published": "2026-11-21T13:55:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code. We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. Our rationale is outlined below. The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness. We…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean and Mathlib communities endorse Levent Alpöge's 17-million-line Lean proof of the Riemann Hypothesis after verifying it.",
+   "score": 5,
+   "relevant": true
   },
   {
    "id": "u:b0b14f1bf3f84607",
@@ -306,9 +306,9 @@
    "published": "2026-11-21T13:11:55Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione. https://arxiv.org/abs/2611.18220 #LeanProver #LeanLang #ITP #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Paper on using Lean to move system identification proofs from pen-and-paper to machine-checked form.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:ba4bc0e3f651c8d8",
@@ -323,9 +323,9 @@
    "published": "2026-11-21T13:06:46Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math #LeanProver #LeanLang #ITP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Paper on refining LLM math proofs from sorry placeholders to complete proofs via angelic execution, with Lean.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:898fcec95b056c4f",
@@ -340,9 +340,9 @@
    "published": "2026-11-21T13:02:49Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math #LeanProver #LeanLang #ITP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Turing agent paper on agentic formal verification for mathematical research, by Yang Chen et al.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:14594582fd53b35d",
@@ -357,9 +357,9 @@
    "published": "2026-11-21T12:54:01Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes. http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf #LeanProver #LeanLang #ITP #AI4Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Shares a CMU report on domain theory formalized in Lean 4 by Ericson, Scott, D'Silva and Milnes.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:ad70c7b93318521d",
@@ -374,9 +374,9 @@
    "published": "2026-11-21T12:49:22Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi. https://arxiv.org/abs/2611.20169v #LeanProver #LeanLang #ITP #AI4Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian, by Manfredi and Moosavi.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:a0929aaff4953010",
@@ -391,9 +391,9 @@
    "published": "2026-11-20T21:46:43Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh #leanprover",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Live feed monitoring an independent Lean check of the GRH proof.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:1b9cafd171f4a5b1",
@@ -408,9 +408,9 @@
    "published": "2026-11-20T21:41:05Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths #leanprover #lean",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Social post encouraging newcomers to start learning Lean without needing a PhD.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:1b599e79317e20ab",
@@ -425,9 +425,9 @@
    "published": "2026-11-20T17:43:59Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett. https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/ #LeanProver #AI4Math #AI #Math",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Scientific American report on an Anthropic mathematician's claimed proof of the Riemann Hypothesis.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:fd71a9d69b0ab322",
@@ -442,29 +442,9 @@
    "published": "2026-11-20T16:21:05Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent Alpöge, a mathematician at Anthropic, posted a PDF claiming a proof of the Riemann Hypothesis, developed with Claude, and extending to the Generalized Riemann…",
-   "summary": null,
-   "score": null,
-   "relevant": null
-  },
-  {
-   "id": "arxiv:2611.27631",
-   "type": "paper",
-   "source": "arXiv cs.AI",
-   "source_id": "arxiv-api",
-   "title": "Learning Inside Types: Epistemic Typestates for Safe Multi-Agent Reinforcement Learning",
-   "url": "https://arxiv.org/abs/2611.27631",
-   "authors": [
-    "Lorenzo Bacchiani",
-    "Mario Bravetti",
-    "Giovanni Pau",
-    "Roberto Girau"
-   ],
-   "published": "2026-11-20T13:57:03Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Type disciplines make programs safe by construction: components checked against each other's types compose into programs that cannot go wrong in the ways the types exclude. Types suit reinforcement learning: a type constrains what an agent may choose, not how it chooses, so the guarantee holds for every policy a learner produces. We introduce epistemic typestates, a type discipline for safe multi-agent reinforcement learning. An agent's type is a protocol whose states record its beliefs, the worlds it cannot rule out from its own observations and actions, and permits only actions that are…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Shared HN thread on Levent Alpöge's claimed proof of the Riemann Hypothesis, developed with Claude.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.27553",
@@ -481,9 +461,9 @@
    "published": "2026-11-20T12:49:46Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The correctness of modern effectful programs depends not only on their final results but also on the temporal evolution of observable interactions with their environments. Interaction Trees (ITrees) provide a reusable denotational semantics for such programs by representing effectful computations as potentially infinite trees of observable interactions. However, reusable temporal reasoning over ITrees remains largely unexplored. This paper presents a compositional temporal specification framework for ITrees. We introduce iBuchi, a shallowly embedded temporal specification language based on…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents iBuchi, a compositional temporal specification language for reasoning about Interaction Trees in effectful programs.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.27487",
@@ -498,9 +478,9 @@
    "published": "2026-11-20T11:32:52Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Writing Neural tangent kernel (NTK) theory explains why very wide neural networks trained by gradient methods converge in the lazy-training regime. Its standard proof combines matrix concentration, random Gram matrices, continuous-time dynamics, spectral perturbation, and a bootstrap argument, but has lacked machine-checked verification. We present a Lean\\~4 formalisation for two-layer networks, proving an end-to-end theorem: for a smooth bounded activation (instantiated with $σ=\\tanh$), frozen biases, paired $\\pm 1$ initialisation, and explicit width conditions, gradient flow exists…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents a Lean 4 formalisation of neural tangent kernel convergence theory for two-layer networks with an end-to-end machine-checked theorem.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:952c9ab2da1354d1",
@@ -515,9 +495,9 @@
    "published": "2026-11-20T08:28:38Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean 4 challenge 31 on showing the identity sequence has no convergent subsequences.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:8676f7f6becc11a9",
@@ -532,9 +512,9 @@
    "published": "2026-11-19T20:10:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak. Scaling to libraries like Mathlib and CSLib is a core Lean FRO goal. See the release notes for more: https://lean-lang.org/doc/reference/latest/releases/v4.37.0/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:456db17d91515c25",
@@ -549,9 +529,9 @@
    "published": "2026-11-19T20:02:05Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification. #SecurityNow #FormalVerification Download and subscribe here: https://twit.tv/shows/security-now/episodes/1105",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Podcast episode discussing what mathematical proof can tell us about software and AI's role in formal code verification.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.26754",
@@ -568,9 +548,9 @@
    "published": "2026-11-19T19:49:06Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Language models are now used throughout all sciences - for reading literature, extracting numbers from tables and spectra, analyzing data, drafting conclusions - and their answers arrive in the same polished confident tone whether they are right or wrong, so a result has to be re-derived by a human researcher before it can be relied on. The cost of that re-checking, not the ability to generate results, is what currently limits AI-assisted research. In the field of mathematics, this problem is solved by proof assistants like Lean 4 and Coq that let any formal statement and its proof be…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Argues that LLM-driven science needs human re-checking and contrasts it with proof assistants like Lean 4 and Coq in mathematics.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.26221",
@@ -588,9 +568,9 @@
    "published": "2026-11-19T15:00:25Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Proves and mechanizes in Lean 4 a data-flow summary approach for calls from programs to LLMs in LLM-integrated applications.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:3d403f7f34e4908a",
@@ -605,9 +585,9 @@
    "published": "2026-11-19T09:07:02Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.25599",
@@ -626,9 +606,9 @@
    "published": "2026-11-19T06:46:27Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user's file system, processes, or privileges. Existing defense mechanisms rely on either LLM-based monitors, which lack provable safety guarantees, or stateless policy enforcement layers, which miss multi-step data flows and execution side-effects unmodeled by the policy language (e.g., network calls initiated inside a Python script). We introduce Tether, a framework…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Introduces Tether, a verified stateful policy engine for system-level monitoring of AI agents' shell commands and side effects.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.25174",
@@ -643,9 +623,9 @@
    "published": "2026-11-18T21:00:33Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents a Rust semidefinite programming solver whose full correctness verification in Verus was generated by Claude.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.24788",
@@ -661,9 +641,9 @@
    "published": "2026-11-18T17:35:47Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Describes Isabelle Pool Server, a pooled HTTP verification service for warm Isabelle sessions supporting proof checking, branching and multi-agent proving.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.24649",
@@ -680,9 +660,9 @@
    "published": "2026-11-18T15:52:18Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Choreographic programming (CP) describes a distributed system as a global program and compiles it into communicating network programs via endpoint projection (EPP). Asynchrony captures the independent progress of communicating processes, while nondeterminism captures the range of behaviours that can arise from their interactions. However, the integration of both features into a theory of CP is absent. We present Nyarlathotep, the first asynchronous nondeterministic CP framework. We define its operational semantics of choreographies and networks using labelled transition systems. Besides…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents Nyarlathotep, an asynchronous nondeterministic choreographic programming framework with labelled transition system semantics for distributed systems.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:bc0aec336467039e",
@@ -697,9 +677,9 @@
    "published": "2026-11-18T13:48:41Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This is release candidate 1 for the v4.37.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.37.0/) for more information.",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Release candidate 1 of Lean 4 v4.37.0, with a link to the release notes.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.24083",
@@ -717,9 +697,9 @@
    "published": "2026-11-18T09:11:18Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Proposes verifiable symbolic policy adaptation for safe reinforcement learning, using formal verification to check policy safety constraints.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:2226859d230100de",
@@ -734,9 +714,9 @@
    "published": "2026-11-17T17:59:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now builds roughly 12% faster than before. 🔗 Release notes: https://lean-lang.org/doc/reference/latest/releases/v4.36.0/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean 4.36.0 release with 222 changes focused on consolidation and performance, including a 12% faster Mathlib build.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:d0f99c471d88ac28",
@@ -751,9 +731,9 @@
    "published": "2026-11-17T17:58:38Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the highlights: • Much of the work went into performance, including keeping the type class cache between commands and removing several slowdowns that grew…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Announcement of Lean 4.36.0 with 222 changes, including 30 performance improvements.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:586bb6a14034af20",
@@ -768,9 +748,9 @@
    "published": "2026-11-17T17:56:40Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better. #TLAPlus #FormalMethods #ModelChecking #FormalVerification #DistributedSystems…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Announcement of the TLA+ 2026 Community Survey asking about TLA+ use.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.22613",
@@ -804,9 +784,9 @@
    "published": "2026-11-17T10:41:38Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "rocq.rboud.com rocq-web rocq-web is Rocq 9.2 and coq-lsp compiled to WebAssembly, running in a Web Worker fully client side. It comes with 57 packages downloaded only when a file requires them. Among them are the standard library, Mathematical Components and analysis, Iris and stdpp, Equations, MetaRocq, Hierarchy-Builder and rocq-elpi, Flocq, Coquelicot, Interval and CoRN. Their OCaml plugins work too. The editor works like RocqIDE. You can check step by step or as you type, see the goals and what each tactic changed, and use hover, completion, go to definition (into the libraries’ sources…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Rocq 9.2 and coq-lsp compiled to WebAssembly, running in the browser with 57 downloadable packages.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.22523",
@@ -913,9 +893,9 @@
    "published": "2026-11-16T15:45:27Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This is the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Release of Lean 4 v4.36.0 with a link to the release notes.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.21084",
@@ -1034,9 +1014,9 @@
    "published": "2026-11-15T08:09:09Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "AI now produces machine-checked mathematics faster than researchers can read it. Can such theorems do practical computational work? We reuse one from \\mbox{OpenAI's} Lean~4 relativistic Vlasov--Maxwell library: initial fields determine the field at an outside point until plasma signals reach it, and the energy leaving a surrounding box before they reach its faces. New Lean proofs and numerical bounds give particle-free references for particle-in-cell simulations across three tasks. Domain size follows analytically from observation time, exposing boundary and initialization errors in WarpX…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Reuses a formal Lean 4 relativistic Vlasov-Maxwell library to produce proofs and numerical bounds certifying particle-in-cell plasma simulation references.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.19618",
@@ -1196,9 +1176,9 @@
    "published": "2026-11-13T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Tokenization, Indentation-sensitive Grammars & Executable Recognizers in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on tokenization, indentation-sensitive grammars and executable recognizers.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:762f03f8984448f6",
@@ -1213,9 +1193,9 @@
    "published": "2026-11-12T16:19:40Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Next semester, I will be organizing a graduate seminar on Agentic Proof Engineering – building formal proofs about software systems, at scale, in collaboration with AI agents – at the University of Pennsylvania. It will be simulcast as a live webinar for participants outside Penn. The course meets on Mondays and Wednesdays from 10:15AM to 11:45AM (US Eastern time) starting on January 20, 2027. Sessions will be recorded, and there will be asynchronous channels for discussion and collaboration. Further logistical details will be announced on the course’s mailing list, which you are cordially…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Course announcement for a graduate seminar on Agentic Proof Engineering at UPenn, starting January 2027, with a live webinar.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.16886",
@@ -1249,9 +1229,9 @@
    "published": "2026-11-12T13:22:54Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "It's nice to see news about #formalverification on a major tech news site (#arstechnica). The impact of formal verification in the age of #agentic_AI is impressive. https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/ #ai",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on Ars Technica coverage of Signal's encryption passing an AI-powered formal verification check.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:f237589ca492ef3e",
@@ -1266,9 +1246,9 @@
    "published": "2026-11-12T09:11:42Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Introducing #AlphaProof Code: a breakthrough in verifying complex software at depth https://deepmind.google/blog/introducing-alphaproof-code/ #formalverification #google",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "DeepMind announces AlphaProof Code for verifying complex software at depth.",
+   "score": 5,
+   "relevant": true
   },
   {
    "id": "u:493748425ffbe989",
@@ -1283,9 +1263,9 @@
    "published": "2026-11-12T00:50:07Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important signal that can be extracted from … Continue reading →",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Xena post explaining how to interpret claims that a theorem is correct because it was checked in Lean.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:a7899944b31c35a5",
@@ -1300,9 +1280,9 @@
    "published": "2026-11-11T15:15:20Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "POV: your security audit used to take years deepmind's agents just formally verified signal's actual code, down to machine instructions, in 4 weeks millions of lines of lean. humans reviewed about 1% of the code they re-added two old bugs. it proved both versions insecure…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on DeepMind agents formally verifying Signal's code down to machine instructions in Lean, finding two old bugs.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.15548",
@@ -1375,9 +1355,9 @@
    "published": "2026-11-11T05:23:28Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "[Everyone is doing guest posts these days, so here’s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang] We … Continue reading →",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Guest post by several authors on a modern reorganization of mathematics around the Weil conjectures, with no formalization angle.",
+   "score": 1,
+   "relevant": false
   },
   {
    "id": "u:60e3525eb46bf736",
@@ -1392,9 +1372,9 @@
    "published": "2026-11-11T00:04:03Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A New #AI Tool From #Google #DeepMind Proved the #Signal Protocol Is Secure DeepMind researchers were able to formally verify that the widely used #encryption protocol works as intended. Their stretch goal? Do the same for “all the #software of the world.” More broadly, AI-aided…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post reporting DeepMind researchers used an AI tool to formally verify that the Signal protocol works as intended.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:0dcaf857d606a986",
@@ -1409,9 +1389,9 @@
    "published": "2026-11-10T22:31:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Lean FRO is hiring a full-time remote Technical Communications and Content Lead.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.14201",
@@ -1520,9 +1500,9 @@
    "published": "2026-11-09T14:41:36Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Dear all, It is our pleasure to announce the first session of the second year of our working group dedicated to proof assistants and their use at ENS de Lyon, one week from now. The working group will be hybrid, see the locations at the bottom of the mail. The detailed schedule for Nov 16, 2026 with talks from Cyril Cohen, Reynald Affeldt et Alexandre Moine 10:30-12:00 Rocq Tutorial #1 (reloaded) Cyril Cohen: an introduction to the Rocq prover. 13:30-14:45 First talk Title: Formal verification of tilt estimation using the Rocq prover Presenter: Reynald Affeldt (joint work with Lynda…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "ENS de Lyon proof assistant seminar session on Nov 16, 2026, with Rocq tutorial and formal verification talks.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.13042",
@@ -1556,9 +1536,9 @@
    "published": "2026-11-09T10:36:43Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "While this event takes place in the Netherlands, people from all over the world who are most welcome! ================================================= Call for Participation 2027 Dutch Winter School on Logic and Verification 18-22 January 2027 Leiden University, The Netherlands https://www.cyclic-structures.nl/winter-school/2027.html ================================================= The 2027 Dutch Winter School on Logic and Verification is a 4.5 day event aimed at PhD/graduate students in theoretical computer science with an interest in software verification, logic, and type theory. Strong…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Call for participation in the 2027 Dutch Winter School on Logic and Verification, January 2027 at Leiden University.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.11641",
@@ -1635,9 +1615,9 @@
    "published": "2026-11-06T22:23:58Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In my spare time I has been developing SLOT, a library that can be thought as a formally-verified model checker for functional actor-based languages, performing I/O with nondeterministic side effects (read: Erlang). This project is still at a relatively early stage of development, but recently I’ve achieved the first milestone: completion of the core theory. A little bit about the design choices: I/O is emulated by composable effect handlers. Users can supply their own. This differentiates it from Verdi, which comes with predefined effects related to network and disk (at least when I last…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "SLOT, an early-stage formally verified model checker for actor-based languages with I/O, announced on Rocq Discourse.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.09134",
@@ -1688,9 +1668,9 @@
    "published": "2026-11-06T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Chvátal's Theorem on the Ramsey Number of a Triangle versus a Tree in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry formalizing Chvátal's theorem on the Ramsey number of a triangle versus a tree.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.08277",
@@ -1787,9 +1767,9 @@
    "published": "2026-11-04T09:57:29Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Hello, I’m working on formalising the 1969 book of Federer “Geometric measure theory” in Rocq using Mathematical Components, ssreflect and Hierarchy Builder. The code is now public: Repository sk197876/math GitHub - sk197876/math: Formalisations of mathematical results Formalisations of mathematical results Actually, the whole formalisation process is done by codex using (mostly) GPT-6.1-Sol model. I’m only supervising the process. I know that Lean has a lot bigger math library but I was learning a bit of Coq during my master’s program (20 years ago) and know a little bit of it while I do…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Project announcement formalising Federer's Geometric Measure Theory in Rocq, largely written with Codex under supervision.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.06962",
@@ -1889,9 +1869,9 @@
    "published": "2026-11-03T12:08:17Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "I have released `rocq-segmap`, a verified implementation of segment maps, a (supposedly) fast data structure that represents thinnings, or increasing functions of the natural numbers to the natural numbers. The data structure is described in this submitted paper. 1 post - 1 participant Read full topic",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "First release of rocq-segmap, a verified Rocq implementation of segment maps representing thinnings.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:b2544c2f78226752",
@@ -1906,9 +1886,9 @@
    "published": "2026-11-03T07:15:12Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "I tried formal verification beside a small Java inventory class. With one item and two callers, an atomic decrement still lets the broken version oversell. TLC finds the failing sequence in the model. Lean checks a separate arithmetic rule. The Java tests stay, of course: neither formal check…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Account of combining TLC model checking and a Lean arithmetic check with a small Java inventory class.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.04172",
@@ -1960,9 +1940,9 @@
    "published": "2026-11-02T08:54:10Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "== Call for Participation== Registration is now open for the 36th Nordic Workshop on Programming Theory, to be held November 19-20th, 2026 at the University of Tartu in Tartu, Estonia. Conference web page: https://kodu.ut.ee/~nester/nwpt-2026/main.html Preliminary Program: https://kodu.ut.ee/~nester/nwpt-2026/program.html Registration: https://kodu.ut.ee/~nester/nwpt-2026/registration.html == Important Dates (AOE) == Submission of Abstracts: October 5th, October 10th, 2026, 23:59 AOE Notification: October 30th, 2026 Submission of Final Version of Abstracts: November 6th, 23:59 AOE…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Call for participation in the 36th Nordic Workshop on Programming Theory in Tartu, November 2026.",
+   "score": 1,
+   "relevant": false
   },
   {
    "id": "arxiv:2611.02028",
@@ -2081,9 +2061,9 @@
    "published": "2026-10-30T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Finite-Dimensional Algebras and Scalar Towers in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on finite-dimensional algebras and scalar towers.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.40503",
@@ -2169,9 +2149,9 @@
    "published": "2026-10-29T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Isoperimetric Inequality for Rectifiable Simple Closed Curves in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the isoperimetric inequality for rectifiable simple closed curves.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:a61c6a480c5fc6ba",
@@ -2184,9 +2164,9 @@
    "published": "2026-10-29T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Type safety for Isabelle/Solidity in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on type safety for Isabelle/Solidity.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.38616",
@@ -2216,9 +2196,9 @@
    "published": "2026-10-28T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Abel-Ruffini theorem and the unsolvability of the quintic in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the Abel-Ruffini theorem and the unsolvability of the quintic.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:1a8dd355632befa1",
@@ -2233,9 +2213,9 @@
    "published": "2026-10-27T18:38:15Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This is release candidate 2 for the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Release candidate 2 of Lean 4 v4.36.0, with a link to the release notes.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:2fe0a337539450f5",
@@ -2250,9 +2230,9 @@
    "published": "2026-10-27T17:30:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean on November 7 has reached in-person capacity! If you're interested in attending live, please join the waitlist: A livestream link will be shared with all waitlisted registrants a few days before the event. [contains quote post or other embedded content]",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean on November 7 has reached in-person capacity and is taking a waitlist.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:b1cc44b2ee28b986",
@@ -2267,9 +2247,9 @@
    "published": "2026-10-27T15:06:31Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "FRIDA @ POPL 2027 - 13th Workshop on Formal Reasoning in Distributed Algorithms Monday 11 January 2027, Mexico City Submission deadline: Friday 6 November 2026 (AoE) popl27.sigplan.org FRIDA 2027 - (Workshop on Formal Reasoning in Distributed Algorithms) - POPL... FRIDA 2027, the 13th Workshop on Formal Reasoning in Distributed Algorithms, is a one-day workshop held on Monday 11 January 2027. The call for talks is open: submit a short abstract and a PDF of at most 2 pages at https://frida2027.hotcrp.com/ by... Dear colleagues, FRIDA brings together researchers in distributed algorithms…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Call for talks at FRIDA 2027, the workshop on formal reasoning in distributed algorithms at POPL, January 2027.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:bb9c52d036502ca1",
@@ -2284,9 +2264,9 @@
    "published": "2026-10-27T15:06:14Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.37244",
@@ -2336,9 +2316,9 @@
    "published": "2026-10-27T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Path Lifting and Homology of the Circle and Punctured Plane in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on path lifting and homology of the circle and punctured plane.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:1d8ce2c9ec3e5bcd",
@@ -2353,9 +2333,9 @@
    "published": "2026-10-26T22:24:21Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean comes to Stanford University on November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Talks will cover Rust verification with the Aeneas framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean event at Stanford on November 7, with talks on Rust verification and verified OS kernels.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:843c731b7747185b",
@@ -2370,9 +2350,9 @@
    "published": "2026-10-26T22:24:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean (SVIL) comes to Stanford University on Saturday, November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Program and registration: beneficial-ai-foundation.github.io/SVIL2026_Fall/ https://beneficial-ai-foundation.github.io/SVIL2026_Fall/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean (SVIL) at Stanford on November 7, co-organized by Beneficial AI Foundation and Lean FRO.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.36343",
@@ -2458,9 +2438,9 @@
    "published": "2026-10-26T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In our Renaissance Philanthropy-funded project Copilots for Isabelle, we develop methods and tools that allow AI agents to conveniently interface with Isabelle. One major outcome of the project so far is Kevin Kappelmann’s PIDE MCP component1, which presents AI agents with a live view of Isabelle much like we human users have it through Isabelle/jEdit. I am trying to keep Claude entertained through ((semi-)auto-)formalization case studies using this tool; this was also the goal for my summer vacation (with a week of FLoC in the middle) where I was looking for a larger project on which Claude…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Traytel on using Claude with Isabelle through a PIDE MCP component for (semi-)automatic formalization case studies.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:6c31240bd09b10ee",
@@ -2473,9 +2453,9 @@
    "published": "2026-10-26T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Irrationality of ζ(5) in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the irrationality of zeta(5).",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.34490",
@@ -2548,9 +2528,9 @@
    "published": "2026-10-25T10:28:46Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "@modul_ds @mergesort @nesevis #Kani, a model checker for #Rust, has an experimental feature for coverage - it reports how much code you've covered with your spec and if there are any gaps: https://model-checking.github.io/kani/reference/experimental/coverage.html If a spec fails, it can also…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on Kani, a Rust model checker, and its experimental coverage feature for reporting spec gaps.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.33860",
@@ -2572,23 +2552,6 @@
    "summary": "Numina Fuse is an agent-based application for autoformalizing mathematics in Lean 4, with human supervision of agent work through blueprint and dependency…",
    "score": 4,
    "relevant": true
-  },
-  {
-   "id": "u:23c121e454afa508",
-   "type": "social",
-   "source": "#formalverification on Mathstodon",
-   "source_id": "mathstodon-formalverification",
-   "title": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that…",
-   "url": "https://mathstodon.xyz/@aleph_1/117496318107098132",
-   "authors": [
-    "@aleph_1@mathstodon.xyz"
-   ],
-   "published": "2026-10-24T14:18:53Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that AI-generated mathematical proofs risk prioritizing answers over understanding. OpenAI reportedly released answers to 722 previously unsolved problems, raising questions…",
-   "summary": null,
-   "score": null,
-   "relevant": null
   }
  ]
 }

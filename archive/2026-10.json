@@ -93,9 +93,9 @@
    "published": "2026-10-30T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Finite-Dimensional Algebras and Scalar Towers in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on finite-dimensional algebras and scalar towers.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.40503",
@@ -181,9 +181,9 @@
    "published": "2026-10-29T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Isoperimetric Inequality for Rectifiable Simple Closed Curves in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the isoperimetric inequality for rectifiable simple closed curves.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:a61c6a480c5fc6ba",
@@ -196,9 +196,9 @@
    "published": "2026-10-29T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Type safety for Isabelle/Solidity in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on type safety for Isabelle/Solidity.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.38616",
@@ -228,9 +228,9 @@
    "published": "2026-10-28T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Abel-Ruffini theorem and the unsolvability of the quintic in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the Abel-Ruffini theorem and the unsolvability of the quintic.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:1a8dd355632befa1",
@@ -245,9 +245,9 @@
    "published": "2026-10-27T18:38:15Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "This is release candidate 2 for the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Release candidate 2 of Lean 4 v4.36.0, with a link to the release notes.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:2fe0a337539450f5",
@@ -262,9 +262,9 @@
    "published": "2026-10-27T17:30:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean on November 7 has reached in-person capacity! If you're interested in attending live, please join the waitlist: A livestream link will be shared with all waitlisted registrants a few days before the event. [contains quote post or other embedded content]",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean on November 7 has reached in-person capacity and is taking a waitlist.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:b1cc44b2ee28b986",
@@ -279,9 +279,9 @@
    "published": "2026-10-27T15:06:31Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "FRIDA @ POPL 2027 - 13th Workshop on Formal Reasoning in Distributed Algorithms Monday 11 January 2027, Mexico City Submission deadline: Friday 6 November 2026 (AoE) popl27.sigplan.org FRIDA 2027 - (Workshop on Formal Reasoning in Distributed Algorithms) - POPL... FRIDA 2027, the 13th Workshop on Formal Reasoning in Distributed Algorithms, is a one-day workshop held on Monday 11 January 2027. The call for talks is open: submit a short abstract and a PDF of at most 2 pages at https://frida2027.hotcrp.com/ by... Dear colleagues, FRIDA brings together researchers in distributed algorithms…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Call for talks at FRIDA 2027, the workshop on formal reasoning in distributed algorithms at POPL, January 2027.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:bb9c52d036502ca1",
@@ -296,9 +296,9 @@
    "published": "2026-10-27T15:06:14Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.37244",
@@ -348,9 +348,9 @@
    "published": "2026-10-27T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Path Lifting and Homology of the Circle and Punctured Plane in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on path lifting and homology of the circle and punctured plane.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "u:1d8ce2c9ec3e5bcd",
@@ -365,9 +365,9 @@
    "published": "2026-10-26T22:24:21Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean comes to Stanford University on November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Talks will cover Rust verification with the Aeneas framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean event at Stanford on November 7, with talks on Rust verification and verified OS kernels.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:843c731b7747185b",
@@ -382,9 +382,9 @@
    "published": "2026-10-26T22:24:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Software Verification in Lean (SVIL) comes to Stanford University on Saturday, November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Program and registration: beneficial-ai-foundation.github.io/SVIL2026_Fall/ https://beneficial-ai-foundation.github.io/SVIL2026_Fall/",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Software Verification in Lean (SVIL) at Stanford on November 7, co-organized by Beneficial AI Foundation and Lean FRO.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.36343",
@@ -470,9 +470,9 @@
    "published": "2026-10-26T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In our Renaissance Philanthropy-funded project Copilots for Isabelle, we develop methods and tools that allow AI agents to conveniently interface with Isabelle. One major outcome of the project so far is Kevin Kappelmann’s PIDE MCP component1, which presents AI agents with a live view of Isabelle much like we human users have it through Isabelle/jEdit. I am trying to keep Claude entertained through ((semi-)auto-)formalization case studies using this tool; this was also the goal for my summer vacation (with a week of FLoC in the middle) where I was looking for a larger project on which Claude…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Traytel on using Claude with Isabelle through a PIDE MCP component for (semi-)automatic formalization case studies.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "u:6c31240bd09b10ee",
@@ -485,9 +485,9 @@
    "published": "2026-10-26T00:00:00Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The Irrationality of ζ(5) in the AFP",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Archive of Formal Proofs entry on the irrationality of zeta(5).",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.34490",
@@ -560,9 +560,9 @@
    "published": "2026-10-25T10:28:46Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "@modul_ds @mergesort @nesevis #Kani, a model checker for #Rust, has an experimental feature for coverage - it reports how much code you've covered with your spec and if there are any gaps: https://model-checking.github.io/kani/reference/experimental/coverage.html If a spec fails, it can also…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on Kani, a Rust model checker, and its experimental coverage feature for reporting spec gaps.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.33860",
@@ -598,9 +598,10 @@
    "published": "2026-10-24T14:18:53Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that AI-generated mathematical proofs risk prioritizing answers over understanding. OpenAI reportedly released answers to 722 previously unsolved problems, raising questions…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Post on Terence Tao's view that AI-generated proofs risk prioritizing answers over understanding, not about formal verification.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   }
  ]
 }

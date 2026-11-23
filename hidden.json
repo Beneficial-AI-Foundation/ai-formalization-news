@@ -1,0 +1,45 @@
+{
+ "version": 1,
+ "updated": "2026-11-23T06:45:41Z",
+ "items": [
+  {
+   "id": "arxiv:2611.27631",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Learning Inside Types: Epistemic Typestates for Safe Multi-Agent Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.27631",
+   "authors": [
+    "Lorenzo Bacchiani",
+    "Mario Bravetti",
+    "Giovanni Pau",
+    "Roberto Girau"
+   ],
+   "published": "2026-11-20T13:57:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Type disciplines make programs safe by construction: components checked against each other's types compose into programs that cannot go wrong in the ways the types exclude. Types suit reinforcement learning: a type constrains what an agent may choose, not how it chooses, so the guarantee holds for every policy a learner produces. We introduce epistemic typestates, a type discipline for safe multi-agent reinforcement learning. An agent's type is a protocol whose states record its beliefs, the worlds it cannot rule out from its own observations and actions, and permits only actions that are…",
+   "summary": "Introduces epistemic typestates as a type discipline for safe multi-agent reinforcement learning, not involving formal proofs.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:23c121e454afa508",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that…",
+   "url": "https://mathstodon.xyz/@aleph_1/117496318107098132",
+   "authors": [
+    "@aleph_1@mathstodon.xyz"
+   ],
+   "published": "2026-10-24T14:18:53Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that AI-generated mathematical proofs risk prioritizing answers over understanding. OpenAI reportedly released answers to 722 previously unsolved problems, raising questions…",
+   "summary": "Post on Terence Tao's view that AI-generated proofs risk prioritizing answers over understanding, not about formal verification.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  }
+ ]
+}
