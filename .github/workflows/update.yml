@@ -64,6 +64,8 @@ jobs:
       - name: Fetch, filter and write data
         # Claude runs through Anthropic when ANTHROPIC_API_KEY is set, otherwise through
         # OpenRouter when OPENROUTER_API_KEY is set (a stopgap), otherwise not at all.
+        # The keys are secrets of the github-pages environment, which only main may use,
+        # so any job that calls Claude must keep `environment: github-pages`.
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
