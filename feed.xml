@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
+ <title>AI and formalization news (Beneficial AI Foundation)</title>
+ <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
+ <updated>2026-11-23T06:45:41Z</updated>
+ <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
+ <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
+ <author>
+  <name>Beneficial AI Foundation</name>
+ </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388</id>
+  <title>Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388" rel="alternate" />
+  <published>2026-11-23T06:29:56Z</published>
+  <updated>2026-11-23T06:29:56Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Math #Lean4Challenge (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826</id>
+  <title>Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826" rel="alternate" />
+  <published>2026-11-23T06:26:28Z</published>
+  <updated>2026-11-23T06:26:28Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4 (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.26906</id>
+  <title>Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers</title>
+  <link href="https://arxiv.org/abs/2611.26906" rel="alternate" />
+  <published>2026-11-23T05:00:00Z</published>
+  <updated>2026-11-23T05:00:00Z</updated>
+  <author>
+   <name>Wei Jiang</name>
+  </author>
+  <author>
+   <name>Ziran Liu</name>
+  </author>
+  <author>
+   <name>Wei Wang</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware predict-and-verify system that allocates computation across unresolved subgoals and heterogeneous LLM solvers. BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises the allocation as verification feedback… (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
+  <id>https://mastodon.social/@orderwithchaos/117662656557828227</id>
+  <title>This post aptly captures the "limitations" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming…</title>
+  <link href="https://mastodon.social/@orderwithchaos/117662656557828227" rel="alternate" />
+  <published>2026-11-22T23:20:56Z</published>
+  <updated>2026-11-22T23:20:56Z</updated>
+  <author>
+   <name>@orderwithchaos@mastodon.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">This post aptly captures the "limitations" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming into the LEAN proof of RH discussion consider these limitations. https://tagide.com/blog/research/formal-verification-is-not-the-silver-bullet/ via @crista… (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@arhamzahid235711/117661742180814394</id>
+  <title>I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a…</title>
+  <link href="https://mathstodon.xyz/@arhamzahid235711/117661742180814394" rel="alternate" />
+  <published>2026-11-22T19:28:24Z</published>
+  <updated>2026-11-22T19:28:24Z</updated>
+  <author>
+   <name>@arhamzahid235711@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a table mapping 125 statements to the Lean declarations that formalize them. Prepared with heavy use of Claude; not refereed. Corrections very welcome… (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mastodon.social/@EvoMRI/117660098331068750</id>
+  <title>A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/…</title>
+  <link href="https://mastodon.social/@EvoMRI/117660098331068750" rel="alternate" />
+  <published>2026-11-22T12:30:21Z</published>
+  <updated>2026-11-22T12:30:21Z</updated>
+  <author>
+   <name>@EvoMRI@mastodon.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/ #dataviz #mathematics #leanprover (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819</id>
+  <title>Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819" rel="alternate" />
+  <published>2026-11-22T10:56:21Z</published>
+  <updated>2026-11-22T10:56:21Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course #LeanProver #LeanLang #ITP #AI4Math #AI #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093</id>
+  <title>Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093" rel="alternate" />
+  <published>2026-11-22T10:50:42Z</published>
+  <updated>2026-11-22T10:50:42Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498</id>
+  <title>A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498" rel="alternate" />
+  <published>2026-11-22T08:25:50Z</published>
+  <updated>2026-11-22T08:25:50Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor. https://functionalanalysismadrid.com/lean_guide.pdf #LeanProver #LeanLang #ITP #AI4Math #AI #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529</id>
+  <title>Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529" rel="alternate" />
+  <published>2026-11-22T08:23:33Z</published>
+  <updated>2026-11-22T08:23:33Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://manganiello.tech/@nemo/117658037494589749</id>
+  <title>Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed…</title>
+  <link href="https://manganiello.tech/@nemo/117658037494589749" rel="alternate" />
+  <published>2026-11-22T03:46:15Z</published>
+  <updated>2026-11-22T03:46:15Z</updated>
+  <author>
+   <name>@nemo@manganiello.tech</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including Lean’s kernel. A landmark for formal mathematics. ✅📐 #LeanProver #Math leanprover-community.github.io/blog/posts/riemann-hypothesis/ (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184</id>
+  <title>Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184" rel="alternate" />
+  <published>2026-11-21T18:04:47Z</published>
+  <updated>2026-11-21T18:04:47Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~ Emily Riehl. https://adam.math.hhu.de/#/g/emilyriehl/ReintroductionToProofs #LeanProver #LeanLang (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician</id>
+  <title>Lean for the working mathematician</title>
+  <link href="https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician" rel="alternate" />
+  <published>2026-11-21T17:16:37Z</published>
+  <updated>2026-11-21T17:16:37Z</updated>
+  <author>
+   <name>xenaproject</name>
+  </author>
+  <category term="blog" />
+  <summary type="text">[(Kevin Buzzard says) This is a guest post by Mitchell Taylor, a mathematician who gave a talk at Imperial’s PDE seminar a few weeks ago on the topic below. If you had shown me this blog post in 2024 and … Continue reading → (Xena (Kevin Buzzard))</summary>
+ </entry>
+ <entry>
+  <id>https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v</id>
+  <title>The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as…</title>
+  <link href="https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v" rel="alternate" />
+  <published>2026-11-21T16:34:00Z</published>
+  <updated>2026-11-21T16:34:00Z</updated>
+  <author>
+   <name>Lean FRO</name>
+  </author>
+  <category term="social" />
+  <summary type="text">The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as correct. Congratulations to Levent on this achievement. Full statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ (Lean FRO on Bluesky)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140</id>
+  <title>Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintrod…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140" rel="alternate" />
+  <published>2026-11-21T15:53:42Z</published>
+  <updated>2026-11-21T15:53:42Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintroductionToProofs #LeanProver #LeanLang (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://functional.cafe/@leanprover/117655086500590301</id>
+  <title>The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean…</title>
+  <link href="https://functional.cafe/@leanprover/117655086500590301" rel="alternate" />
+  <published>2026-11-21T15:15:47Z</published>
+  <updated>2026-11-21T15:15:47Z</updated>
+  <author>
+   <name>@leanprover@functional.cafe</name>
+  </author>
+  <category term="social" />
+  <summary type="text">The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the… (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover-community.github.io/blog/posts/riemann-hypothesis</id>
+  <title>Lean verification of the Riemann Hypothesis</title>
+  <link href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis" rel="alternate" />
+  <published>2026-11-21T13:55:00Z</published>
+  <updated>2026-11-21T13:55:00Z</updated>
+  <author>
+   <name>Lean and Mathlib communities</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code. We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. Our rationale is outlined below. The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness. We… (Lean community blog)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738</id>
+  <title>From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738" rel="alternate" />
+  <published>2026-11-21T13:11:55Z</published>
+  <updated>2026-11-21T13:11:55Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione. https://arxiv.org/abs/2611.18220 #LeanProver #LeanLang #ITP #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</id>
+  <title>From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102" rel="alternate" />
+  <published>2026-11-21T13:06:46Z</published>
+  <updated>2026-11-21T13:06:46Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math #LeanProver #LeanLang #ITP (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</id>
+  <title>Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101" rel="alternate" />
+  <published>2026-11-21T13:02:49Z</published>
+  <updated>2026-11-21T13:02:49Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math #LeanProver #LeanLang #ITP (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249</id>
+  <title>Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249" rel="alternate" />
+  <published>2026-11-21T12:54:01Z</published>
+  <updated>2026-11-21T12:54:01Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes. http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf #LeanProver #LeanLang #ITP #AI4Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861</id>
+  <title>A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861" rel="alternate" />
+  <published>2026-11-21T12:49:22Z</published>
+  <updated>2026-11-21T12:49:22Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi. https://arxiv.org/abs/2611.20169v #LeanProver #LeanLang #ITP #AI4Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@rzeta0/117650961463339881</id>
+  <title>a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh…</title>
+  <link href="https://mathstodon.xyz/@rzeta0/117650961463339881" rel="alternate" />
+  <published>2026-11-20T21:46:43Z</published>
+  <updated>2026-11-20T21:46:43Z</updated>
+  <author>
+   <name>@rzeta0@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh #leanprover (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@rzeta0/117650939257690781</id>
+  <title>Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths…</title>
+  <link href="https://mathstodon.xyz/@rzeta0/117650939257690781" rel="alternate" />
+  <published>2026-11-20T21:41:05Z</published>
+  <updated>2026-11-20T21:41:05Z</updated>
+  <author>
+   <name>@rzeta0@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths #leanprover #lean (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260</id>
+  <title>Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260" rel="alternate" />
+  <published>2026-11-20T17:43:59Z</published>
+  <updated>2026-11-20T17:43:59Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett. https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/ #LeanProver #AI4Math #AI #Math (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb</id>
+  <title>Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent…</title>
+  <link href="https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb" rel="alternate" />
+  <published>2026-11-20T16:21:05Z</published>
+  <updated>2026-11-20T16:21:05Z</updated>
+  <author>
+   <name>@best30@welley.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent Alpöge, a mathematician at Anthropic, posted a PDF claiming a proof of the Riemann Hypothesis, developed with Claude, and extending to the Generalized Riemann… (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.27631</id>
+  <title>Learning Inside Types: Epistemic Typestates for Safe Multi-Agent Reinforcement Learning</title>
+  <link href="https://arxiv.org/abs/2611.27631" rel="alternate" />
+  <published>2026-11-20T13:57:03Z</published>
+  <updated>2026-11-20T13:57:03Z</updated>
+  <author>
+   <name>Lorenzo Bacchiani</name>
+  </author>
+  <author>
+   <name>Mario Bravetti</name>
+  </author>
+  <author>
+   <name>Giovanni Pau</name>
+  </author>
+  <author>
+   <name>Roberto Girau</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Type disciplines make programs safe by construction: components checked against each other's types compose into programs that cannot go wrong in the ways the types exclude. Types suit reinforcement learning: a type constrains what an agent may choose, not how it chooses, so the guarantee holds for every policy a learner produces. We introduce epistemic typestates, a type discipline for safe multi-agent reinforcement learning. An agent's type is a protocol whose states record its beliefs, the worlds it cannot rule out from its own observations and actions, and permits only actions that are… (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.27553</id>
+  <title>Compositional Temporal Specifications for Interaction Trees</title>
+  <link href="https://arxiv.org/abs/2611.27553" rel="alternate" />
+  <published>2026-11-20T12:49:46Z</published>
+  <updated>2026-11-20T12:49:46Z</updated>
+  <author>
+   <name>Linyu Yang</name>
+  </author>
+  <author>
+   <name>Jianwei Yin</name>
+  </author>
+  <author>
+   <name>Mingshuai Chen</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">The correctness of modern effectful programs depends not only on their final results but also on the temporal evolution of observable interactions with their environments. Interaction Trees (ITrees) provide a reusable denotational semantics for such programs by representing effectful computations as potentially infinite trees of observable interactions. However, reusable temporal reasoning over ITrees remains largely unexplored. This paper presents a compositional temporal specification framework for ITrees. We introduce iBuchi, a shallowly embedded temporal specification language based on… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.27487</id>
+  <title>Verifying and Strengthening Neural Tangent Kernel Theory</title>
+  <link href="https://arxiv.org/abs/2611.27487" rel="alternate" />
+  <published>2026-11-20T11:32:52Z</published>
+  <updated>2026-11-20T11:32:52Z</updated>
+  <author>
+   <name>Hao Zhu</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Writing Neural tangent kernel (NTK) theory explains why very wide neural networks trained by gradient methods converge in the lazy-training regime. Its standard proof combines matrix concentration, random Gram matrices, continuous-time dynamics, spectral perturbation, and a bootstrap argument, but has lacked machine-checked verification. We present a Lean\~4 formalisation for two-layer networks, proving an end-to-end theorem: for a smooth bounded activation (instantiated with $σ=\tanh$), frozen biases, paired $\pm 1$ initialisation, and explicit width conditions, gradient flow exists… (arXiv cs.LG)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811</id>
+  <title>Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811" rel="alternate" />
+  <published>2026-11-20T08:28:38Z</published>
+  <updated>2026-11-20T08:28:38Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v</id>
+  <title>Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak…</title>
+  <link href="https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v" rel="alternate" />
+  <published>2026-11-19T20:10:00Z</published>
+  <updated>2026-11-19T20:10:00Z</updated>
+  <author>
+   <name>Lean FRO</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak. Scaling to libraries like Mathlib and CSLib is a core Lean FRO goal. See the release notes for more: https://lean-lang.org/doc/reference/latest/releases/v4.37.0/ (Lean FRO on Bluesky)</summary>
+ </entry>
+ <entry>
+  <id>https://mastodon.social/@TWiT/117644887681769216</id>
+  <title>🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification…</title>
+  <link href="https://mastodon.social/@TWiT/117644887681769216" rel="alternate" />
+  <published>2026-11-19T20:02:05Z</published>
+  <updated>2026-11-19T20:02:05Z</updated>
+  <author>
+   <name>@TWiT@mastodon.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification. #SecurityNow #FormalVerification Download and subscribe here: https://twit.tv/shows/security-now/episodes/1105 (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.26754</id>
+  <title>Self-verifiable LLM-driven science and why it needs human researchers</title>
+  <link href="https://arxiv.org/abs/2611.26754" rel="alternate" />
+  <published>2026-11-19T19:49:06Z</published>
+  <updated>2026-11-19T19:49:06Z</updated>
+  <author>
+   <name>Michael G. Medvedev</name>
+  </author>
+  <author>
+   <name>Nikolai V. Krivoshchapov</name>
+  </author>
+  <author>
+   <name>Stepan N. Ostarkov</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Language models are now used throughout all sciences - for reading literature, extracting numbers from tables and spectra, analyzing data, drafting conclusions - and their answers arrive in the same polished confident tone whether they are right or wrong, so a result has to be re-derived by a human researcher before it can be relied on. The cost of that re-checking, not the ability to generate results, is what currently limits AI-assisted research. In the field of mathematics, this problem is solved by proof assistants like Lean 4 and Coq that let any formal statement and its proof be… (arXiv physics.chem-ph)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.26221</id>
+  <title>Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications</title>
+  <link href="https://arxiv.org/abs/2611.26221" rel="alternate" />
+  <published>2026-11-19T15:00:25Z</published>
+  <updated>2026-11-19T15:00:25Z</updated>
+  <author>
+   <name>Zihao Xu</name>
+  </author>
+  <author>
+   <name>Yuekang Li</name>
+  </author>
+  <author>
+   <name>Ruitao Feng</name>
+  </author>
+  <author>
+   <name>Haifeng Shen</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197</id>
+  <title>PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)</title>
+  <link href="https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197" rel="alternate" />
+  <published>2026-11-19T09:07:02Z</published>
+  <updated>2026-11-19T09:07:02Z</updated>
+  <author>
+   <name>paba</name>
+  </author>
+  <category term="news" />
+  <summary type="text">We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation… (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.25599</id>
+  <title>Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents</title>
+  <link href="https://arxiv.org/abs/2611.25599" rel="alternate" />
+  <published>2026-11-19T06:46:27Z</published>
+  <updated>2026-11-19T06:46:27Z</updated>
+  <author>
+   <name>Meghana Aparna Sistla</name>
+  </author>
+  <author>
+   <name>Alaia Solko-Breslin</name>
+  </author>
+  <author>
+   <name>Somesh Jha</name>
+  </author>
+  <author>
+   <name>Aditya Kanade</name>
+  </author>
+  <author>
+   <name>Krishnamurthy Dj Dvijotham</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user's file system, processes, or privileges. Existing defense mechanisms rely on either LLM-based monitors, which lack provable safety guarantees, or stateless policy enforcement layers, which miss multi-step data flows and execution side-effects unmodeled by the policy language (e.g., network calls initiated inside a Python script). We introduce Tether, a framework… (arXiv cs.CR)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.25174</id>
+  <title>Formally Verified Semidefinite Programming</title>
+  <link href="https://arxiv.org/abs/2611.25174" rel="alternate" />
+  <published>2026-11-18T21:00:33Z</published>
+  <updated>2026-11-18T21:00:33Z</updated>
+  <author>
+   <name>Perry Hart</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus. (arXiv cs.SE)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.24788</id>
+  <title>Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving</title>
+  <link href="https://arxiv.org/abs/2611.24788" rel="alternate" />
+  <published>2026-11-18T17:35:47Z</published>
+  <updated>2026-11-18T17:35:47Z</updated>
+  <author>
+   <name>Xuanwei Ren</name>
+  </author>
+  <author>
+   <name>Wenda Li</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with… (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.24649</id>
+  <title>A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies</title>
+  <link href="https://arxiv.org/abs/2611.24649" rel="alternate" />
+  <published>2026-11-18T15:52:18Z</published>
+  <updated>2026-11-18T15:52:18Z</updated>
+  <author>
+   <name>Xueying Qin</name>
+  </author>
+  <author>
+   <name>Marco Peressotti</name>
+  </author>
+  <author>
+   <name>Fabrizio Montesi</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Choreographic programming (CP) describes a distributed system as a global program and compiles it into communicating network programs via endpoint projection (EPP). Asynchrony captures the independent progress of communicating processes, while nondeterminism captures the range of behaviours that can arise from their interactions. However, the integration of both features into a theory of CP is absent. We present Nyarlathotep, the first asynchronous nondeterministic CP framework. We define its operational semantics of choreographies and networks using labelled transition systems. Besides… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://github.com/leanprover/lean4/releases/tag/v4.37.0-rc1</id>
+  <title>Lean 4 v4.37.0-rc1 (pre-release)</title>
+  <link href="https://github.com/leanprover/lean4/releases/tag/v4.37.0-rc1" rel="alternate" />
+  <published>2026-11-18T13:48:41Z</published>
+  <updated>2026-11-18T13:48:41Z</updated>
+  <author>
+   <name>github-actions[bot]</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">This is release candidate 1 for the v4.37.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.37.0/) for more information. (Lean 4 releases)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.24083</id>
+  <title>VESPA: Verifiable Symbolic Policy Adaptation for Safe Reinforcement Learning</title>
+  <link href="https://arxiv.org/abs/2611.24083" rel="alternate" />
+  <published>2026-11-18T09:11:18Z</published>
+  <updated>2026-11-18T09:11:18Z</updated>
+  <author>
+   <name>Paul König</name>
+  </author>
+  <author>
+   <name>Sascha Marton</name>
+  </author>
+  <author>
+   <name>Stefan Lüdtke</name>
+  </author>
+  <author>
+   <name>Christian Bartelt</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and… (arXiv cs.LG)</summary>
+ </entry>
+ <entry>
+  <id>https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f</id>
+  <title>Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now…</title>
+  <link href="https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f" rel="alternate" />
+  <published>2026-11-17T17:59:00Z</published>
+  <updated>2026-11-17T17:59:00Z</updated>
+  <author>
+   <name>Lean FRO</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now builds roughly 12% faster than before. 🔗 Release notes: https://lean-lang.org/doc/reference/latest/releases/v4.36.0/ (Lean FRO on Bluesky)</summary>
+ </entry>
+ <entry>
+  <id>https://functional.cafe/@leanprover/117633077616639915</id>
+  <title>Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the…</title>
+  <link href="https://functional.cafe/@leanprover/117633077616639915" rel="alternate" />
+  <published>2026-11-17T17:58:38Z</published>
+  <updated>2026-11-17T17:58:38Z</updated>
+  <author>
+   <name>@leanprover@functional.cafe</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the highlights: • Much of the work went into performance, including keeping the type class cache between commands and removing several slowdowns that grew… (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://chaos.social/@lmstr/117633069880981216</id>
+  <title>Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help…</title>
+  <link href="https://chaos.social/@lmstr/117633069880981216" rel="alternate" />
+  <published>2026-11-17T17:56:40Z</published>
+  <updated>2026-11-17T17:56:40Z</updated>
+  <author>
+   <name>@lmstr@chaos.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better. #TLAPlus #FormalMethods #ModelChecking #FormalVerification #DistributedSystems… (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.22748</id>
+  <title>Statically Typed Purely Functional Definitional Interpreters for {\it Essentials of Programming Languages}</title>
+  <link href="https://arxiv.org/abs/2611.22748" rel="alternate" />
+  <published>2026-11-17T13:16:39Z</published>
+  <updated>2026-11-17T13:16:39Z</updated>
+  <author>
+   <name>Kwanghoon Choi</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.22613</id>
+  <title>Python Code Generation for Isabelle/HOL</title>
+  <link href="https://arxiv.org/abs/2611.22613" rel="alternate" />
+  <published>2026-11-17T11:29:58Z</published>
+  <updated>2026-11-17T11:29:58Z</updated>
+  <author>
+   <name>Nikolaus Huber</name>
+  </author>
+  <author>
+   <name>Roly Perera</name>
+  </author>
+  <author>
+   <name>Dominic Orchard</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.22572</id>
+  <title>Datatypes In, Zippers Out!</title>
+  <link href="https://arxiv.org/abs/2611.22572" rel="alternate" />
+  <published>2026-11-17T10:57:51Z</published>
+  <updated>2026-11-17T10:57:51Z</updated>
+  <author>
+   <name>Smayan Agarwal</name>
+  </author>
+  <author>
+   <name>Aalok Thakkar</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular… (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193</id>
+  <title>Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages</title>
+  <link href="https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193" rel="alternate" />
+  <published>2026-11-17T10:41:38Z</published>
+  <updated>2026-11-17T10:41:38Z</updated>
+  <author>
+   <name>rboudrouss</name>
+  </author>
+  <category term="news" />
+  <summary type="text">rocq.rboud.com rocq-web rocq-web is Rocq 9.2 and coq-lsp compiled to WebAssembly, running in a Web Worker fully client side. It comes with 57 packages downloaded only when a file requires them. Among them are the standard library, Mathematical Components and analysis, Iris and stdpp, Equations, MetaRocq, Hierarchy-Builder and rocq-elpi, Flocq, Coquelicot, Interval and CoRN. Their OCaml plugins work too. The editor works like RocqIDE. You can check step by step or as you type, see the goals and what each tactic changed, and use hover, completion, go to definition (into the libraries’ sources… (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.22523</id>
+  <title>Path Abstraction for Markov Reward Models: An Isabelle Formalisation in a Free Monoid View</title>
+  <link href="https://arxiv.org/abs/2611.22523" rel="alternate" />
+  <published>2026-11-17T10:16:55Z</published>
+  <updated>2026-11-17T10:16:55Z</updated>
+  <author>
+   <name>Arnd Hartmanns</name>
+  </author>
+  <author>
+   <name>Robert Modderman</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">The classical definition of discrete-time Markov chains maps pairs of states to transition probabilities. An alternative, proposed in the context of path abstraction in probabilistic counterexample refinement, is to view them as a transition kernel on the free monoid on the state space, mapping paths directly to path probabilities. In this paper, we first extend the free monoid view and path abstraction algorithm to cumulative rewards on Markov reward models. We then use Isabelle/HOL to formalise Markov chains and reward models in this view, exploiting the discrete finite-prefix semantics to… (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.21914</id>
+  <title>A Temporal Algebraic Framework for Data Stream Evaluation Under Delayed Labels and Distribution Shifts</title>
+  <link href="https://arxiv.org/abs/2611.21914" rel="alternate" />
+  <published>2026-11-16T21:28:59Z</published>
+  <updated>2026-11-16T21:28:59Z</updated>
+  <author>
+   <name>Ronaldo C. Prati</name>
+  </author>
+  <author>
+   <name>Elaine Ribeiro de Faria</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a… (arXiv cs.LG)</summary>
+ </entry>
+</feed>

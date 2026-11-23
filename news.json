@@ -1,0 +1,3286 @@
+{
+ "version": 1,
+ "updated": "2026-11-23T06:45:41Z",
+ "items": [
+  {
+   "id": "u:f2252f571a0215a8",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T06:29:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Math #Lean4Challenge",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:954868bc34ee290c",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T06:26:28Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.26906",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-rss",
+   "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+   "url": "https://arxiv.org/abs/2611.26906",
+   "authors": [
+    "Wei Jiang",
+    "Ziran Liu",
+    "Wei Wang"
+   ],
+   "published": "2026-11-23T05:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware predict-and-verify system that allocates computation across unresolved subgoals and heterogeneous LLM solvers. BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises the allocation as verification feedback…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:be95130e07f461d2",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "This post aptly captures the \"limitations\" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming…",
+   "url": "https://mastodon.social/@orderwithchaos/117662656557828227",
+   "authors": [
+    "@orderwithchaos@mastodon.social"
+   ],
+   "published": "2026-11-22T23:20:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This post aptly captures the \"limitations\" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming into the LEAN proof of RH discussion consider these limitations. https://tagide.com/blog/research/formal-verification-is-not-the-silver-bullet/ via @crista…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:26b8afe8d4a5e32b",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a…",
+   "url": "https://mathstodon.xyz/@arhamzahid235711/117661742180814394",
+   "authors": [
+    "@arhamzahid235711@mathstodon.xyz"
+   ],
+   "published": "2026-11-22T19:28:24Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a table mapping 125 statements to the Lean declarations that formalize them. Prepared with heavy use of Claude; not refereed. Corrections very welcome…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:d528d8cd29196429",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/…",
+   "url": "https://mastodon.social/@EvoMRI/117660098331068750",
+   "authors": [
+    "@EvoMRI@mastodon.social"
+   ],
+   "published": "2026-11-22T12:30:21Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/ #dataviz #mathematics #leanprover",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:4d92dcb72ea011ac",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-22T10:56:21Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:e97da3b0e0d370d2",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-22T10:50:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:73966443581772ee",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-22T08:25:50Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor. https://functionalanalysismadrid.com/lean_guide.pdf #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:d70b47a7896f1646",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-22T08:23:33Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:befaa0b537b99747",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed…",
+   "url": "https://manganiello.tech/@nemo/117658037494589749",
+   "authors": [
+    "@nemo@manganiello.tech"
+   ],
+   "published": "2026-11-22T03:46:15Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed independent checks, including Lean’s kernel. A landmark for formal mathematics. ✅📐 #LeanProver #Math leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:8c2ea09b22312bd6",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T18:04:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~ Emily Riehl. https://adam.math.hhu.de/#/g/emilyriehl/ReintroductionToProofs #LeanProver #LeanLang",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:08638e800f91cf17",
+   "type": "blog",
+   "source": "Xena (Kevin Buzzard)",
+   "source_id": "xena",
+   "title": "Lean for the working mathematician",
+   "url": "https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician",
+   "authors": [
+    "xenaproject"
+   ],
+   "published": "2026-11-21T17:16:37Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "[(Kevin Buzzard says) This is a guest post by Mitchell Taylor, a mathematician who gave a talk at Imperial’s PDE seminar a few weeks ago on the topic below. If you had shown me this blog post in 2024 and … Continue reading →",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:7285cad39d74b239",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-11-21T16:34:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as correct. Congratulations to Levent on this achievement. Full statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1e3f9e33b1752f77",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintrod…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T15:53:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintroductionToProofs #LeanProver #LeanLang",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:9c836c18b69ca883",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean…",
+   "url": "https://functional.cafe/@leanprover/117655086500590301",
+   "authors": [
+    "@leanprover@functional.cafe"
+   ],
+   "published": "2026-11-21T15:15:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:18d9f9bc59b30c8a",
+   "type": "lean",
+   "source": "Lean community blog",
+   "source_id": "lean-blog",
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+   "authors": [
+    "Lean and Mathlib communities"
+   ],
+   "published": "2026-11-21T13:55:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code. We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. Our rationale is outlined below. The codebase depends directly only on Mathlib. Over the past day, the Lean and Mathlib communities have rallied to verify the proof's correctness. We…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:b0b14f1bf3f84607",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T13:11:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione. https://arxiv.org/abs/2611.18220 #LeanProver #LeanLang #ITP #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:ba4bc0e3f651c8d8",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T13:06:46Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math #LeanProver #LeanLang #ITP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:898fcec95b056c4f",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T13:02:49Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math #LeanProver #LeanLang #ITP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:14594582fd53b35d",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T12:54:01Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes. http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf #LeanProver #LeanLang #ITP #AI4Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:ad70c7b93318521d",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-21T12:49:22Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi. https://arxiv.org/abs/2611.20169v #LeanProver #LeanLang #ITP #AI4Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:a0929aaff4953010",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh…",
+   "url": "https://mathstodon.xyz/@rzeta0/117650961463339881",
+   "authors": [
+    "@rzeta0@mathstodon.xyz"
+   ],
+   "published": "2026-11-20T21:46:43Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh #leanprover",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1b9cafd171f4a5b1",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths…",
+   "url": "https://mathstodon.xyz/@rzeta0/117650939257690781",
+   "authors": [
+    "@rzeta0@mathstodon.xyz"
+   ],
+   "published": "2026-11-20T21:41:05Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths #leanprover #lean",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1b599e79317e20ab",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-20T17:43:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett. https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/ #LeanProver #AI4Math #AI #Math",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:fd71a9d69b0ab322",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent…",
+   "url": "https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb",
+   "authors": [
+    "@best30@welley.social"
+   ],
+   "published": "2026-11-20T16:21:05Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent Alpöge, a mathematician at Anthropic, posted a PDF claiming a proof of the Riemann Hypothesis, developed with Claude, and extending to the Generalized Riemann…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.27631",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Learning Inside Types: Epistemic Typestates for Safe Multi-Agent Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.27631",
+   "authors": [
+    "Lorenzo Bacchiani",
+    "Mario Bravetti",
+    "Giovanni Pau",
+    "Roberto Girau"
+   ],
+   "published": "2026-11-20T13:57:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Type disciplines make programs safe by construction: components checked against each other's types compose into programs that cannot go wrong in the ways the types exclude. Types suit reinforcement learning: a type constrains what an agent may choose, not how it chooses, so the guarantee holds for every policy a learner produces. We introduce epistemic typestates, a type discipline for safe multi-agent reinforcement learning. An agent's type is a protocol whose states record its beliefs, the worlds it cannot rule out from its own observations and actions, and permits only actions that are…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.27553",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Compositional Temporal Specifications for Interaction Trees",
+   "url": "https://arxiv.org/abs/2611.27553",
+   "authors": [
+    "Linyu Yang",
+    "Jianwei Yin",
+    "Mingshuai Chen"
+   ],
+   "published": "2026-11-20T12:49:46Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The correctness of modern effectful programs depends not only on their final results but also on the temporal evolution of observable interactions with their environments. Interaction Trees (ITrees) provide a reusable denotational semantics for such programs by representing effectful computations as potentially infinite trees of observable interactions. However, reusable temporal reasoning over ITrees remains largely unexplored. This paper presents a compositional temporal specification framework for ITrees. We introduce iBuchi, a shallowly embedded temporal specification language based on…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.27487",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "Verifying and Strengthening Neural Tangent Kernel Theory",
+   "url": "https://arxiv.org/abs/2611.27487",
+   "authors": [
+    "Hao Zhu"
+   ],
+   "published": "2026-11-20T11:32:52Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Writing Neural tangent kernel (NTK) theory explains why very wide neural networks trained by gradient methods converge in the lazy-training regime. Its standard proof combines matrix concentration, random Gram matrices, continuous-time dynamics, spectral perturbation, and a bootstrap argument, but has lacked machine-checked verification. We present a Lean\\~4 formalisation for two-layer networks, proving an end-to-end theorem: for a smooth bounded activation (instantiated with $σ=\\tanh$), frozen biases, paired $\\pm 1$ initialisation, and explicit width conditions, gradient flow exists…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:952c9ab2da1354d1",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-20T08:28:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:8676f7f6becc11a9",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-11-19T20:10:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak. Scaling to libraries like Mathlib and CSLib is a core Lean FRO goal. See the release notes for more: https://lean-lang.org/doc/reference/latest/releases/v4.37.0/",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:456db17d91515c25",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification…",
+   "url": "https://mastodon.social/@TWiT/117644887681769216",
+   "authors": [
+    "@TWiT@mastodon.social"
+   ],
+   "published": "2026-11-19T20:02:05Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification. #SecurityNow #FormalVerification Download and subscribe here: https://twit.tv/shows/security-now/episodes/1105",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.26754",
+   "type": "paper",
+   "source": "arXiv physics.chem-ph",
+   "source_id": "arxiv-api",
+   "title": "Self-verifiable LLM-driven science and why it needs human researchers",
+   "url": "https://arxiv.org/abs/2611.26754",
+   "authors": [
+    "Michael G. Medvedev",
+    "Nikolai V. Krivoshchapov",
+    "Stepan N. Ostarkov"
+   ],
+   "published": "2026-11-19T19:49:06Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Language models are now used throughout all sciences - for reading literature, extracting numbers from tables and spectra, analyzing data, drafting conclusions - and their answers arrive in the same polished confident tone whether they are right or wrong, so a result has to be re-derived by a human researcher before it can be relied on. The cost of that re-checking, not the ability to generate results, is what currently limits AI-assisted research. In the field of mathematics, this problem is solved by proof assistants like Lean 4 and Coq that let any formal statement and its proof be…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.26221",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+   "url": "https://arxiv.org/abs/2611.26221",
+   "authors": [
+    "Zihao Xu",
+    "Yuekang Li",
+    "Ruitao Feng",
+    "Haifeng Shen"
+   ],
+   "published": "2026-11-19T15:00:25Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:3d403f7f34e4908a",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)",
+   "url": "https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197",
+   "authors": [
+    "paba"
+   ],
+   "published": "2026-11-19T09:07:02Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.25599",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+   "url": "https://arxiv.org/abs/2611.25599",
+   "authors": [
+    "Meghana Aparna Sistla",
+    "Alaia Solko-Breslin",
+    "Somesh Jha",
+    "Aditya Kanade",
+    "Krishnamurthy Dj Dvijotham"
+   ],
+   "published": "2026-11-19T06:46:27Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user's file system, processes, or privileges. Existing defense mechanisms rely on either LLM-based monitors, which lack provable safety guarantees, or stateless policy enforcement layers, which miss multi-step data flows and execution side-effects unmodeled by the policy language (e.g., network calls initiated inside a Python script). We introduce Tether, a framework…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.25174",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Formally Verified Semidefinite Programming",
+   "url": "https://arxiv.org/abs/2611.25174",
+   "authors": [
+    "Perry Hart"
+   ],
+   "published": "2026-11-18T21:00:33Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.24788",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving",
+   "url": "https://arxiv.org/abs/2611.24788",
+   "authors": [
+    "Xuanwei Ren",
+    "Wenda Li"
+   ],
+   "published": "2026-11-18T17:35:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-theory builds, with checkpoints for cheap branching and backtracking, and a build from scratch as the final arbiter. The service runs as a single container with monitoring and is accessible via a Python client, two MCP servers and a raw HTTP API. In our measurements IPS is level with…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.24649",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies",
+   "url": "https://arxiv.org/abs/2611.24649",
+   "authors": [
+    "Xueying Qin",
+    "Marco Peressotti",
+    "Fabrizio Montesi"
+   ],
+   "published": "2026-11-18T15:52:18Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Choreographic programming (CP) describes a distributed system as a global program and compiles it into communicating network programs via endpoint projection (EPP). Asynchrony captures the independent progress of communicating processes, while nondeterminism captures the range of behaviours that can arise from their interactions. However, the integration of both features into a theory of CP is absent. We present Nyarlathotep, the first asynchronous nondeterministic CP framework. We define its operational semantics of choreographies and networks using labelled transition systems. Besides…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:bc0aec336467039e",
+   "type": "lean",
+   "source": "Lean 4 releases",
+   "source_id": "lean4-releases",
+   "title": "Lean 4 v4.37.0-rc1 (pre-release)",
+   "url": "https://github.com/leanprover/lean4/releases/tag/v4.37.0-rc1",
+   "authors": [
+    "github-actions[bot]"
+   ],
+   "published": "2026-11-18T13:48:41Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This is release candidate 1 for the v4.37.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.37.0/) for more information.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.24083",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "VESPA: Verifiable Symbolic Policy Adaptation for Safe Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.24083",
+   "authors": [
+    "Paul König",
+    "Sascha Marton",
+    "Stefan Lüdtke",
+    "Christian Bartelt"
+   ],
+   "published": "2026-11-18T09:11:18Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:2226859d230100de",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-11-17T17:59:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now builds roughly 12% faster than before. 🔗 Release notes: https://lean-lang.org/doc/reference/latest/releases/v4.36.0/",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:d0f99c471d88ac28",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the…",
+   "url": "https://functional.cafe/@leanprover/117633077616639915",
+   "authors": [
+    "@leanprover@functional.cafe"
+   ],
+   "published": "2026-11-17T17:58:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the highlights: • Much of the work went into performance, including keeping the type class cache between commands and removing several slowdowns that grew…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:586bb6a14034af20",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help…",
+   "url": "https://chaos.social/@lmstr/117633069880981216",
+   "authors": [
+    "@lmstr@chaos.social"
+   ],
+   "published": "2026-11-17T17:56:40Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better. #TLAPlus #FormalMethods #ModelChecking #FormalVerification #DistributedSystems…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.22748",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+   "url": "https://arxiv.org/abs/2611.22748",
+   "authors": [
+    "Kwanghoon Choi"
+   ],
+   "published": "2026-11-17T13:16:39Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \\textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.22613",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Python Code Generation for Isabelle/HOL",
+   "url": "https://arxiv.org/abs/2611.22613",
+   "authors": [
+    "Nikolaus Huber",
+    "Roly Perera",
+    "Dominic Orchard"
+   ],
+   "published": "2026-11-17T11:29:58Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.22572",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Datatypes In, Zippers Out!",
+   "url": "https://arxiv.org/abs/2611.22572",
+   "authors": [
+    "Smayan Agarwal",
+    "Aalok Thakkar"
+   ],
+   "published": "2026-11-17T10:57:51Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:e9b2b2f349e2a752",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages",
+   "url": "https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193",
+   "authors": [
+    "rboudrouss"
+   ],
+   "published": "2026-11-17T10:41:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "rocq.rboud.com rocq-web rocq-web is Rocq 9.2 and coq-lsp compiled to WebAssembly, running in a Web Worker fully client side. It comes with 57 packages downloaded only when a file requires them. Among them are the standard library, Mathematical Components and analysis, Iris and stdpp, Equations, MetaRocq, Hierarchy-Builder and rocq-elpi, Flocq, Coquelicot, Interval and CoRN. Their OCaml plugins work too. The editor works like RocqIDE. You can check step by step or as you type, see the goals and what each tactic changed, and use hover, completion, go to definition (into the libraries’ sources…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.22523",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Path Abstraction for Markov Reward Models: An Isabelle Formalisation in a Free Monoid View",
+   "url": "https://arxiv.org/abs/2611.22523",
+   "authors": [
+    "Arnd Hartmanns",
+    "Robert Modderman"
+   ],
+   "published": "2026-11-17T10:16:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The classical definition of discrete-time Markov chains maps pairs of states to transition probabilities. An alternative, proposed in the context of path abstraction in probabilistic counterexample refinement, is to view them as a transition kernel on the free monoid on the state space, mapping paths directly to path probabilities. In this paper, we first extend the free monoid view and path abstraction algorithm to cumulative rewards on Markov reward models. We then use Isabelle/HOL to formalise Markov chains and reward models in this view, exploiting the discrete finite-prefix semantics to…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21914",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "A Temporal Algebraic Framework for Data Stream Evaluation Under Delayed Labels and Distribution Shifts",
+   "url": "https://arxiv.org/abs/2611.21914",
+   "authors": [
+    "Ronaldo C. Prati",
+    "Elaine Ribeiro de Faria"
+   ],
+   "published": "2026-11-16T21:28:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21826",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Logical Relations on Display",
+   "url": "https://arxiv.org/abs/2611.21826",
+   "authors": [
+    "Steven Schaefer",
+    "Johnson He",
+    "Max S. New"
+   ],
+   "published": "2026-11-16T19:42:30Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The metatheory of programming languages suffers from a lack of reuse. Researchers develop individual calculi and prove standard properties, but very few results are truly reused across papers. The problem is worse in proof assistants, where developments routinely duplicate code from prior work or rebuild it from scratch. Category theory provides the most promising path toward reusable programming language semantics. Universal properties capture the type connectives---products, functions, sums---together with their $β$/$η$ laws. Free categorical structures identify syntactic calculi…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21421",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
+   "url": "https://arxiv.org/abs/2611.21421",
+   "authors": [
+    "Haocheng Wang",
+    "Weixuan Yuan",
+    "Florian Hübler",
+    "Yinya Huang",
+    "Zhijiang Guo",
+    "Sorrachai Yingchareonthawornchai",
+    "Rasmus Kyng"
+   ],
+   "published": "2026-11-16T17:11:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specification a major bottleneck to scaling formally correct code. Autoformalization from natural-language problems is promising, yet training specification models requires scalable feedback on whether generated specifications capture intended behavior. Prior approaches obtain this feedback through explicit proofs or separately implemented code with formal correspondence proofs, both expensive. We introduce AuXSpec, a Lean…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21402",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Harmonic-Mean Aggregation of Continuous-Time Markov Chains with Reachability Error Bounds",
+   "url": "https://arxiv.org/abs/2611.21402",
+   "authors": [
+    "Bingqing Hu",
+    "Landon Taylor",
+    "Zhen Zhang"
+   ],
+   "published": "2026-11-16T16:54:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Abstracting a continuous-time Markov chain by grouping its states into blocks raises a fundamental question: which rates should the abstract chain use when states within a block have different exit rates and transition probabilities? We study harmonic-mean aggregation, which matches the mean waiting time and next-block distribution of a local experiment that uniformly selects a state within the block and observes its next jump. Equivalently, the abstract transition rates are averages of the concrete rates with inverse-exit-rate weights. Since the aggregation does not preserve reachability…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21299",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Turing Agent: Agentic Formal Verification for Mathematical Research",
+   "url": "https://arxiv.org/abs/2611.21299",
+   "authors": [
+    "Yang Chen",
+    "Qianyi Wang",
+    "Ronghui Yang",
+    "Zhanhao Li",
+    "Yu Cong",
+    "Chen Zhang",
+    "Hangfan Zhang",
+    "Shao Zhang",
+    "Shuai Li",
+    "Toru Takisaka",
+    "Chao Xu",
+    "Yi Zhou",
+    "Zhihao Tang",
+    "Xiao Wang",
+    "Bo Zhang",
+    "Shuyue Hu"
+   ],
+   "published": "2026-11-16T16:02:37Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) are rapidly advancing mathematical discovery, moving beyond benchmark-level problem solving to tackle frontier research problems. This progress is ushering mathematics into an era of proof abundance, raising a fundamental challenge: how can we ensure the correctness of the ever-growing volume of AI-generated proofs and transform them into trustworthy, machine-verified mathematical knowledge? We introduce Turing Agent, an agent harness designed to orchestrate end-to-end formal verification of research-level mathematics. Its wo-scale architecture integrates theorem…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:6657ef7daff028e4",
+   "type": "lean",
+   "source": "Lean 4 releases",
+   "source_id": "lean4-releases",
+   "title": "Lean 4 v4.36.0",
+   "url": "https://github.com/leanprover/lean4/releases/tag/v4.36.0",
+   "authors": [
+    "github-actions[bot]"
+   ],
+   "published": "2026-11-16T15:45:27Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This is the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21084",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents",
+   "url": "https://arxiv.org/abs/2611.21084",
+   "authors": [
+    "Cong Wang",
+    "Zhiyang Chen",
+    "Fan Long",
+    "Martin Rinard"
+   ],
+   "published": "2026-11-16T13:32:37Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present CompCert4Lean, a large-scale port of CompCert 3.17's verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.21009",
+   "type": "paper",
+   "source": "arXiv eess.SY",
+   "source_id": "arxiv-api",
+   "title": "Learning and Verifying Stabilizing Controllers with Structured Neural Control Lyapunov Functions",
+   "url": "https://arxiv.org/abs/2611.21009",
+   "authors": [
+    "Jose Luis Ledesma Martin",
+    "Patricia Pauli"
+   ],
+   "published": "2026-11-16T12:33:24Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This work investigates the joint learning of neural controllers and control Lyapunov functions (CLFs) for nonlinear discrete-time systems. We exploit the structural properties of Input Convex Neural Networks and Polyak-Łojasiewicz Networks to guarantee positive definiteness of CLF candidates by construction, reducing the conditions requiring formal verification. We develop a mixed-integer programming framework to formally verify the remaining stability conditions and introduce an iterative region of attraction (ROA) expansion procedure to enlarge the certified ROA without retraining…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.20781",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Verification-Guided Safety-Repair of Learned Controllers",
+   "url": "https://arxiv.org/abs/2611.20781",
+   "authors": [
+    "Fabian Kresse",
+    "Sobhan Gharanfoli",
+    "Nikolaus Vertovec",
+    "Alessandro Abate",
+    "Thomas A. Henzinger",
+    "Christoph H. Lampert"
+   ],
+   "published": "2026-11-16T09:31:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Formal verification can certify that a learned controller is safe. But what should be done when verification fails? Simply suppressing actions that lead to unsafe next states is insufficient because the dangerous action that ultimately caused the safety violation might have occurred many steps earlier. Retraining modifies the policy globally, thereby potentially introducing new failures. Instead, we introduce ReachECO, a verification-guided repair procedure that exploits the information of failed multi-step reachability analysis for synthesizing explicit constraints on controller behavior…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.20671",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis",
+   "url": "https://arxiv.org/abs/2611.20671",
+   "authors": [
+    "Yongkang Xiao",
+    "Qiyi Deng",
+    "Jing Chen",
+    "Min Shi",
+    "Ju Ma",
+    "Ruiying Du"
+   ],
+   "published": "2026-11-16T07:33:22Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Tamarin-based formal verification of security protocols requires expert-authored multiset rewriting rules and temporal-logic lemmas. Translating a natural-language protocol description into a complete formal model with an LLM is hard because syntactic, reachability, and property-level errors compound across the multi-step modeling process, and a single agent that both authors and self-evaluates cannot reliably localize them. We present MASTA, a multi-agent system that addresses these difficulties through three innovations. First, an operational--evaluative role decomposition assigns rule…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.20576",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Partial Borrows in Rust",
+   "url": "https://arxiv.org/abs/2611.20576",
+   "authors": [
+    "Sasha Pak",
+    "Richard Willie",
+    "Umang Mathur",
+    "Fabian Muehlboeck",
+    "Alex Potanin"
+   ],
+   "published": "2026-11-16T06:00:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Rust ensures memory safety by requiring exclusive access to mutably borrowed data. However, a borrow can prevent access to more data than necessary. For example, a method with an &mut self parameter borrows the entire struct, even when the method uses only some of its fields. Calling the method can therefore conflict with an existing borrow of a field the method never uses, causing Rust to reject the program. Resolving such conflicts can require programmers to compromise useful abstractions, make non-local changes to their programs, or worse, resort to unsafe code. We introduce view types, a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.19940",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Strong Standard Completeness of a Hypersequent Calculus for Cyclic Involutive Residuated Lattices",
+   "url": "https://arxiv.org/abs/2611.19940",
+   "authors": [
+    "SanMin Wang"
+   ],
+   "published": "2026-11-15T11:14:32Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a hypersequent calculus $H_R$ for cyclic involutive residuated lattices and prove strong standard completeness for arbitrary theories in a fixed countable propositional language. Standard models are chains on $[0,1]$; neither commutativity nor equality of the monoid unit and the dualizing constant is assumed. The chain semantics is the class $K_R$ defined by unit cyclicity and all ordered finite-history conditions. Every countable member of $K_R$ embeds into a standard chain preserving the entire signature. The construction combines central-support reconstruction, gap insertion…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.23319",
+   "type": "paper",
+   "source": "arXiv physics.plasm-ph",
+   "source_id": "arxiv-api",
+   "title": "Reusing formal Vlasov-Maxwell proofs to certify plasma solver outputs",
+   "url": "https://arxiv.org/abs/2611.23319",
+   "authors": [
+    "Bowen Zhu",
+    "Jian Wu"
+   ],
+   "published": "2026-11-15T08:09:09Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "AI now produces machine-checked mathematics faster than researchers can read it. Can such theorems do practical computational work? We reuse one from \\mbox{OpenAI's} Lean~4 relativistic Vlasov--Maxwell library: initial fields determine the field at an outside point until plasma signals reach it, and the energy leaving a surrounding box before they reach its faces. New Lean proofs and numerical bounds give particle-free references for particle-in-cell simulations across three tasks. Domain size follows analytically from observation time, exposing boundary and initialization errors in WarpX…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.19618",
+   "type": "paper",
+   "source": "arXiv quant-ph",
+   "source_id": "arxiv-api",
+   "title": "Latency-Preserving Rewrites and Translation Validation for Dynamic Quantum Circuits",
+   "url": "https://arxiv.org/abs/2611.19618",
+   "authors": [
+    "Rylan Malarchick"
+   ],
+   "published": "2026-11-14T20:59:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A dynamic quantum circuit measures qubits during a run and chooses later operations from the outcomes. These branches make the qubits wait: the outcome must reach the classical controller, and the controller must decide. We present qlin, a compiler that reduces this waiting time. qlin moves operations out of branches without delaying the program, a property proved in Lean 4. For error-correction decoders, which branch on syndromes that are almost always zero, qlin compiles the likely syndromes into one multiway branch and keeps the original program for the rest. A cost model decides when a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.19569",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Learning from Mutants: Teaching Small Language Models to Synthesise Loop Invariants",
+   "url": "https://arxiv.org/abs/2611.19569",
+   "authors": [
+    "Daragh King",
+    "Vasileios Koutavas"
+   ],
+   "published": "2026-11-14T19:00:01Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) have proven promising for synthesising loop invariants, a long-standing obstacle to automated program verification. Yet, frontier LLMs are typically accessible only through third-party APIs, hampering reproducibility and local deployment. Small language models (SLMs) sidestep these obstacles but require task-specific fine-tuning, for which high-quality training data is needed. We present a failure-driven data curation method for fine-tuning language models to synthesise loop invariants. Inspired by mutation testing, our approach applies semantic mutation…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.19505",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Formalizing $\\mathsf{einsum}$ with Named Tensor Notation",
+   "url": "https://arxiv.org/abs/2611.19505",
+   "authors": [
+    "Yafei Yang",
+    "Chung-chieh Shan"
+   ],
+   "published": "2026-11-14T16:56:19Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Einstein notation ($\\mathsf{einsum}$) is a widely adopted tensor operation that has proven useful in areas such as machine learning and quantum computing. But it had no formal semantics until recently, and its properties had no mechanized verification. We formalize the denotational semantics of a language of tensors (multi-dimensional arrays) that supports $\\mathsf{einsum}$ and repeated tensors ($\\mathsf{expand}$). With this semantics, we verify equational rewriting rules about $\\mathsf{einsum}$ and $\\mathsf{expand}$ that improve the performance of tensor computation. Whereas typical…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.18541",
+   "type": "paper",
+   "source": "arXiv math.RA",
+   "source_id": "arxiv-api",
+   "title": "No free lattice contains an infinite ascending chain of copies of FL(3)",
+   "url": "https://arxiv.org/abs/2611.18541",
+   "authors": [
+    "William DeMeo",
+    "Ralph Freese"
+   ],
+   "published": "2026-11-13T18:49:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author's 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \\dots$ with $Θ_k \\circ Θ_j = Θ_j$ for $j < k$, so that each later embedding fixes the image of each earlier one pointwise. Every proper self-embedding of FL(3) whose fixed sublattice contains a free generating triple fixes one of the three generators…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.18369",
+   "type": "paper",
+   "source": "arXiv cs.DS",
+   "source_id": "arxiv-api",
+   "title": "How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean",
+   "url": "https://arxiv.org/abs/2611.18369",
+   "authors": [
+    "Md Thoriqul Islam Thonmay",
+    "Gregory Morse"
+   ],
+   "published": "2026-11-13T16:15:18Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "For which sets F of edge modifications do a graph G and the modified graph share a maximum cardinality search (MCS) ordering? We prove that they do whenever, along every proper common MCS prefix, each unchosen vertex's neighbour count in the second graph exceeds its count in the first by zero or one. In particular, inserting or deleting any matching, or flipping a single edge, preserves a common ordering, and under the same hypothesis every common MCS prefix extends to a full common ordering without backtracking. Neither part of the hypothesis can simply be dropped: inserting a triangle, a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.18220",
+   "type": "paper",
+   "source": "arXiv eess.SY",
+   "source_id": "arxiv-api",
+   "title": "From Pen-and-Paper to Machine-Checked Proofs: Lean for System Identification",
+   "url": "https://arxiv.org/abs/2611.18220",
+   "authors": [
+    "Manas Mejari",
+    "Dario Piga",
+    "Marco Forgione"
+   ],
+   "published": "2026-11-13T14:24:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical proofs in scientific papers are often long and intricate, relying on chains of references to earlier results. This makes it difficult for readers and reviewers to verify each and every step. Interactive theorem proving offers a complement: the theorem and its proof are written as code, and every inference is checked by a small, trusted piece of software called the kernel. This paper serves as an introduction to the Lean 4 proof assistant for a system identification and control audience, assuming no prior exposure to formal methods. We first show how a Lean proof is read using…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.18055",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "DeCompCert: A Verified Decompiler for CompCert-Generated AArch64",
+   "url": "https://arxiv.org/abs/2611.18055",
+   "authors": [
+    "Swarn Priya",
+    "Basavesh Ammanaghatta Shivakumar",
+    "Thomas Gilray",
+    "Kristopher Micinski"
+   ],
+   "published": "2026-11-13T11:28:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert. It reconstructs CompCert C through nine reverse passes, combining deductively verified transformations with translation validation. Untrusted OCaml and Datalog analyses propose candidate reconstructions, while verified validators accept only candidates that satisfy the required semantic correspondence. The composed correctness theorem guarantees that every defined, safe behavior of an accepted C reconstruction is matched by the input CompCert assembly; under a safety assumption, the two programs are…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.18036",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "C-to-Rust Translation Validation at the LLVM IR Level via AI-Assisted Refinement Proof",
+   "url": "https://arxiv.org/abs/2611.18036",
+   "authors": [
+    "Eunsu Kim",
+    "Sukyoung Ryu",
+    "Jaemin Hong"
+   ],
+   "published": "2026-11-13T11:05:17Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Migrating C codebases to Rust is a promising approach to securing legacy software, but existing translators do not guarantee that a translated Rust program preserves the behavior of the C program. Neither rule-based nor large language model (LLM)-based translators have been formally verified, and existing approaches to checking translation correctness are limited to testing and bounded checks, which cannot reason about all possible executions. In this work, we present R2C2, which validates C-to-Rust translation by proving in Rocq that the Rust program refines the C program, i.e., every…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.17884",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "HOL in HOL: mechanized soundness, completeness and consistency, with and without infinity",
+   "url": "https://arxiv.org/abs/2611.17884",
+   "authors": [
+    "Christoph Benzmüller",
+    "Daniel Kirchner"
+   ],
+   "published": "2026-11-13T08:22:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "What can a logic certify about a copy of itself? For Church's simple theory of types, formalized as a deep embedding in Isabelle/HOL with Henkin semantics and a natural-deduction calculus, the answer has two tiers. On the first tier, plain Isabelle/HOL certifies the logic without an axiom of infinity, by a standard model with one individual. On the second tier, the logic with a Dedekind-style axiom of infinity is certified only in Isabelle/HOL extended by a large enough set-theoretic universe. Both tiers appear in Harrison's self-verification of HOL Light. What the present formalization adds…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:9a5d4cfa33de8a17",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Tokenization, Indentation-sensitive Grammars & Executable Recognizers",
+   "url": "https://isa-afp.org/entries/TIGER_Lexer_Parser.html",
+   "authors": [],
+   "published": "2026-11-13T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Tokenization, Indentation-sensitive Grammars & Executable Recognizers in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:762f03f8984448f6",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Course announcement: Agentic Proof Engineering",
+   "url": "https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182",
+   "authors": [
+    "bcpierce00"
+   ],
+   "published": "2026-11-12T16:19:40Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Next semester, I will be organizing a graduate seminar on Agentic Proof Engineering – building formal proofs about software systems, at scale, in collaboration with AI agents – at the University of Pennsylvania. It will be simulcast as a live webinar for participants outside Penn. The course meets on Mondays and Wednesdays from 10:15AM to 11:45AM (US Eastern time) starting on January 20, 2027. Sessions will be recorded, and there will be asynchronous channels for discussion and collaboration. Further logistical details will be announced on the course’s mailing list, which you are cordially…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.16886",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "LLM-Assisted Verification in Dafny",
+   "url": "https://arxiv.org/abs/2611.16886",
+   "authors": [
+    "Wieger Wesselink",
+    "Kees Huizing",
+    "Huub van de Wetering"
+   ],
+   "published": "2026-11-12T14:48:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Formal verification of complex algorithms requires expertise in program specification, invariant construction, mathematical proof, and the management of automated theorem provers. Although large language models (LLMs) can generate program code and proof fragments, reliably developing complete machine-checked verifications remains challenging: it requires an iterative process of constructing and validating specifications and invariants, building proofs, diagnosing solver failures, and optimizing verification performance. This paper presents a systematic ten-step workflow for LLM-assisted…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:6320a20aac8c6e41",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "It's nice to see news about #formalverification on a major tech news site (#arstechnica). The impact of formal verification in the age of…",
+   "url": "https://fediscience.org/@GeorgWeissenbacher/117603681881764825",
+   "authors": [
+    "@GeorgWeissenbacher@fediscience.org"
+   ],
+   "published": "2026-11-12T13:22:54Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "It's nice to see news about #formalverification on a major tech news site (#arstechnica). The impact of formal verification in the age of #agentic_AI is impressive. https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/ #ai",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:f237589ca492ef3e",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Introducing #AlphaProof Code: a breakthrough in verifying complex software at depth https://deepmind.google/blog/introducing-alphaproof-cod…",
+   "url": "https://mastodon.top/@frankel/117602694109753464",
+   "authors": [
+    "@frankel@mastodon.top"
+   ],
+   "published": "2026-11-12T09:11:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Introducing #AlphaProof Code: a breakthrough in verifying complex software at depth https://deepmind.google/blog/introducing-alphaproof-code/ #formalverification #google",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:493748425ffbe989",
+   "type": "blog",
+   "source": "Xena (Kevin Buzzard)",
+   "source_id": "xena",
+   "title": "“…and the proof is checked in Lean”",
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean",
+   "authors": [
+    "xenaproject"
+   ],
+   "published": "2026-11-12T00:50:07Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important signal that can be extracted from … Continue reading →",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.15992",
+   "type": "paper",
+   "source": "arXiv cs.CC",
+   "source_id": "arxiv-api",
+   "title": "The multiplicative complexity of the three-bit low-half multiplier",
+   "url": "https://arxiv.org/abs/2611.15992",
+   "authors": [
+    "Bshara Alhodali",
+    "Gregory Morse"
+   ],
+   "published": "2026-11-11T20:44:53Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We prove that the multiplicative complexity of the three-bit low-half multiplier is six, giving a structural, enumeration-free lower-bound proof valid against unrestricted nonlinear reuse in Boolean XOR-AND circuits. The value was first established by SAT searches of the first author and independently confirmed by the second author. An explicit six-AND circuit supplies the upper bound. The lower bound combines derivatives, quadratic products, complementary minors, and extraction modulo a Boolean ideal. Independent finite checks accompany the arguments. $\\mathrm{MC}(M_3)=6$ is fully…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:a7899944b31c35a5",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "POV: your security audit used to take years deepmind's agents just formally verified signal's actual code, down to machine instructions…",
+   "url": "https://mastodon.social/@mohith808/117598461664906874",
+   "authors": [
+    "@mohith808@mastodon.social"
+   ],
+   "published": "2026-11-11T15:15:20Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "POV: your security audit used to take years deepmind's agents just formally verified signal's actual code, down to machine instructions, in 4 weeks millions of lines of lean. humans reviewed about 1% of the code they re-added two old bugs. it proved both versions insecure…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.15548",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "DafnyCert: Certifying Specification Strength in Dafny",
+   "url": "https://arxiv.org/abs/2611.15548",
+   "authors": [
+    "Álvaro Silva",
+    "Isabel Amaral",
+    "Ruben Martins",
+    "Alexandra Mendes"
+   ],
+   "published": "2026-11-11T14:33:54Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Formally verifying a method with Dafny guarantees correctness relative to its specification. However, a specification may be too permissive, allowing multiple outputs for the same input, even when the implementation produces only one. In this paper, we propose checkable certificates that provide independently verifiable evidence of whether a specification is weak or strong. A certificate of weakness contains an alternative implementation that verifies against the original specification, together with a witness input on which the original and alternative implementations produce different…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.15207",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Pre-QED: Environment Specifications for Agentic Verification",
+   "url": "https://arxiv.org/abs/2611.15207",
+   "authors": [
+    "Tristan Lim",
+    "Haoxin Tu",
+    "Mehtab Zafar",
+    "Zhengxiong Luo",
+    "Abhik Roychoudhury"
+   ],
+   "published": "2026-11-11T09:03:05Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "LLM agents are making formal verification practical at scale. Recently, many attempts have raised this as an enticing possibility. However, formal verification at scale is only meaningful if deep formal specifications capturing functionality are available for checking. Unfortunately, recent works seek to bypass this issue by using shallow specifications devised for purposes other than verification. OSS-Verify from Anthropic and Theorem, for example, reuses the fuzz harnesses of open-source libraries as specifications and has an agent prove that each harness never crashes. However, a fuzz…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.15108",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Typed Knowledge over Constructive Institutions: A Proof-Relevant Type Theory for Verified Science",
+   "url": "https://arxiv.org/abs/2611.15108",
+   "authors": [
+    "Hans-Martin Will"
+   ],
+   "published": "2026-11-11T06:35:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical proof assistants such as Coq, Agda, and Lean 4 build proof irrelevance into definitional conversion ($p \\equiv q$ for $p, q : P$ with $P : Prop$), erasing which derivation established a theorem. While natural for mathematics over fixed axioms, judgmental proof irrelevance is incompatible with verified scientific stores, which must inspect and compare independent derivations of a claim to assess consilience and compute counterfactual retractions when an assay, reagent, or model is invalidated. Moreover, combining definitional proof irrelevance with subsingleton elimination breaks…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:cffadc382921a71f",
+   "type": "blog",
+   "source": "Xena (Kevin Buzzard)",
+   "source_id": "xena",
+   "title": "A Modern Reorganization of Mathematics",
+   "url": "https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics",
+   "authors": [
+    "xenaproject"
+   ],
+   "published": "2026-11-11T05:23:28Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "[Everyone is doing guest posts these days, so here’s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang] We … Continue reading →",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:60e3525eb46bf736",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "A New #AI Tool From #Google #DeepMind Proved the #Signal Protocol Is Secure DeepMind researchers were able to formally verify that the…",
+   "url": "https://hachyderm.io/@BenjaminHCCarr/117594878326541813",
+   "authors": [
+    "@BenjaminHCCarr@hachyderm.io"
+   ],
+   "published": "2026-11-11T00:04:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A New #AI Tool From #Google #DeepMind Proved the #Signal Protocol Is Secure DeepMind researchers were able to formally verify that the widely used #encryption protocol works as intended. Their stretch goal? Do the same for “all the #software of the world.” More broadly, AI-aided…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:0dcaf857d606a986",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3mzyilu4foc2r",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-11-10T22:31:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.14201",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "CFGKAT: A Complete Calculus for Non-Local Control Flow",
+   "url": "https://arxiv.org/abs/2611.14201",
+   "authors": [
+    "Spencer Van Koevering",
+    "Alexandra Silva",
+    "Cheng Zhang",
+    "Tobias Kappé"
+   ],
+   "published": "2026-11-10T15:22:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "CFGKAT is an extension of guarded Kleene Algebra with Tests (GKAT) that adds non-local control flow (e.g., break, goto) while maintaining an efficient decision procedure. An axiomatization of equivalence for CFGKAT presents unique barriers created by the presence of non-local control flow and contextual semantics of goto which compromises compositional reasoning. In this paper, we overcome these barriers and present a sound and complete axiomatization of program equivalence in CFGKAT. We verify the loop case of the Erosa-Hendren goto elimination algorithm, a difficult syntactic metatheorem…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.14106",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+   "url": "https://arxiv.org/abs/2611.14106",
+   "authors": [
+    "Martim Afonso",
+    "Inês Lynce",
+    "Maurizio Morisio",
+    "João F. Ferreira"
+   ],
+   "published": "2026-11-10T13:59:49Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large language models (LLMs) have shown promise in automating proof synthesis. However, these approaches typically constrain the model to a rigid tactic-generation loop, in which the surrounding system controls premise retrieval, proof-state management, and backtracking. We introduce ProofCoder, an agentic proof-synthesis system for Rocq that approaches theorem proving from a coding-agent…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.13697",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
+   "url": "https://arxiv.org/abs/2611.13697",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-11-10T07:43:34Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reflective Grounded Arithmetic (RGA) is a paracomplete arithmetic in which every term is a program and truth is grounded evaluation. RGA discharges a hypothesis only when it proves the hypothesis decided. This paper shows, in a machine-checked Isabelle/HOL development, how Gödel's incompleteness theorems hold for RGA and for systems built on it. RGA's implication is material and RGA has the disjunction property, so the implications the textbook proof of the second theorem uses fail while its entailments and rules hold: Gödel's proof survives as entailments. RGA does not prove its consistency…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.14586",
+   "type": "paper",
+   "source": "arXiv stat.ML",
+   "source_id": "arxiv-api",
+   "title": "Finite-Cadence Refresh Equilibria for Streaming Prior-Anchored Ridge: A Closed-Form Forgetting Window and Spectral Correction",
+   "url": "https://arxiv.org/abs/2611.14586",
+   "authors": [
+    "Mrigank Shekhar Singh"
+   ],
+   "published": "2026-11-10T06:42:46Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Recursive estimators on drifting streams must forget stale data fast enough to track the target, yet slowly enough to average out noise. In prior-anchored ridge regression, this trade-off admits a closed-form spectral decomposition in which each eigen-direction interpolates between the data solution and the prior with pull weight $s_i = ρ/ (μ_i + ρ)$. When the anchor is refreshed every $k$ steps, we show that the moving-frame offset converges to a finite-cadence equilibrium that lags the pure-leaky path by an explicit $Δ_k(s)$ while reducing estimation variance by a factor $Ψ(s, r_k)$…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.13627",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Curriculum proof repair with learned counterexamples",
+   "url": "https://arxiv.org/abs/2611.13627",
+   "authors": [
+    "Yuechun Sun",
+    "Jun Yang",
+    "Kexin Pei"
+   ],
+   "published": "2026-11-10T06:14:20Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Language models (LMs) have substantially lowered the barrier to applying formal verification for building reliable and secure software. Existing approaches commonly follow the verifier-in-the-loop paradigm, but the verifier often provides only coarse, binary pass/fail feedback, which offers little actionable signal on how the proof should be repaired. Recent work shows that counterexamples provide more actionable feedback by grounding proof failures in concrete program states, but generating useful ones at inference time requires costly iterative refinement. We present TopoVerus, an LM-based…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.13613",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Megrez: A Knowledge-Guided Agent for Formal Mathematics over MK Set Theory",
+   "url": "https://arxiv.org/abs/2611.13613",
+   "authors": [
+    "Tiancheng Xu",
+    "Wensheng Yu"
+   ],
+   "published": "2026-11-10T05:42:16Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "General-purpose coding agents equipped with proof-assistant tools have shown strong performance on standalone competition problems, yet cumulative textbook formalization inside a low-resource mathematical library still faces three obstacles: aligning textbook concepts with library declarations, keeping long-horizon search synchronized with live proof states, and integrating locally verified proofs reliably into a growing codebase. We present Megrez, a knowledge-guided formalization agent for Rocq libraries built on Morse--Kelley (MK) set theory. Megrez coordinates a general coding agent…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.12712",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Will AI mess my RTL? A snapshot-based approach to verifying AI-written RTL",
+   "url": "https://arxiv.org/abs/2611.12712",
+   "authors": [
+    "Bernat Homs",
+    "Oscar Palomar",
+    "Miquel Moreto",
+    "Marcelo Orenes-Vera"
+   ],
+   "published": "2026-11-09T17:03:14Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "With the growing interest in using AI (Artificial Intelligence) for RTL (Register-Transfer Level) hardware development, robust and comprehensive verification has become more important than ever. As Large Language Models (LLMs) increasingly assist in creating and modifying RTL designs, ensuring that these changes preserve existing functionality is paramount for building trust in AI-driven workflows. We present SVApshot, a fully automated framework that leverages LLMs to generate and systematically attempt to correct SystemVerilog Assertions (SVA) for RTL modules, completely removing the human…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:8cbfac78780bbb34",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon",
+   "url": "https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181",
+   "authors": [
+    "CohenCyril"
+   ],
+   "published": "2026-11-09T14:41:36Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Dear all, It is our pleasure to announce the first session of the second year of our working group dedicated to proof assistants and their use at ENS de Lyon, one week from now. The working group will be hybrid, see the locations at the bottom of the mail. The detailed schedule for Nov 16, 2026 with talks from Cyril Cohen, Reynald Affeldt et Alexandre Moine 10:30-12:00 Rocq Tutorial #1 (reloaded) Cyril Cohen: an introduction to the Rocq prover. 13:30-14:45 First talk Title: Formal verification of tilt estimation using the Rocq prover Presenter: Reynald Affeldt (joint work with Lynda…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.13042",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
+   "url": "https://arxiv.org/abs/2611.13042",
+   "authors": [
+    "György Eigner",
+    "Patrik P. Süli",
+    "Roland Hollós"
+   ],
+   "published": "2026-11-09T11:58:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Artificial intelligence (AI) systems now produce research results in bulk: in October 2026 a single laboratory released more than 700 AI-generated mathematics manuscripts, only part of them with machine-checked proofs. Such volumes will be checked mostly by AI agents that call specialised software. A passing check certifies only the artefact that was checked. For proofs translated into the proof assistant Lean, it has been shown that this artefact may state something other than the author's text, and that deciding whether a translation is faithful is undecidable in general. The human…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:0a5a7aa670ac5b79",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "2027 Dutch Winter School on Logic and Verification",
+   "url": "https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180",
+   "authors": [
+    "robbertkrebbers"
+   ],
+   "published": "2026-11-09T10:36:43Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "While this event takes place in the Netherlands, people from all over the world who are most welcome! ================================================= Call for Participation 2027 Dutch Winter School on Logic and Verification 18-22 January 2027 Leiden University, The Netherlands https://www.cyclic-structures.nl/winter-school/2027.html ================================================= The 2027 Dutch Winter School on Logic and Verification is a 4.5 day event aimed at PhD/graduate students in theoretical computer science with an interest in software verification, logic, and type theory. Strong…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11805",
+   "type": "paper",
+   "source": "arXiv math.NA",
+   "source_id": "arxiv-api",
+   "title": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
+   "url": "https://arxiv.org/abs/2611.11805",
+   "authors": [
+    "Lianghao Cao",
+    "George Stepaniants",
+    "Andrew M. Stuart"
+   ],
+   "published": "2026-11-09T03:08:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11641",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Spectral Stability, Fatou Basin Contraction, and Machine-Checked Multipliers in Holomorphic Extensions of Generalized Syracuse Dynamics",
+   "url": "https://arxiv.org/abs/2611.11641",
+   "authors": [
+    "Volkan Dağlı",
+    "Zerrin Dağlı",
+    "Dağhan Dağlı",
+    "Emrah Yurtseven",
+    "Murat Emre Özkaya"
+   ],
+   "published": "2026-11-08T21:54:58Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We embed the Syracuse operator $T(n) = n/2$ (even $n$), $T(n) = (3n+1)/2$ (odd $n$) and the Collatz map $C(n)$ into $\\mathbb{C}$ via entire functions of exponential type $π$: $f(z) = \\frac{1}{4}(1 + 4z - (1 + 2z)\\cos(πz))$ and $F(z) = \\frac{1}{4}(2 + 7z - (2 + 5z)\\cos(πz))$. We prove five results: (1) every integer periodic cycle $C \\subset \\mathbb{N}^+$ of $T$ is a strictly attracting Fatou cycle of $f$ with multiplier $μ_f(C) = 3^{N_{\\mathrm{odd}}}/2^N = \\prod_{n \\in C\\text{ odd}} \\frac{3n}{3n+1} \\in (0,1)$, and $μ_f(O_{1,2}) = μ_F(O_{1,4,2}) = 3/4 1$) isolates $B(O_{1,2})$; (4) on…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11633",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "An Interpretable Fuzzy Tree for Turbofan Remaining Useful Life with an Auditable Per-Component Diagnostic Layer",
+   "url": "https://arxiv.org/abs/2611.11633",
+   "authors": [
+    "Hugo Henry",
+    "Bharadwaj Dogga",
+    "Scott Philips",
+    "Kelly Cohen"
+   ],
+   "published": "2026-11-08T21:31:57Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Data-driven remaining useful life (RUL) estimators for turbofan engines are accurate but opaque, and their internal features typically encode remaining life rather than any specific component's state. This paper presents an interpretable genetic fuzzy tree that predicts RUL from cruise-condition sensor means on N-CMAPSS while exposing a per-component diagnostic layer inspectable rule by rule. The tree follows the engine hierarchy: sensors to component health, then to bounded component damage, spool damage, and RUL, so each level answers a different maintenance question. Training is staged so…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11506",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "On the Relative Security of Prompt Injection: Mechanised Definitions, Defences and Verdicts for LLM Agents",
+   "url": "https://arxiv.org/abs/2611.11506",
+   "authors": [
+    "Brijesh Dongol"
+   ],
+   "published": "2026-11-08T17:20:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it. Noninterference is too strong for such agents, since a useful agent lets untrusted content influence what it does and may disclose the user's data by design, and declassification needs a release policy written for each task. We instead state security relative to a reference agent, which runs the same plan under the same runtime monitor with a model that never obeys untrusted content. An agent is relatively secure if every leak it has is a leak the reference already has. Our…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.12985",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Parametric Proof-Carrying Compilation for Quantum Error-Correction",
+   "url": "https://arxiv.org/abs/2611.12985",
+   "authors": [
+    "John Zhuoyang Ye",
+    "Jens Palsberg"
+   ],
+   "published": "2026-11-08T09:06:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present PC-QEC, a proof-carrying compilation framework for quantum error correction parameterized by both code distance and syndrome-extraction scheme. It covers all four schemes---Standard, Flag, Shor and Knill---with circuit-level distance guarantees for every legal code distance in each proved family under the declared error and readout contracts. The circuit-level model permits single-wire Pauli errors at every operation's qubit operands, capturing data errors, readout errors and ancilla errors that propagate into multi-qubit hook errors. For each family and scheme, supplied…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.11110",
+   "type": "paper",
+   "source": "arXiv stat.CO",
+   "source_id": "arxiv-api",
+   "title": "Statopia: A Prover--Library Ecosystem for Automated Formalization and Proof Discovery in Statistics",
+   "url": "https://arxiv.org/abs/2611.11110",
+   "authors": [
+    "Ziyuan Chen",
+    "Tong Gan",
+    "Wei Zhang",
+    "Ruofei Fang",
+    "Boyue Tang",
+    "Zhenhua Lin",
+    "Fang Yao"
+   ],
+   "published": "2026-11-08T03:41:45Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Theoretical results in statistics and machine learning rest on long, technically delicate proofs, and fluent arguments generated by large language models are not necessarily correct. Automated formalization makes such arguments mechanically checkable, and automated proving goes further by discovering machine-checked proofs for statements whose proofs are incomplete or missing altogether. Both require reconstructing assumptions from source materials, accessing specialized mathematical infrastructure and managing long proof developments. We present Statopia, an ecosystem that jointly develops…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.10810",
+   "type": "paper",
+   "source": "arXiv cs.DB",
+   "source_id": "arxiv-api",
+   "title": "Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines",
+   "url": "https://arxiv.org/abs/2611.10810",
+   "authors": [
+    "Andreas Andreakis"
+   ],
+   "published": "2026-11-07T15:43:02Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:4bdb196c6ef1a465",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "SLOT: A model checker for actor-based languages with I/O",
+   "url": "https://discourse.rocq-prover.org/t/slot-a-model-checker-for-actor-based-languages-with-i-o/3176",
+   "authors": [
+    "k32"
+   ],
+   "published": "2026-11-06T22:23:58Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In my spare time I has been developing SLOT, a library that can be thought as a formally-verified model checker for functional actor-based languages, performing I/O with nondeterministic side effects (read: Erlang). This project is still at a relatively early stage of development, but recently I’ve achieved the first milestone: completion of the core theory. A little bit about the design choices: I/O is emulated by composable effect handlers. Users can supply their own. This differentiates it from Verdi, which comes with predefined effects related to network and disk (at least when I last…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.10233",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "ProofDiff: Auditable Argument-Level Comparison of AI-Generated Mathematical Proofs",
+   "url": "https://arxiv.org/abs/2611.10233",
+   "authors": [
+    "Matan Tsafrir",
+    "Esdras Medeiros",
+    "Jorge Poco",
+    "Kevin Gomez",
+    "Eduardo V. Teixeira",
+    "Claudio Silva"
+   ],
+   "published": "2026-11-06T21:18:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical understanding depends on the route from hypotheses to conclusion: how the parts of a proof function and which dependencies carry the argument forward. This structure can persist when wording or notation changes, while a small alteration to a hypothesis or inference can produce a different argument beneath similar prose. Formal verification can establish that a rewrite proves the same theorem, but not whether it follows the same mathematical route. Comparing informal proofs, especially those produced or revised by generative models, therefore requires reconstructing which claims…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.09410",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Nothing Is Shared Until You Synchronise: Reinterpreting Java for Data-Race Freedom",
+   "url": "https://arxiv.org/abs/2611.09410",
+   "authors": [
+    "Luke Cheeseman",
+    "Elias Castegren",
+    "David Black-Schaffer",
+    "Erik Österlund",
+    "Tobias Wrigstad"
+   ],
+   "published": "2026-11-06T12:43:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In mainstream shared-memory languages, programmers use synchronisation mechanisms such as locks to isolate shared data accesses across threads to avoid data races. Yet synchronisation enforces only a temporal ordering, while shared memory still communicates updates between threads at every ordinary read and write. To achieve isolation, programmers therefore need to understand the connection between ordering and communication, and to apply synchronisation correctly and consistently, while compilers and hardware optimise assuming they have. When programmers synchronise incorrectly, they lose…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.09134",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Formalization of Filter-Method Construction for Real Numbers in Coq",
+   "url": "https://arxiv.org/abs/2611.09134",
+   "authors": [
+    "Guowei Dou",
+    "Wensheng Yu"
+   ],
+   "published": "2026-11-06T08:08:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This paper presents a formalization for a theory of constructing real numbers using concepts related to filters. The formalization is implemented using the Coq proof assistant and is grounded in axiomatic set theory. The theory encompasses various notions such as filters, ultrafilters, principal ultrafilters, and arithmetical ultrafilters. A special filter, namely the non-principal arithmetical ultrafilter, whose existence requires the Continuum Hypothesis to be proven, is employed to establish several non-standard number sets: *N, *Z and *Q. The set of real numbers, R, is subsequently…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.09048",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "LeanDojo-v2: A Comprehensive Library for AI-Assisted Theorem Proving in Lean",
+   "url": "https://arxiv.org/abs/2611.09048",
+   "authors": [
+    "Ryan Hsiang",
+    "William Adkisson",
+    "Robert Joseph George",
+    "Anima Anandkumar"
+   ],
+   "published": "2026-11-06T06:21:06Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Building on recent progress in machine learning for formal theorem proving in Lean, we introduce LeanDojo-v2: an end-to-end framework that unifies repository data extraction, LLM fine-tuning, proof search, AI autocompletion, and LLM-assisted theorem proving in a single software library. In addition, we provide Lean4Code, a lightweight IDE that integrates the various features of LeanDojo-v2 through a simple, mathematician-friendly UI. These tools will enable mathematicians and researchers to easily fine-tune language models on domain-specific Lean codebases and experiment with LLM-assisted…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:0f469cc918e5c79e",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Chvátal's Theorem on the Ramsey Number of a Triangle versus a Tree",
+   "url": "https://isa-afp.org/entries/Chvatal_Tree_Ramsey.html",
+   "authors": [],
+   "published": "2026-11-06T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Chvátal's Theorem on the Ramsey Number of a Triangle versus a Tree in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.08277",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "LeanContext: Disentangling Mathematical Resources from Local Formal Context in Lean Whole-Proof Generation",
+   "url": "https://arxiv.org/abs/2611.08277",
+   "authors": [
+    "Hang Zhang",
+    "Qihao Ye",
+    "Litong Liu",
+    "Yunbei Zhang",
+    "Yugyung Lee",
+    "Yue Zhou",
+    "Bowen Liu",
+    "Emily First",
+    "Cheng Han",
+    "Qiao Zhuang"
+   ],
+   "published": "2026-11-05T16:44:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Neural theorem proving increasingly uses retrieved premises and project context to support proof generation. Evaluating these resources requires measuring the advantage of target-selected declarations over comparable alternatives and how this advantage depends on training. We introduce LeanContext, a benchmark of 129,826 Lean whole-proof generation problems, to investigate these questions. We group selected complete preceding mathematical declarations as Mathematical Context (MC) and the remaining selected local source commands as Environment Context (EC). Four aligned input views support…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.07962",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research",
+   "url": "https://arxiv.org/abs/2611.07962",
+   "authors": [
+    "Yifan Luo",
+    "Zhengying Liu",
+    "Yang Yuan",
+    "Zhilin Yang",
+    "Andrew Chi-Chih Yao"
+   ],
+   "published": "2026-11-05T12:58:43Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research accomplishments and progress toward long-standing research goals. TCSExam-Full contains 100 expert-reviewed tasks, with submissions checked by the Lean kernel or an executable task checker…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.07432",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Typed Knowledge over Constructive Institutions",
+   "url": "https://arxiv.org/abs/2611.07432",
+   "authors": [
+    "Hans-Martin Will"
+   ],
+   "published": "2026-11-05T04:28:30Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Type theories designed for mathematics or program verification need only that a proposition holds; proof irrelevance in conversion erases, at the kernel level, how a claim was established. A persistent knowledge store, by contrast, must retain that record: who established a claim, by which derivation or external tool, and under which assumptions. This volume presents the theory of Eigenius---a store of typed knowledge over constructive institutions---and develops its metatheory from that requirement. The kernel theory is a dependent type theory with cumulative universes, an impredicative…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.07395",
+   "type": "paper",
+   "source": "arXiv math.AP",
+   "source_id": "arxiv-api",
+   "title": "Rigorously Certified Neural-Network Computation of Nonlinear Water Waves at Near-Machine Precision",
+   "url": "https://arxiv.org/abs/2611.07395",
+   "authors": [
+    "Michal Shavit",
+    "Yongji Wang",
+    "Tristan Buckmaster"
+   ],
+   "published": "2026-11-05T03:44:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a computational framework that combines machine-learning-based discovery with rigorous computer-assisted numerical certification and formal verification for strongly nonlinear partial differential equations. We demonstrate the approach for periodic gravity-capillary traveling water waves. Physics-informed neural networks are used as a search mechanism, with the wave profile, wave speed and, in continuation experiments, surface tension learned directly from the governing equations without training data. Through a staged training and refinement procedure, the neural networks achieve…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.07194",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "SeVerus: Context-Aware, Gamified Benchmarking for Rust Verification",
+   "url": "https://arxiv.org/abs/2611.07194",
+   "authors": [
+    "Álvaro F. Silva",
+    "Martim Afonso",
+    "Nuno Saavedra",
+    "Emily First",
+    "Alexandra Mendes",
+    "João F. Ferreira"
+   ],
+   "published": "2026-11-04T22:34:57Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Coding agents achieve high success rates on existing benchmarks for Verus, a verifier for Rust programs. These benchmarks typically provide the auxiliary lemmas needed to complete a proof. In practice, however, such lemmas must be discovered and proved. To capture this challenge, we present SEVERUS, a context-aware technique to generate Verus benchmarks that organizes verification tasks into quests, each divided into levelsin a gamified manner. Using the original proof dependencies in verified projects, SEVERUS constructs one quest per verification target and progressively removes proof…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.07073",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization",
+   "url": "https://arxiv.org/abs/2611.07073",
+   "authors": [
+    "Priyanath Maji"
+   ],
+   "published": "2026-11-04T19:31:51Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A verified Dafny postcondition certifies that a formula holds, but it does not guarantee that the result was reached through genuine independent reasoning. We introduce a cross-agent formalization protocol where a Specifier model translates clinical trial criteria into a Dafny predicate, and an Implementer model writes an operational method checked against it. A same-model control establishes that even with no capability gap, independent re-extraction from identical text agrees only 59.3% of the time. Evaluating four model configurations on 96 clinical trial documents, we find that agreement…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:e5d6d97ea224a6e1",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Formalising Federer’s Geometric Measure Theory in Rocq — project announcement",
+   "url": "https://discourse.rocq-prover.org/t/formalising-federer-s-geometric-measure-theory-in-rocq-project-announcement/3174",
+   "authors": [
+    "sk197876"
+   ],
+   "published": "2026-11-04T09:57:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Hello, I’m working on formalising the 1969 book of Federer “Geometric measure theory” in Rocq using Mathematical Components, ssreflect and Hierarchy Builder. The code is now public: Repository sk197876/math GitHub - sk197876/math: Formalisations of mathematical results Formalisations of mathematical results Actually, the whole formalisation process is done by codex using (mostly) GPT-6.1-Sol model. I’m only supervising the process. I know that Lean has a lot bigger math library but I was learning a bit of Coq during my master’s program (20 years ago) and know a little bit of it while I do…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.06962",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+   "url": "https://arxiv.org/abs/2611.06962",
+   "authors": [
+    "Christian Clason",
+    "Tapio Helin",
+    "Medet Nursultanov",
+    "Lauri Oksanen"
+   ],
+   "published": "2026-11-04T08:30:31Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal statement it proves, so the remaining human task is to confirm that each formal statement says what was intended. We organize the library around this task: a reviewer compares the formal statements with their natural-language counterparts…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.06003",
+   "type": "paper",
+   "source": "arXiv cs.DM",
+   "source_id": "arxiv-api",
+   "title": "How Unbalanced Must a Latin Rectangle Be?",
+   "url": "https://arxiv.org/abs/2611.06003",
+   "authors": [
+    "Zhengyu Li",
+    "Vijay Ganesh"
+   ],
+   "published": "2026-11-04T05:52:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We view a $k\\times n$ Latin rectangle as $n$ points in the grid $[n]^k$. Each symbol gives one point, whose coordinates are the columns it occupies. The rectangle is balanced when these points are pairwise equidistant in the $\\ell_1$ metric. Its imbalance measures the distance from this ideal. We study the minimum imbalance from three sides. Constructively, we use a simulated annealing that moves symbols within rows and only penalises column clashes. Against the reference table of Voboril et al. (2025), it improves 33 of the 51 non-square values for $8\\le n\\le 13$, by up to 39.4%, and…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.05695",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Demystifying Information Flow Downgrading using the Real--Ideal Paradigm",
+   "url": "https://arxiv.org/abs/2611.05695",
+   "authors": [
+    "Suraaj Kanniwadi",
+    "Andrew C. Myers"
+   ],
+   "published": "2026-11-03T22:23:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The real--ideal paradigm, an approach to security specification developed in the cryptography community, has the benefit that it can express sophisticated confidentiality and integrity requirements, even for decentralized systems. We show that this paradigm is the basis for a powerful and intuitive new semantic framework for language-based security. Our new framework cleanly and extensionally captures existing security definitions, including not only noninterference but also less understood information flow properties that involve downgrading, such as robust declassification and nonmalleable…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.05668",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Sundance: A Simple SMT Solver for Program Verification",
+   "url": "https://arxiv.org/abs/2611.05668",
+   "authors": [
+    "Amar Shah",
+    "Benjamin F. Jones",
+    "Can Cebeci",
+    "Jason Z. S. Hu",
+    "Lee A. Barnett",
+    "Rémi Delmas",
+    "Marijn Heule",
+    "Bryan Parno",
+    "Bruno Dutertre"
+   ],
+   "published": "2026-11-03T21:56:52Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present Sundance, an SMT solver for program verification written in about 13,600 lines of Rust. Sundance combines the Cadical SAT solver with congruence closure, linear arithmetic, algebraic datatypes, and pattern-based quantifier instantiation. Sundance produces eDRAT proofs for every unsat answer. On 21,531 queries from Verus, Dafny, and F*, Sundance is comparable to existing solvers, with 26--38 times fewer lines of code than Z3 and cvc5. We further show that its components can be swapped for Z3's arithmetic solver, MiniSat, and the Semper e-graph. We have open sourced Sundance.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.05590",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Verified but Vacuous: Three Failure Surfaces of LLM-Driven Verified Code Generation",
+   "url": "https://arxiv.org/abs/2611.05590",
+   "authors": [
+    "Aditya Vempaty",
+    "Himaneesh Sompalle",
+    "Manan Tayal",
+    "Mowafak Allaham",
+    "Prasenjit Dey",
+    "Ashish Jagmohan",
+    "Ravi Kokku"
+   ],
+   "published": "2026-11-03T20:20:57Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "What should ``verified'' mean when evaluating LLM-generated code? Many existing pipelines report a single verification number. We argue this collapses three distinct properties measured in a conditional audit sequence: verifier acceptance (Surface A), \\emph{syntactic specification binding (Surface B: does the proof obligation bind to the spec?), and \\emph{semantic specification fidelity} (Surface C: does the spec capture the informal requirement?). Two empirical demonstrations show the surfaces separate. \\textbf{First ($A \\neq B$), via Li@Opus (a same-model reproduction of…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.05540",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "ProofStudio: Five Proof Assistants in the Browser",
+   "url": "https://arxiv.org/abs/2611.05540",
+   "authors": [
+    "Yutaka Nagashima"
+   ],
+   "published": "2026-11-03T19:32:16Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Recent advances in AI-assisted proof automation are extending the use of proof assistants in software verification and mathematics. However, greater proof automation does not remove users' responsibility to assess whether formal statements capture their intended requirements, making education in formal specification and reasoning essential. To lower the installation and learning barriers associated with mature proof assistants, we present ProofStudio, a browser-based environment integrating Isabelle/HOL, Lean, Rocq, HOL4, and HOL Light with corresponding worked examples, preconfigured proof…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.04993",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Linking as Evaluation: Correct Separate Compilation via First-Class Environments",
+   "url": "https://arxiv.org/abs/2611.04993",
+   "authors": [
+    "Jam Kabeer Ali Khan",
+    "Jinhao Tan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-11-03T14:44:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is correct when a linked program behaves like the program formed by merging its sources. This property is less routine to prove than type soundness because it requires a formal account of linking. We present $λ_{\\mathsf{SCE}}$, a simply typed calculus in which linking, modules, and environments are all first-class. Programmers control module linking through a link operator, which a type-directed elaboration translates into ordinary terms of a core…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:61a64f0581fa1f01",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "First release of rocq-segmap",
+   "url": "https://discourse.rocq-prover.org/t/first-release-of-rocq-segmap/3172",
+   "authors": [
+    "fpottier"
+   ],
+   "published": "2026-11-03T12:08:17Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "I have released `rocq-segmap`, a verified implementation of segment maps, a (supposedly) fast data structure that represents thinnings, or increasing functions of the natural numbers to the natural numbers. The data structure is described in this submitted paper. 1 post - 1 participant Read full topic",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.04561",
+   "type": "paper",
+   "source": "arXiv cs.DC",
+   "source_id": "arxiv-api",
+   "title": "Distributed LTL Synthesis under Arbitrary Message Adversaries",
+   "url": "https://arxiv.org/abs/2611.04561",
+   "authors": [
+    "Benedikt Bollig",
+    "Patricia Bouyer-Decitre",
+    "Matthias Függer",
+    "Dhrubajyoti Ghosh",
+    "Thomas Nowak",
+    "Nathalie Sznajder"
+   ],
+   "published": "2026-11-03T09:26:15Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Reactive synthesis is the problem of generating a program that produces outputs satisfying a logical specification for every input stream. We study distributed synthesis for two processes communicating in rounds over unreliable links, with at least one message delivered in every round. Despite this delivery guarantee, we show that synthesis from linear temporal logic specifications is undecidable, even when messages carry the processes' complete causal histories. More generally, we give a complete characterization of the communication restrictions that make synthesis decidable. Restrictions…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:b2544c2f78226752",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "I tried formal verification beside a small Java inventory class. With one item and two callers, an atomic decrement still lets the broken…",
+   "url": "https://mastodon.online/@myfear/117551275237130682",
+   "authors": [
+    "@myfear@mastodon.online"
+   ],
+   "published": "2026-11-03T07:15:12Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "I tried formal verification beside a small Java inventory class. With one item and two callers, an atomic decrement still lets the broken version oversell. TLC finds the failing sequence in the model. Lean checks a separate arithmetic rule. The Java tests stay, of course: neither formal check…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.04377",
+   "type": "paper",
+   "source": "arXiv cs.CC",
+   "source_id": "arxiv-api",
+   "title": "Monodromy Computation Model",
+   "url": "https://arxiv.org/abs/2611.04377",
+   "authors": [
+    "Xiaoyang Liu"
+   ],
+   "published": "2026-11-03T06:03:41Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A closed path can return to its starting point while analytic continuation reaches another branch. We construct a finite computational calculus in which retained logarithmic branches supply memory, analytic observations select operations, and descent through a covering exposes deeper memory. Three branch coordinates suffice, and every finite observation uses the same cubic power covering. Each program defines a globally real analytic return map whose integer-lattice execution is realized by actual path lifting. Our first theorem simulates every finite-alphabet, finite-control Post--Turing…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.04172",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Friedman--Stanley cofinality without Borel completeness",
+   "url": "https://arxiv.org/abs/2611.04172",
+   "authors": [
+    "Ruijun Wang"
+   ],
+   "published": "2026-11-03T02:01:53Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Friedman and Stanley asked whether an invariant Borel class of countable structures must be Borel complete whenever every countable level of their hierarchy reduces to it. We construct a counterexample in one fixed countable language. The structural counterexample and its principal supporting results have been formalized in Lean~4 and it is available on github.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.03918",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Handling JAX",
+   "url": "https://arxiv.org/abs/2611.03918",
+   "authors": [
+    "Oghenevwogaga Ebresafe",
+    "Daniel Zheng",
+    "Gordon Plotkin",
+    "Ningning Xie"
+   ],
+   "published": "2026-11-02T20:23:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Languages that target hardware accelerators typically expose a restricted, first-order core without recursion or first-class functions, leaving programmers without a principled way to express computational effects. This paper presents a technique for compiling effect handlers to such a constrained target. We introduce a novel translation that statically eliminates effect handlers, and prove that it preserves both typing and semantics. Moreover, we address the challenges of integrating effect handlers with structured control flow, where continuations cannot be constructed statically. The…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.02843",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Math Foundation Formalization Agent: A General-Purpose Approach to Formalizing Mathematical Foundations",
+   "url": "https://arxiv.org/abs/2611.02843",
+   "authors": [
+    "Jiaxin Xie",
+    "Guowei Dou",
+    "Xiang Ji",
+    "Wensheng Yu"
+   ],
+   "published": "2026-11-02T09:45:31Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical formalization plays an important role in establishing rigorous and machine-verifiable foundations for mathematical reasoning. With the development of large language models (LLMs) and interactive theorem provers, intelligent agents offer a promising approach to automating the formalization of mathematical theories. This paper presents the Math Foundation Formalization Agent (MFF-Agent), a general-purpose intelligent agent designed to support formalization tasks across multiple mathematical domains. The agent integrates the reasoning capabilities of large language models with the…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:294ae03d095ce72d",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "NWPT 2026: Call for Participation",
+   "url": "https://discourse.rocq-prover.org/t/nwpt-2026-call-for-participation/3170",
+   "authors": [
+    "Chad_Mitchell_Nester"
+   ],
+   "published": "2026-11-02T08:54:10Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "== Call for Participation== Registration is now open for the 36th Nordic Workshop on Programming Theory, to be held November 19-20th, 2026 at the University of Tartu in Tartu, Estonia. Conference web page: https://kodu.ut.ee/~nester/nwpt-2026/main.html Preliminary Program: https://kodu.ut.ee/~nester/nwpt-2026/program.html Registration: https://kodu.ut.ee/~nester/nwpt-2026/registration.html == Important Dates (AOE) == Submission of Abstracts: October 5th, October 10th, 2026, 23:59 AOE Notification: October 30th, 2026 Submission of Final Version of Abstracts: November 6th, 23:59 AOE…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.02237",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "Nonreciprocal Spherical Attention and Retrieval: Sharp Coarsening Clocks and Certified Score Correction",
+   "url": "https://arxiv.org/abs/2611.02237",
+   "authors": [
+    "Faruk Alpay",
+    "Taylan Alpay"
+   ],
+   "published": "2026-11-01T21:58:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval. For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\\lim_{β\\to\\infty}β^{-1}\\log T_β=1-\\cosφ$, without restricting particle-count growth. An explicit three-body flow has two rigorously separated metastable exponents. For finite compression, mass centering yields a sharp $O(r^2)$ attention-output error bound at fixed temperature, with an explicit spherical-normalization…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.02215",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "Discrimination, Calibration, and Ranking: A Unified Matrix Framework",
+   "url": "https://arxiv.org/abs/2611.02215",
+   "authors": [
+    "Ronaldo Cristiano Prati",
+    "Farangis Johari"
+   ],
+   "published": "2026-11-01T21:23:18Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Discrimination, calibration, and ranking are the three pillars of classifier evaluation, yet no single algebraic language spans all three. A recent indicator-matrix account unifies discrimination measures (precision, recall, F1, Matthews correlation) across binary, multiclass, multilabel and related settings, using Boolean cell operations on indicator label matrices, generalised to soft labels by t-norms. Calibration measures (Brier score, log-loss) and ranking measures (nDCG, AUC) fall outside it. We close the gap with two further classes of cell operators: deviation operators phi(y…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.02028",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "LARK: Lean-Assisted Reasoning for LLM-Generated GPU Kernels",
+   "url": "https://arxiv.org/abs/2611.02028",
+   "authors": [
+    "Zixi Zhang",
+    "Jiayi Nie",
+    "Haoran Wu",
+    "Yujie Yan",
+    "Yann Herklotz",
+    "Rika Antonova",
+    "Robert Mullins",
+    "Yiren Zhao",
+    "George A. Constantinides",
+    "Jianyi Cheng"
+   ],
+   "published": "2026-11-01T16:18:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Efficient GPU kernels are typically low-level and hardware-specific, and LLM agents can now generate them faster than experts can verify. Existing approaches rely on testing, which provides evidence but not a guarantee of correctness. We introduce LARK, an agentic framework that automatically and formally verifies GPU kernels against their PyTorch reference implementations. LARK proves equivalence in functional and memory behavior under exact arithmetic and establishes a new trust boundary: human effort is only needed to verify operator-level Lean semantics ahead of kernel generation time…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.01825",
+   "type": "paper",
+   "source": "arXiv cs.FL",
+   "source_id": "arxiv-api",
+   "title": "The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence",
+   "url": "https://arxiv.org/abs/2611.01825",
+   "authors": [
+    "Sherzod Turaev"
+   ],
+   "published": "2026-11-01T11:45:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.01357",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "ProofPatch: Reviewing Lean Statements and Keeping the Reviews Valid as Formalizations Evolve",
+   "url": "https://arxiv.org/abs/2611.01357",
+   "authors": [
+    "Xujun Che",
+    "Depeng Xu",
+    "Jian Xiang",
+    "Taufiqua Khan"
+   ],
+   "published": "2026-10-31T23:55:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The kernel of the Lean proof assistant checks that a proof establishes its statement. Whether the statement says what was intended is left to human reviewers. This is the old problem of validating a specification, and it grows more pressing as language models write formal statements in bulk and agents edit formal developments continuously. We present ProofPatch, a tool that helps reviewers judge Lean statements and keeps their judgments valid while the development changes. A reviewer can ask the kernel targeted questions about a statement, such as whether a hypothesis is needed or whether a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.00340",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Autoformalization for Ambiguous Inputs: Precision, Coverage, and Cost across SQL and Logical Forms",
+   "url": "https://arxiv.org/abs/2611.00340",
+   "authors": [
+    "Henry Shen",
+    "Xinling Liao",
+    "Adarsh Vatsa",
+    "William Eiers"
+   ],
+   "published": "2026-10-30T20:16:19Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Agentic systems translate natural-language requests into executable artifacts while managing ambiguity and inference cost. We evaluate seven autoformalization workflows on SQL and first-order logic benchmarks for ambiguous inputs. Across five SQL workflows, the raw model leads with F1 of 53.35% on AMBROSIA and 60.85% on AmbiQT. On AmP, DRIFT gains 15.98 F1 points over the raw model at 2.03 times its token cost, whereas LoC uses 18.65 times the raw model's tokens with lower F1. Within AutoCedar, structured interpretation lowers F1 by 6.44-6.95 points and raises AMBROSIA token use 2.2-fold…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.00287",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "VerusWeave: A Benchmark for Proof Repair in Concurrent Verus Programs",
+   "url": "https://arxiv.org/abs/2611.00287",
+   "authors": [
+    "Pedro Ribeiro",
+    "Martim Afonso",
+    "André Vasconcelos",
+    "João F. Ferreira"
+   ],
+   "published": "2026-10-30T19:14:32Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Concurrent software underpins critical infrastructure, including operating systems and databases, yet thread interactions can have bugs that bypass conventional testing. Verus extends Rust with formal verification capabilities, enabling developers to specify, implement and prove the correctness of concurrent code in the same language. Although coding agents have been explored for automated proof construction, existing Verus benchmarks offer limited coverage of concurrency-specific examples that connect atomic operations to abstract protocols. To address this gap, we introduce VerusWeave, the…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.00269",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Automated Theorem Generation in First-Order Logic by Construction from Triangular Standard Contradictions",
+   "url": "https://arxiv.org/abs/2611.00269",
+   "authors": [
+    "Yang Xu",
+    "Shuwei Chen",
+    "Hailin Guo",
+    "Jun Liu"
+   ],
+   "published": "2026-10-30T18:54:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Automated theorem generation (ATG) seeks to construct new theorems rather than merely prove given conjectures. Existing approaches typically generate candidate statements that require subsequent proof or formal verification. We propose a constructive framework for ATG in first-order logic based on triangular standard contradictions. The method constructs minimally unsatisfiable clause sets from selected first-order literals, then forms theorems by retaining some clauses as premises and taking the negation of one clause, or a conjunction of clauses, as the conclusion. Minimal unsatisfiability…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2611.00176",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Coinduction in Grounded Arithmetic",
+   "url": "https://arxiv.org/abs/2611.00176",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-30T14:42:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A grounded arithmetic counts a sentence true only when a terminating process establishes it; a sentence no such process settles has no value. Such a logic can state that an event happens, but not that it never happens under unbounded choice. This paper extends such a logic so that it can. The base is Reflective Grounded Arithmetic (RGA) with Inductive Grounded Arithmetic (IGA)'s least-fixed-point reading and ground induction. It adds a separate greatest-fixed-point former $ν$ with Park's coinduction rule, proves that one former cannot carry both ground induction and coinduction, and adds a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.41536",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "DAPS: Dependency-Aware Premise Selection for LLM Theorem Proving",
+   "url": "https://arxiv.org/abs/2610.41536",
+   "authors": [
+    "Zixuan Chen",
+    "Wenyuan Jiang",
+    "Junling Wang",
+    "Mrinmaya Sachan",
+    "Yinya Huang"
+   ],
+   "published": "2026-10-30T10:28:34Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "LLM-based theorem proving in Lean 4 has advanced rapidly, but provers are difficult to leverage newly contributed lemmas, because retrieval skews toward popular foundational lemmas, leaving the right premises buried among hundreds of thousands of candidates. Existing neural selectors rank candidates by semantic similarity, with three intrinsic limitations: frequency-skewed retrieval, isolated pairwise ranking, and degradation on out-of-distribution queries such as competition problems and informal language. Given that mathematics is structured by dependencies rather than similarities, we…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.41202",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Iris on Indirection Theory: Lightweight Higher-order Ghost State",
+   "url": "https://arxiv.org/abs/2610.41202",
+   "authors": [
+    "Darius Foo",
+    "Viet-Anh Nguyen",
+    "Wei-Ngan Chin"
+   ],
+   "published": "2026-10-30T03:25:12Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Today, semantic models of languages with concurrency and higher-order state are constructed using step-indexed predicates over resources and higher-order ghost state. There are two main lines of work for constructing such models. On the one hand, Iris provides these in full generality, at the cost of a large body of mechanised domain theory that is difficult to learn and port to new proof assistants. On the other hand, Indirection Theory is much simpler through the use of ordinary dependent types, but its foundation in separation algebra limits the expressiveness of its resource model…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1f14d58ee86cfc79",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Finite-Dimensional Algebras and Scalar Towers",
+   "url": "https://isa-afp.org/entries/Algebra_Towers.html",
+   "authors": [],
+   "published": "2026-10-30T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Finite-Dimensional Algebras and Scalar Towers in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.40503",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Algebraic World Model: From Exploration to Proofs",
+   "url": "https://arxiv.org/abs/2610.40503",
+   "authors": [
+    "Guancheng Pan",
+    "Qixin Tan",
+    "Yang Yuan",
+    "Andrew Chi-Chih Yao"
+   ],
+   "published": "2026-10-29T17:20:31Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world? We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. AWM explores the environment and develops executable Python hypotheses, continually testing and revising them against observations. It then…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.40310",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Hammering with Vampire in Lean",
+   "url": "https://arxiv.org/abs/2610.40310",
+   "authors": [
+    "Jonas Bodingbauer",
+    "Laura Kovács"
+   ],
+   "published": "2026-10-29T15:49:40Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present Vampire-Hammer, a hammer for the Lean interactive theorem prover that discharges goals using the Vampire automated theorem prover and reconstructs proofs checked by the Lean kernel. Vampire-Hammer uses the Lean-auto framework to process goals and premises before dispatching them to Vampire for proof search. Doing so, we rely on standard TPTP problem formats and annotated TSTP proofs that support proof reconstruction. With a 10-second budget on 196,083 eligible Mathlib theorems, Vampire-Hammer solves 21,158 problems not solved by other evaluated tools within the same budget.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.39536",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Semantic Path Orders are Generalized Weighted Path Orders",
+   "url": "https://arxiv.org/abs/2610.39536",
+   "authors": [
+    "Teppei Saito",
+    "Nao Hirokawa"
+   ],
+   "published": "2026-10-29T07:36:07Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Monotonic semantic path orders (MSPOs) are powerful reduction orders, but their effective use in theorem proving and termination analysis raises three issues: efficient comparison of terms, ground totality, and a reduction-pair formulation. Inspired by weighted path orders (WPOs), we introduce generalized weighted path orders (GWPOs) which encompass both WPOs and MSPOs. GWPOs and MSPOs coincide as classes of reduction orders, thereby yielding efficient and ground-total subclasses of MSPOs. We further formulate the reduction-pair version of the GWPO for the dependency pair method, from which…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.39354",
+   "type": "paper",
+   "source": "arXiv cs.SC",
+   "source_id": "arxiv-api",
+   "title": "Construction and formal verification of a special topology on {\\mathbb{Z}}^{n}: characterization of connected subsets",
+   "url": "https://arxiv.org/abs/2610.39354",
+   "authors": [
+    "Ignacio Vega-Páez"
+   ],
+   "published": "2026-10-29T04:47:50Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We examine whether the integers admit a topology whose connected subsets are precisely the sets of consecutive integers. The main result gives a construction for every integer lattice {\\mathbb{Z}}^{n}, n>0; the answer for Z is then obtained as a corollary. We prove that the neighborhoods determined by the parity of the sum of the coordinates form a basis and that topological connectedness agrees exactly with accessibility by finite paths of unit lattice steps. We also present a deductive audit and the correspondence between this argument and a verification in Lean 4 and Mathlib, including…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:c9c88a36243c11f2",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "The Isoperimetric Inequality for Rectifiable Simple Closed Curves",
+   "url": "https://isa-afp.org/entries/Isoperimetric.html",
+   "authors": [],
+   "published": "2026-10-29T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Isoperimetric Inequality for Rectifiable Simple Closed Curves in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:a61c6a480c5fc6ba",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Type safety for Isabelle/Solidity",
+   "url": "https://isa-afp.org/entries/Solidity_Type_Safety.html",
+   "authors": [],
+   "published": "2026-10-29T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Type safety for Isabelle/Solidity in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.38687",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Deogen: Automatic Benchmark Generation for Reasoning over Policies",
+   "url": "https://arxiv.org/abs/2610.38687",
+   "authors": [
+    "Sam Kouteili",
+    "William Liang",
+    "Keeran Murray",
+    "Adriana Zhou",
+    "Ramesh Viswanathan",
+    "Scott Shapiro",
+    "Ruzica Piskac"
+   ],
+   "published": "2026-10-28T18:56:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Language models are increasingly being deployed in regulated settings, where a model must apply given rules to the facts of a situation to determine a verdict. Benchmarking this capability, known as deontic reasoning, remains a costly and manual process, with existing datasets largely hand-crafted. In this paper, we present DeoGen, a scalable, automatic, and parametrizable benchmark generator for deontic reasoning. By autoformalizing policy rules to first-order logic, we can construct decision trees that capture possible outcome trajectories. Each path down a tree becomes a benchmark entry…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.38616",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Order Maintenance in Worst-Case Constant Time, Verified",
+   "url": "https://arxiv.org/abs/2610.38616",
+   "authors": [
+    "Denis Firsov"
+   ],
+   "published": "2026-10-28T10:36:36Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Order maintenance asks for a data structure that keeps a sequence of elements under insertions and deletions and tells which of two elements comes first. We give an algorithm, assembled from published components, that performs each operation in worst-case constant time, and verify it in Lean 4. The algorithm is a program for a random-access machine deeply embedded in Lean, whose interpreter counts every instruction. We prove that the program answers every query as a simple reference specification does, that each operation takes at most a fixed number of steps, independent of the number of…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:51293388c5d6f617",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "The Abel-Ruffini theorem and the unsolvability of the quintic",
+   "url": "https://isa-afp.org/entries/Unsolvable_Quintic.html",
+   "authors": [],
+   "published": "2026-10-28T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Abel-Ruffini theorem and the unsolvability of the quintic in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1a8dd355632befa1",
+   "type": "lean",
+   "source": "Lean 4 releases",
+   "source_id": "lean4-releases",
+   "title": "Lean 4 v4.36.0-rc2 (pre-release)",
+   "url": "https://github.com/leanprover/lean4/releases/tag/v4.36.0-rc2",
+   "authors": [
+    "github-actions[bot]"
+   ],
+   "published": "2026-10-27T18:38:15Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "This is release candidate 2 for the v4.36.0 release of Lean. View the [release notes](https://lean-lang.org/doc/reference/latest/releases/v4.36.0/) for more information.",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:2fe0a337539450f5",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Software Verification in Lean on November 7 has reached in-person capacity! If you're interested in attending live, please join the…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3myurbly4ps2j",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-10-27T17:30:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Software Verification in Lean on November 7 has reached in-person capacity! If you're interested in attending live, please join the waitlist: A livestream link will be shared with all waitlisted registrants a few days before the event. [contains quote post or other embedded content]",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37739",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+   "url": "https://arxiv.org/abs/2610.37739",
+   "authors": [
+    "Jiarui Yao",
+    "Ruida Wang",
+    "Tong Zhang"
+   ],
+   "published": "2026-10-27T16:49:33Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37524",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time",
+   "url": "https://arxiv.org/abs/2610.37524",
+   "authors": [
+    "Elisabeth Fink"
+   ],
+   "published": "2026-10-27T16:45:29Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Self-attention mechanisms have established the Transformer as the dominant backbone across natural language processing, source code intelligence, and automated theorem proving. However, all-to-all pairwise token comparison enforces a quadratic $\\mathcal{O}(N^2)$ compute and memory barrier alongside severe softmax attention dilution as sequence length $N$ scales beyond the training horizon. Inspired by recent advances in algebraic graph learning (\\textbf{WPNet}), this work introduces \\textbf{GTFormer}, a syntax-free hierarchical Graph Neural Network (GNN) that replaces flat self-attention for…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37498",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Global Choice without Excluded Middle in Dependent Type Theory",
+   "url": "https://arxiv.org/abs/2610.37498",
+   "authors": [
+    "Sewon Park"
+   ],
+   "published": "2026-10-27T16:22:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Diaconescu's theorem derives excluded middle from the axiom of choice, using propositional extensionality. We show that in dependent type theory without propositional extensionality, global choice alone does not imply excluded middle. We consider extensional Martin-Löf type theory with an impredicative universe of propositions included in the universe of types, extended with a global choice operator. We construct a consistent model of this type theory and show that the model refutes excluded middle and propositional extensionality. The model is built from staged sets, sets whose elements…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:b1cc44b2ee28b986",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "FRIDA @ POPL 2027: Call for Talks",
+   "url": "https://discourse.rocq-prover.org/t/frida-popl-2027-call-for-talks/3162",
+   "authors": [
+    "giuliano"
+   ],
+   "published": "2026-10-27T15:06:31Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "FRIDA @ POPL 2027 - 13th Workshop on Formal Reasoning in Distributed Algorithms Monday 11 January 2027, Mexico City Submission deadline: Friday 6 November 2026 (AoE) popl27.sigplan.org FRIDA 2027 - (Workshop on Formal Reasoning in Distributed Algorithms) - POPL... FRIDA 2027, the 13th Workshop on Formal Reasoning in Distributed Algorithms, is a one-day workshop held on Monday 11 January 2027. The call for talks is open: submit a short abstract and a PDF of at most 2 pages at https://frida2027.hotcrp.com/ by... Dear colleagues, FRIDA brings together researchers in distributed algorithms…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:bb9c52d036502ca1",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "PhD scholarships at the University of Strathclyde 2027",
+   "url": "https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159",
+   "authors": [
+    "aljungstrom"
+   ],
+   "published": "2026-10-27T15:06:14Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.37244",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Preserving Separation Logic Specifications through Compilation",
+   "url": "https://arxiv.org/abs/2610.37244",
+   "authors": [
+    "Carmine Abate",
+    "Kleio Liotati",
+    "František Farka",
+    "Sebastian Ertel"
+   ],
+   "published": "2026-10-27T13:46:09Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Program specifications in separation logic describe ownership of resources and serve as logical interfaces for local reasoning. Compiler correctness, expressed as semantics preservation, does not by itself supply such an interface for compiled code, because it does not explicitly relate source and target resources and assertions. We investigate WP-preserving compilation: when a compiler translates a source program, the weakest preconditions that the program satisfies in a separation logic carry over to the compiled program. Our proof technique consists of a resource-aware simulation over…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36798",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Polymorphic First-Class Environments",
+   "url": "https://arxiv.org/abs/2610.36798",
+   "authors": [
+    "Jinhao Tan",
+    "Jam Kabeer Ali Khan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-10-27T07:59:35Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "First-class environments expose runtime environments as ordinary values and support a substitution-free, environment-based operational semantics. They also support applications such as first-class modules, dynamic composition of environment fragments, and sandboxing via local environments. Existing environment-based calculi, however, are mostly studied in a simply typed setting and stop short of System F and polymorphism. We present $F_E$, a polymorphic calculus with first-class environments that conservatively extends System F with a small-step environment semantics. $F_E$ eliminates all…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36534",
+   "type": "paper",
+   "source": "arXiv math.NT",
+   "source_id": "arxiv-api",
+   "title": "Resolvent Components of Completely Normal Elements and the Morgan-Mullen Conjecture",
+   "url": "https://arxiv.org/abs/2610.36534",
+   "authors": [
+    "Florian Hellwig"
+   ],
+   "published": "2026-10-27T02:47:56Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We study completely normal elements of $\\mathbb{F}_{q^n}$ over $\\mathbb{F}_q$, that is, elements that are normal over every intermediate field, through partial Lagrange resolvents. In these coordinates, complete normality splits into independent components, in a way closely related to Hachenberger's decomposition theory. Our main tool is a structure theorem for the components; together with a finite computation, it shows that every component has weight (the sum of the probabilities that its conditions fail) at most $3/4$, uniformly in $n$. Combined with the classical character-sum method…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36494",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Counting by the Book: Verifying Alaska's Ranked-Choice Elections",
+   "url": "https://arxiv.org/abs/2610.36494",
+   "authors": [
+    "Lucy Horowitz"
+   ],
+   "published": "2026-10-27T01:52:21Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present Alaska's ranked-choice elections as a case study in Formally Verified Democracy, a program to establish election results through formally checked proofs. We formalize an interpretation of Alaska's tabulation rules in Lean, verify its implementation, and prove election-specific results. Across 115 ranked-choice contests in Alaska since 2022, we identify 75 ballot records across 10 contests that were counted differently from this interpretation by a program reproducing the published results, without changing any winners. We trace these differences to overvotes and duplicate rankings…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:39cd992d3362e240",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Path Lifting and Homology of the Circle and Punctured Plane",
+   "url": "https://isa-afp.org/entries/Circle_Fundamental_Group_Sequel.html",
+   "authors": [],
+   "published": "2026-10-27T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Path Lifting and Homology of the Circle and Punctured Plane in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:1d8ce2c9ec3e5bcd",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Software Verification in Lean comes to Stanford University on November 7, co-organized by the Beneficial AI Foundation and the Lean FRO…",
+   "url": "https://functional.cafe/@leanprover/117509551640325237",
+   "authors": [
+    "@leanprover@functional.cafe"
+   ],
+   "published": "2026-10-26T22:24:21Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Software Verification in Lean comes to Stanford University on November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Talks will cover Rust verification with the Aeneas framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:843c731b7747185b",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Software Verification in Lean (SVIL) comes to Stanford University on Saturday, November 7, co-organized by the Beneficial AI Foundation…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3mysr7bbod22j",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-10-26T22:24:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Software Verification in Lean (SVIL) comes to Stanford University on Saturday, November 7, co-organized by the Beneficial AI Foundation and the Lean FRO. Program and registration: beneficial-ai-foundation.github.io/SVIL2026_Fall/ https://beneficial-ai-foundation.github.io/SVIL2026_Fall/",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36343",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Reasoning about the Genetic Code in Lean",
+   "url": "https://arxiv.org/abs/2610.36343",
+   "authors": [
+    "Colin T. Jones",
+    "Tyler R. Josephson"
+   ],
+   "published": "2026-10-26T22:09:19Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The genetic code exhibits redundancy, meaning that multiple distinct nucleotide sequences can encode the same amino acid sequence, a property mathematically characterized as non-injectivity. While this phenomenon is well studied in molecular biology, its rigorous verification within a computational framework remains limited. In this work, we present a machine-verified model of the central dogma of molecular biology using the Lean 4 interactive theorem prover. We formalize nucleic acid bases and amino acids as inductive types and define transcription and translation as functions mapping DNA…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36196",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "count-catcher: Lean Theorems from Model Counting Certificates",
+   "url": "https://arxiv.org/abs/2610.36196",
+   "authors": [
+    "Johannes K. Fichte",
+    "Stefan Szeider"
+   ],
+   "published": "2026-10-26T19:34:36Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present count-catcher, a tool that turns a CPOG certificate of a count by the exact model counter d4 into a Lean theorem that a CNF formula defined in Lean has exactly N models over V variables. With an encoding lemma, this theorem becomes a theorem about the number of combinatorial objects. A CPOG certificate consists of a Boolean circuit equivalent to the formula and a proof of equivalence. count-catcher checks in Lean that the formula implies the circuit (forward check) and the circuit implies the formula (reverse check). For the forward check, lrat-catcher streams a refutation through…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.36105",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "AGDecode: Semantic Attribute Grammar Derivatives for Safety-Constrained Decoding of Large Language Models",
+   "url": "https://arxiv.org/abs/2610.36105",
+   "authors": [
+    "Rajan Maghera",
+    "Asher Tempest Arya",
+    "Aren A. Babikian",
+    "Marsha Chechik",
+    "Maryam Mehri Dehnavi"
+   ],
+   "published": "2026-10-26T18:18:41Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Large language models (LLMs) are increasingly used for code generation, motivating techniques that guarantee the structural and semantic correctness of generated programs. Constrained decoding enforces correctness during generation by restricting token choices to those that admit at least one valid completion. While existing approaches can enforce syntactic constraints and selected semantic properties such as type safety, they either target specific properties or rely on operational pruning mechanisms that are difficult to generalize to data-dependent, inductive program properties. We…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.35596",
+   "type": "paper",
+   "source": "arXiv stat.CO",
+   "source_id": "arxiv-api",
+   "title": "KAPPA: Checking the Proofs in Statistics Papers with Lean 4 and Language Model Agents",
+   "url": "https://arxiv.org/abs/2610.35596",
+   "authors": [
+    "Zihua She",
+    "Xiao Wang"
+   ],
+   "published": "2026-10-26T15:22:15Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Papers in statistical theory rest on long proofs that few readers check line by line. We present KAPPA (Kit of Agents for Proof-checking Papers with a proof Assistant), open-source software that organizes language model agents, run by Claude Code, to translate the proofs of a LaTeX paper into the proof assistant Lean 4 with its library Mathlib and check them there, result by result. Each numbered result receives one of four verdicts: verified unconditionally; verified conditionally, with every cited or unproved input stated as a named hypothesis; issue recorded, with its place in the paper…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.34723",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Connecting Quantum Proof Systems and Hoare Logic",
+   "url": "https://arxiv.org/abs/2610.34723",
+   "authors": [
+    "Liyi Li",
+    "Zoukarneini Difaizi Tagba",
+    "Alex Potanin"
+   ],
+   "published": "2026-10-26T02:20:45Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Verifying quantum programs today requires specialized proof systems built on interactive theorem provers such as Rocq, Lean, Isabelle, or Why3, and even modest quantum algorithms cost substantial human effort to verify. Because quantum programs cannot be effectively checked by runtime testing, formal verification is the only viable path to correctness, making the cost of these bespoke systems the chief barrier to scalable quantum software assurance. We show that verifying a quantum program should be no harder than verifying a classical array program, a paradigm commonly used in parallel…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:c43bf589360c3c1a",
+   "type": "blog",
+   "source": "Lawrence Paulson, Machine Logic",
+   "source_id": "paulson-blog",
+   "title": "A Summer with Claude and relative arbitrage, by Dmitriy Traytel",
+   "url": "https://lawrencecpaulson.github.io//2026/10/26/Relative_arbitrage.html",
+   "authors": [],
+   "published": "2026-10-26T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In our Renaissance Philanthropy-funded project Copilots for Isabelle, we develop methods and tools that allow AI agents to conveniently interface with Isabelle. One major outcome of the project so far is Kevin Kappelmann’s PIDE MCP component1, which presents AI agents with a live view of Isabelle much like we human users have it through Isabelle/jEdit. I am trying to keep Claude entertained through ((semi-)auto-)formalization case studies using this tool; this was also the goal for my summer vacation (with a week of FLoC in the middle) where I was looking for a larger project on which Claude…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:6c31240bd09b10ee",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "The Irrationality of ζ(5)",
+   "url": "https://isa-afp.org/entries/Zeta_5_Irrational.html",
+   "authors": [],
+   "published": "2026-10-26T00:00:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The Irrationality of ζ(5) in the AFP",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.34548",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$",
+   "url": "https://arxiv.org/abs/2610.34548",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-25T20:17:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "What does a recursive definition mean in a grounded logic, where a sentence is true only if a terminating process makes it so? This paper takes Kripke's answer for truth, the least fixed point, as a rule. Reflective Grounded Arithmetic (RGA) writes any recursive definition as one self-referential term; Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, making each an inductive definition. IGA is omega-sound and proof-grounded: sound and complete for a semantics whose certificates are its own proofs. IGA proves Goodstein's theorem, the Kirby-Paris hydra game…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.34490",
+   "type": "paper",
+   "source": "arXiv cs.CL",
+   "source_id": "arxiv-api",
+   "title": "Efficient Proof Generation for Lean Statements with Multiple Candidate Answers",
+   "url": "https://arxiv.org/abs/2610.34490",
+   "authors": [
+    "Pengzhen Lin",
+    "Ke Zhang",
+    "Maziar Raissi",
+    "Zhouxing Shi"
+   ],
+   "published": "2026-10-25T18:32:39Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "In formal systems such as Lean 4, efficiently finding answers to mathematical problems and generating verifiable proofs is an important task in automated mathematical reasoning. In the traditional way where an upstream solver provides multiple candidate answers, the common workflow requires searching for proofs for each candidate separately, incurring redundant computational cost. To this end, we propose a joint proof framework that integrates candidate answer selection, answer supplementation, and formal proof generation into a unified reasoning process. At its core is a trained prover that…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.34264",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Unit: a type checker for dependent type theory",
+   "url": "https://arxiv.org/abs/2610.34264",
+   "authors": [
+    "Thierry Coquand"
+   ],
+   "published": "2026-10-25T12:50:42Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present Unit, a type checker for dependent type theory with a module system in the tradition of Automath and a uniform treatment of definitions. There is no unification, no instance search, no tactics and no unfolding heuristic, so the work of checking can be observed and compared with the informal proof. With Unit we have checked a model of univalent type theory, synthetic algebraic geometry, and synthetic Stone duality with its cohomology, and results in commutative algebra, like finite free resolutions and Zariski Main Theorem. These developments show that a small, uniform system…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.35962",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+   "url": "https://arxiv.org/abs/2610.35962",
+   "authors": [
+    "Skander Moalla",
+    "Ahmad Rammal",
+    "Niket Patel",
+    "Remi Munos",
+    "Julia Kempe"
+   ],
+   "published": "2026-10-25T11:07:24Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating specialized provers. This raises a bitter-lesson question: can a simple agentic loop that scales test-time compute match these workflows? The answer matters as formal verification must scale to keep up with frontier models producing research mathematics, yet new workflows rarely settle it, as their gains are…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:76889b5641555263",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "@modul_ds @mergesort @nesevis #Kani, a model checker for #Rust, has an experimental feature for coverage - it reports how much code you've…",
+   "url": "https://floss.social/@janriemer/117501075532923509",
+   "authors": [
+    "@janriemer@floss.social"
+   ],
+   "published": "2026-10-25T10:28:46Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "@modul_ds @mergesort @nesevis #Kani, a model checker for #Rust, has an experimental feature for coverage - it reports how much code you've covered with your spec and if there are any gaps: https://model-checking.github.io/kani/reference/experimental/coverage.html If a spec fails, it can also…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "arxiv:2610.33860",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Numina Fuse: Interactive Autoformalization in Lean 4",
+   "url": "https://arxiv.org/abs/2610.33860",
+   "authors": [
+    "Justin Asher",
+    "Yichuan Cao",
+    "Ruichen Qiu",
+    "Pietro Pellegrino",
+    "Jia Li"
+   ],
+   "published": "2026-10-24T19:05:32Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Numina Fuse is an agent-native application for formalizing mathematics in Lean 4. Since Lean can compile while not representing its intended informal meaning, and agents now write Lean faster than people can read it, we built Fuse around human supervision of agent work. A user works with an AI orchestrator on a Lean project and supervises it through views of the blueprint, the dependency graph, and the Lean code, while the backend keeps the project's derived state and runs agents for hours without the user present. We describe the development of Fuse throughout 2026, as it moved from a…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  },
+  {
+   "id": "u:23c121e454afa508",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that…",
+   "url": "https://mathstodon.xyz/@aleph_1/117496318107098132",
+   "authors": [
+    "@aleph_1@mathstodon.xyz"
+   ],
+   "published": "2026-10-24T14:18:53Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”? In a new interview, Fields Medalist Terence Tao warns that AI-generated mathematical proofs risk prioritizing answers over understanding. OpenAI reportedly released answers to 722 previously unsolved problems, raising questions…",
+   "summary": null,
+   "score": null,
+   "relevant": null
+  }
+ ]
+}
