@@ -62,9 +62,12 @@ jobs:
           restore-keys: http-cache-${{ github.ref_name }}-${{ hashFiles('data-branch/seen.json') }}-
 
       - name: Fetch, filter and write data
+        # Claude runs through Anthropic when ANTHROPIC_API_KEY is set, otherwise through
+        # OpenRouter when OPENROUTER_API_KEY is set (a stopgap), otherwise not at all.
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          USE_CLAUDE: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          USE_CLAUDE: ${{ secrets.ANTHROPIC_API_KEY != '' || secrets.OPENROUTER_API_KEY != '' }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ZULIP_EMAIL: ${{ secrets.ZULIP_EMAIL }}

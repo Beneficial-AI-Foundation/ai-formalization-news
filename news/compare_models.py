@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -31,6 +32,8 @@ RUNS_PER_MONTH = 720
 
 
 def cost(model: str, input_tokens: int, output_tokens: int) -> float:
+    # OpenRouter's names (anthropic/claude-haiku-5.5) carry the same prices.
+    model = re.sub(r"^anthropic/(claude-[a-z]+)-(\d+)\.(\d+)$", r"\1-\2-\3", model)
     if model not in PRICES:
         raise SystemExit(f"no price known for {model}; add it to PRICES in news/compare_models.py")
     pin, pout = PRICES[model]

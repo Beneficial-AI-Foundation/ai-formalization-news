@@ -36,6 +36,15 @@ def no_network(monkeypatch):
     monkeypatch.setattr(socket, "create_connection", guard)
 
 
+@pytest.fixture(autouse=True)
+def no_api_keys(monkeypatch):
+    """Keys and switches from the developer's shell must not change which route or
+    model a test sees; tests that need them set them."""
+    for name in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_BASE_URL", "OPENROUTER_API_KEY",
+                 "CLAUDE_MODEL", "USE_CLAUDE"):
+        monkeypatch.delenv(name, raising=False)
+
+
 @pytest.fixture
 def cfg():
     return load_config()
