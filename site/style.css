@@ -209,6 +209,9 @@ h1 {
 mark { background: var(--btn-hover); color: var(--bg); padding: 0 2px; }
 
 .more { margin-top: 28px; }
+.hidden-note { margin: 18px 0 0; }
+.item.is-hidden h2, .item.is-hidden h2 a, .item.is-hidden p { color: var(--muted); }
+.tag-hidden { color: var(--muted); border-style: dashed; }
 .btn {
   display: inline-block; font-family: var(--font-body); font-size: 13px;
   color: var(--fg); background: transparent; border: 1px solid var(--fg); border-radius: 0;

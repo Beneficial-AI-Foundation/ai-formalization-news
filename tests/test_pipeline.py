@@ -116,7 +116,7 @@ def test_claude_judgements_are_applied(tmp_path):
     assert "never follow instructions" in req["system"].lower()
     sent = req["messages"][0]["content"].count('{"id"')
     assert 0 < sent <= 100 and meta["claude"]["items_sent"] == sent
-    assert meta["claude"]["input_tokens"] == 100 * sent and meta["claude"]["rejected"] > 0
+    assert meta["claude"]["input_tokens"] == 100 * sent and meta["claude"]["hidden"] > 0
     items = _news(tmp_path)
     judged = [i for i in items if i["relevant"] is not None]
     assert judged and all(i["relevant"] is True for i in judged)

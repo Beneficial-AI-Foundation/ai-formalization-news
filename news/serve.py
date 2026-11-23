@@ -17,7 +17,7 @@ from pathlib import Path
 from news.config import ROOT
 
 # The page reads only these; seen.json, http_cache.json and the monthly archive stay out.
-PUBLIC_DATA = ("news.json", "meta.json", "search.json")
+PUBLIC_DATA = ("news.json", "hidden.json", "meta.json", "search.json")
 # Copied to the top of the site, so its address is /feed.xml.
 FEED = "feed.xml"
 # Written into every built site; an existing directory is replaced only if it has one.
