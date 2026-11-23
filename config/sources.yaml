@@ -1,0 +1,553 @@
+# Sources and keywords for the BAIF news page.
+#
+# Each source has:
+#   kind     which fetcher reads it: feed (any RSS or Atom), arxiv, arxiv_rss,
+#            github_releases, hackernews, hf_papers, zulip
+#   type     tag shown on the page: paper, lean, news, blog, social
+#   enabled  true or false
+#   filter   none (keep every item) or keywords (keep only items that match a keyword)
+#   every    how often to fetch: 1h, 6h, or daily (first run after 01:00 US Eastern each day)
+#   max_age_days  optional: ignore items published longer ago than this (default 30)
+#   trusted  optional: true for sources that are on topic by design; with Claude on, their
+#            items get a summary but are never dropped as not relevant (default false)
+#   note     free text for maintainers
+#
+# To add a blog, copy one of the feed entries, give it a new id, and set its url.
+# Switch a source on or off with enabled. Nothing else in the code needs to change.
+
+site:
+  title: AI and formalization news
+  url: https://beneficial-ai-foundation.github.io/ai-formalization-news/
+  repository: https://github.com/Beneficial-AI-Foundation/ai-formalization-news
+
+# Used by the keyword filter and by the Hacker News search.
+# Matching ignores case, allows one space or hyphen between words, or none
+# ("Lean 4" also matches "Lean4" and "Lean-4"), allows plural endings, and treats
+# "isation" as "ization".
+keywords:
+  - Lean 4
+  - Mathlib
+  - autoformalization
+  - formal verification
+  - theorem prover
+  - theorem proving
+  - proof assistant
+  - Isabelle
+  - Coq
+  - Rocq
+  - Dafny
+  - Verus
+  - ACL2
+  - seL4
+  - verified code
+  - AI mathematics
+
+claude:
+  # The CLAUDE_MODEL environment variable overrides this.
+  model: claude-haiku-5-5
+  effort: low
+  max_items_per_run: 100
+  max_tokens: 16000
+  # Items that Claude could not judge (API error, or more than max_items_per_run
+  # waiting) are retried on later runs while they are younger than this.
+  retry_days: 3
+
+sources:
+  # ---------- Core sources ----------
+  - id: arxiv-api
+    name: arXiv
+    kind: arxiv
+    type: paper
+    enabled: true
+    filter: none
+    every: daily
+    timeout: 60
+    query: >-
+      (cat:cs.LO OR cat:cs.PL OR cat:cs.AI OR cat:cs.LG OR cat:cs.SE OR cat:math.LO)
+      AND (abs:"Lean 4" OR abs:Mathlib OR abs:autoformalization OR abs:"formal verification"
+      OR abs:"theorem proving" OR abs:"proof assistant" OR abs:Isabelle OR abs:Coq
+      OR abs:Rocq OR abs:ACL2 OR abs:Dafny OR abs:Verus)
+    note: The query already filters by abstract, so no keyword filter. The API can be slow, so it gets a 60 second timeout.
+
+  - id: arxiv-rss
+    name: arXiv cs.LO and cs.PL
+    kind: arxiv_rss
+    type: paper
+    url: https://rss.arxiv.org/rss/cs.LO+cs.PL
+    enabled: true
+    filter: keywords
+    every: daily
+    note: Only new and cross-listed papers; replacements of older papers are skipped.
+
+  - id: lean-blog
+    name: Lean community blog
+    kind: feed
+    type: lean
+    url: https://leanprover-community.github.io/blog/rss.xml
+    enabled: true
+    filter: none
+    trusted: true
+    every: 6h
+
+  - id: lean4-releases
+    name: Lean 4 releases
+    kind: github_releases
+    type: lean
+    repo: leanprover/lean4
+    label: Lean 4
+    enabled: true
+    filter: none
+    trusted: true
+    every: 1h
+
+  - id: hackernews
+    name: Hacker News
+    kind: hackernews
+    type: news
+    enabled: true
+    filter: keywords
+    every: 1h
+    min_points: 5
+    lookback_hours: 48
+    note: Searches each keyword; keeps stories whose title or link matches a keyword and that have at least min_points.
+
+  - id: lean-zulip
+    name: Lean Zulip announcements
+    kind: zulip
+    type: lean
+    site: https://leanprover.zulipchat.com
+    channel: announce
+    enabled: false
+    filter: none
+    trusted: true
+    every: 1h
+    note: Needs ZULIP_EMAIL and ZULIP_API_KEY, and the Lean community's agreement to a bot reading announcements.
+
+  # Extra blogs: add RSS or Atom links here, for example
+  # - id: my-blog
+  #   name: My blog
+  #   kind: feed
+  #   type: blog
+  #   url: https://example.org/feed.xml
+  #   enabled: true
+  #   filter: keywords
+  #   every: 6h
+
+  # ---------- Recommended additions for version 1 (enabled) ----------
+  - id: afp
+    name: Archive of Formal Proofs
+    kind: feed
+    type: paper
+    url: https://isa-afp.org/index.xml
+    enabled: true
+    filter: none
+    trusted: true
+    every: 6h
+
+  - id: xena
+    name: Xena (Kevin Buzzard)
+    kind: feed
+    type: blog
+    url: https://xenaproject.wordpress.com/feed/
+    enabled: true
+    filter: none
+    trusted: true
+    every: 6h
+
+  - id: lean-fro-bluesky
+    name: Lean FRO on Bluesky
+    kind: feed
+    type: social
+    url: https://bsky.app/profile/lean-lang.org/rss
+    author: Lean FRO
+    enabled: true
+    filter: none
+    trusted: true
+    every: 1h
+
+  - id: rocq-discourse
+    name: Rocq Discourse
+    kind: feed
+    type: news
+    url: https://discourse.rocq-prover.org/latest.rss
+    enabled: true
+    filter: none
+    trusted: true
+    every: 6h
+
+  - id: quanta-math
+    name: Quanta Magazine, mathematics
+    kind: feed
+    type: news
+    url: https://www.quantamagazine.org/mathematics/feed/
+    enabled: true
+    filter: keywords
+    every: 6h
+
+  - id: quanta-cs
+    name: Quanta Magazine, computer science
+    kind: feed
+    type: news
+    url: https://www.quantamagazine.org/computer-science/feed/
+    enabled: true
+    filter: keywords
+    every: 6h
+
+  - id: hf-daily-papers
+    name: Hugging Face Daily Papers
+    kind: hf_papers
+    type: paper
+    url: https://huggingface.co/api/daily_papers?p=0&limit=20&sort=publishedAt
+    enabled: true
+    filter: keywords
+    every: 6h
+    note: A broad AI feed, so it uses the keyword filter.
+
+  - id: tao-blog
+    name: Terence Tao, What's new
+    kind: feed
+    type: blog
+    url: https://terrytao.wordpress.com/feed/
+    enabled: true
+    filter: keywords
+    every: 6h
+
+  - id: paulson-blog
+    name: Lawrence Paulson, Machine Logic
+    kind: feed
+    type: blog
+    url: https://lawrencecpaulson.github.io/feed.xml
+    enabled: true
+    filter: keywords
+    every: 6h
+
+  - id: import-ai
+    name: Import AI (Jack Clark)
+    kind: feed
+    type: news
+    url: https://jack-clark.net/feed/
+    enabled: false
+    filter: none
+    every: 6h
+    note: Weekly AI research digest. Switched off on 23 Nov 2026 because the Claude step judges every issue as general AI news; switch on with filter keywords to catch the rare on-topic issue.
+
+  - id: mathstodon-leanprover
+    name: "#leanprover on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/leanprover.rss
+    enabled: true
+    filter: none
+    every: 1h
+
+  - id: mathstodon-formalverification
+    name: "#formalverification on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/formalverification.rss
+    enabled: true
+    filter: none
+    every: 1h
+
+  # ---------- Other sources (disabled; switch on as wanted) ----------
+  - id: hillel-wayne
+    name: Hillel Wayne, Computer Things
+    kind: feed
+    type: blog
+    url: https://buttondown.com/hillelwayne/rss
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: rocq-changelog
+    name: Rocq changelog
+    kind: feed
+    type: news
+    url: https://rocq-prover.org/changelog.xml
+    enabled: false
+    filter: none
+    every: 6h
+
+  - id: agda-releases
+    name: Agda releases
+    kind: github_releases
+    type: news
+    repo: agda/agda
+    label: Agda
+    enabled: false
+    filter: none
+    every: 1h
+
+  - id: rocq-releases
+    name: Rocq releases
+    kind: github_releases
+    type: news
+    repo: rocq-prover/rocq
+    label: Rocq
+    enabled: false
+    filter: none
+    every: 1h
+
+  - id: amazon-science
+    name: Amazon Science
+    kind: feed
+    type: news
+    url: https://www.amazon.science/index.rss
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: topos-blog
+    name: Topos Institute blog
+    kind: feed
+    type: blog
+    url: https://topos.institute/blog/index.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: youtube-lean-fro
+    name: Lean FRO on YouTube
+    kind: feed
+    type: news
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UC33n-zWRgO613Qwt4TQx6LQ
+    enabled: false
+    filter: none
+    every: 6h
+
+  - id: youtube-leanprover-community
+    name: leanprover community on YouTube
+    kind: feed
+    type: news
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWe5B7Ikr0AI9727doEUxPg
+    enabled: false
+    filter: none
+    every: 6h
+
+  - id: youtube-ipam
+    name: IPAM on YouTube
+    kind: feed
+    type: news
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCGzuiiLdQZu9wxDNJHO_JnA
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: proofassistants-se
+    name: Proof Assistants Stack Exchange
+    kind: feed
+    type: news
+    url: https://proofassistants.stackexchange.com/feeds
+    enabled: false
+    filter: none
+    every: 6h
+
+  - id: deepmind-blog
+    name: Google DeepMind blog
+    kind: feed
+    type: news
+    url: https://deepmind.google/blog/feed
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: google-research
+    name: Google Research
+    kind: feed
+    type: news
+    url: https://blog.google/innovation-and-ai/technology/research/rss
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: openai-news
+    name: OpenAI News
+    kind: feed
+    type: news
+    url: https://openai.com/news/rss.xml
+    categories: [Research, Safety]
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: msr-blog
+    name: Microsoft Research blog
+    kind: feed
+    type: news
+    url: https://www.microsoft.com/en-us/research/blog/feed/
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: hf-blog
+    name: Hugging Face blog
+    kind: feed
+    type: blog
+    url: https://huggingface.co/blog/feed.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: epoch-ai
+    name: Epoch AI
+    kind: feed
+    type: blog
+    url: https://epoch.ai/atom.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: anthropic-news
+    name: Anthropic News
+    kind: feed
+    type: news
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Unofficial scraper feed; could stop at any time.
+
+  - id: anthropic-research
+    name: Anthropic Research
+    kind: feed
+    type: news
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Unofficial scraper feed; could stop at any time.
+
+  - id: anthropic-engineering
+    name: Anthropic Engineering
+    kind: feed
+    type: news
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Unofficial scraper feed; could stop at any time.
+
+  - id: meta-ai
+    name: Meta AI
+    kind: feed
+    type: news
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Unofficial scraper feed; looked stale on 22 Nov 2026.
+
+  - id: mistral
+    name: Mistral AI
+    kind: feed
+    type: news
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Unofficial scraper feed.
+
+  - id: last-week-in-ai
+    name: Last Week in AI
+    kind: feed
+    type: news
+    url: https://lastweekin.ai/feed
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: interconnects
+    name: Interconnects (Nathan Lambert)
+    kind: feed
+    type: blog
+    url: https://www.interconnects.ai/feed
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Some posts are paid and arrive cut off.
+
+  - id: simon-willison
+    name: Simon Willison
+    kind: feed
+    type: blog
+    url: https://feeds.simonwillison.net/atom/everything/
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: ahead-of-ai
+    name: Ahead of AI (Sebastian Raschka)
+    kind: feed
+    type: blog
+    url: https://magazine.sebastianraschka.com/feed
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: latent-space
+    name: Latent Space
+    kind: feed
+    type: blog
+    url: https://latent.space/feeds/articles.xml
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: lesswrong-curated
+    name: LessWrong, curated
+    kind: feed
+    type: blog
+    url: https://www.lesswrong.com/feed.xml?view=curated
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: mit-tech-review-ai
+    name: MIT Technology Review, AI
+    kind: feed
+    type: news
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+    enabled: false
+    filter: keywords
+    every: 6h
+    note: Metered paywall; not in the recommended set.
+
+  - id: ieee-spectrum
+    name: IEEE Spectrum
+    kind: feed
+    type: news
+    url: https://spectrum.ieee.org/feeds/feed.rss
+    enabled: false
+    filter: keywords
+    every: 6h
+
+  - id: buzzard-bluesky
+    name: Kevin Buzzard on Bluesky
+    kind: feed
+    type: social
+    url: https://bsky.app/profile/xenaproject.bsky.social/rss
+    author: Kevin Buzzard
+    enabled: false
+    filter: none
+    every: 1h
+
+  - id: tao-mathstodon
+    name: Terence Tao on Mathstodon
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/@tao.rss
+    author: Terence Tao
+    enabled: false
+    filter: keywords
+    every: 1h
+
+  - id: lean-mastodon
+    name: Lean on Mastodon
+    kind: feed
+    type: social
+    url: https://functional.cafe/@leanprover.rss
+    author: Lean
+    enabled: false
+    filter: none
+    every: 1h
+    note: Listed on the Lean community page; not opened during planning.

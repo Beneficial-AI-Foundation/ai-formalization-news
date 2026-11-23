@@ -1,0 +1,276 @@
+<title>BAIF News Sketch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: one column like beneficialaifoundation.org, black ground, wide side margins, white 1px rules, square outline controls. Single dark look on purpose, matching the BAIF site. */
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --link: #d1d1d1;
+  --muted: #9a9a9a;
+  --rule-strong: #ffffff;
+  --rule: #444447;
+  --rule-footer: #4e4e4e;
+  --btn-hover: #d8d8d8;
+  --green: #15c639;
+  --note-bg: #111113;
+  --font-head: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --gutter: clamp(16px, 4.3vw, 62px);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-weight: 400; font-size: 16px; line-height: 1.55; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.wrap { padding-left: max(var(--gutter), env(safe-area-inset-left, 0px)); padding-right: max(var(--gutter), env(safe-area-inset-right, 0px)); }
+
+.sketchbar { background: var(--note-bg); border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--link); }
+.sketchbar .wrap { padding-block: 10px; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.sketchbar strong { color: var(--fg); font-weight: 500; }
+
+/* Header, same shape as the BAIF site header */
+header .wrap { padding-block: 26px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.logo svg { width: 40px; height: 40px; flex: none; }
+.logo span { font-family: var(--font-body); font-weight: 600; font-size: 17px; line-height: 1.05; letter-spacing: 0.01em; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 28px; font-size: 18px; font-weight: 400; }
+nav a { text-decoration: none; padding-bottom: 2px; }
+nav a[aria-current="page"] { border-bottom: 1px solid var(--fg); }
+
+/* Title block */
+.intro .wrap { padding-block: 48px 36px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 32px 64px; align-items: end; }
+h1 { font-family: var(--font-head); font-weight: 700; font-size: clamp(40px, 6vw, 64px); line-height: 1.04; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.lede { font-family: var(--font-head); font-weight: 500; font-size: clamp(19px, 2vw, 24px); line-height: 1.3; margin: 0; text-wrap: balance; }
+.updated { margin-top: 16px; font-size: 14px; color: var(--link); display: flex; align-items: center; gap: 10px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex: none; }
+.rule-strong { border: 0; border-top: 1px solid var(--rule-strong); margin: 0; }
+
+/* Filters, styled like the site's square Read More button */
+.filters .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.filters .label { font-size: 13px; color: var(--muted); margin-right: 6px; letter-spacing: 0.06em; text-transform: uppercase; }
+.chip { font-family: var(--font-body); font-size: 13px; color: var(--fg); background: transparent; border: 1px solid var(--fg); border-radius: 0; padding: 11px 22px; cursor: pointer; }
+.chip:hover, .chip[aria-pressed="true"] { background: var(--btn-hover); color: var(--bg); border-color: var(--btn-hover); }
+
+/* Search box: square, 1px white border, same family as the buttons */
+.search .wrap { padding-top: 28px; display: grid; gap: 10px; }
+.search-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: stretch; }
+.search-box { flex: 1 1 320px; display: flex; align-items: center; gap: 12px; border: 1px solid var(--fg); padding: 0 16px; min-height: 48px; }
+.search-box svg { flex: none; }
+.search-box input { flex: 1; min-width: 0; background: transparent; border: 0; color: var(--fg); font-family: var(--font-body); font-size: 16px; padding: 12px 0; outline: none; }
+.search-box input::placeholder { color: var(--muted); }
+.search-box:focus-within { outline: 2px solid var(--green); outline-offset: 3px; }
+.kbd { font-size: 12px; color: var(--muted); border: 1px solid var(--rule-footer); padding: 0 6px; }
+.toggle { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--link); border: 1px solid var(--rule-footer); padding: 0 16px; min-height: 48px; cursor: pointer; }
+.toggle input { accent-color: var(--green); width: 16px; height: 16px; margin: 0; }
+.search-hint { font-size: 13px; color: var(--muted); margin: 0; }
+
+/* Main grid: news list plus side column */
+.main .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 40px 72px; padding-block: 8px 72px; }
+.list { list-style: none; margin: 0; padding: 0; min-width: 0; }
+.item { padding-block: 26px; border-top: 1px solid var(--rule); display: grid; gap: 8px; }
+.item:first-child { border-top: 0; padding-top: 4px; }
+.meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.tag { color: var(--fg); border: 1px solid var(--rule-footer); padding: 1px 8px; font-size: 12px; }
+.item h2 { font-family: var(--font-head); font-weight: 600; font-size: clamp(20px, 2vw, 24px); line-height: 1.25; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.item h2 a { text-decoration: none; }
+.item h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.item p { margin: 0; color: var(--link); max-width: 64ch; }
+.more { margin-top: 28px; }
+.btn { display: inline-block; font-size: 13px; color: var(--fg); border: 1px solid var(--fg); padding: 14px 42px; text-decoration: none; }
+.btn:hover { background: var(--btn-hover); color: var(--bg); }
+
+aside { min-width: 0; display: grid; gap: 36px; align-content: start; }
+aside h3 { font-family: var(--font-head); font-weight: 700; font-size: 20px; margin: 0 0 12px; letter-spacing: -0.01em; }
+aside ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; font-size: 15px; }
+aside li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 10px; }
+aside li span:last-child { color: var(--muted); font-variant-numeric: tabular-nums; }
+aside p { margin: 0; font-size: 15px; color: var(--link); }
+aside p a { color: var(--link); text-underline-offset: 3px; }
+
+/* Footer, same as the BAIF site footer */
+footer { border-top: 1px solid var(--rule); }
+footer .wrap { padding-block: 40px 28px; display: grid; gap: 22px; }
+footer .tagline { font-size: 14px; max-width: 30ch; margin: 0; }
+footer hr { border: 0; border-top: 1px solid var(--rule-footer); margin: 0; }
+footer .small { font-size: 13px; margin: 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+
+/* Style tokens panel (not part of the site) */
+.tokens { background: var(--note-bg); border-top: 1px solid var(--rule); }
+.tokens .wrap { padding-block: 40px 56px; display: grid; gap: 24px; }
+.tokens h2 { font-family: var(--font-head); font-weight: 700; font-size: 26px; margin: 0; }
+.tokens .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; }
+.sw { display: flex; gap: 12px; align-items: center; font-size: 13px; }
+.sw i { width: 36px; height: 36px; border: 1px solid var(--rule-footer); flex: none; }
+.sw b { display: block; font-weight: 500; color: var(--fg); }
+.sw span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.typo { display: grid; gap: 10px; font-size: 14px; color: var(--link); }
+.typo .h { font-family: var(--font-head); font-weight: 700; font-size: 28px; color: var(--fg); letter-spacing: -0.02em; }
+.typo .b { font-family: var(--font-body); font-size: 16px; color: var(--fg); }
+
+@media (max-width: 860px) {
+  .intro .wrap, .main .wrap { grid-template-columns: minmax(0, 1fr); }
+  nav { font-size: 15px; gap: 4px 18px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="sketchbar">
+  <div class="wrap">
+    <span><strong>Sketch only.</strong> Not live. The news items are placeholders that show the layout.</span>
+    <span>Style taken from beneficialaifoundation.org (home and research pages).</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Beneficial AI Foundation News">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M20 4 A16 16 0 0 1 35.5 16" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M4.6 23 A16 16 0 0 0 16 35.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="20" cy="20" r="4.2" fill="#15c639"/>
+      </svg>
+      <span>BENEFICIAL<br>AI FOUNDATION</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#top" aria-current="page">News</a>
+      <a href="#sources">Sources</a>
+      <a href="#about">About</a>
+      <a href="#top">BAIF home</a>
+    </nav>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="wrap">
+    <div>
+      <h1>AI and formalization news</h1>
+      <div class="updated"><span class="dot" aria-hidden="true"></span>Updated every hour. Last update 09:17 SGT, 22 Nov 2026.</div>
+    </div>
+    <p class="lede">New papers, Lean and Mathlib updates, and writing on AI for formal verification, gathered in one place.</p>
+  </div>
+  <div class="wrap"><hr class="rule-strong"></div>
+</section>
+
+<section class="search" aria-label="Search the news archive">
+  <div class="wrap">
+    <div class="search-row">
+      <label class="search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="search" placeholder="Search every item since launch, for example autoformalisation" aria-label="Search news">
+        <span class="kbd" aria-hidden="true">/</span>
+      </label>
+      <label class="toggle"><input type="checkbox"> Match meaning</label>
+    </div>
+    <p class="search-hint">Near spellings and word starts match too: "isabell" finds Isabelle, "formalisation" finds formalization. Results respect the buttons below.</p>
+  </div>
+</section>
+
+<section class="filters" aria-label="Filter by source type">
+  <div class="wrap">
+    <span class="label">Show</span>
+    <button class="chip" id="f-all" aria-pressed="true">All</button>
+    <button class="chip" id="f-papers" aria-pressed="false">Papers</button>
+    <button class="chip" id="f-lean" aria-pressed="false">Lean and Mathlib</button>
+    <button class="chip" id="f-news" aria-pressed="false">News</button>
+    <button class="chip" id="f-blogs" aria-pressed="false">Blogs</button>
+    <button class="chip" id="f-social" aria-pressed="false">Social</button>
+  </div>
+</section>
+
+<section class="main">
+  <div class="wrap">
+    <ol class="list">
+      <li class="item">
+        <div class="meta"><span class="tag">Paper</span><span>arXiv cs.LO</span><span>2 hours ago</span></div>
+        <h2><a href="#top">Sample paper title on autoformalizing competition proofs into Lean 4</a></h2>
+        <p>One line from the abstract goes here, cut at about 160 characters so every card stays the same height.</p>
+      </li>
+      <li class="item">
+        <div class="meta"><span class="tag">Lean and Mathlib</span><span>Lean Zulip</span><span>4 hours ago</span></div>
+        <h2><a href="#top">Sample release note headline for a new Lean toolchain version</a></h2>
+        <p>Summary line from the announcement, for example what changed for tactic authors.</p>
+      </li>
+      <li class="item">
+        <div class="meta"><span class="tag">News</span><span>Example outlet</span><span>7 hours ago</span></div>
+        <h2><a href="#top">Sample news headline about AI systems proving theorems</a></h2>
+        <p>Summary line taken from the article's own description, linked to the original source.</p>
+      </li>
+      <li class="item">
+        <div class="meta"><span class="tag">Blog</span><span>Example research blog</span><span>Yesterday</span></div>
+        <h2><a href="#top">Sample blog post title on verified code generation</a></h2>
+        <p>Summary line from the post, with the author's name in the meta row when the feed gives one.</p>
+      </li>
+      <li class="item">
+        <div class="meta"><span class="tag">Paper</span><span>arXiv cs.AI</span><span>Yesterday</span></div>
+        <h2><a href="#top">Sample paper title on benchmarks for formal mathematics</a></h2>
+        <p>One line from the abstract.</p>
+      </li>
+      <li class="more"><a class="btn" href="#top">Older items</a></li>
+    </ol>
+
+    <aside>
+      <div id="sources">
+        <h3>Sources</h3>
+        <ul>
+          <li><span>arXiv cs.LO and cs.AI</span><span>Papers</span></li>
+          <li><span>Lean Zulip announcements</span><span>Lean</span></li>
+          <li><span>Mathlib changelog</span><span>Lean</span></li>
+          <li><span>News search feeds</span><span>News</span></li>
+          <li><span>Research blogs (RSS)</span><span>Blogs</span></li>
+        </ul>
+      </div>
+      <div id="about">
+        <h3>About</h3>
+        <p>A feed kept by the Beneficial AI Foundation. Items are collected automatically every hour, and each one links to its original source. <a href="#top">Suggest a source</a></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Beneficial AI Foundation">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M20 4 A16 16 0 0 1 35.5 16" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M4.6 23 A16 16 0 0 0 16 35.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="20" cy="20" r="4.2" fill="#ffffff"/>
+      </svg>
+      <span>BENEFICIAL<br>AI FOUNDATION</span>
+    </a>
+    <p class="tagline">Researching how to keep AI beneficial for generations to come</p>
+    <hr>
+    <p class="small"><span>© 2026 Beneficial AI Foundation. All rights reserved.</span><span>Headlines and summaries belong to their sources.</span></p>
+  </div>
+</footer>
+
+<section class="tokens" aria-labelledby="tok">
+  <div class="wrap">
+    <h2 id="tok">Style tokens for the build</h2>
+    <div class="grid">
+      <div class="sw"><i style="background:#000000"></i><div><b>Background</b><span>#000000</span></div></div>
+      <div class="sw"><i style="background:#ffffff"></i><div><b>Text, strong rule</b><span>#FFFFFF</span></div></div>
+      <div class="sw"><i style="background:#d1d1d1"></i><div><b>Body links, summaries</b><span>#D1D1D1 (approx.)</span></div></div>
+      <div class="sw"><i style="background:#d8d8d8"></i><div><b>Button hover fill</b><span>#D8D8D8 (approx.)</span></div></div>
+      <div class="sw"><i style="background:#15c639"></i><div><b>Logo green</b><span>#15C639 (approx.)</span></div></div>
+      <div class="sw"><i style="background:#444447"></i><div><b>Footer border, item rules</b><span>#444447 (approx.)</span></div></div>
+      <div class="sw"><i style="background:#4e4e4e"></i><div><b>Footer divider</b><span>#4E4E4E (approx.)</span></div></div>
+      <div class="sw"><i style="background:#9a9a9a"></i><div><b>Meta text (new)</b><span>#9A9A9A</span></div></div>
+    </div>
+    <div class="typo">
+      <div class="h">Manrope Bold for headings</div>
+      <div class="b">Poppins Regular for body, nav and buttons</div>
+      <div>Headings tight (letter spacing about -0.02em). Buttons square, 1px white outline, small label, filled light gray on hover. Side margin about 62px at desktop width.</div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.chip').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.chip').forEach(function (o) { o.setAttribute('aria-pressed', o === b ? 'true' : 'false'); });
+    });
+  });
+</script>

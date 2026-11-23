@@ -1,0 +1,14 @@
+{
+  "result": "success",
+  "msg": "",
+  "found_anchor": false,
+  "found_oldest": false,
+  "found_newest": true,
+  "history_limited": false,
+  "anchor": 10000000000000000,
+  "messages": [
+    {"id": 560001, "sender_full_name": "Example Maintainer", "stream_id": 113486, "display_recipient": "announce", "subject": "Mathlib v4.37.0 bump", "content": "Mathlib has moved to Lean v4.37.0-rc1. Please report regressions in #mathlib4.", "timestamp": 1795327200, "type": "stream"},
+    {"id": 560002, "sender_full_name": "Another Person", "stream_id": 113486, "display_recipient": "announce", "subject": "Mathlib v4.37.0 bump", "content": "Thanks!", "timestamp": 1795330800, "type": "stream"},
+    {"id": 560010, "sender_full_name": "Workshop Organiser", "stream_id": 113486, "display_recipient": "announce", "subject": "Lean Together 2027: call for talks", "content": "<p>Lean Together 2027 will be held online in January. Submit a talk by 15 December.</p>", "timestamp": 1795413600, "type": "stream"}
+  ]
+}

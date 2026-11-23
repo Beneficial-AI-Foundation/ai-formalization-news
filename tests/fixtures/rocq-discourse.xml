@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Rocq Prover - Latest topics</title>
+    <link>https://discourse.rocq-prover.org/latest</link>
+    <description>Latest topics</description>
+    
+    <atom:link href="https://discourse.rocq-prover.org/latest.rss" rel="self" type="application/rss+xml" />
+    <atom:link href="https://discourse.rocq-prover.org/latest.md" rel="alternate" type="text/markdown" />
+      <lastBuildDate>Thu, 19 Nov 2026 09:07:02 +0000</lastBuildDate>
+        <item>
+          <title>PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)</title>
+          <dc:creator><![CDATA[paba]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated.</p>
+<p><strong>The Project</strong></p>
+<p>MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation logic, the gold standard for modular reasoning about concurrent programs with heap-allocated memory. The key challenge is to devise an algebraic theory in which equational reasoning is conditioned on separation-logic specifications, and to implement it in a proof assistant as a practical framework for compiler verification.</p>
+<p><strong>Candidate Profile</strong></p>
+<ul>
+<li>An MSc in computer science, mathematics, or a closely related field.</li>
+<li>A solid background in programming language theory or formal verification.</li>
+<li>Experience with proof assistants (e.g., Rocq, Agda, or Lean), separation logic, or compilers is an advantage, but not required.</li>
+</ul>
+<p><strong>How to Apply</strong></p>
+<ul>
+<li><a href="https://candidate.hr-manager.net/ApplicationInit.aspx?cid=119&amp;ProjectId=181924" rel="noopener nofollow ugc">Further details on the position and how to apply</a></li>
+<li>Application deadline: 1 January 2027.</li>
+</ul>
+<p>If you have any questions, or are unsure whether your profile fits, feel free to contact me at <a href="mailto:paba@itu.dk">paba@itu.dk</a> before applying.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197</link>
+          <pubDate>Thu, 19 Nov 2026 09:07:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3197</guid>
+          <source url="https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197.rss">PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)</source>
+        </item>
+        <item>
+          <title>Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages</title>
+          <dc:creator><![CDATA[rboudrouss]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <aside class="onebox allowlistedgeneric" data-onebox-src="https://rocq.rboud.com/">
+  <header class="source">
+
+      <a href="https://rocq.rboud.com/" target="_blank" rel="noopener nofollow ugc">rocq.rboud.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://rocq.rboud.com/" target="_blank" rel="noopener nofollow ugc">rocq-web</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/7/7762f24c4e777c6aefa702150980ac60a9a9a8a3.png" data-download-href="/uploads/short-url/h28OgQ3I6JqYhpXYHAcvG9TRVFF.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/7/7762f24c4e777c6aefa702150980ac60a9a9a8a3_2_690x182.png" alt="image" data-base62-sha1="h28OgQ3I6JqYhpXYHAcvG9TRVFF" width="690" height="182" srcset="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/7/7762f24c4e777c6aefa702150980ac60a9a9a8a3_2_690x182.png, https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/7/7762f24c4e777c6aefa702150980ac60a9a9a8a3_2_1035x273.png 1.5x, https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/7/7762f24c4e777c6aefa702150980ac60a9a9a8a3.png 2x" data-dominant-color="EBEDED"></a></div><p></p>
+<p><a href="https://github.com/rboudrouss/rocq-web" rel="noopener nofollow ugc">rocq-web</a> is Rocq 9.2 and coq-lsp compiled to WebAssembly, running in a Web Worker fully client side.</p>
+<p>It comes with 57 packages downloaded only when a file requires them. Among them are the standard library, Mathematical Components and analysis, Iris and stdpp, Equations, MetaRocq, Hierarchy-Builder and rocq-elpi, Flocq, Coquelicot, Interval and CoRN. Their OCaml plugins work too.</p>
+<p>The editor works like RocqIDE. You can check step by step or as you type, see the goals and what each tactic changed, and use hover, completion, go to definition (into the libraries’ sources too), and queries like <code>Search</code> or <code>About</code>. A project can be opened from a folder on disk, a zip archive or a GitHub repository. A file can be shared as a link, and the page can be embedded in another one with <code>?embed</code>.</p>
+<p>Chrome, Edge 137+ and Firefox 153+ run the full build, with a 64-bit memory and up to 16 GB of RAM. Other browsers get a slower build limited to 4 GB.</p>
+<p>rocq-web runs “the same” 64-bit code as a native Rocq and reads the <code>.vo</code> files of an opam switch as they are, so adding a package to the site only means installing it in the switch and rebuilding.</p>
+<p><strong>How it is built, and how to reuse it</strong></p>
+<p>Rocq and coq-lsp go from OCaml to C with <a href="https://github.com/rboudrouss/C_of_ocaml" rel="noopener nofollow ugc">c_of_ocaml</a>, then to WebAssembly with <a href="https://emscripten.org/" rel="noopener nofollow ugc">emscripten</a>, through <a href="https://github.com/rboudrouss/ocaml-emcc" rel="noopener nofollow ugc">ocaml-emcc</a>. ocaml-emcc compiles OCaml programs together with their C stubs, so nothing has to be rewritten in JavaScript, and it builds OCaml plugins into WebAssembly side modules loaded at run time.</p>
+<p>If you want Rocq inside your own web project, you do not need rocq-web as a dependency. You can build Rocq, coq-lsp or your own tool with ocaml-emcc directly. The <code>Makefile</code> of rocq-web is commented step by step and is meant as a working example.</p>
+<p><strong>Limitations</strong></p>
+<p><code>native_compute</code> falls back to the VM. Libraries added by hand in the page cannot bring OCaml plugins yet, since those cannot be compiled in the browser. A heavy session can use several GB of memory (use restart button to clear it).</p>
+<p>The code is at <a href="https://github.com/rboudrouss/rocq-web" class="inline-onebox" rel="noopener nofollow ugc">GitHub - rboudrouss/rocq-web · GitHub</a>. Feedback is very welcome, especially bug reports and packages or features you would like to see added.</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193</link>
+          <pubDate>Tue, 17 Nov 2026 10:41:38 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3193</guid>
+          <source url="https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193.rss">Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages</source>
+        </item>
+        <item>
+          <title>Course announcement: Agentic Proof Engineering</title>
+          <dc:creator><![CDATA[bcpierce00]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Next semester, I will be organizing a graduate seminar on <em>Agentic Proof Engineering</em> – building formal proofs about software systems, at scale, in collaboration with AI agents – at the University of Pennsylvania. It will be simulcast as a live webinar for participants outside Penn.</p>
+<p>The course meets on Mondays and Wednesdays from 10:15AM to 11:45AM (US Eastern time) starting on January 20, 2027. Sessions will be recorded, and there will be asynchronous channels for discussion and collaboration.</p>
+<p>Further logistical details will be announced on the course’s mailing list, which you are cordially <a href="https://groups.google.com/a/engineering.upenn.edu/g/agentic-proof-engineering" title="https://groups.google.com/a/engineering.upenn.edu/g/agentic-proof-engineering" rel="noopener nofollow ugc">invited to join</a>! Click the “Ask to join” button at the top of the page.</p>
+<p>A draft syllabus with more details can be found <a href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html" title="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html" rel="noopener nofollow ugc">here</a>.</p>
+<p>Participants should be comfortable with the concept of formal proof and the basics of some proof assistant (Lean, Rocq, etc.), at the level of the first volume of <a href="https://github.com/plclub/sf-in-lean" title="https://github.com/plclub/sf-in-lean" rel="noopener nofollow ugc">Software Foundations</a>.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182</link>
+          <pubDate>Thu, 12 Nov 2026 16:19:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3182</guid>
+          <source url="https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182.rss">Course announcement: Agentic Proof Engineering</source>
+        </item>
+        <item>
+          <title>Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon</title>
+          <dc:creator><![CDATA[CohenCyril]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Dear all,</p>
+<p>It is our pleasure to announce the first session of the second year of our working group dedicated to proof assistants and their use at ENS de Lyon, one week from now. The working group will be hybrid, see the locations at the bottom of the mail.</p>
+<h2><a name="p-7702-the-detailed-schedule-for-nov-16-2026-1" class="anchor" href="https://discourse.rocq-prover.org#p-7702-the-detailed-schedule-for-nov-16-2026-1" aria-label="Heading link"></a>The detailed schedule for <strong>Nov 16, 2026</strong></h2>
+<p>with talks from Cyril Cohen, Reynald Affeldt et Alexandre Moine</p>
+<h3><a name="p-7702-h-1030-1200-rocq-tutorial-1-reloaded-2" class="anchor" href="https://discourse.rocq-prover.org#p-7702-h-1030-1200-rocq-tutorial-1-reloaded-2" aria-label="Heading link"></a>10:30-12:00 Rocq Tutorial <span class="hashtag-raw">#1</span> (reloaded)</h3>
+<p>Cyril Cohen: an introduction to the Rocq prover.</p>
+<h3><a name="p-7702-h-1330-1445-first-talk-3" class="anchor" href="https://discourse.rocq-prover.org#p-7702-h-1330-1445-first-talk-3" aria-label="Heading link"></a>13:30-14:45 First talk</h3>
+<p>Title: Formal verification of tilt estimation using the Rocq prover</p>
+<p>Presenter: Reynald Affeldt (joint work with Lynda Bentoucha, Yoshihiro Ishiguro, and Holger Thies)</p>
+<p>Abstract:</p>
+<blockquote>
+<p>The safe operation of a humanoid robot critically relies on<br>
+accurate estimation of its vertical orientation, or “tilt”.<br>
+This requires a variety of mathematical tools, including<br>
+three-dimensional geometry and differential equations.<br>
+To formally verify tilt estimation, we develop a library<br>
+for stability analysis in the Rocq prover.<br>
+We start by formalizing a theory of ordinary differential equations.<br>
+We provide a formalization of the (local) Cauchy-Lipschitz<br>
+(a.k.a. Picard-Lindelof) theorem for existence and uniqueness,<br>
+taking advantage of the library support for quotients provided by<br>
+the Mathematical Components library.<br>
+We extend this formalization with a variant for global existence<br>
+and continuous dependence on initial conditions.<br>
+Building on these foundations, we develop a theory of Lyapunov<br>
+stability that is compatible with an existing formalization of<br>
+LaSalle’s invariance principle.<br>
+We also extend an existing library for the statics of robot<br>
+manipulators to support dynamical systems.<br>
+Finally, we apply these libraries to the verification of a<br>
+state-of-the-art tilt estimation developed for a humanoid robot.</p>
+</blockquote>
+<h3><a name="p-7702-h-1500-1615-second-talk-4" class="anchor" href="https://discourse.rocq-prover.org#p-7702-h-1500-1615-second-talk-4" aria-label="Heading link"></a>15:00-16:15 Second talk</h3>
+<p>Title : Uncle Scrooge’s Guide to Verified Efficiency: Separation Logic with Credits in Rocq</p>
+<p>Presenter: Alexandre Moine</p>
+<p>Abstract:</p>
+<blockquote>
+<p>Proving that a program computes the right result is only half the<br>
+story: we would also like to know that it does so efficiently,<br>
+without taking too long or using too much memory. In this talk,<br>
+I will show how to use (and build) program logics in Rocq that<br>
+establish such resource bounds, based on a simple idea: *credits*.<br>
+A credit is a logical token that grants permission to consume one<br>
+unit of a resource. Like Uncle Scrooge, the logic counts every<br>
+coin: programs must “pay” for every step they take or every memory<br>
+cell they allocate, so the credits a program is given bound its<br>
+resource usage.</p>
+</blockquote>
+<blockquote>
+<p>I will start with a gentle introduction to separation logic and<br>
+to Iris, a framework for building separation logics inside Rocq.<br>
+I will show how credits can be defined as ghost state, and how<br>
+the soundness of the logic ties credits to the actual cost of an<br>
+execution. I will then present two logics from my work. The first<br>
+uses *space credits* to bound the heap space of programs under<br>
+garbage collection. The second uses *work and span credits* to<br>
+bound the time complexity of parallel programs.</p>
+</blockquote>
+<h2><a name="p-7702-location-5" class="anchor" href="https://discourse.rocq-prover.org#p-7702-location-5" aria-label="Heading link"></a>Location</h2>
+<ul>
+<li>Amphi K, ENS de Lyon (site Monod), 46 allée d’Italie 69007 Lyon</li>
+<li><a href="https://webinaire.numerique.gouv.fr/meeting/signin/invite/70354/creator/23124/hash/9e2b65a304cf6bdfd368747aac76d56c5f59f630" class="inline-onebox" rel="noopener nofollow ugc">Webinaire de l'État</a></li>
+</ul>
+<h2><a name="p-7702-further-news-6" class="anchor" href="https://discourse.rocq-prover.org#p-7702-further-news-6" aria-label="Heading link"></a>Further news</h2>
+<p>Please register to the following mailing list to get information about future sessions, news and reminders:</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://listes.ens-lyon.fr/sympa/subscribe/proof-assistants.lip">
+  <header class="source">
+      <img src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/a/a7af38281aff5eac3f1b02f42a0d9be58368bfba.png" class="site-icon" alt="" data-dominant-color="F0CC93" width="61" height="62">
+
+      <a href="https://listes.ens-lyon.fr/sympa/subscribe/proof-assistants.lip" target="_blank" rel="noopener nofollow ugc">listes.ens-lyon.fr</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://listes.ens-lyon.fr/sympa/subscribe/proof-assistants.lip" target="_blank" rel="noopener nofollow ugc">proof-assistants.lip - Newsletter for the working  - subscribe</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>and/or to the Zulip channel</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://rocq-prover.zulipchat.com/#narrow/channel/573904-Proof-Assistants-.40-ENS-de-Lyon/">
+  <header class="source">
+      <img src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/4/43a768a6bc041934e87b530a83c1e74e49fbabad.svg" class="site-icon" alt="" data-dominant-color="" width="500" height="500">
+
+      <a href="https://rocq-prover.zulipchat.com/#narrow/channel/573904-Proof-Assistants-.40-ENS-de-Lyon/" target="_blank" rel="noopener nofollow ugc">Zulip</a>
+  </header>
+
+  <article class="onebox-body">
+    <img width="100" height="100" src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/b/beb0026f57e7d845a897cb5a1f07290d181cbc30.png" class="thumbnail onebox-avatar" alt="" data-dominant-color="F9B598">
+
+<h3><a href="https://rocq-prover.zulipchat.com/#narrow/channel/573904-Proof-Assistants-.40-ENS-de-Lyon/" target="_blank" rel="noopener nofollow ugc">Public view of The Rocq Prover | Zulip team chat</a></h3>
+
+  <p>Browse the publicly accessible channels in The Rocq Prover without logging in.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>If you want to contribute a talk, please send a mail to<br>
+<a href="mailto:organizers.proof-assistants.lip@ens-lyon.fr">organizers.proof-assistants.lip@ens-lyon.fr</a></p>
+<h2><a name="p-7702-best-wishes-7" class="anchor" href="https://discourse.rocq-prover.org#p-7702-best-wishes-7" aria-label="Heading link"></a>Best wishes,</h2>
+<p>Cyril Cohen,<br>
+on the behalf of the organizing committee of the working group</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181</link>
+          <pubDate>Mon, 09 Nov 2026 14:41:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3181</guid>
+          <source url="https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181.rss">Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon</source>
+        </item>
+        <item>
+          <title>2027 Dutch Winter School on Logic and Verification</title>
+          <dc:creator><![CDATA[robbertkrebbers]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>While this event takes place in the Netherlands, people from all over the world who are most welcome!</p>
+<p>=================================================</p>
+<pre><code>                      Call for Participation 
+</code></pre>
+<p>2027 Dutch Winter School on Logic and Verification<br>
+18-22 January 2027<br>
+Leiden University, The Netherlands</p>
+<p><a href="https://www.cyclic-structures.nl/winter-school/2027.html" rel="noopener nofollow ugc"></a><a href="https://www.cyclic-structures.nl/winter-school/2027.html" rel="noopener nofollow ugc">https://www.cyclic-structures.nl/winter-school/2027.html</a></p>
+<p>=================================================</p>
+<p>The 2027 Dutch Winter School on Logic and Verification is a 4.5 day event aimed at PhD/graduate students in theoretical computer science with an interest in software verification, logic, and type theory. Strong master students, as well as researchers and practitioners, are equally welcome.</p>
+<p>The programme consists of foundational and advanced courses, and highlights talks:</p>
+<h3><a name="p-7700-foundational-track-1" class="anchor" href="https://discourse.rocq-prover.org#p-7700-foundational-track-1" aria-label="Heading link"></a>Foundational Track</h3>
+<p>* Proof formalisation (Wouter Swierstra, Utrecht University)<br>
+* Cyclic proof theory (Bahareh Afshari, University of Gothenburg)<br>
+* Models of concurrency and proof methods (Jos Baeten, CWI Amsterdam)<br>
+* Category theory and coalgebra (Henning Basold and Sarah Dukic, Leiden University)</p>
+<h3><a name="p-7700-advanced-track-2" class="anchor" href="https://discourse.rocq-prover.org#p-7700-advanced-track-2" aria-label="Heading link"></a>Advanced Track</h3>
+<p>* Causality (Georgiana Caltais, University of Twente)<br>
+* Guarded type theory and step-indexing (Robbert Krebbers, Radboud University Nijmegen)<br>
+* Runtime verification (Jana Wagemaker, Radboud University Nijmegen)<br>
+* Message-passing concurrency and behavioural types (Jorge Pérez, University of Groningen)<br>
+* Categorical logic (Henning Basold and Sarah Dukic, Leiden University)</p>
+<h3><a name="p-7700-highlights-talks-3" class="anchor" href="https://discourse.rocq-prover.org#p-7700-highlights-talks-3" aria-label="Heading link"></a>Highlights Talks</h3>
+<p>* Real World Proof Formalisation<br>
+* MetaRocq and Correctness of Proof Assistants<br>
+* Coalgebras in Concurrency and Behavioural Types<br>
+* Cyclic Proofs in Scientific Practice</p>
+<h2><a name="p-7700-organisation-4" class="anchor" href="https://discourse.rocq-prover.org#p-7700-organisation-4" aria-label="Heading link"></a>Organisation</h2>
+<p>The winter school is organised as part of the project Cyclic Structures in Programs and Proofs (file number OCENW.XL.23.089, <a href="https://doi.org/10.61686/FHYZO53064" class="inline-onebox" rel="noopener nofollow ugc">Cyclic Structures in Programs and Proofs: New Harmonies in Software Correctness by Construction | NWO</a> ) of the research program Open Competition Domain Science XL, by the Dutch Research Council (NWO).</p>
+<p>The local organisers are Henning Basold and Sarah Dukic. If you have questions about the winter school, please send an e-mail to the organisers.</p>
+<h2><a name="p-7700-registration-5" class="anchor" href="https://discourse.rocq-prover.org#p-7700-registration-5" aria-label="Heading link"></a>Registration</h2>
+<p>The registration will open 9 November 2026. The deadline for early registration is 14 December 2026 and 7 January 2027 for late registration. Participation fees are 200€ (early registration) and 250€ (late registration) per participant. These fees include lunch, refreshments in breaks, a reception on Tuesday and the social dinner on Thursday.</p>
+<p>Detailed information on the school, registration and contacts can be found on the school webpage:</p>
+<p><a href="https://www.cyclic-structures.nl/winter-school/2027.html" rel="noopener nofollow ugc">https://www.cyclic-structures.nl/winter-school/2027.html</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180</link>
+          <pubDate>Mon, 09 Nov 2026 10:36:43 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3180</guid>
+          <source url="https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180.rss">2027 Dutch Winter School on Logic and Verification</source>
+        </item>
+        <item>
+          <title>SLOT: A model checker for actor-based languages with I/O</title>
+          <dc:creator><![CDATA[k32]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>In my spare time I has been developing <a href="https://github.com/libtx/SLOT" rel="noopener nofollow ugc">SLOT</a>, a library that can be thought as a formally-verified model checker for functional actor-based languages, performing I/O with nondeterministic side effects (read: Erlang). This project is still at a relatively early stage of development, but recently I’ve achieved the first milestone: completion of the core theory.</p>
+<p>A little bit about the design choices:</p>
+<ul>
+<li>I/O is emulated by composable effect handlers. Users can supply their own. This differentiates it from Verdi, which comes with predefined effects related to network and disk (at least when I last checked).</li>
+<li>Actors can spawn new actors</li>
+<li>Optimized. The number of processes schedulings in a concurrent system grows exponentially or even faster, making brute-force approaches unfeasible. SLOT addresses this problem using a verified symmetry-reduction procedure based on “trace canonicalization” (for lack of a better term). From a set of system traces containing commuting I/O effects, SLOT selects a single one according to some rules. Any invariant proven for the canonical trace holds for any permutation of commuting events.</li>
+<li>Spawning of actors commutes</li>
+<li>Setoids everywhere. For example, SLOT defines event commutativity via setoid equivalence</li>
+</ul>
+<p>Once again, this project is still far from being usable at this moment: I still need to develop tactics, sample I/O handlers and more, but if you are interested — discussions, reviews, feature requests and PRs are welcome.</p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/slot-a-model-checker-for-actor-based-languages-with-i-o/3176">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/slot-a-model-checker-for-actor-based-languages-with-i-o/3176</link>
+          <pubDate>Fri, 06 Nov 2026 22:23:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3176</guid>
+          <source url="https://discourse.rocq-prover.org/t/slot-a-model-checker-for-actor-based-languages-with-i-o/3176.rss">SLOT: A model checker for actor-based languages with I/O</source>
+        </item>
+        <item>
+          <title>Formalising Federer’s Geometric Measure Theory in Rocq — project announcement</title>
+          <dc:creator><![CDATA[sk197876]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Hello,</p>
+<p>I’m working on formalising the 1969 book of Federer “Geometric measure theory” in Rocq using Mathematical Components, ssreflect and Hierarchy Builder. The code is now public:</p>
+<aside class="onebox githubrepo github-onebox" data-onebox-src="https://github.com/sk197876/math">
+    <header class="source github-onebox__header">
+  <span class="github-onebox__label" role="img" aria-label="Repository" title="Repository">
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path></svg>
+    <span>Repository</span>
+  </span>
+    <a class="github-onebox__repo" href="https://github.com/sk197876/math" target="_blank" rel="noopener nofollow ugc">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"></path></svg>
+      <span>sk197876/math</span>
+    </a>
+</header>
+
+
+  <article class="onebox-body">
+    <div class="github-row" data-github-private-repo="false">
+  <img width="690" height="344" src="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/a/a6fa74b29e1e1e287d505b4d4b656e72291a2d2c_2_690x344.png" class="thumbnail" data-dominant-color="F3F2F0">
+
+  <h3><a href="https://github.com/sk197876/math" target="_blank" rel="noopener nofollow ugc">GitHub - sk197876/math: Formalisations of mathematical results</a></h3>
+
+    <p><span class="github-repo-description">Formalisations of mathematical results</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>Actually, the whole formalisation process is done by codex using (mostly) GPT-6.1-Sol model. I’m only supervising the process. I know that Lean has a lot bigger math library but I was learning a bit of Coq during my master’s program (20 years ago) and know a little bit of it while I do not know Lean at all so I decided to use Rocq which feels more familiar to me. Anyway, I am not an expert in formalising and I am learning along the way but GPT is rather fast and now there is substantial coverage of Chapters 1 (multilinear algebra), 2 (basic measure theory), and 3 (calculus, rectifiable sets, area/coarea). I plan to check at least the statements/definitions but I’m of course very slow with that.</p>
+<p>The aim is to follow Federer’s definitions, hypotheses and proofs as closely as possible, taking account of his erratum. One design principle is to specify mathematical objects through their laws or universal properties, prove existence separately, and hide constructions behind sealed interfaces. Subsequent proofs use the abstract laws.</p>
+<p>The development uses MathComp’s classical foundations; it contains no admitted proofs or additional project axioms. The repository includes kernel-check and assumptions-audit records with their validation scope. I also made GPT produce documentation (docs/ dir) which gives, e.g., maps from the book to the Rocq files.</p>
+<p>I would welcome feedback, particularly on whether the formal statements faithfully capture Federer’s mathematics, on the abstract interfaces, and on connections with existing MathComp developments. If you are interested in formalising geometric measure theory, I would be glad to discuss the project.</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/formalising-federer-s-geometric-measure-theory-in-rocq-project-announcement/3174">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/formalising-federer-s-geometric-measure-theory-in-rocq-project-announcement/3174</link>
+          <pubDate>Wed, 04 Nov 2026 09:57:29 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3174</guid>
+          <source url="https://discourse.rocq-prover.org/t/formalising-federer-s-geometric-measure-theory-in-rocq-project-announcement/3174.rss">Formalising Federer’s Geometric Measure Theory in Rocq — project announcement</source>
+        </item>
+        <item>
+          <title>First release of rocq-segmap</title>
+          <dc:creator><![CDATA[fpottier]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>I have released `rocq-segmap`, a verified implementation of segment maps, a (supposedly) fast data structure that represents thinnings, or increasing functions of the natural numbers to the natural numbers. The data structure is described in <a href="https://cambium.inria.fr/~fpottier/publis/fpottier-segmap.pdf" rel="noopener nofollow ugc">this submitted paper</a>.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/first-release-of-rocq-segmap/3172">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/first-release-of-rocq-segmap/3172</link>
+          <pubDate>Tue, 03 Nov 2026 12:08:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3172</guid>
+          <source url="https://discourse.rocq-prover.org/t/first-release-of-rocq-segmap/3172.rss">First release of rocq-segmap</source>
+        </item>
+        <item>
+          <title>NWPT 2026: Call for Participation</title>
+          <dc:creator><![CDATA[Chad_Mitchell_Nester]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <p>== Call for Participation==</p>
+<p>Registration is now open for the 36th Nordic Workshop on Programming Theory, to be held November 19-20th, 2026 at the University of Tartu in Tartu, Estonia.<br>
+Conference web page: <a href="https://kodu.ut.ee/~nester/nwpt-2026/main.html">https://kodu.ut.ee/~nester/nwpt-2026/main.html</a><br>
+Preliminary Program: <a href="https://kodu.ut.ee/~nester/nwpt-2026/program.html">https://kodu.ut.ee/~nester/nwpt-2026/program.html</a><br>
+Registration: <a href="https://kodu.ut.ee/~nester/nwpt-2026/registration.html">https://kodu.ut.ee/~nester/nwpt-2026/registration.html</a><br>
+== Important Dates (AOE) ==</p>
+<ul>
+<li>
+<p>Submission of Abstracts: <s>October 5th</s>, October 10th, 2026, 23:59 AOE</p>
+</li>
+<li>
+<p>Notification: October 30th, 2026</p>
+</li>
+<li>
+<p>Submission of Final Version of Abstracts: November 6th, 23:59 AOE</p>
+</li>
+<li>
+<p>Registration Deadline: <s>November 2nd,</s> November 6th, 2026, 23:59 AOE</p>
+</li>
+<li>
+<p>Conference Dates: November 19-20th, 2026</p>
+</li>
+</ul>
+<p>== Scope ==</p>
+<p>NWPT is a series of annual regional-scope workshops on programming theory, targeted especially at younger researchers. In 2026, the workshop will take place in Tartu, Estonia. We hope this will be a nice opportunity to present recent results and/or work-in-progress, and to meet colleagues from the Nordic and Baltic countries. We encourage PhD students and postdocs to contribute. Topics of interest include (but are not limited to):</p>
+<ul>
+<li>semantics of programming languages</li>
+<li>programming language design and programming methodology</li>
+<li>programming logics</li>
+<li>formal specification of programs</li>
+<li>program verification</li>
+<li>program construction</li>
+<li>tools for program verification and construction</li>
+<li>program transformation and refinement</li>
+<li>real-time, hybrid/cyber-physical systems modeling and verification</li>
+<li>models of concurrency and distributed computing</li>
+<li>model checking</li>
+<li>model-based testing</li>
+<li>language-based security</li>
+</ul>
+<p>== Program Committee ==</p>
+<ul>
+<li>
+<p>Aggeliki Chalki, Reykjavik University, Iceland</p>
+</li>
+<li>
+<p>Alceste Scalas, Technical University of Denmark, Denmark</p>
+</li>
+<li>
+<p>Cheng-Syuan Wan, Tallinn University of Technology, Estonia</p>
+</li>
+<li>
+<p>Daniel Gratzer, Aarhus University, Denmark</p>
+</li>
+<li>
+<p>Elias Castegren, Uppsala University, Sweden</p>
+</li>
+<li>
+<p>Elli Anastasiadi, Aalborg University, Denmark</p>
+</li>
+<li>
+<p>Evan Cavallo, University of Gothenburg, Sweden</p>
+</li>
+<li>
+<p>Fritz Henglein, University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Jaakko Jarvi, University of Turku, Finland</p>
+</li>
+<li>
+<p>Keijo Heljanko, University of Helsinki, Finland</p>
+</li>
+<li>
+<p>Lizeth Tapia, University of Oslo, Norway</p>
+</li>
+<li>
+<p>Maja Hanne Kirkeby, Roskilde University, Denmark</p>
+</li>
+<li>
+<p>Marina Walden, Åbo Akademi University, Finland</p>
+</li>
+<li>
+<p>Marjan Sirjani, Mälardalen University, Sweden</p>
+</li>
+<li>
+<p>Matthew Earnshaw, University of Tartu, Estonia</p>
+</li>
+<li>
+<p>Mikhail Barash, University of Bergen, Norway</p>
+</li>
+<li>
+<p>Peter LeFanu Lumsdaine, Stockholm University, Sweden</p>
+</li>
+<li>
+<p>Rasmus Møgelberg, IT University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Robin Kaarsgaard, University of Southern Denmark, Denmark</p>
+</li>
+<li>
+<p>Violet Ka I Pun, Western Norway University of Applied Sciences, Norway</p>
+</li>
+</ul>
+<p>== Organisers and PC Chairs ==</p>
+<ul>
+<li>Chad Nester, University of Tartu, Estonia</li>
+<li>Matthew Earnshaw, University of Tartu, Estonia</li>
+</ul>
+<p>== Contact ==</p>
+<p>Please direct any questions to <a href="mailto:nester@ut.ee">nester@ut.ee</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/nwpt-2026-call-for-participation/3170">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/nwpt-2026-call-for-participation/3170</link>
+          <pubDate>Mon, 02 Nov 2026 08:54:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3170</guid>
+          <source url="https://discourse.rocq-prover.org/t/nwpt-2026-call-for-participation/3170.rss">NWPT 2026: Call for Participation</source>
+        </item>
+        <item>
+          <title>FRIDA @ POPL 2027: Call for Talks</title>
+          <dc:creator><![CDATA[giuliano]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p><strong>FRIDA @ POPL 2027 - 13th Workshop on Formal Reasoning in Distributed Algorithms</strong><br>
+Monday 11 January 2027, Mexico City<br>
+Submission deadline: Friday 6 November 2026 (AoE)</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://popl27.sigplan.org/home/frida-2027">
+  <header class="source">
+      <img src="https://popl27.sigplan.org/favicon.ico?28d37e6d7e5e12d24c39bdba0f4f3cfd" class="site-icon" alt="" width="32" height="32">
+
+      <a href="https://popl27.sigplan.org/home/frida-2027" target="_blank" rel="noopener nofollow ugc">popl27.sigplan.org</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/276;"><img src="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/b/b99ac2821b05b3922343e637146be2a450adc92d_2_690x276.webp" class="thumbnail" alt="" data-dominant-color="4672AE" width="690" height="276"></div>
+
+<h3><a href="https://popl27.sigplan.org/home/frida-2027" target="_blank" rel="noopener nofollow ugc">FRIDA 2027 -  (Workshop on Formal Reasoning in Distributed Algorithms) - POPL...</a></h3>
+
+  <p>FRIDA 2027, the 13th Workshop on Formal Reasoning in Distributed Algorithms, is a one-day workshop held on Monday 11 January 2027. The call for talks is open: submit a short abstract and a PDF of at most 2 pages at https://frida2027.hotcrp.com/ by...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>Dear colleagues,</p>
+<p>FRIDA brings together researchers in distributed algorithms, distributed systems, formal methods, and programming languages to discuss rigorous design and analysis of concurrent and distributed systems, from foundational theory to tool-supported verification. After 12 editions co-located with DISC, CAV, FLoC and other venues, FRIDA comes to POPL for the first time.</p>
+<p>We invite talk proposals on topics including:</p>
+<ul>
+<li>models of concurrent and distributed computation; fault tolerance, consensus, linearizability, and liveness</li>
+<li>consistency models, weak memory models, and replicated data types</li>
+<li>languages, type systems, and semantics for distributed programming</li>
+<li>specification of distributed systems, including hyperproperties</li>
+<li>model checking, deductive verification, and interactive theorem proving of distributed algorithms and systems</li>
+<li>invariant inference, parameterized verification, and synthesis</li>
+<li>runtime verification and testing of distributed systems</li>
+<li>AI-assisted modeling and verification</li>
+<li>tools, case studies, experience reports, and open problems</li>
+</ul>
+<p>The program will combine invited and contributed talks. Contributed talks will be about 30 minutes; final slot lengths will depend on the program and will be confirmed at notification.</p>
+<p><strong>How to submit</strong><br>
+Submit at <a href="https://frida2027.hotcrp.com/" rel="noopener nofollow ugc">https://frida2027.hotcrp.com/</a> :</p>
+<ul>
+<li>the title, the authors and their affiliations, and the speaker;</li>
+<li>a short abstract, to appear in the program;</li>
+<li>a PDF of at most 2 pages, excluding references, in any format, describing the work and what the talk will cover.</li>
+</ul>
+<p>You may optionally attach a longer document (e.g., a full paper); the PC may consult it but is not required to.</p>
+<p>The program committee will select talks based on relevance and interest to the FRIDA audience. FRIDA has no proceedings: talks on new, ongoing, or already published work are all welcome.</p>
+<p>Speakers are expected to present in person. We may be able to accommodate a small number of remote talks; if you may need to present remotely, please indicate this in the submission form. Talks may be recorded and, with speakers’ permission, posted online.</p>
+<p><strong>Important dates (AoE)</strong></p>
+<ul>
+<li>Submission deadline: Friday 6 November 2026</li>
+<li>Notification: Friday 20 November 2026</li>
+<li>Workshop: Monday 11 January 2027</li>
+</ul>
+<p><strong>Program committee</strong></p>
+<ul>
+<li>Annette Bieniusa (RPTU Kaiserslautern-Landau)</li>
+<li>Manuel Bravo (Informal Systems)</li>
+<li>Siddhartha Jayanti (Dartmouth College)</li>
+<li>Burcu Kulahcioglu Ozkan (Delft University of Technology)</li>
+<li>Ori Lahav (Tel Aviv University)</li>
+<li>Stephan Merz (Inria &amp; LORIA, Nancy)</li>
+</ul>
+<p><strong>Chairs:</strong> Brijesh Dongol (University of Surrey) and Giuliano Losa (Stellar Development Foundation)</p>
+<p>Questions: <a href="https://popl27.sigplan.org/contact2/frida-2027-papers" class="inline-onebox" rel="noopener nofollow ugc">Contact - POPL 2027</a></p>
+<p>We look forward to your submissions!</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/frida-popl-2027-call-for-talks/3162">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/frida-popl-2027-call-for-talks/3162</link>
+          <pubDate>Tue, 27 Oct 2026 15:06:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3162</guid>
+          <source url="https://discourse.rocq-prover.org/t/frida-popl-2027-call-for-talks/3162.rss">FRIDA @ POPL 2027: Call for Talks</source>
+        </item>
+        <item>
+          <title>PhD scholarships at the University of Strathclyde 2027</title>
+          <dc:creator><![CDATA[aljungstrom]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Dear all,</p>
+<p>The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget.</p>
+<p>Unfortunately, the funding provided is not enough for non-UK tuition fees.</p>
+<p>MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group of people, and we welcome students from all backgrounds.</p>
+<p>We see the mathematical foundations of computation and programming as inextricably linked, and we study one so as to develop the other. This reflects the symbiotic relationship between mathematics, logic, and programming – any attempt to sever this connection will diminish each component.</p>
+<p>If you are interested in applying for a scholarship, please contact a potential supervisor as soon as possible, and before 01 December 2026. The supervisor can advise on your candidacy and support your application. Please include your CV and a brief outline of your research interests in your message.</p>
+<p>More targeted, project-based, opportunities may become available in early 2027.</p>
+<p>More information, including a list of potential supervisors, can be found at <a href="https://msp.cis.strath.ac.uk/phd2027-JARSS.html" class="inline-onebox" rel="noopener nofollow ugc">Mathematically Structured Programming Group @ University of Strathclyde</a></p>
+<p>Best wishes,<br>
+The MSP Group<br>
+University of Strathclyde</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159</link>
+          <pubDate>Tue, 27 Oct 2026 15:06:14 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3159</guid>
+          <source url="https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159.rss">PhD scholarships at the University of Strathclyde 2027</source>
+        </item>
+        <item>
+          <title>Package update : Small Inversions</title>
+          <dc:creator><![CDATA[BasileGros]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Dear all,</p>
+<p>it is our pleasure to announce that our Rocq plugin for the automation of proxy-based small inversions has received a major update.<br>
+Here is the link to its repository:</p><aside class="onebox githubrepo" data-onebox-src="https://github.com/BasileGros/proxy-based-small-inversions">
+  <header class="source">
+
+      <a href="https://github.com/BasileGros/proxy-based-small-inversions" target="_blank" rel="noopener nofollow ugc">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row" data-github-private-repo="false">
+  <img width="690" height="344" src="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/d/d0404a5886d734c61a54516536b9af5760319202_2_690x344.png" class="thumbnail" data-dominant-color="F3F0EF">
+
+  <h3><a href="https://github.com/BasileGros/proxy-based-small-inversions" target="_blank" rel="noopener nofollow ugc">GitHub - BasileGros/proxy-based-small-inversions: An alternative to Rocq's inversion focused on...</a></h3>
+
+    <p><span class="github-repo-description">An alternative to Rocq's inversion focused on reducing the generated term's size and eliminating equality hypotheses.</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>The user interface has been greatly simplified, and there is a tutorial to both use our automated tool (covering many common cases), and also to understand the basic principles behind it. The latter are not overly complicated, once you catch the idea, so that the end user can tune them to their specific situation when needed.</p>
+<p>As a reminder, PBSI are an inversion method that results in significantly smaller and more understandable proof and definition terms compared to the Rocq tactic inversion or the Equations package, which makes PBSI interesting in the context of dependent programming. Moreover, dependent PBSI allow to conveniently reason about such functions. To achieve this, the technique uses intermediate definitions which used to be handwritten. This package allows the user to automatically build those definitions with a simple Derive InvProxy command.</p>
+<p>Basile Gros<br>
+Pierre Corbineau<br>
+Jean-François Monin</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/package-update-small-inversions/3154">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/package-update-small-inversions/3154</link>
+          <pubDate>Fri, 23 Oct 2026 13:12:43 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3154</guid>
+          <source url="https://discourse.rocq-prover.org/t/package-update-small-inversions/3154.rss">Package update : Small Inversions</source>
+        </item>
+        <item>
+          <title>WebAssembly Workshop @ POPL 2027</title>
+          <dc:creator><![CDATA[conrad-watt]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <p>=== WebAssembly Workshop @ POPL 2027 ===</p>
+<p>Website: <a href="https://popl27.sigplan.org/home/waw-2027" class="inline-onebox" rel="noopener nofollow ugc">WAW 2027 - POPL 2027</a></p>
+<p>WebAssembly is a general-purpose low-level virtual machine, adopted by all major Web browsers and specified fully in terms of a pen-and-paper formal semantics. The WebAssembly Workshop (WAW) at POPL 2027 aims to bring together researchers, standards body members, and industry practitioners, in order to continue and foster a growing trend of academic contributions to the WebAssembly ecosystem spanning verification, security, and programming language analysis and theory.</p>
+<p>We enthusiastically request WebAssembly-related abstract submissions, including prior, ongoing, and early-stage work, for presentation and discussion at the workshop.</p>
+<p>Call for presentations URL:</p>
+<p><a href="https://popl27.sigplan.org/home/waw-2027#call-Call-for-Presentations" rel="noopener nofollow ugc">https://popl27.sigplan.org/home/waw-2027#call-Call-for-Presentations</a></p>
+<p>Submission deadline: Tuesday 3rd November 2026 (EOD AOE)</p>
+<p>Best wishes<br>
+Conrad Watt</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/webassembly-workshop-popl-2027/3152">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/webassembly-workshop-popl-2027/3152</link>
+          <pubDate>Thu, 22 Oct 2026 11:32:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3152</guid>
+          <source url="https://discourse.rocq-prover.org/t/webassembly-workshop-popl-2027/3152.rss">WebAssembly Workshop @ POPL 2027</source>
+        </item>
+        <item>
+          <title>Call for abstracts WITS 2027</title>
+          <dc:creator><![CDATA[yforster]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <h2><a name="p-7660-call-for-abstracts-wits-2027-is-the-6th-workshop-on-the-implementation-of-type-systems-january-16-2027-hilton-mexico-city-reforma-same-venue-as-popl-mexico-city-mexico-submission-deadline-nov-11-2026-aoe-strict-deadline-no-extensions-httpswits2027githubio-1" class="anchor" href="https://discourse.rocq-prover.org#p-7660-call-for-abstracts-wits-2027-is-the-6th-workshop-on-the-implementation-of-type-systems-january-16-2027-hilton-mexico-city-reforma-same-venue-as-popl-mexico-city-mexico-submission-deadline-nov-11-2026-aoe-strict-deadline-no-extensions-httpswits2027githubio-1" aria-label="Heading link"></a>-----------------------------------------------------------------------------------------------------------------------------------<br>
+**<br>
+**    CALL FOR ABSTRACTS<br>
+**<br>
+**    WITS 2027 is the 6th Workshop on the Implementation of Type Systems.<br>
+**    January 16, 2027<br>
+**    Hilton Mexico City Reforma (same venue as POPL), Mexico City, Mexico<br>
+**<br>
+**    Submission Deadline:<br>
+**    Nov 11, 2026 (AoE). Strict deadline, no extensions.<br>
+**<br>
+**    <a href="https://wits2027.github.io">https://wits2027.github.io</a><br>
+**</h2>
+<p>WITS 2027 is the 6th Workshop on the Implementation of Type Systems. The workshop will be held on January 16, 2027, in Mexico City, Mexico, located in the same venue as POPL. The goal of this workshop is to bring together the implementors of a variety of languages with advanced type systems. The main focus is on the practical issues that come up in the implementation of these systems, rather than the theoretical frameworks that underlie them. In particular, we want to encourage exchanging ideas between the communities around specific systems that would otherwise be accessible to only a very select group.</p>
+<p>Registration to the workshop is free.</p>
+<p>The workshop will have a mix of invited and contributed talks, organized discussion times, and informal collaboration time.</p>
+<hr>
+<h2><a name="p-7660-important-dates-2" class="anchor" href="https://discourse.rocq-prover.org#p-7660-important-dates-2" aria-label="Heading link"></a>** IMPORTANT DATES</h2>
+<ul>
+<li>Submission: Wed, Nov 11, 2026 (AoE). Strict deadline, no extensions.</li>
+<li>Notification: Thu, Dec 3, 2026</li>
+<li>Workshop: Sat, Jan 16, 2027</li>
+</ul>
+<hr>
+<h2><a name="p-7660-submission-guidelines-3" class="anchor" href="https://discourse.rocq-prover.org#p-7660-submission-guidelines-3" aria-label="Heading link"></a>** SUBMISSION GUIDELINES</h2>
+<p>WITS solicits two kinds of submissions:</p>
+<ul>
+<li>
+<p>Contributed talks on the basis of an abstract. This can be on recently published or submitted work, work in progress, or a project that is still in the idea phase.</p>
+</li>
+<li>
+<p>Proposals for roundtable discussions. This can be on any topic within the scope of the workshop, but should have a broader scope than a contributed talk. If accepted, you will be in charge of leading a discussion of 45 minutes around the proposed topic together with other interested attendees.</p>
+</li>
+</ul>
+<p>Both kinds of proposals should be accompanied by an abstract of max. 1 page (exclusive of references), using the sigplan option to the acmart LaTeX document class:</p>
+<pre><code>\\documentclass\[sigplan,10pt,review,anonymous,nonacm\]{acmart} 
+\\settopmatter{printfolios=true,printccs=false,printacmref=false} 
+</code></pre>
+<p>Please do not use LLMs to generate any text in the abstract.</p>
+<p>WITS will have no published proceedings, so submitting to WITS does not interfere with submission (before, after, or simultaneously) to other venues.</p>
+<p>Submissions are accepted via <a href="https://types-hotcrp.paris.inria.fr/wits27">https://types-hotcrp.paris.inria.fr/wits27</a> (enabled soon).</p>
+<hr>
+<h2><a name="p-7660-organisation-4" class="anchor" href="https://discourse.rocq-prover.org#p-7660-organisation-4" aria-label="Heading link"></a>** ORGANISATION</h2>
+<p>Program Committee:</p>
+<ul>
+<li>Yannick Forster (INRIA Paris, chair)</li>
+<li>Chris Martens (Northeastern University)</li>
+<li>Conor Titania McBride (University of Strathclyde)</li>
+<li>Joachim Breitner (Lean FRO)</li>
+<li>Liang-Ting Chen (Academia Sinica)</li>
+<li>Lourdes del Carmen González Huesca (Universidad Nacional Autónoma de México)</li>
+<li>Meven Lennon-Bertrand (ENS Rennes)</li>
+<li>Ningning Xie (University of Toronto)</li>
+</ul>
+<hr>
+<p>Looking forward to your submissions,<br>
+Yannick Forster (WITS’27 Chair)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/call-for-abstracts-wits-2027/3151">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/call-for-abstracts-wits-2027/3151</link>
+          <pubDate>Wed, 21 Oct 2026 14:39:24 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3151</guid>
+          <source url="https://discourse.rocq-prover.org/t/call-for-abstracts-wits-2027/3151.rss">Call for abstracts WITS 2027</source>
+        </item>
+        <item>
+          <title>PhD position at TU Delft: deriving formal languages from their semantics</title>
+          <dc:creator><![CDATA[benediktahrens]]></dc:creator>
+          <category>Jobs</category>
+          <description><![CDATA[
+            <p>PhD position at TU Delft: deriving formal languages from their semantics</p>
+<p>I am looking for a PhD candidate for a 4-year position in the Department of Software Technology at TU Delft, funded by the Air Force Office of Scientific Research (AFOSR) and starting as soon as possible.</p>
+<p>The project, “SemSyn: From Semantics to Syntax”, studies how to start from a specification of a class of models and derive a formal language describing them. It involves:</p>
+<ul>
+<li>dependent type theory and its categorical semantics (categories with families, comprehension categories);</li>
+<li>generalized algebraic theories;</li>
+<li>Makkai’s signatures, given by inverse categories;</li>
+<li>two-level type theory;</li>
+<li>formalization in the Agda proof assistant, developed alongside the mathematics.</li>
+</ul>
+<p>You should have a Master’s degree in mathematics, computer science, or a related field, and experience in (or a strong motivation to learn) both category theory and theoretical computer science. Experience with a proof assistant is a plus, but not required.</p>
+<p>Applications are evaluated on a rolling basis, so please apply early rather than waiting for the deadline of 29 November 2026. I very much encourage you to get in touch with me by email (<a href="mailto:B.P.Ahrens@tudelft.nl">B.P.Ahrens@tudelft.nl</a>) before, and in addition to, submitting your official application.</p>
+<p>Vacancy and application: <a href="https://careers.tudelft.nl/job/Delft-PhD-Position-Systematic-Derivation-of-Formal-Languages-and-Their-Correctness-2628-CD/1375074157/" class="inline-onebox" rel="noopener nofollow ugc">PhD Position Systematic Derivation of Formal Languages and Their Correctness Job Details | TU Delft</a></p>
+<p>Please forward this message to anyone who might be interested.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/phd-position-at-tu-delft-deriving-formal-languages-from-their-semantics/3146">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/phd-position-at-tu-delft-deriving-formal-languages-from-their-semantics/3146</link>
+          <pubDate>Fri, 16 Oct 2026 10:02:34 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3146</guid>
+          <source url="https://discourse.rocq-prover.org/t/phd-position-at-tu-delft-deriving-formal-languages-from-their-semantics/3146.rss">PhD position at TU Delft: deriving formal languages from their semantics</source>
+        </item>
+        <item>
+          <title>POPL27: Call for Student Volunteers</title>
+          <dc:creator><![CDATA[Aurele]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Sign up to be a Student Volunteer and help us make POPL 2027 a unique experience for all attendants!<br>
+POPL 2027 is pleased to offer a number of opportunities for student volunteers, who are vital to the efficient operation and continued success of the conference each year. The student volunteer program is a chance for students from around the world to participate in the conferences whilst assisting us in preparing and running the event.</p>
+<p>The Student Volunteer Program helps more students attend the POPL conference by covering registration to the conferences, tutorials, workshops, and all associated events (but not travel or lodging expenses). In exchange for a fixed number of work hours (around 18) helping with the conference organization, you will be able to closely interact with researchers, mentors, and other students at POPL 2027. We are looking forward to seeing you in the SV team!</p>
+<p><strong>Eligibility</strong></p>
+<p>Applicants can be undergraduate, Master’s, Ph.D. full- or part-time students, of computer science or related fields, with or without previous experience as volunteers. Everyone is encouraged to apply!</p>
+<p><strong>Duration</strong></p>
+<p>Applicants must be available for at least four (4) full days between the 10th and 16th of January 2027, and will be expected to provide at least 18 hours of volunteering work in that time. Volunteers will also be expected to be available for some amount of pre-conference discussion and training if necessary.</p>
+<p><strong>Compensation</strong></p>
+<p>Every student volunteer will receive:</p>
+<ul>
+<li>A complimentary conference registration, offering access to all open sessions (i.e., parallel paper presentations, demonstrations, and workshops) and conference proceedings.</li>
+<li>Free lunches and refreshments during breaks.</li>
+<li>Student volunteer garments.</li>
+</ul>
+<p>Please note that Student Volunteers are responsible for their own travel and accommodation arrangements. However, Student Volunteers can apply for extra funding from SIGPLAN PAC funding or PLMW when eligible.</p>
+<p>You can send questions about student volunteering to Celeste Barnaby (<a href="mailto:celestebarnaby@gmail.com">celestebarnaby@gmail.com</a>) and Aurèle Barrière (<a href="mailto:aurele.barriere@cnrs.fr">aurele.barriere@cnrs.fr</a>).</p>
+<p><strong>Applications</strong></p>
+<p>To apply, fill out the form on this link, before November 11th: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYzpM1C08XqxnQg3YfcH1b3IyTbxJ5IUe9IsqoMgY2rmuOMA/viewform?usp=header" class="inline-onebox" rel="noopener nofollow ugc">POPL27 Student Volunteer Application</a> .</p>
+<p>The form is very short and won’t take more than 5 minutes to complete. We will NOT evaluate the applications in a first come first serve order.</p>
+<p>**Deadline for submission: November 11th 2026, AoE.<br>
+**</p>
+<p>Website: <a href="https://popl27.sigplan.org/track/POPL-2027-student-volunteers" class="inline-onebox" rel="noopener nofollow ugc">POPL 2027 - Student Volunteers - POPL 2027</a></p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/popl27-call-for-student-volunteers/3141">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/popl27-call-for-student-volunteers/3141</link>
+          <pubDate>Mon, 12 Oct 2026 11:18:07 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3141</guid>
+          <source url="https://discourse.rocq-prover.org/t/popl27-call-for-student-volunteers/3141.rss">POPL27: Call for Student Volunteers</source>
+        </item>
+        <item>
+          <title>Rocq bottom: a formally verified library of integer abstract domains</title>
+          <dc:creator><![CDATA[mlemerre]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>I’m happy to announce <a href="https://github.com/codex-semantics-library/rocq-bottom/" rel="noopener nofollow ugc">Rocq-bottom</a>, a new Rocq library of formally verified abstract domains, currently targeting non-relational integer abstractions. The library currently provides formally verified Intervals, Congruences, and Known Bits abstractions, some of their reduced products, together with transfer functions and refinement operators for integer expressions.</p>
+<p>It can show, for instance, that</p>
+<ul>
+<li>Z.lor [3,5] [4,5] ∈ [4,7],</li>
+<li>Z.add 0b001? + 0b001?  ∈ 0b01??,</li>
+<li>for the problem x * y = 10 with 3 ≤ x ≤ 10, 1 ≤ y ≤ 10, backward multiplication can tighten the bounds to 5 ≤ x ≤ 10 and 1 ≤ y ≤ 2.</li>
+</ul>
+<p>The goal of this development is not only to prove that the algorithms it contains are sound, but also that they are best (e.g., the intervals above are the tightest). All of this is developed in constructive logic, without any extra axiom. The theoretical foundations are described in the paper <a href="https://raw.githubusercontent.com/codex-semantics-library/codex-semantics-library.github.io/refs/heads/main/assets/publications/pdfs/2026-sas-rocq-bottom.pdf" rel="noopener nofollow ugc">Rocq Bottom: Beyond Soundness with Precise Reasoning about Analysis Precision</a>, to be published at SAS this year.</p>
+<p>In addition, the algorithm should be efficient and practical, so that they can be integrated easily in static analyzers.</p>
+<p>The development has reached an important first milestone, as we now have best forward and backward transfer functions over unbounded integer intervals for all the C-like integer operators (Z.add, Z.sub, Z.mul, Z.quot, Z.rem, Z.shiftl, Z.shiftr, Z.land, Z.lor, Z.lxor, Z.eqb, Z.leb, Z.ltb).</p>
+<p>The next steps are to develop best transfer functions for the products Interval × Congruence, Interval × Congruence × Known Bits, and then build on that to build bitvector abstractions.</p>
+<p>I’m new to Rocq and the development can probably be improved in many ways. I’d love to hear your thoughts, feedback, or suggestions!</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/rocq-bottom-a-formally-verified-library-of-integer-abstract-domains/3132">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/rocq-bottom-a-formally-verified-library-of-integer-abstract-domains/3132</link>
+          <pubDate>Fri, 09 Oct 2026 12:11:57 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3132</guid>
+          <source url="https://discourse.rocq-prover.org/t/rocq-bottom-a-formally-verified-library-of-integer-abstract-domains/3132.rss">Rocq bottom: a formally verified library of integer abstract domains</source>
+        </item>
+        <item>
+          <title>A library for composable, extractable, partial programs</title>
+          <dc:creator><![CDATA[TheoWinterhalter]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>It’s my pleasure to announce a new Rocq library for partial programs that was designed with Meven Lennon-Bertand and Kenji Maillard, and is now available on opam.</p>
+<pre data-code-wrap="sh"><code class="lang-sh">opam install rocq-partial
+</code></pre>
+<p>It lets you write and combine partial fixed points as follows:</p>
+<pre><code class="lang-auto">Definition ack : nat → nat → partial nat :=
+  #pfix ack (m : nat) (n : nat),
+    match m, n with
+    | 0, _ =&gt; ret (S n)
+    | S m', 0 =&gt; ack m' 1
+    | S m', S n' =&gt; k ← ack m n' ;; ack m' k
+    end.
+
+Definition ack_sum : nat → partial nat :=
+  #pfix ack_sum n,
+    if n =? 0 then ret 0
+    else
+      k ← lift (ack n n) ;;
+      l ← ack_sum (n - 1) ;;
+      ret (k + l).
+</code></pre>
+<p>It’s quite in the early stages, so there’s probably a lot missing compared to what one can find in the wild in Agda or Lean. It’s mostly driven from use cases, so if you have some that do not fit what is provided don’t hesitate to open issues or pull requests.</p>
+<aside class="onebox githubrepo" data-onebox-src="https://github.com/TheoWinterhalter/rocq-partial">
+  <header class="source">
+
+      <a href="https://github.com/TheoWinterhalter/rocq-partial" target="_blank" rel="noopener nofollow ugc">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row" data-github-private-repo="false">
+  <img width="690" height="344" src="https://us1.discourse-cdn.com/flex001/uploads/coq/optimized/2X/a/a55c7e0dbe4ca0f63c017f7fc1ea5e694fe80b55_2_690x344.png" class="thumbnail" data-dominant-color="F0EFEB">
+
+  <h3><a href="https://github.com/TheoWinterhalter/rocq-partial" target="_blank" rel="noopener nofollow ugc">GitHub - TheoWinterhalter/rocq-partial: A Rocq library for partial programs</a></h3>
+
+    <p><span class="github-repo-description">A Rocq library for partial programs</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/a-library-for-composable-extractable-partial-programs/3131">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/a-library-for-composable-extractable-partial-programs/3131</link>
+          <pubDate>Fri, 09 Oct 2026 07:37:43 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3131</guid>
+          <source url="https://discourse.rocq-prover.org/t/a-library-for-composable-extractable-partial-programs/3131.rss">A library for composable, extractable, partial programs</source>
+        </item>
+        <item>
+          <title>News about the &quot;sherlocoq&quot; service?</title>
+          <dc:creator><![CDATA[erikmd]]></dc:creator>
+          <category>Miscellaneous</category>
+          <description><![CDATA[
+            <p>Dear all,</p>
+<p>I came across the Sherlocode service at the following URL:</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://sherlocode.com/">
+  <header class="source">
+      <img src="https://sherlocode.com/favicon.ico" class="site-icon" alt="" width="64" height="64">
+
+      <a href="https://sherlocode.com/" target="_blank" rel="noopener nofollow ugc">sherlocode.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://sherlocode.com/" target="_blank" rel="noopener nofollow ugc">Sherlocode</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>which allows one to “Search across 17 million lines of OCaml available on opam”.</p>
+<p>It also says: "<em>NEW: also available for Coq with <strong><a href="https://sherlocoq.sirref.org/" title="Search across Coq libraries available on opam!" rel="noopener nofollow ugc">Sherlocoq</a></strong>!"</em></p>
+<p>Unfortunately, that latter URL is broken: <code>https://sherlocoq.sirref.org/</code></p>
+<p>Would someone have more information about this instance?</p>
+<p>IMHO, it would be a very nice tool to support / host (useful for both newcomers and power users of Rocq).</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/news-about-the-sherlocoq-service/3130">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/news-about-the-sherlocoq-service/3130</link>
+          <pubDate>Wed, 07 Oct 2026 23:22:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3130</guid>
+          <source url="https://discourse.rocq-prover.org/t/news-about-the-sherlocoq-service/3130.rss">News about the &quot;sherlocoq&quot; service?</source>
+        </item>
+        <item>
+          <title>NWPT 2026: Deadline Extension Until October 10th</title>
+          <dc:creator><![CDATA[Chad_Mitchell_Nester]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <p>The deadline for abstract submissions has been extended until October 10th, midnight AOE.</p>
+<p>== Call for Papers ==</p>
+<p>36th Nordic Workshop on Programming Theory<br>
+November 19-20th, 2026, University of Tartu, Tartu, Estonia<br>
+Conference web page: <a href="https://kodu.ut.ee/~nester/nwpt-2026/main.html">https://kodu.ut.ee/~nester/nwpt-2026/main.html</a><br>
+== Important Dates (AOE) ==</p>
+<ul>
+<li>Submission of Abstracts: <s>October 5th</s> October 10th, 2026, 23:59 AOE</li>
+<li>Notification: October 30th, 2026</li>
+<li>Submission of Final Version of Abstracts: November 6th, 23:59 AOE</li>
+<li>Registration Deadline: November 2nd, 2026, 23:59 AOE</li>
+<li>Conference Dates: November 19-20th, 2026</li>
+</ul>
+<p>== Scope ==</p>
+<p>NWPT is a series of annual regional-scope workshops on programming theory, targeted especially at younger researchers. In 2026, the workshop will take place in Tartu, Estonia. We hope this will be a nice opportunity to present recent results and/or work-in-progress, and to meet colleagues from the Nordic and Baltic countries. We encourage PhD students and postdocs to contribute. Topics of interest include (but are not limited to):</p>
+<ul>
+<li>semantics of programming languages</li>
+<li>programming language design and programming methodology</li>
+<li>programming logics</li>
+<li>formal specification of programs</li>
+<li>program verification</li>
+<li>program construction</li>
+<li>tools for program verification and construction</li>
+<li>program transformation and refinement</li>
+<li>real-time, hybrid/cyber-physical systems modeling and verification</li>
+<li>models of concurrency and distributed computing</li>
+<li>model checking</li>
+<li>model-based testing</li>
+<li>language-based security</li>
+</ul>
+<p>== Submission Guidelines ==</p>
+<p>Authors wishing to give a talk at the workshop are requested to submit abstracts of 2-3 pages (pdf, printable on A4 paper, typeset with LaTeX with easychair.cls) through EasyChair by October 5th:<br>
+<a href="https://easychair.org/my/conference?conf=nwpt2026">https://easychair.org/my/conference?conf=nwpt2026</a><br>
+Work in progress as well as abstracts of manuscripts submitted for formal publication elsewhere are permitted. The abstracts of the accepted contributions will be available electronically before the workshop. By submitting to EasyChair you agree that your abstract will be publicly available. Moreover, you as an author are responsible for the content.<br>
+As in earlier NWPT workshops, we plan to arrange a special issue of the Journal of Logical and Algebraic Methods in Programming (JLAMP) devoted to the best contributions to the workshop. The contributions will be selected by the PC. They will be invited after the workshop and will undergo a rigorous, journal-strength review process according to the standards of JLAMP. This year submissions from NWPT 2023 and NWPT 2024 will be considered as well.</p>
+<p>== Program Committee ==</p>
+<ul>
+<li>
+<p>Aggeliki Chalki, Reykjavik University, Iceland</p>
+</li>
+<li>
+<p>Alceste Scalas, Technical University of Denmark, Denmark</p>
+</li>
+<li>
+<p>Cheng-Syuan Wan, Tallinn University of Technology, Estonia</p>
+</li>
+<li>
+<p>Daniel Gratzer, Aarhus University, Denmark</p>
+</li>
+<li>
+<p>Elias Castegren, Uppsala University, Sweden</p>
+</li>
+<li>
+<p>Elli Anastasiadi, Aalborg University, Denmark</p>
+</li>
+<li>
+<p>Evan Cavallo, University of Gothenburg, Sweden</p>
+</li>
+<li>
+<p>Fritz Henglein, University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Jaakko Jarvi, University of Turku, Finland</p>
+</li>
+<li>
+<p>Keijo Heljanko, University of Helsinki, Finland</p>
+</li>
+<li>
+<p>Lizeth Tapia, University of Oslo, Norway</p>
+</li>
+<li>
+<p>Maja Hanne Kirkeby, Roskilde University, Denmark</p>
+</li>
+<li>
+<p>Marina Walden, Åbo Akademi University, Finland</p>
+</li>
+<li>
+<p>Marjan Sirjani, Mälardalen University, Sweden</p>
+</li>
+<li>
+<p>Matthew Earnshaw, University of Tartu, Estonia</p>
+</li>
+<li>
+<p>Mikhail Barash, University of Bergen, Norway</p>
+</li>
+<li>
+<p>Peter LeFanu Lumsdaine, Stockholm University, Sweden</p>
+</li>
+<li>
+<p>Rasmus Møgelberg, IT University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Robin Kaarsgaard, University of Southern Denmark, Denmark</p>
+</li>
+<li>
+<p>Violet Ka I Pun, Western Norway University of Applied Sciences, Norway</p>
+</li>
+</ul>
+<p>== Organisers and PC Chairs ==</p>
+<ul>
+<li>Chad Nester, University of Tartu, Estonia</li>
+<li>Matthew Earnshaw, University of Tartu, Estonia</li>
+</ul>
+<p>== Contact ==</p>
+<p>Please direct any questions to <a href="mailto:nester@ut.ee">nester@ut.ee</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/nwpt-2026-deadline-extension-until-october-10th/3129">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/nwpt-2026-deadline-extension-until-october-10th/3129</link>
+          <pubDate>Tue, 06 Oct 2026 07:45:41 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3129</guid>
+          <source url="https://discourse.rocq-prover.org/t/nwpt-2026-deadline-extension-until-october-10th/3129.rss">NWPT 2026: Deadline Extension Until October 10th</source>
+        </item>
+        <item>
+          <title>JFLA2027 : Dernier appel à communications</title>
+          <dc:creator><![CDATA[Yannick]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <p>This message is intentionally written in French. It is a call for papers for the<br>
+“Francophone Days on Functional Languages” to be held at the end of January 2027<br>
+in Britany. Papers can be written in English, but the presentations<br>
+themselves are expected to be given in French.</p>
+<p>Merci de faire circuler : second appel à communications</p>
+<p>JFLA 2027 : Journées Francophones des Langages Applicatifs</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="http://jfla.eu/jfla2027.html">
+  <header class="source">
+
+      <a href="http://jfla.eu/jfla2027.html" target="_blank" rel="noopener nofollow ugc">jfla.eu</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="http://jfla.eu/jfla2027.html" target="_blank" rel="noopener nofollow ugc">JFLA 2027</a></h3>
+
+  <p>JFLA: JFLA 2027</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>26 janvier au 29 janvier 2027</p>
+<p>Maison Saint-François</p>
+<p>Les 38èmes Journées Francophones des Langages Applicatifs (JFLA) se tiendront<br>
+en Bretagne, à Dinard (Ille-et-Vilaine), du mardi 26 janvier 2027 au<br>
+vendredi 29 janvier 2027.</p>
+<p>Les JFLA réunissent concepteur·rices, utilisateur·rices et théoricien·nes ;<br>
+elles ont pour ambition de couvrir les domaines des langages applicatifs, de la<br>
+preuve formelle, de la vérification de programmes, et des objets mathématiques<br>
+qui sous-tendent ces outils. Ces domaines doivent être pris au sens large : nous<br>
+souhaitons promouvoir les ponts entre les différentes thématiques.</p>
+<ul>
+<li>
+<p>Langages fonctionnels et applicatifs : sémantique, compilation, optimisation,<br>
+typage, extensions à d’autres paradigmes.</p>
+</li>
+<li>
+<p>Assistants de preuve : implémentation, nouvelles tactiques, développements<br>
+présentant un intérêt théorique, technique ou méthodologique.</p>
+</li>
+<li>
+<p>Logique, correspondance preuve-programme, réalisabilité, extraction de<br>
+programmes, modèles.</p>
+</li>
+<li>
+<p>Spécification, prototypage, développements formels d’algorithmes.</p>
+</li>
+<li>
+<p>Vérification de programmes ou de modèles, vérification déductive,<br>
+interprétation abstraite, raffinement.</p>
+</li>
+<li>
+<p>Utilisation industrielle des langages fonctionnels et applicatifs,<br>
+ou des méthodes issues de la communauté scientifique. Outils et<br>
+plateformes pour le web.</p>
+</li>
+<li>
+<p>Enseignement ou diffusion des langages fonctionnels et<br>
+applicatifs. Environnements et méthodes de développement, retours<br>
+d’expérience.</p>
+</li>
+</ul>
+<p>Les articles soumis aux JFLA sont relus par au moins deux personnes s’ils sont<br>
+acceptés, et au moins trois personnes s’ils sont rejetés.  Les critiques du<br>
+comité de programme sont toujours bienveillantes et la plupart du temps<br>
+encourageantes et constructives, même en cas de rejet.</p>
+<p>Il n’y a donc pas de raison de ne pas soumettre aux JFLA !</p>
+<p>DATES IMPORTANTES</p>
+<p>/!\ Attention : les dates limites sont fermes et définitives.<br>
+Il n’y aura pas d’extension. /!\</p>
+<ul>
+<li>Soumission des résumés et articles : 16 octobre 2026, GMT+2</li>
+<li>Notification aux auteurs et autrices : 2 décembre 2026, GMT+2</li>
+<li>Version finale des articles : 16 décembre 2026, GMT+2</li>
+</ul>
+<p>SOUMISSIONS</p>
+<p>Nous acceptons deux types de soumissions :</p>
+<ul>
+<li>
+<p>Article de recherche (18 pages max.) portant sur des travaux originaux. Nous<br>
+acceptons des travaux en cours, pour lesquels l’aspect recherche n’est pas<br>
+entièrement finalisé. Nous encourageons aussi la soumission d’articles<br>
+présentant avec élégance un résultat connu sous un angle nouveau.</p>
+</li>
+<li>
+<p>Article court (9 pages max.) décrivant un problème particulier, les pistes en<br>
+cours d’investigation, et visant à rechercher de l’aide de la part de la<br>
+communauté. Les articles courts peuvent également présenter de manière<br>
+synthétique et cohérente des résultats déjà publiés. Enfin, ils peuvent<br>
+présenter un outil logiciel dont l’exposé constituera une démonstration.</p>
+</li>
+</ul>
+<p>CONSIGNES AUX AUTEURS ET AUTRICES</p>
+<p>Les articles peuvent être rédigés en français ou en anglais.</p>
+<p>La forme de l’article doit être soignée, et le contenu rédigé de manière<br>
+structurée et claire.</p>
+<p>Le style LaTeX jflart doit impérativement être utilisé sans modification de la<br>
+mise en page. Le style LaTeX et sa documentation sont disponibles depuis le site<br>
+web de la conférence.</p>
+<p><strong>NEW</strong> Soumissions écrites à l’aide de Typst et non LaTeX sont bienvenues !<br>
+Nous n’avons pas encore de template officiel pour Typst, mais nous en fournirons un dès que possible.</p>
+<p>Les limites de pages sont strictes. Les références bibliographiques ne sont pas<br>
+comptabilisées dans la limite de pages. Les annexes aux articles ne sont pas<br>
+autorisées.</p>
+<p>Les auteurs et autrices peuvent soumettre du matériel supplémentaire, séparé de<br>
+l’article soumis, sous forme de texte (version longue, sans limite de pages)<br>
+et/ou de développement logiciel. L’évaluation de ce matériel supplémentaire est<br>
+à la discrétion du comité de programme. Les articles soumis doivent donc être<br>
+auto-contenus et évaluables sans ce matériel supplémentaire.</p>
+<p>Les soumissions parallèles dans d’autres conférences, journaux ou workshops avec<br>
+actes ne sont pas autorisées.</p>
+<p>Les membres du comité de programme sont autorisés à soumettre un article. Les<br>
+présidentes du comité ne le sont pas.</p>
+<p>Les articles doivent être soumis via le site :</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://types-hotcrp.paris.inria.fr/jfla27/">
+  <header class="source">
+      <img src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/2/24bcead15729d9ec839a44b3d25dbdfb36d7d062.png" class="site-icon" alt="" data-dominant-color="E7C2C4" width="48" height="48">
+
+      <a href="https://types-hotcrp.paris.inria.fr/jfla27/" target="_blank" rel="noopener nofollow ugc">types-hotcrp.paris.inria.fr</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://types-hotcrp.paris.inria.fr/jfla27/" target="_blank" rel="noopener nofollow ugc">JFLA 2027</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>L’évaluation des articles suit un processus en simple-aveugle : les rapports<br>
+des articles sont anonymes, mais pas les auteurs et autrices.</p>
+<p>Les articles acceptés seront publiés dans les actes de la conférence, sur HAL,<br>
+et les auteurs et autrices en donneront une présentation lors des journées. Les<br>
+présentations seront, de préférence, données en français.</p>
+<p>Yannick ZAKOWSKI et Stefania DUMBRAVA<br>
+JFLA 2027</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/jfla2027-dernier-appel-a-communications/3128">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/jfla2027-dernier-appel-a-communications/3128</link>
+          <pubDate>Tue, 06 Oct 2026 06:17:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3128</guid>
+          <source url="https://discourse.rocq-prover.org/t/jfla2027-dernier-appel-a-communications/3128.rss">JFLA2027 : Dernier appel à communications</source>
+        </item>
+        <item>
+          <title>Research roles at Melbourne on seL4, agentic security, neural theorem proving</title>
+          <dc:creator><![CDATA[toby.murray]]></dc:creator>
+          <category>Jobs</category>
+          <description><![CDATA[
+            <p>Research positions in seL4, formal verification and AI-assisted theorem proving for agentic security at the University of Melbourne</p>
+<p>The University of Melbourne is recruiting Postdoctoral Research Fellows / Research Fellows / Senior Research Fellows to work on the Agentic-seL4 project (<a href="https://agentic-sel4.github.io/" rel="noopener nofollow ugc">https://agentic-sel4.github.io</a>), an international collaboration with the Universities of Surrey and Sheffield.</p>
+<p>The project is developing formally verified mechanisms on top of seL4 for securely containing AI agents, together with AI-assisted verification techniques and proof agents for maintaining and extending large-scale Isabelle/HOL developments.</p>
+<p>We are interested in candidates with expertise in one or more of interactive theorem proving, formal verification, seL4, information-flow/security foundations, automated reasoning, or AI-assisted theorem proving. Experience with Isabelle/HOL is particularly relevant, but substantial experience with other proof assistants is also welcome.</p>
+<p>The positions are based at the University of Melbourne, Australia, and may be appointed at Levels A, B or C. They are fixed-term until November 2027. Visa sponsorship is possible, but preference will be given to candidates who are able to start promptly.</p>
+<p>Applications close Saturday 24 October 2026, 11:55pm Melbourne time.</p>
+<p>Full details and application:</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://unimelb.wd105.myworkdayjobs.com/UoM_External_Career/job/Parkville/Postdoctoral-Research-Fellow---Research-Fellow---Senior-Research-Fellow_JR-018549">
+  <header class="source">
+
+      <a href="https://unimelb.wd105.myworkdayjobs.com/UoM_External_Career/job/Parkville/Postdoctoral-Research-Fellow---Research-Fellow---Senior-Research-Fellow_JR-018549" target="_blank" rel="noopener nofollow ugc">unimelb.wd105.myworkdayjobs.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <img width="484" height="484" src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/4/493e04f8dacc8f4c7cd07322a1f8457cdf955c59.png" class="thumbnail onebox-avatar" alt="" data-dominant-color="2F5E96">
+
+<h3><a href="https://unimelb.wd105.myworkdayjobs.com/UoM_External_Career/job/Parkville/Postdoctoral-Research-Fellow---Research-Fellow---Senior-Research-Fellow_JR-018549" target="_blank" rel="noopener nofollow ugc">Postdoctoral Research Fellow / Research Fellow / Senior Research Fellow</a></h3>
+
+  <p>Role type: Full time, Fixed-term until November 2027 (part-time considered) Faculty: Faculty of Engineering and Information Technology Salary: Level A - $87,266 - $118,416 p.a. plus 17% super Level B - $124,656 - $148,023 p.a. plus 17% super Level C...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/research-roles-at-melbourne-on-sel4-agentic-security-neural-theorem-proving/3127">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/research-roles-at-melbourne-on-sel4-agentic-security-neural-theorem-proving/3127</link>
+          <pubDate>Mon, 05 Oct 2026 04:50:00 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3127</guid>
+          <source url="https://discourse.rocq-prover.org/t/research-roles-at-melbourne-on-sel4-agentic-security-neural-theorem-proving/3127.rss">Research roles at Melbourne on seL4, agentic security, neural theorem proving</source>
+        </item>
+        <item>
+          <title>Rocq 9.3.0</title>
+          <dc:creator><![CDATA[gares]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>We are happy to announce that Rocq 9.3.0 has been released and packages for opam and nix are available.</p>
+<p>See the changelog Recent changes — <a href="https://rocq-prover.org/doc/v9.3/refman/changes.html#version-9-3" rel="noopener nofollow ugc">The Rocq Prover 9.3.0 documentation</a> for more information.</p>
+<p>— Enrico for the Rocq Development Team.</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/rocq-9-3-0/3126">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/rocq-9-3-0/3126</link>
+          <pubDate>Thu, 01 Oct 2026 11:33:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3126</guid>
+          <source url="https://discourse.rocq-prover.org/t/rocq-9-3-0/3126.rss">Rocq 9.3.0</source>
+        </item>
+        <item>
+          <title>Research positions on Isabelle verification of Agentic seL4</title>
+          <dc:creator><![CDATA[andrei]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Dear Colleagues,</p>
+<p>We are looking to recruit a Research Fellow at the University of<br>
+Sheffield, UK, for a new project on formal verification with Isabelle,<br>
+funded by the Advanced Research + Invention Agency (ARIA).</p>
+<p>The project, jointly undertaken with the University of Surrey and the<br>
+University of Melbourne, will develop a formally verified reference<br>
+monitor on top of seL4 for the secure containment of AI agents,<br>
+including mechanisms for dynamically controlling agents’ capabilities<br>
+and information flows. It will also use AI techniques to accelerate<br>
+large-scale formal verification, trained on the seL4 proof base.</p>
+<p>The position is at Grade 8 (UK Lecturer level), with a salary of<br>
+£53,301–£58,225, and is initially for 14 months. We have substantial<br>
+funding for access to state-of-the-art AI models and computing<br>
+infrastructure. We are interested in candidates with expertise in<br>
+interactive theorem proving, formal verification, information-flow<br>
+security, seL4, and optionally neurosymbolic AI and AI-assisted<br>
+reasoning. Candidates do not need to cover all these areas. Particular<br>
+preference will be given to candidates with strong Isabelle expertise<br>
+(or substantial experience with related interactive theorem provers),<br>
+and to candidates who are available to start as soon as possible. We<br>
+would also be very interested in hearing from excellent Isabelle<br>
+researchers who may be at an earlier career stage than would normally<br>
+be expected for a Grade 8 position.</p>
+<p>The formal Sheffield advert and application link are available here:</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://jobsite.sheffield.ac.uk/job/Research-Fellow-in-AI-Assisted-Formal-Verification/3142-en_GB/">
+  <header class="source">
+      <img src="https://us1.discourse-cdn.com/flex001/uploads/coq/original/2X/3/37c1301e68b313fdf375ae71ea0e28f237220a28.png" class="site-icon" alt="" data-dominant-color="8458BC" width="32" height="32">
+
+      <a href="https://jobsite.sheffield.ac.uk/job/Research-Fellow-in-AI-Assisted-Formal-Verification/3142-en_GB/" target="_blank" rel="noopener nofollow ugc">jobsite.sheffield.ac.uk</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://jobsite.sheffield.ac.uk/job/Research-Fellow-in-AI-Assisted-Formal-Verification/3142-en_GB/" target="_blank" rel="noopener nofollow ugc">Jobs at University of Sheffield</a></h3>
+
+  <p>Explore job opportunities with University of Sheffield</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>The application deadline is on 27/09/2026. If you are potentially<br>
+interested in the position and have any questions, please feel free to<br>
+contact me at <a href="mailto:a.popescu@sheffield.ac.uk">a.popescu@sheffield.ac.uk</a> .</p>
+<p>There are also closely related positions at our partner institutions.<br>
+For opportunities at the University of Surrey, please contact Brijesh<br>
+Dongol (<a href="mailto:b.dongol@surrey.ac.uk">b.dongol@surrey.ac.uk</a>); for opportunities at the University of<br>
+Melbourne, please contact Toby Murray (<a href="mailto:toby.murray@unimelb.edu.au">toby.murray@unimelb.edu.au</a>).</p>
+<p>Best wishes,<br>
+Andrei</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/research-positions-on-isabelle-verification-of-agentic-sel4/3122">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/research-positions-on-isabelle-verification-of-agentic-sel4/3122</link>
+          <pubDate>Tue, 29 Sep 2026 11:22:30 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3122</guid>
+          <source url="https://discourse.rocq-prover.org/t/research-positions-on-isabelle-verification-of-agentic-sel4/3122.rss">Research positions on Isabelle verification of Agentic seL4</source>
+        </item>
+        <item>
+          <title>Using vsrocq language server with Emacs</title>
+          <dc:creator><![CDATA[Michalis]]></dc:creator>
+          <category>Developing plugins</category>
+          <description><![CDATA[
+            <p>Has anyone looked at integrating the vsrocq language server with emacs? I have been using <a href="https://codeberg.org/jpoiret/rocq-mode.el" class="inline-onebox" rel="noopener nofollow ugc">jpoiret/rocq-mode.el: An Emacs mode for the Rocq theorem prover, using coq-lsp - Codeberg.org</a>, and I really like its workflow over Proof-General, but I wonder if it would be better to base it on vsrocq, rather than rocq-lsp, since the former seems to be the more full-featured language server.</p>
+<p>If nothing exists, I might experiment with either adapting rocq-mode or building something new. Curious if that is something people would be interested in.</p>
+            <p><small>4 posts - 4 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/using-vsrocq-language-server-with-emacs/3119">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/using-vsrocq-language-server-with-emacs/3119</link>
+          <pubDate>Tue, 29 Sep 2026 09:36:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3119</guid>
+          <source url="https://discourse.rocq-prover.org/t/using-vsrocq-language-server-with-emacs/3119.rss">Using vsrocq language server with Emacs</source>
+        </item>
+        <item>
+          <title>Funding Opportunity: The Justin Sun Prize</title>
+          <dc:creator><![CDATA[JustinSun_Prize]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>The Justin Sun Prize is a decentralized mathematical and scientific bounty initiative launched by TRON founder Justin Sun on September 16, 2026, offering up to $1 million per verified solution. <a href="https://www.hejustinsun.com/prize/about" class="inline-onebox" rel="noopener nofollow ugc">H.E.Justin Sun</a></p>
+            <p><small>2 posts - 3 participants</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/funding-opportunity-the-justin-sun-prize/3116">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/funding-opportunity-the-justin-sun-prize/3116</link>
+          <pubDate>Mon, 28 Sep 2026 17:57:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3116</guid>
+          <source url="https://discourse.rocq-prover.org/t/funding-opportunity-the-justin-sun-prize/3116.rss">Funding Opportunity: The Justin Sun Prize</source>
+        </item>
+        <item>
+          <title>TYPES 2026: Post-proceedings Call for Papers</title>
+          <dc:creator><![CDATA[sattler]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <h1><a name="p-7612-types-2026-post-proceedings-call-for-papers-1" class="anchor" href="https://discourse.rocq-prover.org#p-7612-types-2026-post-proceedings-call-for-papers-1" aria-label="Heading link"></a>TYPES 2026: Post-proceedings Call for Papers</h1>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://types2026.cse.chalmers.se/postproceedings.html">
+  <header class="source">
+
+      <a href="https://types2026.cse.chalmers.se/postproceedings.html" target="_blank" rel="noopener nofollow ugc">types2026.cse.chalmers.se</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://types2026.cse.chalmers.se/postproceedings.html" target="_blank" rel="noopener nofollow ugc">TYPES 2026: Post-proceedings</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>TYPES is a major forum for the presentation of research on all aspects of type theory and its applications. TYPES 2026 was held from 4 to 8 May 2026 at Chalmers University of Technology and University of Gothenburg. The post-proceedings volume will be published in LIPIcs, Leibniz International Proceedings in Informatics, an open-access series of conference proceedings.</p>
+<h2><a name="p-7612-submission-guidelines-2" class="anchor" href="https://discourse.rocq-prover.org#p-7612-submission-guidelines-2" aria-label="Heading link"></a>Submission Guidelines</h2>
+<p>Submission is open to everyone, also to those who did not participate in the TYPES 2026 conference. We welcome high-quality descriptions of original work, as well as position papers, overview papers, and system descriptions. Submissions should be written in English, and be original, i.e., neither previously published, nor simultaneously submitted to a journal or a conference.</p>
+<ul>
+<li>
+<p>Formatting: Papers have to be formatted with the current <a href="https://drops.dagstuhl.de/entities/series/LIPIcs#author" rel="noopener nofollow ugc">LIPIcs style</a> and adhere to the style requirements of LIPIcs.</p>
+</li>
+<li>
+<p>Page limits: The upper limit for the length of submissions is 20 pages for the main text (including appendices, but excluding title page and bibliography).</p>
+</li>
+<li>
+<p>Supplementary material: Authors have the option to attach to their submission a zip or tgz file containing code (formalised proofs or programs), but reviewers are not obliged to take the attachments into account, and they will not be published.</p>
+</li>
+</ul>
+<p>Submission site: <a href="https://types-hotcrp.paris.inria.fr/types26-post/" class="inline-onebox" rel="noopener nofollow ugc">TYPES 2026 Postproceedings</a></p>
+<h2><a name="p-7612-deadlines-3" class="anchor" href="https://discourse.rocq-prover.org#p-7612-deadlines-3" aria-label="Heading link"></a>Deadlines</h2>
+<ul>
+<li>Submission of title and abstract: 16 November 2026 AoE</li>
+<li>Submission of full paper: 30 November 2026 AoE</li>
+<li>Author notification: 30 March 2027 AoE</li>
+</ul>
+<h2><a name="p-7612-topics-of-interest-4" class="anchor" href="https://discourse.rocq-prover.org#p-7612-topics-of-interest-4" aria-label="Heading link"></a>Topics of interest</h2>
+<p>The scope of the post-proceedings is the same as the scope of the conference: the theory and practice of type theory. In particular, we welcome submissions on the following topics:</p>
+<ul>
+<li>foundations of type theory and constructive mathematics;</li>
+<li>applications of type theory;</li>
+<li>dependently typed programming;</li>
+<li>industrial uses of type theory technology;</li>
+<li>meta-theoretic studies of type systems;</li>
+<li>proof assistants and proof technology;</li>
+<li>automation in computer-assisted reasoning;</li>
+<li>formalizing mathematics using type theory;</li>
+<li>links between type theory and
+<ul>
+<li>functional programming;</li>
+<li>homotopy theory;</li>
+<li>linguistics;</li>
+<li>machine learning.</li>
+</ul>
+</li>
+</ul>
+<h2><a name="p-7612-editors-5" class="anchor" href="https://discourse.rocq-prover.org#p-7612-editors-5" aria-label="Heading link"></a>Editors</h2>
+<p>Andreas Abel and Christian Sattler<br>
+Chalmers University of Technology and University of Gothenburg, Sweden</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/types-2026-post-proceedings-call-for-papers/3114">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/types-2026-post-proceedings-call-for-papers/3114</link>
+          <pubDate>Wed, 23 Sep 2026 17:40:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3114</guid>
+          <source url="https://discourse.rocq-prover.org/t/types-2026-post-proceedings-call-for-papers/3114.rss">TYPES 2026: Post-proceedings Call for Papers</source>
+        </item>
+        <item>
+          <title>Postdoc position at TU Delft</title>
+          <dc:creator><![CDATA[benediktahrens]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>Hi all,</p>
+<p>I have funding for a postdoc position at TU Delft on combining computer proof assistants and computer algebra systems in the area of category theory, and I would be happy to hear from potential applicants before the formal advert goes out.</p>
+<p>I am looking for someone who is interested in all three of proof assistants, computer algebra systems, and category theory, and who has some experience in at least one or two of them.</p>
+<p>The position ideally starts no later than March 2027.</p>
+<p>If you are interested, please email me at <a href="mailto:B.P.Ahrens@tudelft.nl">B.P.Ahrens@tudelft.nl</a> with a short note about your background and what you are interested in. Informal questions are very welcome.</p>
+<p>Please feel free to forward this to anyone who might be a good fit.</p>
+<p>Best wishes,<br>
+Benedikt</p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/postdoc-position-at-tu-delft/3111">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/postdoc-position-at-tu-delft/3111</link>
+          <pubDate>Wed, 16 Sep 2026 07:20:18 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3111</guid>
+          <source url="https://discourse.rocq-prover.org/t/postdoc-position-at-tu-delft/3111.rss">Postdoc position at TU Delft</source>
+        </item>
+        <item>
+          <title>NWPT 2026, Final Call for Contributions</title>
+          <dc:creator><![CDATA[Chad_Mitchell_Nester]]></dc:creator>
+          <category>CFPs</category>
+          <description><![CDATA[
+            <p>== Call for Papers ==</p>
+<p>36th Nordic Workshop on Programming Theory<br>
+November 19-20th, 2026, University of Tartu, Tartu, Estonia<br>
+Conference web page: <a href="https://kodu.ut.ee/~nester/nwpt-2026/main.html">https://kodu.ut.ee/~nester/nwpt-2026/main.html</a><br>
+== Important Dates (AOE) ==</p>
+<ul>
+<li>Submission of Abstracts: October 5th, 2026, 23:59 AOE</li>
+<li>Notification: October 30th, 2026</li>
+<li>Submission of Final Version of Abstracts: November 6th, 23:59 AOE</li>
+<li>Registration Deadline: November 2nd, 2026, 23:59 AOE</li>
+<li>Conference Dates: November 19-20th, 2026</li>
+</ul>
+<p>== Scope ==</p>
+<p>NWPT is a series of annual regional-scope workshops on programming theory, targeted especially at younger researchers. In 2026, the workshop will take place in Tartu, Estonia. We hope this will be a nice opportunity to present recent results and/or work-in-progress, and to meet colleagues from the Nordic and Baltic countries. We encourage PhD students and postdocs to contribute. Topics of interest include (but are not limited to):</p>
+<ul>
+<li>semantics of programming languages</li>
+<li>programming language design and programming methodology</li>
+<li>programming logics</li>
+<li>formal specification of programs</li>
+<li>program verification</li>
+<li>program construction</li>
+<li>tools for program verification and construction</li>
+<li>program transformation and refinement</li>
+<li>real-time, hybrid/cyber-physical systems modeling and verification</li>
+<li>models of concurrency and distributed computing</li>
+<li>model checking</li>
+<li>model-based testing</li>
+<li>language-based security</li>
+</ul>
+<p>== Submission Guidelines ==</p>
+<p>Authors wishing to give a talk at the workshop are requested to submit abstracts of 2-3 pages (pdf, printable on A4 paper, typeset with LaTeX with easychair.cls) through EasyChair by October 5th:<br>
+<a href="https://easychair.org/my/conference?conf=nwpt2026">https://easychair.org/my/conference?conf=nwpt2026</a><br>
+Work in progress as well as abstracts of manuscripts submitted for formal publication elsewhere are permitted. The abstracts of the accepted contributions will be available electronically before the workshop. By submitting to EasyChair you agree that your abstract will be publicly available. Moreover, you as an author are responsible for the content.<br>
+As in earlier NWPT workshops, we plan to arrange a special issue of the Journal of Logical and Algebraic Methods in Programming (JLAMP) devoted to the best contributions to the workshop. The contributions will be selected by the PC. They will be invited after the workshop and will undergo a rigorous, journal-strength review process according to the standards of JLAMP. This year submissions from NWPT 2023 and NWPT 2024 will be considered as well.</p>
+<p>== Program Committee ==</p>
+<ul>
+<li>
+<p>Aggeliki Chalki, Reykjavik University, Iceland</p>
+</li>
+<li>
+<p>Alceste Scalas, Technical University of Denmark, Denmark</p>
+</li>
+<li>
+<p>Cheng-Syuan Wan, Tallinn University of Technology, Estonia</p>
+</li>
+<li>
+<p>Daniel Gratzer, Aarhus University, Denmark</p>
+</li>
+<li>
+<p>Elias Castegren, Uppsala University, Sweden</p>
+</li>
+<li>
+<p>Elli Anastasiadi, Aalborg University, Denmark</p>
+</li>
+<li>
+<p>Evan Cavallo, University of Gothenburg, Sweden</p>
+</li>
+<li>
+<p>Fritz Henglein, University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Jaakko Jarvi, University of Turku, Finland</p>
+</li>
+<li>
+<p>Keijo Heljanko, University of Helsinki, Finland</p>
+</li>
+<li>
+<p>Lizeth Tapia, University of Oslo, Norway</p>
+</li>
+<li>
+<p>Maja Hanne Kirkeby, Roskilde University, Denmark</p>
+</li>
+<li>
+<p>Marina Walden, Åbo Akademi University, Finland</p>
+</li>
+<li>
+<p>Marjan Sirjani, Mälardalen University, Sweden</p>
+</li>
+<li>
+<p>Matthew Earnshaw, University of Tartu, Estonia</p>
+</li>
+<li>
+<p>Mikhail Barash, University of Bergen, Norway</p>
+</li>
+<li>
+<p>Peter LeFanu Lumsdaine, Stockholm University, Sweden</p>
+</li>
+<li>
+<p>Rasmus Møgelberg, IT University of Copenhagen, Denmark</p>
+</li>
+<li>
+<p>Robin Kaarsgaard, University of Southern Denmark, Denmark</p>
+</li>
+<li>
+<p>Violet Ka I Pun, Western Norway University of Applied Sciences, Norway</p>
+</li>
+</ul>
+<p>== Organisers and PC Chairs ==</p>
+<ul>
+<li>Chad Nester, University of Tartu, Estonia</li>
+<li>Matthew Earnshaw, University of Tartu, Estonia</li>
+</ul>
+<p>== Contact ==</p>
+<p>Please direct any questions to <a href="mailto:nester@ut.ee">nester@ut.ee</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/nwpt-2026-final-call-for-contributions/3110">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/nwpt-2026-final-call-for-contributions/3110</link>
+          <pubDate>Tue, 15 Sep 2026 07:42:53 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3110</guid>
+          <source url="https://discourse.rocq-prover.org/t/nwpt-2026-final-call-for-contributions/3110.rss">NWPT 2026, Final Call for Contributions</source>
+        </item>
+        <item>
+          <title>RocqPL 2027 Call for Presentations</title>
+          <dc:creator><![CDATA[fajb]]></dc:creator>
+          <category>Announcements</category>
+          <description><![CDATA[
+            <p>===================================================================</p>
+<pre><code>                      RocqPL 2027
+
+            13th International Workshop on Rocq
+               for Programming Languages
+                          --
+         January 16, 2027, co-located with POPL
+                    Mexico City, Mexico
+
+               CALL FOR PRESENTATIONS
+
+       https://popl27.sigplan.org/home/rocqpl-2027
+</code></pre>
+<p>===================================================================</p>
+<h2><a name="p-7601-workshop-overview-1" class="anchor" href="https://discourse.rocq-prover.org#p-7601-workshop-overview-1" aria-label="Heading link"></a>Workshop Overview</h2>
+<p>The series of RocqPL (formerly CoqPL) workshops provide an opportunity for programming languages researchers and practitioners with an interest in the Rocq Prover to meet and interact with one another and members from the core Rocq development team. At the meeting, we will discuss upcoming new features, see talks and demonstrations of exciting current projects, solicit feedback for potential future changes to Rocq itself, and generally work to strengthen the vibrant community around our favorite proof assistant.</p>
+<p>Topics in scope include:</p>
+<ul>
+<li>Formalizations of PL research in Rocq</li>
+<li>General purpose libraries and tactic language extensions</li>
+<li>Domain-specific libraries for programming language formalization and verification</li>
+<li>IDEs, profilers, tracers, debuggers, and testing tools</li>
+<li>Reports on ongoing proof efforts conducted via (or in the context of) the Rocq Prover</li>
+<li>Experience reports from Rocq usage in educational or industrial contexts</li>
+</ul>
+<h2><a name="p-7601-workshop-format-2" class="anchor" href="https://discourse.rocq-prover.org#p-7601-workshop-format-2" aria-label="Heading link"></a>Workshop Format</h2>
+<p>The workshop format will be driven by you, the members of the community. We will solicit abstracts for talks and proposals for demonstrations and flesh out format details based on responses. We expect the final program to include experiment reports, panel discussions, and invited talks (details TBA). Talks will be selected according to relevance to the workshop, based on the submission of an extended abstract.</p>
+<p>To foster open discussion of cutting edge research which can later be published in full conference proceedings, we will not publish papers from the workshop. However, presentations may be recorded and the videos may be made publicly available.</p>
+<h2><a name="p-7601-submission-details-3" class="anchor" href="https://discourse.rocq-prover.org#p-7601-submission-details-3" aria-label="Heading link"></a>Submission Details</h2>
+<p>Submission page: <a href="https://rocqpl27.hotcrp.com/" rel="noopener nofollow ugc">https://rocqpl27.hotcrp.com/</a></p>
+<p>Important Dates:</p>
+<ul>
+<li>Submission:   Friday, October 23, 2026</li>
+<li>Notification: Friday, November 20, 2026</li>
+<li>Workshop:     Saturday, January 16, 2027</li>
+</ul>
+<p>Submissions for talks and demonstrations should be described in an extended abstract, between 1 and 2 pages in length (excluding bibliography). We suggest formatting the text using the two-column ACM SIGPLAN LaTex style (9pt font). Templates are available from the ACM SIGPLAN page: <a href="https://www.sigplan.org/Resources/Author" class="inline-onebox" rel="noopener nofollow ugc">Author Information</a>. We can accommodate remote talks under exceptional circumstances (for example, visa issues), but we expect that otherwise all talks should be in person.</p>
+<h2><a name="p-7601-program-committee-4" class="anchor" href="https://discourse.rocq-prover.org#p-7601-program-committee-4" aria-label="Heading link"></a>Program Committee</h2>
+<p>Co-chairs:</p>
+<ul>
+<li>Arthur Azevedo de Amorim,	Rochester Institute of Technology, United States</li>
+<li>Frédéric Besson, Inria Rennes, France</li>
+</ul>
+<p>Program Committee:</p>
+<ul>
+<li>Ariel Eileen Kellison, Code Metal, Inc</li>
+<li>Benedikt Ahrens, Delft University of Technology, Netherlands</li>
+<li>Beta Ziliani, Universidad ORT, Uruguay</li>
+<li>Ike Mulder, Radboud University Nijmegen, Netherlands</li>
+<li>Karl Palmskog, KTH Royal Institute of Technology, Sweden</li>
+<li>Lourdes de Carmen González Huesca, National Autonomous University of Mexico, Mexico</li>
+<li>Steve Zdancevic, University of Pennsylvania, United States</li>
+<li>Zoe Paraskevopoulou, National Technical University of Athens, Greece</li>
+</ul>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://discourse.rocq-prover.org/t/rocqpl-2027-call-for-presentations/3103">Read full topic</a></p>
+          ]]></description>
+          <link>https://discourse.rocq-prover.org/t/rocqpl-2027-call-for-presentations/3103</link>
+          <pubDate>Wed, 09 Sep 2026 09:31:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">discourse.rocq-prover.org-topic-3103</guid>
+          <source url="https://discourse.rocq-prover.org/t/rocqpl-2027-call-for-presentations/3103.rss">RocqPL 2027 Call for Presentations</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>#formalverification</title>
+    <description>Public posts tagged #formalverification</description>
+    <link>https://mathstodon.xyz/tags/formalverification</link>
+    <lastBuildDate>Sun, 22 Nov 2026 23:20:56 +0000</lastBuildDate>
+    <generator>Mastodon v4.7.6</generator>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@orderwithchaos/117662656557828227</guid>
+      <link>https://mastodon.social/@orderwithchaos/117662656557828227</link>
+      <pubDate>Sun, 22 Nov 2026 23:20:56 +0000</pubDate>
+      <description>&lt;p&gt;This post aptly captures the "limitations" of formal verification and how they apply to the recent proof of RH.   I wish everyone chiming into the LEAN proof of RH discussion consider these limitations.&lt;/p&gt;&lt;p&gt;&lt;a href="https://tagide.com/blog/research/formal-verification-is-not-the-silver-bullet/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;tagide.com/blog/research/forma&lt;/span&gt;&lt;span class="invisible"&gt;l-verification-is-not-the-silver-bullet/&lt;/span&gt;&lt;/a&gt; via &lt;span class="h-card" translate="no"&gt;&lt;a href="https://mastodon.social/@crista" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;crista&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/software" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;software&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/math" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;lean&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>lean</category>
+      <category>math</category>
+      <category>formalverification</category>
+      <category>software</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@leanprover/117655086500590301</guid>
+      <link>https://functional.cafe/@leanprover/117655086500590301</link>
+      <pubDate>Sat, 21 Nov 2026 15:15:47 +0000</pubDate>
+      <description>&lt;p&gt;The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean FRO and the Mathlib Initiative.&lt;/p&gt;&lt;p&gt;On November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the past day, the Lean and Mathlib communities worked together to verify it. The joint statement certifies the proof as correct and describes how it meets all necessary verification criteria.&lt;/p&gt;&lt;p&gt;Congratulations to Levent on this achievement, and thank you to everyone in the community who contributed time and resources to the verification.&lt;/p&gt;&lt;p&gt;Full statement: &lt;a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;leanprover-community.github.io&lt;/span&gt;&lt;span class="invisible"&gt;/blog/posts/riemann-hypothesis/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Mathlib" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Mathlib&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/RiemannHypothesis" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RiemannHypothesis&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/655/086/992/568/835/original/d47f32db6331e6b7.png" type="image/png" fileSize="38055" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">An image combining the Lean logo and the Mathlib Initiative logo</media:description>
+      </media:content>
+      <category>formalverification</category>
+      <category>riemannhypothesis</category>
+      <category>mathlib</category>
+      <category>lean</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb</guid>
+      <link>https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb</link>
+      <pubDate>Fri, 20 Nov 2026 16:21:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://alpo.ge/remark.pdf" rel="nofollow noopener" target="_blank"&gt;Anthropic employee claims general proof of the Riemann Hypothesis [pdf]&lt;/a&gt;&lt;/strong&gt;
+&lt;a href="https://alpo.ge" class="" rel="nofollow noopener" target="_blank"&gt;alpo.ge&lt;/a&gt; · 934 points · 578 comments · &lt;a href="https://news.ycombinator.com/item?id=50574968" rel="nofollow noopener" target="_blank"&gt;HN thread&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; Levent Alpöge, a mathematician at Anthropic, posted a PDF claiming a proof of the Riemann Hypothesis, developed with Claude, and extending to the Generalized Riemann Hypothesis. The argument is roughly 250,000 pages on paper, and its Lean formalization (about 17 million lines in 175,000+ files, roughly 1 GB) is linked as 14 archive parts rather than a readable writeup. Commenters are excited but mostly insist on independent verification before accepting the claim.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Alpöge says he and Claude found a proof of the Riemann Hypothesis and that the method also resolves the Generalized Riemann Hypothesis, with the Extended Riemann Hypothesis expected with more time.&lt;/li&gt;&lt;li&gt;The full argument was formalized in Lean; the PDF links 14 archive parts (lean.tar.gz.part01 to part14) rather than a human-readable write-up, which he says would be an unreadable 250,000-page document.&lt;/li&gt;&lt;li&gt;He describes Claude's role as doing much of the technical work while he guided the approach, and gives a timeline of about 20 steps ending with GRH on 11/16/26.&lt;/li&gt;&lt;li&gt;The announcement came shortly after Anthropic's IPO; Alpöge says he finished the proof before the IPO and chose to wait to announce, and he denies that timing was intended.&lt;/li&gt;&lt;li&gt;Commenters note the Lean statement of the Riemann Hypothesis is taken from Mathlib, so verification mainly depends on that statement being faithful and the kernel being sound.&lt;/li&gt;&lt;li&gt;Alpöge previously worked with OpenAI's Navier-Stokes effort, which drew criticism; this announcement is seen as more deferential in tone.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Discussion&lt;/strong&gt;
+The thread is large and split between excitement about a possible milestone in AI-assisted mathematics and skepticism about hype, verification, and the anthropomorphic language in the write-up. Many commenters focus on whether the Lean proof is checkable, whether the statement is correctly formalized, and whether the proof can be understood by humans at all. Others debate what AI progress means, whether the result is 'AI' or 'human plus AI', and whether it matters practically since RH has few direct applications. The mood is mostly impressed and somewhat anxious, with a noticeable undercurrent of distrust toward Anthropic's motives and timing.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Impressive milestone, but wait for expert verification&lt;/strong&gt; (most): Most commenters find the claim exciting and plausible given the Lean formalization, but say mathematicians must review the proof and the statement before accepting it. Several cite past false claims such as Mochizuki and early Wiles gaps.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Lean verification makes it highly credible&lt;/strong&gt; (many): A substantial group argues the machine-checked Lean proof, the standard Mathlib statement of RH, and independent kernels make an error unlikely, so the main remaining check is that the statement is faithful.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Credentials alone are not verification&lt;/strong&gt; (some): Some push back on the 'if he says so, it is so' framing, arguing that an authority's word should not substitute for checking, even though his background is respected.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AI is now clearly achieving research-level results&lt;/strong&gt; (many): Many see this as evidence that frontier models are now capable of major mathematical discovery, and that human-plus-AI workflows will keep producing results.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Skeptical that AI results mean general intelligence&lt;/strong&gt; (some): Others argue that solving verifiable problems does not imply general or superintelligence, noting jagged capabilities and that the work needed top human expertise.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Concern about understanding and the future of human mathematics&lt;/strong&gt; (some): A recurring worry is that a 250,000-page proof no human can read changes mathematics from understanding to trust, and that the field's social structure for training mathematicians is at risk.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dislike of the anthropomorphic and promotional tone&lt;/strong&gt; (a few): Some find the phrasing about Claude 'flying and dancing' cringeworthy, and suspect the timing relative to the IPO was meant to boost the stock, though others defend the language as genuine enthusiasm.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Links from the comments&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://github.com/KellyJDavis/RiemannHypothesis" rel="nofollow noopener" target="_blank"&gt;A commenter's repo for building the Lean code, noting a lake build is running (no comparator added).&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://google-deepmind.github.io/formal-conjectures/" rel="nofollow noopener" target="_blank"&gt;DeepMind's formal-conjectures collection of human-written Lean statements, cited as a basis for checking statements like Navier-Stokes and GRH.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/" rel="nofollow noopener" target="_blank"&gt;Kevin Buzzard's post on how to check that an untrusted Lean proof does not exploit axioms or kernel bugs.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html" rel="nofollow noopener" target="_blank"&gt;Mathlib documentation for the formal statement of the Riemann zeta and Riemann Hypothesis that the proof is checked against.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://mrc.sdu.edu.cn/english/info/1018/1514.htm" rel="nofollow noopener" target="_blank"&gt;Linked result: a conditional proof of Goldbach-type statements assuming GRH, relevant to what GRH would imply.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;a class="mention hashtag" href="https://welley.social/search?q=%23RiemannHypothesis" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;RiemannHypothesis&lt;/span&gt;&lt;/a&gt; &lt;a class="mention hashtag" href="https://welley.social/search?q=%23AIMathematics" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;AIMathematics&lt;/span&gt;&lt;/a&gt; &lt;a class="mention hashtag" href="https://welley.social/search?q=%23Lean" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a class="mention hashtag" href="https://welley.social/search?q=%23Anthropic" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;Anthropic&lt;/span&gt;&lt;/a&gt; &lt;a class="mention hashtag" href="https://welley.social/search?q=%23FormalVerification" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a class="mention hashtag" href="https://welley.social/search?q=%23NumberTheory" rel="nofollow noopener" target="_blank"&gt;#&lt;span translate="no"&gt;NumberTheory&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>riemannhypothesis</category>
+      <category>numbertheory</category>
+      <category>lean</category>
+      <category>formalverification</category>
+      <category>Anthropic</category>
+      <category>aimathematics</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@TWiT/117644887681769216</guid>
+      <link>https://mastodon.social/@TWiT/117644887681769216</link>
+      <pubDate>Thu, 19 Nov 2026 20:02:05 +0000</pubDate>
+      <description>&lt;p&gt;🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification.&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/SecurityNow" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;SecurityNow&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt;&lt;br&gt;Download and subscribe here: &lt;a href="https://twit.tv/shows/security-now/episodes/1105" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;twit.tv/shows/security-now/epi&lt;/span&gt;&lt;span class="invisible"&gt;sodes/1105&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/644/889/244/993/788/original/7a78bb45ede408ab.jpeg" type="image/jpeg" fileSize="252459" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Tangled overhead power and telecom cables crisscross a clear blue sky above Balinese rooftops, illustrating the chaotic, cluttered utility infrastructure commonly seen on the island.</media:description>
+      </media:content>
+      <category>formalverification</category>
+      <category>securitynow</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@leanprover/117633077616639915</guid>
+      <link>https://functional.cafe/@leanprover/117633077616639915</link>
+      <pubDate>Tue, 17 Nov 2026 17:58:38 +0000</pubDate>
+      <description>&lt;p&gt;Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements.&lt;/p&gt;&lt;p&gt;From the highlights:&lt;br&gt;• Much of the work went into performance, including keeping the type class cache between commands and removing several slowdowns that grew quadratically with file size. Per the notes, Mathlib now builds roughly 12% faster than before.&lt;br&gt;• grind handles more bit-vector and fixed-width integer operations, and treats character literals as numbers.&lt;br&gt;• bv_decide supports uninterpreted functions through the +uf option (currently for functions returning Bool or BitVec).&lt;br&gt;• Experimental throws clauses let a def contract state what holds when the function throws.&lt;/p&gt;&lt;p&gt;Please check the breaking changes before upgrading. They include Float min/max, String &amp;lt;, and JSON parsing, which now rejects duplicate keys.&lt;/p&gt;&lt;p&gt;Thanks to Juanjo Madrigal for writing the release highlights.&lt;/p&gt;&lt;p&gt;Full release notes: &lt;a href="https://lean-lang.org/doc/reference/latest/releases/v4.36.0/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;lean-lang.org/doc/reference/la&lt;/span&gt;&lt;span class="invisible"&gt;test/releases/v4.36.0/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/LeanProver" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/633/078/118/575/132/original/6dc905b02081138e.png" type="image/png" fileSize="185870" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">the Lean logo</media:description>
+      </media:content>
+      <category>formalverification</category>
+      <category>leanprover</category>
+      <category>lean</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://chaos.social/@lmstr/117633069880981216</guid>
+      <link>https://chaos.social/@lmstr/117633069880981216</link>
+      <pubDate>Tue, 17 Nov 2026 17:56:40 +0000</pubDate>
+      <description>&lt;p&gt;Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you!&lt;/p&gt;&lt;p&gt;The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better.&lt;/p&gt;&lt;p&gt;&lt;a href="https://chaos.social/tags/TLAPlus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;TLAPlus&lt;/span&gt;&lt;/a&gt; &lt;a href="https://chaos.social/tags/FormalMethods" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalMethods&lt;/span&gt;&lt;/a&gt; &lt;a href="https://chaos.social/tags/ModelChecking" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ModelChecking&lt;/span&gt;&lt;/a&gt; &lt;a href="https://chaos.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://chaos.social/tags/DistributedSystems" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;DistributedSystems&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://linuxfoundation.research.net/r/tla2026survey" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;linuxfoundation.research.net/r&lt;/span&gt;&lt;span class="invisible"&gt;/tla2026survey&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/633/069/920/763/427/original/ad43704ae5890b3e.png" type="image/png" fileSize="863875" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>distributedsystems</category>
+      <category>formalverification</category>
+      <category>modelchecking</category>
+      <category>formalmethods</category>
+      <category>tlaplus</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://fediscience.org/@GeorgWeissenbacher/117603681881764825</guid>
+      <link>https://fediscience.org/@GeorgWeissenbacher/117603681881764825</link>
+      <pubDate>Thu, 12 Nov 2026 13:22:54 +0000</pubDate>
+      <description>&lt;p&gt;It's nice to see news about &lt;a href="https://fediscience.org/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; on a major tech news site (#arstechnica). The impact of formal verification in the age of &lt;a href="https://fediscience.org/tags/agentic_AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;agentic_AI&lt;/span&gt;&lt;/a&gt; is impressive.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;arstechnica.com/ai/2026/11/sig&lt;/span&gt;&lt;span class="invisible"&gt;nals-encryption-just-passed-an-ai-powered-mathematical-checkup/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fediscience.org/tags/ai" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ai&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>ai</category>
+      <category>agentic_ai</category>
+      <category>formalverification</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.top/@frankel/117602694109753464</guid>
+      <link>https://mastodon.top/@frankel/117602694109753464</link>
+      <pubDate>Thu, 12 Nov 2026 09:11:42 +0000</pubDate>
+      <description>&lt;p&gt;Introducing &lt;a href="https://mastodon.top/tags/AlphaProof" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AlphaProof&lt;/span&gt;&lt;/a&gt; Code: a breakthrough in verifying complex software at depth&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;deepmind.google/blog/introduci&lt;/span&gt;&lt;span class="invisible"&gt;ng-alphaproof-code/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.top/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.top/tags/google" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;google&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>google</category>
+      <category>formalverification</category>
+      <category>alphaproof</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@mohith808/117598461664906874</guid>
+      <link>https://mastodon.social/@mohith808/117598461664906874</link>
+      <pubDate>Wed, 11 Nov 2026 15:15:20 +0000</pubDate>
+      <description>&lt;p&gt;POV: your security audit used to take years&lt;/p&gt;&lt;p&gt;deepmind's agents just formally verified signal's actual code, down to machine instructions, in 4 weeks&lt;/p&gt;&lt;p&gt;millions of lines of lean. humans reviewed about 1% of the code&lt;/p&gt;&lt;p&gt;they re-added two old bugs. it proved both versions insecure&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;deepmind.google/blog/introduci&lt;/span&gt;&lt;span class="invisible"&gt;ng-alphaproof-code/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Signal" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Signal&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Security" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Security&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>security</category>
+      <category>signal</category>
+      <category>formalverification</category>
+      <category>lean</category>
+      <category>ai</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://hachyderm.io/@BenjaminHCCarr/117594878326541813</guid>
+      <link>https://hachyderm.io/@BenjaminHCCarr/117594878326541813</link>
+      <pubDate>Wed, 11 Nov 2026 00:04:03 +0000</pubDate>
+      <description>&lt;p&gt;A New &lt;a href="https://hachyderm.io/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; Tool From &lt;a href="https://hachyderm.io/tags/Google" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Google&lt;/span&gt;&lt;/a&gt; &lt;a href="https://hachyderm.io/tags/DeepMind" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;DeepMind&lt;/span&gt;&lt;/a&gt; Proved the &lt;a href="https://hachyderm.io/tags/Signal" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Signal&lt;/span&gt;&lt;/a&gt; Protocol Is Secure&lt;br&gt;DeepMind researchers were able to formally verify that the widely used &lt;a href="https://hachyderm.io/tags/encryption" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;encryption&lt;/span&gt;&lt;/a&gt; protocol works as intended. Their stretch goal? Do the same for “all the &lt;a href="https://hachyderm.io/tags/software" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;software&lt;/span&gt;&lt;/a&gt; of the world.”&lt;br&gt;More broadly, AI-aided &lt;a href="https://hachyderm.io/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; is having a moment, but it is unclear how practical it will be for widespread use and how effective it can be at securing large amounts of code.&lt;br&gt;&lt;a href="https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;wired.com/story/a-new-ai-tool-&lt;/span&gt;&lt;span class="invisible"&gt;from-google-deepmind-formally-verified-the-signal-protocol/&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;a href="https://archive.is/20261110051356/https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;archive.is/20261110051356/http&lt;/span&gt;&lt;span class="invisible"&gt;s://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>formalverification</category>
+      <category>software</category>
+      <category>encryption</category>
+      <category>signal</category>
+      <category>deepmind</category>
+      <category>google</category>
+      <category>ai</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@myfear/117551275237130682</guid>
+      <link>https://mastodon.online/@myfear/117551275237130682</link>
+      <pubDate>Tue, 03 Nov 2026 07:15:12 +0000</pubDate>
+      <description>&lt;p&gt;I tried formal verification beside a small Java inventory class. With one item and two callers, an atomic decrement still lets the broken version oversell.&lt;/p&gt;&lt;p&gt;TLC finds the failing sequence in the model. Lean checks a separate arithmetic rule. The Java tests stay, of course: neither formal check proves the implementation matches.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.the-main-thread.com/p/java-formal-verification" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;the-main-thread.com/p/java-for&lt;/span&gt;&lt;span class="invisible"&gt;mal-verification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.online/tags/Java" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Java&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/TLAPlus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;TLAPlus&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/551/275/383/242/836/original/d054e4b231d66a6d.jpeg" type="image/jpeg" fileSize="155477" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>lean</category>
+      <category>tlaplus</category>
+      <category>formalverification</category>
+      <category>java</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@leanprover/117509551640325237</guid>
+      <link>https://functional.cafe/@leanprover/117509551640325237</link>
+      <pubDate>Mon, 26 Oct 2026 22:24:21 +0000</pubDate>
+      <description>&lt;p&gt;Software Verification in Lean comes to Stanford University on November 7, co-organized by the Beneficial AI Foundation and the Lean FRO.&lt;/p&gt;&lt;p&gt;Talks will cover Rust verification with the Aeneas framework, low-level software verification, and formally verified OS kernels.&lt;/p&gt;&lt;p&gt;Speakers include Max Tegmark, Shaowei Lin, Leonardo de Moura, Jonathan Protzenko, Andres Erbsen, and Mike Dodds. A livestream will be available.&lt;/p&gt;&lt;p&gt;Program and registration: &lt;a href="https://beneficial-ai-foundation.github.io/SVIL2026_Fall/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;beneficial-ai-foundation.githu&lt;/span&gt;&lt;span class="invisible"&gt;b.io/SVIL2026_Fall/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/LeanLang" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/509/552/227/693/576/original/fe5fd9f13d8ab58c.png" type="image/png" fileSize="185870" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">The Lean logo</media:description>
+      </media:content>
+      <category>formalverification</category>
+      <category>LeanLang</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://floss.social/@janriemer/117501075532923509</guid>
+      <link>https://floss.social/@janriemer/117501075532923509</link>
+      <pubDate>Sun, 25 Oct 2026 10:28:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;span class="h-card" translate="no"&gt;&lt;a href="https://mastodon.social/@modul_ds" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;modul_ds&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span class="h-card" translate="no"&gt;&lt;a href="https://macaw.social/@mergesort" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;mergesort&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;br&gt;&lt;span class="h-card" translate="no"&gt;&lt;a href="https://hachyderm.io/@nesevis" class="u-url mention" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;nesevis&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://floss.social/tags/Kani" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Kani&lt;/span&gt;&lt;/a&gt;, a model checker for &lt;a href="https://floss.social/tags/Rust" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rust&lt;/span&gt;&lt;/a&gt;, has an experimental feature for coverage - it reports how much code you've covered with your spec and if there are any gaps:&lt;/p&gt;&lt;p&gt;&lt;a href="https://model-checking.github.io/kani/reference/experimental/coverage.html" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;model-checking.github.io/kani/&lt;/span&gt;&lt;span class="invisible"&gt;reference/experimental/coverage.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;If a spec fails, it can also generate a unit test automatically, using the exact values that causes the test to fail - it's called Concrete Playback:&lt;br&gt;&lt;a href="https://model-checking.github.io/kani/reference/experimental/concrete-playback.html" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;model-checking.github.io/kani/&lt;/span&gt;&lt;span class="invisible"&gt;reference/experimental/concrete-playback.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;I mean, if this is not magic technology, I don't know what is&lt;/p&gt;&lt;p&gt;&lt;a href="https://floss.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://floss.social/tags/ModelChecking" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ModelChecking&lt;/span&gt;&lt;/a&gt; &lt;a href="https://floss.social/tags/RustLang" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RustLang&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>rustlang</category>
+      <category>modelchecking</category>
+      <category>formalverification</category>
+      <category>rust</category>
+      <category>Kani</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@aleph_1/117496318107098132</guid>
+      <link>https://mathstodon.xyz/@aleph_1/117496318107098132</link>
+      <pubDate>Sat, 24 Oct 2026 14:18:53 +0000</pubDate>
+      <description>&lt;p&gt;🧠 Terence Tao: Is AI Turning Beautiful Mathematics Into “Toxic Waste”?&lt;/p&gt;&lt;p&gt;In a new interview, Fields Medalist Terence Tao warns that AI-generated mathematical proofs risk prioritizing answers over understanding.&lt;/p&gt;&lt;p&gt;OpenAI reportedly released answers to 722 previously unsolved problems, raising questions about verification, elegance, and mathematical insight.&lt;/p&gt;&lt;p&gt;⚙️ The future of mathematics shouldn&amp;#39;t be just AI solving theorems. It should be AI discovering ideas, Lean 4 verifying proofs, and humans understanding the deeper structures.&lt;/p&gt;&lt;p&gt;A correct proof establishes a result. An elegant proof can transform an entire field.&lt;/p&gt;&lt;p&gt;🚀 The real challenge isn&amp;#39;t generating more proofs. It&amp;#39;s turning AI discoveries into meaningful mathematical knowledge.&lt;/p&gt;&lt;p&gt;Will AI accelerate mathematical discovery or overwhelm researchers with proofs nobody understands?&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Mathematics" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mathematics&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/TerenceTao" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;TerenceTao&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ArtificialIntelligence" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ArtificialIntelligence&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Lean4" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Lean4&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Mathlib" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mathlib&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/FormalVerification" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/TheoremProving" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;TheoremProving&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AutomatedReasoning" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AutomatedReasoning&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/MachineLearning" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MachineLearning&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/DeepLearning" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;DeepLearning&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/MathematicalResearch" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MathematicalResearch&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ProofAssistants" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ProofAssistants&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/OpenAI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;OpenAI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Anthropic" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Anthropic&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AGI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AGI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AIResearch" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AIResearch&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/FormalMethods" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FormalMethods&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/MathematicalDiscovery" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MathematicalDiscovery&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/NavierStokes" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;NavierStokes&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AIForMath" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AIForMath&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AIforMath</category>
+      <category>navierstokes</category>
+      <category>mathematicaldiscovery</category>
+      <category>formalmethods</category>
+      <category>AiResearch</category>
+      <category>agi</category>
+      <category>Anthropic</category>
+      <category>openai</category>
+      <category>ProofAssistants</category>
+      <category>mathematicalresearch</category>
+      <category>deeplearning</category>
+      <category>machinelearning</category>
+      <category>automatedreasoning</category>
+      <category>TheoremProving</category>
+      <category>formalverification</category>
+      <category>mathlib</category>
+      <category>Lean4</category>
+      <category>ai</category>
+      <category>artificialintelligence</category>
+      <category>terencetao</category>
+      <category>mathematics</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://sigmoid.social/@BenjaminHan/117492638082567158</guid>
+      <link>https://sigmoid.social/@BenjaminHan/117492638082567158</link>
+      <pubDate>Fri, 23 Oct 2026 22:43:00 +0000</pubDate>
+      <description>&lt;p&gt;How do you get a neural network's ability to learn from data and a symbolic system's exact, checkable steps in one system? The primer covers five ways to combine them and what each has achieved through October 2026. Among the questions still open are how much symbolic processing models can take over, and whether a verifier can keep up with the model it trains.&lt;/p&gt;&lt;p&gt;&lt;a href="https://benjaminhan.net/posts/20261023-neurosymbolic-ai-primer/?utm_source=mastodon&amp;amp;utm_medium=social" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;benjaminhan.net/posts/20261023&lt;/span&gt;&lt;span class="invisible"&gt;-neurosymbolic-ai-primer/?utm_source=mastodon&amp;amp;utm_medium=social&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://sigmoid.social/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://sigmoid.social/tags/NeurosymbolicAI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;NeurosymbolicAI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://sigmoid.social/tags/LLMs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LLMs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://sigmoid.social/tags/Reasoning" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Reasoning&lt;/span&gt;&lt;/a&gt; &lt;a href="https://sigmoid.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>formalverification</category>
+      <category>reasoning</category>
+      <category>LLMs</category>
+      <category>NeuroSymbolicAI</category>
+      <category>ai</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@myfear/117477428845147675</guid>
+      <link>https://mastodon.online/@myfear/117477428845147675</link>
+      <pubDate>Wed, 21 Oct 2026 06:15:06 +0000</pubDate>
+      <description>&lt;p&gt;My Java inventory example had one item and two callers. TLC found the overselling sequence in a TLA+ model; Lean checked a separate arithmetic rule. The Java tests stayed in the build.&lt;/p&gt;&lt;p&gt;In this Main Thread Podcast episode, I revisit spec drift and the limits of those checks.&lt;/p&gt;&lt;p&gt;Listen: &lt;a href="https://www.the-main-thread.com/p/who-keeps-the-spec-honest" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;the-main-thread.com/p/who-keep&lt;/span&gt;&lt;span class="invisible"&gt;s-the-spec-honest&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.online/tags/Java" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Java&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/TLAPlus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;TLAPlus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>tlaplus</category>
+      <category>formalverification</category>
+      <category>java</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.sayzard.org/@sayzard/117420202588294113</guid>
+      <link>https://mastodon.sayzard.org/@sayzard/117420202588294113</link>
+      <pubDate>Sun, 11 Oct 2026 03:41:42 +0000</pubDate>
+      <description>&lt;p&gt;테렌스 타오 UCLA 교수는 칼텍 공개 강연 ‘Math 2.0’ 슬라이드를 공개했다. 그는 AI가 미해결 문제 자동 풀이에 과도하게 집중하는 현재를 비판적으로 진단하고, AI 도구가 수학 공동체를 지원하는 동시에 현실 응용을 검증·정렬하는 데 필요한 수학적 이해를 유지해야 한다는 비전을 제시했다. Threads 글은 이를 임상시험 최적화와 보상 해킹의 비유로 확장해, 형식 검증된 모델 결과와 현실 세계의 타당성 검증은 별개라는 문제를 강조한다.&lt;/p&gt;&lt;p&gt;&lt;a href="https://terrytao.wordpress.com/2026/10/10/math-2-0/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;terrytao.wordpress.com/2026/10&lt;/span&gt;&lt;span class="invisible"&gt;/10/math-2-0/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.sayzard.org/tags/aisafety" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;aisafety&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.sayzard.org/tags/alignment" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;alignment&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.sayzard.org/tags/mathematics" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;mathematics&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.sayzard.org/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.sayzard.org/tags/airesearch" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;airesearch&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AiResearch</category>
+      <category>formalverification</category>
+      <category>mathematics</category>
+      <category>alignment</category>
+      <category>aisafety</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://fediscience.org/@GeorgWeissenbacher/117415581356209412</guid>
+      <link>https://fediscience.org/@GeorgWeissenbacher/117415581356209412</link>
+      <pubDate>Sat, 10 Oct 2026 08:06:28 +0000</pubDate>
+      <description>&lt;p&gt;At least in mathematics, the goal of proving theorems is to gain a better understanding and to simplify the argument to present it in an understandable manner (apparently not a forte of LLMs).&lt;/p&gt;&lt;p&gt;In formal verification, arguably we do not care about the proofs (as long as they are correct).&lt;/p&gt;&lt;p&gt;In both cases, formulating the actual goal (or theorem) that should be proven remains a task that requires humans (at least for now).&lt;/p&gt;&lt;p&gt;&lt;a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;proofsandprompts.com/2026/10/0&lt;/span&gt;&lt;span class="invisible"&gt;8/100-reactions-to-100-solutions/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fediscience.org/tags/llm" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;llm&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fediscience.org/tags/ai" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ai&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fediscience.org/tags/mathematics" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;mathematics&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fediscience.org/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>formalverification</category>
+      <category>mathematics</category>
+      <category>ai</category>
+      <category>llm</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@rmathew/117373307437683011</guid>
+      <link>https://mastodon.social/@rmathew/117373307437683011</link>
+      <pubDate>Fri, 02 Oct 2026 20:55:39 +0000</pubDate>
+      <description>&lt;p&gt;“What TLA+ Can And Can’t Check”, Hillel Wayne (&lt;a href="https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;buttondown.com/hillelwayne/arc&lt;/span&gt;&lt;span class="invisible"&gt;hive/what-tla-can-and-cant-check/&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;On HN: &lt;a href="https://news.ycombinator.com/item?id=49909056" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;news.ycombinator.com/item?id=4&lt;/span&gt;&lt;span class="invisible"&gt;9909056&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;On Lobsters: &lt;a href="https://lobste.rs/s/3ufaju/what_tla_can_can_t_check" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;lobste.rs/s/3ufaju/what_tla_ca&lt;/span&gt;&lt;span class="invisible"&gt;n_can_t_check&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/TLA" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;TLA&lt;/span&gt;&lt;/a&gt;+ &lt;a href="https://mastodon.social/tags/FormalVerification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Programming" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Programming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/AIAssistedCoding" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AIAssistedCoding&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/AutomatedTheoremProvers" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AutomatedTheoremProvers&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/LLMs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LLMs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>ai</category>
+      <category>LLMs</category>
+      <category>automatedtheoremprovers</category>
+      <category>aiassistedcoding</category>
+      <category>programming</category>
+      <category>formalverification</category>
+      <category>tla</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@economy/117370982125524095</guid>
+      <link>https://pubeurope.com/@economy/117370982125524095</link>
+      <pubDate>Fri, 02 Oct 2026 11:04:18 +0000</pubDate>
+      <description>&lt;p&gt;The Proof Economy&lt;/p&gt;&lt;p&gt;Across my career, from medicine and life sciences into structural biology, higher education and later semiconductor verification, I…&lt;br&gt;&lt;a href="https://pubeurope.com/tags/Economy" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Economy&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Axiomise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Axiomise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Formal" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Formal&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/proofs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;proofs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/verification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;verification&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.europesays.com/3284859/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/3284859/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>verification</category>
+      <category>proofs</category>
+      <category>formalverification</category>
+      <category>formal</category>
+      <category>axiomise</category>
+      <category>ai</category>
+      <category>economy</category>
+    </item>
+  </channel>
+</rss>

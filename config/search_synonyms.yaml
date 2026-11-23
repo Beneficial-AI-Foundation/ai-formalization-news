@@ -1,0 +1,15 @@
+# Synonym groups for the search box. Each group lists words or phrases that
+# should find each other: a search for any one also finds items with the others.
+# Write them in lower case. Add or remove groups freely.
+
+synonyms:
+  - [atp, automated theorem proving, automated theorem prover]
+  - [itp, interactive theorem proving, interactive theorem prover]
+  - [coq, rocq]
+  - [lean, lean4, lean 4]
+  - [formalization, formalisation, formalizing, formalising]
+  - [autoformalization, autoformalisation, auto-formalization]
+  - [llm, large language model]
+  - [smt, satisfiability modulo theories]
+  - [sat solver, sat solving]
+  - [sel4, verified kernel, verified microkernel]

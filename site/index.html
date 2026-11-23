@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>AI and formalization news | Beneficial AI Foundation</title>
+<meta name="description" content="New papers, Lean and Mathlib updates, and writing on AI for formal verification, gathered every hour by the Beneficial AI Foundation.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="BAIF AI and formalization news" href="feed.xml">
+<link rel="preload" href="fonts/manrope-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="search-core.js" defer></script>
+<script src="app.js" defer></script>
+<script src="search.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#news-list">Skip to the news list</a>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="Beneficial AI Foundation, AI and formalization news">
+      <img src="logo.svg" alt="" width="40" height="40">
+      <span>BENEFICIAL<br>AI FOUNDATION</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="./" aria-current="page">News</a>
+      <a href="#sources">Sources</a>
+      <a href="#about">About</a>
+      <a href="https://www.beneficialaifoundation.org/">BAIF home</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="intro" aria-labelledby="page-title">
+    <div class="wrap">
+      <div>
+        <h1 id="page-title">AI and formalization news</h1>
+        <p class="updated" id="updated"><span class="dot" aria-hidden="true"></span><span id="updated-text">Updated every hour.</span></p>
+        <p class="stale" id="stale" role="status" hidden></p>
+      </div>
+      <p class="lede">New papers, Lean and Mathlib updates, and writing on AI for formal verification, gathered in one place.</p>
+    </div>
+    <div class="wrap"><hr class="rule-strong"></div>
+  </section>
+
+  <section class="search" aria-label="Search the news archive">
+    <div class="wrap">
+      <form class="search-row" role="search" id="search-form">
+        <label class="search-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <span class="visually-hidden">Search news</span>
+          <input type="search" id="search-input" name="q" autocomplete="off" spellcheck="false" placeholder="Search every item since launch, for example autoformalisation" aria-describedby="search-hint">
+          <kbd class="kbd" aria-hidden="true">/</kbd>
+        </label>
+        <!-- Tier 2 (meaning search) is not built in version 1. Markup kept for later:
+        <label class="toggle"><input type="checkbox" id="match-meaning"> Match meaning</label>
+        -->
+      </form>
+      <p class="search-hint" id="search-hint">Near spellings and word starts match too: "isabell" finds Isabelle, "formalisation" finds formalization. Results respect the buttons below. Press / to search and Escape to clear.</p>
+    </div>
+  </section>
+
+  <section class="filters" aria-label="Filter by source type">
+    <div class="wrap" role="group" aria-labelledby="filters-label">
+      <span class="label" id="filters-label">Show</span>
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-filter="papers" aria-pressed="false">Papers</button>
+      <button type="button" class="chip" data-filter="lean" aria-pressed="false">Lean and Mathlib</button>
+      <button type="button" class="chip" data-filter="news" aria-pressed="false">News</button>
+      <button type="button" class="chip" data-filter="blogs" aria-pressed="false">Blogs</button>
+      <button type="button" class="chip" data-filter="social" aria-pressed="false">Social</button>
+    </div>
+  </section>
+
+  <section class="main" aria-label="News">
+    <div class="wrap">
+      <div class="feed">
+        <div class="results-bar" id="results-bar" hidden>
+          <p class="results-count" id="results-count" role="status" aria-live="polite"></p>
+          <div class="results-tools">
+            <div class="sort" role="group" aria-label="Order results">
+              <button type="button" class="chip chip-small" data-sort="relevance" aria-pressed="true">Relevance</button>
+              <button type="button" class="chip chip-small" data-sort="newest" aria-pressed="false">Newest</button>
+            </div>
+            <button type="button" class="linkish" id="clear-search">Clear search</button>
+          </div>
+          <p class="results-note" id="results-note" hidden></p>
+        </div>
+        <p class="source-filter" id="source-filter" tabindex="-1" hidden><span id="source-filter-text"></span> <button type="button" class="linkish" id="source-filter-clear">Show all sources</button></p>
+        <p class="status" id="status" role="status" aria-live="polite">Loading the news.</p>
+        <ol class="list" id="news-list" tabindex="-1" aria-label="News items"></ol>
+        <div class="more"><button type="button" class="btn" id="older" hidden>Older items</button></div>
+      </div>
+
+      <aside>
+        <div id="sources">
+          <h2 class="aside-title">Sources</h2>
+          <p class="source-hint" id="source-hint">Choose a source to show only its items.</p>
+          <ul id="source-list" aria-describedby="source-hint">
+            <li class="placeholder"><span>Source list loads with the news.</span></li>
+          </ul>
+        </div>
+        <div id="about">
+          <h2 class="aside-title">About</h2>
+          <p>A feed kept by the Beneficial AI Foundation. Items are collected automatically every hour, and each one links to its original source.</p>
+          <p>Have an idea to improve the site, or a source to add? Please <a href="https://github.com/Beneficial-AI-Foundation/ai-formalization-news/issues">file an issue on GitHub</a>.</p>
+          <p class="subscribe"><a href="feed.xml" type="application/atom+xml">Subscribe (RSS)</a></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="https://www.beneficialaifoundation.org/" aria-label="Beneficial AI Foundation home page">
+      <img src="logo-footer.svg" alt="" width="40" height="40">
+      <span>BENEFICIAL<br>AI FOUNDATION</span>
+    </a>
+    <p class="tagline">Researching how to keep AI beneficial for generations to come</p>
+    <hr>
+    <p class="small"><span>© 2026 Beneficial AI Foundation. All rights reserved.</span><span>Headlines and summaries belong to their sources.</span></p>
+  </div>
+</footer>
+</body>
+</html>
