@@ -126,7 +126,7 @@ def run(
         seen.add(item["id"], now)
 
     # 3. Claude: judge new items and any earlier ones still waiting.
-    claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "input_tokens": 0, "output_tokens": 0,
+    claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "route": None, "input_tokens": 0, "output_tokens": 0,
                                    "requests": 0, "items_sent": 0, "judged": 0, "rejected": 0, "kept_trusted": 0, "released": 0,
                                    "refusals": [], "errors": []}
     if use_claude:
@@ -136,7 +136,7 @@ def run(
             claude_meta.update(result.usage())
             claude_meta.update(items_sent=min(len(queue), cfg.claude.max_items_per_run), refusals=result.refusals,
                                errors=result.errors, judged=len(result.judgements))
-            log(f"[claude] {result.model}: {len(queue)} waiting, {len(result.judgements)} judged, "
+            log(f"[claude] {result.model} via {result.route}: {len(queue)} waiting, {len(result.judgements)} judged, "
                 f"input {result.input_tokens} tokens, output {result.output_tokens} tokens, "
                 f"{len(result.refusals)} refusals, {len(result.errors)} errors")
             for r in result.refusals:  # never sent again; the item stays with the keyword filter only
@@ -167,7 +167,7 @@ def run(
                 seen.alts.pop(item_id, None)  # its copies were duplicates after all
         else:
             log("[claude] no items waiting; no request sent")
-            claude_meta["model"] = claude.model_name(cfg.claude)
+            claude_meta.update(model=claude.model_name(cfg.claude), route=claude.api_route())
 
     for rep in reports:
         rep.kept = sum(1 for i, s in origin.items() if s == rep.id and archive.get(i) is not None)

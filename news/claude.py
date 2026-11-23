@@ -8,12 +8,18 @@ would raise inside it. This module therefore calls `messages.create` with the
 schema, checks `stop_reason` first, and only then validates the text with
 Pydantic. Item text is data from strangers; the system prompt says so, and the
 page renders summaries as text, never as HTML.
+
+Two routes reach the same model with the same request (see `api_route`):
+Anthropic's API directly with ANTHROPIC_API_KEY, or OpenRouter's Anthropic-format
+endpoint with OPENROUTER_API_KEY, a stopgap while the Anthropic account has no
+credit. Anthropic wins when both keys are set.
 """
 
 from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Any, Literal
@@ -34,8 +40,11 @@ CALL_TIMEOUT_SECONDS = 120.0
 CALL_RETRIES = 1
 BUDGET_SECONDS = 120.0
 FALLBACK_BETA = "server-side-fallback-2026-07-01"
-# Models with a server-side refusal fallback. Haiku 5.5 has none.
+# Models with a server-side refusal fallback. Haiku 5.5 has none. Only on the
+# Anthropic route: OpenRouter's model names never match these.
 MODELS_WITH_FALLBACK = ("claude-sonnet-5-5", "claude-opus-5-5")
+# OpenRouter accepts Anthropic's Messages format here, with its key as a bearer token.
+OPENROUTER_BASE_URL = "https://openrouter.ai/api"
 
 SYSTEM_PROMPT = """You sort and summarise items for the Beneficial AI Foundation's "AI and formalization news" page. Its readers are researchers and engineers who work on formal verification, proof assistants and AI for mathematics.
 
@@ -103,6 +112,7 @@ JUDGEMENTS_SCHEMA: dict[str, Any] = {
 @dataclass
 class JudgeResult:
     model: str
+    route: str | None = None
     judgements: dict[str, Judgement] = field(default_factory=dict)
     input_tokens: int = 0
     output_tokens: int = 0
@@ -114,6 +124,7 @@ class JudgeResult:
     def usage(self) -> dict[str, Any]:
         return {
             "model": self.model,
+            "route": self.route,
             "requests": self.requests,
             "input_tokens": self.input_tokens,
             "output_tokens": self.output_tokens,
@@ -121,17 +132,52 @@ class JudgeResult:
         }
 
 
+def api_route() -> str | None:
+    """Which API the step calls: "anthropic" when ANTHROPIC_API_KEY is set, else
+    "openrouter" when OPENROUTER_API_KEY is set, else None. An empty value counts as
+    unset, because GitHub Actions passes a missing secret as an empty string."""
+    if os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        return "anthropic"
+    if os.environ.get("OPENROUTER_API_KEY", "").strip():
+        return "openrouter"
+    return None
+
+
 def enabled() -> bool:
     """USE_CLAUDE switches the step on, and only when an API key exists."""
     flag = os.environ.get("USE_CLAUDE", "auto").strip().lower()
-    has_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
     if flag in ("0", "false", "no", "off"):
         return False
-    return has_key
+    return api_route() is not None
+
+
+def openrouter_model(name: str) -> str:
+    """OpenRouter's name for an Anthropic model: claude-haiku-5-5 becomes
+    anthropic/claude-haiku-5.5. A name with a provider prefix is kept as it is."""
+    if "/" in name:
+        return name
+    m = re.fullmatch(r"(claude-[a-z]+)-(\d+)-(\d+)", name)
+    return f"anthropic/{m[1]}-{m[2]}.{m[3]}" if m else f"anthropic/{name}"
+
+
+def route_model(name: str, route: str | None) -> str:
+    return openrouter_model(name) if route == "openrouter" else name
 
 
 def model_name(settings: ClaudeSettings) -> str:
-    return os.environ.get("CLAUDE_MODEL", "").strip() or settings.model
+    """The model to call, under the name the current route expects. CLAUDE_MODEL and
+    claude.model in the config use Anthropic's names on either route."""
+    return route_model(os.environ.get("CLAUDE_MODEL", "").strip() or settings.model, api_route())
+
+
+def make_client(route: str | None, **kwargs: Any) -> anthropic.Anthropic:
+    """An SDK client for the route. Passing the OpenRouter key as `auth_token`
+    stops the SDK from reading ANTHROPIC_API_KEY from the environment."""
+    kwargs.setdefault("timeout", CALL_TIMEOUT_SECONDS)
+    kwargs.setdefault("max_retries", CALL_RETRIES)
+    if route == "openrouter":
+        return anthropic.Anthropic(base_url=OPENROUTER_BASE_URL, auth_token=os.environ["OPENROUTER_API_KEY"].strip(), **kwargs)
+    return anthropic.Anthropic(**kwargs)
 
 
 def render_items(items: list[dict[str, Any]]) -> str:
@@ -206,12 +252,13 @@ def judge(
 ) -> JudgeResult:
     """Judge up to `max_items_per_run` items. Items missing from the result were not
     judged (API error, refusal, time budget, or left out) and keep null fields."""
-    model = model or model_name(settings)
-    result = JudgeResult(model=model)
+    route = api_route()
+    model = route_model(model, route) if model else model_name(settings)
+    result = JudgeResult(model=model, route=route)
     batch = items[: settings.max_items_per_run]
     if not batch:
         return result
-    client = client or anthropic.Anthropic(timeout=CALL_TIMEOUT_SECONDS, max_retries=CALL_RETRIES)
+    client = client or make_client(route)
     call = _Call(client, model, settings, result)
     deadline = time.monotonic() + budget_seconds
 

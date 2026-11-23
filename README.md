@@ -11,7 +11,7 @@ A static news page kept by the Beneficial AI Foundation. Every hour a GitHub Act
 2. `python -m news.run` fetches every enabled source in `config/sources.yaml` that is due, sending `If-None-Match` and `If-Modified-Since`, so unchanged feeds answer 304.
 3. Links are normalised and each item gets an id. Items already seen, or with the same title as an item kept in the last 7 days, are dropped.
 4. Sources marked `filter: keywords` keep only items that match a keyword.
-5. If the repository has an `ANTHROPIC_API_KEY` secret, one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Without the key, the page shows each source's own text.
+5. If the repository has an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret, one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Without the key, the page shows each source's own text.
 6. The job writes `news.json` (newest 300 items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page.
 
 A failing source never stops the run; its error shows in `meta.json` and on the page.
@@ -81,6 +81,16 @@ The keyword list, the Claude model and the synonym groups are in the same two co
 
 To rotate the key: create a new key in the Claude Console, replace the `ANTHROPIC_API_KEY` secret with it, run the workflow once by hand to check, then revoke the old key.
 
+### Through OpenRouter instead (stopgap)
+
+While the Anthropic account has no credit, the same model (Claude Haiku 5.5, same prompt and schema) can be reached through OpenRouter:
+
+- Add the repository secret `OPENROUTER_API_KEY`. Use a key made for this site with a monthly credit limit (for example $5), not a shared key: the site needs well under $1 a month.
+- The workflow uses Anthropic when `ANTHROPIC_API_KEY` is set and OpenRouter only when it is not. `meta.json` records the route under `claude.route`.
+- `CLAUDE_MODEL` and `claude.model` keep Anthropic's names (`claude-haiku-5-5`); the job translates them to OpenRouter's (`anthropic/claude-haiku-5.5`). The server-side fallback for Sonnet and Opus is Anthropic-only.
+
+To switch back: add `ANTHROPIC_API_KEY` (the next run uses it), then delete `OPENROUTER_API_KEY`, and ask the OpenRouter admin to revoke the site key. Stored summaries stay as they are; nothing is judged again.
+
 ## If the page stops updating
 
 GitHub disables scheduled workflows in a public repository after 60 days with no repository activity. The page shows a warning when its data is more than 3 hours old. To turn the schedule back on: open the Actions tab, select "Update news", and press "Enable workflow". Then run it once by hand.
@@ -91,7 +101,7 @@ GitHub disables scheduled workflows in a public repository after 60 days with no
 2. Settings, Pages: set the source to "GitHub Actions".
 3. Settings, Actions, General: set workflow permissions to "Read and write".
    `main` can require pull requests, since the workflow never pushes to it. Leave the `data` branch unprotected: the workflow pushes to it as `github-actions[bot]`.
-4. Optional: add the `ANTHROPIC_API_KEY` secret, and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on.
+4. Optional: add the `ANTHROPIC_API_KEY` secret (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on.
 
 ## Licence
 
