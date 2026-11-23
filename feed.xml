@@ -604,18 +604,6 @@
   <summary type="text">Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help us understand how folks use TLA+, what's working, and what could be better. #TLAPlus #FormalMethods #ModelChecking #FormalVerification #DistributedSystems… (#formalverification on Mathstodon)</summary>
  </entry>
  <entry>
-  <id>https://arxiv.org/abs/2611.22748</id>
-  <title>Statically Typed Purely Functional Definitional Interpreters for {\it Essentials of Programming Languages}</title>
-  <link href="https://arxiv.org/abs/2611.22748" rel="alternate" />
-  <published>2026-11-17T13:16:39Z</published>
-  <updated>2026-11-17T13:16:39Z</updated>
-  <author>
-   <name>Kwanghoon Choi</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional… (arXiv cs.PL)</summary>
- </entry>
- <entry>
   <id>https://arxiv.org/abs/2611.22613</id>
   <title>Python Code Generation for Isabelle/HOL</title>
   <link href="https://arxiv.org/abs/2611.22613" rel="alternate" />
@@ -631,22 +619,7 @@
    <name>Dominic Orchard</name>
   </author>
   <category term="paper" />
-  <summary type="text">The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend… (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.22572</id>
-  <title>Datatypes In, Zippers Out!</title>
-  <link href="https://arxiv.org/abs/2611.22572" rel="alternate" />
-  <published>2026-11-17T10:57:51Z</published>
-  <updated>2026-11-17T10:57:51Z</updated>
-  <author>
-   <name>Smayan Agarwal</name>
-  </author>
-  <author>
-   <name>Aalok Thakkar</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular… (arXiv cs.PL)</summary>
+  <summary type="text">Adds a Python backend to the Isabelle/HOL code generator, extending verified implementations to Python for scientific computing and education. (arXiv cs.PL)</summary>
  </entry>
  <entry>
   <id>https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193</id>
@@ -673,21 +646,72 @@
    <name>Robert Modderman</name>
   </author>
   <category term="paper" />
-  <summary type="text">The classical definition of discrete-time Markov chains maps pairs of states to transition probabilities. An alternative, proposed in the context of path abstraction in probabilistic counterexample refinement, is to view them as a transition kernel on the free monoid on the state space, mapping paths directly to path probabilities. In this paper, we first extend the free monoid view and path abstraction algorithm to cumulative rewards on Markov reward models. We then use Isabelle/HOL to formalise Markov chains and reward models in this view, exploiting the discrete finite-prefix semantics to… (arXiv cs.LO)</summary>
+  <summary type="text">Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view for path abstraction and cumulative rewards. (arXiv cs.LO)</summary>
  </entry>
  <entry>
-  <id>https://arxiv.org/abs/2611.21914</id>
-  <title>A Temporal Algebraic Framework for Data Stream Evaluation Under Delayed Labels and Distribution Shifts</title>
-  <link href="https://arxiv.org/abs/2611.21914" rel="alternate" />
-  <published>2026-11-16T21:28:59Z</published>
-  <updated>2026-11-16T21:28:59Z</updated>
+  <id>https://arxiv.org/abs/2611.21826</id>
+  <title>Logical Relations on Display</title>
+  <link href="https://arxiv.org/abs/2611.21826" rel="alternate" />
+  <published>2026-11-16T19:42:30Z</published>
+  <updated>2026-11-16T19:42:30Z</updated>
   <author>
-   <name>Ronaldo C. Prati</name>
+   <name>Steven Schaefer</name>
   </author>
   <author>
-   <name>Elaine Ribeiro de Faria</name>
+   <name>Johnson He</name>
+  </author>
+  <author>
+   <name>Max S. New</name>
   </author>
   <category term="paper" />
-  <summary type="text">In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a… (arXiv cs.LG)</summary>
+  <summary type="text">Argues category theory offers reusable programming language semantics and logical relations for proof assistants, a position on metatheory reuse. (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.21421</id>
+  <title>AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions</title>
+  <link href="https://arxiv.org/abs/2611.21421" rel="alternate" />
+  <published>2026-11-16T17:11:59Z</published>
+  <updated>2026-11-16T17:11:59Z</updated>
+  <author>
+   <name>Haocheng Wang</name>
+  </author>
+  <author>
+   <name>Weixuan Yuan</name>
+  </author>
+  <author>
+   <name>Florian Hübler</name>
+  </author>
+  <author>
+   <name>Yinya Huang</name>
+  </author>
+  <author>
+   <name>Zhijiang Guo</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">AuXSpec autoformalizes program specifications in Lean using executable postconditions as scalable feedback for training specification models. (arXiv cs.SE)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.21299</id>
+  <title>Turing Agent: Agentic Formal Verification for Mathematical Research</title>
+  <link href="https://arxiv.org/abs/2611.21299" rel="alternate" />
+  <published>2026-11-16T16:02:37Z</published>
+  <updated>2026-11-16T16:02:37Z</updated>
+  <author>
+   <name>Yang Chen</name>
+  </author>
+  <author>
+   <name>Qianyi Wang</name>
+  </author>
+  <author>
+   <name>Ronghui Yang</name>
+  </author>
+  <author>
+   <name>Zhanhao Li</name>
+  </author>
+  <author>
+   <name>Yu Cong</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Turing Agent orchestrates end-to-end formal verification of research-level mathematics, integrating theorem proving to check AI-generated proofs. (arXiv cs.AI)</summary>
  </entry>
 </feed>
