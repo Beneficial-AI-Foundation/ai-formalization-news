@@ -3,6 +3,40 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:d3573e18bce86ec3",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T11:50:53Z",
+   "fetched": "2026-11-23T12:27:46Z",
+   "source_text": "Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP",
+   "summary": "Post linking to the Lean reference documentation page on validating Lean proofs.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:fc55ee4efb9bd311",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean for mathematics. ~ Peter Selinger. https://www.mathstat.dal.ca/~selinger/4680/ #LeanProver #LeanLang #ITP #Math",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T11:46:54Z",
+   "fetched": "2026-11-23T12:27:46Z",
+   "source_text": "Lean for mathematics. ~ Peter Selinger. https://www.mathstat.dal.ca/~selinger/4680/ #LeanProver #LeanLang #ITP #Math",
+   "summary": "Post linking to Peter Selinger's course page on using Lean for mathematics.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:75aa9643fd43477d",
    "type": "social",
    "source": "#leanprover on Mathstodon",

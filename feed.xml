@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-23T11:21:07Z</updated>
+ <updated>2026-11-23T12:27:46Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191</id>
+  <title>Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191" rel="alternate" />
+  <published>2026-11-23T11:50:53Z</published>
+  <updated>2026-11-23T11:50:53Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Post linking to the Lean reference documentation page on validating Lean proofs. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053</id>
+  <title>Lean for mathematics. ~ Peter Selinger. https://www.mathstat.dal.ca/~selinger/4680/ #LeanProver #LeanLang #ITP #Math</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053" rel="alternate" />
+  <published>2026-11-23T11:46:54Z</published>
+  <updated>2026-11-23T11:46:54Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Post linking to Peter Selinger's course page on using Lean for mathematics. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897</id>
   <title>The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver…</title>
@@ -647,32 +671,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Adds a Python backend to the Isabelle/HOL code generator, extending verified implementations to Python for scientific computing and education. (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193</id>
-  <title>Rocq-web: Rocq 9.2 and coq-lsp in the browser, with 57 packages</title>
-  <link href="https://discourse.rocq-prover.org/t/rocq-web-rocq-9-2-and-coq-lsp-in-the-browser-with-57-packages/3193" rel="alternate" />
-  <published>2026-11-17T10:41:38Z</published>
-  <updated>2026-11-17T10:41:38Z</updated>
-  <author>
-   <name>rboudrouss</name>
-  </author>
-  <category term="news" />
-  <summary type="text">Rocq 9.2 and coq-lsp compiled to WebAssembly, running in the browser with 57 downloadable packages. (Rocq Discourse)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.22523</id>
-  <title>Path Abstraction for Markov Reward Models: An Isabelle Formalisation in a Free Monoid View</title>
-  <link href="https://arxiv.org/abs/2611.22523" rel="alternate" />
-  <published>2026-11-17T10:16:55Z</published>
-  <updated>2026-11-17T10:16:55Z</updated>
-  <author>
-   <name>Arnd Hartmanns</name>
-  </author>
-  <author>
-   <name>Robert Modderman</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view for path abstraction and cumulative rewards. (arXiv cs.LO)</summary>
  </entry>
 </feed>

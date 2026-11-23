@@ -13,6 +13,28 @@
  ],
  "rows": [
   [
+   "u:d3573e18bce86ec3",
+   "social",
+   "#leanprover on Mathstodon",
+   "Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191",
+   "2026-11-23T11:50:53Z",
+   "Post linking to the Lean reference documentation page on validating Lean proofs.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
+   "u:fc55ee4efb9bd311",
+   "social",
+   "#leanprover on Mathstodon",
+   "Lean for mathematics. ~ Peter Selinger. https://www.mathstat.dal.ca/~selinger/4680/ #LeanProver #LeanLang #ITP #Math",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053",
+   "2026-11-23T11:46:54Z",
+   "Post linking to Peter Selinger's course page on using Lean for mathematics.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
    "u:75aa9643fd43477d",
    "social",
    "#leanprover on Mathstodon",
