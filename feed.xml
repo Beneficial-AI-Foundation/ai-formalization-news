@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-23T09:26:59Z</updated>
+ <updated>2026-11-23T11:21:07Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897</id>
+  <title>The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897" rel="alternate" />
+  <published>2026-11-23T11:20:28Z</published>
+  <updated>2026-11-23T11:20:28Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A post by Dhruv Gupta says he formalized the fundamental theorem of statistical learning in Lean in three weeks, linking an OpenReview paper. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117664793026717250</id>
   <title>Weekly reads: Nov 16 – Nov 22, 2026. https://jaalonso.github.io/vestigium/en/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization…</title>
@@ -662,23 +674,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Formalises Markov chains and reward models in Isabelle/HOL using a free monoid view for path abstraction and cumulative rewards. (arXiv cs.LO)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.21826</id>
-  <title>Logical Relations on Display</title>
-  <link href="https://arxiv.org/abs/2611.21826" rel="alternate" />
-  <published>2026-11-16T19:42:30Z</published>
-  <updated>2026-11-16T19:42:30Z</updated>
-  <author>
-   <name>Steven Schaefer</name>
-  </author>
-  <author>
-   <name>Johnson He</name>
-  </author>
-  <author>
-   <name>Max S. New</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Argues category theory offers reusable programming language semantics and logical relations for proof assistants, a position on metatheory reuse. (arXiv cs.PL)</summary>
  </entry>
 </feed>

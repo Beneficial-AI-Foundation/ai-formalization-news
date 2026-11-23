@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:75aa9643fd43477d",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-23T11:20:28Z",
+   "fetched": "2026-11-23T11:21:07Z",
+   "source_text": "The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver #LeanLang #ITP #LLMs",
+   "summary": "A post by Dhruv Gupta says he formalized the fundamental theorem of statistical learning in Lean in three weeks, linking an OpenReview paper.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:a0961ac118cfb251",
    "type": "social",
    "source": "#leanprover on Mathstodon",

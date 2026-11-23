@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:75aa9643fd43477d",
+   "social",
+   "#leanprover on Mathstodon",
+   "The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897",
+   "2026-11-23T11:20:28Z",
+   "A post by Dhruv Gupta says he formalized the fundamental theorem of statistical learning in Lean in three weeks, linking an OpenReview paper.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
    "u:a0961ac118cfb251",
    "social",
    "#leanprover on Mathstodon",
