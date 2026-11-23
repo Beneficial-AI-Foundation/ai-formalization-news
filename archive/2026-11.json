@@ -786,9 +786,10 @@
    "published": "2026-11-17T13:16:39Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \\textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Reconstructs EOPL definitional interpreters in statically typed purely functional Haskell.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.22613",
@@ -823,9 +824,10 @@
    "published": "2026-11-17T10:57:51Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Kamot tool converts algebraic datatypes into zipper implementations proved correct against a reference traversal.",
+   "score": 2,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "u:e9b2b2f349e2a752",
@@ -876,9 +878,10 @@
    "published": "2026-11-16T21:28:59Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In data streams, labels often arrive late or only for some instances, class prevalence drifts, and rare classes vanish from short windows. Standard evaluation then confuses a degraded decision boundary with a change in prevalence, and is biased when labels are delayed or selected by the model. We extend an algebraic framework that obtains pooled (micro) and per-class (macro) measures from one confusion matrix to streams, weighting the counts in time by exponential fading or a sliding window; the update costs O(m^2) per step, whatever the stream length, and each pooled measure stays a…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Algebraic evaluation framework for data streams with delayed labels and distribution shifts.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.21826",
@@ -937,9 +940,10 @@
    "published": "2026-11-16T16:54:29Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Abstracting a continuous-time Markov chain by grouping its states into blocks raises a fundamental question: which rates should the abstract chain use when states within a block have different exit rates and transition probabilities? We study harmonic-mean aggregation, which matches the mean waiting time and next-block distribution of a local experiment that uniformly selects a state within the block and observes its next jump. Equivalently, the abstract transition rates are averages of the concrete rates with inverse-exit-rate weights. Since the aggregation does not preserve reachability…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Harmonic-mean aggregation of continuous-time Markov chains with reachability error bounds.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.21299",
@@ -1106,9 +1110,9 @@
    "published": "2026-11-15T11:14:32Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We present a hypersequent calculus $H_R$ for cyclic involutive residuated lattices and prove strong standard completeness for arbitrary theories in a fixed countable propositional language. Standard models are chains on $[0,1]$; neither commutativity nor equality of the monoid unit and the dualizing constant is assumed. The chain semantics is the class $K_R$ defined by unit cyclicity and all ordered finite-history conditions. Every countable member of $K_R$ embeds into a standard chain preserving the entire signature. The construction combines central-support reconstruction, gap insertion…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Hypersequent calculus for cyclic involutive residuated lattices with a strong standard completeness proof for many-valued logic.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.23319",
@@ -1195,9 +1199,10 @@
    "published": "2026-11-13T18:49:26Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author's 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \\dots$ with $Θ_k \\circ Θ_j = Θ_j$ for $j < k$, so that each later embedding fixes the image of each earlier one pointwise. Every proper self-embedding of FL(3) whose fixed sublattice contains a free generating triple fixes one of the three generators…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Shows no free lattice contains an infinite ascending chain of copies of FL(3), a lattice theory result.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.18369",
@@ -1409,9 +1414,10 @@
    "published": "2026-11-11T20:44:53Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We prove that the multiplicative complexity of the three-bit low-half multiplier is six, giving a structural, enumeration-free lower-bound proof valid against unrestricted nonlinear reuse in Boolean XOR-AND circuits. The value was first established by SAT searches of the first author and independently confirmed by the second author. An explicit six-AND circuit supplies the upper bound. The lower bound combines derivatives, quadratic products, complementary minors, and extraction modulo a Boolean ideal. Independent finite checks accompany the arguments. $\\mathrm{MC}(M_3)=6$ is fully…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Proves the multiplicative complexity of the three-bit low-half multiplier is six, a Boolean circuit lower bound.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "u:a7899944b31c35a5",
@@ -1609,9 +1615,10 @@
    "published": "2026-11-10T06:42:46Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Recursive estimators on drifting streams must forget stale data fast enough to track the target, yet slowly enough to average out noise. In prior-anchored ridge regression, this trade-off admits a closed-form spectral decomposition in which each eigen-direction interpolates between the data solution and the prior with pull weight $s_i = ρ/ (μ_i + ρ)$. When the anchor is refreshed every $k$ steps, we show that the moving-frame offset converges to a finite-cadence equilibrium that lags the pure-leaky path by an explicit $Δ_k(s)$ while reducing estimation variance by a factor $Ψ(s, r_k)$…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Closed-form forgetting window analysis for streaming prior-anchored ridge regression.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.13627",
@@ -1666,9 +1673,10 @@
    "published": "2026-11-09T17:03:14Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "With the growing interest in using AI (Artificial Intelligence) for RTL (Register-Transfer Level) hardware development, robust and comprehensive verification has become more important than ever. As Large Language Models (LLMs) increasingly assist in creating and modifying RTL designs, ensuring that these changes preserve existing functionality is paramount for building trust in AI-driven workflows. We present SVApshot, a fully automated framework that leverages LLMs to generate and systematically attempt to correct SystemVerilog Assertions (SVA) for RTL modules, completely removing the human…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Uses LLMs to generate and correct SystemVerilog assertions for RTL verification via a snapshot-based framework.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "u:8cbfac78780bbb34",
@@ -1738,9 +1746,10 @@
    "published": "2026-11-09T03:08:26Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Operator learning surrogates for homogenized inelastic constitutive laws in materials modelling.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.11641",
@@ -1779,9 +1788,10 @@
    "published": "2026-11-08T21:31:57Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Data-driven remaining useful life (RUL) estimators for turbofan engines are accurate but opaque, and their internal features typically encode remaining life rather than any specific component's state. This paper presents an interpretable genetic fuzzy tree that predicts RUL from cruise-condition sensor means on N-CMAPSS while exposing a per-component diagnostic layer inspectable rule by rule. The tree follows the engine hierarchy: sensors to component health, then to bounded component damage, spool damage, and RUL, so each level answers a different maintenance question. Training is staged so…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Interpretable fuzzy tree for turbofan remaining useful life prediction with per-component diagnostics.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.11506",
@@ -1796,9 +1806,9 @@
    "published": "2026-11-08T17:20:48Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it. Noninterference is too strong for such agents, since a useful agent lets untrusted content influence what it does and may disclose the user's data by design, and declassification needs a release policy written for each task. We instead state security relative to a reference agent, which runs the same plan under the same runtime monitor with a model that never obeys untrusted content. An agent is relatively secure if every leak it has is a leak the reference already has. Our…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Mechanised definitions of relative security for prompt injection in LLM agents, relative to a reference agent.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.12985",
@@ -1854,9 +1864,10 @@
    "published": "2026-11-07T15:43:02Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Extends DBLog incremental snapshots to handle orphan rows in change data capture pipelines.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "u:4bdb196c6ef1a465",
@@ -1893,9 +1904,9 @@
    "published": "2026-11-06T21:18:38Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Mathematical understanding depends on the route from hypotheses to conclusion: how the parts of a proof function and which dependencies carry the argument forward. This structure can persist when wording or notation changes, while a small alteration to a hypothesis or inference can produce a different argument beneath similar prose. Formal verification can establish that a rewrite proves the same theorem, but not whether it follows the same mathematical route. Comparing informal proofs, especially those produced or revised by generative models, therefore requires reconstructing which claims…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Compares AI-generated informal mathematical proofs at the argument level, noting formal verification cannot establish route equivalence.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.09410",
@@ -1914,9 +1925,10 @@
    "published": "2026-11-06T12:43:08Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In mainstream shared-memory languages, programmers use synchronisation mechanisms such as locks to isolate shared data accesses across threads to avoid data races. Yet synchronisation enforces only a temporal ordering, while shared memory still communicates updates between threads at every ordinary read and write. To achieve isolation, programmers therefore need to understand the connection between ordering and communication, and to apply synchronisation correctly and consistently, while compilers and hardware optimise assuming they have. When programmers synchronise incorrectly, they lose…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Reinterprets Java synchronisation to achieve data-race freedom, a programming-language design topic without formal proofs described.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.09134",
@@ -2014,9 +2026,9 @@
    "published": "2026-11-05T12:58:43Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research accomplishments and progress toward long-standing research goals. TCSExam-Full contains 100 expert-reviewed tasks, with submissions checked by the Lean kernel or an executable task checker…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "TCSExam benchmark for LLMs on TCS research tasks, with submissions checked by the Lean kernel or an executable checker.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.07432",
@@ -2050,9 +2062,9 @@
    "published": "2026-11-05T03:44:55Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We present a computational framework that combines machine-learning-based discovery with rigorous computer-assisted numerical certification and formal verification for strongly nonlinear partial differential equations. We demonstrate the approach for periodic gravity-capillary traveling water waves. Physics-informed neural networks are used as a search mechanism, with the wave profile, wave speed and, in continuation experiments, surface tension learned directly from the governing equations without training data. Through a staged training and refinement procedure, the neural networks achieve…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Combines physics-informed neural networks with computer-assisted certification and formal verification for nonlinear water waves.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.07194",
@@ -2144,9 +2156,10 @@
    "published": "2026-11-04T05:52:48Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We view a $k\\times n$ Latin rectangle as $n$ points in the grid $[n]^k$. Each symbol gives one point, whose coordinates are the columns it occupies. The rectangle is balanced when these points are pairwise equidistant in the $\\ell_1$ metric. Its imbalance measures the distance from this ideal. We study the minimum imbalance from three sides. Constructively, we use a simulated annealing that moves symbols within rows and only penalises column clashes. Against the reference table of Voboril et al. (2025), it improves 33 of the 51 non-square values for $8\\le n\\le 13$, by up to 39.4%, and…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Studies imbalance of Latin rectangles via simulated annealing and combinatorial bounds.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.05695",
@@ -2162,9 +2175,9 @@
    "published": "2026-11-03T22:23:55Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "The real--ideal paradigm, an approach to security specification developed in the cryptography community, has the benefit that it can express sophisticated confidentiality and integrity requirements, even for decentralized systems. We show that this paradigm is the basis for a powerful and intuitive new semantic framework for language-based security. Our new framework cleanly and extensionally captures existing security definitions, including not only noninterference but also less understood information flow properties that involve downgrading, such as robust declassification and nonmalleable…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Semantic framework for information flow downgrading based on the real-ideal paradigm for language-based security.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.05668",
@@ -2246,9 +2259,9 @@
    "published": "2026-11-03T14:44:47Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is correct when a linked program behaves like the program formed by merging its sources. This property is less routine to prove than type soundness because it requires a formal account of linking. We present $λ_{\\mathsf{SCE}}$, a simply typed calculus in which linking, modules, and environments are all first-class. Programmers control module linking through a link operator, which a type-directed elaboration translates into ordinary terms of a core…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Presents a calculus with first-class environments and linking, proving correctness of separate compilation.",
+   "score": 3,
+   "relevant": true
   },
   {
    "id": "u:61a64f0581fa1f01",
@@ -2285,9 +2298,10 @@
    "published": "2026-11-03T09:26:15Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Reactive synthesis is the problem of generating a program that produces outputs satisfying a logical specification for every input stream. We study distributed synthesis for two processes communicating in rounds over unreliable links, with at least one message delivered in every round. Despite this delivery guarantee, we show that synthesis from linear temporal logic specifications is undecidable, even when messages carry the processes' complete causal histories. More generally, we give a complete characterization of the communication restrictions that make synthesis decidable. Restrictions…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Shows LTL distributed synthesis under message adversaries is undecidable; reactive synthesis, not formal proof checking.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "u:b2544c2f78226752",
@@ -2319,9 +2333,10 @@
    "published": "2026-11-03T06:03:41Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A closed path can return to its starting point while analytic continuation reaches another branch. We construct a finite computational calculus in which retained logarithmic branches supply memory, analytic observations select operations, and descent through a covering exposes deeper memory. Three branch coordinates suffice, and every finite observation uses the same cubic power covering. Each program defines a globally real analytic return map whose integer-lattice execution is realized by actual path lifting. Our first theorem simulates every finite-alphabet, finite-control Post--Turing…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "A finite computational model based on analytic continuation and monodromy coverings.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.04172",
@@ -2356,9 +2371,9 @@
    "published": "2026-11-02T20:23:13Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Languages that target hardware accelerators typically expose a restricted, first-order core without recursion or first-class functions, leaving programmers without a principled way to express computational effects. This paper presents a technique for compiling effect handlers to such a constrained target. We introduce a novel translation that statically eliminates effect handlers, and prove that it preserves both typing and semantics. Moreover, we address the challenges of integrating effect handlers with structured control flow, where continuations cannot be constructed statically. The…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Compiles effect handlers to a first-order accelerator target with a proof that the translation preserves typing and semantics.",
+   "score": 2,
+   "relevant": true
   },
   {
    "id": "arxiv:2611.02843",
@@ -2411,9 +2426,10 @@
    "published": "2026-11-01T21:58:42Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval. For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\\lim_{β\\to\\infty}β^{-1}\\log T_β=1-\\cosφ$, without restricting particle-count growth. An explicit three-body flow has two rigorously separated metastable exponents. For finite compression, mass centering yields a sharp $O(r^2)$ attention-output error bound at fixed temperature, with an explicit spherical-normalization…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Nonreciprocal spherical attention framework giving coarsening and retrieval bounds for attention dynamics.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.02215",
@@ -2429,9 +2445,10 @@
    "published": "2026-11-01T21:23:18Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Discrimination, calibration, and ranking are the three pillars of classifier evaluation, yet no single algebraic language spans all three. A recent indicator-matrix account unifies discrimination measures (precision, recall, F1, Matthews correlation) across binary, multiclass, multilabel and related settings, using Boolean cell operations on indicator label matrices, generalised to soft labels by t-norms. Calibration measures (Brier score, log-loss) and ranking measures (nDCG, AUC) fall outside it. We close the gap with two further classes of cell operators: deviation operators phi(y…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Algebraic matrix framework unifying classifier discrimination, calibration and ranking measures.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.02028",
@@ -2472,9 +2489,9 @@
    "published": "2026-11-01T11:45:13Z",
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free…",
-   "summary": null,
-   "score": null,
-   "relevant": null
+   "summary": "Counts and enumerates logically distinct bracketings of natural-language rules as an autoformalization ambiguity problem.",
+   "score": 2,
+   "relevant": true
   }
  ]
 }

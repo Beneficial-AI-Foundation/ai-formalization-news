@@ -1001,6 +1001,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.19940",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Strong Standard Completeness of a Hypersequent Calculus for Cyclic Involutive Residuated Lattices",
+   "url": "https://arxiv.org/abs/2611.19940",
+   "authors": [
+    "SanMin Wang"
+   ],
+   "published": "2026-11-15T11:14:32Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a hypersequent calculus $H_R$ for cyclic involutive residuated lattices and prove strong standard completeness for arbitrary theories in a fixed countable propositional language. Standard models are chains on $[0,1]$; neither commutativity nor equality of the monoid unit and the dualizing constant is assumed. The chain semantics is the class $K_R$ defined by unit cyclicity and all ordered finite-history conditions. Every countable member of $K_R$ embeds into a standard chain preserving the entire signature. The construction combines central-support reconstruction, gap insertion…",
+   "summary": "Hypersequent calculus for cyclic involutive residuated lattices with a strong standard completeness proof for many-valued logic.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.23319",
    "type": "paper",
    "source": "arXiv physics.plasm-ph",
@@ -1562,6 +1579,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.11506",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "On the Relative Security of Prompt Injection: Mechanised Definitions, Defences and Verdicts for LLM Agents",
+   "url": "https://arxiv.org/abs/2611.11506",
+   "authors": [
+    "Brijesh Dongol"
+   ],
+   "published": "2026-11-08T17:20:48Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "An LLM agent that reads untrusted content, such as an email or a web page, may follow instructions hidden in it. Noninterference is too strong for such agents, since a useful agent lets untrusted content influence what it does and may disclose the user's data by design, and declassification needs a release policy written for each task. We instead state security relative to a reference agent, which runs the same plan under the same runtime monitor with a model that never obeys untrusted content. An agent is relatively secure if every leak it has is a leak the reference already has. Our…",
+   "summary": "Mechanised definitions of relative security for prompt injection in LLM agents, relative to a reference agent.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.12985",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -1616,6 +1650,28 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In my spare time I has been developing SLOT, a library that can be thought as a formally-verified model checker for functional actor-based languages, performing I/O with nondeterministic side effects (read: Erlang). This project is still at a relatively early stage of development, but recently I’ve achieved the first milestone: completion of the core theory. A little bit about the design choices: I/O is emulated by composable effect handlers. Users can supply their own. This differentiates it from Verdi, which comes with predefined effects related to network and disk (at least when I last…",
    "summary": "SLOT, an early-stage formally verified model checker for actor-based languages with I/O, announced on Rocq Discourse.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.10233",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "ProofDiff: Auditable Argument-Level Comparison of AI-Generated Mathematical Proofs",
+   "url": "https://arxiv.org/abs/2611.10233",
+   "authors": [
+    "Matan Tsafrir",
+    "Esdras Medeiros",
+    "Jorge Poco",
+    "Kevin Gomez",
+    "Eduardo V. Teixeira",
+    "Claudio Silva"
+   ],
+   "published": "2026-11-06T21:18:38Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Mathematical understanding depends on the route from hypotheses to conclusion: how the parts of a proof function and which dependencies carry the argument forward. This structure can persist when wording or notation changes, while a small alteration to a hypothesis or inference can produce a different argument beneath similar prose. Formal verification can establish that a rewrite proves the same theorem, but not whether it follows the same mathematical route. Comparing informal proofs, especially those produced or revised by generative models, therefore requires reconstructing which claims…",
+   "summary": "Compares AI-generated informal mathematical proofs at the argument level, noting formal verification cannot establish route equivalence.",
    "score": 2,
    "relevant": true
   },
@@ -1699,6 +1755,27 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.07962",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research",
+   "url": "https://arxiv.org/abs/2611.07962",
+   "authors": [
+    "Yifan Luo",
+    "Zhengying Liu",
+    "Yang Yuan",
+    "Zhilin Yang",
+    "Andrew Chi-Chih Yao"
+   ],
+   "published": "2026-11-05T12:58:43Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Can large language models (LLMs) advance theoretical computer science and resolve its long-standing open conjectures? To study progress toward this goal, we introduce TCSExam, a unified framework and benchmark covering the full range of TCS research. It evaluates theorem proving, solver engineering, and constructions alongside direct attempts to resolve open conjectures, capturing both concrete research accomplishments and progress toward long-standing research goals. TCSExam-Full contains 100 expert-reviewed tasks, with submissions checked by the Lean kernel or an executable task checker…",
+   "summary": "TCSExam benchmark for LLMs on TCS research tasks, with submissions checked by the Lean kernel or an executable checker.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.07432",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1712,6 +1789,25 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Type theories designed for mathematics or program verification need only that a proposition holds; proof irrelevance in conversion erases, at the kernel level, how a claim was established. A persistent knowledge store, by contrast, must retain that record: who established a claim, by which derivation or external tool, and under which assumptions. This volume presents the theory of Eigenius---a store of typed knowledge over constructive institutions---and develops its metatheory from that requirement. The kernel theory is a dependent type theory with cumulative universes, an impredicative…",
    "summary": "Develops the theory of Eigenius, a proof-relevant dependent type theory for a persistent store of typed knowledge over constructive institutions.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.07395",
+   "type": "paper",
+   "source": "arXiv math.AP",
+   "source_id": "arxiv-api",
+   "title": "Rigorously Certified Neural-Network Computation of Nonlinear Water Waves at Near-Machine Precision",
+   "url": "https://arxiv.org/abs/2611.07395",
+   "authors": [
+    "Michal Shavit",
+    "Yongji Wang",
+    "Tristan Buckmaster"
+   ],
+   "published": "2026-11-05T03:44:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We present a computational framework that combines machine-learning-based discovery with rigorous computer-assisted numerical certification and formal verification for strongly nonlinear partial differential equations. We demonstrate the approach for periodic gravity-capillary traveling water waves. Physics-informed neural networks are used as a search mechanism, with the wave profile, wave speed and, in continuation experiments, surface tension learned directly from the governing equations without training data. Through a staged training and refinement procedure, the neural networks achieve…",
+   "summary": "Combines physics-informed neural networks with computer-assisted certification and formal verification for nonlinear water waves.",
    "score": 3,
    "relevant": true
   },
@@ -1792,6 +1888,24 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.05695",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Demystifying Information Flow Downgrading using the Real--Ideal Paradigm",
+   "url": "https://arxiv.org/abs/2611.05695",
+   "authors": [
+    "Suraaj Kanniwadi",
+    "Andrew C. Myers"
+   ],
+   "published": "2026-11-03T22:23:55Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "The real--ideal paradigm, an approach to security specification developed in the cryptography community, has the benefit that it can express sophisticated confidentiality and integrity requirements, even for decentralized systems. We show that this paradigm is the basis for a powerful and intuitive new semantic framework for language-based security. Our new framework cleanly and extensionally captures existing security definitions, including not only noninterference but also less understood information flow properties that involve downgrading, such as robust declassification and nonmalleable…",
+   "summary": "Semantic framework for information flow downgrading based on the real-ideal paradigm for language-based security.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.05668",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1857,6 +1971,25 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.04993",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Linking as Evaluation: Correct Separate Compilation via First-Class Environments",
+   "url": "https://arxiv.org/abs/2611.04993",
+   "authors": [
+    "Jam Kabeer Ali Khan",
+    "Jinhao Tan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-11-03T14:44:47Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is correct when a linked program behaves like the program formed by merging its sources. This property is less routine to prove than type soundness because it requires a formal account of linking. We present $λ_{\\mathsf{SCE}}$, a simply typed calculus in which linking, modules, and environments are all first-class. Programmers control module linking through a link operator, which a type-directed elaboration translates into ordinary terms of a core…",
+   "summary": "Presents a calculus with first-class environments and linking, proving correctness of separate compilation.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:61a64f0581fa1f01",
    "type": "news",
    "source": "Rocq Discourse",
@@ -1905,6 +2038,26 @@
    "source_text": "Friedman and Stanley asked whether an invariant Borel class of countable structures must be Borel complete whenever every countable level of their hierarchy reduces to it. We construct a counterexample in one fixed countable language. The structural counterexample and its principal supporting results have been formalized in Lean~4 and it is available on github.",
    "summary": "Constructs a counterexample to a Friedman-Stanley question on Borel completeness, with the structural result formalized in Lean 4.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.03918",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Handling JAX",
+   "url": "https://arxiv.org/abs/2611.03918",
+   "authors": [
+    "Oghenevwogaga Ebresafe",
+    "Daniel Zheng",
+    "Gordon Plotkin",
+    "Ningning Xie"
+   ],
+   "published": "2026-11-02T20:23:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Languages that target hardware accelerators typically expose a restricted, first-order core without recursion or first-class functions, leaving programmers without a principled way to express computational effects. This paper presents a technique for compiling effect handlers to such a constrained target. We introduce a novel translation that statically eliminates effect handlers, and prove that it preserves both typing and semantics. Moreover, we address the challenges of integrating effect handlers with structured control flow, where continuations cannot be constructed statically. The…",
+   "summary": "Compiles effect handlers to a first-order accelerator target with a proof that the translation preserves typing and semantics.",
+   "score": 2,
    "relevant": true
   },
   {
@@ -1971,6 +2124,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.01825",
+   "type": "paper",
+   "source": "arXiv cs.FL",
+   "source_id": "arxiv-api",
+   "title": "The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence",
+   "url": "https://arxiv.org/abs/2611.01825",
+   "authors": [
+    "Sherzod Turaev"
+   ],
+   "published": "2026-11-01T11:45:13Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free…",
+   "summary": "Counts and enumerates logically distinct bracketings of natural-language rules as an autoformalization ambiguity problem.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.01357",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -1991,6 +2161,26 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.00340",
+   "type": "paper",
+   "source": "arXiv cs.SE",
+   "source_id": "arxiv-api",
+   "title": "Autoformalization for Ambiguous Inputs: Precision, Coverage, and Cost across SQL and Logical Forms",
+   "url": "https://arxiv.org/abs/2611.00340",
+   "authors": [
+    "Henry Shen",
+    "Xinling Liao",
+    "Adarsh Vatsa",
+    "William Eiers"
+   ],
+   "published": "2026-10-30T20:16:19Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Agentic systems translate natural-language requests into executable artifacts while managing ambiguity and inference cost. We evaluate seven autoformalization workflows on SQL and first-order logic benchmarks for ambiguous inputs. Across five SQL workflows, the raw model leads with F1 of 53.35% on AMBROSIA and 60.85% on AmbiQT. On AmP, DRIFT gains 15.98 F1 points over the raw model at 2.03 times its token cost, whereas LoC uses 18.65 times the raw model's tokens with lower F1. Within AutoCedar, structured interpretation lowers F1 by 6.44-6.95 points and raises AMBROSIA token use 2.2-fold…",
+   "summary": "Evaluates autoformalization workflows translating ambiguous natural language into SQL and first-order logic, comparing F1 and token cost.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.00287",
    "type": "paper",
    "source": "arXiv cs.SE",
@@ -2007,6 +2197,43 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Concurrent software underpins critical infrastructure, including operating systems and databases, yet thread interactions can have bugs that bypass conventional testing. Verus extends Rust with formal verification capabilities, enabling developers to specify, implement and prove the correctness of concurrent code in the same language. Although coding agents have been explored for automated proof construction, existing Verus benchmarks offer limited coverage of concurrency-specific examples that connect atomic operations to abstract protocols. To address this gap, we introduce VerusWeave, the…",
    "summary": "VerusWeave is a benchmark for proof repair in concurrent Verus programs, targeting coding agents on atomic operations and abstract protocols.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.00269",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Automated Theorem Generation in First-Order Logic by Construction from Triangular Standard Contradictions",
+   "url": "https://arxiv.org/abs/2611.00269",
+   "authors": [
+    "Yang Xu",
+    "Shuwei Chen",
+    "Hailin Guo",
+    "Jun Liu"
+   ],
+   "published": "2026-10-30T18:54:26Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Automated theorem generation (ATG) seeks to construct new theorems rather than merely prove given conjectures. Existing approaches typically generate candidate statements that require subsequent proof or formal verification. We propose a constructive framework for ATG in first-order logic based on triangular standard contradictions. The method constructs minimally unsatisfiable clause sets from selected first-order literals, then forms theorems by retaining some clauses as premises and taking the negation of one clause, or a conjunction of clauses, as the conclusion. Minimal unsatisfiability…",
+   "summary": "Constructive framework for automated theorem generation in first-order logic from minimally unsatisfiable clause sets.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.00176",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Coinduction in Grounded Arithmetic",
+   "url": "https://arxiv.org/abs/2611.00176",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-30T14:42:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "A grounded arithmetic counts a sentence true only when a terminating process establishes it; a sentence no such process settles has no value. Such a logic can state that an event happens, but not that it never happens under unbounded choice. This paper extends such a logic so that it can. The base is Reflective Grounded Arithmetic (RGA) with Inductive Grounded Arithmetic (IGA)'s least-fixed-point reading and ground induction. It adds a separate greatest-fixed-point former $ν$ with Park's coinduction rule, proves that one former cannot carry both ground induction and coinduction, and adds a…",
+   "summary": "Extends Reflective Grounded Arithmetic with a greatest-fixed-point coinduction former and proves a limitation on combining it with ground induction.",
    "score": 3,
    "relevant": true
   },
@@ -2169,6 +2396,29 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2610.38687",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Deogen: Automatic Benchmark Generation for Reasoning over Policies",
+   "url": "https://arxiv.org/abs/2610.38687",
+   "authors": [
+    "Sam Kouteili",
+    "William Liang",
+    "Keeran Murray",
+    "Adriana Zhou",
+    "Ramesh Viswanathan",
+    "Scott Shapiro",
+    "Ruzica Piskac"
+   ],
+   "published": "2026-10-28T18:56:59Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Language models are increasingly being deployed in regulated settings, where a model must apply given rules to the facts of a situation to determine a verdict. Benchmarking this capability, known as deontic reasoning, remains a costly and manual process, with existing datasets largely hand-crafted. In this paper, we present DeoGen, a scalable, automatic, and parametrizable benchmark generator for deontic reasoning. By autoformalizing policy rules to first-order logic, we can construct decision trees that capture possible outcome trajectories. Each path down a tree becomes a benchmark entry…",
+   "summary": "Automatically generates deontic reasoning benchmarks by autoformalizing policy rules into first-order logic.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2610.38616",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -2235,6 +2485,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2610.37498",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "Global Choice without Excluded Middle in Dependent Type Theory",
+   "url": "https://arxiv.org/abs/2610.37498",
+   "authors": [
+    "Sewon Park"
+   ],
+   "published": "2026-10-27T16:22:03Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Diaconescu's theorem derives excluded middle from the axiom of choice, using propositional extensionality. We show that in dependent type theory without propositional extensionality, global choice alone does not imply excluded middle. We consider extensional Martin-Löf type theory with an impredicative universe of propositions included in the universe of types, extended with a global choice operator. We construct a consistent model of this type theory and show that the model refutes excluded middle and propositional extensionality. The model is built from staged sets, sets whose elements…",
+   "summary": "Shows in dependent type theory that global choice without propositional extensionality does not imply excluded middle, via a consistent model.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:b1cc44b2ee28b986",
    "type": "news",
    "source": "Rocq Discourse",
@@ -2285,6 +2552,25 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Program specifications in separation logic describe ownership of resources and serve as logical interfaces for local reasoning. Compiler correctness, expressed as semantics preservation, does not by itself supply such an interface for compiled code, because it does not explicitly relate source and target resources and assertions. We investigate WP-preserving compilation: when a compiler translates a source program, the weakest preconditions that the program satisfies in a separation logic carry over to the compiled program. Our proof technique consists of a resource-aware simulation over…",
    "summary": "Studies compilation that preserves separation logic weakest preconditions from source to compiled programs, using a resource-aware simulation proof technique.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2610.36798",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Polymorphic First-Class Environments",
+   "url": "https://arxiv.org/abs/2610.36798",
+   "authors": [
+    "Jinhao Tan",
+    "Jam Kabeer Ali Khan",
+    "Bruno C. d. S. Oliveira"
+   ],
+   "published": "2026-10-27T07:59:35Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "First-class environments expose runtime environments as ordinary values and support a substitution-free, environment-based operational semantics. They also support applications such as first-class modules, dynamic composition of environment fragments, and sandboxing via local environments. Existing environment-based calculi, however, are mostly studied in a simply typed setting and stop short of System F and polymorphism. We present $F_E$, a polymorphic calculus with first-class environments that conservatively extends System F with a small-step environment semantics. $F_E$ eliminates all…",
+   "summary": "Presents F_E, a polymorphic System F extension with first-class environments and a small-step environment semantics.",
    "score": 3,
    "relevant": true
   },
@@ -2455,6 +2741,23 @@
    "source_text": "The Irrationality of ζ(5) in the AFP",
    "summary": "Archive of Formal Proofs entry on the irrationality of zeta(5).",
    "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2610.34548",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$",
+   "url": "https://arxiv.org/abs/2610.34548",
+   "authors": [
+    "Bryan Ford"
+   ],
+   "published": "2026-10-25T20:17:08Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "What does a recursive definition mean in a grounded logic, where a sentence is true only if a terminating process makes it so? This paper takes Kripke's answer for truth, the least fixed point, as a rule. Reflective Grounded Arithmetic (RGA) writes any recursive definition as one self-referential term; Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, making each an inductive definition. IGA is omega-sound and proof-grounded: sound and complete for a semantics whose certificates are its own proofs. IGA proves Goodstein's theorem, the Kirby-Paris hydra game…",
+   "summary": "Extends Inductive Grounded Arithmetic with inductive definitions, proving Goodstein's theorem and the Kirby-Paris hydra game in a grounded logic.",
+   "score": 3,
    "relevant": true
   },
   {

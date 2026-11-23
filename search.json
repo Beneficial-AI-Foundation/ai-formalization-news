@@ -618,6 +618,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.19940",
+   "paper",
+   "arXiv math.LO",
+   "Strong Standard Completeness of a Hypersequent Calculus for Cyclic Involutive Residuated Lattices",
+   "https://arxiv.org/abs/2611.19940",
+   "2026-11-15T11:14:32Z",
+   "Hypersequent calculus for cyclic involutive residuated lattices with a strong standard completeness proof for many-valued logic.",
+   "SanMin Wang",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.23319",
    "paper",
    "arXiv physics.plasm-ph",
@@ -959,6 +970,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.11506",
+   "paper",
+   "arXiv cs.CR",
+   "On the Relative Security of Prompt Injection: Mechanised Definitions, Defences and Verdicts for LLM Agents",
+   "https://arxiv.org/abs/2611.11506",
+   "2026-11-08T17:20:48Z",
+   "Mechanised definitions of relative security for prompt injection in LLM agents, relative to a reference agent.",
+   "Brijesh Dongol",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.12985",
    "paper",
    "arXiv cs.PL",
@@ -990,6 +1012,17 @@
    "SLOT, an early-stage formally verified model checker for actor-based languages with I/O, announced on Rocq Discourse.",
    "k32",
    "rocq-discourse"
+  ],
+  [
+   "arxiv:2611.10233",
+   "paper",
+   "arXiv cs.AI",
+   "ProofDiff: Auditable Argument-Level Comparison of AI-Generated Mathematical Proofs",
+   "https://arxiv.org/abs/2611.10233",
+   "2026-11-06T21:18:38Z",
+   "Compares AI-generated informal mathematical proofs at the argument level, noting formal verification cannot establish route equivalence.",
+   "Matan Tsafrir, Esdras Medeiros, Jorge Poco, Kevin Gomez, Eduardo V. Teixeira",
+   "arxiv-api"
   ],
   [
    "arxiv:2611.09134",
@@ -1036,6 +1069,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.07962",
+   "paper",
+   "arXiv cs.AI",
+   "TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research",
+   "https://arxiv.org/abs/2611.07962",
+   "2026-11-05T12:58:43Z",
+   "TCSExam benchmark for LLMs on TCS research tasks, with submissions checked by the Lean kernel or an executable checker.",
+   "Yifan Luo, Zhengying Liu, Yang Yuan, Zhilin Yang, Andrew Chi-Chih Yao",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.07432",
    "paper",
    "arXiv cs.LO",
@@ -1044,6 +1088,17 @@
    "2026-11-05T04:28:30Z",
    "Develops the theory of Eigenius, a proof-relevant dependent type theory for a persistent store of typed knowledge over constructive institutions.",
    "Hans-Martin Will",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.07395",
+   "paper",
+   "arXiv math.AP",
+   "Rigorously Certified Neural-Network Computation of Nonlinear Water Waves at Near-Machine Precision",
+   "https://arxiv.org/abs/2611.07395",
+   "2026-11-05T03:44:55Z",
+   "Combines physics-informed neural networks with computer-assisted certification and formal verification for nonlinear water waves.",
+   "Michal Shavit, Yongji Wang, Tristan Buckmaster",
    "arxiv-api"
   ],
   [
@@ -1091,6 +1146,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.05695",
+   "paper",
+   "arXiv cs.PL",
+   "Demystifying Information Flow Downgrading using the Real--Ideal Paradigm",
+   "https://arxiv.org/abs/2611.05695",
+   "2026-11-03T22:23:55Z",
+   "Semantic framework for information flow downgrading based on the real-ideal paradigm for language-based security.",
+   "Suraaj Kanniwadi, Andrew C. Myers",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.05668",
    "paper",
    "arXiv cs.LO",
@@ -1121,6 +1187,17 @@
    "2026-11-03T19:32:16Z",
    "ProofStudio is a browser environment integrating Isabelle/HOL, Lean, Rocq, HOL4 and HOL Light with worked examples for education.",
    "Yutaka Nagashima",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.04993",
+   "paper",
+   "arXiv cs.PL",
+   "Linking as Evaluation: Correct Separate Compilation via First-Class Environments",
+   "https://arxiv.org/abs/2611.04993",
+   "2026-11-03T14:44:47Z",
+   "Presents a calculus with first-class environments and linking, proving correctness of separate compilation.",
+   "Jam Kabeer Ali Khan, Jinhao Tan, Bruno C. d. S. Oliveira",
    "arxiv-api"
   ],
   [
@@ -1157,6 +1234,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.03918",
+   "paper",
+   "arXiv cs.PL",
+   "Handling JAX",
+   "https://arxiv.org/abs/2611.03918",
+   "2026-11-02T20:23:13Z",
+   "Compiles effect handlers to a first-order accelerator target with a proof that the translation preserves typing and semantics.",
+   "Oghenevwogaga Ebresafe, Daniel Zheng, Gordon Plotkin, Ningning Xie",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.02843",
    "paper",
    "arXiv cs.LO",
@@ -1190,6 +1278,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.01825",
+   "paper",
+   "arXiv cs.FL",
+   "The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence",
+   "https://arxiv.org/abs/2611.01825",
+   "2026-11-01T11:45:13Z",
+   "Counts and enumerates logically distinct bracketings of natural-language rules as an autoformalization ambiguity problem.",
+   "Sherzod Turaev",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.01357",
    "paper",
    "arXiv cs.LO",
@@ -1201,6 +1300,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.00340",
+   "paper",
+   "arXiv cs.SE",
+   "Autoformalization for Ambiguous Inputs: Precision, Coverage, and Cost across SQL and Logical Forms",
+   "https://arxiv.org/abs/2611.00340",
+   "2026-10-30T20:16:19Z",
+   "Evaluates autoformalization workflows translating ambiguous natural language into SQL and first-order logic, comparing F1 and token cost.",
+   "Henry Shen, Xinling Liao, Adarsh Vatsa, William Eiers",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2611.00287",
    "paper",
    "arXiv cs.SE",
@@ -1209,6 +1319,28 @@
    "2026-10-30T19:14:32Z",
    "VerusWeave is a benchmark for proof repair in concurrent Verus programs, targeting coding agents on atomic operations and abstract protocols.",
    "Pedro Ribeiro, Martim Afonso, André Vasconcelos, João F. Ferreira",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.00269",
+   "paper",
+   "arXiv cs.AI",
+   "Automated Theorem Generation in First-Order Logic by Construction from Triangular Standard Contradictions",
+   "https://arxiv.org/abs/2611.00269",
+   "2026-10-30T18:54:26Z",
+   "Constructive framework for automated theorem generation in first-order logic from minimally unsatisfiable clause sets.",
+   "Yang Xu, Shuwei Chen, Hailin Guo, Jun Liu",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.00176",
+   "paper",
+   "arXiv math.LO",
+   "Coinduction in Grounded Arithmetic",
+   "https://arxiv.org/abs/2611.00176",
+   "2026-10-30T14:42:08Z",
+   "Extends Reflective Grounded Arithmetic with a greatest-fixed-point coinduction former and proves a limitation on combining it with ground induction.",
+   "Bryan Ford",
    "arxiv-api"
   ],
   [
@@ -1311,6 +1443,17 @@
    "afp"
   ],
   [
+   "arxiv:2610.38687",
+   "paper",
+   "arXiv cs.AI",
+   "Deogen: Automatic Benchmark Generation for Reasoning over Policies",
+   "https://arxiv.org/abs/2610.38687",
+   "2026-10-28T18:56:59Z",
+   "Automatically generates deontic reasoning benchmarks by autoformalizing policy rules into first-order logic.",
+   "Sam Kouteili, William Liang, Keeran Murray, Adriana Zhou, Ramesh Viswanathan",
+   "arxiv-api"
+  ],
+  [
    "arxiv:2610.38616",
    "paper",
    "arXiv cs.LO",
@@ -1355,6 +1498,17 @@
    "lean-fro-bluesky"
   ],
   [
+   "arxiv:2610.37498",
+   "paper",
+   "arXiv cs.LO",
+   "Global Choice without Excluded Middle in Dependent Type Theory",
+   "https://arxiv.org/abs/2610.37498",
+   "2026-10-27T16:22:03Z",
+   "Shows in dependent type theory that global choice without propositional extensionality does not imply excluded middle, via a consistent model.",
+   "Sewon Park",
+   "arxiv-api"
+  ],
+  [
    "u:b1cc44b2ee28b986",
    "news",
    "Rocq Discourse",
@@ -1385,6 +1539,17 @@
    "2026-10-27T13:46:09Z",
    "Studies compilation that preserves separation logic weakest preconditions from source to compiled programs, using a resource-aware simulation proof technique.",
    "Carmine Abate, Kleio Liotati, František Farka, Sebastian Ertel",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2610.36798",
+   "paper",
+   "arXiv cs.PL",
+   "Polymorphic First-Class Environments",
+   "https://arxiv.org/abs/2610.36798",
+   "2026-10-27T07:59:35Z",
+   "Presents F_E, a polymorphic System F extension with first-class environments and a small-step environment semantics.",
+   "Jinhao Tan, Jam Kabeer Ali Khan, Bruno C. d. S. Oliveira",
    "arxiv-api"
   ],
   [
@@ -1496,6 +1661,17 @@
    "Archive of Formal Proofs entry on the irrationality of zeta(5).",
    "",
    "afp"
+  ],
+  [
+   "arxiv:2610.34548",
+   "paper",
+   "arXiv math.LO",
+   "Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$",
+   "https://arxiv.org/abs/2610.34548",
+   "2026-10-25T20:17:08Z",
+   "Extends Inductive Grounded Arithmetic with inductive definitions, proving Goodstein's theorem and the Kirby-Paris hydra game in a grounded logic.",
+   "Bryan Ford",
+   "arxiv-api"
   ],
   [
    "arxiv:2610.34490",
