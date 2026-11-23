@@ -13,6 +13,50 @@
  ],
  "rows": [
   [
+   "u:9f25ad42f11c6720",
+   "news",
+   "Rocq Discourse",
+   "ITP 2027: Call for Papers",
+   "https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207",
+   "2026-11-23T16:33:45Z",
+   "Call for papers for ITP 2027, the eighteenth Interactive Theorem Proving conference, held August 3–6, 2027 in Glasgow.",
+   "traytel",
+   "rocq-discourse"
+  ],
+  [
+   "u:cec9b28dda26c3f4",
+   "news",
+   "Rocq Discourse",
+   "Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027",
+   "https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205",
+   "2026-11-23T15:11:19Z",
+   "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
+   "swarnpriya",
+   "rocq-discourse"
+  ],
+  [
+   "u:f7558c896f7eaef5",
+   "news",
+   "Rocq Discourse",
+   "VerifyThis 2027: Call for Problems",
+   "https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203",
+   "2026-11-23T15:10:56Z",
+   "Call for problems for VerifyThis 2027, the verification competition held at ETAPS on 10–11 April 2027, with submissions due 18 December 2026.",
+   "neea",
+   "rocq-discourse"
+  ],
+  [
+   "u:8860a2ec668aefee",
+   "lean",
+   "Rocq Discourse",
+   "[ANN] rocq-typescript-extraction (experimental): Extract Rocq definitions to TypeScript ES modules",
+   "https://discourse.rocq-prover.org/t/ann-rocq-typescript-extraction-experimental-extract-rocq-definitions-to-typescript-es-modules/3199",
+   "2026-11-23T15:06:47Z",
+   "An experimental Rocq plugin that extracts Rocq definitions to TypeScript ES modules, generating strict-mode-checked code.",
+   "smorimoto",
+   "rocq-discourse"
+  ],
+  [
    "u:d3573e18bce86ec3",
    "social",
    "#leanprover on Mathstodon",

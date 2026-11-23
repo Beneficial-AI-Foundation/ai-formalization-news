@@ -1,7 +1,75 @@
 {
  "version": 1,
- "updated": "2026-11-23T12:27:46Z",
+ "updated": "2026-11-23T19:21:01Z",
  "items": [
+  {
+   "id": "u:9f25ad42f11c6720",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "ITP 2027: Call for Papers",
+   "url": "https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207",
+   "authors": [
+    "traytel"
+   ],
+   "published": "2026-11-23T16:33:45Z",
+   "fetched": "2026-11-23T19:21:01Z",
+   "source_text": "itp-conference-2027.github.io ITP 2027 The eighteenth conference on Interactive Theorem Proving to be held in 2027 at the University of Strathclyde The International Conference on Interactive Theorem Proving (ITP 2027) will take place on August 3–6, 2027 in Glasgow, Scotland. ITP 2027 is part of the ITP conference series whose history goes back to 1988. The ITP conference series is concerned with all aspects of interactive theorem proving, ranging from theoretical foundations to implementation aspects and applications in program verification, security, and the formalization of mathematics…",
+   "summary": "Call for papers for ITP 2027, the eighteenth Interactive Theorem Proving conference, held August 3–6, 2027 in Glasgow.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:cec9b28dda26c3f4",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027",
+   "url": "https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205",
+   "authors": [
+    "swarnpriya"
+   ],
+   "published": "2026-11-23T15:11:19Z",
+   "fetched": "2026-11-23T19:21:01Z",
+   "source_text": "We are looking for a motivated PhD student to join us at the School of Electrical Engineering and Computer Science, Washington State University (WSU), starting in Fall 2027. The student will be jointly advised by me and Dr. Thomas Gilray. Our research focuses on developing scalable, formally verified techniques for analyzing, verifying, and securing systems across the computing stack, from software to hardware. Potential research areas include: Programming languages, compilers, decompilers, and static analysis Formal verification and its applications to software and systems security Scalable…",
+   "summary": "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:f7558c896f7eaef5",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "VerifyThis 2027: Call for Problems",
+   "url": "https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203",
+   "authors": [
+    "neea"
+   ],
+   "published": "2026-11-23T15:10:56Z",
+   "fetched": "2026-11-23T19:21:01Z",
+   "source_text": "VerifyThis Verification Competition 2027 ANNOUNCEMENT AND CALL FOR PROBLEMS Competition to be held at ETAPS 2027 https://verifythis.github.io/ IMPORTANT DATES Problems submission deadline: Friday, 18 December 2026, AoE Competition: 10 and 11 April 2027 ABOUT THE COMPETITION VerifyThis 2027 will take place as part of the European Joint Conferences on Theory and Practice of Software (ETAPS 2027) on 10 and 11 April 2027. It is the 15th event in the VerifyThis competition series. Information on previous events and participants can be found at https://verifythis.github.io. The aims of the…",
+   "summary": "Call for problems for VerifyThis 2027, the verification competition held at ETAPS on 10–11 April 2027, with submissions due 18 December 2026.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:8860a2ec668aefee",
+   "type": "lean",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "[ANN] rocq-typescript-extraction (experimental): Extract Rocq definitions to TypeScript ES modules",
+   "url": "https://discourse.rocq-prover.org/t/ann-rocq-typescript-extraction-experimental-extract-rocq-definitions-to-typescript-es-modules/3199",
+   "authors": [
+    "smorimoto"
+   ],
+   "published": "2026-11-23T15:06:47Z",
+   "fetched": "2026-11-23T19:21:01Z",
+   "source_text": "I am excited to share an experimental preview of rocq-typescript-extraction, a Rocq plugin that extracts Rocq definitions to TypeScript ES modules. What is it? Rocq (formerly Coq) has long supported extraction to OCaml, Haskell, and Scheme. This plugin adds a TypeScript backend, generating clean ES modules that can be imported and used directly from TypeScript/JavaScript code. The generated code uses erasable TypeScript syntax (no namespace, enum, declare, or type assertions other than as const) and is checked under strict TypeScript settings (--strict --isolatedModules…",
+   "summary": "An experimental Rocq plugin that extracts Rocq definitions to TypeScript ES modules, generating strict-mode-checked code.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:d3573e18bce86ec3",
    "type": "social",

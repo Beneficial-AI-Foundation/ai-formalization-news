@@ -3,12 +3,60 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-23T12:27:46Z</updated>
+ <updated>2026-11-23T19:21:01Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207</id>
+  <title>ITP 2027: Call for Papers</title>
+  <link href="https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207" rel="alternate" />
+  <published>2026-11-23T16:33:45Z</published>
+  <updated>2026-11-23T16:33:45Z</updated>
+  <author>
+   <name>traytel</name>
+  </author>
+  <category term="news" />
+  <summary type="text">Call for papers for ITP 2027, the eighteenth Interactive Theorem Proving conference, held August 3–6, 2027 in Glasgow. (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205</id>
+  <title>Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027</title>
+  <link href="https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205" rel="alternate" />
+  <published>2026-11-23T15:11:19Z</published>
+  <updated>2026-11-23T15:11:19Z</updated>
+  <author>
+   <name>swarnpriya</name>
+  </author>
+  <category term="news" />
+  <summary type="text">Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security. (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203</id>
+  <title>VerifyThis 2027: Call for Problems</title>
+  <link href="https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203" rel="alternate" />
+  <published>2026-11-23T15:10:56Z</published>
+  <updated>2026-11-23T15:10:56Z</updated>
+  <author>
+   <name>neea</name>
+  </author>
+  <category term="news" />
+  <summary type="text">Call for problems for VerifyThis 2027, the verification competition held at ETAPS on 10–11 April 2027, with submissions due 18 December 2026. (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/ann-rocq-typescript-extraction-experimental-extract-rocq-definitions-to-typescript-es-modules/3199</id>
+  <title>[ANN] rocq-typescript-extraction (experimental): Extract Rocq definitions to TypeScript ES modules</title>
+  <link href="https://discourse.rocq-prover.org/t/ann-rocq-typescript-extraction-experimental-extract-rocq-definitions-to-typescript-es-modules/3199" rel="alternate" />
+  <published>2026-11-23T15:06:47Z</published>
+  <updated>2026-11-23T15:06:47Z</updated>
+  <author>
+   <name>smorimoto</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">An experimental Rocq plugin that extracts Rocq definitions to TypeScript ES modules, generating strict-mode-checked code. (Rocq Discourse)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191</id>
   <title>Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP</title>
@@ -617,59 +665,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Proposes verifiable symbolic policy adaptation for safe reinforcement learning, using formal verification to check policy safety constraints. (arXiv cs.LG)</summary>
- </entry>
- <entry>
-  <id>https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f</id>
-  <title>Lean 4.36.0 is out, with 222 changes in a release focused mostly on consolidation. Much of the work went into performance, and Mathlib now…</title>
-  <link href="https://bsky.app/profile/lean-lang.org/post/3n2jmnojats2f" rel="alternate" />
-  <published>2026-11-17T17:59:00Z</published>
-  <updated>2026-11-17T17:59:00Z</updated>
-  <author>
-   <name>Lean FRO</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean 4.36.0 release with 222 changes focused on consolidation and performance, including a 12% faster Mathlib build. (Lean FRO on Bluesky)</summary>
- </entry>
- <entry>
-  <id>https://functional.cafe/@leanprover/117633077616639915</id>
-  <title>Lean 4.36.0 has been released. This is mostly a consolidation release, with 222 changes, including 30 performance improvements. From the…</title>
-  <link href="https://functional.cafe/@leanprover/117633077616639915" rel="alternate" />
-  <published>2026-11-17T17:58:38Z</published>
-  <updated>2026-11-17T17:58:38Z</updated>
-  <author>
-   <name>@leanprover@functional.cafe</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Announcement of Lean 4.36.0 with 222 changes, including 30 performance improvements. (#formalverification on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://chaos.social/@lmstr/117633069880981216</id>
-  <title>Do you use TLA+? Whether for work, research, or just tinkering, we'd love to hear from you! The TLA+ 2026 Community Survey is open. Help…</title>
-  <link href="https://chaos.social/@lmstr/117633069880981216" rel="alternate" />
-  <published>2026-11-17T17:56:40Z</published>
-  <updated>2026-11-17T17:56:40Z</updated>
-  <author>
-   <name>@lmstr@chaos.social</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Announcement of the TLA+ 2026 Community Survey asking about TLA+ use. (#formalverification on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.22613</id>
-  <title>Python Code Generation for Isabelle/HOL</title>
-  <link href="https://arxiv.org/abs/2611.22613" rel="alternate" />
-  <published>2026-11-17T11:29:58Z</published>
-  <updated>2026-11-17T11:29:58Z</updated>
-  <author>
-   <name>Nikolaus Huber</name>
-  </author>
-  <author>
-   <name>Roly Perera</name>
-  </author>
-  <author>
-   <name>Dominic Orchard</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Adds a Python backend to the Isabelle/HOL code generator, extending verified implementations to Python for scientific computing and education. (arXiv cs.PL)</summary>
  </entry>
 </feed>
