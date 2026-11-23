@@ -11,7 +11,7 @@ A static news page kept by the Beneficial AI Foundation. Every hour a GitHub Act
 2. `python -m news.run` fetches every enabled source in `config/sources.yaml` that is due, sending `If-None-Match` and `If-Modified-Since`, so unchanged feeds answer 304.
 3. Links are normalised and each item gets an id. Items already seen, or with the same title as an item kept in the last 7 days, are dropped.
 4. Sources marked `filter: keywords` keep only items that match a keyword.
-5. If the repository has an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret, one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Without the key, the page shows each source's own text.
+5. If an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret is set (see Claude summaries), one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Without the key, the page shows each source's own text.
 6. The job writes `news.json` (newest 300 items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page.
 
 A failing source never stops the run; its error shows in `meta.json` and on the page.
@@ -73,7 +73,8 @@ The keyword list, the Claude model and the synonym groups are in the same two co
 
 ## Claude summaries
 
-- Add the repository secret `ANTHROPIC_API_KEY` (Settings, Secrets and variables, Actions). The workflow switches the Claude step on only when the secret exists.
+- Add `ANTHROPIC_API_KEY` as a secret of the `github-pages` environment (Settings, Environments, github-pages, Environment secrets, Add environment secret). The workflow switches the Claude step on only when the secret exists.
+- Why an environment secret: only jobs running on `main` may use the `github-pages` environment, so only they can read its secrets. A repository secret would also reach a workflow pushed on any branch, and every BAIF member can push branches here. A repository secret with the same name still works, but is less protected.
 - The model is `claude-haiku-5-5` by default (`claude.model` in `config/sources.yaml`). To change it without a commit, set the repository variable `CLAUDE_MODEL`.
 - Each run logs input and output token counts; `meta.json` keeps them under `claude`.
 - If Claude refuses to judge an item (rare), the item is kept with its source text and no summary, and is not sent again. With a Sonnet or Opus model the request first falls back to another model server-side; a refusal means the whole chain declined.
@@ -85,7 +86,7 @@ To rotate the key: create a new key in the Claude Console, replace the `ANTHROPI
 
 While the Anthropic account has no credit, the same model (Claude Haiku 5.5, same prompt and schema) can be reached through OpenRouter:
 
-- Add the repository secret `OPENROUTER_API_KEY`. Use a key made for this site with a monthly credit limit (for example $5), not a shared key: the site needs well under $1 a month.
+- Add `OPENROUTER_API_KEY` as a secret of the `github-pages` environment, the same way. Use a key made for this site with a monthly credit limit (for example $5), not a shared key: the site needs well under $1 a month.
 - The workflow uses Anthropic when `ANTHROPIC_API_KEY` is set and OpenRouter only when it is not. `meta.json` records the route under `claude.route`.
 - `CLAUDE_MODEL` and `claude.model` keep Anthropic's names (`claude-haiku-5-5`); the job translates them to OpenRouter's (`anthropic/claude-haiku-5.5`). The server-side fallback for Sonnet and Opus is Anthropic-only.
 
@@ -101,7 +102,7 @@ GitHub disables scheduled workflows in a public repository after 60 days with no
 2. Settings, Pages: set the source to "GitHub Actions".
 3. Settings, Actions, General: set workflow permissions to "Read and write".
    `main` can require pull requests, since the workflow never pushes to it. Leave the `data` branch unprotected: the workflow pushes to it as `github-actions[bot]`.
-4. Optional: add the `ANTHROPIC_API_KEY` secret (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on.
+4. Optional: add `ANTHROPIC_API_KEY` (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on, as secrets of the `github-pages` environment (see Claude summaries).
 
 ## Licence
 
