@@ -55,10 +55,12 @@ Return exactly one entry for every item, with the same id and these fields.
 relevant: true when the item is substantially about one of these topics:
 - formal verification of software, hardware, protocols or cryptography (for example seL4, Verus, Dafny, F*, TLA+, model checking used for verification, verified compilers);
 - proof assistants and interactive or automated theorem proving (Lean, Mathlib, Isabelle, Rocq or Coq, Agda, HOL, ACL2, SMT solvers used for proofs);
-- formalized mathematics, autoformalization, and AI systems that prove theorems or produce verified code;
-- AI for mathematics where proofs are produced or checked.
+- formalized mathematics, autoformalization (translating informal text into any formal language), and AI systems that prove theorems or produce verified code;
+- AI for mathematics where proofs are produced or checked;
+- mechanised (machine-checked) proofs in any field, and the type theory, logic and semantics that proof assistants and verification tools rest on (for example dependent type theory, constructive logic, program semantics with correctness proofs).
 Jobs, workshops, courses and community announcements about these topics are relevant.
 false when the item is general AI news, a machine-learning paper with no formal-methods content, general mathematics with no formalization or proof-checking angle, or when formal methods are mentioned only in passing: for example a paper that says its outputs "could be verified" but does no verification, or that uses "verification" to mean testing, fact checking or answer checking.
+When you are unsure, or the text is too short to tell, and the item could plausibly be about one of these topics, mark it relevant with score 2. A reader can skip a minor item, but an item marked false is hidden from readers.
 
 type: one of
 - "paper": a research paper, preprint, or formal proof development (arXiv papers, Archive of Formal Proofs entries);

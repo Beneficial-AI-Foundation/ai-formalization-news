@@ -157,11 +157,11 @@ DUP_FEED = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>T</title>
 </channel></rss>"""
 
 
-def test_title_duplicate_is_released_when_first_copy_is_rejected(tmp_path):
+def test_title_duplicate_is_released_when_first_copy_is_hidden(tmp_path):
     cfg = load_config()
     for s in cfg.sources:
         s.enabled = s.id == "xena"
-    cfg.source("xena").params["trusted"] = False  # an untrusted source, so Claude's "no" drops the item
+    cfg.source("xena").params["trusted"] = False  # an untrusted source, so Claude's "no" hides the item
     first = {}
 
     def reject_first(lines):
@@ -169,10 +169,12 @@ def test_title_duplicate_is_released_when_first_copy_is_rejected(tmp_path):
         return "end_turn", [{"id": lines[0]["id"], "relevant": False, "type": "blog", "score": 1, "summary": "no"}]
 
     _run(tmp_path, FixtureFetcher({"xena": DUP_FEED}), cfg=cfg, use_claude=True, claude_client=FakeClaude([reject_first]))
-    # The rejected copy is gone; the held copy was released and waits for Claude.
+    # The rejected copy is hidden; the held copy was released and waits for Claude.
     items = _news(tmp_path)
     assert [(i["url"], i["relevant"]) for i in items] == [("https://two.example.org/b", None)]
     assert first["id"] != items[0]["id"]
+    hidden = json.loads((tmp_path / "data" / "hidden.json").read_text())["items"]
+    assert [(i["id"], i["hidden"]) for i in hidden] == [(first["id"], True)]
     assert SeenStore.load(tmp_path / "data" / "seen.json").alts == {}
     fake = FakeClaude()
     _run(tmp_path, FixtureFetcher({"xena": DUP_FEED}), cfg=cfg, use_claude=True, claude_client=fake,
@@ -256,6 +258,9 @@ def test_trusted_source_items_are_kept_when_claude_says_not_relevant(tmp_path):
 
     meta = _run(tmp_path, FixtureFetcher(), cfg=cfg, use_claude=True, claude_client=FakeClaude([all_irrelevant]))
     items = _news(tmp_path)
-    assert items and {i["source_id"] for i in items} == {"xena"}  # the hashtag posts were dropped
+    assert items and {i["source_id"] for i in items} == {"xena"}  # the hashtag posts were hidden
     assert all(i["relevant"] is False and i["summary"] == "Off topic." and i["score"] == 1 for i in items)
-    assert meta["claude"]["kept_trusted"] == len(items) and meta["claude"]["rejected"] == 20
+    assert not any("hidden" in i for i in items)
+    assert meta["claude"]["kept_trusted"] == len(items) and meta["claude"]["hidden"] == 20
+    hidden = json.loads((tmp_path / "data" / "hidden.json").read_text())["items"]
+    assert len(hidden) == 20 and {i["source_id"] for i in hidden} == {"mathstodon-leanprover"}

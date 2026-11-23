@@ -11,8 +11,8 @@ A static news page kept by the Beneficial AI Foundation. Every hour a GitHub Act
 2. `python -m news.run` fetches every enabled source in `config/sources.yaml` that is due, sending `If-None-Match` and `If-Modified-Since`, so unchanged feeds answer 304.
 3. Links are normalised and each item gets an id. Items already seen, or with the same title as an item kept in the last 7 days, are dropped.
 4. Sources marked `filter: keywords` keep only items that match a keyword.
-5. If an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret is set (see Claude summaries), one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Without the key, the page shows each source's own text.
-6. The job writes `news.json` (newest 300 items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page.
+5. If an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret is set (see Claude summaries), one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Items judged off topic are hidden, not deleted: the page, search and the feed leave them out, and a switch below the list shows them. Items from sources marked `trusted` are never hidden. Without the key, the page shows each source's own text.
+6. The job writes `news.json` (newest 300 items), `hidden.json` (newest 300 hidden items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page.
 
 A failing source never stops the run; its error shows in `meta.json` and on the page.
 
@@ -21,6 +21,7 @@ A failing source never stops the run; its error shows in `meta.json` and on the 
 The code is on `main`; the generated data is on a separate `data` branch, which the workflow starts on its first run and commits to every hour that brings something new. The page is built from `main`'s `site/` and the `data` branch's files. So `main` keeps its pull-request rule and holds only code, and the hourly commits stay out of its history.
 
 - To take an item off the page, delete it from its `archive/YYYY-MM.json` file on the `data` branch. The next run rebuilds the other files from the archive, and `seen.json` keeps the item from coming back.
+- To bring back an item Claude hid, set its `relevant`, `score` and `summary` to `null` and remove `"hidden": true` in its archive file. The next run judges it again (within 3 days of its `fetched` time).
 - To preview the live data locally: `git fetch origin data && git worktree add ../news-data origin/data`, then `.venv/bin/python -m news.serve --data-dir ../news-data`.
 - Locally, `python -m news.run` writes to `data/`, which is git-ignored on `main`.
 

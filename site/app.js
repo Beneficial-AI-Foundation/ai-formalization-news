@@ -3,6 +3,8 @@
  * the filter buttons, the last-update line and the sources column. Choosing a
  * source (in the sources column, or an item's source name) shows only that
  * source's items; it combines with the type buttons and with search.
+ * Items Claude judged off topic are in data/hidden.json, loaded only when the
+ * reader asks to see them; they are then mixed into the list, dimmed.
  *
  * All item text is inserted with textContent or text nodes, never as HTML,
  * because titles and summaries come from outside sources.
@@ -35,7 +37,11 @@
     filter: 'all',
     source: null, // a source id from config/sources.yaml, or null for every source
     expanded: false,
-    search: null // set by search.js: {q, status, mode, total, results, sort, expanded, message}
+    search: null, // set by search.js: {q, status, mode, total, results, sort, expanded, message}
+    hiddenItems: null, // data/hidden.json items, once loaded
+    hiddenStatus: 'idle', // idle | loading | ready | error
+    showHidden: false,
+    merged: null // news and hidden items together, newest first
   };
   var filterListeners = [];
 
@@ -58,6 +64,8 @@
     el.feed = document.querySelector('.feed');
     el.sourceFilter = $('source-filter');
     el.sourceFilterText = $('source-filter-text');
+    el.hiddenNote = $('hidden-note');
+    el.hiddenToggle = $('hidden-toggle');
 
     state.filter = filterFromUrl();
     state.source = sourceFromUrl();
@@ -69,6 +77,7 @@
     });
     el.older.addEventListener('click', showOlder);
     $('source-filter-clear').addEventListener('click', function () { setSource(null, null); });
+    el.hiddenToggle.addEventListener('click', toggleHidden);
     // Source buttons in the list and in the sources column, by delegation.
     el.list.addEventListener('click', function (e) {
       var b = e.target.closest && e.target.closest('button[data-source]');
@@ -260,6 +269,14 @@
     tag.className = 'tag';
     tag.textContent = TYPE_LABEL[item.type] || 'Item';
     meta.appendChild(tag);
+    if (item.hidden === true) {
+      li.classList.add('is-hidden');
+      var hiddenTag = document.createElement('span');
+      hiddenTag.className = 'tag tag-hidden';
+      hiddenTag.textContent = 'Filtered out';
+      hiddenTag.title = 'Judged off topic by Claude. Shown because you asked to see filtered-out items.';
+      meta.appendChild(hiddenTag);
+    }
 
     // The source name filters the list to that source (unless it already does).
     var source;
@@ -323,10 +340,26 @@
 
   // ---- Rendering -----------------------------------------------------------
 
+  function byNewest(a, b) {
+    var pa = String(a.published || a.fetched || '');
+    var pb = String(b.published || b.fetched || '');
+    if (pa !== pb) return pa < pb ? 1 : -1;
+    return String(a.id) < String(b.id) ? -1 : 1;
+  }
+
+  // The items the list works from: the latest news, plus the hidden items when
+  // the reader has asked for them.
+  function listItems() {
+    if (!state.showHidden || !state.hiddenItems || !state.hiddenItems.length) return state.items;
+    if (!state.merged) state.merged = state.items.concat(state.hiddenItems).sort(byNewest);
+    return state.merged;
+  }
+
   function filteredItems() {
     var type = FILTERS[state.filter];
-    if (!type && !state.source) return state.items;
-    return state.items.filter(function (item) {
+    var all = listItems();
+    if (!type && !state.source) return all;
+    return all.filter(function (item) {
       return (!type || item.type === type) && (!state.source || item.source_id === state.source);
     });
   }
@@ -339,6 +372,56 @@
   function render() {
     if (state.search) renderSearch();
     else renderNews();
+    renderHiddenToggle();
+  }
+
+  // ---- Hidden items --------------------------------------------------------
+
+  function hiddenCount() {
+    if (state.hiddenItems) return state.hiddenItems.length;
+    var counts = state.meta && state.meta.counts;
+    return counts && typeof counts.items_in_hidden === 'number' ? counts.items_in_hidden : 0;
+  }
+
+  // Shown below the list when there are hidden items and no search is running
+  // (search covers only the items on the page).
+  function renderHiddenToggle() {
+    var n = hiddenCount();
+    el.hiddenNote.hidden = !n || !!state.search || state.newsStatus !== 'ready';
+    if (el.hiddenNote.hidden) return;
+    var b = el.hiddenToggle;
+    b.disabled = state.hiddenStatus === 'loading';
+    b.setAttribute('aria-pressed', state.showHidden ? 'true' : 'false');
+    if (state.hiddenStatus === 'loading') b.textContent = 'Loading the filtered-out items.';
+    else if (state.hiddenStatus === 'error') b.textContent = 'The filtered-out items could not be loaded. Try again.';
+    else if (state.showHidden) b.textContent = n === 1 ? 'Hide the item filtered out as off topic' : 'Hide the ' + n + ' items filtered out as off topic';
+    else b.textContent = 'Show ' + (n === 1 ? '1 item' : n + ' items') + ' filtered out as off topic';
+  }
+
+  function afterHiddenChange() {
+    state.expanded = false;
+    render();
+    renderSources();
+  }
+
+  function toggleHidden() {
+    if (state.showHidden || state.hiddenItems) {
+      state.showHidden = !state.showHidden;
+      afterHiddenChange();
+      return;
+    }
+    state.hiddenStatus = 'loading';
+    renderHiddenToggle();
+    fetchJson('data/hidden.json').then(function (data) {
+      state.hiddenItems = (data && Array.isArray(data.items)) ? data.items : [];
+      state.merged = null;
+      state.hiddenStatus = 'ready';
+      state.showHidden = true;
+      afterHiddenChange();
+    }).catch(function () {
+      state.hiddenStatus = 'error';
+      renderHiddenToggle();
+    });
   }
 
   function renderNews() {
@@ -468,6 +551,7 @@
     }
     renderSources();
     renderSourceFilter();
+    renderHiddenToggle();
   }
 
   // The sources column: one button per enabled source, with the number of its
@@ -487,7 +571,7 @@
       return;
     }
     var counts = {};
-    state.items.forEach(function (item) {
+    listItems().forEach(function (item) {
       if (item.source_id) counts[item.source_id] = (counts[item.source_id] || 0) + 1;
     });
     sources.forEach(function (s) {

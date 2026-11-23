@@ -42,7 +42,7 @@ tests/                         pytest on saved fixtures; node tests for search
 
 ## Data contract (Python job writes, page reads)
 
-The Pages artifact is `site/`, plus `news.json`, `meta.json` and `search.json` copied to `_site/data/`, plus `feed.xml` copied to `_site/feed.xml`. In the workflow these come from the `data` branch (D30). The page fetches relative URLs `data/news.json`, `data/meta.json`, `data/search.json`.
+The Pages artifact is `site/`, plus `news.json`, `hidden.json`, `meta.json` and `search.json` copied to `_site/data/`, plus `feed.xml` copied to `_site/feed.xml`. In the workflow these come from the `data` branch (D30). The page fetches relative URLs `data/news.json`, `data/meta.json`, `data/search.json`, and `data/hidden.json` only when the reader asks to see filtered-out items.
 
 ### Item (news.json, archive files)
 
@@ -67,10 +67,15 @@ The Pages artifact is `site/`, plus `news.json`, `meta.json` and `search.json` c
 - `type` is one of `paper`, `lean`, `news`, `blog`, `social`.
 - `summary` (at most 160 characters), `score` (1 to 5) and `relevant` (true or false) are null until Claude has judged the item.
 - Additions to the plan's schema: `source_id` (the key in `config/sources.yaml`, so an item can be traced to its source entry) and `relevant` (Phase 3 says every item gets it).
+- `hidden: true` (optional) marks an item Claude judged off topic from a source that is not trusted (D33).
 
 ### news.json
 
-`{"version": 1, "updated": "<ISO time>", "items": [Item, ...]}`, newest `published` first, at most 300 items.
+`{"version": 1, "updated": "<ISO time>", "items": [Item, ...]}`, newest `published` first, at most 300 items, hidden items left out.
+
+### hidden.json
+
+The same shape as news.json, holding the newest 300 hidden items (D33).
 
 ### archive/YYYY-MM.json
 
@@ -87,7 +92,7 @@ The Pages artifact is `site/`, plus `news.json`, `meta.json` and `search.json` c
 }
 ```
 
-Rows are arrays to keep the file small. `authors` is added to the plan's list because the plan boosts authors in search; `source_id` is added for the source filter (D29).
+Rows are arrays to keep the file small. Hidden items are left out. `authors` is added to the plan's list because the plan boosts authors in search; `source_id` is added for the source filter (D29).
 
 ### meta.json
 
@@ -96,7 +101,7 @@ Rows are arrays to keep the file small. `authors` is added to the plan's list be
   "version": 1,
   "last_run": "2026-11-23T03:17:00Z",
   "duration_seconds": 12.3,
-  "counts": {"items_in_news": 120, "new_kept": 4, "new_rejected": 30, "archive_total": 800},
+  "counts": {"items_in_news": 120, "items_in_hidden": 40, "new_kept": 4, "new_rejected": 30, "new_hidden": 2, "archive_total": 800},
   "sources": [
     {"id": "xena", "name": "Xena (Kevin Buzzard)", "type": "blog", "enabled": true,
      "status": "ok | not_modified | skipped | error", "http_status": 200,
@@ -113,9 +118,9 @@ Rows are arrays to keep the file small. `authors` is added to the plan's list be
 2. Each fetcher uses a 20 second timeout, two retries, `If-None-Match` and `If-Modified-Since`, and the User-Agent `baif-news-bot/1.0 (+https://github.com/Beneficial-AI-Foundation/ai-formalization-news)`. A 304 means no new items.
 3. Dedup: normalise the URL (lower-case host, drop `utm_*` and fragments, arXiv to `abs/<id>` without version), build `id` (`arxiv:<id>` for arXiv, otherwise `u:` plus the first 16 hex digits of the SHA-1 of the normalised URL). Drop an item whose id is in `seen.json` or whose normalised title matches a kept item from the last 7 days.
 4. Keyword filter for sources with `filter: keywords`: case-insensitive whole-phrase match on title and text, spaces or hyphens between words optional ("Lean 4" matches "Lean4"), plural endings allowed, "isation" treated as "ization".
-5. Claude step when `USE_CLAUDE` is on and a key exists (decision D6 for ordering). Rejected items are dropped. Items that could not be judged (API error, more than 100 waiting) are kept with null fields and retried on later runs while they are less than 3 days old.
+5. Claude step when `USE_CLAUDE` is on and a key exists (decision D6 for ordering). Items judged off topic are hidden, unless their source is trusted (D28, D33). Items that could not be judged (API error, more than 100 waiting) are kept with null fields and retried on later runs while they are less than 3 days old.
 6. Every item that reaches a final decision (kept, or rejected by keyword or Claude) is added to `seen.json`. Hacker News stories under 5 points are not marked seen, so they can qualify later (the fetcher looks back 48 hours each run).
-7. Write news.json, archive files, search.json, meta.json and `feed.xml` (Atom, newest 50) into the data directory after schema validation. A failing source records an error and the others still save.
+7. Write news.json, hidden.json, archive files, search.json, meta.json and `feed.xml` (Atom, newest 50) into the data directory after schema validation. A failing source records an error and the others still save.
 
 ## Stop conditions
 
@@ -184,6 +189,14 @@ The repository was empty apart from a README, so there is no in-project analog f
 - **D30. Data on its own branch** (Jin's decision, 23 Nov 2026). The plan has the job commit `data/` to `main`, but `main` requires a reviewed pull request, so the bot's hourly push would be rejected. The job now takes its code from `main` and keeps the generated files on a `data` branch with its own history, checked out as a git worktree in `data-branch/`; `data/` is git-ignored on `main`. The feed moved from `site/feed.xml` to `feed.xml` in the data directory, so all generated output is in one place; the site builder copies it to `_site/feed.xml`, so its address is unchanged. The first run starts the branch (with a short README and a `.gitignore` for `http_cache.json`). Fetches and pushes run from the main checkout, where `actions/checkout` keeps the credentials. The job runs only on `main`, since the data branch and the site are shared. `tests/test_data_branch.py` runs the script against a local bare repository: first run, a run with nothing new, a meta-only change, an edit by hand during a run, and a conflicting edit. Side benefit: the up to 720 data commits a month stay out of `main`'s history.
 - **D31. OpenRouter route** (Jin's decision, 23 Nov 2026, while the Anthropic account has no credit). The Claude step can reach the same model through OpenRouter's Anthropic-format endpoint (`https://openrouter.ai/api`) with the same SDK, prompt, schema and effort, so no second code path is needed. The route is chosen by which secret exists: `ANTHROPIC_API_KEY` first, then `OPENROUTER_API_KEY`; an empty value counts as unset, since GitHub passes a missing secret as an empty string. The OpenRouter key goes to the SDK as `auth_token`, which stops the SDK from reading `ANTHROPIC_API_KEY`. Model names stay Anthropic's in config and are translated (`claude-haiku-5-5` to `anthropic/claude-haiku-5.5`). The Sonnet and Opus server-side fallback beta is not sent to OpenRouter. `meta.json` records `claude.route`. Live checks on 23 Nov 2026: three items judged through the route with an empty `ANTHROPIC_API_KEY`, and a probe whose schema used a made-up key name came back in that shape, so OpenRouter applies `output_config.format`.
 - **D32. Secrets in the `github-pages` environment** (23 Nov 2026). The organization gives every member write access to its repositories, and a repository secret reaches any workflow run from any branch of the repository, so anyone who can push a branch could read it. The `github-pages` environment only admits `main` (its deployment branch policy), and the job already runs in it, so the API keys and the Zulip credentials go there as environment secrets: reading them needs code on `main`, which needs a reviewed pull request. The workflow reads them under the same names, so no code change was needed. Repository secrets with the same names still work.
+- **D33. Hide instead of delete, and keep borderline items** (Jin's decision, 23 Nov 2026, after the first Claude run). The first run through OpenRouter judged 100 arXiv papers and deleted 37. Some of them looked on topic by title (autoformalization, mechanised definitions, dependent type theory). Re-judging the same 37 showed that Haiku is inconsistent on borderline items. The same prompt kept 12 of them an hour later. The new prompt kept "Datatypes In, Zippers Out!" in one batch and dropped it in another. Two changes:
+  - **Hide instead of delete.** An item judged off topic from a source that is not trusted stays in the archive with `relevant: false` and `hidden: true`. It is left out of news.json, search.json and the feed, and listed in `hidden.json` (newest 300). A switch below the list ("Show N items filtered out as off topic") loads hidden.json and mixes those items into the list, dimmed and tagged "Filtered out". Search still covers only the items on the page. A wrong call can be undone by clearing the item's judgement in its archive file, and the next run judges it again. Hidden items are not judged again on their own and do not count as kept in the per-source counts. A held title duplicate (D21) is still released for its own judgement.
+  - **Keep borderline items.** The prompt now counts mechanised proofs in any field, the type theory, logic and semantics under proof assistants, and autoformalization into any formal language. It also says: "When you are unsure, or the text is too short to tell, and the item could plausibly be about one of these topics, mark it relevant with score 2."
+
+  Measured on Haiku 5.5 through OpenRouter:
+  - On the 37 deleted papers, the new prompt keeps 21, against 12 for the old prompt run again. The clearly off-topic papers (turbofans, ridge regression, Latin rectangles) stay out.
+  - On the 100-item comparison set it keeps 84, against 83 for the old prompt and 86 for Sonnet. Agreement with Sonnet is 94, against 95.
+  - The cost is unchanged.
 
 ## Follow-ups
 

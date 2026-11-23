@@ -14,6 +14,7 @@ from news.util import parse_iso
 
 SCHEMA_PATH = ROOT / "schema" / "news.schema.json"
 NEWS_LIMIT = 300
+HIDDEN_LIMIT = 300
 SEARCH_TEXT_LIMIT = 300
 SEARCH_FIELDS = ["id", "type", "source", "title", "url", "published", "text", "authors", "source_id"]
 
@@ -120,17 +121,34 @@ class Archive:
         }
 
 
-def news_document(archive_items: list[dict[str, Any]]) -> dict[str, Any]:
-    items = sort_newest_first(archive_items)[:NEWS_LIMIT]
+def is_hidden(item: dict[str, Any]) -> bool:
+    """Judged off topic by Claude (from a source that is not trusted)."""
+    return item.get("hidden") is True
+
+
+def _document(items: list[dict[str, Any]], limit: int) -> dict[str, Any]:
+    items = sort_newest_first(items)[:limit]
     # "updated" is the newest fetch time among the items, not the run time, so a
-    # run that finds nothing new leaves news.json byte-for-byte unchanged.
+    # run that finds nothing new leaves the file byte-for-byte unchanged.
     updated = max((i["fetched"] for i in items), default=None)
     return {"version": 1, "updated": updated, "items": items}
+
+
+def news_document(archive_items: list[dict[str, Any]]) -> dict[str, Any]:
+    """The newest items the page shows: everything except hidden items."""
+    return _document([i for i in archive_items if not is_hidden(i)], NEWS_LIMIT)
+
+
+def hidden_document(archive_items: list[dict[str, Any]]) -> dict[str, Any]:
+    """The newest hidden items, which the page loads only when asked to show them."""
+    return _document([i for i in archive_items if is_hidden(i)], HIDDEN_LIMIT)
 
 
 def search_document(archive_items: list[dict[str, Any]], synonyms: list[list[str]]) -> dict[str, Any]:
     rows = []
     for i in sort_newest_first(archive_items):
+        if is_hidden(i):
+            continue
         text = (i.get("summary") or i.get("source_text") or "")[:SEARCH_TEXT_LIMIT]
         authors = ", ".join(i.get("authors", [])[:5])
         rows.append([i["id"], i["type"], i["source"], i["title"], i["url"], i["published"], text, authors, i["source_id"]])

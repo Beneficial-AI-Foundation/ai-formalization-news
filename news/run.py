@@ -26,6 +26,7 @@ from news.store import (
     Archive,
     Validator,
     dump_json,
+    hidden_document,
     load_json,
     news_document,
     search_document,
@@ -71,7 +72,7 @@ def run(
 
     def is_trusted(item: dict[str, Any]) -> bool:
         """Sources marked `trusted: true` are on topic by design: Claude writes the
-        summary, type and score for their items but never drops them."""
+        summary, type and score for their items but never hides them."""
         try:
             return bool(cfg.source(item["source_id"]).param("trusted", False))
         except KeyError:  # the source was removed from the config
@@ -127,7 +128,7 @@ def run(
 
     # 3. Claude: judge new items and any earlier ones still waiting.
     claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "route": None, "input_tokens": 0, "output_tokens": 0,
-                                   "requests": 0, "items_sent": 0, "judged": 0, "rejected": 0, "kept_trusted": 0, "released": 0,
+                                   "requests": 0, "items_sent": 0, "judged": 0, "hidden": 0, "kept_trusted": 0, "released": 0,
                                    "refusals": [], "errors": []}
     if use_claude:
         queue = sorted(waiting(), key=lambda i: (i["fetched"], i["id"]))
@@ -145,24 +146,29 @@ def run(
                 item = archive.get(item_id)
                 if item is None:
                     continue
-                if not j.relevant and is_trusted(item):
-                    claude_meta["kept_trusted"] += 1  # on topic by design: keep it, marked not relevant
-                elif not j.relevant:
-                    archive.remove(item_id)
-                    claude_meta["rejected"] += 1
+                # Judged off topic, from a source that is not trusted: hide it instead of
+                # deleting it. It stays in the archive (and hidden.json), so a wrong call
+                # can be undone; the page, search and the feed leave it out.
+                hide = not j.relevant and not is_trusted(item)
+                item = dict(item)
+                item.update(relevant=j.relevant, score=j.score, summary=j.summary)
+                if item["type"] != "social":  # the Social button keeps every post
+                    item["type"] = j.type
+                if hide:
+                    item["hidden"] = True
+                archive.put(item)
+                if hide:
+                    claude_meta["hidden"] += 1
                     alts = seen.alts.pop(item_id, [])
-                    if alts:  # release the next copy of the same story for judging on a later run
+                    if alts:  # give the next copy of the same story its own judgement on a later run
                         nxt = dict(alts[0], fetched=iso(now))
                         archive.put(nxt)
                         if alts[1:]:
                             seen.alts[nxt["id"]] = alts[1:]
                         claude_meta["released"] += 1
                     continue
-                item = dict(item)
-                item.update(relevant=j.relevant, score=j.score, summary=j.summary)
-                if item["type"] != "social":  # the Social button keeps every post
-                    item["type"] = j.type
-                archive.put(item)
+                if not j.relevant:
+                    claude_meta["kept_trusted"] += 1  # on topic by design: shown, marked not relevant
                 seen.add_title(item["title"], now)
                 seen.alts.pop(item_id, None)  # its copies were duplicates after all
         else:
@@ -170,13 +176,15 @@ def run(
             claude_meta.update(model=claude.model_name(cfg.claude), route=claude.api_route())
 
     for rep in reports:
-        rep.kept = sum(1 for i, s in origin.items() if s == rep.id and archive.get(i) is not None)
+        rep.kept = sum(1 for i, s in origin.items() if s == rep.id and (archive.get(i) or {"hidden": True}).get("hidden") is not True)
 
     # 4. Build every output, check the schema, then write.
     validator = Validator()
     all_items = archive.all_items()
     news_doc = news_document(all_items)
     validator.check(news_doc, "news.json")
+    hidden_doc = hidden_document(all_items)
+    validator.check(hidden_doc, "hidden.json")
     archive_docs = archive.documents()
     for month in archive.dirty:
         validator.check(archive_docs[month], f"archive/{month}.json")
@@ -192,9 +200,11 @@ def run(
         "duration_seconds": round(time.monotonic() - t0, 1),
         "counts": {
             "items_in_news": len(news_doc["items"]),
+            "items_in_hidden": len(hidden_doc["items"]),
             "archive_total": len(all_items),
             "new_kept": sum(r.kept for r in reports),
-            "new_rejected": rejected + claude_meta["rejected"],
+            "new_rejected": rejected,
+            "new_hidden": claude_meta["hidden"],
         },
         "sources": [r.to_json() for r in reports],
         "errors": errors,
@@ -205,7 +215,8 @@ def run(
     for month in sorted(archive.dirty):
         if write_if_changed(data_dir / "archive" / f"{month}.json", dump_json(archive_docs[month])):
             changed.append(f"archive/{month}.json")
-    for name, doc in (("news.json", news_doc), ("search.json", search_doc), ("seen.json", seen.to_json())):
+    for name, doc in (("news.json", news_doc), ("hidden.json", hidden_doc), ("search.json", search_doc),
+                      ("seen.json", seen.to_json())):
         if write_if_changed(data_dir / name, dump_json(doc)):
             changed.append(name)
     if write_if_changed(data_dir / "feed.xml", build_atom(news_doc["items"], cfg.site)):
@@ -213,7 +224,8 @@ def run(
     write_if_changed(data_dir / "meta.json", dump_json(meta))
     write_if_changed(cache_path, json.dumps(cache, indent=1, sort_keys=True) + "\n")
 
-    log(f"[done] {meta['counts']['new_kept']} new items kept, {meta['counts']['new_rejected']} rejected, "
+    log(f"[done] {meta['counts']['new_kept']} new items kept, {meta['counts']['new_rejected']} rejected by keywords, "
+        f"{meta['counts']['new_hidden']} hidden by Claude, "
         f"{len(errors)} source errors; changed: {', '.join(changed) or 'nothing'}")
     meta["_changed"] = changed  # for tests; not written
     return meta
