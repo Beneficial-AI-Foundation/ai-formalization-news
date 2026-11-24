@@ -120,6 +120,7 @@ Edit `config/sources.yaml`. Copy an existing entry, give it a new `id`, and set:
 - `trusted`: optional. Set `true` for a source that is on topic by design (a Lean or proof-assistant blog, for example). With Claude on, its items still get a summary but are never hidden as not relevant.
 - `stable_only`: optional, for `github_releases` sources. Set `true` to skip release candidates and nightly builds.
 - `exclude_titles`: optional, for `feed` sources. A regular expression; entries whose title matches it anywhere, ignoring case, are skipped. The GitHub commit feeds use `'^(Merge pull request|Merge branch|Bump )'`.
+- `channels`, `min_messages`, `min_people` and `lookback_hours`: for `zulip` sources (see Lean Zulip).
 
 Merge the change into `main` through a pull request; the next hourly run picks it up, or run the workflow by hand from the Actions tab. To test it first, run `python -m news.fetch --dry-run --source <id>` locally.
 
@@ -146,6 +147,17 @@ While the Anthropic account has no credit, the same model (Claude Haiku 5.5, sam
 
 To switch back: add `ANTHROPIC_API_KEY` (the next run uses it), then delete `OPENROUTER_API_KEY`, and ask the OpenRouter admin to revoke the site key. Stored summaries stay as they are; nothing is judged again.
 
+## Lean Zulip
+
+A Zulip bot, "BAIF news reader", reads the Lean Zulip once an hour and never posts. Its address and key are the `ZULIP_EMAIL` and `ZULIP_API_KEY` secrets of the `github-pages` environment. Every channel it reads is web-public: anyone can read it without an account.
+
+- `lean-zulip` (trusted): every new topic in "General announcements" and "Project announcements", moderated channels with about one new topic every two or three days.
+- `lean-zulip-discussions` (judged by Claude): new topics in `general`, "AI authored projects", "Autoformalization" and "Machine Learning for Theorem Proving" that, within 48 hours of their first message, reach 10 messages from 5 people (`min_messages`, `min_people`, `lookback_hours`). A topic below the thresholds is not marked seen, so it can still qualify on a later run.
+
+Each item shows the topic title, links to its first message, and keeps up to 600 characters of that message. Zulip returns a channel's newest messages, so for each topic that qualifies the job also asks for the topic's real first message, to skip old topics that only have new replies.
+
+If a channel is renamed, its run reports "channel(s) failed" in `meta.json` and the other channels still work; update the names in `channels`. To replace the key: in Zulip, open Settings, Personal settings, Bots, and generate a new API key for the bot (or deactivate the bot to stop it at once), then update `ZULIP_API_KEY`.
+
 ## If the page stops updating
 
 GitHub disables scheduled workflows in a public repository after 60 days with no repository activity. The page shows a warning when its data is more than 3 hours old. To turn the schedule back on: open the Actions tab, select "Update news", and press "Enable workflow". Then run it once by hand.
@@ -156,7 +168,7 @@ GitHub disables scheduled workflows in a public repository after 60 days with no
 2. Settings, Pages: set the source to "GitHub Actions".
 3. Settings, Actions, General: set workflow permissions to "Read and write".
    `main` can require pull requests, since the workflow never pushes to it. On the `data` branch, block only deletion and force pushes (a ruleset): the workflow pushes to it as `github-actions[bot]`, and people commit corrections to it directly.
-4. Optional: add `ANTHROPIC_API_KEY` (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on, as secrets of the `github-pages` environment (see Claude summaries).
+4. Optional: add `ANTHROPIC_API_KEY` (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY`, as secrets of the `github-pages` environment (see Claude summaries and Lean Zulip).
 
 ## Licence
 

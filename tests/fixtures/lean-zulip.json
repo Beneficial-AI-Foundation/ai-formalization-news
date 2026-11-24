@@ -1,4 +1,5 @@
 {
+ "General announcements": {
   "result": "success",
   "msg": "",
   "found_anchor": false,
@@ -7,8 +8,72 @@
   "history_limited": false,
   "anchor": 10000000000000000,
   "messages": [
-    {"id": 560001, "sender_full_name": "Example Maintainer", "stream_id": 113486, "display_recipient": "announce", "subject": "Mathlib v4.37.0 bump", "content": "Mathlib has moved to Lean v4.37.0-rc1. Please report regressions in #mathlib4.", "timestamp": 1795327200, "type": "stream"},
-    {"id": 560002, "sender_full_name": "Another Person", "stream_id": 113486, "display_recipient": "announce", "subject": "Mathlib v4.37.0 bump", "content": "Thanks!", "timestamp": 1795330800, "type": "stream"},
-    {"id": 560010, "sender_full_name": "Workshop Organiser", "stream_id": 113486, "display_recipient": "announce", "subject": "Lean Together 2027: call for talks", "content": "<p>Lean Together 2027 will be held online in January. Submit a talk by 15 December.</p>", "timestamp": 1795413600, "type": "stream"}
+   {
+    "id": 590001,
+    "sender_id": 9001,
+    "sender_full_name": "Person 1",
+    "stream_id": 113486,
+    "display_recipient": "General announcements",
+    "subject": "Lean 3 is end of life",
+    "content": "An old announcement, outside the window.",
+    "timestamp": 1790219820,
+    "type": "stream"
+   },
+   {
+    "id": 590002,
+    "sender_id": 9002,
+    "sender_full_name": "Person 2",
+    "stream_id": 113486,
+    "display_recipient": "General announcements",
+    "subject": "Lean 3 is end of life",
+    "content": "Reply 1.",
+    "timestamp": 1790220420,
+    "type": "stream"
+   },
+   {
+    "id": 600001,
+    "sender_id": 9001,
+    "sender_full_name": "Person 1",
+    "stream_id": 113486,
+    "display_recipient": "General announcements",
+    "subject": "Lean v4.37.0 released",
+    "content": "Lean v4.37.0 is out. Thanks to @**Person 3** and @_**Person 4|9004** for the release notes.",
+    "timestamp": 1795231020,
+    "type": "stream"
+   },
+   {
+    "id": 600002,
+    "sender_id": 9002,
+    "sender_full_name": "Person 2",
+    "stream_id": 113486,
+    "display_recipient": "General announcements",
+    "subject": "Lean v4.37.0 released",
+    "content": "Reply 1.",
+    "timestamp": 1795231620,
+    "type": "stream"
+   }
   ]
+ },
+ "Project announcements": {
+  "result": "success",
+  "msg": "",
+  "found_anchor": false,
+  "found_oldest": false,
+  "found_newest": true,
+  "history_limited": false,
+  "anchor": 10000000000000000,
+  "messages": [
+   {
+    "id": 610001,
+    "sender_id": 9005,
+    "sender_full_name": "Person 5",
+    "stream_id": 270676,
+    "display_recipient": "Project announcements",
+    "subject": "Formalising the Kakeya conjecture in Lean",
+    "content": "<p>We have started a project to formalise the Kakeya conjecture.</p>",
+    "timestamp": 1795385820,
+    "type": "stream"
+   }
+  ]
+ }
 }
