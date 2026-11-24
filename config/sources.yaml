@@ -10,6 +10,11 @@
 #   max_age_days  optional: ignore items published longer ago than this (default 30)
 #   trusted  optional: true for sources that are on topic by design; with Claude on, their
 #            items get a summary but are never hidden as not relevant (default false)
+#   needs_claude  optional: true for broad sources; Claude judges each item before it is
+#            stored, an item judged off topic is dropped (not hidden), and without Claude the
+#            source's items wait (default false)
+#   match    optional, hackernews only: any keeps every story with min_points, whatever its
+#            words (default: a keyword must match)
 #   stable_only  optional, github_releases only: true skips pre-releases (release
 #            candidates, nightly builds); default false keeps them, marked "(pre-release)"
 #   exclude_titles  optional, feed only: a regular expression; entries whose title
@@ -136,6 +141,23 @@ sources:
     min_points: 5
     lookback_hours: 48
     note: Searches each keyword; keeps stories whose title or link matches a keyword and that have at least min_points.
+
+  - id: hackernews-top
+    name: Hacker News (200+ points)
+    kind: hackernews
+    type: news
+    enabled: true
+    filter: none
+    match: any
+    needs_claude: true
+    every: 1h
+    min_points: 200
+    lookback_hours: 48
+    note: >-
+      Big stories whose title has no keyword. About 22 stories a day reach 200 points; over the
+      week to 24 Nov 2026 Claude judged 8 to 10 of 157 relevant (most of them on the Riemann
+      Hypothesis proofs, plus VP != VNP once it could read the link). The rest are dropped, not
+      hidden, so they do not fill the list of hidden items.
 
   # The Lean Zulip, read by the "BAIF news reader" bot (secrets ZULIP_EMAIL and
   # ZULIP_API_KEY). Every channel below is web-public: anyone can read it without an account.
