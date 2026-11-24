@@ -2,7 +2,7 @@
 
 A static news page kept by the Beneficial AI Foundation. Every hour a GitHub Actions job collects new papers, Lean and Mathlib updates, blog posts and social posts about AI and formal verification, removes duplicates, optionally asks Claude to check relevance and write a one-sentence summary, and redeploys the page on GitHub Pages. There is no server and no database.
 
-- Page: <https://beneficial-ai-foundation.github.io/ai-formalization-news/> (once Pages is switched on)
+- Page: <https://beneficial-ai-foundation.github.io/ai-formalization-news/>
 - Atom feed: `feed.xml` on the same site
 
 ## How it works
