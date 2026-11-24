@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:b1de6c65dd1db693",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "June Rousseau has written an excellent blog post about her formal verification work on the CHERIoT switcher. The switcher is the core of…",
+   "url": "https://infosec.exchange/@david_chisnall/117671879185759191",
+   "authors": [
+    "@david_chisnall@infosec.exchange"
+   ],
+   "published": "2026-11-24T14:26:23Z",
+   "fetched": "2026-11-24T15:21:33Z",
+   "source_text": "June Rousseau has written an excellent blog post about her formal verification work on the CHERIoT switcher. The switcher is the core of the CHERIoT trusted computing base. It is the one component in the system that can simultaneously hold references to two threads or two compartments. It is…",
+   "summary": "Mastodon post pointing to a blog post by June Rousseau on her formal verification work on the CHERIoT switcher, the core of its trusted computing base.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:f96dd7c4d2354d51",
    "type": "social",
    "source": "#leanprover on Mathstodon",
@@ -513,6 +530,23 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware predict-and-verify system that allocates computation across unresolved subgoals and heterogeneous LLM solvers. BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises the allocation as verification feedback…",
    "summary": "Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:ea6aea79862d0c1c",
+   "type": "lean",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "lean4lean, ZFC, equiconsistency",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/lean4lean.2C.20ZFC.2C.20equiconsistency/near/642764902",
+   "authors": [
+    "Timothy Chow"
+   ],
+   "published": "2026-11-23T04:34:57Z",
+   "fetched": "2026-11-24T15:21:33Z",
+   "source_text": "Discussed on the Lean Zulip in #general: 62 messages from 11 people. Mirek Olšák [said](https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20why.20can.20I.20trust.20Lean.3F/near/642740132): ````quote I wrote something there. Hopefully, representative enough. ```` Excellent. I have a question about the equiconsistency claim. I thought that this is technically still not quite proved? Mario's thesis turned out to have a gap, and was focused on Lean 3 anyway. There isn't even yet a completely agreed-upon definition of what Lean 4 \"is\", let alone a proof about its…",
+   "summary": "Lean Zulip discussion on whether Lean 4 is equiconsistent with ZFC, noting a gap in an earlier thesis and the lack of an agreed definition of Lean 4.",
    "score": 3,
    "relevant": true
   },

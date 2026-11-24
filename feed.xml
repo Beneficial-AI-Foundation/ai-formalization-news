@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T12:28:07Z</updated>
+ <updated>2026-11-24T15:21:33Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://infosec.exchange/@david_chisnall/117671879185759191</id>
+  <title>June Rousseau has written an excellent blog post about her formal verification work on the CHERIoT switcher. The switcher is the core of…</title>
+  <link href="https://infosec.exchange/@david_chisnall/117671879185759191" rel="alternate" />
+  <published>2026-11-24T14:26:23Z</published>
+  <updated>2026-11-24T14:26:23Z</updated>
+  <author>
+   <name>@david_chisnall@infosec.exchange</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Mastodon post pointing to a blog post by June Rousseau on her formal verification work on the CHERIoT switcher, the core of its trusted computing base. (#formalverification on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117670863586977826</id>
   <title>Interactive theorem proving in Lean. ~ Florent Schaffhauser. https://matematiflo.github.io/LeanCompactCourse2026/ #LeanProver #LeanLang…</title>
@@ -358,6 +370,18 @@
   <summary type="text">Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving. (arXiv cs.AI)</summary>
  </entry>
  <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/lean4lean.2C.20ZFC.2C.20equiconsistency/near/642764902</id>
+  <title>lean4lean, ZFC, equiconsistency</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/lean4lean.2C.20ZFC.2C.20equiconsistency/near/642764902" rel="alternate" />
+  <published>2026-11-23T04:34:57Z</published>
+  <updated>2026-11-23T04:34:57Z</updated>
+  <author>
+   <name>Timothy Chow</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip discussion on whether Lean 4 is equiconsistent with ZFC, noting a gap in an earlier thesis and the lack of an agreed definition of Lean 4. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
   <id>https://pengowray.github.io/riemann-zeta-proof-visualizer</id>
   <title>Treemap of the Riemann Hypothesis Lean Proof</title>
   <link href="https://pengowray.github.io/riemann-zeta-proof-visualizer" rel="alternate" />
@@ -617,29 +641,5 @@
   </author>
   <category term="social" />
   <summary type="text">Lean and Mathlib communities certify Levent Alpöge's Lean proof of the Riemann Hypothesis as correct. (Lean FRO on Bluesky)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140</id>
-  <title>Reintroduction to proofs (Verbose Lean edition). ~ Alexander Bentkamp, Jon Eugster. https://adam.math.hhu.de/#/g/emilyriehl/VerboseReintrod…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117655235613735140" rel="alternate" />
-  <published>2026-11-21T15:53:42Z</published>
-  <updated>2026-11-21T15:53:42Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Verbose Lean edition of Reintroduction to Proofs, a Lean-based course by Bentkamp and Eugster. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://functional.cafe/@leanprover/117655086500590301</id>
-  <title>The Lean and Mathlib communities have released a joint statement on the Lean verification of the Riemann Hypothesis, endorsed by the Lean…</title>
-  <link href="https://functional.cafe/@leanprover/117655086500590301" rel="alternate" />
-  <published>2026-11-21T15:15:47Z</published>
-  <updated>2026-11-21T15:15:47Z</updated>
-  <author>
-   <name>@leanprover@functional.cafe</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Joint Lean and Mathlib statement endorsed by Lean FRO and Mathlib Initiative on the Lean verification of the Riemann Hypothesis. (#formalverification on Mathstodon)</summary>
  </entry>
 </feed>
