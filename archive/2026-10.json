@@ -635,6 +635,23 @@
    "relevant": true
   },
   {
+   "id": "u:c0045f3b65218ae3",
+   "type": "social",
+   "source": "#isabelle on Mathstodon",
+   "source_id": "mathstodon-isabelle",
+   "title": "Both families are proved for every n and checked in Isabelle/HOL; the two smallest pairs are also checked in Lean 4. Note (English and…",
+   "url": "https://mathstodon.xyz/@karlesmarin/117505596738755135",
+   "authors": [
+    "@karlesmarin@mathstodon.xyz"
+   ],
+   "published": "2026-10-26T05:38:34Z",
+   "fetched": "2026-11-24T04:23:37Z",
+   "source_text": "Both families are proved for every n and checked in Isabelle/HOL; the two smallest pairs are also checked in Lean 4. Note (English and Spanish), with the programs of the search: https://doi.org/10.5281/zenodo.23656979 Blueprint, with every statement and its dependencies, the formal proofs opening…",
+   "summary": "Two families of results proved for every n in Isabelle/HOL, with the smallest pairs also checked in Lean 4, plus a blueprint.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2610.34723",
    "type": "paper",
    "source": "arXiv cs.LO",

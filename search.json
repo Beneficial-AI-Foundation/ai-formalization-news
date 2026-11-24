@@ -90,6 +90,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:e96a58f2056fe94b",
+   "social",
+   "#itp on Mathstodon",
+   "Interval-based verification of neural networks: formally verified!. ~ Achim D. Brucker, Amy Stell…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117665325741464147",
+   "2026-11-23T10:39:45Z",
+   "Paper on interval-based verification of neural networks, presented as formally verified in Isabelle/HOL.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
+  ],
+  [
    "u:a0961ac118cfb251",
    "social",
    "#leanprover on Mathstodon",
@@ -398,6 +409,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:7eb958ff228ce115",
+   "social",
+   "#itp on Mathstodon",
+   "Path lifting and homology of the circle and punctured plane (in Isabelle/HOL). ~ Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117649942692582373",
+   "2026-11-20T17:27:38Z",
+   "Archive of Formal Proofs entry formalizing path lifting and homology of the circle and punctured plane in Isabelle/HOL.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
+  ],
+  [
    "u:fd71a9d69b0ab322",
    "social",
    "#formalverification on Mathstodon",
@@ -475,6 +497,28 @@
    "arxiv-api"
   ],
   [
+   "u:c6031e195e7bf55c",
+   "social",
+   "#itp on Mathstodon",
+   "Digitalizing Physics in Lean 4 (An open-source, community project to digitalize results from physics into Lean 4). https://physlib.io/…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190",
+   "2026-11-19T16:43:23Z",
+   "PhysLib, a community project digitalizing physics results into Lean 4.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
+  ],
+  [
+   "u:7e7ff93a0c8a5fcf",
+   "social",
+   "#itp on Mathstodon",
+   "Formalizing mathematics in Lean with AI (Session 4: Four areas, and your own theorem). ~ Michail Karatarakis…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117644039667708626",
+   "2026-11-19T16:26:25Z",
+   "Session 4 slides of a course on formalizing mathematics in Lean with AI, covering four areas and a own theorem.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
+  ],
+  [
    "arxiv:2611.26221",
    "paper",
    "arXiv cs.PL",
@@ -484,6 +528,28 @@
    "Proves and mechanizes in Lean 4 a data-flow summary approach for calls from programs to LLMs in LLM-integrated applications.",
    "Zihao Xu, Yuekang Li, Ruitao Feng, Haifeng Shen",
    "arxiv-api"
+  ],
+  [
+   "u:fc3fa5dac97aa48c",
+   "social",
+   "#itp on Mathstodon",
+   "Formalizing mathematics in Lean with AI (Session 3: AI tools). ~ Michail Karatarakis…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117643372828567065",
+   "2026-11-19T13:36:50Z",
+   "Session 3 slides of a course on formalizing mathematics in Lean with AI, covering AI tools.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
+  ],
+  [
+   "u:0489b0a7435fbe6d",
+   "social",
+   "#itp on Mathstodon",
+   "Formalizing mathematics in Lean with AI (Session 2: From paper to Lean). ~ Michail Karatarakis…",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117643101972839115",
+   "2026-11-19T12:27:57Z",
+   "Session slides from a course on formalizing mathematics in Lean with AI, covering paper-to-Lean translation.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-itp"
   ],
   [
    "u:3d403f7f34e4908a",
@@ -662,6 +728,17 @@
    "arxiv-api"
   ],
   [
+   "u:385a630bf442ac11",
+   "social",
+   "#isabelle on Mathstodon",
+   "Paper (English and Spanish): https://doi.org/10.5281/zenodo.24250503 Blueprint, each statement with its status, the Isabelle/HOL pieces…",
+   "https://mathstodon.xyz/@karlesmarin/117626936724114885",
+   "2026-11-16T15:56:55Z",
+   "Blueprint and paper with Isabelle/HOL formal pieces for a robust offset result, with statement status tracking.",
+   "@karlesmarin@mathstodon.xyz",
+   "mathstodon-isabelle"
+  ],
+  [
    "u:6657ef7daff028e4",
    "lean",
    "Lean 4 releases",
@@ -706,6 +783,17 @@
    "arxiv-api"
   ],
   [
+   "u:468a3240a3c2be4d",
+   "social",
+   "#rocq on Mathstodon",
+   "We've had extremely light weight versions of this for ages in #rocq. Some tactics (e.g. auto) are basically trying to auto-generate…",
+   "https://chaos.social/@raichoo/117625215008934995",
+   "2026-11-16T08:39:04Z",
+   "Discussion of AI-generated simplified proofs compared with Rocq tactics like auto that generate proofs automatically.",
+   "@raichoo@chaos.social",
+   "mathstodon-rocq"
+  ],
+  [
    "arxiv:2611.20671",
    "paper",
    "arXiv cs.CR",
@@ -726,6 +814,39 @@
    "Introduces view types for Rust to allow partial borrows, so methods can borrow only the fields they use, reducing borrow conflicts.",
    "Sasha Pak, Richard Willie, Umang Mathur, Fabian Muehlboeck, Alex Potanin",
    "arxiv-api"
+  ],
+  [
+   "u:3bb52d5ae84c9b58",
+   "social",
+   "#rocq on Mathstodon",
+   "TIL: #Coq has been renamed to #Rocq. I wonder why 🤔 What's next? Renaming Uranus? (inb4 Urectum)",
+   "https://chaos.social/@raichoo/117622918546222228",
+   "2026-11-15T22:55:03Z",
+   "Brief post noting that the Coq proof assistant has been renamed to Rocq.",
+   "@raichoo@chaos.social",
+   "mathstodon-rocq"
+  ],
+  [
+   "u:5ad97a007096098b",
+   "social",
+   "#agda on Mathstodon",
+   "I'm merely just trying to get familiar with the syntax. It's been quite a ride. The main issue is trying to figure out how I can do the…",
+   "https://chaos.social/@raichoo/117622911460179225",
+   "2026-11-15T22:53:14Z",
+   "Programmer learning Agda syntax and tactics, comparing them with Idris.",
+   "@raichoo@chaos.social",
+   "mathstodon-agda"
+  ],
+  [
+   "u:fd66bb890c55936e",
+   "social",
+   "#isabelle on Mathstodon",
+   "For a recent phonon-memory processor (ETH Zurich) the bound gives 1.00–1.14 % average infidelity per write, against 1.71 % measured…",
+   "https://mathstodon.xyz/@karlesmarin/117621833923812937",
+   "2026-11-15T18:19:12Z",
+   "Post on an infidelity bound for phonon-memory processors with a paper and blueprint, which may include Isabelle formal content.",
+   "@karlesmarin@mathstodon.xyz",
+   "mathstodon-isabelle"
   ],
   [
    "arxiv:2611.19940",
@@ -805,6 +926,17 @@
    "arxiv-api"
   ],
   [
+   "u:0458af2870998c0e",
+   "social",
+   "#agda on Mathstodon",
+   "#Agda 2.9.0 has just been released! github.com/agda/agda/releases/tag/v2.9.0 hackage.haskell.org/package/Agda-2.9.0/changelog",
+   "https://agda.club/objects/30dad3cc-d42b-4172-af44-d73ec6f7ccaf",
+   "2026-11-13T12:36:55Z",
+   "Announcement of Agda 2.9.0, a release of the dependently typed proof assistant with release notes linked.",
+   "",
+   "mathstodon-agda"
+  ],
+  [
    "arxiv:2611.18055",
    "paper",
    "arXiv cs.PL",
@@ -825,6 +957,17 @@
    "R2C2 validates C-to-Rust translation by proving in Rocq that the Rust program refines the C program at the LLVM IR level.",
    "Eunsu Kim, Sukyoung Ryu, Jaemin Hong",
    "arxiv-api"
+  ],
+  [
+   "u:a59c66f716370b1a",
+   "news",
+   "Agda releases",
+   "Agda v2.9.0",
+   "https://github.com/agda/agda/releases/tag/v2.9.0",
+   "2026-11-13T10:32:53Z",
+   "Release notes for Agda 2.9.0, covering parallel type checking, WASM support, local rewrite rules and a termination checker update.",
+   "github-actions[bot]",
+   "agda-releases"
   ],
   [
    "arxiv:2611.17884",
@@ -1034,6 +1177,17 @@
    "Megrez is a knowledge-guided agent that formalizes textbook mathematics in a Rocq library built on Morse-Kelley set theory.",
    "Tiancheng Xu, Wensheng Yu",
    "arxiv-api"
+  ],
+  [
+   "u:62c9b7a5de10c1ac",
+   "social",
+   "#isabelle on Mathstodon",
+   "@Theoremoftheday The same repository also has Isabelle/HOL: 101 theories at the same tag. Some are ports of the Lean modules (the…",
+   "https://mathstodon.xyz/@karlesmarin/117588789236301641",
+   "2026-11-09T22:15:31Z",
+   "Repository with 101 Isabelle/HOL theories, some ported from Lean modules, including Young's cosine inequality and submitted entries.",
+   "@karlesmarin@mathstodon.xyz",
+   "mathstodon-isabelle"
   ],
   [
    "u:8cbfac78780bbb34",
@@ -1738,6 +1892,17 @@
    "KAPPA is open-source software that uses language model agents to translate statistics paper proofs into Lean 4 with Mathlib and check them result by result.",
    "Zihua She, Xiao Wang",
    "arxiv-api"
+  ],
+  [
+   "u:c0045f3b65218ae3",
+   "social",
+   "#isabelle on Mathstodon",
+   "Both families are proved for every n and checked in Isabelle/HOL; the two smallest pairs are also checked in Lean 4. Note (English and…",
+   "https://mathstodon.xyz/@karlesmarin/117505596738755135",
+   "2026-10-26T05:38:34Z",
+   "Two families of results proved for every n in Isabelle/HOL, with the smallest pairs also checked in Lean 4, plus a blueprint.",
+   "@karlesmarin@mathstodon.xyz",
+   "mathstodon-isabelle"
   ],
   [
    "arxiv:2610.34723",

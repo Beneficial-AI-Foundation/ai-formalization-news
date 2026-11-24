@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-23T06:45:41Z",
+ "updated": "2026-11-24T04:23:37Z",
  "items": [
   {
    "id": "arxiv:2611.27631",
@@ -95,6 +95,24 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Abstracting a continuous-time Markov chain by grouping its states into blocks raises a fundamental question: which rates should the abstract chain use when states within a block have different exit rates and transition probabilities? We study harmonic-mean aggregation, which matches the mean waiting time and next-block distribution of a local experiment that uniformly selects a state within the block and observes its next jump. Equivalently, the abstract transition rates are averages of the concrete rates with inverse-exit-rate weights. Since the aggregation does not preserve reachability…",
    "summary": "Harmonic-mean aggregation of continuous-time Markov chains with reachability error bounds.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:4a892923ba4c5006",
+   "type": "social",
+   "source": "#isabelle on Mathstodon",
+   "source_id": "mathstodon-isabelle",
+   "title": "https://www.europesays.com/fr/1305726/ Euroméditerranée à Marseille : Isabelle Campagnola-Savon démissionne, Anthony Krehmeier pour la…",
+   "url": "https://pubeurope.com/@fr/117610760341418716",
+   "authors": [
+    "@fr@pubeurope.com"
+   ],
+   "published": "2026-11-13T19:23:03Z",
+   "fetched": "2026-11-24T04:23:37Z",
+   "source_text": "https://www.europesays.com/fr/1305726/ Euroméditerranée à Marseille : Isabelle Campagnola-Savon démissionne, Anthony Krehmeier pour la remplacer ? #2026 #actu #Actualités #Anthony #CampagnolaSavon #démissionne #EU #euroméditerranée #europe #FR #France #Isabelle #Krehmeier #Marseille #News…",
+   "summary": "French news article about a leadership change at Euroméditerranée in Marseille, unrelated to formal methods.",
    "score": 1,
    "relevant": false,
    "hidden": true
@@ -313,6 +331,24 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "A closed path can return to its starting point while analytic continuation reaches another branch. We construct a finite computational calculus in which retained logarithmic branches supply memory, analytic observations select operations, and descent through a covering exposes deeper memory. Three branch coordinates suffice, and every finite observation uses the same cubic power covering. Each program defines a globally real analytic return map whose integer-lattice execution is realized by actual path lifting. Our first theorem simulates every finite-alphabet, finite-control Post--Turing…",
    "summary": "A finite computational model based on analytic continuation and monodromy coverings.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:2293a386457393ed",
+   "type": "social",
+   "source": "#agda on Mathstodon",
+   "source_id": "mathstodon-agda",
+   "title": "Wanted to become a better programmer. Started learning Haskell since it would \"change the way I look at programming\". Got interested in…",
+   "url": "https://mathstodon.xyz/@vgarzareyna/117547617304658081",
+   "authors": [
+    "@vgarzareyna@mathstodon.xyz"
+   ],
+   "published": "2026-11-02T15:44:57Z",
+   "fetched": "2026-11-24T04:23:37Z",
+   "source_text": "Wanted to become a better programmer. Started learning Haskell since it would \"change the way I look at programming\". Got interested in type safety and types that express the intention behind a program. Learned about QuickCheck and property testing. I think I want to work writing Haskell. Learned…",
+   "summary": "Personal post about learning Haskell, type safety and property testing with QuickCheck, not formal verification.",
    "score": 1,
    "relevant": false,
    "hidden": true
