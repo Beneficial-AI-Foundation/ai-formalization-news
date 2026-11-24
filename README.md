@@ -99,7 +99,8 @@ Edit `config/sources.yaml`. Copy an existing entry, give it a new `id`, and set:
 - `filter`: `none` keeps every item; `keywords` keeps only items that match the `keywords` list. Use `keywords` for broad feeds.
 - `every`: `1h`, `6h` or `daily`.
 - `enabled`: `true` or `false`.
-- `trusted`: optional. Set `true` for a source that is on topic by design (a Lean or proof-assistant blog, for example). With Claude on, its items still get a summary but are never dropped as not relevant.
+- `trusted`: optional. Set `true` for a source that is on topic by design (a Lean or proof-assistant blog, for example). With Claude on, its items still get a summary but are never hidden as not relevant.
+- `stable_only`: optional, for `github_releases` sources. Set `true` to skip release candidates and nightly builds.
 
 Merge the change into `main` through a pull request; the next hourly run picks it up, or run the workflow by hand from the Actions tab. To test it first, run `python -m news.fetch --dry-run --source <id>` locally.
 

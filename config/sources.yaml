@@ -9,7 +9,9 @@
 #   every    how often to fetch: 1h, 6h, or daily (first run after 01:00 US Eastern each day)
 #   max_age_days  optional: ignore items published longer ago than this (default 30)
 #   trusted  optional: true for sources that are on topic by design; with Claude on, their
-#            items get a summary but are never dropped as not relevant (default false)
+#            items get a summary but are never hidden as not relevant (default false)
+#   stable_only  optional, github_releases only: true skips pre-releases (release
+#            candidates, nightly builds); default false keeps them, marked "(pre-release)"
 #   note     free text for maintainers
 #
 # To add a blog, copy one of the feed entries, give it a new id, and set its url.
@@ -38,6 +40,11 @@ keywords:
   - Dafny
   - Verus
   - ACL2
+  - Agda
+  - HOL4
+  - HOL Light
+  - Metamath
+  - Mizar
   - seL4
   - verified code
   - AI mathematics
@@ -66,7 +73,8 @@ sources:
       (cat:cs.LO OR cat:cs.PL OR cat:cs.AI OR cat:cs.LG OR cat:cs.SE OR cat:math.LO)
       AND (abs:"Lean 4" OR abs:Mathlib OR abs:autoformalization OR abs:"formal verification"
       OR abs:"theorem proving" OR abs:"proof assistant" OR abs:Isabelle OR abs:Coq
-      OR abs:Rocq OR abs:ACL2 OR abs:Dafny OR abs:Verus)
+      OR abs:Rocq OR abs:ACL2 OR abs:Dafny OR abs:Verus OR abs:Agda OR abs:HOL4
+      OR abs:"HOL Light" OR abs:Metamath OR abs:Mizar)
     note: The query already filters by abstract, so no keyword filter. The API can be slow, so it gets a 60 second timeout.
 
   - id: arxiv-rss
@@ -175,6 +183,30 @@ sources:
     trusted: true
     every: 6h
 
+  - id: rocq-changelog
+    name: Rocq changelog
+    kind: feed
+    type: news
+    url: https://rocq-prover.org/changelog.xml
+    enabled: true
+    filter: none
+    trusted: true
+    every: 6h
+    note: Official Rocq releases only. rocq-releases (GitHub, below) also lists release candidates and alphas, so it stays off.
+
+  - id: agda-releases
+    name: Agda releases
+    kind: github_releases
+    type: news
+    repo: agda/agda
+    label: Agda
+    enabled: true
+    filter: none
+    trusted: true
+    stable_only: true
+    every: 6h
+    note: The repository also publishes release candidates and a daily nightly build, which stable_only skips.
+
   - id: quanta-math
     name: Quanta Magazine, mathematics
     kind: feed
@@ -249,6 +281,43 @@ sources:
     filter: none
     every: 1h
 
+  - id: mathstodon-itp
+    name: "#itp on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/itp.rss
+    enabled: true
+    filter: none
+    every: 1h
+    note: Interactive theorem proving, across proof assistants.
+
+  - id: mathstodon-agda
+    name: "#agda on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/agda.rss
+    enabled: true
+    filter: none
+    every: 1h
+
+  - id: mathstodon-rocq
+    name: "#rocq on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/rocq.rss
+    enabled: true
+    filter: none
+    every: 1h
+
+  - id: mathstodon-isabelle
+    name: "#isabelle on Mathstodon"
+    kind: feed
+    type: social
+    url: https://mathstodon.xyz/tags/isabelle.rss
+    enabled: true
+    filter: none
+    every: 1h
+
   # ---------- Other sources (disabled; switch on as wanted) ----------
   - id: hillel-wayne
     name: Hillel Wayne, Computer Things
@@ -258,25 +327,6 @@ sources:
     enabled: false
     filter: keywords
     every: 6h
-
-  - id: rocq-changelog
-    name: Rocq changelog
-    kind: feed
-    type: news
-    url: https://rocq-prover.org/changelog.xml
-    enabled: false
-    filter: none
-    every: 6h
-
-  - id: agda-releases
-    name: Agda releases
-    kind: github_releases
-    type: news
-    repo: agda/agda
-    label: Agda
-    enabled: false
-    filter: none
-    every: 1h
 
   - id: rocq-releases
     name: Rocq releases

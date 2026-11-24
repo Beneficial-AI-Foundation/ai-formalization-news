@@ -99,6 +99,31 @@ def test_github_releases_mark_prereleases():
     assert any("(pre-release)" not in i["title"] for i in items)
 
 
+def test_github_releases_stable_only_skips_prereleases():
+    source = CFG.source("agda-releases")
+    assert source.param("stable_only") is True
+    content = fixture_path("agda-releases").read_bytes()
+    stable = parse_fixture(source, content, NOW, KEYWORDS)
+    assert [i["title"] for i in stable] == ["Agda v2.9.0", "Agda v2.8.0.2", "Agda v2.8.0.1", "Agda v2.8.0"]
+    source.params["stable_only"] = False
+    try:
+        every = parse_fixture(source, content, NOW, KEYWORDS)
+    finally:
+        source.params["stable_only"] = True
+    assert len(every) == 8 and sum("(pre-release)" in i["title"] for i in every) == 4
+
+
+def test_keywords_cover_other_proof_assistants():
+    from news.keywords import item_matches
+
+    for text in ("New release of Agda", "A HOL4 formalisation", "Porting to HOL-Light", "Metamath set.mm",
+                 "The Mizar Mathematical Library"):
+        assert item_matches({"title": text, "source_text": ""}, KEYWORDS), text
+    query = CFG.source("arxiv-api").param("query")
+    for term in ("abs:Agda", "abs:HOL4", 'abs:"HOL Light"', "abs:Metamath", "abs:Mizar"):
+        assert term in query, term
+
+
 def test_hackernews_threshold_and_keyword_match():
     import copy
 

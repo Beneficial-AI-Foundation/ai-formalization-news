@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>#agda</title>
+    <description>Public posts tagged #agda</description>
+    <link>https://mathstodon.xyz/tags/agda</link>
+    <lastBuildDate>Sun, 15 Nov 2026 22:53:14 +0000</lastBuildDate>
+    <generator>Mastodon v4.7.6</generator>
+    <item>
+      <guid isPermaLink="true">https://chaos.social/@raichoo/117622911460179225</guid>
+      <link>https://chaos.social/@raichoo/117622911460179225</link>
+      <pubDate>Sun, 15 Nov 2026 22:53:14 +0000</pubDate>
+      <description>&lt;p&gt;I'm merely just trying to get familiar with the syntax. It's been quite a ride. The main issue is trying to figure out how I can do the things I'm used to from using &lt;a href="https://chaos.social/tags/Idris" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Idris&lt;/span&gt;&lt;/a&gt; and &lt;a href="https://chaos.social/tags/Agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt;. Tactics still feel a little heavy handed to me, but I'm getting there.&lt;/p&gt;</description>
+      <category>agda</category>
+      <category>idris</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://agda.club/objects/30dad3cc-d42b-4172-af44-d73ec6f7ccaf</guid>
+      <link>https://agda.club/objects/30dad3cc-d42b-4172-af44-d73ec6f7ccaf</link>
+      <pubDate>Fri, 13 Nov 2026 12:36:55 +0000</pubDate>
+      <description>&lt;a class="hashtag" href="https://agda.club/tag/agda" rel="nofollow noopener" target="_blank"&gt;#Agda&lt;/a&gt; 2.9.0 has just been released!&lt;br&gt;&lt;br&gt;&lt;a href="https://github.com/agda/agda/releases/tag/v2.9.0" rel="nofollow noopener" target="_blank"&gt;github.com/agda/agda/releases/tag/v2.9.0&lt;/a&gt;&lt;br&gt;&lt;a href="https://hackage.haskell.org/package/Agda-2.9.0/changelog" rel="nofollow noopener" target="_blank"&gt;hackage.haskell.org/package/Agda-2.9.0/changelog&lt;/a&gt;</description>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@vgarzareyna/117547617304658081</guid>
+      <link>https://mathstodon.xyz/@vgarzareyna/117547617304658081</link>
+      <pubDate>Mon, 02 Nov 2026 15:44:57 +0000</pubDate>
+      <description>&lt;p&gt;Wanted to become a better programmer. &lt;br /&gt;Started learning Haskell since it would &amp;quot;change the way I look at programming&amp;quot;.&lt;br /&gt;Got interested in type safety and types that express the intention behind a program.&lt;br /&gt;Learned about QuickCheck and property testing.&lt;br /&gt;I think I want to work writing Haskell.&lt;br /&gt;Learned a little about the Curry-Howard-Lambek correspondence.&lt;br /&gt;Practiced defining a couple of programs that would prove logic lemmas in the type system.&lt;br /&gt;Started learning Category Theory on my free time.&lt;br /&gt;Haskell&amp;#39;s compiler was originally developed in Glasgow.&lt;br /&gt;Decided I want to do a masters in Computer Science or Mathematics, probably in Glasgow.&lt;br /&gt;Two friends go to Glasgow to study their own masters, it feels like a sign.&lt;br /&gt;Found out some of the programs I wanted to write were impossible in Haskell since its type system wasn&amp;#39;t dependent&lt;br /&gt;Started looking into Haskell&amp;#39;s plan for dependent types.&lt;br /&gt;Not a lot of progress being made...&lt;br /&gt;Looked into Lean, it was fine but I preferred Haskell still.&lt;br /&gt;Looked into Rocq, it&amp;#39;s basically Lean but more explicit.&lt;br /&gt;Looked into Idris, it feels too young still.&lt;br /&gt;Looked into Agda. I think I really like Agda.&lt;br /&gt;Agda is developed in Chalmers.&lt;br /&gt;Quickcheck was originally developed in Chalmers.&lt;br /&gt;Chalmers doesn&amp;#39;t provide a Swedish Institute Scholarship.&lt;br /&gt;Chalmers shares MSc. Computer Science with the University of Gothenburg (GU).&lt;br /&gt;GU offers a Swedish Institute Scholarship.&lt;br /&gt;I want to study in the GU.&lt;br /&gt;I&amp;#39;m preparing the documentation needed for GU and a SI Scholarship. &lt;br /&gt;I&amp;#39;m also trying to learn Agda, HoTT, unimath, cubical-agda, on my own.&lt;/p&gt;&lt;p&gt;Wish me luck!&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/chalmers" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;chalmers&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/gothenburg" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;gothenburg&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/gu" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;gu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/haskell" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;haskell&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/hott" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;hott&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/functionalprogramming" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;functionalprogramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/dependenttypetheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;dependenttypetheory&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>DependentTypeTheory</category>
+      <category>functionalprogramming</category>
+      <category>hott</category>
+      <category>haskell</category>
+      <category>agda</category>
+      <category>gu</category>
+      <category>gothenburg</category>
+      <category>chalmers</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://fosstodon.org/@abcdw/117495426645580920</guid>
+      <link>https://fosstodon.org/@abcdw/117495426645580920</link>
+      <pubDate>Sat, 24 Oct 2026 10:32:10 +0000</pubDate>
+      <description>&lt;p&gt;Rocq-solid Software - a formally verified/proven piece of a program.&lt;/p&gt;&lt;p&gt;Example usage: I want both the kernel and userspace programs to be rocq-solid.&lt;/p&gt;&lt;p&gt;P.S. Doesn't matter what proof assistant you used: &lt;a href="https://fosstodon.org/tags/coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;coq&lt;/span&gt;&lt;/a&gt; / &lt;a href="https://fosstodon.org/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/IsabelleHOL" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;agda&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/tlaplus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;tlaplus&lt;/span&gt;&lt;/a&gt; or whatever.&lt;/p&gt;</description>
+      <category>rocq</category>
+      <category>tlaplus</category>
+      <category>agda</category>
+      <category>IsabelleHOL</category>
+      <category>coq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://fosstodon.org/@abcdw/117485211724670448</guid>
+      <link>https://fosstodon.org/@abcdw/117485211724670448</link>
+      <pubDate>Thu, 22 Oct 2026 15:14:23 +0000</pubDate>
+      <description>&lt;p&gt;I guess I'm gradually converting to team- &lt;a href="https://fosstodon.org/tags/formalmethods" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalmethods&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;I've been writing tests for many years, and I'm very happy with how much better my dev experience has become. Both as a developer and reviewer.&lt;/p&gt;&lt;p&gt;I even spent a year building the coolest testing library for &lt;a href="https://fosstodon.org/tags/Scheme" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Scheme&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;But the more I work with tests, the more I realize that I want strictier and more declarative way to express system invariants.&lt;/p&gt;&lt;p&gt;The talk reinforces my feelings:&lt;/p&gt;&lt;p&gt;&lt;a href="https://youtu.be/ovlQ81rBc-4" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;youtu.be/ovlQ81rBc-4&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://fosstodon.org/tags/plt" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;plt&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fosstodon.org/tags/lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fosstodon.org/tags/tlaplus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;tlaplus&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fosstodon.org/tags/agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://fosstodon.org/tags/coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;coq&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>coq</category>
+      <category>agda</category>
+      <category>tlaplus</category>
+      <category>lean</category>
+      <category>plt</category>
+      <category>scheme</category>
+      <category>formalmethods</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://agda.club/objects/2a60491b-71bb-43ab-92e3-1d966d235915</guid>
+      <link>https://agda.club/objects/2a60491b-71bb-43ab-92e3-1d966d235915</link>
+      <pubDate>Sun, 18 Oct 2026 17:18:32 +0000</pubDate>
+      <description>&lt;p&gt;After what seems like forever, the &lt;a class="hashtag" href="https://agda.club/tag/agda" rel="nofollow noopener" target="_blank"&gt;#Agda&lt;/a&gt; development team is finally happy to announce the first release candidate for Agda 2.9.0!&lt;/p&gt;&lt;p&gt;Highlights for this release:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Option -j to type check modules in parallel in batch mode (experimental; Amélia Liao).&lt;/li&gt;&lt;li&gt;Substantial performance improvements (András Kovács, Amélia Liao Reed Mullanix).&lt;/li&gt;&lt;li&gt;Agda on WASM (Jonathan Coates, Andy Pam).&lt;/li&gt;&lt;li&gt;Qualified do (Amélia Liao).&lt;/li&gt;&lt;li&gt;Local rewrite rules (experimental; Nathaniel Burke, Jesper Cockx).&lt;/li&gt;&lt;li&gt;Improved termination checker for copatterns (Nate Soares).&lt;/li&gt;&lt;li&gt;Warning about unused imports (experimental; Andreas Abel).&lt;/li&gt;&lt;li&gt;Emacs: Syntax highlighting in the Agda information buffer (Andreas Abel, Amélia Liao).&lt;/li&gt;&lt;li&gt;Improvements to automatic term synthesis, “Mimer” (Andreas Abel, Jesper Cockx).&lt;/li&gt;&lt;li&gt;Forester backend (Lîm Tsú-thuàn).&lt;/li&gt;&lt;li&gt;Around 60 fixes of inconsistencies, internal errors, and regressions.&lt;/li&gt;&lt;li&gt;Around 130 other issues fixed.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Full release notes: &lt;a href="https://github.com/agda/agda/releases/tag/v2.9.0-rc1" rel="nofollow noopener" target="_blank"&gt;https://github.com/agda/agda/releases/tag/v2.9.0-rc1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Binaries are available at &lt;a href="https://github.com/agda/agda/releases/tag/v2.9.0-rc1" rel="nofollow noopener" target="_blank"&gt;https://github.com/agda/agda/releases/tag/v2.9.0-rc1&lt;/a&gt; . Install into your PATH and then run agda –setup and agda –emacs-mode compile. Alternatively, you can get the source from &lt;a href="https://hackage.haskell.org/package/Agda-2.9.0/candidate/Agda-2.9.0.tar.gz" rel="nofollow noopener" target="_blank"&gt;https://hackage.haskell.org/package/Agda-2.9.0/candidate/Agda-2.9.0.tar.gz&lt;/a&gt; .&lt;/p&gt;</description>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@de_Jong_Tom/117450384713557628</guid>
+      <link>https://mathstodon.xyz/@de_Jong_Tom/117450384713557628</link>
+      <pubDate>Fri, 16 Oct 2026 11:37:25 +0000</pubDate>
+      <description>&lt;p&gt;Benedikt Ahrens, who co-supervised my PhD, has funding for a PhD position at TU Delft 🙂️ I&amp;#39;m copying his ad below. I highly recommend both Delft and Benedikt!&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/TypeTheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;TypeTheory&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CategoryTheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CategoryTheory&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/PhD" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;PhD&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;----------&lt;/p&gt;&lt;p&gt;I am looking for a PhD candidate for a 4-year position in the Department of Software Technology at TU Delft, funded by the Air Force Office of Scientific Research (AFOSR) and starting as soon as possible.&lt;/p&gt;&lt;p&gt;The project, &amp;quot;SemSyn: From Semantics to Syntax&amp;quot;, studies how to start from a specification of a class of models and derive a formal language describing them. It involves:&lt;br /&gt;- dependent type theory and its categorical semantics (categories with families, comprehension categories);&lt;br /&gt;- generalized algebraic theories;&lt;br /&gt;- Makkai&amp;#39;s signatures, given by inverse categories;&lt;br /&gt;- two-level type theory;&lt;br /&gt;- formalization in the Agda proof assistant, developed alongside the mathematics.&lt;/p&gt;&lt;p&gt;You should have a Master&amp;#39;s degree in mathematics, computer science, or a related field, and experience in (or a strong motivation to learn) both category theory and theoretical computer science. Experience with a proof assistant is a plus, but not required.&lt;/p&gt;&lt;p&gt;Applications are evaluated on a rolling basis, so please apply early rather than waiting for the deadline of 29 November 2026. I very much encourage you to get in touch with me by email (B.P.Ahrens@tudelft.nl) before, and in addition to, submitting your official application.&lt;/p&gt;&lt;p&gt;Vacancy and application: &lt;a href="https://careers.tudelft.nl/job/Delft-PhD-Position-Systematic-Derivation-of-Formal-Languages-and-Their-Correctness-2628-CD/1375074157/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;careers.tudelft.nl/job/Delft-P&lt;/span&gt;&lt;span class="invisible"&gt;hD-Position-Systematic-Derivation-of-Formal-Languages-and-Their-Correctness-2628-CD/1375074157/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>phd</category>
+      <category>categorytheory</category>
+      <category>agda</category>
+      <category>typetheory</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://agda.club/objects/fcd849bd-041c-4d1b-8db8-cc241e9792a1</guid>
+      <link>https://agda.club/objects/fcd849bd-041c-4d1b-8db8-cc241e9792a1</link>
+      <pubDate>Thu, 15 Oct 2026 08:35:32 +0000</pubDate>
+      <description>&lt;p&gt;The final version of the MFPS paper by &lt;span class="h-card"&gt;&lt;a class="u-url mention" href="https://akademienl.social/@pdmosses" rel="nofollow noopener" target="_blank"&gt;@&lt;span&gt;pdmosses&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; , Bernard Reus and yt about a shallow embedding of domain theory in &lt;a class="hashtag" href="https://agda.club/tag/agda" rel="nofollow noopener" target="_blank"&gt;#Agda&lt;/a&gt; is now available on Arxiv:&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.14898" rel="nofollow noopener" target="_blank"&gt;https://arxiv.org/abs/2610.14898&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Accompanying website with the full code: &lt;a href="https://pdmosses.github.io/mfps2026-agda/" rel="nofollow noopener" target="_blank"&gt;https://pdmosses.github.io/mfps2026-agda/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Abstract:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Mechanisation of a mathematical definition (also referred to as formalisation) has many benefits. Here, we focus on mechanising denotational semantic definitions of programming languages by embedding them in the Agda language. The Agda type-checker detects and reports any issues with the wellformedness and type correctness of the embedded definitions. To minimise the effort required, and to facilitate correlation of the original definition with its Agda embedding, mechanisation should not involve significant reformulation or extension. Here, we show how to embed conventional Scott-Strachey denotational definitions in Agda with almost no changes to λ-notation or domain equations. Agda notation for definitions of types and functions corresponds closely to the conventional meta-notation of denotational semantics. We have developed a collection of Agda modules with postulated types for commonly used domain constructors and their associated operations. We illustrate our approach with mechanisations of three denotational definitions: a model of the untyped λ-calculus, Plotkin’s denotational semantics of PCF, and a semantics of a sublanguage of Scheme. In previous work, similar mechanisations in Agda have revealed several unsuspected wellformedness issues in published denotational definitions. Some of the postulated properties of our definitions are inconsistent with a classical set-theoretic interpretation of Agda. We conjecture that they would be consistent with an interpretation of Agda in a higher-order intuititionistic logic, such as that used by Simpson in his work on synthetic domain theory. After recalling previous work on mechanising domain theory, we consider the possibility of mechanising synthetic domain theory in Agda.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117387961555290490</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117387961555290490</link>
+      <pubDate>Mon, 05 Oct 2026 11:02:23 +0000</pubDate>
+      <description>&lt;p&gt;Weekly reads: Sep 28 – Oct 4, 2026. &lt;a href="https://jaalonso.github.io/vestigium/posts/2026/10/05-readings_shared_10-05-26" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;jaalonso.github.io/vestigium/p&lt;/span&gt;&lt;span class="invisible"&gt;osts/2026/10/05-readings_shared_10-05-26&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/FunctionalProgramming" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FunctionalProgramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Haskell" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Haskell&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/IsabelleHOL" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LLMs" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LLMs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Logic" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Logic&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LogicProgramming" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LogicProgramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Prolog" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Prolog&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/RocqProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;RocqProver&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>RocqProver</category>
+      <category>prolog</category>
+      <category>math</category>
+      <category>logicprogramming</category>
+      <category>logic</category>
+      <category>leanprover</category>
+      <category>LLMs</category>
+      <category>IsabelleHOL</category>
+      <category>itp</category>
+      <category>haskell</category>
+      <category>functionalprogramming</category>
+      <category>agda</category>
+      <category>AI4Math</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117347399103673286</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117347399103673286</link>
+      <pubDate>Mon, 28 Sep 2026 07:06:49 +0000</pubDate>
+      <description>&lt;p&gt;Readings shared: 21-27 September, 2026. &lt;a href="https://jaalonso.github.io/vestigium/posts/2026/09/28-readings_shared_09-28-26/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;jaalonso.github.io/vestigium/p&lt;/span&gt;&lt;span class="invisible"&gt;osts/2026/09/28-readings_shared_09-28-26/&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Maht" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Maht&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/IsabelleHOL" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LogicProgramming" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LogicProgramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Prolog" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Prolog&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/RocqProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;RocqProver&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>RocqProver</category>
+      <category>prolog</category>
+      <category>math</category>
+      <category>logicprogramming</category>
+      <category>leanprover</category>
+      <category>IsabelleHOL</category>
+      <category>itp</category>
+      <category>agda</category>
+      <category>AI4Maht</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117330543446690233</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117330543446690233</link>
+      <pubDate>Fri, 25 Sep 2026 07:40:13 +0000</pubDate>
+      <description>&lt;p&gt;A mechanized formalization of MicroKanren in Agda- ~ Eduardo Henke, Rodrigo Ribeiro. &lt;a href="https://cbsoft.sbc.org.br/2026/data/papers/sblp/A%20Mechanized%20Formalization%20of%20MicroKanren%20in%20Agda.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;cbsoft.sbc.org.br/2026/data/pa&lt;/span&gt;&lt;span class="invisible"&gt;pers/sblp/A%20Mechanized%20Formalization%20of%20MicroKanren%20in%20Agda.pdf&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>itp</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@patrikja/117316004250569584</guid>
+      <link>https://functional.cafe/@patrikja/117316004250569584</link>
+      <pubDate>Tue, 22 Sep 2026 18:02:42 +0000</pubDate>
+      <description>&lt;p&gt;New pre-print out (and submitted to JFP): "niFite semPurtatoni" (Finite permutations in Agda). We study a first-order representation of finite permutations: every value of this type represents a bijection by construction (1st image). An interesting part is composition — finding a definition that's structurally recursive at all takes some care (2nd image: an example, plus the key lemma that `skip` and `pinch` are approximate inverses). Inversion, and the classical Lehmer-code "counting inversions" description, fall out of that same recursive shape.&lt;/p&gt;&lt;p&gt;📝 Blog: &lt;a href="https://patrikja.owlstown.net/posts/5976" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;patrikja.owlstown.net/posts/59&lt;/span&gt;&lt;span class="invisible"&gt;76&lt;/span&gt;&lt;/a&gt;&lt;br&gt;📄 Pre-print: &lt;a href="https://hal.science/hal-05746158" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;hal.science/hal-05746158&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br&gt;💻 Code: &lt;a href="https://github.com/DSLsofMath/PermutationLehmer" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;github.com/DSLsofMath/Permutat&lt;/span&gt;&lt;span class="invisible"&gt;ionLehmer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/Agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/TypeTheory" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;TypeTheory&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FunctionalProgramming" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FunctionalProgramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/DependentTypes" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;DependentTypes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/316/004/403/807/850/original/c57474471bfc4cc9.png" type="image/png" fileSize="10362" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Agda code: Permutation n defined inductively as nil, or a Fin (suc n) pivot consed onto a smaller Permutation n.</media:description>
+      </media:content>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/316/004/446/565/820/original/a75ee794ac69a61a.png" type="image/png" fileSize="35560" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Side-by-side composition diagrams. Left (a): p2 composed with p1. Right (b): skip 2 composed with pinch 2, yielding straight lines equivalent to the identity.</media:description>
+      </media:content>
+      <category>dependenttypes</category>
+      <category>functionalprogramming</category>
+      <category>typetheory</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://c3d2.social/@laalsaas/117302919529979647</guid>
+      <link>https://c3d2.social/@laalsaas/117302919529979647</link>
+      <pubDate>Sun, 20 Sep 2026 10:35:05 +0000</pubDate>
+      <description>&lt;p&gt;Wenn man &lt;a href="https://c3d2.social/tags/agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;agda&lt;/span&gt;&lt;/a&gt; auf wish bestellt&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/302/919/703/560/924/original/95137dfb3d80c594.jpg" type="image/jpeg" fileSize="287048" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Zollstock mit einem Logosauf dem Adga steht</media:description>
+      </media:content>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://social.edu.nl/@jaror/117288383388852310</guid>
+      <link>https://social.edu.nl/@jaror/117288383388852310</link>
+      <pubDate>Thu, 17 Sep 2026 20:58:21 +0000</pubDate>
+      <description>&lt;p&gt;How do people stay sane if not for sized types? I see no good alternative to this:&lt;/p&gt;&lt;p&gt;    {-# OPTIONS --sized-types #-}&lt;br&gt;    open import Size&lt;br&gt;    open import Data.List&lt;/p&gt;&lt;p&gt;    variable A B : Set&lt;br&gt;             s : Size&lt;/p&gt;&lt;p&gt;    data Rose′ (A : Set) : Size → Set where&lt;br&gt;        rose : List (Rose′ A s) → Rose′ A (↑ s)&lt;/p&gt;&lt;p&gt;    Rose : Set → Set&lt;br&gt;    Rose A = Rose′ A ∞&lt;/p&gt;&lt;p&gt;    mapRose : (A → B) → Rose A → Rose B&lt;br&gt;    mapRose f = go where&lt;br&gt;        go : Rose′ A s → Rose B&lt;br&gt;        go (rose x) = rose (map go x)&lt;/p&gt;&lt;p&gt;&lt;a href="https://social.edu.nl/tags/Agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@P_Pumulo/117285283678111656</guid>
+      <link>https://mathstodon.xyz/@P_Pumulo/117285283678111656</link>
+      <pubDate>Thu, 17 Sep 2026 07:50:03 +0000</pubDate>
+      <description>&lt;p&gt;Formal verification always brings the best plot twists. &lt;/p&gt;&lt;p&gt;I originally expected the existence of zero divisors in sedenions to perfectly align with the vanishing of the Cayley-Dickson norm: \( N(a) = 0 \iff \operatorname{rank} L_a &amp;lt; 2^k \). &lt;br /&gt;It felt like a natural, scalar way to capture the algebraic singularity.&lt;/p&gt;&lt;p&gt;But Agda proved my intuition completely wrong—in the best possible way. &lt;/p&gt;&lt;p&gt;By formally checking Moreno&amp;#39;s sedenion zero divisor \( a = e_3 + e_{10} \) in `Hypotheses.agda`, the type checker explicitly refuted the equivalence. The norm is strictly non-zero (\( N(a) = 2 \)), yet the left-multiplication operator \( L_a \) provably suffers a rank collapse with a genuine non-zero kernel witness.&lt;/p&gt;&lt;p&gt;The breakdown isn&amp;#39;t caused by the norm vanishing. It is caused precisely by the failure of left-alternativity: \( a(ax) \neq (aa)x \). &lt;/p&gt;&lt;p&gt;This is a far more profound result. The algebraic obstruction isn&amp;#39;t a simple zero-locus of a quadratic form; it’s a pure structural collapse of associativity forcing the dimension down. The naive \( a^{-1} := \bar{a}/N(a) \) fails not because of division by zero, but because the topology of the space itself forbids the product from closing.&lt;/p&gt;&lt;p&gt;Formalizing this &amp;quot;negative&amp;quot; result feels like a massive leap forward.&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Annihilator" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Annihilator&lt;/span&gt;&lt;/a&gt;  &lt;a href="https://mathstodon.xyz/tags/FormalVerification" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CayleyDickson" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CayleyDickson&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/TypeTheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;TypeTheory&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>typetheory</category>
+      <category>cayleydickson</category>
+      <category>formalverification</category>
+      <category>annihilator</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@P_Pumulo/117269274274783308</guid>
+      <link>https://mathstodon.xyz/@P_Pumulo/117269274274783308</link>
+      <pubDate>Mon, 14 Sep 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;Just reached a major milestone in formally verifying Cayley-Dickson algebras (up to sedenions and beyond) entirely within Agda. &lt;/p&gt;&lt;p&gt;All foundational algebraic plumbing in `Hypotheses.agda` is now 100% postulate-free and hole-free. By successfully formalizing the middle-four interchange law, the strict bilinearity of multiplication (`mul-add-distrib`), and proving that the norm is always fixed by conjugation (`norm-real`), we have locked down the exact algebraic conditions for zero divisors.&lt;/p&gt;&lt;p&gt;This provides the complete, rigorous scaffolding for the critical equivalence:&lt;br /&gt;\( N(a) = 0 \iff \operatorname{rank} L_a &amp;lt; 2^k \)&lt;/p&gt;&lt;p&gt;The breakdown of the naive inverse formula \( a^{-1} := \bar{a}/N(a) \) is no longer a mere computational anomaly. It is now strictly formalized as a genuine algebraic obstruction—a definitive dimensional collapse of the left-multiplication operator \( L_a \). &lt;/p&gt;&lt;p&gt;The extreme complexities of non-associative algebraic breakdown are now beautifully reduced to a single scalar vanishing point. &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Annihilator" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Annihilator&lt;/span&gt;&lt;/a&gt;  &lt;a href="https://mathstodon.xyz/tags/FormalVerification" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CayleyDickson" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CayleyDickson&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Algebra" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Algebra&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Yoshyhyrro/hatsu-yakitori/blob/feature/sedenion_bridge_Agda/dist-proof/Agda/src/CayleyDicksonQuiver/Hypotheses.agda" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;github.com/Yoshyhyrro/hatsu-ya&lt;/span&gt;&lt;span class="invisible"&gt;kitori/blob/feature/sedenion_bridge_Agda/dist-proof/Agda/src/CayleyDicksonQuiver/Hypotheses.agda&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>algebra</category>
+      <category>cayleydickson</category>
+      <category>formalverification</category>
+      <category>annihilator</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@P_Pumulo/117235937210777984</guid>
+      <link>https://mathstodon.xyz/@P_Pumulo/117235937210777984</link>
+      <pubDate>Tue, 08 Sep 2026 14:40:36 +0000</pubDate>
+      <description>&lt;p&gt;In non-associative, non-alternative Cayley-Dickson algebras \( \text{CD}(k) \) over \( \mathbb{Z} \), the reality of the norm \( N(x) = x \bar{x} \) is often taken for granted or proved only for small \( k \le 3 \). &lt;/p&gt;&lt;p&gt;I have formalized a rigorous, postulate-free, associativity-free proof in Agda (`--safe`) that \( N(x) \) is fixed by conjugation for all \( k \in \mathbb{N} \), driven purely by mutually recursive bilinearity without assuming alternativity.&lt;/p&gt;&lt;p&gt;\[&lt;br /&gt;\forall k \in \mathbb{N}, \forall x \in \text{CD}(k), \quad \overline{x \cdot \bar{x}} = x \cdot \bar{x}&lt;br /&gt;\]&lt;/p&gt;&lt;p&gt;Key Intermediate Lemma (Mutual Recurrence of Negation Distribution):&lt;br /&gt;Since associativity fails for \( k \ge 4 \), sign-distribution across the doubling construction \( (a,b)(c,d) = (ac - \bar{d}b, da + b\bar{c}) \) cannot rely on associative re-parenthesizing. Instead, it holds via mutually recursive bilinearity:&lt;/p&gt;&lt;p&gt;\[&lt;br /&gt;\begin{aligned}&lt;br /&gt;\text{mul-neg-distrib}_L &amp;amp;: \quad (-x) \cdot y = -(x \cdot y) \\&lt;br /&gt;\text{mul-neg-distrib}_R &amp;amp;: \quad x \cdot (-y) = -(x \cdot y)&lt;br /&gt;\end{aligned}&lt;br /&gt;\]&lt;/p&gt;&lt;p&gt;Constructive Proof of Norm Reality:&lt;br /&gt;By decomposing \( x = (a, b) \in \text{CD}(k+1) \), the off-diagonal terms cancel out purely via standard additive inverse laws without needing alternativity:&lt;/p&gt;&lt;p&gt;\[&lt;br /&gt;\text{OffDiag}(a, b) = (-b)a + b\bar{\bar{a}} = -(ba) + ba = 0&lt;br /&gt;\]&lt;/p&gt;&lt;p&gt;\[&lt;br /&gt;\implies \text{Fix}(\text{conj}_k) \cong \mathbb{Z} \quad (\text{via } 2\text{-torsion freeness of } \mathbb{Z})&lt;br /&gt;\]&lt;/p&gt;&lt;p&gt;Fully verified in Agda (hole-free, 0 postulates). This provides the structural foundation for analyzing the kernel/image split \( \text{CD}(k) = \text{Im}(L_a) \oplus \text{ker}(L_a) \) at higher dimensions.&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/TypeTheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;TypeTheory&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Algebra" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Algebra&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/FormalVerification" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FormalVerification&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CategoryTheory" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CategoryTheory&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>categorytheory</category>
+      <category>formalverification</category>
+      <category>algebra</category>
+      <category>typetheory</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117212285750651504</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117212285750651504</link>
+      <pubDate>Fri, 04 Sep 2026 10:25:43 +0000</pubDate>
+      <description>&lt;p&gt;On left adjoints preserving colimits in homotopy type theory. ~ Perry Hart. &lt;a href="https://arxiv.org/abs/2608.28473v1" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2608.28473v1&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/HoTT" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;HoTT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>hott</category>
+      <category>itp</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117188757086421710</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117188757086421710</link>
+      <pubDate>Mon, 31 Aug 2026 06:42:04 +0000</pubDate>
+      <description>&lt;p&gt;Readings shared: 24-31 August, 2026. &lt;a href="https://jaalonso.github.io/vestigium/posts/2026/08/31-readings_shared_08-31-26" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;jaalonso.github.io/vestigium/p&lt;/span&gt;&lt;span class="invisible"&gt;osts/2026/08/31-readings_shared_08-31-26&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CommonLisp" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CommonLisp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/CompSci" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CompSci&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Emacs" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Emacs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/FunctionalProgramming" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FunctionalProgramming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Haskell" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Haskell&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/IsabelleHOL" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Lisp" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Lisp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/RocqProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;RocqProver&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>RocqProver</category>
+      <category>math</category>
+      <category>lisp</category>
+      <category>leanprover</category>
+      <category>IsabelleHOL</category>
+      <category>itp</category>
+      <category>haskell</category>
+      <category>functionalprogramming</category>
+      <category>emacs</category>
+      <category>compsci</category>
+      <category>commonlisp</category>
+      <category>agda</category>
+      <category>AI4Math</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117183902452400445</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117183902452400445</link>
+      <pubDate>Sun, 30 Aug 2026 10:07:29 +0000</pubDate>
+      <description>&lt;p&gt;Autoformalizing the calculation of π₃(S²). ~ Daniel Carranza, Chunyi Liu, Emily Riehl, Egbert Rijke. &lt;a href="https://arxiv.org/abs/2608.23721v1" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2608.23721v1&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Agda" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>agda</category>
+    </item>
+  </channel>
+</rss>
