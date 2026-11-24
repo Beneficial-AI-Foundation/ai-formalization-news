@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>#itp</title>
+    <description>Public posts tagged #itp</description>
+    <link>https://mathstodon.xyz/tags/itp</link>
+    <lastBuildDate>Mon, 23 Nov 2026 11:50:53 +0000</lastBuildDate>
+    <generator>Mastodon v4.7.6</generator>
+    
+    
+    
+    
+    
+    
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819</link>
+      <pubDate>Sun, 22 Nov 2026 10:56:21 +0000</pubDate>
+      <description>&lt;p&gt;Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/davidmunozlahoz/lean-course" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;github.com/davidmunozlahoz/lea&lt;/span&gt;&lt;span class="invisible"&gt;n-course&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093</link>
+      <pubDate>Sun, 22 Nov 2026 10:50:42 +0000</pubDate>
+      <description>&lt;p&gt;Autoformalize your Math. ~ David Muñoz-Lahoz. &lt;/p&gt;&lt;p&gt;&lt;a href="https://lean.functionalanalysismadrid.com/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;lean.functionalanalysismadrid.&lt;/span&gt;&lt;span class="invisible"&gt;com/&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498</link>
+      <pubDate>Sun, 22 Nov 2026 08:25:50 +0000</pubDate>
+      <description>&lt;p&gt;A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor. &lt;/p&gt;&lt;p&gt;&lt;a href="https://functionalanalysismadrid.com/lean_guide.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;functionalanalysismadrid.com/l&lt;/span&gt;&lt;span class="invisible"&gt;ean_guide.pdf&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529</link>
+      <pubDate>Sun, 22 Nov 2026 08:23:33 +0000</pubDate>
+      <description>&lt;p&gt;Lean for the working mathematician. ~ Mitchell Taylor. &lt;/p&gt;&lt;p&gt;&lt;a href="https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;xenaproject.wordpress.com/2026&lt;/span&gt;&lt;span class="invisible"&gt;/11/21/lean-for-the-working-mathematician/&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117654599466127738</link>
+      <pubDate>Sat, 21 Nov 2026 13:11:55 +0000</pubDate>
+      <description>&lt;p&gt;From pen-and-paper to machine-checked proofs: Lean for system identification. ~ Manas Mejari, Dario Piga, Marco Forgione. &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.18220" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2611.18220&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</link>
+      <pubDate>Sat, 21 Nov 2026 13:06:46 +0000</pubDate>
+      <description>&lt;p&gt;From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.22103" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2611.22103&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+      <category>AI4Math</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</link>
+      <pubDate>Sat, 21 Nov 2026 13:02:49 +0000</pubDate>
+      <description>&lt;p&gt;Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.21299" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2611.21299&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+      <category>AI4Math</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249</link>
+      <pubDate>Sat, 21 Nov 2026 12:54:01 +0000</pubDate>
+      <description>&lt;p&gt;Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes. &lt;/p&gt;&lt;p&gt;&lt;a href="http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class="ellipsis"&gt;reports-archive.adm.cs.cmu.edu&lt;/span&gt;&lt;span class="invisible"&gt;/anon/2026/CMU-CS-26-138.pdf&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861</link>
+      <pubDate>Sat, 21 Nov 2026 12:49:22 +0000</pubDate>
+      <description>&lt;p&gt;A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi. &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.20169v" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/abs/2611.20169v&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117649942692582373</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117649942692582373</link>
+      <pubDate>Fri, 20 Nov 2026 17:27:38 +0000</pubDate>
+      <description>&lt;p&gt;Path lifting and homology of the circle and punctured plane (in Isabelle/HOL). ~ Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra Barretto de Queiroz. &lt;/p&gt;&lt;p&gt;&lt;a href="https://isa-afp.org/entries/Circle_Fundamental_Group_Sequel.html" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;isa-afp.org/entries/Circle_Fun&lt;/span&gt;&lt;span class="invisible"&gt;damental_Group_Sequel.html&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/IsabelleHOL" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>itp</category>
+      <category>IsabelleHOL</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190</link>
+      <pubDate>Thu, 19 Nov 2026 16:43:23 +0000</pubDate>
+      <description>&lt;p&gt;Digitalizing Physics in Lean 4 (An open-source, community project to digitalize results from physics into Lean 4).  &lt;/p&gt;&lt;p&gt;&lt;a href="https://physlib.io/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;physlib.io/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;  &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Physics" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Physics&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>physics</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117644039667708626</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117644039667708626</link>
+      <pubDate>Thu, 19 Nov 2026 16:26:25 +0000</pubDate>
+      <description>&lt;p&gt;Formalizing mathematics in Lean with AI (Session 4: Four areas, and your own theorem). ~ Michail Karatarakis. &lt;/p&gt;&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/mkaratarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session4-draft.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;raw.githubusercontent.com/mkar&lt;/span&gt;&lt;span class="invisible"&gt;atarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session4-draft.pdf&lt;/span&gt;&lt;/a&gt;   &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/media_attachments/files/117/644/041/410/174/274/original/5c35a49f6bddb992.png" type="image/png" fileSize="29005" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117643372828567065</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117643372828567065</link>
+      <pubDate>Thu, 19 Nov 2026 13:36:50 +0000</pubDate>
+      <description>&lt;p&gt;Formalizing mathematics in Lean with AI (Session 3: AI tools). ~ Michail Karatarakis. &lt;/p&gt;&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/mkaratarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session3-draft.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;raw.githubusercontent.com/mkar&lt;/span&gt;&lt;span class="invisible"&gt;atarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session3-draft.pdf&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/media_attachments/files/117/643/372/651/818/561/original/eecc318a750e5a3b.png" type="image/png" fileSize="25938" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117643101972839115</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117643101972839115</link>
+      <pubDate>Thu, 19 Nov 2026 12:27:57 +0000</pubDate>
+      <description>&lt;p&gt;Formalizing mathematics in Lean with AI (Session 2: From paper to Lean). ~ Michail Karatarakis. &lt;/p&gt;&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/mkaratarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session2-draft.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;raw.githubusercontent.com/mkar&lt;/span&gt;&lt;span class="invisible"&gt;atarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session2-draft.pdf&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanLang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanLang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI4Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI4Math&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/AI" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Math" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/media_attachments/files/117/643/101/680/467/239/original/31e1ba20d1791f77.png" type="image/png" fileSize="27601" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>math</category>
+      <category>ai</category>
+      <category>AI4Math</category>
+      <category>itp</category>
+      <category>LeanLang</category>
+      <category>leanprover</category>
+    </item>
+  </channel>
+</rss>

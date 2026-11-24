@@ -198,6 +198,18 @@ The repository was empty apart from a README, so there is no in-project analog f
   - On the 100-item comparison set it keeps 84, against 83 for the old prompt and 86 for Sonnet. Agreement with Sonnet is 94, against 95.
   - The cost is unchanged.
 - **D34. Deploy retries** (Jin's decision, 24 Nov 2026). In the first day, 4 of about 22 runs failed at the Pages deploy step, all on GitHub's side. Three failed with "Fetching artifact metadata failed" right after a successful upload, and one with "Deployment failed, try again later". The next run always deployed. `actions/deploy-pages` does not retry these. The workflow now allows the first deploy to fail, waits 2 minutes and tries again, then waits 5 minutes and makes a last try; only that last failure fails the run. Three attempts over about 7 minutes cover a glitch as long as the worst one seen (about 10 minutes from the first failure to a working deploy); a longer outage is left to the next hourly run. The job's time limit went from 15 to 25 minutes to fit the waits. The data is committed before the deploy, so a failed deploy only leaves the page an hour behind.
+- **D35. More proof assistants** (asked by Jin's colleagues on 24 Nov 2026, who saw mostly Lean on the page). Of the 166 items then on the page, 72 mentioned Lean or Mathlib, 18 Isabelle, 18 Rocq or Coq, 6 HOL and 1 Agda. Lean had five dedicated sources, Isabelle two, Rocq one and the others none. Added, each feed checked first:
+  - Mathstodon #itp, #agda, #rocq and #isabelle (untrusted, so Claude hides off-topic posts).
+  - The Rocq changelog, which lists official releases only (trusted).
+  - Agda releases (trusted), with a new `stable_only` option for `github_releases` that skips release candidates and the daily nightly build.
+  - Agda, HOL4, HOL Light, Metamath and Mizar in the keyword list and the arXiv query.
+
+  Left out:
+  - HOL4, Dafny, Verus and F* releases on GitHub (weekly, daily or nightly build tags).
+  - The Dafny blog (no post since December 2025).
+  - Proof Assistants Stack Exchange (blocks automated access).
+  - Isabelle, which has no news feed (its community is on Zulip).
+  - Rocq releases on GitHub, which also lists release candidates and alphas, so it stays off in favour of the changelog.
 
 ## Follow-ups
 

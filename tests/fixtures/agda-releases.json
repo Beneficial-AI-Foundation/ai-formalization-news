@@ -1,0 +1,106 @@
+[
+ {
+  "tag_name": "v2.9.0",
+  "name": "v2.9.0",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.9.0",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-11-13T10:32:53Z",
+  "created_at": "2026-11-13T07:54:17Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.9.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Option `-j` to type check modules in parallel in batch mode (experimental; Am\u00e9lia Liao).\r\n* Substantial performance improvements (Andr\u00e1s Kov\u00e1cs, Am\u00e9lia Liao, Reed Mullanix).\r\n* Agda on WASM (Jonathan Coates, Andy Pan).\r\n* Qualified `do` (Am\u00e9lia Liao).\r\n* Local rewrite rules (experimental; Nathaniel Burke, Jesper Cockx).\r\n* Improved termination checker for copatterns (Nate Soares).\r\n* Warning about unused imports (experimental; Andreas Abel).\r\n* Emacs: Syntax highlighting in the Agda information buffer (Andreas Abel, Am\u00e9lia Liao).\r\n* Improvements to automatic term synthesis, \"Mimer\" (Andreas Abel, Jesper Cockx).\r\n* Forester backend (L\u00eem Ts\u00fa-thu\u00e0n).\r\n* Around 60 fixes of inconsistencies, internal errors, and regressions.\r\n* Around 130 other issues fixed.\r\n\r\nInstallation\r\n------------\r\n\r\n* Dropped support for GHC 8.8, 8.10, and 9.0.\r\n\r\n* Agda supports GHC versions 9.2.8 to 9.14.1.\r\n\r\n* The new Cabal flag `version-with-git-hash` controls whether version information\r\n  is suffixed with the Git commit hash. It is disabled by default for cabal\r\n  but enabled by default when using the Makefile.\r\n\r\nPragmas and options\r\n-------------------\r\n\r\n* New option `--parallel` (`-j` for short, as in `make`) lets Agda\r\n  type-check imported modules in parallel. For large libraries, this can\r\n  result in a speedup of ~3x, at the cost of roughly doubling the\r\n  maximum memory usage.\r\n  This op"
+ },
+ {
+  "tag_name": "v2.9.0-rc3",
+  "name": "v2.9.0-rc3",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.9.0-rc3",
+  "draft": false,
+  "prerelease": true,
+  "published_at": "2026-11-04T14:57:08Z",
+  "created_at": "2026-11-04T14:11:26Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.9.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Option `-j` to type check modules in parallel in batch mode (experimental; Am\u00e9lia Liao).\r\n* Substantial performance improvements (Andr\u00e1s Kov\u00e1cs, Am\u00e9lia Liao Reed Mullanix).\r\n* Agda on WASM (Jonathan Coates, Andy Pan).\r\n* Qualified `do` (Am\u00e9lia Liao).\r\n* Local rewrite rules (experimental; Nathaniel Burke, Jesper Cockx).\r\n* Improved termination checker for copatterns (Nate Soares).\r\n* Warning about unused imports (experimental; Andreas Abel).\r\n* Emacs: Syntax highlighting in the Agda information buffer (Andreas Abel, Am\u00e9lia Liao).\r\n* Improvements to automatic term synthesis, \"Mimer\" (Andreas Abel, Jesper Cockx).\r\n* Forester backend (L\u00eem Ts\u00fa-thu\u00e0n).\r\n* Around 60 fixes of inconsistencies, internal errors, and regressions.\r\n* Around 130 other issues fixed.\r\n\r\nInstallation\r\n------------\r\n\r\n* Dropped support for GHC 8.8, 8.10, and 9.0.\r\n\r\n* Agda supports GHC versions 9.2.8 to 9.14.1.\r\n\r\n* The new Cabal flag `version-with-git-hash` controls whether version information\r\n  is suffixed with the Git commit hash. It is disabled by default for cabal\r\n  but enabled by default when using the Makefile.\r\n\r\nPragmas and options\r\n-------------------\r\n\r\n* New option `--parallel` (`-j` for short, as in `make`) lets Agda\r\n  type-check imported modules in parallel. For large libraries, this can\r\n  result in a speedup of ~3x, at the cost of roughly doubling the\r\n  maximum memory usage.\r\n  This opt"
+ },
+ {
+  "tag_name": "v2.9.0-rc2",
+  "name": "v2.9.0-rc2",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.9.0-rc2",
+  "draft": false,
+  "prerelease": true,
+  "published_at": "2026-10-28T19:26:36Z",
+  "created_at": "2026-10-28T18:18:26Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.9.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Option `-j` to type check modules in parallel in batch mode (experimental; Am\u00e9lia Liao).\r\n* Substantial performance improvements (Andr\u00e1s Kov\u00e1cs, Am\u00e9lia Liao Reed Mullanix).\r\n* Agda on WASM (Jonathan Coates, Andy Pan).\r\n* Qualified `do` (Am\u00e9lia Liao).\r\n* Local rewrite rules (experimental; Nathaniel Burke, Jesper Cockx).\r\n* Improved termination checker for copatterns (Nate Soares).\r\n* Warning about unused imports (experimental; Andreas Abel).\r\n* Emacs: Syntax highlighting in the Agda information buffer (Andreas Abel, Am\u00e9lia Liao).\r\n* Improvements to automatic term synthesis, \"Mimer\" (Andreas Abel, Jesper Cockx).\r\n* Forester backend (L\u00eem Ts\u00fa-thu\u00e0n).\r\n* Around 60 fixes of inconsistencies, internal errors, and regressions.\r\n* Around 130 other issues fixed.\r\n\r\nInstallation\r\n------------\r\n\r\n* Dropped support for GHC 8.8, 8.10, and 9.0.\r\n\r\n* Agda supports GHC versions 9.2.8 to 9.14.1.\r\n\r\n* The new Cabal flag `version-with-git-hash` controls whether version information\r\n  is suffixed with the Git commit hash. It is disabled by default for cabal\r\n  but enabled by default when using the Makefile.\r\n\r\nPragmas and options\r\n-------------------\r\n\r\n* New option `--parallel` (`-j` for short, as in `make`) lets Agda\r\n  type-check imported modules in parallel. For large libraries, this can\r\n  result in a speedup of ~3x, at the cost of roughly doubling the\r\n  maximum memory usage.\r\n  This opt"
+ },
+ {
+  "tag_name": "v2.9.0-rc1",
+  "name": "v2.9.0-rc1",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.9.0-rc1",
+  "draft": false,
+  "prerelease": true,
+  "published_at": "2026-10-18T16:05:23Z",
+  "created_at": "2026-10-18T13:51:55Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.9.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Option `-j` to type check modules in parallel in batch mode (experimental; Am\u00e9lia Liao).\r\n* Substantial performance improvements (Andr\u00e1s Kov\u00e1cs, Am\u00e9lia Liao Reed Mullanix).\r\n* Agda on WASM (Jonathan Coates, Andy Pam).\r\n* Qualified `do` (Am\u00e9lia Liao).\r\n* Local rewrite rules (experimental; Nathaniel Burke, Jesper Cockx).\r\n* Improved termination checker for copatterns (Nate Soares).\r\n* Warning about unused imports (experimental; Andreas Abel).\r\n* Emacs: Syntax highlighting in the Agda information buffer (Andreas Abel, Am\u00e9lia Liao).\r\n* Improvements to automatic term synthesis, \"Mimer\" (Andreas Abel, Jesper Cockx).\r\n* Forester backend (L\u00eem Ts\u00fa-thu\u00e0n).\r\n* Around 60 fixes of inconsistencies, internal errors, and regressions.\r\n* Around 130 other issues fixed.\r\n\r\nInstallation\r\n------------\r\n\r\n* Dropped support for GHC 8.8, 8.10, and 9.0.\r\n\r\n* Agda supports GHC versions 9.2.8 to 9.14.1.\r\n\r\n* The new Cabal flag `version-with-git-hash` controls whether version information\r\n  is suffixed with the Git commit hash. It is disabled by default for cabal\r\n  but enabled by default when using the Makefile.\r\n\r\nPragmas and options\r\n-------------------\r\n\r\n* New option `--parallel` (`-j` for short, as in `make`) lets Agda\r\n  type-check imported modules in parallel. For large libraries, this can\r\n  result in a speedup of ~3x, at the cost of roughly doubling the\r\n  maximum memory usage.\r\n  This opt"
+ },
+ {
+  "tag_name": "v2.8.0.2",
+  "name": "v2.8.0.2",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.8.0.2",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-09-13T07:57:16Z",
+  "created_at": "2026-09-13T06:15:34Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.8.0.2\r\n======================================\r\n\r\nThis version fixes two issues with the released binaries.\r\nNo non-installation related issues were fixed over 2.8.0 or 2.8.0.1.\r\nSo if you have installed 2.8.0 or 2.8.0.1 already there is no need to upgrade to 2.8.0.2.\r\n\r\n* Fix problem with missing `zlib1.dll` in released Windows binary ([issue #8733](https://github.com/agda/agda/issues/8733))\r\n* Remove commit hash from version number in released binaries ([issue #8716](https://github.com/agda/agda/issues/8716))\r\n\r\n* Agda supports GHC versions 8.8.4 to 9.14.1.\r\n\r\n**Full Changelog**: https://github.com/agda/agda/compare/v2.8.0.1...v2.8.0.2"
+ },
+ {
+  "tag_name": "v2.8.0.1",
+  "name": "v2.8.0.1",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.8.0.1",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2026-08-31T20:36:47Z",
+  "created_at": "2026-08-31T19:34:38Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.8.0.1\r\n======================================\r\n\r\n* Added support for GHC 9.14.1\r\n\r\n* Agda supports GHC versions 8.8.4 to 9.14.1.\r\n"
+ },
+ {
+  "tag_name": "v2.8.0",
+  "name": "v2.8.0",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.8.0",
+  "draft": false,
+  "prerelease": false,
+  "published_at": "2025-07-05T20:31:37Z",
+  "created_at": "2025-07-05T19:53:27Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.8.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Agda is now a self-contained single binary.\r\n\r\n* Build all Agda files reachable from paths in the `.agda-lib` file with new flag `--build-library`.\r\n\r\n* Experimental support for polarity annotations with new flag `--polarity`.\r\n\r\n* Compile to JavaScript with ES6 module syntax with new flag `--js-es6`.\r\n\r\n* Errors now have an identifier and follow the GNU standard.\r\n\r\nInstallation\r\n------------\r\n\r\n* Dropped support for GHC 8.6, added support for GHC 9.12.\r\n\r\n* Agda supports GHC versions 8.8.4 to 9.12.2.\r\n\r\n* The `agda` binary now contains everything to set itself up,\r\n  it need not be shipped with additional files.\r\n\r\n  1. The functionality of the `agda-mode` executable has been replicated\r\n     under the new option `--emacs-mode`.\r\n     The `agda-mode` executable is now deprecated.\r\n     References to `agda-mode` in your `.emacs` file should be replaced\r\n     by `agda --emacs-mode`.\r\n\r\n  2. Agda now contains all its data files,\r\n     like primitive and builtin modules,\r\n     supplements for the HTML and LaTeX backends,\r\n     the runtimes for the `JS` and `GHC` backends,\r\n     and the emacs mode.\r\n\r\n     These will be written to the data directory\r\n     on the first invocation of `agda` or an invocation of\r\n     `agda --setup`, `agda --emacs-mode setup`, or `agda --emacs-mode compile`.\r\n\r\n     The location of the data directory can be printed using\r\n     `agda --print-agda"
+ },
+ {
+  "tag_name": "v2.8.0-rc3",
+  "name": "v2.8.0-rc3",
+  "html_url": "https://github.com/agda/agda/releases/tag/v2.8.0-rc3",
+  "draft": false,
+  "prerelease": true,
+  "published_at": "2025-08-06T04:07:36Z",
+  "created_at": "2025-06-01T18:22:58Z",
+  "author": {
+   "login": "github-actions[bot]"
+  },
+  "body": "Release notes for Agda version 2.8.0\r\n====================================\r\n\r\nHighlights\r\n----------\r\n\r\n* Agda is now a self-contained single binary.\r\n\r\n* Build all Agda files reachable from paths in the `.agda-lib` file with new flag `--build-library`.\r\n\r\n* Experimental support for polarity annotations with new flag `--polarity`.\r\n\r\n* Compile to JavaScript with ES6 module syntax with new flag `--js-es6`.\r\n\r\n* Errors now have an identifier and follow the GNU standard.\r\n\r\nInstallation\r\n------------\r\n\r\n* The `optimise-heavily` build flag is now turned on by default.\r\n\r\n* Dropped support for GHC 8.6, added support for GHC 9.12.\r\n\r\n* Agda supports GHC versions 8.8.4 to 9.12.2.\r\n\r\n* The `agda` binary now contains everything to set itself up,\r\n  it need not be shipped with additional files.\r\n\r\n  1. The functionality of the `agda-mode` executable has been replicated\r\n     under the new option `--emacs-mode`.\r\n     The `agda-mode` executable is now deprecated.\r\n     References to `agda-mode` in your `.emacs` file should be replaced\r\n     by `agda --emacs-mode`.\r\n\r\n  2. Agda now contains all its data files,\r\n     like primitive and builtin modules,\r\n     supplements for the HTML and LaTeX backends,\r\n     the runtimes for the `JS` and `GHC` backends,\r\n     and the emacs mode.\r\n\r\n     These will be written to `${Agda_datadir}/${VERSION}`\r\n     on the first invocation of `agda` or an invocation of\r\n     `agda --setup`, `agda --emacs-mode setup`, or `agda --emacs-mode compile`.\r\n     Here"
+ }
+]

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>#rocq</title>
+    <description>Public posts tagged #rocq</description>
+    <link>https://mathstodon.xyz/tags/rocq</link>
+    <lastBuildDate>Mon, 16 Nov 2026 08:39:04 +0000</lastBuildDate>
+    <generator>Mastodon v4.7.6</generator>
+    <item>
+      <guid isPermaLink="true">https://chaos.social/@raichoo/117625215008934995</guid>
+      <link>https://chaos.social/@raichoo/117625215008934995</link>
+      <pubDate>Mon, 16 Nov 2026 08:39:04 +0000</pubDate>
+      <description>&lt;p&gt;We've had  extremely light weight versions of this for ages in &lt;a href="https://chaos.social/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt;. Some tactics (e.g. auto) are basically trying to auto-generate proofs. Actually having some sort of AI generated and simplified proof would probably be more informative than `Proof. auto. Qed.` Letting a computer check that the invariants hold while we do the useful work. Thoughts on that? Pitchforks?&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://chaos.social/@raichoo/117622918546222228</guid>
+      <link>https://chaos.social/@raichoo/117622918546222228</link>
+      <pubDate>Sun, 15 Nov 2026 22:55:03 +0000</pubDate>
+      <description>&lt;p&gt;TIL: &lt;a href="https://chaos.social/tags/Coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Coq&lt;/span&gt;&lt;/a&gt; has been renamed to &lt;a href="https://chaos.social/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt;. I wonder why 🤔 What's next? Renaming Uranus? (inb4 Urectum)&lt;/p&gt;</description>
+      <category>rocq</category>
+      <category>coq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://fosstodon.org/@abcdw/117495426645580920</guid>
+      <link>https://fosstodon.org/@abcdw/117495426645580920</link>
+      <pubDate>Sat, 24 Oct 2026 10:32:10 +0000</pubDate>
+      <description>&lt;p&gt;Rocq-solid Software - a formally verified/proven piece of a program.&lt;/p&gt;&lt;p&gt;Example usage: I want both the kernel and userspace programs to be rocq-solid.&lt;/p&gt;&lt;p&gt;P.S. Doesn't matter what proof assistant you used: &lt;a href="https://fosstodon.org/tags/coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;coq&lt;/span&gt;&lt;/a&gt; / &lt;a href="https://fosstodon.org/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/IsabelleHOL" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;IsabelleHOL&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;agda&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://fosstodon.org/tags/tlaplus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;tlaplus&lt;/span&gt;&lt;/a&gt; or whatever.&lt;/p&gt;</description>
+      <category>rocq</category>
+      <category>tlaplus</category>
+      <category>agda</category>
+      <category>IsabelleHOL</category>
+      <category>coq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://tech.lgbt/@somebitslinks/117490873490023776</guid>
+      <link>https://tech.lgbt/@somebitslinks/117490873490023776</link>
+      <pubDate>Fri, 23 Oct 2026 15:14:15 +0000</pubDate>
+      <description>&lt;p&gt;Formal methods and AI: CS professor talks about how AIs enable formal methods and code correctness proof on much, much larger pieces of software&lt;br&gt;&lt;a href="https://discuss.systems/@dwallach/117490843852099763" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;discuss.systems/@dwallach/1174&lt;/span&gt;&lt;span class="invisible"&gt;90843852099763&lt;/span&gt;&lt;/a&gt;&lt;br&gt; &lt;a href="https://tech.lgbt/tags/formalmethods" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalmethods&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tech.lgbt/tags/provablecode" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;provablecode&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tech.lgbt/tags/programming" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;programming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tech.lgbt/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tech.lgbt/tags/ai" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ai&lt;/span&gt;&lt;/a&gt; #+&lt;/p&gt;</description>
+      <category>ai</category>
+      <category>rocq</category>
+      <category>programming</category>
+      <category>provablecode</category>
+      <category>formalmethods</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@Jose_A_Alonso/117344068001072377</guid>
+      <link>https://mathstodon.xyz/@Jose_A_Alonso/117344068001072377</link>
+      <pubDate>Sun, 27 Sep 2026 16:59:41 +0000</pubDate>
+      <description>&lt;p&gt;The logic of Bunched implications is undecidable, mechanized in Rocq. ~ Dominique Larchey-Wendling. &lt;a href="https://members.loria.fr/DLarchey/files/papers/ARQNL26.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;members.loria.fr/DLarchey/file&lt;/span&gt;&lt;span class="invisible"&gt;s/papers/ARQNL26.pdf&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Rocq" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>itp</category>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@vgarzareyna/117162288748966552</guid>
+      <link>https://mathstodon.xyz/@vgarzareyna/117162288748966552</link>
+      <pubDate>Wed, 26 Aug 2026 14:30:50 +0000</pubDate>
+      <description>&lt;p&gt;Hi! I need some help I&amp;#39;m trying to write a rocq (previously coq) proof but I found myself trying to figure out the following objective. &lt;br /&gt;\[ \forall y_0 : T, P\ x\ y_0 \rightarrow \forall y : T, P\ x\ y\] &lt;br /&gt;for a given \( x \).&lt;/p&gt;&lt;p&gt;Now, I know this should be pretty much trivial, but I guess I&amp;#39;m still missing the tactic/lemma knowledge I need to be able to complete the proof (namely replace the \(y_0\) with \(y\)). &lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/askmastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;askmastodon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/rocq" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/coq" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;coq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/mathhelp" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;mathhelp&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>coq</category>
+      <category>askmastodon</category>
+      <category>rocq</category>
+      <category>mathhelp</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://tldr.nettime.org/@lain_7/116672197964079007</guid>
+      <link>https://tldr.nettime.org/@lain_7/116672197964079007</link>
+      <pubDate>Mon, 01 Jun 2026 01:14:18 +0000</pubDate>
+      <description>&lt;p&gt;Inductive Deductive Synthesis: Enabling AI to&lt;/p&gt;&lt;p&gt;Generate Formally Verified Systems&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2605.23109" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;arxiv.org/pdf/2605.23109&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;This paper is pretty cool.&lt;/p&gt;&lt;p&gt;They more-or-less use a proof checker (Rocq, a successor to Coq) as a tool in their agent loop during implementation, instead of turning to verification only at the end.  The proof-checker generates structured output clarifying bugs in each stage of the implemenation (rather like a compiler in an ordinary coding assistant), which gets fed back into the prompt for the next stage of the agent-loop.&lt;/p&gt;&lt;p&gt;They use an analogy to chain-of-thought, except the intermediate states are formally verified, with “holes/need to fill this gap” output from the proof assistant rather than just plausible-sounding text inserted into the prompt for the next pass.&lt;/p&gt;&lt;p&gt;One still has to generate a Rocq spec as input — abstract data types, operation signatures, and axioms that specify the behavior of those operations (post-conditions, basically), but then the system produces a verified implementation prototype in Ocaml.&lt;/p&gt;&lt;p&gt;They are looking at using Verus, instead of Rocq as the proof assistant back end, which would produce Rust instead of Ocaml.&lt;/p&gt;&lt;p&gt;&lt;a href="https://tldr.nettime.org/tags/formalverification" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;formalverification&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;a href="https://tldr.nettime.org/tags/distributedsystems" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;distributedsystems&lt;/span&gt;&lt;/a&gt; &lt;br&gt;&lt;a href="https://tldr.nettime.org/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tldr.nettime.org/tags/ai" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ai&lt;/span&gt;&lt;/a&gt; &lt;a href="https://tldr.nettime.org/tags/codeassistant" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;codeassistant&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>codeassistant</category>
+      <category>ai</category>
+      <category>rocq</category>
+      <category>distributedsystems</category>
+      <category>formalverification</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@arialdo/116671539848832335</guid>
+      <link>https://mastodon.online/@arialdo/116671539848832335</link>
+      <pubDate>Sun, 31 May 2026 22:26:56 +0000</pubDate>
+      <description>&lt;p&gt;Current status: starting reading chapter 7 of Software Foundation, with &lt;a href="https://mastodon.online/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;So far, I managed to do all the exercises.&lt;/p&gt;&lt;p&gt;Amazing how much *doing*, as compared to only *reading*, helps the learning process.&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://social.epfl.ch/@systemf/116578184168079680</guid>
+      <link>https://social.epfl.ch/@systemf/116578184168079680</link>
+      <pubDate>Fri, 15 May 2026 10:45:21 +0000</pubDate>
+      <description>&lt;p&gt;**Rocq’n’Share 2026**&lt;br&gt;**Jun 29–Jul 3, EPFL**&lt;br&gt;Registration free but required: &lt;a href="https://framaforms.org/rocqnshare-2026-registration-1769966293" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;framaforms.org/rocqnshare-2026&lt;/span&gt;&lt;span class="invisible"&gt;-registration-1769966293&lt;/span&gt;&lt;/a&gt;&lt;br&gt;More details: &lt;a href="https://proofs.swiss/rocq-n-share/2026/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;proofs.swiss/rocq-n-share/2026/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Are you itching to learn more about the internals of your favorite proof assistant? Do you have a feature to advocate for? Do you need help implementing an extension or hacking the kernel? Do you feel ready to step up and fix that bug that's been pestering you for years?&lt;/p&gt;&lt;p&gt;Join us for Rocq’n’Share! (contd. in thread)&lt;/p&gt;&lt;p&gt;&lt;a href="https://social.epfl.ch/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://social.epfl.ch/tags/rocqprover" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocqprover&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>RocqProver</category>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@arialdo/116529876757907993</guid>
+      <link>https://mastodon.online/@arialdo/116529876757907993</link>
+      <pubDate>Wed, 06 May 2026 22:00:08 +0000</pubDate>
+      <description>&lt;p&gt;TIL the the expression whose value is being "scrutinized" in a pattern match (in &lt;a href="https://mastodon.online/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt;) is called "scrutinee".&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@arialdo/116512335649688645</guid>
+      <link>https://mastodon.online/@arialdo/116512335649688645</link>
+      <pubDate>Sun, 03 May 2026 19:39:12 +0000</pubDate>
+      <description>&lt;p&gt;I wrote my first 1000 lines of code of &lt;a href="https://mastodon.online/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; &lt;br&gt;I’m impressed that I have just scratched the surface of it.&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@arialdo/116461551371797460</guid>
+      <link>https://mastodon.online/@arialdo/116461551371797460</link>
+      <pubDate>Fri, 24 Apr 2026 20:24:06 +0000</pubDate>
+      <description>&lt;p&gt;Yeeee, I completed chapter 1 (of 17) of volume 1 (of 7) of Software Foundation.&lt;/p&gt;&lt;p&gt;It's a long way to the top if you wanna &lt;a href="https://mastodon.online/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; and roll.&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@h4ckernews/116422922113598060</guid>
+      <link>https://mastodon.social/@h4ckernews/116422922113598060</link>
+      <pubDate>Sat, 18 Apr 2026 00:40:10 +0000</pubDate>
+      <description>&lt;p&gt;Coq theorem prover is now called Rocq&lt;/p&gt;&lt;p&gt;&lt;a href="https://rocq-prover.org/about" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;rocq-prover.org/about&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/HackerNews" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;HackerNews&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Coq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/theorem" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;theorem&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/prover" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;prover&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/programming" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;programming&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/languages" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;languages&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/proof" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;proof&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/assistants" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;assistants&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>assistants</category>
+      <category>proof</category>
+      <category>languages</category>
+      <category>programming</category>
+      <category>prover</category>
+      <category>theorem</category>
+      <category>rocq</category>
+      <category>coq</category>
+      <category>hackernews</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://agda.club/objects/00ae99af-a368-4856-bf4e-8c7a16b9d34c</guid>
+      <link>https://agda.club/objects/00ae99af-a368-4856-bf4e-8c7a16b9d34c</link>
+      <pubDate>Tue, 14 Apr 2026 07:55:07 +0000</pubDate>
+      <description>Our department is hiring an assistant professor in computer science (including programming languages). If you would like to join our small but diverse PL group in beautiful little Delft, please don't hesitate to apply! Also feel free to reach out to me if you want to know anything about our department or academic life in the Netherlands.&lt;br&gt;&lt;br&gt;Deadline for applications: 11th of May&lt;br&gt;&lt;br&gt;&lt;a href="https://www.academictransfer.com/en/jobs/360114/assistant-professor-in-computer-science/" rel="nofollow noopener" target="_blank"&gt;academictransfer.com/en/jobs/360114/assistant-professor-in-computer-science/&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a class="hashtag" href="https://agda.club/tag/tudelft" rel="nofollow noopener" target="_blank"&gt;#TUDelft&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/assistantprofessor" rel="nofollow noopener" target="_blank"&gt;#AssistantProfessor&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/hiring" rel="nofollow noopener" target="_blank"&gt;#Hiring&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/computerscience" rel="nofollow noopener" target="_blank"&gt;#ComputerScience&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/softwaretechnology" rel="nofollow noopener" target="_blank"&gt;#SoftwareTechnology&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/programminglanguages" rel="nofollow noopener" target="_blank"&gt;#ProgrammingLanguages&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/typetheory" rel="nofollow noopener" target="_blank"&gt;#TypeTheory&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/softwareverification" rel="nofollow noopener" target="_blank"&gt;#SoftwareVerification&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/agda" rel="nofollow noopener" target="_blank"&gt;#Agda&lt;/a&gt; &lt;a class="hashtag" href="https://agda.club/tag/rocq" rel="nofollow noopener" target="_blank"&gt;#Rocq&lt;/a&gt;</description>
+      <category>typetheory</category>
+      <category>tudelft</category>
+      <category>softwareverification</category>
+      <category>softwaretechnology</category>
+      <category>rocq</category>
+      <category>programminglanguages</category>
+      <category>hiring</category>
+      <category>computerscience</category>
+      <category>assistantprofessor</category>
+      <category>agda</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@arialdo/116331701892708118</guid>
+      <link>https://mastodon.online/@arialdo/116331701892708118</link>
+      <pubDate>Wed, 01 Apr 2026 22:01:40 +0000</pubDate>
+      <description>&lt;p&gt;Current status: installed &lt;a href="https://mastodon.online/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt;, reading Software Foundation.&lt;/p&gt;</description>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@hackuador/116293958488800625</guid>
+      <link>https://functional.cafe/@hackuador/116293958488800625</link>
+      <pubDate>Thu, 26 Mar 2026 06:03:01 +0000</pubDate>
+      <description>&lt;p class="quote-inline"&gt;RE: &lt;a href="https://functional.cafe/@hackuador/116282882755691464" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;functional.cafe/@hackuador/116&lt;/span&gt;&lt;span class="invisible"&gt;282882755691464&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Two more sleeps until the first &lt;a href="https://functional.cafe/tags/BFPG" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;BFPG&lt;/span&gt;&lt;/a&gt; Hack Day of 2026! See yas there, curious minds!&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/FP" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Haskell" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Haskell&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/OCaml" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;OCaml&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Idris" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Idris&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Gleam" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Gleam&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Scala" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Scala&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Erlang" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Erlang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Elixir" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Elixir&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FSharp" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FSharp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Clojure" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Clojure&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Lisp" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lisp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Rust" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rust&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Scheme" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Scheme&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Racket" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Racket&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>racket</category>
+      <category>scheme</category>
+      <category>rust</category>
+      <category>rocq</category>
+      <category>agda</category>
+      <category>lisp</category>
+      <category>clojure</category>
+      <category>fsharp</category>
+      <category>elixir</category>
+      <category>erlang</category>
+      <category>scala</category>
+      <category>lean</category>
+      <category>gleam</category>
+      <category>idris</category>
+      <category>ocaml</category>
+      <category>haskell</category>
+      <category>fp</category>
+      <category>bfpg</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://functional.cafe/@hackuador/116249508424113396</guid>
+      <link>https://functional.cafe/@hackuador/116249508424113396</link>
+      <pubDate>Wed, 18 Mar 2026 09:38:47 +0000</pubDate>
+      <description>&lt;p&gt;Thanks to Sirius-beta Labs who are once again sponsoring lunch for &lt;a href="https://functional.cafe/tags/BFPG" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;BFPG&lt;/span&gt;&lt;/a&gt; Hack Day.  UQ St Lucia, Saturday 28 March.  Be there or be a lambda cube!&lt;/p&gt;&lt;p&gt;&lt;a href="https://functional.cafe/tags/FP" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FP&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Haskell" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Haskell&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/OCaml" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;OCaml&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Idris" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Idris&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Gleam" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Gleam&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Scala" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Scala&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Erlang" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Erlang&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Elixir" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Elixir&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/FSharp" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FSharp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Clojure" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Clojure&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Lisp" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lisp&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Agda" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agda&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Rust" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rust&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Scheme" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Scheme&lt;/span&gt;&lt;/a&gt; &lt;a href="https://functional.cafe/tags/Racket" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Racket&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://luma.com/uu28az9h" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;luma.com/uu28az9h&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>racket</category>
+      <category>scheme</category>
+      <category>rust</category>
+      <category>rocq</category>
+      <category>agda</category>
+      <category>lisp</category>
+      <category>clojure</category>
+      <category>fsharp</category>
+      <category>elixir</category>
+      <category>erlang</category>
+      <category>scala</category>
+      <category>lean</category>
+      <category>gleam</category>
+      <category>idris</category>
+      <category>ocaml</category>
+      <category>haskell</category>
+      <category>fp</category>
+      <category>bfpg</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@jhostert/116143404441784794</guid>
+      <link>https://mathstodon.xyz/@jhostert/116143404441784794</link>
+      <pubDate>Fri, 27 Feb 2026 15:55:09 +0000</pubDate>
+      <description>&lt;p&gt;I hate it when this happens in my &lt;a href="https://mathstodon.xyz/tags/rocq" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt; proofs...&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/media_attachments/files/116/143/402/662/331/977/original/310d834e4a2374c1.png" type="image/png" fileSize="235442" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">goals on a shelf</media:description>
+      </media:content>
+      <category>rocq</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://uwyn.net/@glaforge/116108354876248816</guid>
+      <link>https://uwyn.net/@glaforge/116108354876248816</link>
+      <pubDate>Sat, 21 Feb 2026 11:21:35 +0000</pubDate>
+      <description>&lt;p&gt;Comparing &lt;a href="https://uwyn.net/tags/Lean" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Lean&lt;/span&gt;&lt;/a&gt; and &lt;a href="https://uwyn.net/tags/Rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rocq&lt;/span&gt;&lt;/a&gt; (formerly known as Coq)&lt;/p&gt;&lt;p&gt;I thought both were theorem provers, but it seems Rocq is more for building verifiable software, while Lean is for more classical math.&lt;/p&gt;&lt;p&gt;So Lean might be a better fit for the math explorations &lt;a href="https://uwyn.net/tags/LLMs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LLMs&lt;/span&gt;&lt;/a&gt; and &lt;a href="https://uwyn.net/tags/AI" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;AI&lt;/span&gt;&lt;/a&gt; &lt;a href="https://uwyn.net/tags/Agents" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Agents&lt;/span&gt;&lt;/a&gt; are doing for solving problems.&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+      </media:content>
+      <category>agents</category>
+      <category>ai</category>
+      <category>LLMs</category>
+      <category>rocq</category>
+      <category>lean</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://bsd.network/@pesco/115927334502442796</guid>
+      <link>https://bsd.network/@pesco/115927334502442796</link>
+      <pubDate>Tue, 20 Jan 2026 12:05:43 +0000</pubDate>
+      <description>&lt;p&gt;This game (still) rocks.&lt;/p&gt;&lt;p&gt;I binge-completed the first four chapters some time in 2014, did the next four in 2016, and then sadly let the project of finishing "Software Foundations" sit idle for almost ten years. :(&lt;/p&gt;&lt;p&gt;Well, any time is infinitely better than never, so here I go with the significantly expanded 2025 edition!&lt;/p&gt;&lt;p&gt;&lt;a href="https://softwarefoundations.cis.upenn.edu/" rel="nofollow noopener" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;softwarefoundations.cis.upenn.&lt;/span&gt;&lt;span class="invisible"&gt;edu/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Image warning: Screenshot spoils the solution to one exercise.&lt;/p&gt;&lt;p&gt;&lt;a href="https://bsd.network/tags/coq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;coq&lt;/span&gt;&lt;/a&gt; &lt;a href="https://bsd.network/tags/rocq" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;rocq&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:description type="plain">Partial screenshot of an Emacs window. It shows Coq/Rocq source code that solves an exercise in proving the equality of two alternative implementations of a function.
+
+The background is lavender-colored.</media:description>
+      </media:content>
+      <category>rocq</category>
+      <category>coq</category>
+    </item>
+  </channel>
+</rss>

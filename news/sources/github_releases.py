@@ -39,6 +39,8 @@ def parse(source: Source, content: bytes, now: datetime) -> list[dict[str, Any]]
         name = (r.get("name") or "").strip() or tag
         title = f"{label} {name}" if label.lower() not in name.lower() else name
         if r.get("prerelease"):
+            if source.param("stable_only", False):
+                continue  # a release candidate or nightly build
             title += " (pre-release)"
         author = (r.get("author") or {}).get("login")
         items.append(

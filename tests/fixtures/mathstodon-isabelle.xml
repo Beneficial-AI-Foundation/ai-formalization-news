@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>#isabelle</title>
+    <description>Public posts tagged #isabelle</description>
+    <link>https://mathstodon.xyz/tags/isabelle</link>
+    <lastBuildDate>Mon, 16 Nov 2026 15:56:55 +0000</lastBuildDate>
+    <generator>Mastodon v4.7.6</generator>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@karlesmarin/117626936724114885</guid>
+      <link>https://mathstodon.xyz/@karlesmarin/117626936724114885</link>
+      <pubDate>Mon, 16 Nov 2026 15:56:55 +0000</pubDate>
+      <description>&lt;p&gt;Paper (English and Spanish): &lt;a href="https://doi.org/10.5281/zenodo.24250503" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;doi.org/10.5281/zenodo.24250503&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;Blueprint, each statement with its status, the Isabelle/HOL pieces and labs in the browser: &lt;a href="https://karlesmarin.github.io/blueprints/robust-offset/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;karlesmarin.github.io/blueprin&lt;/span&gt;&lt;span class="invisible"&gt;ts/robust-offset/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Companion paper, yesterday&amp;#39;s puzzle: &lt;a href="https://doi.org/10.5281/zenodo.24250501" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;doi.org/10.5281/zenodo.24250501&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Drafted with an AI assistant (Claude).&lt;br /&gt;&lt;a href="https://mathstodon.xyz/tags/OptimalControl" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;OptimalControl&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/Isabelle" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>isabelle</category>
+      <category>optimalcontrol</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@karlesmarin/117621833923812937</guid>
+      <link>https://mathstodon.xyz/@karlesmarin/117621833923812937</link>
+      <pubDate>Sun, 15 Nov 2026 18:19:12 +0000</pubDate>
+      <description>&lt;p&gt;For a recent phonon-memory processor (ETH Zurich) the bound gives 1.00–1.14 % average infidelity per write, against 1.71 % measured: within the model, shaping the pulse can recover only the part above the limit.&lt;/p&gt;&lt;p&gt;Paper (English and Spanish): &lt;a href="https://doi.org/10.5281/zenodo.24250501" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;doi.org/10.5281/zenodo.24250501&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;Blueprint, each statement with its status, Isabelle pieces and labs in the browser: &lt;a href="https://karlesmarin.github.io/blueprints/memory-floors/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;karlesmarin.github.io/blueprin&lt;/span&gt;&lt;span class="invisible"&gt;ts/memory-floors/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tomorrow: robustness, and Dubins curves.&lt;/p&gt;&lt;p&gt;Drafted with an AI assistant (Claude).&lt;br /&gt;&lt;a href="https://mathstodon.xyz/tags/Isabelle" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>isabelle</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/117610760341418716</guid>
+      <link>https://pubeurope.com/@fr/117610760341418716</link>
+      <pubDate>Fri, 13 Nov 2026 19:23:03 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/1305726/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/1305726/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Euroméditerranée à Marseille : Isabelle Campagnola-Savon démissionne, Anthony Krehmeier pour la remplacer ? #2026 &lt;a href="https://pubeurope.com/tags/actu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;actu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Actualit%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Actualités&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Anthony" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Anthony&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/CampagnolaSavon" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;CampagnolaSavon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/d%C3%A9missionne" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;démissionne&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/EU" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;EU&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/eurom%C3%A9diterran%C3%A9e" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;euroméditerranée&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/europe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;europe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Krehmeier" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Krehmeier&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Marseille" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Marseille&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/News" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;News&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/politique" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;politique&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/ProvenceAlpesC%C3%B4teD" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ProvenceAlpesCôteD&lt;/span&gt;&lt;/a&gt;'Azur &lt;a href="https://pubeurope.com/tags/R%C3%A9publiqueFran%C3%A7aise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RépubliqueFrançaise&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/618/214/649/949/230/original/dfe6be3e9c834315.jpeg" type="image/jpeg" fileSize="49894" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Google News Icon</media:description>
+      </media:content>
+      <category>Républiquefrançaise</category>
+      <category>provencealpescoted</category>
+      <category>politique</category>
+      <category>news</category>
+      <category>marseille</category>
+      <category>krehmeier</category>
+      <category>isabelle</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>europe</category>
+      <category>euromediterranee</category>
+      <category>eu</category>
+      <category>demissionne</category>
+      <category>campagnolasavon</category>
+      <category>anthony</category>
+      <category>actualites</category>
+      <category>actu</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@karlesmarin/117588789236301641</guid>
+      <link>https://mathstodon.xyz/@karlesmarin/117588789236301641</link>
+      <pubDate>Mon, 09 Nov 2026 22:15:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;span class="h-card" translate="no"&gt;&lt;a href="https://mathstodon.xyz/@Theoremoftheday" class="u-url mention"&gt;@&lt;span&gt;Theoremoftheday&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; The same repository also has Isabelle/HOL: 101 theories at the same tag. Some are ports of the Lean modules (the polylogarithm floor, the Zieliński–Zych bound, integer friezes), some are Isabelle only, like Young&amp;#39;s cosine inequality, and several are entries submitted to the Archive of Formal Proofs. No sorry, no external provers.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/karlesmarin/formalizations/tree/v0.1.1/Isabelle" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;github.com/karlesmarin/formali&lt;/span&gt;&lt;span class="invisible"&gt;zations/tree/v0.1.1/Isabelle&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Isabelle" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/ITP" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;ITP&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>itp</category>
+      <category>isabelle</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@karlesmarin/117505596738755135</guid>
+      <link>https://mathstodon.xyz/@karlesmarin/117505596738755135</link>
+      <pubDate>Mon, 26 Oct 2026 05:38:34 +0000</pubDate>
+      <description>&lt;p&gt;Both families are proved for every n and checked in Isabelle/HOL; the two smallest pairs are also checked in Lean 4.&lt;/p&gt;&lt;p&gt;Note (English and Spanish), with the programs of the search: &lt;a href="https://doi.org/10.5281/zenodo.23656979" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;doi.org/10.5281/zenodo.23656979&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Blueprint, with every statement and its dependencies, the formal proofs opening next to each statement, and labs to try any pair of quiddities in your browser: &lt;a href="https://karlesmarin.github.io/blueprints/integer-frieze-sign-changes/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;karlesmarin.github.io/blueprin&lt;/span&gt;&lt;span class="invisible"&gt;ts/integer-frieze-sign-changes/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mathstodon.xyz/tags/Isabelle" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mathstodon.xyz/tags/LeanProver" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;LeanProver&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>leanprover</category>
+      <category>isabelle</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://theater.im/@gulfchannels/117471046862874063</guid>
+      <link>https://theater.im/@gulfchannels/117471046862874063</link>
+      <pubDate>Tue, 20 Oct 2026 03:12:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.gulfchannels.com/635118/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;gulfchannels.com/635118/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Isabelle Fuhrman &lt;a href="https://theater.im/tags/celebrities" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;celebrities&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Celebs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Celebs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Fuhrman" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Fuhrman&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/ObsessedWithCelebrities" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ObsessedWithCelebrities&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/ObsessedWithCelebs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ObsessedWithCelebs&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Isabelle Fuhrman</media:description>
+      </media:content>
+      <category>obsessedwithcelebs</category>
+      <category>obsessedwithcelebrities</category>
+      <category>isabelle</category>
+      <category>fuhrman</category>
+      <category>celebs</category>
+      <category>celebrities</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/117003206406668465</guid>
+      <link>https://pubeurope.com/@fr/117003206406668465</link>
+      <pubDate>Wed, 29 Jul 2026 12:14:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/1094876/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/1094876/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; La préfète déléguée pour l’égalité des chances Isabelle Epaillard des Bouches-du-Rhône nommée dans l’Aisne #2026 &lt;a href="https://pubeurope.com/tags/actu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;actu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Actualit%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Actualités&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/chances" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;chances&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/d%C3%A9l%C3%A9gu%C3%A9e" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;déléguée&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/des" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;des&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/EU" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;EU&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/europe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;europe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/l" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;l&lt;/span&gt;&lt;/a&gt;’égalité &lt;a href="https://pubeurope.com/tags/Marseille" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Marseille&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/News" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;News&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/pour" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;pour&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/pr%C3%A9f%C3%A8te" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;préfète&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/ProvenceAlpesC%C3%B4teD" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ProvenceAlpesCôteD&lt;/span&gt;&lt;/a&gt;'Azur &lt;a href="https://pubeurope.com/tags/R%C3%A9publiqueFran%C3%A7aise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RépubliqueFrançaise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Soci%C3%A9t%C3%A9" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Société&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/117/003/208/958/989/702/original/b9c25f1103ebab5e.jpeg" type="image/jpeg" fileSize="48302" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">La préfète déléguée pour l'égalité des chances Isabelle Epaillard des Bouches-du-Rhône nommée dans l'Aisne</media:description>
+      </media:content>
+      <category>societe</category>
+      <category>Républiquefrançaise</category>
+      <category>provencealpescoted</category>
+      <category>prefete</category>
+      <category>pour</category>
+      <category>news</category>
+      <category>marseille</category>
+      <category>l</category>
+      <category>isabelle</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>europe</category>
+      <category>eu</category>
+      <category>des</category>
+      <category>deleguee</category>
+      <category>chances</category>
+      <category>actualites</category>
+      <category>actu</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/116747875683804947</guid>
+      <link>https://pubeurope.com/@fr/116747875683804947</link>
+      <pubDate>Sun, 14 Jun 2026 10:00:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/999330/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/999330/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; “La Prisonnière de Bordeaux” : Isabelle Huppert et Hafsia Herzi dans un huis clos social #2026 &lt;a href="https://pubeurope.com/tags/actu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;actu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Actualit%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Actualités&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Bordeaux" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Bordeaux&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/CeSoir%C3%A0LaT%C3%A9l%C3%A9" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;CeSoiràLaTélé&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/EU" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;EU&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/europe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;europe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/hafsia" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;hafsia&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/herzi" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;herzi&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/huis" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;huis&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/huppert" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;huppert&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/News" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;News&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/NouvelleAquitaine" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;NouvelleAquitaine&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/prisonniere" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;prisonniere&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/R%C3%A9publiqueFran%C3%A7aise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RépubliqueFrançaise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/teleobs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;teleobs&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">“La Prisonnière de Bordeaux” : Isabelle Huppert et Hafsia Herzi dans un huis clos social</media:description>
+      </media:content>
+      <category>teleobs</category>
+      <category>Républiquefrançaise</category>
+      <category>prisonniere</category>
+      <category>nouvelleaquitaine</category>
+      <category>news</category>
+      <category>isabelle</category>
+      <category>huppert</category>
+      <category>huis</category>
+      <category>herzi</category>
+      <category>hafsia</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>europe</category>
+      <category>eu</category>
+      <category>cesoiralatele</category>
+      <category>bordeaux</category>
+      <category>actualites</category>
+      <category>actu</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.online/@nomeata/116483124747585223</guid>
+      <link>https://mastodon.online/@nomeata/116483124747585223</link>
+      <pubDate>Tue, 28 Apr 2026 15:50:29 +0000</pubDate>
+      <description>&lt;p&gt;Why is there no Isar-like structured proof mode in Lean, like there is for Isabelle? In &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/270676-lean4/topic/Thoughts.20about.20Isar.20and.20Lean/near/591162685" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;leanprover.zulipchat.com/#narr&lt;/span&gt;&lt;span class="invisible"&gt;ow/channel/270676-lean4/topic/Thoughts.20about.20Isar.20and.20Lean/near/591162685&lt;/span&gt;&lt;/a&gt; I offer two answers:&lt;/p&gt;&lt;p&gt;1. There is now (AI-assistet proof of concept): &lt;a href="https://github.com/nomeata/lean-lisar" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;github.com/nomeata/lean-lisar&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;, proving that it's certainly well possible.&lt;br&gt;2. It doesn’t seem to be needed that much. (Assume it were. Someone would have built it if it is possible. And from the point above it follows that it is possible.)&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.online/tags/leanProver" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;leanProver&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.online/tags/itp" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;itp&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Screenshot of VSCode editing Lean code with an Isar-like structured proof mode.</media:description>
+      </media:content>
+      <category>itp</category>
+      <category>isabelle</category>
+      <category>leanprover</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://23.social/@alios/116475374405341313</guid>
+      <link>https://23.social/@alios/116475374405341313</link>
+      <pubDate>Mon, 27 Apr 2026 06:59:29 +0000</pubDate>
+      <description>&lt;p&gt;Archimedes' Cattle Problem in &lt;a href="https://23.social/tags/isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;isabelle&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Archimedes challenged mathematicians  with a puzzle that involved computing the size of the cattle herd, based on a number of linear equations and other restrictions.&lt;/p&gt;&lt;p&gt;Since the solution has 103,266 digits, solving the problem was far beyond the computational capabilities at the time. The first approx solution was computed by Amthor in 1880, and the exact solution by Williams et al. using electronic computers in 1965. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.isa-afp.org/entries/Archimedes_Cattle.html" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;isa-afp.org/entries/Archimedes&lt;/span&gt;&lt;span class="invisible"&gt;_Cattle.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://23.social/tags/math" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;math&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>math</category>
+      <category>isabelle</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://theater.im/@gulfchannels/116453006715557435</guid>
+      <link>https://theater.im/@gulfchannels/116453006715557435</link>
+      <pubDate>Thu, 23 Apr 2026 08:11:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.gulfchannels.com/471369/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;gulfchannels.com/471369/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Isabelle Fuhrman &lt;a href="https://theater.im/tags/CelebPortraits" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;CelebPortraits&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/celebrities" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;celebrities&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Celebs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Celebs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Fuhrman" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Fuhrman&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Portraits" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Portraits&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Isabelle Fuhrman</media:description>
+      </media:content>
+      <category>portraits</category>
+      <category>isabelle</category>
+      <category>fuhrman</category>
+      <category>celebs</category>
+      <category>celebrities</category>
+      <category>celebportraits</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/116296907880318939</guid>
+      <link>https://pubeurope.com/@fr/116296907880318939</link>
+      <pubDate>Thu, 26 Mar 2026 18:33:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/826483/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/826483/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Les originaux de l’illustratrice Anne Isabelle Le Touzé exposés à la médiathèque de &lt;a href="https://pubeurope.com/tags/actu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;actu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Actualit%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Actualités&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Anne" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Anne&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/bretagne" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;bretagne&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/EU" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;EU&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/europe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;europe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/expos%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;exposés&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/illustratrice" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;illustratrice&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/mediatheque" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;mediatheque&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/News" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;News&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/originaux" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;originaux&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/redon" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;redon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Rennes" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Rennes&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/R%C3%A9publiqueFran%C3%A7aise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RépubliqueFrançaise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/SaintJacquesDeLaLande" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;SaintJacquesDeLaLande&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/touz%C3%A9" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;touzé&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/116/296/918/537/694/002/original/a678e95616907517.jpg" type="image/jpeg" fileSize="134921" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Les originaux de l’illustratrice Anne Isabelle Le Touzé exposés à la médiathèque de</media:description>
+      </media:content>
+      <category>touze</category>
+      <category>saintjacquesdelalande</category>
+      <category>Républiquefrançaise</category>
+      <category>rennes</category>
+      <category>redon</category>
+      <category>originaux</category>
+      <category>news</category>
+      <category>mediatheque</category>
+      <category>isabelle</category>
+      <category>illustratrice</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>exposes</category>
+      <category>europe</category>
+      <category>eu</category>
+      <category>bretagne</category>
+      <category>anne</category>
+      <category>actualites</category>
+      <category>actu</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/116192151397946392</guid>
+      <link>https://pubeurope.com/@fr/116192151397946392</link>
+      <pubDate>Sun, 08 Mar 2026 06:32:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/783646/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/783646/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; « On vit dans une société pédophile qui nous oblige, en tant que mères, à être dans une protection permanente » #2026 &lt;a href="https://pubeurope.com/tags/adjani" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;adjani&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/attendait" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;attendait&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/ca" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ca&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/dieu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;dieu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Divertissement" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Divertissement&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Entertainment" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Entertainment&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Iran" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Iran&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/LaTribuneDimanche" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LaTribuneDimanche&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/passe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;passe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/people" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;people&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/r%C3%A9jouis" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;réjouis&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Une La Tribune du dimanche 8 mars 2026</media:description>
+      </media:content>
+      <category>rejouis</category>
+      <category>people</category>
+      <category>passe</category>
+      <category>LaTribuneDimanche</category>
+      <category>isabelle</category>
+      <category>iran</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>entertainment</category>
+      <category>divertissement</category>
+      <category>dieu</category>
+      <category>ca</category>
+      <category>attendait</category>
+      <category>adjani</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/115995476236598566</guid>
+      <link>https://pubeurope.com/@fr/115995476236598566</link>
+      <pubDate>Sun, 01 Feb 2026 12:55:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/704173/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/704173/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Défendre Nina Simone a donné un coup d’accélérateur #2026 &lt;a href="https://pubeurope.com/tags/actu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;actu&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Actualit%C3%A9s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Actualités&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/d%C3%A9fendre" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;défendre&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/EU" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;EU&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/europe" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;europe&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FaitsDiversJustice" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FaitsDiversJustice&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/marque" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;marque&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Marseille" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Marseille&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/News" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;News&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/proc%C3%A8s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;procès&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/ProvenceAlpesC%C3%B4teD" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ProvenceAlpesCôteD&lt;/span&gt;&lt;/a&gt;'Azur &lt;a href="https://pubeurope.com/tags/qui" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;qui&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/R%C3%A9publiqueFran%C3%A7aise" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;RépubliqueFrançaise&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Terrin" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Terrin&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/vie" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;vie&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://media.mathstodon.xyz/cache/media_attachments/files/115/995/476/544/266/068/original/ffcac50fd334760b.jpeg" type="image/jpeg" fileSize="37512" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">"Défendre Nina Simone a donné un coup d’accélérateur"</media:description>
+      </media:content>
+      <category>vie</category>
+      <category>terrin</category>
+      <category>Républiquefrançaise</category>
+      <category>qui</category>
+      <category>provencealpescoted</category>
+      <category>proces</category>
+      <category>news</category>
+      <category>marseille</category>
+      <category>marque</category>
+      <category>isabelle</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>faitsdiversjustice</category>
+      <category>europe</category>
+      <category>eu</category>
+      <category>défendre</category>
+      <category>actualites</category>
+      <category>actu</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/115995047630173704</guid>
+      <link>https://pubeurope.com/@fr/115995047630173704</link>
+      <pubDate>Sun, 01 Feb 2026 11:06:04 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/704007/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/704007/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Les plus belles maisons de stars en Suisse &lt;a href="https://pubeurope.com/tags/adjani" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;adjani&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/aznavour" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;aznavour&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/belles" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;belles&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Charles" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Charles&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/DE" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;DE&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Divertissement" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Divertissement&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/En" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;En&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Entertainment" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Entertainment&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/les" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;les&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Maisons" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Maisons&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/plus" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;plus&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Stars" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Stars&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Suisse" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Suisse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Tina" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Tina&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Turner" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Turner&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Les plus belles maisons de stars en Suisse</media:description>
+      </media:content>
+      <category>turner</category>
+      <category>tina</category>
+      <category>suisse</category>
+      <category>stars</category>
+      <category>plus</category>
+      <category>maisons</category>
+      <category>les</category>
+      <category>isabelle</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>entertainment</category>
+      <category>en</category>
+      <category>divertissement</category>
+      <category>de</category>
+      <category>charles</category>
+      <category>belles</category>
+      <category>aznavour</category>
+      <category>adjani</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://theater.im/@gulfchannels/115971969858818482</guid>
+      <link>https://theater.im/@gulfchannels/115971969858818482</link>
+      <pubDate>Wed, 28 Jan 2026 09:17:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.gulfchannels.com/394858/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;gulfchannels.com/394858/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; Isabelle Fuhrman &lt;a href="https://theater.im/tags/celebrities" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;celebrities&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Celebs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Celebs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Fuhrman" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Fuhrman&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/ObsessedWithCelebrities" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ObsessedWithCelebrities&lt;/span&gt;&lt;/a&gt; &lt;a href="https://theater.im/tags/ObsessedWithCelebs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;ObsessedWithCelebs&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Isabelle Fuhrman</media:description>
+      </media:content>
+      <category>obsessedwithcelebs</category>
+      <category>obsessedwithcelebrities</category>
+      <category>isabelle</category>
+      <category>fuhrman</category>
+      <category>celebs</category>
+      <category>celebrities</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://pubeurope.com/@fr/115885678411755360</guid>
+      <link>https://pubeurope.com/@fr/115885678411755360</link>
+      <pubDate>Tue, 13 Jan 2026 03:32:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://www.europesays.com/fr/659788/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class=""&gt;europesays.com/fr/659788/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; « Le métier ne s’intéressait qu’à Karen Cheryl, la jeune chanteuse. Pas à moi » #«Le #2026 &lt;a href="https://pubeurope.com/tags/Chanteuse" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Chanteuse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Cheryl" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Cheryl&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Divertissement" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Divertissement&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Entertainment" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Entertainment&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/FR" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;FR&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/France" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;France&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/jeune" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;jeune&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Karen" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Karen&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/LaTribuneDimanche" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;LaTribuneDimanche&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/m%C3%A9tier" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;métier&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Morizet" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Morizet&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/Music" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Music&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/musique" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;musique&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/pas" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;pas&lt;/span&gt;&lt;/a&gt; &lt;a href="https://pubeurope.com/tags/qu" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;qu&lt;/span&gt;&lt;/a&gt;’à &lt;a href="https://pubeurope.com/tags/s" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;s&lt;/span&gt;&lt;/a&gt;’intéressait&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Facebook</media:description>
+      </media:content>
+      <category>s</category>
+      <category>QU</category>
+      <category>pas</category>
+      <category>musique</category>
+      <category>music</category>
+      <category>morizet</category>
+      <category>metier</category>
+      <category>LaTribuneDimanche</category>
+      <category>karen</category>
+      <category>jeune</category>
+      <category>isabelle</category>
+      <category>france</category>
+      <category>fr</category>
+      <category>entertainment</category>
+      <category>divertissement</category>
+      <category>cheryl</category>
+      <category>chanteuse</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@jnpn/115827424577478909</guid>
+      <link>https://mastodon.social/@jnpn/115827424577478909</link>
+      <pubDate>Fri, 02 Jan 2026 20:37:19 +0000</pubDate>
+      <description>&lt;p&gt;fun book &lt;a href="http://concrete-semantics.org/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;http://&lt;/span&gt;&lt;span class=""&gt;concrete-semantics.org/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;(pdf available)&lt;/p&gt;&lt;p&gt;found on this thread &lt;a href="https://lobste.rs/s/eulydi/which_programming_resource_changed_your" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;lobste.rs/s/eulydi/which_progr&lt;/span&gt;&lt;span class="invisible"&gt;amming_resource_changed_your&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/semantics" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;semantics&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/proofs" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;proofs&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;isabelle&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>isabelle</category>
+      <category>proofs</category>
+      <category>semantics</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://channels.im/@girlselfie/115812099962631997</guid>
+      <link>https://channels.im/@girlselfie/115812099962631997</link>
+      <pubDate>Wed, 31 Dec 2025 03:40:04 +0000</pubDate>
+      <description>&lt;p&gt;Gwyneth Isabelle &lt;a href="https://www.girlselfie.com/716774/gwyneth-isabelle/" rel="nofollow noopener" translate="no" target="_blank"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;girlselfie.com/716774/gwyneth-&lt;/span&gt;&lt;span class="invisible"&gt;isabelle/&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/BeautyInOurTime" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;BeautyInOurTime&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/GirlSelfie" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;GirlSelfie&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/girls" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;girls&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/GirlsSelfie" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;GirlsSelfie&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/Gwyneth" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Gwyneth&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/Isabelle" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/pretty" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;pretty&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/PrettyGirls" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;PrettyGirls&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/PrettyGirlsInstagram" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;PrettyGirlsInstagram&lt;/span&gt;&lt;/a&gt; &lt;a href="https://channels.im/tags/PrettyGirlsSelfie" class="mention hashtag" rel="nofollow noopener" target="_blank"&gt;#&lt;span&gt;PrettyGirlsSelfie&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <media:content url="https://mathstodon.xyz/files/original/missing.png" type="" fileSize="" medium="image">
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:description type="plain">Gwyneth Isabelle</media:description>
+      </media:content>
+      <category>prettygirlsselfie</category>
+      <category>prettygirlsinstagram</category>
+      <category>prettygirls</category>
+      <category>pretty</category>
+      <category>isabelle</category>
+      <category>Gwyneth</category>
+      <category>girlsselfie</category>
+      <category>girls</category>
+      <category>girlselfie</category>
+      <category>beautyinourtime</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@xameer/115760907910715105</guid>
+      <link>https://mathstodon.xyz/@xameer/115760907910715105</link>
+      <pubDate>Mon, 22 Dec 2025 02:41:15 +0000</pubDate>
+      <description>&lt;p&gt;Why a Digital Clock is Decidable&lt;br /&gt;Finite State System: A digital clock has a finite, albeit large, number of possible states . A typical clock tracks seconds (0-59), minutes (0-59), hours (0-23 or 1-12 with AM/PM), and potentially date information. The total number of unique configurations (states) is finite. Systems with a finite number of states are generally decidable [3].&lt;br /&gt;Deterministic Behavior: The clock&amp;#39;s transitions between states are predictable and governed by fixed rules (e.g., after 59 seconds, the seconds reset to 0, and the minutes increment by 1) . This determinism allows for predictable analysis of its behavior. &lt;br /&gt;Programmatic verification of a digital clock typically involves treating it as a finite state machine (FSM) or using formal verification techniques Modeling as a Finite State Machine /Model Checking&lt;br /&gt;Theorem Proving: Use interactive theorem provers (e.g., &lt;a href="https://mathstodon.xyz/tags/Coq" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Coq&lt;/span&gt;&lt;/a&gt;, &lt;a href="https://mathstodon.xyz/tags/Isabelle" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Isabelle&lt;/span&gt;&lt;/a&gt; / &lt;a href="https://mathstodon.xyz/tags/HOL" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;HOL&lt;/span&gt;&lt;/a&gt;) to mathematically prove the clock&amp;#39;s implementation adheres to its formal specification &lt;br /&gt;&lt;a href="https://mathstodon.xyz/tags/academia" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;academia&lt;/span&gt;&lt;/a&gt; folks need be motivated and paid for this and by them I mean anyone , who can do it , which means many people who couldn&amp;#39;t pursue , this need be a &lt;a href="https://mathstodon.xyz/tags/udemy" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;udemy&lt;/span&gt;&lt;/a&gt; course&lt;/p&gt;</description>
+      <category>udemy</category>
+      <category>academia</category>
+      <category>hol</category>
+      <category>isabelle</category>
+      <category>coq</category>
+    </item>
+  </channel>
+</rss>
