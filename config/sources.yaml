@@ -318,6 +318,27 @@ sources:
     filter: none
     every: 1h
 
+  # Groups and companies from the team's list of conferences, workshops and initiatives.
+  - id: forsyte
+    name: Forsyte, TU Wien
+    kind: feed
+    type: news
+    url: https://www.forsyte.at/index.xml
+    enabled: true
+    filter: none
+    every: 6h
+    note: Formal methods group at TU Wien (Vampire, SAT and SMT, model checking). Group news and seminar talks. No keyword filter, because talk titles rarely contain the keywords; untrusted, so Claude hides off-topic posts.
+
+  - id: sigil-logic
+    name: Sigil Logic
+    kind: feed
+    type: news
+    url: https://sigillogic.com/feed.xml
+    enabled: true
+    filter: none
+    every: 6h
+    note: Company working on formal methods for AI and secure hardware. Untrusted, so Claude judges each post.
+
   # ---------- Other sources (disabled; switch on as wanted) ----------
   - id: hillel-wayne
     name: Hillel Wayne, Computer Things

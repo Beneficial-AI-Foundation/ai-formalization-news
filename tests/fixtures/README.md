@@ -13,5 +13,8 @@ Saved on 23 Nov 2026 with the bot's User-Agent, except:
   `rocq-changelog` and `agda-releases` were saved on 24 Nov 2026. Items published after the tests'
   fixed time (23 Nov 2026, 03:17 UTC) were removed, and `agda-releases.json` keeps only the fields
   the parser reads, with release notes cut to 1,500 characters.
+- `forsyte.xml` and `sigil-logic.xml` were saved on 24 Nov 2026. `forsyte.xml` keeps the newest 30
+  dated items of the feed's 334, plus two of its 159 static pages, which are dated 1 Jan 0001 and have
+  empty titles; the 30-day window always drops those.
 
 To refresh a fixture, download the source's URL again and run `pytest`.

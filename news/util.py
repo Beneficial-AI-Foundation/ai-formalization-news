@@ -18,7 +18,9 @@ def utcnow() -> datetime:
 
 
 def iso(dt: datetime) -> str:
-    return dt.astimezone(timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ")
+    d = dt.astimezone(timezone.utc)
+    # strftime("%Y") does not pad years below 1000 ("1-01-01"); some feeds date pages 1 Jan 0001.
+    return f"{d.year:04d}-{d:%m-%dT%H:%M:%S}Z"
 
 
 def parse_iso(s: str | None) -> datetime | None:
