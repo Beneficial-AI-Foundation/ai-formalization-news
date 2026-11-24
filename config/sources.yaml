@@ -14,6 +14,10 @@
 #            candidates, nightly builds); default false keeps them, marked "(pre-release)"
 #   exclude_titles  optional, feed only: a regular expression; entries whose title
 #            matches it anywhere, ignoring case, are skipped (for example merge commits)
+#   channels, min_messages, min_people, lookback_hours, messages  zulip only: which
+#            channels to read; keep only topics that started within lookback_hours and have
+#            at least min_messages messages from min_people people (default 1 and 1); read
+#            the newest `messages` messages of each channel (default 1000)
 #   note     free text for maintainers
 #
 # To add a blog, copy one of the feed entries, give it a new id, and set its url.
@@ -130,17 +134,35 @@ sources:
     lookback_hours: 48
     note: Searches each keyword; keeps stories whose title or link matches a keyword and that have at least min_points.
 
+  # The Lean Zulip, read by the "BAIF news reader" bot (secrets ZULIP_EMAIL and
+  # ZULIP_API_KEY). Every channel below is web-public: anyone can read it without an account.
   - id: lean-zulip
     name: Lean Zulip announcements
     kind: zulip
     type: lean
     site: https://leanprover.zulipchat.com
-    channel: announce
-    enabled: false
+    channels: [General announcements, Project announcements]
+    messages: 100
+    lookback_hours: 720
+    enabled: true
     filter: none
     trusted: true
     every: 1h
-    note: Needs ZULIP_EMAIL and ZULIP_API_KEY, and the Lean community's agreement to a bot reading announcements.
+    note: Moderated, low-traffic channels (together about one new topic every two or three days), so every new topic counts.
+
+  - id: lean-zulip-discussions
+    name: Lean Zulip discussions
+    kind: zulip
+    type: news
+    site: https://leanprover.zulipchat.com
+    channels: [general, AI authored projects, Autoformalization, Machine Learning for Theorem Proving]
+    min_messages: 10
+    min_people: 5
+    lookback_hours: 48
+    enabled: true
+    filter: none
+    every: 1h
+    note: Busy new topics only. Measured over 10 to 24 Nov 2026, these thresholds kept about one topic a day, among them "VNP != VP in Lean" (19 messages from 10 people on its first day). Untrusted, so Claude hides questions and other off-topic threads.
 
   # Extra blogs: add RSS or Atom links here, for example
   # - id: my-blog

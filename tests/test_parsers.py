@@ -16,7 +16,7 @@ from .conftest import NOW, fixture_path, parse_fixture
 CFG = load_config()
 KEYWORDS = compile_keywords(CFG.keywords)
 # Hacker News: the saved reply has no story with 5 points yet, so it is checked separately.
-WITH_ITEMS = [s for s in CFG.sources if s.enabled and s.kind != "hackernews"] + [CFG.source("lean-zulip")]
+WITH_ITEMS = [s for s in CFG.sources if s.enabled and s.kind != "hackernews"]
 
 
 def test_every_enabled_source_has_a_fixture():
@@ -191,12 +191,83 @@ def test_lab_blog_keyword_filter(sid, total, kept):
     assert [i["title"] for i in items if item_matches(i, KEYWORDS)] == [kept]
 
 
-def test_zulip_one_item_per_topic():
+def test_zulip_announcements_one_item_per_new_topic():
     src = CFG.source("lean-zulip")
     items = parse_fixture(src, fixture_path("lean-zulip").read_bytes(), NOW, KEYWORDS)
-    assert [i["title"] for i in items] == ["Mathlib v4.37.0 bump", "Lean Together 2027: call for talks"]
-    assert items[0]["url"].endswith("/near/560001")
-    assert "#narrow/channel/113486-announce/topic/" in items[0]["url"]
+    # "Lean 3 is end of life" started 60 days ago, before the 30-day lookback.
+    assert [i["title"] for i in items] == ["Lean v4.37.0 released", "Formalising the Kakeya conjecture in Lean"]
+    assert items[0]["url"].endswith("/near/600001")
+    assert "#narrow/channel/113486-General.20announcements/topic/" in items[0]["url"]
+    assert items[0]["source_text"] == "Lean v4.37.0 is out. Thanks to Person 3 and Person 4 for the release notes."
+    assert items[1]["authors"] == ["Person 5"]
+
+
+def test_zulip_discussions_keep_busy_new_topics():
+    src = CFG.source("lean-zulip-discussions")
+    items = parse_fixture(src, fixture_path("lean-zulip-discussions").read_bytes(), NOW, KEYWORDS)
+    # Left out: "Old busy topic" (started 72 hours ago), "grind fails with simp" (11 messages
+    # but 3 people) and "Quiet question" (3 messages).
+    assert [i["title"] for i in items] == ["VNP != VP in Lean", "Solved a 20-year-old problem"]
+    assert items[0]["source_text"].startswith("Discussed on the Lean Zulip in #general: 12 messages from 6 people. A Lean")
+    assert items[0]["published"] == "2026-11-22T07:17:00Z"
+
+
+class _FakeZulip:
+    """Answers GET /messages like the Zulip API: a channel's newest messages, or a topic's first."""
+
+    def __init__(self, channels, firsts, failing=()):
+        self.channels, self.firsts, self.failing, self.requests = channels, firsts, set(failing), []
+
+    def get(self, url, params=None, conditional=True, auth=None):
+        import json
+        from types import SimpleNamespace
+
+        narrow = {n["operator"]: n["operand"] for n in json.loads(params["narrow"])}
+        self.requests.append(narrow)
+        if narrow["channel"] in self.failing:
+            raise FetchError("HTTP 400 from " + url, http_status=400)
+        if "topic" in narrow:
+            msgs = [self.firsts[narrow["topic"]]] if narrow["topic"] in self.firsts else []
+        else:
+            msgs = self.channels.get(narrow["channel"], [])
+        return SimpleNamespace(status=200, content=json.dumps({"result": "success", "messages": msgs}).encode())
+
+
+def test_zulip_fetch_checks_where_each_topic_started(monkeypatch):
+    """A channel's newest messages can begin in the middle of an old topic; its first visible
+    message is then a reply. The fetcher asks for each qualifying topic's real first message."""
+    from news.sources import FetchContext, zulip
+
+    monkeypatch.setenv("ZULIP_EMAIL", "bot@example.org")
+    monkeypatch.setenv("ZULIP_API_KEY", "k")
+    ts = int(NOW.timestamp())
+
+    def m(i, topic, hours_ago, sender):
+        return {"id": i, "subject": topic, "timestamp": ts - hours_ago * 3600, "sender_id": sender,
+                "sender_full_name": f"P{sender}", "stream_id": 1, "display_recipient": "general", "content": f"m{i}"}
+
+    revived = [m(50 + k, "Revived old topic", 5 - k * 0.1, k % 6) for k in range(12)]
+    fresh = [m(80 + k, "Fresh topic", 3 - k * 0.1, k % 6) for k in range(12)]
+    http = _FakeZulip({"general": revived + fresh, "AI authored projects": []},
+                      firsts={"Revived old topic": m(7, "Revived old topic", 24 * 400, 1), "Fresh topic": fresh[0]},
+                      failing=["Autoformalization"])
+    src = CFG.source("lean-zulip-discussions")
+    result = zulip.fetch(src, FetchContext(http=http, now=NOW, keywords=KEYWORDS))
+    assert [i["title"] for i in result.items] == ["Fresh topic"]
+    assert result.warnings and "Autoformalization" in result.warnings[0]
+    checked = [r["topic"] for r in http.requests if "topic" in r]
+    assert sorted(checked) == ["Fresh topic", "Revived old topic"]
+
+
+def test_zulip_fetch_fails_only_if_every_channel_fails(monkeypatch):
+    from news.sources import FetchContext, zulip
+
+    monkeypatch.setenv("ZULIP_EMAIL", "bot@example.org")
+    monkeypatch.setenv("ZULIP_API_KEY", "k")
+    src = CFG.source("lean-zulip")
+    http = _FakeZulip({}, {}, failing=zulip.channels_of(src))
+    with pytest.raises(FetchError, match="every Zulip channel failed"):
+        zulip.fetch(src, FetchContext(http=http, now=NOW, keywords=KEYWORDS))
 
 
 def test_feed_pages_dated_year_1_never_count_as_new():

@@ -6,8 +6,10 @@ Saved on 23 Nov 2026 with the bot's User-Agent, except:
 - `arxiv-rss.xml` is constructed: the live feed was empty at the weekend, so it uses the
   rss.arxiv.org item format filled with five real papers from `arxiv-api.xml`.
   `arxiv-rss-weekend.xml` is the real (empty) weekend response.
-- `lean-zulip.json` is synthetic, shaped like the Zulip `GET /api/v1/messages` reply,
-  because no bot credentials exist yet.
+- `lean-zulip.json` and `lean-zulip-discussions.json` are synthetic: each maps a channel to a
+  reply shaped like the real Zulip `GET /api/v1/messages` reply, so the repository stores no
+  one's messages. They hold topics on both sides of each rule (an old topic, a busy topic with
+  too few people, a quiet topic). The live channels were checked with the bot on 24 Nov 2026.
 - `hackernews.json` is the real reply for the query "Lean 4"; no story in it had 5 points yet.
 - The fixtures for `mathstodon-itp`, `mathstodon-agda`, `mathstodon-rocq`, `mathstodon-isabelle`,
   `rocq-changelog` and `agda-releases` were saved on 24 Nov 2026. Items published after the tests'
