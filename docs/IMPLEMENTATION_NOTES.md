@@ -197,6 +197,7 @@ The repository was empty apart from a README, so there is no in-project analog f
   - On the 37 deleted papers, the new prompt keeps 21, against 12 for the old prompt run again. The clearly off-topic papers (turbofans, ridge regression, Latin rectangles) stay out.
   - On the 100-item comparison set it keeps 84, against 83 for the old prompt and 86 for Sonnet. Agreement with Sonnet is 94, against 95.
   - The cost is unchanged.
+- **D34. Deploy retries** (Jin's decision, 24 Nov 2026). In the first day, 4 of about 22 runs failed at the Pages deploy step, all on GitHub's side. Three failed with "Fetching artifact metadata failed" right after a successful upload, and one with "Deployment failed, try again later". The next run always deployed. `actions/deploy-pages` does not retry these. The workflow now allows the first deploy to fail, waits 2 minutes and tries again, then waits 5 minutes and makes a last try; only that last failure fails the run. Three attempts over about 7 minutes cover a glitch as long as the worst one seen (about 10 minutes from the first failure to a working deploy); a longer outage is left to the next hourly run. The job's time limit went from 15 to 25 minutes to fit the waits. The data is committed before the deploy, so a failed deploy only leaves the page an hour behind.
 
 ## Follow-ups
 

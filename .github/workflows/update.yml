@@ -24,12 +24,13 @@ jobs:
     # The data branch and the site are shared, so only main may write them.
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    # Normal runs take one to two minutes; the job's own time budgets (fetch 150 s,
-    # Claude about 6 minutes at worst) keep time to save and deploy within this.
-    timeout-minutes: 15
+    # Normal runs take one to two minutes. The job's own time budgets (fetch 150 s,
+    # Claude about 6 minutes at worst) and the deploy retries (7 minutes of waiting at
+    # worst) keep time to save and deploy within this.
+    timeout-minutes: 25
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy-2.outputs.page_url || steps.deploy-3.outputs.page_url }}
     steps:
       # Check out the branch head, not the commit that triggered the run, so a run that
       # waited in the concurrency queue deploys the newest code.
@@ -97,6 +98,30 @@ jobs:
         with:
           path: _site
 
+      # GitHub's API sometimes fails for a moment right after the upload ("Fetching
+      # artifact metadata failed", "Deployment failed, try again later"). Try twice more,
+      # 2 and then 5 minutes later, before marking the run as failed. A longer outage is
+      # left to the next hourly run. The data is already committed either way.
       - name: Deploy to GitHub Pages
         id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: Wait 2 minutes before trying the deploy again
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 120
+
+      - name: Deploy to GitHub Pages (second try)
+        id: deploy-2
+        if: steps.deploy.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: Wait 5 minutes before the last try
+        if: steps.deploy-2.outcome == 'failure'
+        run: sleep 300
+
+      - name: Deploy to GitHub Pages (last try)
+        id: deploy-3
+        if: steps.deploy-2.outcome == 'failure'
         uses: actions/deploy-pages@v5
