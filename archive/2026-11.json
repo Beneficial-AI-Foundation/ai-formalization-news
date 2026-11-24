@@ -429,6 +429,23 @@
    "relevant": true
   },
   {
+   "id": "u:ca09765b33ea4531",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "Yes, 17M lines of Lean is a lot",
+   "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot",
+   "authors": [
+    "seizethecheese"
+   ],
+   "published": "2026-11-23T05:00:49Z",
+   "fetched": "2026-11-24T06:57:35Z",
+   "source_text": "Link: https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/. Discussed on Hacker News: 263 points, 339 comments. https://news.ycombinator.com/item?id=50607668",
+   "summary": "Blog post discussing the scale of a 17-million-line Lean codebase.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2611.26906",
    "type": "paper",
    "source": "arXiv cs.AI",

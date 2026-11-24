@@ -3,7 +3,7 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T06:31:20Z</updated>
+ <updated>2026-11-24T06:57:35Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
@@ -302,6 +302,18 @@
   </author>
   <category term="social" />
   <summary type="text">Lean 4 challenge 32 on the successor criterion for extraction functions. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot</id>
+  <title>Yes, 17M lines of Lean is a lot</title>
+  <link href="https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot" rel="alternate" />
+  <published>2026-11-23T05:00:49Z</published>
+  <updated>2026-11-23T05:00:49Z</updated>
+  <author>
+   <name>seizethecheese</name>
+  </author>
+  <category term="blog" />
+  <summary type="text">Blog post discussing the scale of a 17-million-line Lean codebase. (Hacker News (200+ points))</summary>
  </entry>
  <entry>
   <id>https://arxiv.org/abs/2611.26906</id>
@@ -641,17 +653,5 @@
   </author>
   <category term="social" />
   <summary type="text">Paper on using Lean to move system identification proofs from pen-and-paper to machine-checked form. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</id>
-  <title>From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102" rel="alternate" />
-  <published>2026-11-21T13:06:46Z</published>
-  <updated>2026-11-21T13:06:46Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Paper on refining LLM math proofs from sorry placeholders to complete proofs via angelic execution, with Lean. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

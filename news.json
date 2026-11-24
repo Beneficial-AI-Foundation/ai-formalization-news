@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-24T06:31:20Z",
+ "updated": "2026-11-24T06:57:35Z",
  "items": [
   {
    "id": "u:d13658d18a086f0b",
@@ -408,6 +408,23 @@
    "source_text": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4",
    "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
    "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "u:ca09765b33ea4531",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "Yes, 17M lines of Lean is a lot",
+   "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot",
+   "authors": [
+    "seizethecheese"
+   ],
+   "published": "2026-11-23T05:00:49Z",
+   "fetched": "2026-11-24T06:57:35Z",
+   "source_text": "Link: https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/. Discussed on Hacker News: 263 points, 339 comments. https://news.ycombinator.com/item?id=50607668",
+   "summary": "Blog post discussing the scale of a 17-million-line Lean codebase.",
+   "score": 3,
    "relevant": true
   },
   {
