@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en">
+  <title>Sigil Logic Blog</title>
+  <subtitle>AI for when &#39;good enough&#39; is not an option</subtitle>
+  <link href="https://sigillogic.com/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://sigillogic.com/blog/" rel="alternate" type="text/html"/>
+  <updated>2026-10-02T00:00:00Z</updated>
+  <id>https://sigillogic.com/</id>
+  <author>
+    <name>Sigil Logic</name>
+    <email>contact@sigillogic.com</email>
+  </author>
+  <entry>
+    <title>Sigil Logic to Lead Rigorous Engineering for Secure AI Hardware</title>
+    <link href="https://sigillogic.com/blog/verified-hardware-for-ai/" rel="alternate" type="text/html"/>
+    <published>2026-10-02T00:00:00Z</published>
+    <updated>2026-10-02T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/verified-hardware-for-ai/</id>
+    <summary>We&#39;re leading the rigorous engineering for AIVHAI, an ARIA-funded open-source processor that keeps AI models isolated on shared hardware.</summary>
+    <author>
+      <name>Sigil Logic</name>
+    </author>
+    <category term="announcement"/>
+    <category term="formal-methods"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/DatO61ZjOY-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>AI for Defense Software Engineering at the National Academies</title>
+    <link href="https://sigillogic.com/blog/ai-for-defense-software-engineering-at-the-national-academies/" rel="alternate" type="text/html"/>
+    <published>2026-08-03T00:00:00Z</published>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/ai-for-defense-software-engineering-at-the-national-academies/</id>
+    <summary>&quot;Move fast and prove things.&quot; Kiniry&#39;s opening talk at a National Academies convening: AI does not lower the assurance bar, it moves the bottleneck.</summary>
+    <author>
+      <name>Sigil Logic</name>
+    </author>
+    <category term="talks"/>
+    <category term="formal-methods"/>
+    <category term="engineering"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/WsyxsQttYH-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>Correct and Secure by Construction at INTERSCT 2026</title>
+    <link href="https://sigillogic.com/blog/correct-and-secure-by-construction-at-intersct-2026/" rel="alternate" type="text/html"/>
+    <published>2026-07-30T00:00:00Z</published>
+    <updated>2026-07-30T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/correct-and-secure-by-construction-at-intersct-2026/</id>
+    <summary>There are roughly a million connected devices for every engineer who can secure one. Kiniry&#39;s INTERSCT keynote on what AI changes about the cost of assurance.</summary>
+    <author>
+      <name>Sigil Logic</name>
+    </author>
+    <category term="talks"/>
+    <category term="formal-methods"/>
+    <category term="engineering"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/1P8xol6TMa-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>AI and Software Certification at SCC 2026</title>
+    <link href="https://sigillogic.com/blog/ai-and-software-certification-at-scc-2026/" rel="alternate" type="text/html"/>
+    <published>2026-05-21T00:00:00Z</published>
+    <updated>2026-05-21T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/ai-and-software-certification-at-scc-2026/</id>
+    <summary>Kiniry&#39;s talk to a certification audience at the NRC: if AI sits in the generation path rather than the verification path, the proof kernel is still the trust anchor.</summary>
+    <author>
+      <name>Sigil Logic</name>
+    </author>
+    <category term="talks"/>
+    <category term="formal-methods"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/dP2Kalw0fj-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>Autonomous Formal Methods at HCSS 2026</title>
+    <link href="https://sigillogic.com/blog/autonomous-formal-methods-at-hcss-2026/" rel="alternate" type="text/html"/>
+    <published>2026-05-19T00:00:00Z</published>
+    <updated>2026-05-19T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/autonomous-formal-methods-at-hcss-2026/</id>
+    <summary>Joseph Kiniry&#39;s HCSS talk on why verification still runs at human speed while AI generates code at agent speed, and what HOARDE does about it.</summary>
+    <author>
+      <name>Sigil Logic</name>
+    </author>
+    <category term="talks"/>
+    <category term="formal-methods"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/KSpt_cflCA-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>The Slop Machine</title>
+    <link href="https://sigillogic.com/blog/the-slop-machine/" rel="alternate" type="text/html"/>
+    <published>2026-04-07T00:00:00Z</published>
+    <updated>2026-04-07T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/the-slop-machine/</id>
+    <summary>The better AI-generated code looks, the easier it is to trust a process that isn&#39;t giving you any evidence about its outcomes</summary>
+    <author>
+      <name>Joe Kiniry,Shpat Morina</name>
+    </author>
+    <category term="formal-methods"/>
+    <category term="engineering"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/fQ2itGN68k-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>Correctness Accelerates Innovation</title>
+    <link href="https://sigillogic.com/blog/correctness-accelerates-innovation/" rel="alternate" type="text/html"/>
+    <published>2026-03-11T00:00:00Z</published>
+    <updated>2026-03-11T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/correctness-accelerates-innovation/</id>
+    <summary>Rigor reduces rework, improves delegation, and lets teams move faster with less fear when AI agents are part of the workflow.</summary>
+    <author>
+      <name>Joe Kiniry</name>
+    </author>
+    <category term="formal-methods"/>
+    <category term="engineering"/>
+    <category term="ai"/>
+    <media:thumbnail url="https://sigillogic.com/img/b0WuucGOb2-1200.jpeg"/>
+  </entry>
+  <entry>
+    <title>Introducing Sigil Logic</title>
+    <link href="https://sigillogic.com/blog/introducing-sigil-logic/" rel="alternate" type="text/html"/>
+    <published>2026-03-10T00:00:00Z</published>
+    <updated>2026-03-10T00:00:00Z</updated>
+    <id>https://sigillogic.com/blog/introducing-sigil-logic/</id>
+    <summary>Sigil Logic is building AI-augmented tooling that makes rigorous engineering and formal methods practical for everyday software teams.</summary>
+    <author>
+      <name>Joe Kiniry</name>
+    </author>
+    <category term="announcement"/>
+    <media:thumbnail url="https://sigillogic.com/img/zd32uTYrL1-1200.jpeg"/>
+  </entry>
+</feed>

@@ -250,3 +250,12 @@ def test_http_discard_and_errors():
     with pytest.raises(FetchError) as e:
         client.get("https://e.org/feed")
     assert e.value.http_status == 503
+
+
+def test_iso_pads_the_year():
+    from datetime import datetime, timezone
+
+    from news.util import iso
+
+    assert iso(datetime(1, 1, 1, tzinfo=timezone.utc)) == "0001-01-01T00:00:00Z"
+    assert iso(datetime(2026, 11, 24, 3, 5, 9, 123456, tzinfo=timezone.utc)) == "2026-11-24T03:05:09Z"

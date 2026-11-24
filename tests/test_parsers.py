@@ -147,6 +147,20 @@ def test_zulip_one_item_per_topic():
     assert "#narrow/channel/113486-announce/topic/" in items[0]["url"]
 
 
+def test_feed_pages_dated_year_1_never_count_as_new():
+    """Forsyte's feed lists its static pages with the date 1 Jan 0001; the age window drops them."""
+    from datetime import datetime, timezone
+
+    from news.fetch import within_age
+
+    src = CFG.source("forsyte")
+    items = parse_fixture(src, fixture_path("forsyte").read_bytes(), NOW, KEYWORDS)
+    assert sum(i["published"].startswith("0001") for i in items) == 2
+    recent = within_age(src, items, datetime(2026, 9, 10, tzinfo=timezone.utc), 30)
+    assert recent and not any(i["published"].startswith("0001") for i in recent)
+    assert recent[0]["title"].startswith("Daniela Kaufmann receives")
+
+
 def test_feed_category_filter():
     import copy
 

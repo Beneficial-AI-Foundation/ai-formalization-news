@@ -210,6 +210,13 @@ The repository was empty apart from a README, so there is no in-project analog f
   - Proof Assistants Stack Exchange (blocks automated access).
   - Isabelle, which has no news feed (its community is on Zulip).
   - Rocq releases on GitHub, which also lists release candidates and alphas, so it stays off in favour of the changelog.
+- **D36. Forsyte and Sigil Logic** (Jin's decision, 24 Nov 2026). From a colleague's list of about 45 conferences, workshops, journals, teams and initiatives, only these two have an active, on-topic feed:
+  - **Forsyte**, the TU Wien formal methods group: about 26 posts a year, group news and seminar talks.
+  - **Sigil Logic**, a company working on formal methods for AI and hardware: about one post a month since March 2026.
+
+  The conference and workshop sites publish no feeds, the journals' feeds are general or blocked, and the Rust Foundation and DARPA feeds are active but rarely on topic. Both sources run without the keyword filter, because talk titles rarely contain the keywords, and stay untrusted, so Claude judges each post.
+
+  Forsyte's feed also lists 159 static pages dated 1 Jan 0001, which the 30-day window always drops. They showed that `iso()` wrote that year as "1-01-01", because `strftime` does not pad years below 1000. It now pads the year to four digits.
 
 ## Follow-ups
 
