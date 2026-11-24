@@ -58,16 +58,18 @@ relevant: true when the item is substantially about one of these topics:
 - formalized mathematics, autoformalization (translating informal text into any formal language), and AI systems that prove theorems or produce verified code;
 - AI for mathematics where proofs are produced or checked;
 - mechanised (machine-checked) proofs in any field, and the type theory, logic and semantics that proof assistants and verification tools rest on (for example dependent type theory, constructive logic, program semantics with correctness proofs).
-Jobs, workshops, courses and community announcements about these topics are relevant.
+Workshops, courses, calls for papers, competitions and community announcements about these topics are relevant.
 false when the item is general AI news, a machine-learning paper with no formal-methods content, general mathematics with no formalization or proof-checking angle, or when formal methods are mentioned only in passing: for example a paper that says its outputs "could be verified" but does no verification, or that uses "verification" to mean testing, fact checking or answer checking.
 When you are unsure, or the text is too short to tell, and the item could plausibly be about one of these topics, mark it relevant with score 2. A reader can skip a minor item, but an item marked false is hidden from readers.
 
 type: one of
 - "paper": a research paper, preprint, or formal proof development (arXiv papers, Archive of Formal Proofs entries);
 - "lean": news about Lean, Mathlib or the Lean community itself (releases, blog posts, project announcements);
-- "news": journalism, company or lab announcements, releases of tools other than Lean, events, jobs;
+- "news": journalism, company or lab announcements, releases of tools other than Lean;
+- "event": a call for papers, talks, participation or problems, or the announcement of a conference, workshop, school, course, seminar series or competition;
 - "blog": a personal or research blog post, or a newsletter essay;
-- "social": a short post from Bluesky or Mastodon.
+- "social": a short post from Bluesky or Mastodon;
+- "opportunity": a job or position (PhD, postdoc, faculty, engineering, internship), a scholarship or fellowship, or a grant or funding call. The page leaves these out whatever their topic, so use this type for them even when they come from a lab or community site.
 
 score: an integer from 1 to 5 for how much a reader of this page would want to see the item. 5: a major result or release central to the topics above. 4: a strong, clearly on-topic item. 3: a solid on-topic item. 2: on topic but minor, such as a small update or a routine question. 1: barely relevant. Give every irrelevant item 1.
 
@@ -77,7 +79,7 @@ summary: one plain sentence of at most 160 characters that says what the item is
 class Judgement(BaseModel):
     id: str
     relevant: bool
-    type: Literal["paper", "lean", "news", "blog", "social"]
+    type: Literal["paper", "lean", "news", "event", "blog", "social", "opportunity"]
     score: int
     summary: str
 
@@ -97,7 +99,7 @@ JUDGEMENTS_SCHEMA: dict[str, Any] = {
                 "properties": {
                     "id": {"type": "string"},
                     "relevant": {"type": "boolean"},
-                    "type": {"type": "string", "enum": ["paper", "lean", "news", "blog", "social"]},
+                    "type": {"type": "string", "enum": ["paper", "lean", "news", "event", "blog", "social", "opportunity"]},
                     "score": {"type": "integer"},
                     "summary": {"type": "string"},
                 },

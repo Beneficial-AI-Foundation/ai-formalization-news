@@ -14,12 +14,12 @@
 (function () {
   'use strict';
 
-  var FILTERS = { all: null, papers: 'paper', lean: 'lean', news: 'news', blogs: 'blog', social: 'social' };
-  var FILTER_NAMES = { all: 'All', papers: 'Papers', lean: 'Lean and Mathlib', news: 'News', blogs: 'Blogs', social: 'Social' };
-  var TYPE_LABEL = { paper: 'Paper', lean: 'Lean and Mathlib', news: 'News', blog: 'Blog', social: 'Social' };
-  var TYPE_SHORT = { paper: 'Papers', lean: 'Lean', news: 'News', blog: 'Blogs', social: 'Social' };
+  var FILTERS = { all: null, papers: 'paper', lean: 'lean', news: 'news', events: 'event', blogs: 'blog', social: 'social' };
+  var FILTER_NAMES = { all: 'All', papers: 'Papers', lean: 'Lean and Mathlib', news: 'News', events: 'Events', blogs: 'Blogs', social: 'Social' };
+  var TYPE_LABEL = { paper: 'Paper', lean: 'Lean and Mathlib', news: 'News', event: 'Event', blog: 'Blog', social: 'Social' };
+  var TYPE_SHORT = { paper: 'Papers', lean: 'Lean', news: 'News', event: 'Events', blog: 'Blogs', social: 'Social' };
   // Plural nouns for messages such as "No blog posts from Xena".
-  var FILTER_NOUNS = { all: 'items', papers: 'papers', lean: 'Lean and Mathlib items', news: 'news items', blogs: 'blog posts', social: 'social posts' };
+  var FILTER_NOUNS = { all: 'items', papers: 'papers', lean: 'Lean and Mathlib items', news: 'news items', events: 'events', blogs: 'blog posts', social: 'social posts' };
   var PAGE_SIZE = 50;
   var STALE_MS = 3 * 60 * 60 * 1000;
   var TIME_ZONE = 'Asia/Singapore';

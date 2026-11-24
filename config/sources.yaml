@@ -18,7 +18,8 @@
 #   stable_only  optional, github_releases only: true skips pre-releases (release
 #            candidates, nightly builds); default false keeps them, marked "(pre-release)"
 #   exclude_titles  optional, feed only: a regular expression; entries whose title
-#            matches it anywhere, ignoring case, are skipped (for example merge commits)
+#            matches it anywhere, ignoring case, are skipped (for example merge commits);
+#            for social posts, which have no title, it is matched against the post's text
 #   channels, min_messages, min_people, lookback_hours, messages  zulip only: which
 #            channels to read; keep only topics that started within lookback_hours and have
 #            at least min_messages messages from min_people people (default 1 and 1); read
@@ -328,7 +329,9 @@ sources:
     url: https://mathstodon.xyz/tags/leanprover.rss
     enabled: true
     filter: none
+    exclude_titles: '^(Lean 4 challenge \d+|Reto \d+ de Lean 4)\b'
     every: 1h
+    note: The exercise series "Lean 4 challenge N" (and its Spanish twin "Reto N de Lean 4") is skipped; practice exercises are not news.
 
   - id: mathstodon-formalverification
     name: "#formalverification on Mathstodon"

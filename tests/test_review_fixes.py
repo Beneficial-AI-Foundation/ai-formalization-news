@@ -261,6 +261,6 @@ def test_trusted_source_items_are_kept_when_claude_says_not_relevant(tmp_path):
     assert items and {i["source_id"] for i in items} == {"xena"}  # the hashtag posts were hidden
     assert all(i["relevant"] is False and i["summary"] == "Off topic." and i["score"] == 1 for i in items)
     assert not any("hidden" in i for i in items)
-    assert meta["claude"]["kept_trusted"] == len(items) and meta["claude"]["hidden"] == 20
+    assert meta["claude"]["kept_trusted"] == len(items) and meta["claude"]["hidden"] == 18  # 2 exercises skipped
     hidden = json.loads((tmp_path / "data" / "hidden.json").read_text())["items"]
-    assert len(hidden) == 20 and {i["source_id"] for i in hidden} == {"mathstodon-leanprover"}
+    assert len(hidden) == 18 and {i["source_id"] for i in hidden} == {"mathstodon-leanprover"}
