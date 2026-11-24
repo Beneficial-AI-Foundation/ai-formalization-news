@@ -53,10 +53,28 @@ A failing source never stops the run; its error shows in `meta.json` and on the 
 
 The code is on `main`; the generated data is on a separate `data` branch, which the workflow starts on its first run and commits to every hour that brings something new. The page is built from `main`'s `site/` and the `data` branch's files. So `main` keeps its pull-request rule and holds only code, and the hourly commits stay out of its history.
 
-- To take an item off the page, delete it from its `archive/YYYY-MM.json` file on the `data` branch. The next run rebuilds the other files from the archive, and `seen.json` keeps the item from coming back.
-- To bring back an item Claude hid, set its `relevant`, `score` and `summary` to `null` and remove `"hidden": true` in its archive file. The next run judges it again (within 3 days of its `fetched` time).
+- To show, hide or remove an item by hand, see Fix an item on the page.
 - To preview the live data locally: `git fetch origin data && git worktree add ../news-data origin/data`, then `.venv/bin/python -m news.serve --data-dir ../news-data`.
 - Locally, `python -m news.run` writes to `data/`, which is git-ignored on `main`.
+
+## Fix an item on the page
+
+Every item is stored in `archive/YYYY-MM.json` on the `data` branch, where `YYYY-MM` is the month in the item's `published` date. Each run rebuilds `news.json`, `hidden.json`, `search.json` and `feed.xml` from the archive, so edit only the archive. The job judges only items that have no verdict yet and never rewrites an item already in the archive, so a hand edit stays.
+
+1. On GitHub, switch to the `data` branch, open the archive file and choose "Edit this file" (the pencil).
+2. Press Ctrl+F and search for the item's link, as shown on the page. Each item is one `{ ... }` block that starts with its `"id"`.
+3. Make one of the changes below, then commit directly to `data` with a message that says why, for example "Show arxiv:2611.27631: type systems for safe learning".
+4. The page changes after the next run (minute 17 of every hour), or run "Update news" by hand from the Actions tab.
+
+| To | Change in the item's block |
+| --- | --- |
+| Show an item Claude hid | Delete the line `"hidden": true,`. Also change `"relevant": false` to `true`, to record the correction, and rewrite `summary` if it reads as a verdict, for example "..., not involving formal proofs". |
+| Hide an item | Add the line `"hidden": true,`. The item moves behind the switch below the list. This works for items from `trusted` sources too. |
+| Take an item off the site entirely | Delete its whole `{ ... }` block, and the comma that separates it from the next block. `seen.json` keeps the item from coming back. |
+| Correct a summary | Edit `summary`, at most 160 characters. |
+| Have Claude judge an item again | Set `relevant`, `score` and `summary` to `null`, and delete `"hidden": true` if it is there. This works only within 3 days of the item's `fetched` time, and Claude may hide it again. |
+
+Check the "Update news" run after your edit. A file that is not valid JSON (often a missing or extra comma) or that breaks a rule in `schema/news.schema.json` (such as a summary over 160 characters) stops the run: the page stops updating, while still showing its last good version, until the file is fixed. If the hourly job is running when you commit, it replays its own commit on top of yours, so your edit is not lost; if both changed the same lines, that run fails and the next run starts from your edit.
 
 ## Repository layout
 
@@ -136,7 +154,7 @@ GitHub disables scheduled workflows in a public repository after 60 days with no
 1. Make the repository public. Actions minutes are free for public repositories; a private one would spend about 720 to 1,440 of the organization's included minutes a month, and Pages on a private repository needs a paid plan.
 2. Settings, Pages: set the source to "GitHub Actions".
 3. Settings, Actions, General: set workflow permissions to "Read and write".
-   `main` can require pull requests, since the workflow never pushes to it. Leave the `data` branch unprotected: the workflow pushes to it as `github-actions[bot]`.
+   `main` can require pull requests, since the workflow never pushes to it. On the `data` branch, block only deletion and force pushes (a ruleset): the workflow pushes to it as `github-actions[bot]`, and people commit corrections to it directly.
 4. Optional: add `ANTHROPIC_API_KEY` (or `OPENROUTER_API_KEY` as a stopgap), and `ZULIP_EMAIL` and `ZULIP_API_KEY` if Lean Zulip is switched on, as secrets of the `github-pages` environment (see Claude summaries).
 
 ## Licence
