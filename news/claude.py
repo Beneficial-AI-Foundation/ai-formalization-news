@@ -122,11 +122,13 @@ class JudgeResult:
     seconds: float = 0.0
     refusals: list[dict[str, Any]] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
+    fallback: bool = False  # Anthropic failed and the run switched to OpenRouter
 
     def usage(self) -> dict[str, Any]:
         return {
             "model": self.model,
             "route": self.route,
+            "fallback": self.fallback,
             "requests": self.requests,
             "input_tokens": self.input_tokens,
             "output_tokens": self.output_tokens,
@@ -251,18 +253,35 @@ def judge(
     client: Any | None = None,
     model: str | None = None,
     budget_seconds: float = BUDGET_SECONDS,
+    fallback_client: Any | None = None,
 ) -> JudgeResult:
     """Judge up to `max_items_per_run` items. Items missing from the result were not
-    judged (API error, refusal, time budget, or left out) and keep null fields."""
+    judged (API error, refusal, time budget, or left out) and keep null fields.
+
+    On the Anthropic route, if a request fails (no credit, a bad key, an outage) and
+    OPENROUTER_API_KEY is set, the request is sent again through OpenRouter, and the rest
+    of the run stays there. The error is still recorded, so the cause stays visible."""
     route = api_route()
-    model = route_model(model, route) if model else model_name(settings)
+    base = model or os.environ.get("CLAUDE_MODEL", "").strip() or settings.model
+    model = route_model(base, route)
     result = JudgeResult(model=model, route=route)
     batch = items[: settings.max_items_per_run]
     if not batch:
         return result
     client = client or make_client(route)
-    call = _Call(client, model, settings, result)
+    calls = [_Call(client, model, settings, result)]  # calls[-1] is the one in use
+    can_fall_back = route == "anthropic" and bool(os.environ.get("OPENROUTER_API_KEY", "").strip())
     deadline = time.monotonic() + budget_seconds
+
+    def fall_back(error: Exception) -> bool:
+        """Switch the rest of the run to OpenRouter, once. True if it switched."""
+        if not can_fall_back or result.fallback:
+            return False
+        result.fallback, result.route, result.model = True, "openrouter", openrouter_model(base)
+        calls.append(_Call(fallback_client or make_client("openrouter"), result.model, settings, result))
+        result.errors.append(f"Anthropic failed ({type(error).__name__}: {getattr(error, 'message', str(error))[:200]}); "
+                             f"this run used OpenRouter instead")
+        return True
 
     def ids(chunk: list[dict[str, Any]]) -> str:
         shown = ", ".join(i["id"] for i in chunk[:5])
@@ -287,8 +306,11 @@ def judge(
             result.errors.append(f"time budget used up; {len(chunk)} item(s) wait for the next run: {ids(chunk)}")
             return
         try:
-            stop, parsed, details = call(chunk)
+            stop, parsed, details = calls[-1](chunk)
         except anthropic.APIError as e:
+            if fall_back(e):
+                run(chunk, allow_split)
+                return
             result.errors.append(f"{type(e).__name__}: {getattr(e, 'message', str(e))[:200]} (items: {ids(chunk)})")
             return
         if stop == "refusal":
