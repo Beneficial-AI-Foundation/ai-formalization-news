@@ -119,6 +119,7 @@ Edit `config/sources.yaml`. Copy an existing entry, give it a new `id`, and set:
 - `enabled`: `true` or `false`.
 - `trusted`: optional. Set `true` for a source that is on topic by design (a Lean or proof-assistant blog, for example). With Claude on, its items still get a summary but are never hidden as not relevant.
 - `stable_only`: optional, for `github_releases` sources. Set `true` to skip release candidates and nightly builds.
+- `exclude_titles`: optional, for `feed` sources. A regular expression; entries whose title matches it anywhere, ignoring case, are skipped. The GitHub commit feeds use `'^(Merge pull request|Merge branch|Bump )'`.
 
 Merge the change into `main` through a pull request; the next hourly run picks it up, or run the workflow by hand from the Actions tab. To test it first, run `python -m news.fetch --dry-run --source <id>` locally.
 

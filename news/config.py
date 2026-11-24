@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -95,6 +96,11 @@ def _parse_source(raw: dict[str, Any]) -> Source:
         raise ConfigError(f"source {src.id}: kind {src.kind} needs a url")
     if src.kind == "github_releases" and not src.param("repo"):
         raise ConfigError(f"source {src.id}: github_releases needs a repo")
+    if src.param("exclude_titles"):
+        try:
+            re.compile(str(src.param("exclude_titles")))
+        except re.error as e:
+            raise ConfigError(f"source {src.id}: exclude_titles is not a valid regular expression: {e}") from e
     return src
 
 

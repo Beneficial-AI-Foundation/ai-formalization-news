@@ -217,6 +217,12 @@ The repository was empty apart from a README, so there is no in-project analog f
   The conference and workshop sites publish no feeds, the journals' feeds are general or blocked, and the Rust Foundation and DARPA feeds are active but rarely on topic. Both sources run without the keyword filter, because talk titles rarely contain the keywords, and stay untrusted, so Claude judges each post.
 
   Forsyte's feed also lists 159 static pages dated 1 Jan 0001, which the 30-day window always drops. They showed that `iso()` wrote that year as "1-01-01", because `strftime` does not pad years below 1000. It now pads the year to four digits.
+- **D37. AI lab proof repositories, lab blogs and broader keywords** (Jin's decision, 24 Nov 2026). On 23 Nov 2026, Anthropic posted a claimed proof of VP ≠ VNP, with a Lean formalization, in its GitHub repository `anthropics/formal-math`. Within hours it reached Hacker News (299 points), the Lean Zulip and news sites, but none of our sources saw it. It was not on arXiv, and neither the Hacker News title ("VP ≠ VNP over Every Field") nor its link contained a keyword. We had also missed the same repository's Exponential Time Hypothesis result (27 Oct) and DeepMind's AlphaProof Code post (10 Nov), which speaks of "proofs in Lean". Added:
+  - The commit feeds of `anthropics/formal-math` and `openai/math` (untrusted, hourly). A new `exclude_titles` option for `feed` sources skips merge commits, which repeat the commit before them, and dependency bumps; Claude hides the other housekeeping commits.
+  - The Google DeepMind blog and OpenAI news, keyword-filtered. Each kept one post in the last 60 days. Anthropic's site has no feed. General model releases stay out: they are AI news, not formalization news.
+  - Nine keywords: formal math, formal mathematics, formal proof, Lean proof, Lean formalization, proofs in Lean, formalized in Lean, machine-checked and AlphaProof. "formal math" also matches links such as `github.com/anthropics/formal-math/...`. It can match ordinary prose ("no formal math education"), which Claude then hides.
+
+  Known limits: a commit item links to the commit, not to the project folder; one story can appear several times (a commit and two Hacker News posts). Planned next: new Lean repositories in AI lab GitHub organizations, Hacker News stories with 200 points or more, and busy topics on the public Lean Zulip channels.
 
 ## Follow-ups
 

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/anthropics/formal-math/commits/main</id>
+  <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commits/main"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/anthropics/formal-math/commits/main.atom"/>
+  <title>Recent Commits to formal-math:main</title>
+  <updated>2026-11-23T21:43:48Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/16a5ce41304fcdaea4e0be7c132e1c361dc26da5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/16a5ce41304fcdaea4e0be7c132e1c361dc26da5"/>
+    <title>
+        Add eth: paper and Lean 4 formalization of &quot;A 2^o(n) Time Algorithm f…
+    </title>
+    <updated>2026-10-27T03:07:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/267175574?s=30&amp;v=4"/>
+    <author>
+      <name>ecprice-ant</name>
+      <uri>https://github.com/ecprice-ant</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add eth: paper and Lean 4 formalization of &amp;quot;A 2^o(n) Time Algorithm for 3-SAT&amp;quot; (#31)
+
+Adds eth/, a self-contained Lake project (Lean v4.33.1, Mathlib v4.33.1), with the paper as eth/paper.pdf.
+MainResults.lean states two propositions on Mathlib&amp;#39;s Turing machines: that the Exponential Time Hypothesis
+is false, and the paper&amp;#39;s main theorem, that one deterministic machine counts, for every k, the satisfying
+assignments of k-CNF formulas within the stated time bound. Solution.lean proves both from the files under
+proof/, and comparator.json names them for Comparator. The only two sorry are in Challenge.lean, which states
+the two theorems without proofs for that check. eth/README.md says how to check everything.
+Adds the project&amp;#39;s row to the table of the root README.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e1a4e6508154ea59f030480661590a9fe3018011</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/e1a4e6508154ea59f030480661590a9fe3018011"/>
+    <title>
+        Add 3sum-apsp: formalization of &quot;Truly Subquadratic 3SUM and Truly Su…
+    </title>
+    <updated>2026-10-06T04:00:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/267175574?s=30&amp;v=4"/>
+    <author>
+      <name>ecprice-ant</name>
+      <uri>https://github.com/ecprice-ant</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add 3sum-apsp: formalization of &amp;quot;Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs&amp;quot; (#28)
+
+* CI: take lean4export&amp;#39;s vX.Y.0 tag when a Lean patch release has no tag of its own
+
+For a project on a stable patch release vX.Y.Z (Z &amp;gt; 0), if
+leanprover/lean4export has no tag vX.Y.Z, the check takes the tag vX.Y.0 and
+builds it with the project&amp;#39;s toolchain. Release candidates do not fall back.
+A project whose exact tag exists is checked as before. The cache key of the
+tools now includes the toolchain.
+
+* Add 3sum-apsp: Lean 4 formalization accompanying &amp;quot;Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs&amp;quot;
+
+A self-contained Lake project (Lean v4.33.1, Mathlib v4.33.1) in 3sum-apsp/.
+EndStatement.lean states five headline claims about programs of a word RAM;
+PaperStatements.lean states further results of the paper item by item;
+ThreeSumApsp/ proves them. Two Comparator configurations list the compared
+theorems. 3sum-apsp/README.md says what is proved and what is not.
+Adds the project&amp;#39;s row to the table of the root README.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/fbdc36bbf17d20af3fd0447c6d1a8a02773c9844</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/fbdc36bbf17d20af3fd0447c6d1a8a02773c9844"/>
+    <title>
+        Bump leanprover/lean-action from 1.5.0 to 1.6.0 (#21)
+    </title>
+    <updated>2026-09-05T16:38:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/in/29110?s=30&amp;v=4"/>
+    <author>
+      <name>dependabot</name>
+      <uri>https://github.com/dependabot</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Bump leanprover/lean-action from 1.5.0 to 1.6.0 (#21)
+
+Bumps [leanprover/lean-action](https://github.com/leanprover/lean-action) from 1.5.0 to 1.6.0.
+- [Release notes](https://github.com/leanprover/lean-action/releases)
+- [Changelog](https://github.com/leanprover/lean-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/leanprover/lean-action/compare/38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9...50fcf42d2e460296f1a34b402e990d1b24f8b596)
+
+---
+updated-dependencies:
+- dependency-name: leanprover/lean-action
+  dependency-version: 1.6.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &amp;lt;support@github.com&amp;gt;
+Co-authored-by: dependabot[bot] &amp;lt;49699333+dependabot[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2bafb8c88f177284a2123b5fefa2ff84e2365eb6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/2bafb8c88f177284a2123b5fefa2ff84e2365eb6"/>
+    <title>
+        Merge pull request #24 from anthropics/zeta23-authorship
+    </title>
+    <updated>2026-08-28T21:37:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1425057?s=30&amp;v=4"/>
+    <author>
+      <name>rfurman</name>
+      <uri>https://github.com/rfurman</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #24 from anthropics/zeta23-authorship
+
+zeta23: consistent formalization-authorship account; de-duplicate CI&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3d3e9f83ac5b0146cf8d8a6ffb633f41e02a4280</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/3d3e9f83ac5b0146cf8d8a6ffb633f41e02a4280"/>
+    <title>
+        Merge pull request #20 from anthropics/zeta23-palomar-layout
+    </title>
+    <updated>2026-08-28T13:57:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #20 from anthropics/zeta23-palomar-layout
+
+Lay out zeta23 as a Palomar template project&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ef1c370f2434deb22c1a8ed2dae8dda52e626757</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/ef1c370f2434deb22c1a8ed2dae8dda52e626757"/>
+    <title>
+        Merge pull request #19 from anthropics/ci-per-project
+    </title>
+    <updated>2026-08-28T13:56:53Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #19 from anthropics/ci-per-project
+
+Add per-project CI: build + Palomar comparator check (changed projects only)&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8b675b8a4ed8afe021a214bac7ee22a87f2cb8c5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/8b675b8a4ed8afe021a214bac7ee22a87f2cb8c5"/>
+    <title>
+        Drop the template-only workflow routing test
+    </title>
+    <updated>2026-08-28T06:30:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1425057?s=30&amp;v=4"/>
+    <author>
+      <name>rfurman</name>
+      <uri>https://github.com/rfurman</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Drop the template-only workflow routing test
+
+The test read .github/workflows/ci.yml next to the project and asserted
+the canonical template&amp;#39;s --expect-template conditions; this repository&amp;#39;s
+workflow lives at the repository root and has no template mode.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6d7d6ddab16c26cfce8a80fc75ced6bdc6381615</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/6d7d6ddab16c26cfce8a80fc75ced6bdc6381615"/>
+    <title>
+        Lay out zeta23 as a Palomar template project
+    </title>
+    <updated>2026-08-28T06:29:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1425057?s=30&amp;v=4"/>
+    <author>
+      <name>rfurman</name>
+      <uri>https://github.com/rfurman</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Lay out zeta23 as a Palomar template project
+
+Bring zeta23/ into the layout of PalomarRegistry/PalomarTemplate and the
+Palomar CONTRIBUTING.md requirements, so it can be submitted with the
+subdirectory as the selected project and zeta23/comparator.json as the
+Comparator configuration.
+
+- Move the Comparator layer from comparator/ to the project root:
+  Challenge.lean, Solution.lean, ChallengeDeps.lean and their XiPrime
+  submodules; config.json -&amp;gt; comparator.json, config-xiprime.json -&amp;gt;
+  comparator-xiprime.json (both gain &amp;quot;definition_names&amp;quot;: []);
+  PrintAxioms audits -&amp;gt; scripts/. Lean sources are unchanged apart from
+  path mentions in comment headers (comment-stripped sources are
+  byte-identical to main).
+- lakefile.toml: root-level Challenge/Solution/ChallengeDeps libraries
+  (roots = [...]) instead of srcDir = &amp;quot;comparator&amp;quot;; Challenge and
+  Solution join the default targets, as in the template.
+- formalization.yaml: add the required project.description (registry
+  abstract), the template&amp;#39;s automation/cost fields, per-statement
+  alignment notes, Palomar&amp;#39;s source-type vocabulary (paper), updated
+  paths, and a note that comparator.json is the submitted configuration.
+- Add scripts/verify-comparator.sh (Comparator and lean4export pinned at
+  their v4.33.0-rc2 tags, Landrun/NanoDa at the template&amp;#39;s commits, with
+  a config argument), scripts/landrun-wrapper.sh,
+  scripts/validate-formalization.rb, test/, Gemfile, and docbuild/
+  (doc-gen4 v4.33.0-rc2).
+- Add .github/workflows/zeta23-ci.yml: metadata, licence, README link and
+  Landrun-wrapper checks on every change; Lean build, docs and the
+  pinned Comparator run on manual dispatch (they take hours). Add
+  dependabot for actions.
+- README: merge comparator/README.md, add a repository map, Palomar
+  submission notes and the paper&amp;#39;s arXiv title; AUDIT.md gets a revision
+  note for the relayout; root README mentions the layout.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f8bbf02a5c7999751e566f55caf664ce833f1b6e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/f8bbf02a5c7999751e566f55caf664ce833f1b6e"/>
+    <title>
+        CI: cache per-project .lake/build on PR runs (clean build on main)
+    </title>
+    <updated>2026-08-28T02:23:37Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;CI: cache per-project .lake/build on PR runs (clean build on main)
+
+Pull-request runs restore the most recent .lake/build for the same toolchain, manifest and lakefile and save the new one, so Lake rebuilds only changed modules; pushes to main and workflow_dispatch runs neither restore nor save. .lake/packages is not cached (Mathlib comes from lake exe cache get).&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5a203422168aed5d2852e4bb7772231cfae67e27</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/5a203422168aed5d2852e4bb7772231cfae67e27"/>
+    <title>
+        CI: verify only changed project folders; CI/doc-only changes run noth…
+    </title>
+    <updated>2026-08-28T02:21:43Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;CI: verify only changed project folders; CI/doc-only changes run nothing (full run via workflow_dispatch)
+
+Also allow a larger runner for the verify job via the LEAN_CI_RUNNER repository/organization variable (falls back to ubuntu-latest), and on a push with no usable before-commit diff against the merge-base with main instead of selecting every project.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/464f86ac0b3ed39270a04a6005c602b81fdd2a23</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/464f86ac0b3ed39270a04a6005c602b81fdd2a23"/>
+    <title>
+        Root .gitignore: ignore Lake build artefacts repo-wide
+    </title>
+    <updated>2026-08-28T02:16:09Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Root .gitignore: ignore Lake build artefacts repo-wide&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8999337b90e90ca780227ac259bd39b74fe37414</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/8999337b90e90ca780227ac259bd39b74fe37414"/>
+    <title>
+        Merge pull request #18 from anthropics/move-zeta23-subfolder
+    </title>
+    <updated>2026-08-28T02:09:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #18 from anthropics/move-zeta23-subfolder
+
+Move Zeta23 into zeta23/ subdirectory (multi-project layout)&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/34e6e7ea7be625392d145902943f778d8bf54dc7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/34e6e7ea7be625392d145902943f778d8bf54dc7"/>
+    <title>
+        Add per-project Lean CI (build + comparator check, changed projects o…
+    </title>
+    <updated>2026-08-27T23:48:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add per-project Lean CI (build + comparator check, changed projects only)&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1010de02f7813aa936b43bf1c62c069480b7262d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/1010de02f7813aa936b43bf1c62c069480b7262d"/>
+    <title>
+        Move Zeta23 into zeta23/ subdirectory (multi-project layout)
+    </title>
+    <updated>2026-08-27T23:32:59Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/235390021?s=30&amp;v=4"/>
+    <author>
+      <name>jleder3</name>
+      <uri>https://github.com/jleder3</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Move Zeta23 into zeta23/ subdirectory (multi-project layout)
+
+The repository now hosts multiple independent Lean projects, one per
+subdirectory. The Zeta23 package moves intact into zeta23/ (no changes
+to any .lean file, lakefile, manifest or toolchain); LICENSE stays at
+the root and a root README indexes the projects. Build from zeta23/.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cec57f919ccf34e5fa5372b4ba332f7c848bbb6e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/cec57f919ccf34e5fa5372b4ba332f7c848bbb6e"/>
+    <title>
+        Merge pull request #12 from anthropics/rfurman-patch-1
+    </title>
+    <updated>2026-08-18T20:24:45Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/254779305?s=30&amp;v=4"/>
+    <author>
+      <name>eeeasley</name>
+      <uri>https://github.com/eeeasley</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #12 from anthropics/rfurman-patch-1
+
+Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2dabc7afc575c2494e0c44d39e10b769799d8b58</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/2dabc7afc575c2494e0c44d39e10b769799d8b58"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2026-08-18T04:29:05Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1425057?s=30&amp;v=4"/>
+    <author>
+      <name>rfurman</name>
+      <uri>https://github.com/rfurman</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ce196b66685e96f874850a2836e183feccebef2a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/ce196b66685e96f874850a2836e183feccebef2a"/>
+    <title>
+        Merge pull request #11 from rfurman/main
+    </title>
+    <updated>2026-08-17T20:50:42Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/254779305?s=30&amp;v=4"/>
+    <author>
+      <name>eeeasley</name>
+      <uri>https://github.com/eeeasley</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #11 from rfurman/main
+
+Merge the challenge files into one main-results statement set&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/00b829afb19d42a5515d12fa1130c911244fac12</id>
+    <link type="text/html" rel="alternate" href="https://github.com/anthropics/formal-math/commit/00b829afb19d42a5515d12fa1130c911244fac12"/>
+    <title>
+        Add formalization.yaml (Palomar registry metadata)
+    </title>
+    <updated>2026-08-17T02:12:37Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/81847?s=30&amp;v=4"/>
+    <author>
+      <name>claude</name>
+      <uri>https://github.com/claude</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add formalization.yaml (Palomar registry metadata)
+
+Registry metadata for palomar-registry.org describing this repository&amp;#39;s
+formalization of arXiv:2608.13637: the comparator-checked statement set
+(17 statements in Challenge.lean, 6 in Challenge/XiPrime.lean), axioms,
+review status, paper-to-Lean alignment, and provenance. Additive only:
+no existing file changes.&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>
