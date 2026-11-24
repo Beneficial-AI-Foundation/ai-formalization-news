@@ -84,7 +84,8 @@ def test_a_screened_opportunity_is_dropped(tmp_path):
 
 def test_prompt_and_schemas_know_the_new_types():
     p = claude.SYSTEM_PROMPT
-    assert '"event": a call for papers' in p and '"opportunity": a job or position' in p
+    assert '"event": the announcement of a specific, dated event or call' in p and '"opportunity": a job or position' in p
+    assert "A discussion thread, question, reaction or opinion is not an event" in p
     assert "Jobs, workshops" not in p  # jobs are no longer "relevant" by rule
     enum = claude.JUDGEMENTS_SCHEMA["properties"]["items"]["items"]["properties"]["type"]["enum"]
     assert {"event", "opportunity"} <= set(enum)

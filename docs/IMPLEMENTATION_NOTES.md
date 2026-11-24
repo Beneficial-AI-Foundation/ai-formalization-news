@@ -245,6 +245,8 @@ The repository was empty apart from a README, so there is no in-project analog f
 
   Measured with Haiku 5.5 on the 150 most recent judged items, against their stored verdicts from the old prompt: the same relevance for 140 (in line with the run-to-run agreement seen before), 7 now relevant, 3 now off topic. "ITP 2027: Call for Papers" and "VerifyThis 2027: Call for Problems" were typed `event`, the two PhD positions from Rocq Discourse `opportunity`, and nothing else `opportunity`. Items judged before this change keep their old types; new items get the new ones.
 
+  Fix the same day: applying the new prompt to every item on the page showed that Claude also typed six busy Lean Zulip threads `event` ("RH: why clean up the proof", "Message by the Lean FRO and the Mathlib Initiative" and others). `event` now means "the announcement of a specific, dated event or call", and the prompt says that a discussion thread, question, reaction or opinion is not an event, even when it mentions one; a forum discussion is typed `lean` when it is about Lean, Mathlib or the Lean community, otherwise `news`. On the same 40 items, none of the six threads stayed `event` (four `lean`, one `news`, one `social`), while the seven calls, schools, courses and seminars from Rocq Discourse stayed `event` and the four job posts stayed `opportunity`. The existing items were then updated once on the `data` branch with these verdicts: event announcements retyped, job and funding posts hidden, the Lean 4 exercise posts deleted.
+
 ## Follow-ups
 
 - Split `search.json` by year once it passes 15 MB (build plan Phase 2, step 5; not built in version 1): [issue #1](https://github.com/Beneficial-AI-Foundation/ai-formalization-news/issues/1).
