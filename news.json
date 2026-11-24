@@ -121,7 +121,7 @@
   },
   {
    "id": "u:9f25ad42f11c6720",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "ITP 2027: Call for Papers",
@@ -137,25 +137,8 @@
    "relevant": true
   },
   {
-   "id": "u:cec9b28dda26c3f4",
-   "type": "news",
-   "source": "Rocq Discourse",
-   "source_id": "rocq-discourse",
-   "title": "Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027",
-   "url": "https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205",
-   "authors": [
-    "swarnpriya"
-   ],
-   "published": "2026-11-23T15:11:19Z",
-   "fetched": "2026-11-23T19:21:01Z",
-   "source_text": "We are looking for a motivated PhD student to join us at the School of Electrical Engineering and Computer Science, Washington State University (WSU), starting in Fall 2027. The student will be jointly advised by me and Dr. Thomas Gilray. Our research focuses on developing scalable, formally verified techniques for analyzing, verifying, and securing systems across the computing stack, from software to hardware. Potential research areas include: Programming languages, compilers, decompilers, and static analysis Formal verification and its applications to software and systems security Scalable…",
-   "summary": "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
-   "score": 3,
-   "relevant": true
-  },
-  {
    "id": "u:f7558c896f7eaef5",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "VerifyThis 2027: Call for Problems",
@@ -374,40 +357,6 @@
    "source_text": "Discussed on the Lean Zulip in #general: 90 messages from 27 people. Interested bystander here. Is the main point of cleaning up the proof * To understand better what the workflow is like when cleaning up multimillion line slop proofs * Because there's a belief that this will make the lean proof \"better\" in some way (note that if I want a term of type RH I can just download the oleans from the original version) * Because there's a belief that doing this will make the informalisation process easier somehow * Other reason",
    "summary": "Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve.",
    "score": 3,
-   "relevant": true
-  },
-  {
-   "id": "u:f2252f571a0215a8",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-23T06:29:56Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "score": 2,
-   "relevant": true
-  },
-  {
-   "id": "u:954868bc34ee290c",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-23T06:26:28Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4",
-   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "score": 2,
    "relevant": true
   },
   {
@@ -1127,23 +1076,6 @@
    "relevant": true
   },
   {
-   "id": "u:952c9ab2da1354d1",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-20T08:28:38Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": "Lean 4 challenge 31 on showing the identity sequence has no convergent subsequences.",
-   "score": 2,
-   "relevant": true
-  },
-  {
    "id": "u:8676f7f6becc11a9",
    "type": "social",
    "source": "Lean FRO on Bluesky",
@@ -1315,23 +1247,6 @@
    "fetched": "2026-11-24T04:23:37Z",
    "source_text": "Formalizing mathematics in Lean with AI (Session 2: From paper to Lean). ~ Michail Karatarakis. https://raw.githubusercontent.com/mkaratarakis/from-paper-to-proof/main/slides/BGSMath-Lean-session2-draft.pdf #LeanProver #LeanLang #ITP #AI4Math #AI #Math",
    "summary": "Session slides from a course on formalizing mathematics in Lean with AI, covering paper-to-Lean translation.",
-   "score": 3,
-   "relevant": true
-  },
-  {
-   "id": "u:3d403f7f34e4908a",
-   "type": "news",
-   "source": "Rocq Discourse",
-   "source_id": "rocq-discourse",
-   "title": "PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)",
-   "url": "https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197",
-   "authors": [
-    "paba"
-   ],
-   "published": "2026-11-19T09:07:02Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
-   "summary": "Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027.",
    "score": 3,
    "relevant": true
   },
@@ -2147,7 +2062,7 @@
   },
   {
    "id": "u:762f03f8984448f6",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "Course announcement: Agentic Proof Engineering",
@@ -2393,23 +2308,6 @@
    "relevant": true
   },
   {
-   "id": "u:0dcaf857d606a986",
-   "type": "social",
-   "source": "Lean FRO on Bluesky",
-   "source_id": "lean-fro-bluesky",
-   "title": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external…",
-   "url": "https://bsky.app/profile/lean-lang.org/post/3mzyilu4foc2r",
-   "authors": [
-    "Lean FRO"
-   ],
-   "published": "2026-11-10T22:31:00Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
-   "summary": "Lean FRO is hiring a full-time remote Technical Communications and Content Lead.",
-   "score": 2,
-   "relevant": true
-  },
-  {
    "id": "arxiv:2611.14201",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -2571,7 +2469,7 @@
   },
   {
    "id": "u:8cbfac78780bbb34",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon",
@@ -2607,7 +2505,7 @@
   },
   {
    "id": "u:0a5a7aa670ac5b79",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "2027 Dutch Winter School on Logic and Verification",
@@ -3249,7 +3147,7 @@
   },
   {
    "id": "u:294ae03d095ce72d",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "NWPT 2026: Call for Participation",
@@ -3738,7 +3636,7 @@
   },
   {
    "id": "u:b1cc44b2ee28b986",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "FRIDA @ POPL 2027: Call for Talks",
@@ -3750,23 +3648,6 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "FRIDA @ POPL 2027 - 13th Workshop on Formal Reasoning in Distributed Algorithms Monday 11 January 2027, Mexico City Submission deadline: Friday 6 November 2026 (AoE) popl27.sigplan.org FRIDA 2027 - (Workshop on Formal Reasoning in Distributed Algorithms) - POPL... FRIDA 2027, the 13th Workshop on Formal Reasoning in Distributed Algorithms, is a one-day workshop held on Monday 11 January 2027. The call for talks is open: submit a short abstract and a PDF of at most 2 pages at https://frida2027.hotcrp.com/ by... Dear colleagues, FRIDA brings together researchers in distributed algorithms…",
    "summary": "Call for talks at FRIDA 2027, the workshop on formal reasoning in distributed algorithms at POPL, January 2027.",
-   "score": 2,
-   "relevant": true
-  },
-  {
-   "id": "u:bb9c52d036502ca1",
-   "type": "news",
-   "source": "Rocq Discourse",
-   "source_id": "rocq-discourse",
-   "title": "PhD scholarships at the University of Strathclyde 2027",
-   "url": "https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159",
-   "authors": [
-    "aljungstrom"
-   ],
-   "published": "2026-10-27T15:06:14Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
-   "summary": "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
    "score": 2,
    "relevant": true
   },

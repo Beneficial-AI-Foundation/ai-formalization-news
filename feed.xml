@@ -102,20 +102,8 @@
   <author>
    <name>traytel</name>
   </author>
-  <category term="news" />
+  <category term="event" />
   <summary type="text">Call for papers for ITP 2027, the eighteenth Interactive Theorem Proving conference, held August 3–6, 2027 in Glasgow. (Rocq Discourse)</summary>
- </entry>
- <entry>
-  <id>https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205</id>
-  <title>Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027</title>
-  <link href="https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205" rel="alternate" />
-  <published>2026-11-23T15:11:19Z</published>
-  <updated>2026-11-23T15:11:19Z</updated>
-  <author>
-   <name>swarnpriya</name>
-  </author>
-  <category term="news" />
-  <summary type="text">Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security. (Rocq Discourse)</summary>
  </entry>
  <entry>
   <id>https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203</id>
@@ -126,7 +114,7 @@
   <author>
    <name>neea</name>
   </author>
-  <category term="news" />
+  <category term="event" />
   <summary type="text">Call for problems for VerifyThis 2027, the verification competition held at ETAPS on 10–11 April 2027, with submissions due 18 December 2026. (Rocq Discourse)</summary>
  </entry>
  <entry>
@@ -278,30 +266,6 @@
   </author>
   <category term="lean" />
   <summary type="text">Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388</id>
-  <title>Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388" rel="alternate" />
-  <published>2026-11-23T06:29:56Z</published>
-  <updated>2026-11-23T06:29:56Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean 4 challenge 32 on the successor criterion for extraction functions. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826</id>
-  <title>Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826" rel="alternate" />
-  <published>2026-11-23T06:26:28Z</published>
-  <updated>2026-11-23T06:26:28Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean 4 challenge 32 on the successor criterion for extraction functions. (#leanprover on Mathstodon)</summary>
  </entry>
  <entry>
   <id>https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot</id>
@@ -653,5 +617,41 @@
   </author>
   <category term="social" />
   <summary type="text">Paper on using Lean to move system identification proofs from pen-and-paper to machine-checked form. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</id>
+  <title>From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102" rel="alternate" />
+  <published>2026-11-21T13:06:46Z</published>
+  <updated>2026-11-21T13:06:46Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Paper on refining LLM math proofs from sorry placeholders to complete proofs via angelic execution, with Lean. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</id>
+  <title>Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101" rel="alternate" />
+  <published>2026-11-21T13:02:49Z</published>
+  <updated>2026-11-21T13:02:49Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Turing agent paper on agentic formal verification for mathematical research, by Yang Chen et al. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249</id>
+  <title>Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249" rel="alternate" />
+  <published>2026-11-21T12:54:01Z</published>
+  <updated>2026-11-21T12:54:01Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Shares a CMU report on domain theory formalized in Lean 4 by Ericson, Scott, D'Silva and Milnes. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

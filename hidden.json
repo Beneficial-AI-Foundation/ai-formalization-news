@@ -3,6 +3,24 @@
  "updated": "2026-11-24T06:31:20Z",
  "items": [
   {
+   "id": "u:cec9b28dda26c3f4",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027",
+   "url": "https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205",
+   "authors": [
+    "swarnpriya"
+   ],
+   "published": "2026-11-23T15:11:19Z",
+   "fetched": "2026-11-23T19:21:01Z",
+   "source_text": "We are looking for a motivated PhD student to join us at the School of Electrical Engineering and Computer Science, Washington State University (WSU), starting in Fall 2027. The student will be jointly advised by me and Dr. Thomas Gilray. Our research focuses on developing scalable, formally verified techniques for analyzing, verifying, and securing systems across the computing stack, from software to hardware. Potential research areas include: Programming languages, compilers, decompilers, and static analysis Formal verification and its applications to software and systems security Scalable…",
+   "summary": "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
+   "score": 3,
+   "relevant": true,
+   "hidden": true
+  },
+  {
    "id": "u:0d9065be53393b71",
    "type": "social",
    "source": "Lean Zulip discussions",
@@ -76,6 +94,24 @@
    "summary": "Introduces epistemic typestates as a type discipline for safe multi-agent reinforcement learning, not involving formal proofs.",
    "score": 1,
    "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:3d403f7f34e4908a",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)",
+   "url": "https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197",
+   "authors": [
+    "paba"
+   ],
+   "published": "2026-11-19T09:07:02Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
+   "summary": "Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027.",
+   "score": 3,
+   "relevant": true,
    "hidden": true
   },
   {
@@ -208,6 +244,24 @@
    "summary": "Proves the multiplicative complexity of the three-bit low-half multiplier is six, a Boolean circuit lower bound.",
    "score": 1,
    "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:0dcaf857d606a986",
+   "type": "social",
+   "source": "Lean FRO on Bluesky",
+   "source_id": "lean-fro-bluesky",
+   "title": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external…",
+   "url": "https://bsky.app/profile/lean-lang.org/post/3mzyilu4foc2r",
+   "authors": [
+    "Lean FRO"
+   ],
+   "published": "2026-11-10T22:31:00Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
+   "summary": "Lean FRO is hiring a full-time remote Technical Communications and Content Lead.",
+   "score": 2,
+   "relevant": true,
    "hidden": true
   },
   {
@@ -544,6 +598,24 @@
    "summary": "A graph neural network alternative to Transformers for long-sequence extrapolation; theorem proving is mentioned only as a motivating application.",
    "score": 1,
    "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:bb9c52d036502ca1",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "PhD scholarships at the University of Strathclyde 2027",
+   "url": "https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159",
+   "authors": [
+    "aljungstrom"
+   ],
+   "published": "2026-10-27T15:06:14Z",
+   "fetched": "2026-11-23T06:45:41Z",
+   "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
+   "summary": "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
+   "score": 2,
+   "relevant": true,
    "hidden": true
   },
   {

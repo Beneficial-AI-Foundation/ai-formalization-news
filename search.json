@@ -91,7 +91,7 @@
   ],
   [
    "u:9f25ad42f11c6720",
-   "news",
+   "event",
    "Rocq Discourse",
    "ITP 2027: Call for Papers",
    "https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207",
@@ -101,19 +101,8 @@
    "rocq-discourse"
   ],
   [
-   "u:cec9b28dda26c3f4",
-   "news",
-   "Rocq Discourse",
-   "Funded Ph.D. Position in Programming Languages, Formal Methods, and Security -- Fall 2027",
-   "https://discourse.rocq-prover.org/t/funded-ph-d-position-in-programming-languages-formal-methods-and-security-fall-2027/3205",
-   "2026-11-23T15:11:19Z",
-   "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
-   "swarnpriya",
-   "rocq-discourse"
-  ],
-  [
    "u:f7558c896f7eaef5",
-   "news",
+   "event",
    "Rocq Discourse",
    "VerifyThis 2027: Call for Problems",
    "https://discourse.rocq-prover.org/t/verifythis-2027-call-for-problems/3203",
@@ -253,28 +242,6 @@
    "Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve.",
    "Kevin Buzzard",
    "lean-zulip-discussions"
-  ],
-  [
-   "u:f2252f571a0215a8",
-   "social",
-   "#leanprover on Mathstodon",
-   "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…",
-   "https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388",
-   "2026-11-23T06:29:56Z",
-   "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "@Jose_A_Alonso@mathstodon.xyz",
-   "mathstodon-leanprover"
-  ],
-  [
-   "u:954868bc34ee290c",
-   "social",
-   "#leanprover on Mathstodon",
-   "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…",
-   "https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826",
-   "2026-11-23T06:26:28Z",
-   "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "@Jose_A_Alonso@mathstodon.xyz",
-   "mathstodon-leanprover"
   ],
   [
    "u:ca09765b33ea4531",
@@ -728,17 +695,6 @@
    "arxiv-api"
   ],
   [
-   "u:952c9ab2da1354d1",
-   "social",
-   "#leanprover on Mathstodon",
-   "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…",
-   "https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811",
-   "2026-11-20T08:28:38Z",
-   "Lean 4 challenge 31 on showing the identity sequence has no convergent subsequences.",
-   "@Jose_A_Alonso@mathstodon.xyz",
-   "mathstodon-leanprover"
-  ],
-  [
    "u:8676f7f6becc11a9",
    "social",
    "Lean FRO on Bluesky",
@@ -847,17 +803,6 @@
    "Session slides from a course on formalizing mathematics in Lean with AI, covering paper-to-Lean translation.",
    "@Jose_A_Alonso@mathstodon.xyz",
    "mathstodon-itp"
-  ],
-  [
-   "u:3d403f7f34e4908a",
-   "news",
-   "Rocq Discourse",
-   "PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)",
-   "https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197",
-   "2026-11-19T09:07:02Z",
-   "Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027.",
-   "paba",
-   "rocq-discourse"
   ],
   [
    "arxiv:2611.25599",
@@ -1345,7 +1290,7 @@
   ],
   [
    "u:762f03f8984448f6",
-   "news",
+   "event",
    "Rocq Discourse",
    "Course announcement: Agentic Proof Engineering",
    "https://discourse.rocq-prover.org/t/course-announcement-agentic-proof-engineering/3182",
@@ -1498,17 +1443,6 @@
    "lab-lean-repos"
   ],
   [
-   "u:0dcaf857d606a986",
-   "social",
-   "Lean FRO on Bluesky",
-   "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external…",
-   "https://bsky.app/profile/lean-lang.org/post/3mzyilu4foc2r",
-   "2026-11-10T22:31:00Z",
-   "Lean FRO is hiring a full-time remote Technical Communications and Content Lead.",
-   "Lean FRO",
-   "lean-fro-bluesky"
-  ],
-  [
    "arxiv:2611.14201",
    "paper",
    "arXiv cs.PL",
@@ -1609,7 +1543,7 @@
   ],
   [
    "u:8cbfac78780bbb34",
-   "news",
+   "event",
    "Rocq Discourse",
    "Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon",
    "https://discourse.rocq-prover.org/t/nov-16-2026-proof-assistant-seminar-at-ens-de-lyon/3181",
@@ -1631,7 +1565,7 @@
   ],
   [
    "u:0a5a7aa670ac5b79",
-   "news",
+   "event",
    "Rocq Discourse",
    "2027 Dutch Winter School on Logic and Verification",
    "https://discourse.rocq-prover.org/t/2027-dutch-winter-school-on-logic-and-verification/3180",
@@ -2005,7 +1939,7 @@
   ],
   [
    "u:294ae03d095ce72d",
-   "news",
+   "event",
    "Rocq Discourse",
    "NWPT 2026: Call for Participation",
    "https://discourse.rocq-prover.org/t/nwpt-2026-call-for-participation/3170",
@@ -2302,24 +2236,13 @@
   ],
   [
    "u:b1cc44b2ee28b986",
-   "news",
+   "event",
    "Rocq Discourse",
    "FRIDA @ POPL 2027: Call for Talks",
    "https://discourse.rocq-prover.org/t/frida-popl-2027-call-for-talks/3162",
    "2026-10-27T15:06:31Z",
    "Call for talks at FRIDA 2027, the workshop on formal reasoning in distributed algorithms at POPL, January 2027.",
    "giuliano",
-   "rocq-discourse"
-  ],
-  [
-   "u:bb9c52d036502ca1",
-   "news",
-   "Rocq Discourse",
-   "PhD scholarships at the University of Strathclyde 2027",
-   "https://discourse.rocq-prover.org/t/phd-scholarships-at-the-university-of-strathclyde-2027/3159",
-   "2026-10-27T15:06:14Z",
-   "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
-   "aljungstrom",
    "rocq-discourse"
   ],
   [
