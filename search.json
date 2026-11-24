@@ -35,6 +35,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:e4163c7a33d62c86",
+   "news",
+   "Hacker News",
+   "Anthropic proved VP \\neq NVP for every field [pdf]",
+   "https://github.com/anthropics/formal-math/blob/main/vp-vnp/paper.pdf",
+   "2026-11-24T05:55:21Z",
+   "A linked Anthropic formal-math repository contains a PDF claiming a proof that VP is not equal to VNP over every field, discussed on Hacker News.",
+   "mhabera",
+   "hackernews"
+  ],
+  [
    "u:d13658d18a086f0b",
    "lean",
    "OpenAI math (GitHub)",
@@ -154,6 +165,17 @@
    "Non-amplification rule for AI agent tool schema updates, with a Coq proof of composition and regression tests.",
    "Yulliwas Ameur, Samia Bouzefrane, Soumya Banerjee",
    "arxiv-api"
+  ],
+  [
+   "u:41cf18d0c932cd46",
+   "lean",
+   "Lean Zulip discussions",
+   "Lean0",
+   "https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Lean0/near/642896868",
+   "2026-11-23T13:20:41Z",
+   "Lean0 is a work-in-progress axiomatization of Lean 4's type theory in Metamath Zero, with proof extraction from nanoda and validation of Init and Std.",
+   "Graham Leach-Krouse",
+   "lean-zulip-discussions"
   ],
   [
    "u:379edcc2ec0682c5",

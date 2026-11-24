@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-24T10:20:54Z",
+ "updated": "2026-11-24T11:21:18Z",
  "items": [
   {
    "id": "u:f96dd7c4d2354d51",
@@ -34,6 +34,23 @@
    "source_text": "Does P = NP? (A coordinated AI agent fleet is attacking the most famous open problem in computer science, live). https://pequalnp.com #AI4Math #LeanProver",
    "summary": "A Mastodon post announcing a site where a coordinated AI agent fleet attacks whether P = NP, tagged for AI for math and Lean.",
    "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "u:e4163c7a33d62c86",
+   "type": "news",
+   "source": "Hacker News",
+   "source_id": "hackernews",
+   "title": "Anthropic proved VP \\neq NVP for every field [pdf]",
+   "url": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/paper.pdf",
+   "authors": [
+    "mhabera"
+   ],
+   "published": "2026-11-24T05:55:21Z",
+   "fetched": "2026-11-24T11:21:18Z",
+   "source_text": "Link: https://github.com/anthropics/formal-math/blob/main/vp-vnp/paper.pdf. Discussed on Hacker News: 5 points, 3 comments. https://news.ycombinator.com/item?id=50624296",
+   "summary": "A linked Anthropic formal-math repository contains a PDF claiming a proof that VP is not equal to VNP over every field, discussed on Hacker News.",
+   "score": 3,
    "relevant": true
   },
   {
@@ -221,6 +238,23 @@
    "source_text": "The tools users approve for their AI agents keep changing their JSON input schemas. Of 8 surveyed MCP clients and scanners, none is observed or documented to re-approve a tool whose input schema widens (two not determinable). We define non-amplification over the coordinates visible in the schema (declared arguments and undeclared fields, on effective values) and a re-binding rule decided by subschema inclusion, trusting no field labels by default and conservative up to its checker and tested case analysis. Evidence: a Coq proof of composition; 48 regression tests; an exact-reference…",
    "summary": "Non-amplification rule for AI agent tool schema updates, with a Coq proof of composition and regression tests.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:41cf18d0c932cd46",
+   "type": "lean",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "Lean0",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Lean0/near/642896868",
+   "authors": [
+    "Graham Leach-Krouse"
+   ],
+   "published": "2026-11-23T13:20:41Z",
+   "fetched": "2026-11-24T11:21:18Z",
+   "source_text": "Discussed on the Lean Zulip in #AI authored projects: 10 messages from 5 people. Hi everyone. I'd like to share a new project. It's a work in progress, but far enough along that it may be of interest to some people here: https://github.com/gleachkr/Lean0/ tldr; it's an axiomatization of Lean 4's type theory in metamath zero, with a translation tool that extracts proofs from nanoda and validates them using `mm0-c`. I've validated Init and Std. The certificates are currently enormous, which is the main thing preventing me from validating Mathlib as far as I know. There's also an MM0 proof in a…",
+   "summary": "Lean0 is a work-in-progress axiomatization of Lean 4's type theory in Metamath Zero, with proof extraction from nanoda and validation of Init and Std.",
+   "score": 4,
    "relevant": true
   },
   {
