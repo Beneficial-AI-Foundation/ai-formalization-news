@@ -63,7 +63,7 @@ def test_keyword_filter_applies_only_to_keyword_sources(tmp_path):
     for i in _news(tmp_path):
         by_source.setdefault(i["source_id"], []).append(i)
     assert "hf-daily-papers" not in by_source  # 20 general AI papers, none on topic
-    assert len(by_source["mathstodon-leanprover"]) == 20  # filter: none
+    assert len(by_source["mathstodon-leanprover"]) == 18  # filter: none; 20 posts less 2 Lean 4 exercises
 
 
 def test_duplicate_paper_across_sources_kept_once(tmp_path):

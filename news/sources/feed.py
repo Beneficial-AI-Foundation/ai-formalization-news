@@ -96,6 +96,8 @@ def parse(source: Source, content: bytes, now: datetime) -> list[dict[str, Any]]
             if not terms & wanted_categories:
                 continue
         text = entry_text(entry)
+        if excluded_title and source.type == "social" and excluded_title.search(text):
+            continue  # a post has no title, so the pattern is matched against its text
         authors = entry_authors(entry)
         if source.type == "social":
             # Posts have no title: show the opening words, keep at most 300 characters,

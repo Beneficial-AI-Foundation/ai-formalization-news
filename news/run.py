@@ -138,7 +138,8 @@ def run(
         seen.add(item["id"], now)
 
     # 3. Claude: judge new items and any earlier ones still waiting.
-    claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "route": None, "input_tokens": 0, "output_tokens": 0,
+    claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "route": None, "fallback": False,
+                                   "input_tokens": 0, "output_tokens": 0,
                                    "requests": 0, "items_sent": 0, "judged": 0, "hidden": 0, "dropped": 0, "kept_trusted": 0,
                                    "released": 0, "refusals": [], "errors": []}
     if use_claude:
@@ -160,7 +161,7 @@ def run(
             for item_id, j in result.judgements.items():
                 if item_id in screening:
                     seen.add(item_id, now)
-                    if not j.relevant:
+                    if not j.relevant or j.type == "opportunity":
                         claude_meta["dropped"] += 1
                         continue
                     item = dict(screening[item_id], relevant=True, score=j.score, summary=j.summary, type=j.type)
@@ -173,11 +174,14 @@ def run(
                     continue
                 # Judged off topic, from a source that is not trusted: hide it instead of
                 # deleting it. It stays in the archive (and hidden.json), so a wrong call
-                # can be undone; the page, search and the feed leave it out.
-                hide = not j.relevant and not is_trusted(item)
+                # can be undone; the page, search and the feed leave it out. Job posts and
+                # funding calls ("opportunity") are hidden from every source, trusted or not,
+                # and keep their earlier type, since the page has no such type.
+                opportunity = j.type == "opportunity"
+                hide = opportunity or (not j.relevant and not is_trusted(item))
                 item = dict(item)
                 item.update(relevant=j.relevant, score=j.score, summary=j.summary)
-                if item["type"] != "social":  # the Social button keeps every post
+                if item["type"] != "social" and not opportunity:  # the Social button keeps every post
                     item["type"] = j.type
                 if hide:
                     item["hidden"] = True
