@@ -141,15 +141,18 @@ The keyword list, the Claude model and the synonym groups are in the same two co
 
 To rotate the key: create a new key in the Claude Console, replace the `ANTHROPIC_API_KEY` secret with it, run the workflow once by hand to check, then revoke the old key.
 
-### Through OpenRouter instead (stopgap)
+### Through OpenRouter (instead, or as a backup)
 
-While the Anthropic account has no credit, the same model (Claude Haiku 5.5, same prompt and schema) can be reached through OpenRouter:
+The same model (Claude Haiku 5.5, same prompt and schema) can also be reached through OpenRouter:
 
 - Add `OPENROUTER_API_KEY` as a secret of the `github-pages` environment, the same way. Use a key made for this site with a monthly credit limit (for example $5), not a shared key: the site needs well under $1 a month.
 - The workflow uses Anthropic when `ANTHROPIC_API_KEY` is set and OpenRouter only when it is not. `meta.json` records the route under `claude.route`.
+- With both keys set, OpenRouter is the backup: if a request through Anthropic fails (no credit left, a revoked key, an outage), the job sends it again through OpenRouter, and the rest of that run stays on OpenRouter. The next run tries Anthropic first again. `meta.json` then shows `claude.fallback: true`, and its `errors` list keeps the Anthropic error, so the cause stays visible.
 - `CLAUDE_MODEL` and `claude.model` keep Anthropic's names (`claude-haiku-5-5`); the job translates them to OpenRouter's (`anthropic/claude-haiku-5.5`). The server-side fallback for Sonnet and Opus is Anthropic-only.
 
-To switch back: add `ANTHROPIC_API_KEY` (the next run uses it), then delete `OPENROUTER_API_KEY`, and ask the OpenRouter admin to revoke the site key. Stored summaries stay as they are; nothing is judged again.
+Without a working route, the page still updates: new items show the source's own text, nothing is hidden, and each run retries them for 3 days. Stories from sources marked `needs_claude` wait instead.
+
+To move to Anthropic: add `ANTHROPIC_API_KEY` (the next run uses it, with OpenRouter as the backup). To drop the backup, delete `OPENROUTER_API_KEY` and ask the OpenRouter admin to revoke the site key. Stored summaries stay as they are; nothing is judged again.
 
 ## Lean Zulip
 
