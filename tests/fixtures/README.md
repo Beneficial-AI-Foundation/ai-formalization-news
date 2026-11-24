@@ -24,5 +24,8 @@ Saved on 23 Nov 2026 with the bot's User-Agent, except:
   VP != VNP commits and DeepMind's post on quantum algorithms. `deepmind-blog.xml` keeps the newest
   30 posts. `openai-news.xml` keeps the newest 30 of its 1,425 posts, plus "Sharing AI progress in
   mathematics" (6 Oct 2026), the one post the keyword filter keeps.
+- `lab-lean-repos.json` joins the two replies of GitHub's repository search (Lean repositories of
+  the source's 12 organizations created since 26 Jul 2026), saved on 24 Nov 2026. It keeps only
+  the fields the parser reads, and repositories created before the tests' fixed time (all 56).
 
 To refresh a fixture, download the source's URL again and run `pytest`.
