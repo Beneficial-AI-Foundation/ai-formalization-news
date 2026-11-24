@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -14,7 +15,7 @@ CONFIG_PATH = ROOT / "config" / "sources.yaml"
 SYNONYMS_PATH = ROOT / "config" / "search_synonyms.yaml"
 
 TYPES = ("paper", "lean", "news", "blog", "social")
-KINDS = ("feed", "arxiv", "arxiv_rss", "github_releases", "hackernews", "hf_papers", "zulip")
+KINDS = ("feed", "arxiv", "arxiv_rss", "github_releases", "github_repos", "hackernews", "hf_papers", "zulip")
 FILTERS = ("none", "keywords")
 EVERY = ("1h", "6h", "daily")
 
@@ -96,6 +97,14 @@ def _parse_source(raw: dict[str, Any]) -> Source:
         raise ConfigError(f"source {src.id}: kind {src.kind} needs a url")
     if src.kind == "github_releases" and not src.param("repo"):
         raise ConfigError(f"source {src.id}: github_releases needs a repo")
+    if src.kind == "github_repos":
+        if not src.param("orgs"):
+            raise ConfigError(f"source {src.id}: github_repos needs orgs")
+        if src.param("watch_start"):
+            try:
+                date.fromisoformat(str(src.param("watch_start")))
+            except ValueError as e:
+                raise ConfigError(f"source {src.id}: watch_start must be a date like 2026-11-25") from e
     if src.param("exclude_titles"):
         try:
             re.compile(str(src.param("exclude_titles")))

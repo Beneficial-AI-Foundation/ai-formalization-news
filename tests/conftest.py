@@ -12,7 +12,8 @@ import pytest
 
 from news.config import load_config
 from news.net import FetchError
-from news.sources import SourceResult, arxiv, arxiv_rss, feed, github_releases, hackernews, hf_papers, zulip
+from news.sources import (SourceResult, arxiv, arxiv_rss, feed, github_releases, github_repos, hackernews, hf_papers,
+                          zulip)
 
 FIXTURES = Path(__file__).parent / "fixtures"
 NOW = datetime(2026, 11, 23, 3, 17, tzinfo=timezone.utc)
@@ -22,6 +23,7 @@ PARSERS = {
     "arxiv": arxiv.parse,
     "arxiv_rss": arxiv_rss.parse,
     "github_releases": github_releases.parse,
+    "github_repos": github_repos.parse,
     "hf_papers": hf_papers.parse,
     "zulip": zulip.parse,
 }

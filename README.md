@@ -112,7 +112,7 @@ node --test 'tests/js/*.test.mjs'
 
 Edit `config/sources.yaml`. Copy an existing entry, give it a new `id`, and set:
 
-- `kind`: `feed` for any RSS or Atom link; the other kinds are for arXiv, GitHub releases, Hacker News, Hugging Face Daily Papers and Lean Zulip.
+- `kind`: `feed` for any RSS or Atom link; the other kinds are for arXiv, GitHub releases, new GitHub repositories, Hacker News, Hugging Face Daily Papers and Lean Zulip.
 - `type`: the tag on the page (`paper`, `lean`, `news`, `blog`, `social`).
 - `filter`: `none` keeps every item; `keywords` keeps only items that match the `keywords` list. Use `keywords` for broad feeds.
 - `every`: `1h`, `6h` or `daily`.
@@ -121,6 +121,7 @@ Edit `config/sources.yaml`. Copy an existing entry, give it a new `id`, and set:
 - `stable_only`: optional, for `github_releases` sources. Set `true` to skip release candidates and nightly builds.
 - `exclude_titles`: optional, for `feed` sources. A regular expression; entries whose title matches it anywhere, ignoring case, are skipped. The GitHub commit feeds use `'^(Merge pull request|Merge branch|Bump )'`.
 - `channels`, `min_messages`, `min_people` and `lookback_hours`: for `zulip` sources (see Lean Zulip).
+- `orgs`, `language` and `watch_start`: for `github_repos` sources, which list new repositories of some GitHub organizations. `lab-lean-repos` watches the Lean repositories of AI labs and AI-for-mathematics companies; to watch another organization, add it to `orgs`. GitHub does not say when a repository became public, so after `watch_start` a repository found more than 2 days after its creation (it was private until then) is dated by the run that finds it.
 
 Merge the change into `main` through a pull request; the next hourly run picks it up, or run the workflow by hand from the Actions tab. To test it first, run `python -m news.fetch --dry-run --source <id>` locally.
 

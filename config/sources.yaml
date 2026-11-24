@@ -2,7 +2,7 @@
 #
 # Each source has:
 #   kind     which fetcher reads it: feed (any RSS or Atom), arxiv, arxiv_rss,
-#            github_releases, hackernews, hf_papers, zulip
+#            github_releases, github_repos, hackernews, hf_papers, zulip
 #   type     tag shown on the page: paper, lean, news, blog, social
 #   enabled  true or false
 #   filter   none (keep every item) or keywords (keep only items that match a keyword)
@@ -18,6 +18,9 @@
 #            channels to read; keep only topics that started within lookback_hours and have
 #            at least min_messages messages from min_people people (default 1 and 1); read
 #            the newest `messages` messages of each channel (default 1000)
+#   orgs, language, search_days, watch_start  github_repos only: new repositories of
+#            these GitHub organizations in this language, created within search_days
+#            (default 120); see the source's entry for watch_start
 #   note     free text for maintainers
 #
 # To add a blog, copy one of the feed entries, give it a new id, and set its url.
@@ -416,6 +419,27 @@ sources:
     filter: keywords
     every: 6h
     note: About three posts a day, of which few concern formal mathematics.
+
+  # New Lean repositories of AI labs and AI-for-mathematics companies. Many publish each result
+  # as its own repository (AxiomMath, Google DeepMind). Organizations with at least one Lean
+  # repository on 24 Nov 2026; add more to orgs as they appear.
+  - id: lab-lean-repos
+    name: New Lean repositories of AI labs (GitHub)
+    kind: github_repos
+    type: paper
+    orgs: [anthropics, openai, google-deepmind, facebookresearch, microsoft, mistralai, MoonshotAI,
+           ByteDance-Seed, AxiomMath, math-inc, harmonic-ai, project-numina]
+    language: Lean
+    watch_start: 2026-11-24
+    enabled: true
+    filter: none
+    every: 1h
+    note: >-
+      About 16 new repositories a month (12 of them AxiomMath's in the month to 24 Nov 2026).
+      GitHub does not say when a repository became public. Repositories created before
+      watch_start (the day this source was switched on) are dated by their creation. After
+      that, one found more than 2 days after its creation (it was private until then) is dated
+      by the run that finds it. Untrusted, so Claude hides tooling repositories.
 
   # ---------- Other sources (disabled; switch on as wanted) ----------
   - id: hillel-wayne

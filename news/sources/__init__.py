@@ -35,13 +35,14 @@ class SourceResult:
 
 
 def fetcher_for(kind: str) -> Callable[[Source, FetchContext], SourceResult]:
-    from news.sources import arxiv, arxiv_rss, feed, github_releases, hackernews, hf_papers, zulip
+    from news.sources import arxiv, arxiv_rss, feed, github_releases, github_repos, hackernews, hf_papers, zulip
 
     return {
         "feed": feed.fetch,
         "arxiv": arxiv.fetch,
         "arxiv_rss": arxiv_rss.fetch,
         "github_releases": github_releases.fetch,
+        "github_repos": github_repos.fetch,
         "hackernews": hackernews.fetch,
         "hf_papers": hf_papers.fetch,
         "zulip": zulip.fetch,
