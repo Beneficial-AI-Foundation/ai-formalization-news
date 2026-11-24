@@ -1,12 +1,12 @@
 {
  "version": 1,
- "last_run": "2026-11-23T19:21:01Z",
- "duration_seconds": 10.2,
+ "last_run": "2026-11-24T01:21:53Z",
+ "duration_seconds": 2.2,
  "counts": {
   "items_in_news": 166,
   "items_in_hidden": 23,
   "archive_total": 189,
-  "new_kept": 4,
+  "new_kept": 0,
   "new_rejected": 3,
   "new_hidden": 0
  },
@@ -51,35 +51,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "lean4-releases",
    "name": "Lean 4 releases",
    "type": "lean",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 3,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T00:37:57Z"
   },
   {
    "id": "hackernews",
    "name": "Hacker News",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T00:37:57Z"
   },
   {
    "id": "afp",
@@ -93,7 +93,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "xena",
@@ -107,21 +107,21 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "lean-fro-bluesky",
    "name": "Lean FRO on Bluesky",
    "type": "social",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 7,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T00:37:57Z"
   },
   {
    "id": "rocq-discourse",
@@ -131,39 +131,39 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 15,
-   "new": 4,
-   "kept": 4,
+   "new": 0,
+   "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "quanta-math",
    "name": "Quanta Magazine, mathematics",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 2,
+   "status": "not_modified",
+   "http_status": 304,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "quanta-cs",
    "name": "Quanta Magazine, computer science",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 2,
+   "status": "not_modified",
+   "http_status": 304,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "hf-daily-papers",
@@ -173,11 +173,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 20,
-   "new": 3,
+   "new": 2,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "tao-blog",
@@ -187,11 +187,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "paulson-blog",
@@ -205,35 +205,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T01:21:53Z"
   },
   {
    "id": "mathstodon-leanprover",
    "name": "#leanprover on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 20,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T00:37:57Z"
   },
   {
    "id": "mathstodon-formalverification",
    "name": "#formalverification on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 14,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-23T19:21:01Z"
+   "last_fetch": "2026-11-24T00:37:57Z"
   }
  ],
  "errors": [],
@@ -241,16 +241,15 @@
   "enabled": true,
   "model": "anthropic/claude-haiku-5.5",
   "route": "openrouter",
-  "input_tokens": 2573,
-  "output_tokens": 356,
-  "requests": 1,
-  "items_sent": 4,
-  "judged": 4,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "requests": 0,
+  "items_sent": 0,
+  "judged": 0,
   "hidden": 0,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
-  "errors": [],
-  "seconds": 2.2
+  "errors": []
  }
 }
