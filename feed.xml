@@ -3,12 +3,96 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T04:23:37Z</updated>
+ <updated>2026-11-24T06:31:20Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47</id>
+  <title>Add VP != VNP manuscript and Lean.</title>
+  <link href="https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47" rel="alternate" />
+  <published>2026-11-24T01:20:59Z</published>
+  <updated>2026-11-24T01:20:59Z</updated>
+  <author>
+   <name>dr-openai</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Commit adding a VP != VNP manuscript and Lean files. (OpenAI math (GitHub))</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/VNP.20.21.3D.20VP.20in.20Lean/near/643069715</id>
+  <title>VNP != VP in Lean</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/VNP.20.21.3D.20VP.20in.20Lean/near/643069715" rel="alternate" />
+  <published>2026-11-23T22:28:11Z</published>
+  <updated>2026-11-23T22:28:11Z</updated>
+  <author>
+   <name>Simon DeDeo</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip thread reporting an Anthropic Lean proof that VP != VNP, with a link to the paper. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/paper.pdf</id>
+  <title>VP != VNP over Every Field [pdf]</title>
+  <link href="https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/paper.pdf" rel="alternate" />
+  <published>2026-11-23T22:23:04Z</published>
+  <updated>2026-11-23T22:23:04Z</updated>
+  <author>
+   <name>behrlich</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Hacker News link to a PDF titled VP != VNP over every field, with no further detail in the item. (Hacker News)</summary>
+ </entry>
+ <entry>
+  <id>https://github.com/anthropics/formal-math/tree/main/vp-vnp</id>
+  <title>VP ≠ VNP over Every Field</title>
+  <link href="https://github.com/anthropics/formal-math/tree/main/vp-vnp" rel="alternate" />
+  <published>2026-11-23T22:09:10Z</published>
+  <updated>2026-11-23T22:09:10Z</updated>
+  <author>
+   <name>mikeryan52</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Hacker News item linking to a GitHub Anthropic formal-math paper on VP != VNP over every field. (Hacker News)</summary>
+ </entry>
+ <entry>
+  <id>https://github.com/anthropics/formal-math/commit/918c8e2778aee18b0283dc5a33ed39ab3cd63a96</id>
+  <title>vp-vnp: VP != VNP, paper and Lean proof</title>
+  <link href="https://github.com/anthropics/formal-math/commit/918c8e2778aee18b0283dc5a33ed39ab3cd63a96" rel="alternate" />
+  <published>2026-11-23T20:04:44Z</published>
+  <updated>2026-11-23T20:04:44Z</updated>
+  <author>
+   <name>steinke-ant</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Anthropic repository with a paper and Lean proof of VP != VNP. (Anthropic formal-math (GitHub))</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557</id>
+  <title>Discussion : Navier-Stokes lost in translation</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557" rel="alternate" />
+  <published>2026-11-23T17:28:47Z</published>
+  <updated>2026-11-23T17:28:47Z</updated>
+  <author>
+   <name>Nx</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Student asks how autoformalized Navier-Stokes code can stay faithful to the original informal statement, citing arXiv 2610.08144. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification</id>
+  <title>Finding faster quantum algorithms with agents and formal verification</title>
+  <link href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification" rel="alternate" />
+  <published>2026-11-23T16:59:40Z</published>
+  <updated>2026-11-23T16:59:40Z</updated>
+  <author>
+   <name>Google DeepMind blog</name>
+  </author>
+  <category term="news" />
+  <summary type="text">DeepMind blog on using agent teams and formal verification to improve quantum algorithms for fusion and chemistry. (Google DeepMind blog)</summary>
+ </entry>
  <entry>
   <id>https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207</id>
   <title>ITP 2027: Call for Papers</title>
@@ -56,6 +140,48 @@
   </author>
   <category term="lean" />
   <summary type="text">An experimental Rocq plugin that extracts Rocq definitions to TypeScript ES modules, generating strict-mode-checked code. (Rocq Discourse)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.30750</id>
+  <title>SchemaCaps: When a Compatible Tool Update Silently Widens an AI Agent's Authority</title>
+  <link href="https://arxiv.org/abs/2611.30750" rel="alternate" />
+  <published>2026-11-23T14:24:36Z</published>
+  <updated>2026-11-23T14:24:36Z</updated>
+  <author>
+   <name>Yulliwas Ameur</name>
+  </author>
+  <author>
+   <name>Samia Bouzefrane</name>
+  </author>
+  <author>
+   <name>Soumya Banerjee</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Non-amplification rule for AI agent tool schema updates, with a Coq proof of composition and regression tests. (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Extensible.20Auto-Formatter.20for.20Lean/near/642879444</id>
+  <title>Discussion: Extensible Auto-Formatter for Lean</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Extensible.20Auto-Formatter.20for.20Lean/near/642879444" rel="alternate" />
+  <published>2026-11-23T12:18:31Z</published>
+  <updated>2026-11-23T12:18:31Z</updated>
+  <author>
+   <name>Marc Huisinga</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip discussion thread for the new extensible auto-formatter announcement. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Extensible.20Auto-Formatter.20for.20Lean/near/642879013</id>
+  <title>Extensible Auto-Formatter for Lean</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Extensible.20Auto-Formatter.20for.20Lean/near/642879013" rel="alternate" />
+  <published>2026-11-23T12:16:53Z</published>
+  <updated>2026-11-23T12:16:53Z</updated>
+  <author>
+   <name>Marc Huisinga</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Announcement that an extensible auto-formatter for Lean has been merged, to be released in v4.38.0-rc1. (Lean Zulip announcements)</summary>
  </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191</id>
@@ -142,6 +268,18 @@
   <summary type="text">Richard MacManus argues that formal verification is an emerging way to fight low-quality AI-generated content, linking to a Latent Space essay. (#leanprover on Mathstodon)</summary>
  </entry>
  <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20why.20clean.20up.20the.20proof/near/642793712</id>
+  <title>RH: why clean up the proof</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20why.20clean.20up.20the.20proof/near/642793712" rel="alternate" />
+  <published>2026-11-23T07:16:20Z</published>
+  <updated>2026-11-23T07:16:20Z</updated>
+  <author>
+   <name>Kevin Buzzard</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388</id>
   <title>Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…</title>
   <link href="https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388" rel="alternate" />
@@ -184,6 +322,18 @@
   <summary type="text">Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving. (arXiv cs.AI)</summary>
  </entry>
  <entry>
+  <id>https://pengowray.github.io/riemann-zeta-proof-visualizer</id>
+  <title>Treemap of the Riemann Hypothesis Lean Proof</title>
+  <link href="https://pengowray.github.io/riemann-zeta-proof-visualizer" rel="alternate" />
+  <published>2026-11-23T01:50:23Z</published>
+  <updated>2026-11-23T01:50:23Z</updated>
+  <author>
+   <name>pengowray</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Hacker News item linking to a treemap visualization of the Riemann Hypothesis Lean proof. (Hacker News)</summary>
+ </entry>
+ <entry>
   <id>https://mastodon.social/@orderwithchaos/117662656557828227</id>
   <title>This post aptly captures the "limitations" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming…</title>
   <link href="https://mastodon.social/@orderwithchaos/117662656557828227" rel="alternate" />
@@ -196,6 +346,60 @@
   <summary type="text">Post on the limitations of formal verification, applied to the recent Lean proof of the Riemann Hypothesis. (#formalverification on Mathstodon)</summary>
  </entry>
  <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Message.20by.20the.20Lean.20FRO.20and.20the.20Mathlib.20Initiative/near/642724618</id>
+  <title>Message by the Lean FRO and the Mathlib Initiative</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Message.20by.20the.20Lean.20FRO.20and.20the.20Mathlib.20Initiative/near/642724618" rel="alternate" />
+  <published>2026-11-22T23:16:14Z</published>
+  <updated>2026-11-22T23:16:14Z</updated>
+  <author>
+   <name>Antoine Chambert-Loir</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip post from the Lean FRO and Mathlib Initiative about community statements, with a dissenting comment. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3</id>
+  <title>Progress map for the Lean formalization of Alessandro Masullo's manuscript</title>
+  <link href="https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3" rel="alternate" />
+  <published>2026-11-22T23:12:10Z</published>
+  <updated>2026-11-22T23:12:10Z</updated>
+  <author>
+   <name>Qision</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Hacker News item linking to a progress map for a Lean formalization of Alessandro Masullo's manuscript. (Hacker News)</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Solved.20a.2020-year-old.20problem.3A.20max.20balanced.20nl.289.29.20is.20240/near/642708002</id>
+  <title>Solved a 20-year-old problem: max balanced nl(9) is 240</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Solved.20a.2020-year-old.20problem.3A.20max.20balanced.20nl.289.29.20is.20240/near/642708002" rel="alternate" />
+  <published>2026-11-22T20:57:56Z</published>
+  <updated>2026-11-22T20:57:56Z</updated>
+  <author>
+   <name>Daniel Shittu</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Claims a Lean-verified result that the maximum nonlinearity of a balanced 9-variable Boolean function is 240. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.29738</id>
+  <title>TPTL-dist: A Formalised Calculus with Proof Automation for Verifying Real-Time Distributed Systems</title>
+  <link href="https://arxiv.org/abs/2611.29738" rel="alternate" />
+  <published>2026-11-22T20:05:53Z</published>
+  <updated>2026-11-22T20:05:53Z</updated>
+  <author>
+   <name>Javier Enríquez Mendoza</name>
+  </author>
+  <author>
+   <name>Sam Speight</name>
+  </author>
+  <author>
+   <name>Vincent Rahli</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">TPTL-dist temporal logic and sequent calculus for verifying real-time distributed systems, formalised in Agda with proof search. (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
   <id>https://mathstodon.xyz/@arhamzahid235711/117661742180814394</id>
   <title>I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a…</title>
   <link href="https://mathstodon.xyz/@arhamzahid235711/117661742180814394" rel="alternate" />
@@ -206,6 +410,39 @@
   </author>
   <category term="social" />
   <summary type="text">684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a mapping to Lean declarations. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.20AI-proof.3A.20danger.20of.20reversing.20the.20human.E2.80.93tool.20relationship/near/642696350</id>
+  <title>RH AI-proof: danger of reversing the human–tool relationship</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.20AI-proof.3A.20danger.20of.20reversing.20the.20human.E2.80.93tool.20relationship/near/642696350" rel="alternate" />
+  <published>2026-11-22T19:18:04Z</published>
+  <updated>2026-11-22T19:18:04Z</updated>
+  <author>
+   <name>Shirin Shafaie</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip discussion on the role of AI and human-tool relationships after a formally verified Riemann hypothesis proof in Lean. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.29603</id>
+  <title>Hashing Theorems Modulo Rewrites and Binder Permutation Enables Equivalence Search over 200k Mathlib Theorems</title>
+  <link href="https://arxiv.org/abs/2611.29603" rel="alternate" />
+  <published>2026-11-22T16:52:44Z</published>
+  <updated>2026-11-22T16:52:44Z</updated>
+  <author>
+   <name>Samuel Leßmann</name>
+  </author>
+  <author>
+   <name>Simon Henniger</name>
+  </author>
+  <author>
+   <name>Gabriel Poesia</name>
+  </author>
+  <author>
+   <name>Nada Amin</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Hashing-based equivalence search that finds duplicate theorems across about 200k Mathlib theorems, beyond the syntactic duplicate linter. (arXiv cs.LO)</summary>
  </entry>
  <entry>
   <id>https://mastodon.social/@EvoMRI/117660098331068750</id>
@@ -304,6 +541,24 @@
   <summary type="text">Guest post by Mitchell Taylor on using Lean for working mathematicians, adapted from a talk at Imperial's PDE seminar. (Xena (Kevin Buzzard))</summary>
  </entry>
  <entry>
+  <id>https://arxiv.org/abs/2611.28916</id>
+  <title>An End-to-End Theory for Compositional Symbolic Execution: From Expressive Specifications to SMT (Extended Version)</title>
+  <link href="https://arxiv.org/abs/2611.28916" rel="alternate" />
+  <published>2026-11-21T16:44:48Z</published>
+  <updated>2026-11-21T16:44:48Z</updated>
+  <author>
+   <name>Shivanandan Tamil Kumaran</name>
+  </author>
+  <author>
+   <name>Andreas Lööw</name>
+  </author>
+  <author>
+   <name>Philippa Gardner</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">End-to-end theory of compositional symbolic execution formalized in Rocq, connecting expressive specifications to verified SMT-LIB solver use. (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
   <id>https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v</id>
   <title>The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as…</title>
   <link href="https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v" rel="alternate" />
@@ -340,6 +595,30 @@
   <summary type="text">Joint Lean and Mathlib statement endorsed by Lean FRO and Mathlib Initiative on the Lean verification of the Riemann Hypothesis. (#formalverification on Mathstodon)</summary>
  </entry>
  <entry>
+  <id>https://arxiv.org/abs/2611.28819</id>
+  <title>Improving semantic equivalence in research-level math formalization</title>
+  <link href="https://arxiv.org/abs/2611.28819" rel="alternate" />
+  <published>2026-11-21T14:08:58Z</published>
+  <updated>2026-11-21T14:08:58Z</updated>
+  <author>
+   <name>Ayush Khaitan</name>
+  </author>
+  <author>
+   <name>Liam Fowl</name>
+  </author>
+  <author>
+   <name>Tomàs Ortega</name>
+  </author>
+  <author>
+   <name>Alex Kontorovich</name>
+  </author>
+  <author>
+   <name>Sanjeev Arora</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Collects 4,076 audited examples of changes between paper text and Lean formalizations from 832 projects to study autoformalization fidelity. (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
   <id>https://leanprover-community.github.io/blog/posts/riemann-hypothesis</id>
   <title>Lean verification of the Riemann Hypothesis</title>
   <link href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis" rel="alternate" />
@@ -374,266 +653,5 @@
   </author>
   <category term="social" />
   <summary type="text">Paper on refining LLM math proofs from sorry placeholders to complete proofs via angelic execution, with Lean. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</id>
-  <title>Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101" rel="alternate" />
-  <published>2026-11-21T13:02:49Z</published>
-  <updated>2026-11-21T13:02:49Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Turing agent paper on agentic formal verification for mathematical research, by Yang Chen et al. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249</id>
-  <title>Domain theory in Lean 4. ~ Lars Warren Ericson†, Dana S. Scott, Vijay D’Silva, Brian Milnes…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654529060787249" rel="alternate" />
-  <published>2026-11-21T12:54:01Z</published>
-  <updated>2026-11-21T12:54:01Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Shares a CMU report on domain theory formalized in Lean 4 by Ericson, Scott, D'Silva and Milnes. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861</id>
-  <title>A formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian. ~ Juan J. Manfredi, Behrooz Moosavi…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654510800623861" rel="alternate" />
-  <published>2026-11-21T12:49:22Z</published>
-  <updated>2026-11-21T12:49:22Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian, by Manfredi and Moosavi. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@rzeta0/117650961463339881</id>
-  <title>a live feed of an independent Lean check of the GRH proof ... https://twinheterodox.github.io/rh-verification-monitor/ #maths #grh…</title>
-  <link href="https://mathstodon.xyz/@rzeta0/117650961463339881" rel="alternate" />
-  <published>2026-11-20T21:46:43Z</published>
-  <updated>2026-11-20T21:46:43Z</updated>
-  <author>
-   <name>@rzeta0@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Live feed monitoring an independent Lean check of the GRH proof. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@rzeta0/117650939257690781</id>
-  <title>Since Lean is in the news a lot ... You don't need a PhD to get started ... https://mathstodon.xyz/@rzeta0/117614996210142089 #maths…</title>
-  <link href="https://mathstodon.xyz/@rzeta0/117650939257690781" rel="alternate" />
-  <published>2026-11-20T21:41:05Z</published>
-  <updated>2026-11-20T21:41:05Z</updated>
-  <author>
-   <name>@rzeta0@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Social post encouraging newcomers to start learning Lean without needing a PhD. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260</id>
-  <title>Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math. ~ Joseph Howlett…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117650006967470260" rel="alternate" />
-  <published>2026-11-20T17:43:59Z</published>
-  <updated>2026-11-20T17:43:59Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Scientific American report on an Anthropic mathematician's claimed proof of the Riemann Hypothesis. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117649942692582373</id>
-  <title>Path lifting and homology of the circle and punctured plane (in Isabelle/HOL). ~ Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117649942692582373" rel="alternate" />
-  <published>2026-11-20T17:27:38Z</published>
-  <updated>2026-11-20T17:27:38Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Archive of Formal Proofs entry formalizing path lifting and homology of the circle and punctured plane in Isabelle/HOL. (#itp on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb</id>
-  <title>Anthropic employee claims general proof of the Riemann Hypothesis [pdf] alpo.ge · 934 points · 578 comments · HN thread TL;DR Levent…</title>
-  <link href="https://welley.social/g/hndigest/@best30/posts/pt_01m7ww5ws4etaatykqfyb1jswb" rel="alternate" />
-  <published>2026-11-20T16:21:05Z</published>
-  <updated>2026-11-20T16:21:05Z</updated>
-  <author>
-   <name>@best30@welley.social</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Shared HN thread on Levent Alpöge's claimed proof of the Riemann Hypothesis, developed with Claude. (#formalverification on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.27553</id>
-  <title>Compositional Temporal Specifications for Interaction Trees</title>
-  <link href="https://arxiv.org/abs/2611.27553" rel="alternate" />
-  <published>2026-11-20T12:49:46Z</published>
-  <updated>2026-11-20T12:49:46Z</updated>
-  <author>
-   <name>Linyu Yang</name>
-  </author>
-  <author>
-   <name>Jianwei Yin</name>
-  </author>
-  <author>
-   <name>Mingshuai Chen</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Presents iBuchi, a compositional temporal specification language for reasoning about Interaction Trees in effectful programs. (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.27487</id>
-  <title>Verifying and Strengthening Neural Tangent Kernel Theory</title>
-  <link href="https://arxiv.org/abs/2611.27487" rel="alternate" />
-  <published>2026-11-20T11:32:52Z</published>
-  <updated>2026-11-20T11:32:52Z</updated>
-  <author>
-   <name>Hao Zhu</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Presents a Lean 4 formalisation of neural tangent kernel convergence theory for two-layer networks with an end-to-end machine-checked theorem. (arXiv cs.LG)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811</id>
-  <title>Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811" rel="alternate" />
-  <published>2026-11-20T08:28:38Z</published>
-  <updated>2026-11-20T08:28:38Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean 4 challenge 31 on showing the identity sequence has no convergent subsequences. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v</id>
-  <title>Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak, to under half of that peak…</title>
-  <link href="https://bsky.app/profile/lean-lang.org/post/3n2ouvdqqk22v" rel="alternate" />
-  <published>2026-11-19T20:10:00Z</published>
-  <updated>2026-11-19T20:10:00Z</updated>
-  <author>
-   <name>Lean FRO</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean v4.37.0-rc1 cuts Mathlib build instructions by 23.6%, the largest drop since the December 2025 peak. (Lean FRO on Bluesky)</summary>
- </entry>
- <entry>
-  <id>https://mastodon.social/@TWiT/117644887681769216</id>
-  <title>🔎 What can a mathematical proof tell us about software? Steve Gibson and Leo Laporte look at AI's role in formal code verification…</title>
-  <link href="https://mastodon.social/@TWiT/117644887681769216" rel="alternate" />
-  <published>2026-11-19T20:02:05Z</published>
-  <updated>2026-11-19T20:02:05Z</updated>
-  <author>
-   <name>@TWiT@mastodon.social</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Podcast episode discussing what mathematical proof can tell us about software and AI's role in formal code verification. (#formalverification on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.26754</id>
-  <title>Self-verifiable LLM-driven science and why it needs human researchers</title>
-  <link href="https://arxiv.org/abs/2611.26754" rel="alternate" />
-  <published>2026-11-19T19:49:06Z</published>
-  <updated>2026-11-19T19:49:06Z</updated>
-  <author>
-   <name>Michael G. Medvedev</name>
-  </author>
-  <author>
-   <name>Nikolai V. Krivoshchapov</name>
-  </author>
-  <author>
-   <name>Stepan N. Ostarkov</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Argues that LLM-driven science needs human re-checking and contrasts it with proof assistants like Lean 4 and Coq in mathematics. (arXiv physics.chem-ph)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190</id>
-  <title>Digitalizing Physics in Lean 4 (An open-source, community project to digitalize results from physics into Lean 4). https://physlib.io/…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117644106361880190" rel="alternate" />
-  <published>2026-11-19T16:43:23Z</published>
-  <updated>2026-11-19T16:43:23Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">PhysLib, a community project digitalizing physics results into Lean 4. (#itp on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117644039667708626</id>
-  <title>Formalizing mathematics in Lean with AI (Session 4: Four areas, and your own theorem). ~ Michail Karatarakis…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117644039667708626" rel="alternate" />
-  <published>2026-11-19T16:26:25Z</published>
-  <updated>2026-11-19T16:26:25Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Session 4 slides of a course on formalizing mathematics in Lean with AI, covering four areas and a own theorem. (#itp on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.26221</id>
-  <title>Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications</title>
-  <link href="https://arxiv.org/abs/2611.26221" rel="alternate" />
-  <published>2026-11-19T15:00:25Z</published>
-  <updated>2026-11-19T15:00:25Z</updated>
-  <author>
-   <name>Zihao Xu</name>
-  </author>
-  <author>
-   <name>Yuekang Li</name>
-  </author>
-  <author>
-   <name>Ruitao Feng</name>
-  </author>
-  <author>
-   <name>Haifeng Shen</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Proves and mechanizes in Lean 4 a data-flow summary approach for calls from programs to LLMs in LLM-integrated applications. (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117643372828567065</id>
-  <title>Formalizing mathematics in Lean with AI (Session 3: AI tools). ~ Michail Karatarakis…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117643372828567065" rel="alternate" />
-  <published>2026-11-19T13:36:50Z</published>
-  <updated>2026-11-19T13:36:50Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Session 3 slides of a course on formalizing mathematics in Lean with AI, covering AI tools. (#itp on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117643101972839115</id>
-  <title>Formalizing mathematics in Lean with AI (Session 2: From paper to Lean). ~ Michail Karatarakis…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117643101972839115" rel="alternate" />
-  <published>2026-11-19T12:27:57Z</published>
-  <updated>2026-11-19T12:27:57Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Session slides from a course on formalizing mathematics in Lean with AI, covering paper-to-Lean translation. (#itp on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197</id>
-  <title>PhD position in compiler verification at IT University of Copenhagen (Deadline 1 Jan 2027)</title>
-  <link href="https://discourse.rocq-prover.org/t/phd-position-in-compiler-verification-at-it-university-of-copenhagen-deadline-1-jan-2027/3197" rel="alternate" />
-  <published>2026-11-19T09:07:02Z</published>
-  <updated>2026-11-19T09:07:02Z</updated>
-  <author>
-   <name>paba</name>
-  </author>
-  <category term="news" />
-  <summary type="text">Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027. (Rocq Discourse)</summary>
  </entry>
 </feed>

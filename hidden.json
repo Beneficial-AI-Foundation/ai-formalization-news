@@ -1,7 +1,62 @@
 {
  "version": 1,
- "updated": "2026-11-24T04:23:37Z",
+ "updated": "2026-11-24T06:31:20Z",
  "items": [
+  {
+   "id": "u:0d9065be53393b71",
+   "type": "social",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "I received a potential phishing mail",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/I.20received.20a.20potential.20phishing.20mail/near/642787945",
+   "authors": [
+    "Jz Pan"
+   ],
+   "published": "2026-11-23T06:49:03Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Discussed on the Lean Zulip in #general: 28 messages from 12 people. I received a potential phishing mail which says that I'm a mathlib contributor and needing my help. After some paragraphs it asks me to clone some git repository, cd some directory, and run some bash script. I'm no interest in checking the contents of the repository and/or the bash script, but it potentially can steal all my credentials/apikeys and send to a remote server. Here I just want to warn all lean/mathlib contributors, don't believe/click any link/run any script in such suspicious email. It's supply chain attack.",
+   "summary": "Warning to Lean and Mathlib contributors about a suspected phishing email asking them to run a script.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.29381",
+   "type": "paper",
+   "source": "arXiv math.SP",
+   "source_id": "arxiv-api",
+   "title": "Gaussian Belief Propagation and Periodic Jacobi Matrices on Trees: Spectral Curve, Antibound Poles, and Fixed Points",
+   "url": "https://arxiv.org/abs/2611.29381",
+   "authors": [
+    "Yusuke Watanabe"
+   ],
+   "published": "2026-11-22T10:51:20Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Diagonal Green functions of a periodic Jacobi operator on a universal covering tree satisfy the scalar Gaussian belief propagation covariance equations on the finite connected loopless base multigraph. At cycle rank at least two, the Green functions continue to simple antibound poles at both Perron values for arbitrary real potentials and nonzero real weights. This proves the conjecture of Christiansen, Simon and Zinchenko. For positive weights the pole result includes self-loops. On loopless graphs the lower pole is the walk-summability threshold. Each energy strictly between it and the…",
+   "summary": "Spectral analysis of periodic Jacobi matrices and Gaussian belief propagation on trees; no formal verification content.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.28727",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "How many mistakes does it take to learn an interval? Exact Littlestone dimensions of intervals and their unions",
+   "url": "https://arxiv.org/abs/2611.28727",
+   "authors": [
+    "Miit Daga",
+    "Swarna Priya Ramu"
+   ],
+   "published": "2026-11-21T10:48:49Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "The Littlestone dimension of a hypothesis class equals the smallest number of mistakes an online learner can guarantee against an adaptive adversary. For discrete intervals and unions of $j$ intervals on $m$ points, only its order of growth was known. We determine it exactly. For every switch budget $k$ (with both end labels fixed when $k$ is odd), the smallest size on which $d$ mistakes can be forced follows a three-regime law: $d+1$ while $d\\le k$, then $2d-k+1$, and beyond $d=\\lceil 3k/2\\rceil+k-1$ doubling the size adds exactly $k$ mistakes. Unions of $j$ intervals on $m$ points…",
+   "summary": "Exact Littlestone dimensions for intervals and unions of intervals in online learning theory; no formal-methods content.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
   {
    "id": "arxiv:2611.27631",
    "type": "paper",
@@ -254,6 +309,28 @@
    "hidden": true
   },
   {
+   "id": "arxiv:2611.10800",
+   "type": "paper",
+   "source": "arXiv cs.CL",
+   "source_id": "arxiv-api",
+   "title": "Enhancing Mathematical Reasoning in Turkish Large Language Models with Search-Based Inference and Model Merging",
+   "url": "https://arxiv.org/abs/2611.10800",
+   "authors": [
+    "Ahmed Zeer",
+    "Osama Shbib",
+    "Muzaffer Kaan Yuce",
+    "Himmet Toprak Kesgin",
+    "Mehmet Fatih Amasyali"
+   ],
+   "published": "2026-11-07T15:27:36Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "We improve Turkish mathematical reasoning in Large Language Models by combining LoRA fine-tuning, weight-space model merging, and search-based inference. Using Turkish-Llama 8B-DPO with Turkish translations of MetaMath, NuminaMath, and TigerLab, we find data quality beats scale (Mix-30k best among fine-tuned; large MetaMath underperforms). Linear merging delivers the largest gains (GSM8K up to 0.63), while Ties is modest and Breadcrumbs/Slerp degrade. Search with MCTS and Tree of Thoughts improves mean LLM-judge scores for reasoning quality on a 0-100 scale. Limitations include machine…",
+   "summary": "Improves Turkish LLM mathematical reasoning via fine-tuning, model merging and search; no formal proofs involved.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "arxiv:2611.09410",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -271,6 +348,28 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In mainstream shared-memory languages, programmers use synchronisation mechanisms such as locks to isolate shared data accesses across threads to avoid data races. Yet synchronisation enforces only a temporal ordering, while shared memory still communicates updates between threads at every ordinary read and write. To achieve isolation, programmers therefore need to understand the connection between ordering and communication, and to apply synchronisation correctly and consistently, while compilers and hardware optimise assuming they have. When programmers synchronise incorrectly, they lose…",
    "summary": "Reinterprets Java synchronisation to achieve data-race freedom, a programming-language design topic without formal proofs described.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.08675",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "A Complete Calculus for Hamiltonian Quantum Programming",
+   "url": "https://arxiv.org/abs/2611.08675",
+   "authors": [
+    "Jacques Carette",
+    "Chris Heunen",
+    "Robin Kaarsgaard",
+    "Neil J. Ross",
+    "Amr Sabry"
+   ],
+   "published": "2026-11-05T20:30:24Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Given the forces acting on a quantum particle, a Hamiltonian models its continuous evolution. Quantum computers evolve Hamiltonians to simulate physical systems, to solve optimisation problems, and to estimate eigenvalues, and even the popular circuit abstraction is compiled to Hamiltonians on the hardware. We introduce Hamilton, a process calculus whose parallel operator is the sum of interactions acting simultaneously. Its operational semantics is the Lie-Trotter product formula, which recovers a sum as the limit of ever finer sequential interleavings; compiling a program means halving it…",
+   "summary": "Process calculus for Hamiltonian quantum programming with a complete calculus; no proof-assistant or verification content evident.",
    "score": 1,
    "relevant": false,
    "hidden": true
@@ -392,6 +491,24 @@
    "hidden": true
   },
   {
+   "id": "u:95f5b8b4456c962d",
+   "type": "lean",
+   "source": "New Lean repositories of AI labs (GitHub)",
+   "source_id": "lab-lean-repos",
+   "title": "anthropics/FlashProve: A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+   "url": "https://github.com/anthropics/FlashProve",
+   "authors": [
+    "anthropics"
+   ],
+   "published": "2026-10-30T19:29:59Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "A research prototype for zero-knowledge proofs of AI inference. Not maintained. (GitHub repository, created 30 Oct 2026).",
+   "summary": "Unmaintained research prototype for zero-knowledge proofs of AI inference; not about formal verification of software or proofs.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "arxiv:2610.37739",
    "type": "paper",
    "source": "arXiv cs.AI",
@@ -425,6 +542,26 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Self-attention mechanisms have established the Transformer as the dominant backbone across natural language processing, source code intelligence, and automated theorem proving. However, all-to-all pairwise token comparison enforces a quadratic $\\mathcal{O}(N^2)$ compute and memory barrier alongside severe softmax attention dilution as sequence length $N$ scales beyond the training horizon. Inspired by recent advances in algebraic graph learning (\\textbf{WPNet}), this work introduces \\textbf{GTFormer}, a syntax-free hierarchical Graph Neural Network (GNN) that replaces flat self-attention for…",
    "summary": "A graph neural network alternative to Transformers for long-sequence extrapolation; theorem proving is mentioned only as a motivating application.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2610.37107",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "A Counterexample to KL1 Completeness and a Complete Disjunctive Calculus",
+   "url": "https://arxiv.org/abs/2610.37107",
+   "authors": [
+    "Damiano Presa",
+    "Fabio Aurelio D'Asaro",
+    "Massimiliano Badino"
+   ],
+   "published": "2026-10-27T12:06:41Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "The logic KL$_1$ of Evans, Sergot and Stephenson formalizes Kant's rules as conditional imperatives $B \\square\\to C$ and permissives $B \\diamond\\to C$ over acts. Its consequence relation is operational: a rule follows from a set of rules when adjoining it leaves the set of outcomes unchanged for every input. The authors proved their calculus sound and conjectured that it is complete. We show that the conjecture fails: for distinct atoms $b,c,d$ the rules $\\top \\diamond\\to b \\lor d$, $b \\diamond\\to c$, $d \\diamond\\to c$ and $c \\square\\to b \\lor d$ entail $\\top \\diamond\\to c$, which is not…",
+   "summary": "Counterexample to completeness of the KL1 deontic logic calculus, with no formal verification or proof-assistant content.",
    "score": 1,
    "relevant": false,
    "hidden": true

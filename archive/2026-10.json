@@ -43,6 +43,24 @@
    "relevant": true
   },
   {
+   "id": "u:95f5b8b4456c962d",
+   "type": "lean",
+   "source": "New Lean repositories of AI labs (GitHub)",
+   "source_id": "lab-lean-repos",
+   "title": "anthropics/FlashProve: A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+   "url": "https://github.com/anthropics/FlashProve",
+   "authors": [
+    "anthropics"
+   ],
+   "published": "2026-10-30T19:29:59Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "A research prototype for zero-knowledge proofs of AI inference. Not maintained. (GitHub repository, created 30 Oct 2026).",
+   "summary": "Unmaintained research prototype for zero-knowledge proofs of AI inference; not about formal verification of software or proofs.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "arxiv:2611.00287",
    "type": "paper",
    "source": "arXiv cs.SE",
@@ -140,6 +158,23 @@
    "relevant": true
   },
   {
+   "id": "u:9907ee82031e32b0",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Freek's list now 100/100 in Lean",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Freek.27s.20list.20now.20100.2F100.20in.20Lean/near/636168484",
+   "authors": [
+    "Kim Morrison"
+   ],
+   "published": "2026-10-30T01:57:10Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Freek Wiedijk has for many years maintained [a list of 100 significant theorems in mathematics](https://www.cs.ru.nl/F.Wiedijk/100/index.html), and kept track of which interactive theorem proving languages have checked proofs of these theorems. He's recently had a chance to update the list, and now records that all 100 theorems have been proved in Lean. ... and I'm very pleased that the 100th theorem completed in Lean was [a formulation of Green's theorem](https://taucetiproject.org/docs/TauCeti/Analysis/Green/IndexOne.html#TauCeti.Green.green_ac_index_one), which landed in [Tau…",
+   "summary": "Freek Wiedijk's list of 100 significant theorems is now fully checked in Lean, with the 100th completed being Green's theorem.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:1f14d58ee86cfc79",
    "type": "paper",
    "source": "Archive of Formal Proofs",
@@ -151,6 +186,23 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Finite-Dimensional Algebras and Scalar Towers in the AFP",
    "summary": "Archive of Formal Proofs entry on finite-dimensional algebras and scalar towers.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "u:1b2aa0c97e1dbc92",
+   "type": "lean",
+   "source": "OpenAI math (GitHub)",
+   "source_id": "openai-math",
+   "title": "Align CM Hodge comparator declarations with the Lean solution",
+   "url": "https://github.com/openai/math/commit/204e5f8f8a301d647f4bea76a5834e04fd2399ff",
+   "authors": [
+    "dr-openai"
+   ],
+   "published": "2026-10-29T23:29:22Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Align CM Hodge comparator declarations with the Lean solution",
+   "summary": "Commit aligning CM Hodge comparator declarations with the Lean solution.",
    "score": 2,
    "relevant": true
   },
@@ -277,6 +329,40 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Language models are increasingly being deployed in regulated settings, where a model must apply given rules to the facts of a situation to determine a verdict. Benchmarking this capability, known as deontic reasoning, remains a costly and manual process, with existing datasets largely hand-crafted. In this paper, we present DeoGen, a scalable, automatic, and parametrizable benchmark generator for deontic reasoning. By autoformalizing policy rules to first-order logic, we can construct decision trees that capture possible outcome trajectories. Each path down a tree becomes a benchmark entry…",
    "summary": "Automatically generates deontic reasoning benchmarks by autoformalizing policy rules into first-order logic.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:40a7bdb3b59075e5",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Lean Finder v2: Top-1 Performance + TauCeti Support",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Lean.20Finder.20v2.3A.20Top-1.20Performance.20.2B.20TauCeti.20Support/near/635791874",
+   "authors": [
+    "Wuyang"
+   ],
+   "published": "2026-10-28T18:41:20Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Thanks to Yaroslav Kharkov for the benchmarking at https://www.legendre-leaderboard.com/ Lean Finder v2 is now online, outperforming other Mathlib search engines by a large margin: Web Service: https://leanfinder.github.io/ Paper: [arxiv#2610.30843](https://arxiv.org/abs/2610.30843) Two core features: 1. Lean Finder v2 is highly robust to ambiguous math queries. We can disambiguate queries even when they contain just one or two vague tokens. 2. We are the first search engine to support the great [TauCeti project](https://github.com/TauCetiProject/TauCeti) led by Kim Morrison. Lean Finder…",
+   "summary": "Lean Finder v2 Mathlib search engine released with TauCeti support, with an accompanying arXiv paper.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:3bc5130d598bc7c1",
+   "type": "lean",
+   "source": "New Lean repositories of AI labs (GitHub)",
+   "source_id": "lab-lean-repos",
+   "title": "project-numina/mtc: Modular tensor categories in Lean 4",
+   "url": "https://github.com/project-numina/mtc",
+   "authors": [
+    "project-numina"
+   ],
+   "published": "2026-10-28T16:33:29Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Modular tensor categories in Lean 4 (GitHub repository, created 28 Oct 2026).",
+   "summary": "Lean 4 library formalizing modular tensor categories.",
    "score": 3,
    "relevant": true
   },
@@ -456,6 +542,43 @@
    "relevant": true
   },
   {
+   "id": "u:8f9efac550fde9af",
+   "type": "lean",
+   "source": "New Lean repositories of AI labs (GitHub)",
+   "source_id": "lab-lean-repos",
+   "title": "AxiomMath/CFSG: A Lean formalization of the Classification of Finite Simple Groups",
+   "url": "https://github.com/AxiomMath/CFSG",
+   "authors": [
+    "AxiomMath"
+   ],
+   "published": "2026-10-27T13:19:32Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "A Lean formalization of the Classification of Finite Simple Groups (GitHub repository, created 27 Oct 2026).",
+   "summary": "A Lean formalization of the Classification of Finite Simple Groups.",
+   "score": 5,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2610.37107",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "A Counterexample to KL1 Completeness and a Complete Disjunctive Calculus",
+   "url": "https://arxiv.org/abs/2610.37107",
+   "authors": [
+    "Damiano Presa",
+    "Fabio Aurelio D'Asaro",
+    "Massimiliano Badino"
+   ],
+   "published": "2026-10-27T12:06:41Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "The logic KL$_1$ of Evans, Sergot and Stephenson formalizes Kant's rules as conditional imperatives $B \\square\\to C$ and permissives $B \\diamond\\to C$ over acts. Its consequence relation is operational: a rule follows from a set of rules when adjoining it leaves the set of outcomes unchanged for every input. The authors proved their calculus sound and conjectured that it is complete. We show that the conjecture fails: for distinct atoms $b,c,d$ the rules $\\top \\diamond\\to b \\lor d$, $b \\diamond\\to c$, $d \\diamond\\to c$ and $c \\square\\to b \\lor d$ entail $\\top \\diamond\\to c$, which is not…",
+   "summary": "Counterexample to completeness of the KL1 deontic logic calculus, with no formal verification or proof-assistant content.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "arxiv:2610.36798",
    "type": "paper",
    "source": "arXiv cs.PL",
@@ -472,6 +595,61 @@
    "source_text": "First-class environments expose runtime environments as ordinary values and support a substitution-free, environment-based operational semantics. They also support applications such as first-class modules, dynamic composition of environment fragments, and sandboxing via local environments. Existing environment-based calculi, however, are mostly studied in a simply typed setting and stop short of System F and polymorphism. We present $F_E$, a polymorphic calculus with first-class environments that conservatively extends System F with a small-step environment semantics. $F_E$ eliminates all…",
    "summary": "Presents F_E, a polymorphic System F extension with first-class environments and a small-step environment semantics.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:e3f6455a0f2c3881",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "T. Balaban Coercivity Lemma for 3D Yang Mills",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/T.2E.20Balaban.20Coercivity.20Lemma.20for.203D.20Yang.20Mills/near/635289208",
+   "authors": [
+    "Sebastián Rodrigo"
+   ],
+   "published": "2026-10-27T05:44:49Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Hello. In lights of the recent announcement by Open AI, I would like to share the project I had been working the past few months. I have formalized the coercivity lemma of Balaban´s 3D UV renormalization group. It is a crucial building block of any would-be proof of 3D Yang Mills that goes through his work. On his papers, Balaban supplies the proof for flat fields (U=1), while deferring the proof for general U as something that \"Follows from the methods in Sect. B\", this project finishes that proof, providing a functional version of the lemma depicted in p.428 of \"Propagators for lattice…",
+   "summary": "Formalization in Lean of the coercivity lemma from Balaban's 3D UV renormalization group, a step toward 3D Yang-Mills.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2610.36669",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Proof Repair and (Co)algebra Equivalences",
+   "url": "https://arxiv.org/abs/2610.36669",
+   "authors": [
+    "E. G Plante",
+    "Eric Paul",
+    "Cosmo Viola",
+    "G. A. Kavvos",
+    "Talia Ringer"
+   ],
+   "published": "2026-10-27T05:40:52Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Maintaining formal proofs in response to breaking changes in their dependencies is a major challenge of proof engineering. Proof repair is a kind of proof automation that lessens the burden of this challenge by automatically adapting proofs in response to those changes. While proof repair is well understood through an algorithmic lens, it has, until now, been poorly understood through a theoretical lens. We address this gap by giving the first foundational treatment of proof repair, focusing in particular on type-theoretic proof repair in response to changes in datatypes. Our key insight is…",
+   "summary": "Gives a first foundational treatment of type-theoretic proof repair for changes in datatypes, using (co)algebra equivalences.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:a8f7a54fc3e7e452",
+   "type": "lean",
+   "source": "Anthropic formal-math (GitHub)",
+   "source_id": "anthropic-formal-math",
+   "title": "Add eth: paper and Lean 4 formalization of \"A 2^o(n) Time Algorithm f…",
+   "url": "https://github.com/anthropics/formal-math/commit/16a5ce41304fcdaea4e0be7c132e1c361dc26da5",
+   "authors": [
+    "ecprice-ant"
+   ],
+   "published": "2026-10-27T03:07:21Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Add eth: paper and Lean 4 formalization of \"A 2^o(n) Time Algorithm for 3-SAT\" (#31) Adds eth/, a self-contained Lake project (Lean v4.33.1, Mathlib v4.33.1), with the paper as eth/paper.pdf. MainResults.lean states two propositions on Mathlib's Turing machines: that the Exponential Time Hypothesis is false, and the paper's main theorem, that one deterministic machine counts, for every k, the satisfying assignments of k-CNF formulas within the stated time bound. Solution.lean proves both from the files under proof/, and comparator.json names them for Comparator. The only two sorry are in…",
+   "summary": "Anthropic repository adding a paper and Lean 4 formalization of a 2^o(n) time algorithm for 3-SAT, with Comparator config.",
+   "score": 4,
    "relevant": true
   },
   {
@@ -577,6 +755,23 @@
    "relevant": true
   },
   {
+   "id": "u:33a98e206eee67d7",
+   "type": "lean",
+   "source": "OpenAI math (GitHub)",
+   "source_id": "openai-math",
+   "title": "Update math/cs papers, formalizations, and verification data",
+   "url": "https://github.com/openai/math/commit/42907c9e999cc00d6abe7a50bfc1023250edd1b9",
+   "authors": [
+    "dr-openai"
+   ],
+   "published": "2026-10-26T20:52:18Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Update math/cs papers, formalizations, and verification data",
+   "summary": "Commit updating math and cs papers, formalizations and verification data.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "arxiv:2610.36196",
    "type": "paper",
    "source": "arXiv cs.LO",
@@ -615,6 +810,23 @@
    "score": 1,
    "relevant": false,
    "hidden": true
+  },
+  {
+   "id": "u:e3c2ce0e21a62097",
+   "type": "lean",
+   "source": "New Lean repositories of AI labs (GitHub)",
+   "source_id": "lab-lean-repos",
+   "title": "google-deepmind/code-verification: Verifying Signal's security at the machine-code level",
+   "url": "https://github.com/google-deepmind/code-verification",
+   "authors": [
+    "google-deepmind"
+   ],
+   "published": "2026-10-26T16:27:08Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Verifying Signal's security at the machine-code level (GitHub repository, created 26 Oct 2026).",
+   "summary": "DeepMind repository verifying Signal's security at the machine-code level.",
+   "score": 4,
+   "relevant": true
   },
   {
    "id": "arxiv:2610.35596",
@@ -734,6 +946,23 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "In formal systems such as Lean 4, efficiently finding answers to mathematical problems and generating verifiable proofs is an important task in automated mathematical reasoning. In the traditional way where an upstream solver provides multiple candidate answers, the common workflow requires searching for proofs for each candidate separately, incurring redundant computational cost. To this end, we propose a joint proof framework that integrates candidate answer selection, answer supplementation, and formal proof generation into a unified reasoning process. At its core is a trained prover that…",
    "summary": "A joint proof framework that selects candidate answers, supplements answers and generates formal Lean 4 proofs in one reasoning process.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:ffcb3fc1a985ade9",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "lean-qverify: Bridging Qiskit and Lean 4 for Formal Quantum",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/lean-qverify.3A.20Bridging.20Qiskit.20and.20Lean.204.20for.20Formal.20Quantum/near/634764241",
+   "authors": [
+    "Anand Kumar Keshavan"
+   ],
+   "published": "2026-10-25T15:07:57Z",
+   "fetched": "2026-11-24T06:31:20Z",
+   "source_text": "Hello, I recently put together a small project called *lean-qverify*, which grew out of my interest in applying formal methods to verify quantum circuits. I have implemented some initial examples in Lean 4, including Bell and GHZ circuits. I have also created a short workbook documenting these experiments. Here is the [repo](https://github.com/akkeshavan/lean-qverify) Here is the [book](https://github.com/akkeshavan/lean-qverify/blob/main/book/book.pdf) The basic idea is to write a quantum circuit in Qiskit, export it to OpenQASM 3, and have Lean's proof kernel verify it satisfies a formal…",
+   "summary": "lean-qverify bridges Qiskit and Lean 4 by checking exported OpenQASM 3 quantum circuits such as Bell and GHZ with proofs.",
    "score": 3,
    "relevant": true
   },

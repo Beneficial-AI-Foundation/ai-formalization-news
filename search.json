@@ -13,6 +13,83 @@
  ],
  "rows": [
   [
+   "u:d13658d18a086f0b",
+   "lean",
+   "OpenAI math (GitHub)",
+   "Add VP != VNP manuscript and Lean.",
+   "https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47",
+   "2026-11-24T01:20:59Z",
+   "Commit adding a VP != VNP manuscript and Lean files.",
+   "dr-openai",
+   "openai-math"
+  ],
+  [
+   "u:b84001c676297b44",
+   "lean",
+   "Lean Zulip discussions",
+   "VNP != VP in Lean",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/VNP.20.21.3D.20VP.20in.20Lean/near/643069715",
+   "2026-11-23T22:28:11Z",
+   "Lean Zulip thread reporting an Anthropic Lean proof that VP != VNP, with a link to the paper.",
+   "Simon DeDeo",
+   "lean-zulip-discussions"
+  ],
+  [
+   "u:117b43a505c0195e",
+   "paper",
+   "Hacker News",
+   "VP != VNP over Every Field [pdf]",
+   "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/paper.pdf",
+   "2026-11-23T22:23:04Z",
+   "Hacker News link to a PDF titled VP != VNP over every field, with no further detail in the item.",
+   "behrlich",
+   "hackernews"
+  ],
+  [
+   "u:7e689a2455fd0b6d",
+   "social",
+   "Hacker News",
+   "VP ≠ VNP over Every Field",
+   "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+   "2026-11-23T22:09:10Z",
+   "Hacker News item linking to a GitHub Anthropic formal-math paper on VP != VNP over every field.",
+   "mikeryan52",
+   "hackernews"
+  ],
+  [
+   "u:3bb089a1d8c6c38f",
+   "lean",
+   "Anthropic formal-math (GitHub)",
+   "vp-vnp: VP != VNP, paper and Lean proof",
+   "https://github.com/anthropics/formal-math/commit/918c8e2778aee18b0283dc5a33ed39ab3cd63a96",
+   "2026-11-23T20:04:44Z",
+   "Anthropic repository with a paper and Lean proof of VP != VNP.",
+   "steinke-ant",
+   "anthropic-formal-math"
+  ],
+  [
+   "u:9016d6da961860c1",
+   "lean",
+   "Lean Zulip discussions",
+   "Discussion : Navier-Stokes lost in translation",
+   "https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557",
+   "2026-11-23T17:28:47Z",
+   "Student asks how autoformalized Navier-Stokes code can stay faithful to the original informal statement, citing arXiv 2610.08144.",
+   "Nx",
+   "lean-zulip-discussions"
+  ],
+  [
+   "u:61dcf1169479ac82",
+   "news",
+   "Google DeepMind blog",
+   "Finding faster quantum algorithms with agents and formal verification",
+   "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+   "2026-11-23T16:59:40Z",
+   "DeepMind blog on using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "",
+   "deepmind-blog"
+  ],
+  [
    "u:9f25ad42f11c6720",
    "news",
    "Rocq Discourse",
@@ -55,6 +132,39 @@
    "An experimental Rocq plugin that extracts Rocq definitions to TypeScript ES modules, generating strict-mode-checked code.",
    "smorimoto",
    "rocq-discourse"
+  ],
+  [
+   "arxiv:2611.30750",
+   "paper",
+   "arXiv cs.AI",
+   "SchemaCaps: When a Compatible Tool Update Silently Widens an AI Agent's Authority",
+   "https://arxiv.org/abs/2611.30750",
+   "2026-11-23T14:24:36Z",
+   "Non-amplification rule for AI agent tool schema updates, with a Coq proof of composition and regression tests.",
+   "Yulliwas Ameur, Samia Bouzefrane, Soumya Banerjee",
+   "arxiv-api"
+  ],
+  [
+   "u:379edcc2ec0682c5",
+   "lean",
+   "Lean Zulip discussions",
+   "Discussion: Extensible Auto-Formatter for Lean",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Extensible.20Auto-Formatter.20for.20Lean/near/642879444",
+   "2026-11-23T12:18:31Z",
+   "Lean Zulip discussion thread for the new extensible auto-formatter announcement.",
+   "Marc Huisinga",
+   "lean-zulip-discussions"
+  ],
+  [
+   "u:8653215793e071f4",
+   "lean",
+   "Lean Zulip announcements",
+   "Extensible Auto-Formatter for Lean",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Extensible.20Auto-Formatter.20for.20Lean/near/642879013",
+   "2026-11-23T12:16:53Z",
+   "Announcement that an extensible auto-formatter for Lean has been merged, to be released in v4.38.0-rc1.",
+   "Marc Huisinga",
+   "lean-zulip"
   ],
   [
    "u:d3573e18bce86ec3",
@@ -134,6 +244,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:76af61a66b4b6ea1",
+   "lean",
+   "Lean Zulip discussions",
+   "RH: why clean up the proof",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20why.20clean.20up.20the.20proof/near/642793712",
+   "2026-11-23T07:16:20Z",
+   "Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve.",
+   "Kevin Buzzard",
+   "lean-zulip-discussions"
+  ],
+  [
    "u:f2252f571a0215a8",
    "social",
    "#leanprover on Mathstodon",
@@ -167,6 +288,17 @@
    "arxiv-rss"
   ],
   [
+   "u:b0da3d1e88e0981a",
+   "social",
+   "Hacker News",
+   "Treemap of the Riemann Hypothesis Lean Proof",
+   "https://pengowray.github.io/riemann-zeta-proof-visualizer",
+   "2026-11-23T01:50:23Z",
+   "Hacker News item linking to a treemap visualization of the Riemann Hypothesis Lean proof.",
+   "pengowray",
+   "hackernews"
+  ],
+  [
    "u:be95130e07f461d2",
    "social",
    "#formalverification on Mathstodon",
@@ -178,6 +310,50 @@
    "mathstodon-formalverification"
   ],
   [
+   "u:494cdeeb76e81318",
+   "lean",
+   "Lean Zulip discussions",
+   "Message by the Lean FRO and the Mathlib Initiative",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Message.20by.20the.20Lean.20FRO.20and.20the.20Mathlib.20Initiative/near/642724618",
+   "2026-11-22T23:16:14Z",
+   "Lean Zulip post from the Lean FRO and Mathlib Initiative about community statements, with a dissenting comment.",
+   "Antoine Chambert-Loir",
+   "lean-zulip-discussions"
+  ],
+  [
+   "u:ae6e6a35191d1707",
+   "social",
+   "Hacker News",
+   "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "2026-11-22T23:12:10Z",
+   "Hacker News item linking to a progress map for a Lean formalization of Alessandro Masullo's manuscript.",
+   "Qision",
+   "hackernews"
+  ],
+  [
+   "u:9d290273e9d2442b",
+   "lean",
+   "Lean Zulip discussions",
+   "Solved a 20-year-old problem: max balanced nl(9) is 240",
+   "https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Solved.20a.2020-year-old.20problem.3A.20max.20balanced.20nl.289.29.20is.20240/near/642708002",
+   "2026-11-22T20:57:56Z",
+   "Claims a Lean-verified result that the maximum nonlinearity of a balanced 9-variable Boolean function is 240.",
+   "Daniel Shittu",
+   "lean-zulip-discussions"
+  ],
+  [
+   "arxiv:2611.29738",
+   "paper",
+   "arXiv cs.LO",
+   "TPTL-dist: A Formalised Calculus with Proof Automation for Verifying Real-Time Distributed Systems",
+   "https://arxiv.org/abs/2611.29738",
+   "2026-11-22T20:05:53Z",
+   "TPTL-dist temporal logic and sequent calculus for verifying real-time distributed systems, formalised in Agda with proof search.",
+   "Javier Enríquez Mendoza, Sam Speight, Vincent Rahli",
+   "arxiv-api"
+  ],
+  [
    "u:26b8afe8d4a5e32b",
    "social",
    "#leanprover on Mathstodon",
@@ -187,6 +363,28 @@
    "684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a mapping to Lean declarations.",
    "@arhamzahid235711@mathstodon.xyz",
    "mathstodon-leanprover"
+  ],
+  [
+   "u:4333f1d3c2e0802a",
+   "lean",
+   "Lean Zulip discussions",
+   "RH AI-proof: danger of reversing the human–tool relationship",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.20AI-proof.3A.20danger.20of.20reversing.20the.20human.E2.80.93tool.20relationship/near/642696350",
+   "2026-11-22T19:18:04Z",
+   "Lean Zulip discussion on the role of AI and human-tool relationships after a formally verified Riemann hypothesis proof in Lean.",
+   "Shirin Shafaie",
+   "lean-zulip-discussions"
+  ],
+  [
+   "arxiv:2611.29603",
+   "paper",
+   "arXiv cs.LO",
+   "Hashing Theorems Modulo Rewrites and Binder Permutation Enables Equivalence Search over 200k Mathlib Theorems",
+   "https://arxiv.org/abs/2611.29603",
+   "2026-11-22T16:52:44Z",
+   "Hashing-based equivalence search that finds duplicate theorems across about 200k Mathlib theorems, beyond the syntactic duplicate linter.",
+   "Samuel Leßmann, Simon Henniger, Gabriel Poesia, Nada Amin",
+   "arxiv-api"
   ],
   [
    "u:d528d8cd29196429",
@@ -277,6 +475,17 @@
    "xena"
   ],
   [
+   "arxiv:2611.28916",
+   "paper",
+   "arXiv cs.PL",
+   "An End-to-End Theory for Compositional Symbolic Execution: From Expressive Specifications to SMT (Extended Version)",
+   "https://arxiv.org/abs/2611.28916",
+   "2026-11-21T16:44:48Z",
+   "End-to-end theory of compositional symbolic execution formalized in Rocq, connecting expressive specifications to verified SMT-LIB solver use.",
+   "Shivanandan Tamil Kumaran, Andreas Lööw, Philippa Gardner",
+   "arxiv-api"
+  ],
+  [
    "u:7285cad39d74b239",
    "social",
    "Lean FRO on Bluesky",
@@ -308,6 +517,17 @@
    "Joint Lean and Mathlib statement endorsed by Lean FRO and Mathlib Initiative on the Lean verification of the Riemann Hypothesis.",
    "@leanprover@functional.cafe",
    "mathstodon-formalverification"
+  ],
+  [
+   "arxiv:2611.28819",
+   "paper",
+   "arXiv cs.AI",
+   "Improving semantic equivalence in research-level math formalization",
+   "https://arxiv.org/abs/2611.28819",
+   "2026-11-21T14:08:58Z",
+   "Collects 4,076 audited examples of changes between paper text and Lean formalizations from 832 projects to study autoformalization fidelity.",
+   "Ayush Khaitan, Liam Fowl, Tomàs Ortega, Alex Kontorovich, Sanjeev Arora",
+   "arxiv-api"
   ],
   [
    "u:18d9f9bc59b30c8a",
@@ -374,6 +594,50 @@
    "Formally verified convergence theorem for the tug-of-war scheme of the normalized p-Laplacian, by Manfredi and Moosavi.",
    "@Jose_A_Alonso@mathstodon.xyz",
    "mathstodon-leanprover"
+  ],
+  [
+   "arxiv:2611.28704",
+   "paper",
+   "arXiv cs.SE",
+   "Zero-Trust Formal Methods: AI Agents Build Verified Checkers for Untrusted Solvers",
+   "https://arxiv.org/abs/2611.28704",
+   "2026-11-21T09:58:05Z",
+   "Proposes verified checkers that do not trust SAT, SMT or answer-set solvers, so solver unsat answers can be checked in formal verification.",
+   "Tobias Philipp",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.28436",
+   "paper",
+   "arXiv cs.PL",
+   "SafeJIT: A Speculating JIT Engine Verified Down to the Machine Code",
+   "https://arxiv.org/abs/2611.28436",
+   "2026-11-21T00:17:56Z",
+   "SafeJIT, a JavaScript engine with a speculating JIT, has a machine-checked Lean 4 proof that its RISC-V and x86-64 binaries never crash.",
+   "Gabriel Ebner",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.28430",
+   "paper",
+   "arXiv cs.LG",
+   "Lean Census: A Distributional Analysis of AI-Generated Lean Code",
+   "https://arxiv.org/abs/2611.28430",
+   "2026-11-21T00:02:25Z",
+   "Statistical comparison of two human-written and four AI-generated Lean libraries against Mathlib, with released analysis package.",
+   "Justin Asher, Pietro Pellegrino",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.28388",
+   "paper",
+   "arXiv quant-ph",
+   "Verification and Evaluation of A Comprehensive Quantum Simulation Compiler",
+   "https://arxiv.org/abs/2611.28388",
+   "2026-11-20T22:47:55Z",
+   "Verified Hamiltonian simulation compiler in the Rocq proof assistant, proving an end-to-end approximation error bound for generated circuits.",
+   "Bhuwan Joshi, Zoukarneini Difaizi Tagba, Zhi Xiang Chong, Liyi Li",
+   "arxiv-api"
   ],
   [
    "u:a0929aaff4953010",
@@ -497,6 +761,17 @@
    "arxiv-api"
   ],
   [
+   "arxiv:2611.26507",
+   "paper",
+   "arXiv cs.LO",
+   "Hereditary permutations for simple types revisited: A baby case for University Algebra",
+   "https://arxiv.org/abs/2611.26507",
+   "2026-11-19T17:55:44Z",
+   "New proof that hereditary permutations of simply typed lambda-calculus isomorphisms are definable, staying within normal typed terms.",
+   "Thorsten Altenkirch",
+   "arxiv-api"
+  ],
+  [
    "u:c6031e195e7bf55c",
    "social",
    "#itp on Mathstodon",
@@ -528,6 +803,17 @@
    "Proves and mechanizes in Lean 4 a data-flow summary approach for calls from programs to LLMs in LLM-integrated applications.",
    "Zihao Xu, Yuekang Li, Ruitao Feng, Haifeng Shen",
    "arxiv-api"
+  ],
+  [
+   "u:d33c9070af27009e",
+   "lean",
+   "Lean Zulip announcements",
+   "Security fix for Verso's generated HTML (XSS)",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Security.20fix.20for.20Verso.27s.20generated.20HTML.20.28XSS.29/near/641882625",
+   "2026-11-19T13:42:47Z",
+   "Security advisory for an XSS vulnerability in Verso's generated HTML, fixed in v4.36.0; not about formal methods.",
+   "David Thrane Christiansen",
+   "lean-zulip"
   ],
   [
    "u:fc3fa5dac97aa48c",
@@ -572,6 +858,17 @@
    "Introduces Tether, a verified stateful policy engine for system-level monitoring of AI agents' shell commands and side effects.",
    "Meghana Aparna Sistla, Alaia Solko-Breslin, Somesh Jha, Aditya Kanade, Krishnamurthy Dj Dvijotham",
    "arxiv-api"
+  ],
+  [
+   "u:4108899a165581dd",
+   "news",
+   "Lean Zulip announcements",
+   "Commelin and Topaz Awarded Inaugural AMS \"Milestone Prize\"",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Commelin.20and.20Topaz.20Awarded.20Inaugural.20AMS.20.22Milestone.20Prize.22/near/641706117",
+   "2026-11-18T22:08:59Z",
+   "Johan Commelin and Adam Topaz receive the inaugural AMS Milestone Prize for formalizing the Liquid Tensor Experiment in Lean.",
+   "Alex Kontorovich",
+   "lean-zulip"
   ],
   [
    "arxiv:2611.25174",
@@ -704,6 +1001,17 @@
    "Argues category theory offers reusable programming language semantics and logical relations for proof assistants, a position on metatheory reuse.",
    "Steven Schaefer, Johnson He, Max S. New",
    "arxiv-api"
+  ],
+  [
+   "u:57a3597d55b9adc6",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/MMP: The minimal model program in dimension at most four, in Lean",
+   "https://github.com/AxiomMath/MMP",
+   "2026-11-16T18:42:15Z",
+   "Lean formalization of the minimal model program in dimension at most four.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2611.21421",
@@ -904,6 +1212,28 @@
    "arxiv-api"
   ],
   [
+   "u:0f2fd79426988985",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "google-deepmind/formal-quantum-computation: A Lean 4 library for formally specifying and verifying quantum programs, grounded in quantum Hoare logic with classical variables.",
+   "https://github.com/google-deepmind/formal-quantum-computation",
+   "2026-11-14T00:01:30Z",
+   "DeepMind GitHub library in Lean 4 for specifying and verifying quantum programs using quantum Hoare logic.",
+   "google-deepmind",
+   "lab-lean-repos"
+  ],
+  [
+   "u:e4c2ea4b611338c3",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/CFSG-applications: Published theorems from outside the classification of finite simple groups, formalized in Lean 4 on the CFSG corpus",
+   "https://github.com/AxiomMath/CFSG-applications",
+   "2026-11-13T18:23:14Z",
+   "Lean 4 formalization of published theorems from outside the classification of finite simple groups, built on the CFSG corpus.",
+   "AxiomMath",
+   "lab-lean-repos"
+  ],
+  [
    "arxiv:2611.18369",
    "paper",
    "arXiv cs.DS",
@@ -970,6 +1300,17 @@
    "agda-releases"
   ],
   [
+   "u:030bafd6394647a8",
+   "lean",
+   "Lean Zulip announcements",
+   "Lean 4.43.0 will no longer support Intel-based macOS",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Lean.204.2E43.2E0.20will.20no.20longer.20support.20Intel-based.20macOS/near/640014159",
+   "2026-11-13T08:55:56Z",
+   "Lean will drop binary releases for Intel-based macOS starting with version 4.43.0, with aarch64 macOS still supported.",
+   "Julia Markus Himmel",
+   "lean-zulip"
+  ],
+  [
    "arxiv:2611.17884",
    "paper",
    "arXiv math.LO",
@@ -1001,6 +1342,17 @@
    "Course announcement for a graduate seminar on Agentic Proof Engineering at UPenn, starting January 2027, with a live webinar.",
    "bcpierce00",
    "rocq-discourse"
+  ],
+  [
+   "u:3e1fe3e86fff1ca8",
+   "lean",
+   "Lean Zulip announcements",
+   "The Riemann hypothesis up to 10⁸",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/near/639780945",
+   "2026-11-12T14:55:55Z",
+   "Formal Lean proof that the Riemann hypothesis holds up to height 100,000,300, covering the first 248,008,818 zeros.",
+   "Salvatore Mercuri",
+   "lean-zulip"
   ],
   [
    "arxiv:2611.16886",
@@ -1102,6 +1454,17 @@
    "xena"
   ],
   [
+   "u:2c66c6060e21901d",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/Mordell: A Lean 4 formalization of Faltings' theorem (the Mordell conjecture), via Bombieri–Vojta, on the Stacks Project in Lean",
+   "https://github.com/AxiomMath/Mordell",
+   "2026-11-11T02:42:47Z",
+   "Lean 4 formalization of Faltings' theorem (Mordell conjecture) via Bombieri–Vojta, built on the Stacks Project in Lean.",
+   "AxiomMath",
+   "lab-lean-repos"
+  ],
+  [
    "u:60e3525eb46bf736",
    "social",
    "#formalverification on Mathstodon",
@@ -1111,6 +1474,17 @@
    "Post reporting DeepMind researchers used an AI tool to formally verify that the Signal protocol works as intended.",
    "@BenjaminHCCarr@hachyderm.io",
    "mathstodon-formalverification"
+  ],
+  [
+   "u:24979e228fa3949b",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/SupersingularCongruences: Lean formalization of Ken Ono's Modular forms for chromatic homotopy: supersingular congruences",
+   "https://github.com/AxiomMath/SupersingularCongruences",
+   "2026-11-10T22:50:34Z",
+   "Lean 4 formalization of Ken Ono's supersingular congruences from modular forms for chromatic homotopy.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "u:0dcaf857d606a986",
@@ -1146,6 +1520,17 @@
    "arxiv-api"
   ],
   [
+   "u:f8c1a7370c130fe5",
+   "news",
+   "Google DeepMind blog",
+   "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "https://deepmind.google/blog/introducing-alphaproof-code",
+   "2026-11-10T12:02:28Z",
+   "DeepMind announces AlphaProof Code, with agents writing three million lines of Lean proofs to verify Signal's core encryption.",
+   "",
+   "deepmind-blog"
+  ],
+  [
    "arxiv:2611.13697",
    "paper",
    "arXiv math.LO",
@@ -1179,6 +1564,17 @@
    "arxiv-api"
   ],
   [
+   "u:c1023cc8f4691c1f",
+   "lean",
+   "Lean Zulip announcements",
+   "Literature Links",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Literature.20Links/near/639012282",
+   "2026-11-10T03:29:44Z",
+   "Literature Links proposal: a JSON format for linking papers to Lean code, motivated by autoformalization trust.",
+   "Jack McCarthy",
+   "lean-zulip"
+  ],
+  [
    "u:62c9b7a5de10c1ac",
    "social",
    "#isabelle on Mathstodon",
@@ -1188,6 +1584,17 @@
    "Repository with 101 Isabelle/HOL theories, some ported from Lean modules, including Young's cosine inequality and submitted entries.",
    "@karlesmarin@mathstodon.xyz",
    "mathstodon-isabelle"
+  ],
+  [
+   "u:efad37eb9464c10f",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/LogNarayana: Lean formalizations for the paper \"Log-Concavity in Narayana Transforms and Stack-Sorting Fibers\"",
+   "https://github.com/AxiomMath/LogNarayana",
+   "2026-11-09T21:33:54Z",
+   "Lean formalizations for the paper Log-Concavity in Narayana Transforms and Stack-Sorting Fibers.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "u:8cbfac78780bbb34",
@@ -1221,6 +1628,17 @@
    "Call for participation in the 2027 Dutch Winter School on Logic and Verification, January 2027 at Leiden University.",
    "robbertkrebbers",
    "rocq-discourse"
+  ],
+  [
+   "u:5be32edb2f7b7a04",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/BandMatrixQUE: Lean 4 formalization of quantum unique ergodicity and the critical crossover for 1-d Gaussian band matrices",
+   "https://github.com/AxiomMath/BandMatrixQUE",
+   "2026-11-09T01:10:50Z",
+   "Lean 4 formalization of quantum unique ergodicity and the critical crossover for 1-d Gaussian band matrices.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2611.11641",
@@ -1267,6 +1685,17 @@
    "arxiv-api"
   ],
   [
+   "u:76e60fabfb8037b4",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/HigherDyson3: Lean formalizations for the paper \"Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks\"",
+   "https://github.com/AxiomMath/HigherDyson3",
+   "2026-11-07T06:21:05Z",
+   "Lean formalizations accompanying the paper Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks.",
+   "AxiomMath",
+   "lab-lean-repos"
+  ],
+  [
    "u:4bdb196c6ef1a465",
    "news",
    "Rocq Discourse",
@@ -1309,6 +1738,17 @@
    "LeanDojo-v2 is a library unifying data extraction, fine-tuning, proof search and autocompletion for Lean, with the Lean4Code IDE.",
    "Ryan Hsiang, William Adkisson, Robert Joseph George, Anima Anandkumar",
    "arxiv-api"
+  ],
+  [
+   "u:4afa2593196bfd17",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/Weil: A Lean 4 formalization of the proof of the Weil conjectures",
+   "https://github.com/AxiomMath/Weil",
+   "2026-11-06T00:55:28Z",
+   "Lean 4 formalization of the proof of the Weil conjectures.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "u:0f469cc918e5c79e",
@@ -1410,6 +1850,17 @@
    "arxiv-api"
   ],
   [
+   "u:b6ecc217b5017a2f",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/Stacks: A Lean formalization of the Stacks Project",
+   "https://github.com/AxiomMath/Stacks",
+   "2026-11-04T05:03:55Z",
+   "A Lean formalization of the Stacks Project.",
+   "AxiomMath",
+   "lab-lean-repos"
+  ],
+  [
    "arxiv:2611.05695",
    "paper",
    "arXiv cs.PL",
@@ -1452,6 +1903,17 @@
    "ProofStudio is a browser environment integrating Isabelle/HOL, Lean, Rocq, HOL4 and HOL Light with worked examples for education.",
    "Yutaka Nagashima",
    "arxiv-api"
+  ],
+  [
+   "u:74760229d5961b4a",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/ClusterAlgebras",
+   "https://github.com/AxiomMath/ClusterAlgebras",
+   "2026-11-03T17:42:54Z",
+   "Lean formalization of Chapters 1–7 of Fomin, Williams and Zelevinsky's Introduction to Cluster Algebras.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2611.04993",
@@ -1507,6 +1969,17 @@
    "Compiles effect handlers to a first-order accelerator target with a proof that the translation preserves typing and semantics.",
    "Oghenevwogaga Ebresafe, Daniel Zheng, Gordon Plotkin, Ningning Xie",
    "arxiv-api"
+  ],
+  [
+   "u:2d77963a62774c6d",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/CFSGCorollary: Lean 4 proof that every finite simple group is generated by two elements",
+   "https://github.com/AxiomMath/CFSGCorollary",
+   "2026-11-02T20:00:57Z",
+   "Lean 4 proof that every finite simple group is generated by two elements.",
+   "AxiomMath",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2611.02843",
@@ -1630,6 +2103,17 @@
    "arxiv-api"
   ],
   [
+   "u:9907ee82031e32b0",
+   "lean",
+   "Lean Zulip announcements",
+   "Freek's list now 100/100 in Lean",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Freek.27s.20list.20now.20100.2F100.20in.20Lean/near/636168484",
+   "2026-10-30T01:57:10Z",
+   "Freek Wiedijk's list of 100 significant theorems is now fully checked in Lean, with the 100th completed being Green's theorem.",
+   "Kim Morrison",
+   "lean-zulip"
+  ],
+  [
    "u:1f14d58ee86cfc79",
    "paper",
    "Archive of Formal Proofs",
@@ -1639,6 +2123,17 @@
    "Archive of Formal Proofs entry on finite-dimensional algebras and scalar towers.",
    "",
    "afp"
+  ],
+  [
+   "u:1b2aa0c97e1dbc92",
+   "lean",
+   "OpenAI math (GitHub)",
+   "Align CM Hodge comparator declarations with the Lean solution",
+   "https://github.com/openai/math/commit/204e5f8f8a301d647f4bea76a5834e04fd2399ff",
+   "2026-10-29T23:29:22Z",
+   "Commit aligning CM Hodge comparator declarations with the Lean solution.",
+   "dr-openai",
+   "openai-math"
   ],
   [
    "arxiv:2610.40503",
@@ -1716,6 +2211,28 @@
    "Automatically generates deontic reasoning benchmarks by autoformalizing policy rules into first-order logic.",
    "Sam Kouteili, William Liang, Keeran Murray, Adriana Zhou, Ramesh Viswanathan",
    "arxiv-api"
+  ],
+  [
+   "u:40a7bdb3b59075e5",
+   "lean",
+   "Lean Zulip announcements",
+   "Lean Finder v2: Top-1 Performance + TauCeti Support",
+   "https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Lean.20Finder.20v2.3A.20Top-1.20Performance.20.2B.20TauCeti.20Support/near/635791874",
+   "2026-10-28T18:41:20Z",
+   "Lean Finder v2 Mathlib search engine released with TauCeti support, with an accompanying arXiv paper.",
+   "Wuyang",
+   "lean-zulip"
+  ],
+  [
+   "u:3bc5130d598bc7c1",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "project-numina/mtc: Modular tensor categories in Lean 4",
+   "https://github.com/project-numina/mtc",
+   "2026-10-28T16:33:29Z",
+   "Lean 4 library formalizing modular tensor categories.",
+   "project-numina",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2610.38616",
@@ -1806,6 +2323,17 @@
    "arxiv-api"
   ],
   [
+   "u:8f9efac550fde9af",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "AxiomMath/CFSG: A Lean formalization of the Classification of Finite Simple Groups",
+   "https://github.com/AxiomMath/CFSG",
+   "2026-10-27T13:19:32Z",
+   "A Lean formalization of the Classification of Finite Simple Groups.",
+   "AxiomMath",
+   "lab-lean-repos"
+  ],
+  [
    "arxiv:2610.36798",
    "paper",
    "arXiv cs.PL",
@@ -1815,6 +2343,39 @@
    "Presents F_E, a polymorphic System F extension with first-class environments and a small-step environment semantics.",
    "Jinhao Tan, Jam Kabeer Ali Khan, Bruno C. d. S. Oliveira",
    "arxiv-api"
+  ],
+  [
+   "u:e3f6455a0f2c3881",
+   "lean",
+   "Lean Zulip announcements",
+   "T. Balaban Coercivity Lemma for 3D Yang Mills",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/T.2E.20Balaban.20Coercivity.20Lemma.20for.203D.20Yang.20Mills/near/635289208",
+   "2026-10-27T05:44:49Z",
+   "Formalization in Lean of the coercivity lemma from Balaban's 3D UV renormalization group, a step toward 3D Yang-Mills.",
+   "Sebastián Rodrigo",
+   "lean-zulip"
+  ],
+  [
+   "arxiv:2610.36669",
+   "paper",
+   "arXiv cs.PL",
+   "Proof Repair and (Co)algebra Equivalences",
+   "https://arxiv.org/abs/2610.36669",
+   "2026-10-27T05:40:52Z",
+   "Gives a first foundational treatment of type-theoretic proof repair for changes in datatypes, using (co)algebra equivalences.",
+   "E. G Plante, Eric Paul, Cosmo Viola, G. A. Kavvos, Talia Ringer",
+   "arxiv-api"
+  ],
+  [
+   "u:a8f7a54fc3e7e452",
+   "lean",
+   "Anthropic formal-math (GitHub)",
+   "Add eth: paper and Lean 4 formalization of \"A 2^o(n) Time Algorithm f…",
+   "https://github.com/anthropics/formal-math/commit/16a5ce41304fcdaea4e0be7c132e1c361dc26da5",
+   "2026-10-27T03:07:21Z",
+   "Anthropic repository adding a paper and Lean 4 formalization of a 2^o(n) time algorithm for 3-SAT, with Comparator config.",
+   "ecprice-ant",
+   "anthropic-formal-math"
   ],
   [
    "arxiv:2610.36494",
@@ -1872,6 +2433,17 @@
    "arxiv-api"
   ],
   [
+   "u:33a98e206eee67d7",
+   "lean",
+   "OpenAI math (GitHub)",
+   "Update math/cs papers, formalizations, and verification data",
+   "https://github.com/openai/math/commit/42907c9e999cc00d6abe7a50bfc1023250edd1b9",
+   "2026-10-26T20:52:18Z",
+   "Commit updating math and cs papers, formalizations and verification data.",
+   "dr-openai",
+   "openai-math"
+  ],
+  [
    "arxiv:2610.36196",
    "paper",
    "arXiv cs.LO",
@@ -1881,6 +2453,17 @@
    "count-catcher turns CPOG certificates of d4 model counts into Lean theorems stating a CNF formula has exactly N models, with forward and reverse checks.",
    "Johannes K. Fichte, Stefan Szeider",
    "arxiv-api"
+  ],
+  [
+   "u:e3c2ce0e21a62097",
+   "lean",
+   "New Lean repositories of AI labs (GitHub)",
+   "google-deepmind/code-verification: Verifying Signal's security at the machine-code level",
+   "https://github.com/google-deepmind/code-verification",
+   "2026-10-26T16:27:08Z",
+   "DeepMind repository verifying Signal's security at the machine-code level.",
+   "google-deepmind",
+   "lab-lean-repos"
   ],
   [
    "arxiv:2610.35596",
@@ -1958,6 +2541,17 @@
    "A joint proof framework that selects candidate answers, supplements answers and generates formal Lean 4 proofs in one reasoning process.",
    "Pengzhen Lin, Ke Zhang, Maziar Raissi, Zhouxing Shi",
    "arxiv-api"
+  ],
+  [
+   "u:ffcb3fc1a985ade9",
+   "lean",
+   "Lean Zulip announcements",
+   "lean-qverify: Bridging Qiskit and Lean 4 for Formal Quantum",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/lean-qverify.3A.20Bridging.20Qiskit.20and.20Lean.204.20for.20Formal.20Quantum/near/634764241",
+   "2026-10-25T15:07:57Z",
+   "lean-qverify bridges Qiskit and Lean 4 by checking exported OpenQASM 3 quantum circuits such as Bell and GHZ with proofs.",
+   "Anand Kumar Keshavan",
+   "lean-zulip"
   ],
   [
    "arxiv:2610.34264",
