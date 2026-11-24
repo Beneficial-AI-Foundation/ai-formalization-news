@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T09:23:22Z</updated>
+ <updated>2026-11-24T10:20:54Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117670863586977826</id>
+  <title>Interactive theorem proving in Lean. ~ Florent Schaffhauser. https://matematiflo.github.io/LeanCompactCourse2026/ #LeanProver #LeanLang…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117670863586977826" rel="alternate" />
+  <published>2026-11-24T10:08:06Z</published>
+  <updated>2026-11-24T10:08:06Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Florent Schaffhauser's compact course on interactive theorem proving in Lean, published as a 2026 online course page. (#leanprover on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117670781209510693</id>
+  <title>Does P = NP? (A coordinated AI agent fleet is attacking the most famous open problem in computer science, live). https://pequalnp.com…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117670781209510693" rel="alternate" />
+  <published>2026-11-24T09:47:09Z</published>
+  <updated>2026-11-24T09:47:09Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A Mastodon post announcing a site where a coordinated AI agent fleet attacks whether P = NP, tagged for AI for math and Lean. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47</id>
   <title>Add VP != VNP manuscript and Lean.</title>
@@ -629,29 +653,5 @@
   </author>
   <category term="social" />
   <summary type="text">Paper on using Lean to move system identification proofs from pen-and-paper to machine-checked form. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102</id>
-  <title>From sorry to QED: Refining LLM math proofs via angelic execution. ~ Yanju Chen et al. https://arxiv.org/abs/2611.22103 #AI4Math…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654579215139102" rel="alternate" />
-  <published>2026-11-21T13:06:46Z</published>
-  <updated>2026-11-21T13:06:46Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Paper on refining LLM math proofs from sorry placeholders to complete proofs via angelic execution, with Lean. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101</id>
-  <title>Turing agent: Agentic formal verification for mathematical research. ~ Yang Chen et al. https://arxiv.org/abs/2611.21299 #AI4Math…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117654563714639101" rel="alternate" />
-  <published>2026-11-21T13:02:49Z</published>
-  <updated>2026-11-21T13:02:49Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Turing agent paper on agentic formal verification for mathematical research, by Yang Chen et al. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

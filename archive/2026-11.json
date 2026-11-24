@@ -3,6 +3,40 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:f96dd7c4d2354d51",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Interactive theorem proving in Lean. ~ Florent Schaffhauser. https://matematiflo.github.io/LeanCompactCourse2026/ #LeanProver #LeanLang…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117670863586977826",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-24T10:08:06Z",
+   "fetched": "2026-11-24T10:20:54Z",
+   "source_text": "Interactive theorem proving in Lean. ~ Florent Schaffhauser. https://matematiflo.github.io/LeanCompactCourse2026/ #LeanProver #LeanLang #Math",
+   "summary": "Florent Schaffhauser's compact course on interactive theorem proving in Lean, published as a 2026 online course page.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:895750397c9318dd",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Does P = NP? (A coordinated AI agent fleet is attacking the most famous open problem in computer science, live). https://pequalnp.com…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117670781209510693",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-24T09:47:09Z",
+   "fetched": "2026-11-24T10:20:54Z",
+   "source_text": "Does P = NP? (A coordinated AI agent fleet is attacking the most famous open problem in computer science, live). https://pequalnp.com #AI4Math #LeanProver",
+   "summary": "A Mastodon post announcing a site where a coordinated AI agent fleet attacks whether P = NP, tagged for AI for math and Lean.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "u:d13658d18a086f0b",
    "type": "lean",
    "source": "OpenAI math (GitHub)",
