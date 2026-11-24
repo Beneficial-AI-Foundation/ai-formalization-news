@@ -1,7 +1,7 @@
 {
  "version": 1,
- "last_run": "2026-11-24T07:40:52Z",
- "duration_seconds": 0.0,
+ "last_run": "2026-11-24T08:25:17Z",
+ "duration_seconds": 20.7,
  "counts": {
   "items_in_news": 229,
   "items_in_hidden": 36,
@@ -9,7 +9,7 @@
   "new_kept": 0,
   "new_rejected": 0,
   "new_hidden": 0,
-  "new_dropped": 0
+  "new_dropped": 1
  },
  "sources": [
   {
@@ -59,70 +59,70 @@
    "name": "Lean 4 releases",
    "type": "lean",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 3,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "hackernews",
    "name": "Hacker News",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 5,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "hackernews-top",
    "name": "Hacker News (200+ points)",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
-   "new": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 35,
+   "new": 1,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T06:57:35Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "lean-zulip",
    "name": "Lean Zulip announcements",
    "type": "lean",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 11,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "lean-zulip-discussions",
    "name": "Lean Zulip discussions",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 8,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "afp",
@@ -157,14 +157,14 @@
    "name": "Lean FRO on Bluesky",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 7,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "rocq-discourse",
@@ -283,84 +283,84 @@
    "name": "#leanprover on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 18,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "mathstodon-formalverification",
    "name": "#formalverification on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 14,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "mathstodon-itp",
    "name": "#itp on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 20,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "mathstodon-agda",
    "name": "#agda on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 3,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "mathstodon-rocq",
    "name": "#rocq on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 2,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "mathstodon-isabelle",
    "name": "#isabelle on Mathstodon",
    "type": "social",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 5,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "forsyte",
@@ -395,28 +395,28 @@
    "name": "Anthropic formal-math (GitHub)",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "openai-math",
    "name": "OpenAI math (GitHub)",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   },
   {
    "id": "deepmind-blog",
@@ -451,14 +451,14 @@
    "name": "New Lean repositories of AI labs (GitHub)",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 16,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-24T07:22:22Z"
+   "last_fetch": "2026-11-24T08:25:17Z"
   }
  ],
  "errors": [],
@@ -467,16 +467,17 @@
   "model": "claude-haiku-5-5",
   "route": "anthropic",
   "fallback": false,
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "requests": 0,
-  "items_sent": 0,
-  "judged": 0,
+  "input_tokens": 1810,
+  "output_tokens": 92,
+  "requests": 1,
+  "items_sent": 1,
+  "judged": 1,
   "hidden": 0,
-  "dropped": 0,
+  "dropped": 1,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
-  "errors": []
+  "errors": [],
+  "seconds": 1.3
  }
 }
