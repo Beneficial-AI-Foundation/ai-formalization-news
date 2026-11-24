@@ -66,7 +66,7 @@ type: one of
 - "paper": a research paper, preprint, or formal proof development (arXiv papers, Archive of Formal Proofs entries);
 - "lean": news about Lean, Mathlib or the Lean community itself (releases, blog posts, project announcements);
 - "news": journalism, company or lab announcements, releases of tools other than Lean;
-- "event": a call for papers, talks, participation or problems, or the announcement of a conference, workshop, school, course, seminar series or competition;
+- "event": the announcement of a specific, dated event or call: a call for papers, talks, participation or problems, or a conference, workshop, school, course, seminar or competition. A discussion thread, question, reaction or opinion is not an event, even when it mentions one: type a forum discussion "lean" when it is about Lean, Mathlib or the Lean community, otherwise "news";
 - "blog": a personal or research blog post, or a newsletter essay;
 - "social": a short post from Bluesky or Mastodon;
 - "opportunity": a job or position (PhD, postdoc, faculty, engineering, internship), a scholarship or fellowship, or a grant or funding call. The page leaves these out whatever their topic, so use this type for them even when they come from a lab or community site.
