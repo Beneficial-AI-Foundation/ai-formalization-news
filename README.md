@@ -7,6 +7,39 @@ A static news page kept by the Beneficial AI Foundation. Every hour a GitHub Act
 
 ## How it works
 
+What happens to each item, from its source to the page:
+
+```mermaid
+flowchart TD
+    run["Hourly run<br>minute 17, UTC"] --> due{"Source<br>due?"}
+    due -- "no: sources run<br>every 1h, 6h or daily" --> wait(["Skipped this run"])
+    due -- yes --> fetch["Fetch the source, keep<br>items from the last 30 days"]
+    fetch --> dup{"Duplicate?"}
+    dup -- "yes: seen in 90 days,<br>or same title as an<br>item kept in 7 days" --> dropped(["Dropped"])
+    dup -- no --> kw{"Keyword<br>filter?"}
+    kw -- "no match, on sources<br>with filter: keywords" --> rejected(["Rejected,<br>never stored"])
+    kw -- "match, or no filter:<br>stored in the archive" --> judge["Claude Haiku 5.5 judges up to 100 items:<br>relevant or not, type, score 1 to 5, summary"]
+    judge -- "no API key, or not judged:<br>error, refusal, over the limit" --> plain(["On the page, with<br>the source's own text"])
+    judge --> rel{"Relevant, or<br>from a trusted<br>source?"}
+    rel -- yes --> shown(["On the page, with<br>Claude's summary"])
+    rel -- no --> hidden(["Hidden, in hidden.json:<br>the switch below the<br>list shows it"])
+```
+
+Items on the page go into `news.json` (newest 300), `search.json` and `feed.xml` (newest 50). The job commits to the `data` branch only if something changed, then deploys the page. Items Claude could not judge are retried on later runs for up to 3 days; an item Claude refuses to judge is not sent again. Hacker News stories also need 5 points.
+
+Where each rule is set:
+
+| To change | Edit |
+| --- | --- |
+| Which sources run, and how often | `enabled` and `every` for the source in `config/sources.yaml` |
+| How far back a source looks | `max_age_days` for the source (default 30) |
+| The keyword list, and which sources use it | `keywords`, and `filter: keywords` for the source |
+| Which sources are never hidden | `trusted: true` for the source |
+| The model, and how many items it judges per run | `claude.model` (or the repository variable `CLAUDE_MODEL`) and `claude.max_items_per_run` |
+| What counts as relevant | the instructions to Claude (`SYSTEM_PROMPT`) in `news/claude.py` |
+
+Step by step:
+
 1. `.github/workflows/update.yml` runs at minute 17 of every hour (UTC), or by hand from the Actions tab.
 2. `python -m news.run` fetches every enabled source in `config/sources.yaml` that is due, sending `If-None-Match` and `If-Modified-Since`, so unchanged feeds answer 304.
 3. Links are normalised and each item gets an id. Items already seen, or with the same title as an item kept in the last 7 days, are dropped.
