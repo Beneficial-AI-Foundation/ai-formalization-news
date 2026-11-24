@@ -45,7 +45,7 @@ Step by step:
 3. Links are normalised and each item gets an id. Items already seen, or with the same title as an item kept in the last 7 days, are dropped.
 4. Sources marked `filter: keywords` keep only items that match a keyword.
 5. If an `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` secret is set (see Claude summaries), one Claude request tags each new item as relevant or not, picks its type, scores it from 1 to 5 and writes a summary of at most 160 characters. Items judged off topic are hidden, not deleted: the page, search and the feed leave them out, and a switch below the list shows them. Items from sources marked `trusted` are never hidden. Without the key, the page shows each source's own text.
-6. The job writes `news.json` (newest 300 items), `hidden.json` (newest 300 hidden items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page.
+6. The job writes `news.json` (newest 300 items), `hidden.json` (newest 300 hidden items), `archive/YYYY-MM.json` (every kept item, never trimmed), `search.json` (compact rows for search), `meta.json` (run time, counts, errors) and `feed.xml`, checks them against `schema/news.schema.json`, commits them to the `data` branch only if items changed, and deploys the page (trying twice more, 2 and 5 minutes later, if GitHub's deploy fails).
 
 A failing source never stops the run; its error shows in `meta.json` and on the page.
 
