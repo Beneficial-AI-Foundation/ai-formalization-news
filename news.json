@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-24T06:57:35Z",
+ "updated": "2026-11-24T09:23:22Z",
  "items": [
   {
    "id": "u:d13658d18a086f0b",
@@ -323,6 +323,23 @@
    "source_text": "Lecturas de la semana: 16 nov – 22 nov 2026. https://jaalonso.github.io/vestigium/posts/2026/11/23-weekly_reads #AI #AI4Math #Autoformalization #CoqProver #Emacs #Haskell #HOL_Light #IsabelleHOL #ITP #Lean4Challenge #LeanProver #Logic #Math",
    "summary": "Weekly reading list from José A. Alonso covering AI for math, autoformalization, and proof assistants such as Lean, Coq, Isabelle and HOL Light.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:cd311e7d91784d10",
+   "type": "lean",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "a correct Lean proof containing a misleading definition",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/a.20correct.20Lean.20proof.20containing.20a.20misleading.20definition/near/642805328",
+   "authors": [
+    "Bulhwi Cha"
+   ],
+   "published": "2026-11-23T08:00:36Z",
+   "fetched": "2026-11-24T09:23:22Z",
+   "source_text": "Discussed on the Lean Zulip in #general: 11 messages from 5 people. Please take a look at the following post first: *[Can someone explain to non-mathematician why Nielsen arguments are incorrect?](https://www.reddit.com/r/math/s/3oRadUkg7i)* Many Koreans and others seem to think the correctness of the AI-generated proof of the Riemann hypothesis remains uncertain because some parts of its proof are AI slop. I'm trying to explain to them that the proof is correct and the verification process has been completed. In this post, I'll explain how a formal proof can be correct even if useless…",
+   "summary": "A Lean Zulip discussion on whether a formally verified Lean proof with a misleading definition establishes a claimed result, framed around an AI-generated…",
+   "score": 2,
    "relevant": true
   },
   {

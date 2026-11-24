@@ -222,6 +222,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:cd311e7d91784d10",
+   "lean",
+   "Lean Zulip discussions",
+   "a correct Lean proof containing a misleading definition",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/a.20correct.20Lean.20proof.20containing.20a.20misleading.20definition/near/642805328",
+   "2026-11-23T08:00:36Z",
+   "A Lean Zulip discussion on whether a formally verified Lean proof with a misleading definition establishes a claimed result, framed around an AI-generated…",
+   "Bulhwi Cha",
+   "lean-zulip-discussions"
+  ],
+  [
    "u:610f4df395ff3d12",
    "social",
    "#leanprover on Mathstodon",
