@@ -409,6 +409,17 @@
    "lean-zulip-discussions"
   ],
   [
+   "u:cdc30122f86829d6",
+   "lean",
+   "Lean Zulip discussions",
+   "RH: conserving original proof",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513",
+   "2026-11-22T19:10:59Z",
+   "Lean Zulip thread on hosting a repo that freezes the original Riemann Hypothesis proof attempt so it can be compiled and publicly verified.",
+   "Hang Lu Su",
+   "lean-zulip-discussions"
+  ],
+  [
    "arxiv:2611.29603",
    "paper",
    "arXiv cs.LO",

@@ -3,7 +3,7 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T11:21:18Z</updated>
+ <updated>2026-11-24T12:28:07Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
@@ -460,6 +460,18 @@
   <summary type="text">Lean Zulip discussion on the role of AI and human-tool relationships after a formally verified Riemann hypothesis proof in Lean. (Lean Zulip discussions)</summary>
  </entry>
  <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513</id>
+  <title>RH: conserving original proof</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513" rel="alternate" />
+  <published>2026-11-22T19:10:59Z</published>
+  <updated>2026-11-22T19:10:59Z</updated>
+  <author>
+   <name>Hang Lu Su</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip thread on hosting a repo that freezes the original Riemann Hypothesis proof attempt so it can be compiled and publicly verified. (Lean Zulip discussions)</summary>
+ </entry>
+ <entry>
   <id>https://arxiv.org/abs/2611.29603</id>
   <title>Hashing Theorems Modulo Rewrites and Binder Permutation Enables Equivalence Search over 200k Mathlib Theorems</title>
   <link href="https://arxiv.org/abs/2611.29603" rel="alternate" />
@@ -629,29 +641,5 @@
   </author>
   <category term="social" />
   <summary type="text">Joint Lean and Mathlib statement endorsed by Lean FRO and Mathlib Initiative on the Lean verification of the Riemann Hypothesis. (#formalverification on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.28819</id>
-  <title>Improving semantic equivalence in research-level math formalization</title>
-  <link href="https://arxiv.org/abs/2611.28819" rel="alternate" />
-  <published>2026-11-21T14:08:58Z</published>
-  <updated>2026-11-21T14:08:58Z</updated>
-  <author>
-   <name>Ayush Khaitan</name>
-  </author>
-  <author>
-   <name>Liam Fowl</name>
-  </author>
-  <author>
-   <name>Tomàs Ortega</name>
-  </author>
-  <author>
-   <name>Alex Kontorovich</name>
-  </author>
-  <author>
-   <name>Sanjeev Arora</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Collects 4,076 audited examples of changes between paper text and Lean formalizations from 832 projects to study autoformalization fidelity. (arXiv cs.AI)</summary>
  </entry>
 </feed>

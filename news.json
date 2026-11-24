@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-24T11:21:18Z",
+ "updated": "2026-11-24T12:28:07Z",
  "items": [
   {
    "id": "u:f96dd7c4d2354d51",
@@ -615,6 +615,23 @@
    "fetched": "2026-11-24T06:31:20Z",
    "source_text": "Discussed on the Lean Zulip in #general: 39 messages from 19 people. I'm bringing a few questions from the \"Alpoge Proves the Riemann Hypothesis\" discussion here because that thread needs to stay focused on the technical aspects of the proof. First I wanted to express a few disclaimers: 1) I'm not questioning the correctness or significance of the formally verified RH Lean proof 2) I'm absolutely not against AI in mathematics or other STEM fields (I've been using LLMs for research myself since late 2021) 3) I'm relatively new to Lean and mathlib so I'm not pretending to speak as an expert…",
    "summary": "Lean Zulip discussion on the role of AI and human-tool relationships after a formally verified Riemann hypothesis proof in Lean.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:cdc30122f86829d6",
+   "type": "lean",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "RH: conserving original proof",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513",
+   "authors": [
+    "Hang Lu Su"
+   ],
+   "published": "2026-11-22T19:10:59Z",
+   "fetched": "2026-11-24T12:28:07Z",
+   "source_text": "Discussed on the Lean Zulip in #general: 11 messages from 5 people. As discussed in #**general>RH: cleaning up the proof** and RH#56 I'm hosting a repo freezing the original proof while providing an easy way for people to compile the cache: https://github.com/homeowmorphism/riemann-hypothesis-original, with the idea that this could be transferred to a community repo later if there's interest. ```spoiler James Chang's original comment I think this should be split into 2 repos. There are 2 conflicting objectives for everyone: * ***Publicly verify Levant Apogee's proof*** of the Riemann…",
+   "summary": "Lean Zulip thread on hosting a repo that freezes the original Riemann Hypothesis proof attempt so it can be compiled and publicly verified.",
    "score": 3,
    "relevant": true
   },
