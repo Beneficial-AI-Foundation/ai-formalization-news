@@ -28,7 +28,11 @@ KW = compile_keywords(load_config().keywords)
     "text",
     ["New Lean 4 release", "written in Lean4", "a lean-4 port", "Formal Verification of a kernel",
      "autoformalisation with LLMs", "Interactive theorem provers compared", "Coq's new name is Rocq",
-     "#formalverification", "seL4 proofs", "Proof assistants in teaching"],
+     "#formalverification", "seL4 proofs", "Proof assistants in teaching",
+     "Claude-Written Paper Claims VP ≠ VNP, With a Lean Proof", "github.com/anthropics/formal-math/tree/main/vp-vnp",
+     "a Lean formalisation of the paper", "machine-checked proofs", "formal proofs of correctness",
+     "AI for formal mathematics", "three million lines of proofs in Lean", "Introducing AlphaProof Code",
+     "the theorem is formalized in Lean"],
 )
 def test_keywords_match(text):
     assert matched(text, KW), text
@@ -212,6 +216,9 @@ def test_config_rejects_bad_entries(tmp_path):
         load_config(p)
     p.write_text("sources:\n  - {id: a, name: A, kind: feed, type: blog}\n")
     with pytest.raises(ConfigError):
+        load_config(p)
+    p.write_text("sources:\n  - {id: a, name: A, kind: feed, type: blog, url: 'https://e.org', exclude_titles: '^(Merge'}\n")
+    with pytest.raises(ConfigError, match="exclude_titles"):
         load_config(p)
 
 

@@ -17,4 +17,10 @@ Saved on 23 Nov 2026 with the bot's User-Agent, except:
   dated items of the feed's 334, plus two of its 159 static pages, which are dated 1 Jan 0001 and have
   empty titles; the 30-day window always drops those.
 
+- `anthropic-formal-math.xml`, `openai-math.xml`, `deepmind-blog.xml` and `openai-news.xml` were
+  saved on 24 Nov 2026. Items published after the tests' fixed time were removed, among them the
+  VP != VNP commits and DeepMind's post on quantum algorithms. `deepmind-blog.xml` keeps the newest
+  30 posts. `openai-news.xml` keeps the newest 30 of its 1,425 posts, plus "Sharing AI progress in
+  mathematics" (6 Oct 2026), the one post the keyword filter keeps.
+
 To refresh a fixture, download the source's URL again and run `pytest`.

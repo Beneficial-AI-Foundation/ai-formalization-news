@@ -82,11 +82,15 @@ def mastodon_author(link: str) -> str | None:
 def parse(source: Source, content: bytes, now: datetime) -> list[dict[str, Any]]:
     d = parse_feed(content)
     wanted_categories = {c.lower() for c in source.param("categories", []) or []}
+    exclude = source.param("exclude_titles")
+    excluded_title = re.compile(str(exclude), re.IGNORECASE) if exclude else None
     items = []
     for entry in d.entries:
         link = entry_link(entry)
         if not link:
             continue
+        if excluded_title and excluded_title.search(entry.get("title") or ""):
+            continue  # for example a merge commit, which repeats the commit before it
         if wanted_categories:
             terms = {t.get("term", "").lower() for t in entry.get("tags") or []}
             if not terms & wanted_categories:

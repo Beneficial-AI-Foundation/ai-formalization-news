@@ -12,6 +12,8 @@
 #            items get a summary but are never hidden as not relevant (default false)
 #   stable_only  optional, github_releases only: true skips pre-releases (release
 #            candidates, nightly builds); default false keeps them, marked "(pre-release)"
+#   exclude_titles  optional, feed only: a regular expression; entries whose title
+#            matches it anywhere, ignoring case, are skipped (for example merge commits)
 #   note     free text for maintainers
 #
 # To add a blog, copy one of the feed entries, give it a new id, and set its url.
@@ -48,6 +50,15 @@ keywords:
   - seL4
   - verified code
   - AI mathematics
+  - formal math
+  - formal mathematics
+  - formal proof
+  - Lean proof
+  - Lean formalization
+  - proofs in Lean
+  - formalized in Lean
+  - machine-checked
+  - AlphaProof
 
 claude:
   # The CLAUDE_MODEL environment variable overrides this.
@@ -339,6 +350,51 @@ sources:
     every: 6h
     note: Company working on formal methods for AI and secure hardware. Untrusted, so Claude judges each post.
 
+  # Proof repositories of AI labs. Each new result arrives as a commit, often before any
+  # paper or blog post. Untrusted, so Claude hides housekeeping commits (CI, README).
+  - id: anthropic-formal-math
+    name: Anthropic formal-math (GitHub)
+    kind: feed
+    type: paper
+    url: https://github.com/anthropics/formal-math/commits/main.atom
+    enabled: true
+    filter: none
+    exclude_titles: '^(Merge pull request|Merge branch|Bump )'
+    every: 1h
+    note: One folder per result, each a paper with its Lean proof (VP != VNP, 3SUM and APSP, the Exponential Time Hypothesis). Merge commits repeat the commit before them, and Bump commits are dependency updates, so both are skipped.
+
+  - id: openai-math
+    name: OpenAI math (GitHub)
+    kind: feed
+    type: paper
+    url: https://github.com/openai/math/commits/main.atom
+    enabled: true
+    filter: none
+    exclude_titles: '^(Merge pull request|Merge branch|Bump )'
+    every: 1h
+    note: OpenAI's manuscripts and Lean formalizations, updated a few times a month.
+
+  # AI lab blogs, keyword-filtered: posts about formal mathematics and verification, not
+  # every product or model announcement. Anthropic's site has no feed.
+  - id: deepmind-blog
+    name: Google DeepMind blog
+    kind: feed
+    type: blog
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+    filter: keywords
+    every: 6h
+
+  - id: openai-news
+    name: OpenAI news
+    kind: feed
+    type: blog
+    url: https://openai.com/news/rss.xml
+    enabled: true
+    filter: keywords
+    every: 6h
+    note: About three posts a day, of which few concern formal mathematics.
+
   # ---------- Other sources (disabled; switch on as wanted) ----------
   - id: hillel-wayne
     name: Hillel Wayne, Computer Things
@@ -413,30 +469,11 @@ sources:
     filter: none
     every: 6h
 
-  - id: deepmind-blog
-    name: Google DeepMind blog
-    kind: feed
-    type: news
-    url: https://deepmind.google/blog/feed
-    enabled: false
-    filter: keywords
-    every: 6h
-
   - id: google-research
     name: Google Research
     kind: feed
     type: news
     url: https://blog.google/innovation-and-ai/technology/research/rss
-    enabled: false
-    filter: keywords
-    every: 6h
-
-  - id: openai-news
-    name: OpenAI News
-    kind: feed
-    type: news
-    url: https://openai.com/news/rss.xml
-    categories: [Research, Safety]
     enabled: false
     filter: keywords
     every: 6h

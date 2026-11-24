@@ -139,6 +139,58 @@ def test_hackernews_threshold_and_keyword_match():
     assert "FlightTrack" not in titles  # matched the search but not a keyword
 
 
+def test_hackernews_story_matched_by_its_link():
+    """VP != VNP (23 Nov 2026): neither the title nor the link had a keyword until "formal math"
+    was added, which matches the link github.com/anthropics/formal-math/..."""
+    from news.sources import hackernews
+
+    hit = {"objectID": "46000001", "title": "VP ≠ VNP over Every Field", "points": 299, "num_comments": 257,
+           "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp", "author": "someone",
+           "created_at_i": 1795471740}  # 23 Nov 2026, 22:09 UTC
+    src = CFG.source("hackernews")
+    items = hackernews.select(src, [hit], KEYWORDS, NOW)
+    assert [i["title"] for i in items] == ["VP ≠ VNP over Every Field"]
+    assert items[0]["url"] == hit["url"]
+    before = compile_keywords([k for k in CFG.keywords if k not in ("formal math", "formal mathematics")])
+    assert hackernews.select(src, [hit], before, NOW) == []
+
+
+@pytest.mark.parametrize("sid", ["anthropic-formal-math", "openai-math"])
+def test_commit_feeds_skip_merge_and_bump_commits(sid):
+    import copy
+
+    src = CFG.source(sid)
+    content = fixture_path(sid).read_bytes()
+    kept = [i["title"] for i in feed.parse(src, content, NOW)]
+    everything = copy.deepcopy(src)
+    del everything.params["exclude_titles"]
+    all_titles = [i["title"] for i in feed.parse(everything, content, NOW)]
+    assert any(t.startswith("Merge pull request") for t in all_titles)
+    assert kept == [t for t in all_titles if not t.startswith(("Merge pull request", "Merge branch", "Bump "))]
+    assert len(kept) < len(all_titles)
+
+
+def test_formal_math_commits_link_to_the_commit():
+    items = feed.parse(CFG.source("anthropic-formal-math"), fixture_path("anthropic-formal-math").read_bytes(), NOW)
+    eth = next(i for i in items if i["title"].startswith("Add eth: paper and Lean 4 formalization"))
+    assert eth["url"].startswith("https://github.com/anthropics/formal-math/commit/")
+    assert eth["published"] == "2026-10-27T03:07:21Z"
+
+
+@pytest.mark.parametrize("sid,total,kept", [
+    ("openai-news", 31, "Sharing AI progress in mathematics"),
+    ("deepmind-blog", 30, "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"),
+])
+def test_lab_blog_keyword_filter(sid, total, kept):
+    """Lab blogs post about models and products most days; the keyword filter keeps the posts
+    on formal mathematics and verification."""
+    from news.keywords import item_matches
+
+    items = feed.parse(CFG.source(sid), fixture_path(sid).read_bytes(), NOW)
+    assert len(items) == total
+    assert [i["title"] for i in items if item_matches(i, KEYWORDS)] == [kept]
+
+
 def test_zulip_one_item_per_topic():
     src = CFG.source("lean-zulip")
     items = parse_fixture(src, fixture_path("lean-zulip").read_bytes(), NOW, KEYWORDS)
