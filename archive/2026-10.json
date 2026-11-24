@@ -489,7 +489,7 @@
   },
   {
    "id": "u:b1cc44b2ee28b986",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "FRIDA @ POPL 2027: Call for Talks",
@@ -519,7 +519,8 @@
    "source_text": "Dear all, The Mathematically Structured Programming Group at the University of Strathclyde is welcoming applications for PhD scholarships, funded through the John Anderson Research Studentship Scheme. The scheme is a competitive process and offers several fully-funded positions for UK Home students. The scholarship covers tuition fees, a stipend for living expenses, and a small travel budget. Unfortunately, the funding provided is not enough for non-UK tuition fees. MSP is a thriving, fun, and exciting place within the UK to do fundamental research. We are a progressive and inclusive group…",
    "summary": "Announcement of PhD scholarships at Strathclyde's Mathematically Structured Programming Group for UK students.",
    "score": 2,
-   "relevant": true
+   "relevant": true,
+   "hidden": true
   },
   {
    "id": "arxiv:2610.37244",

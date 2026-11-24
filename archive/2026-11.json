@@ -121,7 +121,7 @@
   },
   {
    "id": "u:9f25ad42f11c6720",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "ITP 2027: Call for Papers",
@@ -151,11 +151,12 @@
    "source_text": "We are looking for a motivated PhD student to join us at the School of Electrical Engineering and Computer Science, Washington State University (WSU), starting in Fall 2027. The student will be jointly advised by me and Dr. Thomas Gilray. Our research focuses on developing scalable, formally verified techniques for analyzing, verifying, and securing systems across the computing stack, from software to hardware. Potential research areas include: Programming languages, compilers, decompilers, and static analysis Formal verification and its applications to software and systems security Scalable…",
    "summary": "Funded PhD position at Washington State University on programming languages and formally verified techniques for software and hardware security.",
    "score": 3,
-   "relevant": true
+   "relevant": true,
+   "hidden": true
   },
   {
    "id": "u:f7558c896f7eaef5",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "VerifyThis 2027: Call for Problems",
@@ -393,40 +394,6 @@
    "score": 1,
    "relevant": false,
    "hidden": true
-  },
-  {
-   "id": "u:f2252f571a0215a8",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_s…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664343399787388",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-23T06:29:56Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Lean 4 challenge 32: Successor criterion for extraction functions. https://jaalonso.github.io/calculemus/en/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "score": 2,
-   "relevant": true
-  },
-  {
-   "id": "u:954868bc34ee290c",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_s…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117664329807220826",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-23T06:26:28Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Reto 32 de Lean 4: Criterio del sucesor para funciones de extracción. https://jaalonso.github.io/calculemus/posts/2026/11/23-criterio_del_sucesor_para_funciones_de_extraccion #LeanProver #LeanLang #Matemáticas #RetoLean4",
-   "summary": "Lean 4 challenge 32 on the successor criterion for extraction functions.",
-   "score": 2,
-   "relevant": true
   },
   {
    "id": "u:ca09765b33ea4531",
@@ -1203,23 +1170,6 @@
    "relevant": true
   },
   {
-   "id": "u:952c9ab2da1354d1",
-   "type": "social",
-   "source": "#leanprover on Mathstodon",
-   "source_id": "mathstodon-leanprover",
-   "title": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_ide…",
-   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117647823247208811",
-   "authors": [
-    "@Jose_A_Alonso@mathstodon.xyz"
-   ],
-   "published": "2026-11-20T08:28:38Z",
-   "fetched": "2026-11-23T06:45:41Z",
-   "source_text": "Lean 4 challenge 31: The identity sequence has no convergent subsequences. https://jaalonso.github.io/calculemus/en/posts/2026/11/20-la_identidad_no_tiene_subsucesiones_convergentes #LeanProver #LeanLang #Math #Lean4Challenge",
-   "summary": "Lean 4 challenge 31 on showing the identity sequence has no convergent subsequences.",
-   "score": 2,
-   "relevant": true
-  },
-  {
    "id": "u:8676f7f6becc11a9",
    "type": "social",
    "source": "Lean FRO on Bluesky",
@@ -1409,7 +1359,8 @@
    "source_text": "We invite applications for a fully funded 3-year PhD position at the IT University of Copenhagen (ITU), as part of the MAVERIC project (Modular Algebraic Verification of Compilers), funded by the Independent Research Fund Denmark (DFF). The position starts on 1 April 2027; a later start can be negotiated. The Project MAVERIC aims to make compiler verification simpler and more modular by bringing together two previously separate approaches. The first is compiler calculation, in which a compiler is proved correct step by step through equational reasoning. The second is concurrent separation…",
    "summary": "Fully funded PhD position on modular algebraic verification of compilers at IT University of Copenhagen, deadline 1 January 2027.",
    "score": 3,
-   "relevant": true
+   "relevant": true,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.25599",
@@ -2336,7 +2287,7 @@
   },
   {
    "id": "u:762f03f8984448f6",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "Course announcement: Agentic Proof Engineering",
@@ -2615,7 +2566,8 @@
    "source_text": "Lean FRO is hiring a Technical Communications & Content Lead: a hands-on communicator and content creator to own our external communications. Full-time and remote, working directly with Lean developers and leadership. https://jobs.lever.co/convergentresearch/4801ec98-7954-49f8-b4ee-cb3f12b18a09",
    "summary": "Lean FRO is hiring a full-time remote Technical Communications and Content Lead.",
    "score": 2,
-   "relevant": true
+   "relevant": true,
+   "hidden": true
   },
   {
    "id": "arxiv:2611.14201",
@@ -2818,7 +2770,7 @@
   },
   {
    "id": "u:8cbfac78780bbb34",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "Nov 16, 2026: Proof Assistant Seminar at ENS de Lyon",
@@ -2854,7 +2806,7 @@
   },
   {
    "id": "u:0a5a7aa670ac5b79",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "2027 Dutch Winter School on Logic and Verification",
@@ -3699,7 +3651,7 @@
   },
   {
    "id": "u:294ae03d095ce72d",
-   "type": "news",
+   "type": "event",
    "source": "Rocq Discourse",
    "source_id": "rocq-discourse",
    "title": "NWPT 2026: Call for Participation",
