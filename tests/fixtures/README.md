@@ -27,5 +27,8 @@ Saved on 23 Nov 2026 with the bot's User-Agent, except:
 - `lab-lean-repos.json` joins the two replies of GitHub's repository search (Lean repositories of
   the source's 12 organizations created since 26 Jul 2026), saved on 24 Nov 2026. It keeps only
   the fields the parser reads, and repositories created before the tests' fixed time (all 56).
+- `hackernews-top.json` is the real Algolia reply, saved on 24 Nov 2026, for stories with 200 points
+  or more in the 48 hours before the tests' fixed time (27 stories; points as of the saving day).
+  It keeps only the fields the parser reads.
 
 To refresh a fixture, download the source's URL again and run `pytest`.

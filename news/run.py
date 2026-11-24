@@ -93,6 +93,11 @@ def run(
                 waiting_titles.setdefault(k, i["id"])
     batch_ids: set[str] = set()
     new_items: list[dict[str, Any]] = []
+    # Items from sources marked `needs_claude` (broad sources such as every Hacker News story
+    # with 200 points): Claude judges them before anything is stored. On topic, they are
+    # stored like any item; off topic, they are dropped and marked seen, not hidden, so the
+    # list of hidden items stays worth reading; not judged, they are left for the next run.
+    to_screen: list[dict[str, Any]] = []
     origin: dict[str, str] = {}  # item id -> source id, for per-source counts
     rejected = 0
     for rep in reports:
@@ -103,6 +108,12 @@ def run(
             tkey = title_key(item["title"])
             if seen.has_title(item["title"], now):
                 seen.add(item["id"], now)  # same story as an item already kept
+                continue
+            if src.param("needs_claude"):
+                if use_claude:  # without Claude, wait: the item is not marked seen
+                    batch_ids.add(item["id"])
+                    rep.new += 1
+                    to_screen.append(item)
                 continue
             batch_ids.add(item["id"])
             rep.new += 1
@@ -128,10 +139,12 @@ def run(
 
     # 3. Claude: judge new items and any earlier ones still waiting.
     claude_meta: dict[str, Any] = {"enabled": bool(use_claude), "model": None, "route": None, "input_tokens": 0, "output_tokens": 0,
-                                   "requests": 0, "items_sent": 0, "judged": 0, "hidden": 0, "kept_trusted": 0, "released": 0,
-                                   "refusals": [], "errors": []}
+                                   "requests": 0, "items_sent": 0, "judged": 0, "hidden": 0, "dropped": 0, "kept_trusted": 0,
+                                   "released": 0, "refusals": [], "errors": []}
     if use_claude:
-        queue = sorted(waiting(), key=lambda i: (i["fetched"], i["id"]))
+        # Stored items first; screened items fill what is left of max_items_per_run.
+        queue = sorted(waiting(), key=lambda i: (i["fetched"], i["id"])) + to_screen
+        screening = {i["id"]: i for i in to_screen}
         if queue:
             result = claude.judge(queue, cfg.claude, client=claude_client)
             claude_meta.update(result.usage())
@@ -142,7 +155,19 @@ def run(
                 f"{len(result.refusals)} refusals, {len(result.errors)} errors")
             for r in result.refusals:  # never sent again; the item stays with the keyword filter only
                 seen.refused[r["id"]] = now.strftime("%Y-%m-%d")
+                if r["id"] in screening:  # a screened item needs Claude's verdict, so it is dropped
+                    seen.add(r["id"], now)
             for item_id, j in result.judgements.items():
+                if item_id in screening:
+                    seen.add(item_id, now)
+                    if not j.relevant:
+                        claude_meta["dropped"] += 1
+                        continue
+                    item = dict(screening[item_id], relevant=True, score=j.score, summary=j.summary, type=j.type)
+                    archive.put(item)
+                    seen.add_title(item["title"], now)
+                    origin[item_id] = item["source_id"]
+                    continue
                 item = archive.get(item_id)
                 if item is None:
                     continue
@@ -205,6 +230,7 @@ def run(
             "new_kept": sum(r.kept for r in reports),
             "new_rejected": rejected,
             "new_hidden": claude_meta["hidden"],
+            "new_dropped": claude_meta["dropped"],
         },
         "sources": [r.to_json() for r in reports],
         "errors": errors,
@@ -225,7 +251,7 @@ def run(
     write_if_changed(cache_path, json.dumps(cache, indent=1, sort_keys=True) + "\n")
 
     log(f"[done] {meta['counts']['new_kept']} new items kept, {meta['counts']['new_rejected']} rejected by keywords, "
-        f"{meta['counts']['new_hidden']} hidden by Claude, "
+        f"{meta['counts']['new_hidden']} hidden by Claude, {meta['counts']['new_dropped']} dropped by Claude, "
         f"{len(errors)} source errors; changed: {', '.join(changed) or 'nothing'}")
     meta["_changed"] = changed  # for tests; not written
     return meta

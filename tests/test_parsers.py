@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 import pytest
 
 from news.config import load_config
@@ -151,8 +153,44 @@ def test_hackernews_story_matched_by_its_link():
     items = hackernews.select(src, [hit], KEYWORDS, NOW)
     assert [i["title"] for i in items] == ["VP ≠ VNP over Every Field"]
     assert items[0]["url"] == hit["url"]
+    # Claude sees the title and the text, not the link, so the text starts with the link.
+    assert items[0]["source_text"].startswith(
+        "Link: https://github.com/anthropics/formal-math/tree/main/vp-vnp. Discussed on Hacker News: 299 points")
     before = compile_keywords([k for k in CFG.keywords if k not in ("formal math", "formal mathematics")])
     assert hackernews.select(src, [hit], before, NOW) == []
+
+
+def test_hackernews_top_keeps_any_story_with_enough_points():
+    src = CFG.source("hackernews-top")
+    items = parse_fixture(src, fixture_path("hackernews-top").read_bytes(), NOW, KEYWORDS)
+    assert len(items) == 27  # every story in the reply has 200 points or more
+    titles = [i["title"] for i in items]
+    assert "Masullo on the Riemann Hypothesis" in titles  # no keyword in it
+    assert all(i["source_text"].startswith("Link: http") for i in items)
+    import copy
+
+    stricter = copy.deepcopy(src)
+    stricter.params["min_points"] = 1000
+    assert [i["title"] for i in parse_fixture(stricter, fixture_path("hackernews-top").read_bytes(), NOW, KEYWORDS)] \
+        == [t for t, h in zip(titles, json.loads(fixture_path("hackernews-top").read_bytes())["hits"]) if h["points"] >= 1000]
+
+
+def test_hackernews_top_makes_one_request():
+    from types import SimpleNamespace
+
+    from news.sources import FetchContext, hackernews
+
+    sent = []
+
+    class Http:
+        def get(self, url, params=None, conditional=True, **kw):
+            sent.append(params)
+            return SimpleNamespace(status=200, content=fixture_path("hackernews-top").read_bytes())
+
+    result = hackernews.fetch(CFG.source("hackernews-top"), FetchContext(http=Http(), now=NOW, keywords=KEYWORDS))
+    assert len(sent) == 1 and "query" not in sent[0]
+    assert sent[0]["numericFilters"].endswith(",points>=200") and sent[0]["tags"] == "story"
+    assert len(result.items) == 27
 
 
 @pytest.mark.parametrize("sid", ["anthropic-formal-math", "openai-math"])

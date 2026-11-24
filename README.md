@@ -27,6 +27,8 @@ flowchart TD
 
 Items on the page go into `news.json` (newest 300), `search.json` and `feed.xml` (newest 50). The job commits to the `data` branch only if something changed, then deploys the page. Items Claude could not judge are retried on later runs for up to 3 days; an item Claude refuses to judge is not sent again. Hacker News stories also need 5 points.
 
+One source takes a shorter path: every Hacker News story with 200 points or more (`hackernews-top`, marked `needs_claude`) goes straight to Claude, whatever its words. Claude's verdict comes before anything is stored: on topic, the story is kept like any item; off topic, it is dropped, not hidden, so the hidden list is not filled with general news. Without Claude these stories wait.
+
 Where each rule is set:
 
 | To change | Edit |
@@ -35,6 +37,7 @@ Where each rule is set:
 | How far back a source looks | `max_age_days` for the source (default 30) |
 | The keyword list, and which sources use it | `keywords`, and `filter: keywords` for the source |
 | Which sources are never hidden | `trusted: true` for the source |
+| Which broad sources only Claude decides on | `needs_claude: true` for the source (`hackernews-top`, with `min_points`) |
 | The model, and how many items it judges per run | `claude.model` (or the repository variable `CLAUDE_MODEL`) and `claude.max_items_per_run` |
 | What counts as relevant | the instructions to Claude (`SYSTEM_PROMPT`) in `news/claude.py` |
 
