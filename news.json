@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-25T16:25:20Z",
+ "updated": "2026-11-25T19:21:08Z",
  "items": [
+  {
+   "id": "u:db1eefc7606d9ab4",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Paralever: Proving parallel Sequential Programs equivalent",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Paralever.3A.20Proving.20parallel.20Sequential.20Programs.20equivalent/near/643672366",
+   "authors": [
+    "Anirudh Gupta"
+   ],
+   "published": "2026-11-25T19:09:27Z",
+   "fetched": "2026-11-25T19:21:08Z",
+   "source_text": "Hi all, I would like to share a project I am working on called Paralever, meaning (true) parallel program lean verification. As parallel programs are becoming more prominent for AI workloads, a need to verify correctness that the parallel programs (for example) written in CUDA, torch etc. are in fact equivalent to the sequential run and No Race conditions can occur. Hence, the goal is to prove sequential and parallel programs are equivalent(output wise) i.e. `ParSeqEq`. This project is done under Professor Siddhartha Gadgil, as part of my Semester Project at Indian Institute of Science…",
+   "summary": "A Lean Zulip post presents Paralever, a project to prove that parallel programs such as CUDA code are equivalent to their sequential runs and race-free.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:abef7dcffe0c6e9b",
    "type": "news",

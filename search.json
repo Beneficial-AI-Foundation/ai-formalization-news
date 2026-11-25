@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:db1eefc7606d9ab4",
+   "lean",
+   "Lean Zulip announcements",
+   "Paralever: Proving parallel Sequential Programs equivalent",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Paralever.3A.20Proving.20parallel.20Sequential.20Programs.20equivalent/near/643672366",
+   "2026-11-25T19:09:27Z",
+   "A Lean Zulip post presents Paralever, a project to prove that parallel programs such as CUDA code are equivalent to their sequential runs and race-free.",
+   "Anirudh Gupta",
+   "lean-zulip"
+  ],
+  [
    "u:abef7dcffe0c6e9b",
    "news",
    "Hacker News (200+ points)",
