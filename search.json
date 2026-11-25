@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:8eebf1ba75f66ad0",
+   "social",
+   "#formalverification on Mathstodon",
+   "Trailmark parses source code into a graph of functions, types, and calls, then answers structural questions: which entrypoints reach this…",
+   "https://infosec.exchange/@trailofbits/117676985588161841",
+   "2026-11-25T12:05:00Z",
+   "Trailmark v0.9.0 is a code-graph tool that adds support for formal verification languages including Lean 4, Dafny, F*, Rocq, WhyML and TLA+.",
+   "@trailofbits@infosec.exchange",
+   "mathstodon-formalverification"
+  ],
+  [
    "u:8b94c66e8a517a89",
    "lean",
    "Lean Zulip announcements",

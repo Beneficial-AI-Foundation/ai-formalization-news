@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T11:21:54Z</updated>
+ <updated>2026-11-25T12:28:24Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://infosec.exchange/@trailofbits/117676985588161841</id>
+  <title>Trailmark parses source code into a graph of functions, types, and calls, then answers structural questions: which entrypoints reach this…</title>
+  <link href="https://infosec.exchange/@trailofbits/117676985588161841" rel="alternate" />
+  <published>2026-11-25T12:05:00Z</published>
+  <updated>2026-11-25T12:05:00Z</updated>
+  <author>
+   <name>@trailofbits@infosec.exchange</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Trailmark v0.9.0 is a code-graph tool that adds support for formal verification languages including Lean 4, Dafny, F*, Rocq, WhyML and TLA+. (#formalverification on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/garry-ultimate-oss.20v4.2E0.2E0.3A.203D.20Navier-Stokes.20verification/near/643545153</id>
   <title>garry-ultimate-oss v4.0.0: 3D Navier-Stokes verification</title>
@@ -635,23 +647,5 @@
   </author>
   <category term="lean" />
   <summary type="text">Claims a Lean-verified result that the maximum nonlinearity of a balanced 9-variable Boolean function is 240. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.29738</id>
-  <title>TPTL-dist: A Formalised Calculus with Proof Automation for Verifying Real-Time Distributed Systems</title>
-  <link href="https://arxiv.org/abs/2611.29738" rel="alternate" />
-  <published>2026-11-22T20:05:53Z</published>
-  <updated>2026-11-22T20:05:53Z</updated>
-  <author>
-   <name>Javier Enríquez Mendoza</name>
-  </author>
-  <author>
-   <name>Sam Speight</name>
-  </author>
-  <author>
-   <name>Vincent Rahli</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">TPTL-dist temporal logic and sequent calculus for verifying real-time distributed systems, formalised in Agda with proof search. (arXiv cs.LO)</summary>
  </entry>
 </feed>

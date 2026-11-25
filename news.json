@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-25T11:21:54Z",
+ "updated": "2026-11-25T12:28:24Z",
  "items": [
+  {
+   "id": "u:8eebf1ba75f66ad0",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Trailmark parses source code into a graph of functions, types, and calls, then answers structural questions: which entrypoints reach this…",
+   "url": "https://infosec.exchange/@trailofbits/117676985588161841",
+   "authors": [
+    "@trailofbits@infosec.exchange"
+   ],
+   "published": "2026-11-25T12:05:00Z",
+   "fetched": "2026-11-25T12:28:24Z",
+   "source_text": "Trailmark parses source code into a graph of functions, types, and calls, then answers structural questions: which entrypoints reach this function, what changed in the attack surface between two commits, where call resolution gave up. v0.9.0 extends it to Lean 4, Dafny, F*, Rocq, WhyML, TLA+…",
+   "summary": "Trailmark v0.9.0 is a code-graph tool that adds support for formal verification languages including Lean 4, Dafny, F*, Rocq, WhyML and TLA+.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:8b94c66e8a517a89",
    "type": "lean",
