@@ -1,7 +1,102 @@
 {
  "version": 1,
- "updated": "2026-11-24T06:31:20Z",
+ "updated": "2026-11-25T06:31:39Z",
  "items": [
+  {
+   "id": "arxiv:2611.33068",
+   "type": "paper",
+   "source": "arXiv cs.IT",
+   "source_id": "arxiv-api",
+   "title": "The Reliability Function of Error-Correcting Output Codes with Noisy Binary Classifiers",
+   "url": "https://arxiv.org/abs/2611.33068",
+   "authors": [
+    "Gendo Kumoi",
+    "Hideki Yagi",
+    "Manabu Kobayashi",
+    "Shigeichi Hirasawa"
+   ],
+   "published": "2026-11-24T18:06:21Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Error-correcting output coding (ECOC) builds a multi-class classifier from binary classifiers. We study the excess error rate of ECOC over the Bayes (MAP) classifier when each binary classifier outputs a posterior estimate whose log-odds is corrupted by Gaussian noise. Recasting decoding as a test over a Gaussian channel, we derive an upper bound from the union and Chernoff bounds and a lower bound from the nearest competing category and the Mills ratio. The bounds show that a large Hamming distance is both necessary and sufficient for reducing the excess error rate. The excess error rate…",
+   "summary": "Derives error-rate bounds for error-correcting output codes with noisy binary classifiers, a machine-learning result without formal methods.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.33044",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "When Is Product Decoding of ECOC MAP-Consistent? Pair Structure and the n-vs-Rest Codes",
+   "url": "https://arxiv.org/abs/2611.33044",
+   "authors": [
+    "Gendo Kumoi"
+   ],
+   "published": "2026-11-24T17:54:18Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Error-Correcting Output Codes (ECOC) combine binary classifiers by the sum decoder, which totals probabilities, or the product decoder, which totals log-likelihoods. In the noiseless setting, where the binary classifiers output the true posteriors, we ask on which code matrices each decoder always agrees with the Bayes-optimal (MAP) class. For the sum decoder the answer is known: the code must be equidistant (James and Hastie, 1998). We answer the question for the product decoder. Two classes are compared through the votes of the columns on which they differ: the sum decoder decides by their…",
+   "summary": "Analyzes when product decoding of error-correcting output codes agrees with Bayes-optimal classification, a machine-learning result without formal methods.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.31858",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Functional Programming with Hypergraph Transformation",
+   "url": "https://arxiv.org/abs/2611.31858",
+   "authors": [
+    "Jin Sano"
+   ],
+   "published": "2026-11-24T02:52:14Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Complex data structures are difficult to manipulate declaratively while preserving their shape invariants. Functional languages offer pattern matching and strong static guarantees, but their type systems primarily describe tree-shaped data. Graph transformation languages support richer structures, yet their state-oriented models do not integrate naturally with value- and function-based programming. This dissertation introduces $λ_{GT}$, a functional language that integrates port-hypergraph transformation. It represents complex data as port hypergraphs, manipulates them by pattern matching…",
+   "summary": "A functional language integrating port-hypergraph transformation with pattern matching, without a stated verification or proof focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.31798",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "A Calculus for Borrowability",
+   "url": "https://arxiv.org/abs/2611.31798",
+   "authors": [
+    "Yanning Chen",
+    "Fan Long",
+    "Ningning Xie"
+   ],
+   "published": "2026-11-24T01:51:33Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Borrowing grants temporary shared or exclusive access to a linear resource without transferring ownership. However, capturing borrowing in a type system poses two challenges: a lender, the reference a borrow was taken from, should remain a first-class value that can be moved, and regain its permission when a non-lexical borrow ends. We propose borrowability, an index on reference types that tracks how access permissions are lent across lifetimes while separating them from the owner's obligation to release the resource. A lender is then an ordinary value whose borrowability records its…",
+   "summary": "Proposes a type-system calculus for borrowability in references, without a stated formal verification or proof-assistant focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.31775",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Defining the mathematical family tree with a minimal programming language",
+   "url": "https://arxiv.org/abs/2611.31775",
+   "authors": [
+    "Max Tegmark"
+   ],
+   "published": "2026-11-24T01:27:39Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "I introduce MLISP, a Turing-complete language with nine single-character commands (a b c d f 0 i j k), and use it to define 88 mathematical structures and a family tree of 65 theories that they model, with three aims: Pedagogy: It presents the mathematical structures in a unified way, with standardized presentation tableaus that define them and axiomatized theories that describe them. Connections: It highlights how they are related in the family tree via added symbols, axioms, etc. While the full tree is obviously infinite, its lower parts naturally separate into six main branches: the…",
+   "summary": "Defines mathematical structures and a theory family tree using a minimal programming language, with no formal verification or proof checking focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
   {
    "id": "u:cec9b28dda26c3f4",
    "type": "news",

@@ -54,6 +54,45 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.33068",
+   "type": "paper",
+   "source": "arXiv cs.IT",
+   "source_id": "arxiv-api",
+   "title": "The Reliability Function of Error-Correcting Output Codes with Noisy Binary Classifiers",
+   "url": "https://arxiv.org/abs/2611.33068",
+   "authors": [
+    "Gendo Kumoi",
+    "Hideki Yagi",
+    "Manabu Kobayashi",
+    "Shigeichi Hirasawa"
+   ],
+   "published": "2026-11-24T18:06:21Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Error-correcting output coding (ECOC) builds a multi-class classifier from binary classifiers. We study the excess error rate of ECOC over the Bayes (MAP) classifier when each binary classifier outputs a posterior estimate whose log-odds is corrupted by Gaussian noise. Recasting decoding as a test over a Gaussian channel, we derive an upper bound from the union and Chernoff bounds and a lower bound from the nearest competing category and the Mills ratio. The bounds show that a large Hamming distance is both necessary and sufficient for reducing the excess error rate. The excess error rate…",
+   "summary": "Derives error-rate bounds for error-correcting output codes with noisy binary classifiers, a machine-learning result without formal methods.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.33044",
+   "type": "paper",
+   "source": "arXiv cs.LG",
+   "source_id": "arxiv-api",
+   "title": "When Is Product Decoding of ECOC MAP-Consistent? Pair Structure and the n-vs-Rest Codes",
+   "url": "https://arxiv.org/abs/2611.33044",
+   "authors": [
+    "Gendo Kumoi"
+   ],
+   "published": "2026-11-24T17:54:18Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Error-Correcting Output Codes (ECOC) combine binary classifiers by the sum decoder, which totals probabilities, or the product decoder, which totals log-likelihoods. In the noiseless setting, where the binary classifiers output the true posteriors, we ask on which code matrices each decoder always agrees with the Bayes-optimal (MAP) class. For the sum decoder the answer is known: the code must be equidistant (James and Hastie, 1998). We answer the question for the product decoder. Two classes are compared through the votes of the columns on which they differ: the sum decoder decides by their…",
+   "summary": "Analyzes when product decoding of error-correcting output codes agrees with Bayes-optimal classification, a machine-learning result without formal methods.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "u:b1de6c65dd1db693",
    "type": "social",
    "source": "#formalverification on Mathstodon",
@@ -105,6 +144,23 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.32123",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Verifying Type Soundness for Nontransitive Information Flow Security",
+   "url": "https://arxiv.org/abs/2611.32123",
+   "authors": [
+    "Chenyi Zhang"
+   ],
+   "published": "2026-11-24T07:40:10Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We present a machine-checked soundness proof of a type system for the nontransitive noninterference (NTNI) information flow security property in an imperative programming language using Dafny. The original formulation of NTNI was developed for a functional programming language augmented with memory access operators, where security policies are expressed as coarse-grained information flow constraints over component-based software systems. Although subsequent research has extended NTNI type systems in various directions, to the best of our knowledge, no prior work has established a…",
+   "summary": "A machine-checked soundness proof in Dafny of a type system for nontransitive noninterference information flow security.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:e4163c7a33d62c86",
    "type": "news",
    "source": "Hacker News",
@@ -122,6 +178,79 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.31858",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Functional Programming with Hypergraph Transformation",
+   "url": "https://arxiv.org/abs/2611.31858",
+   "authors": [
+    "Jin Sano"
+   ],
+   "published": "2026-11-24T02:52:14Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Complex data structures are difficult to manipulate declaratively while preserving their shape invariants. Functional languages offer pattern matching and strong static guarantees, but their type systems primarily describe tree-shaped data. Graph transformation languages support richer structures, yet their state-oriented models do not integrate naturally with value- and function-based programming. This dissertation introduces $λ_{GT}$, a functional language that integrates port-hypergraph transformation. It represents complex data as port hypergraphs, manipulates them by pattern matching…",
+   "summary": "A functional language integrating port-hypergraph transformation with pattern matching, without a stated verification or proof focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.31811",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "How Far Apart Are Two Proofs? Measuring Proof Dissimilarity in a Proof Kernel and in Lean/Mathlib",
+   "url": "https://arxiv.org/abs/2611.31811",
+   "authors": [
+    "Nikolaos Nikolaou"
+   ],
+   "published": "2026-11-24T02:02:33Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We now live in the age of machine-generated mathematics: AI systems produce research-level proofs faster than the human mathematical community can read them. Verification is only part of the challenge. We also need to know whether a \"new proof\" is indeed new, whether a thousand generated proofs contain one idea or many, and where each sits relative to human mathematics. All of these require measuring distances between proofs. Following Hilbert's 24th problem and the identity-of-proofs problem, we ask how far apart two proofs of one theorem are, and what shape the proof space they inhabit…",
+   "summary": "Measures distances between proofs in a proof kernel and in Lean/Mathlib, motivated by machine-generated mathematical proofs.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31798",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "A Calculus for Borrowability",
+   "url": "https://arxiv.org/abs/2611.31798",
+   "authors": [
+    "Yanning Chen",
+    "Fan Long",
+    "Ningning Xie"
+   ],
+   "published": "2026-11-24T01:51:33Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Borrowing grants temporary shared or exclusive access to a linear resource without transferring ownership. However, capturing borrowing in a type system poses two challenges: a lender, the reference a borrow was taken from, should remain a first-class value that can be moved, and regain its permission when a non-lexical borrow ends. We propose borrowability, an index on reference types that tracks how access permissions are lent across lifetimes while separating them from the owner's obligation to release the resource. A lender is then an ordinary value whose borrowability records its…",
+   "summary": "Proposes a type-system calculus for borrowability in references, without a stated formal verification or proof-assistant focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "arxiv:2611.31775",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Defining the mathematical family tree with a minimal programming language",
+   "url": "https://arxiv.org/abs/2611.31775",
+   "authors": [
+    "Max Tegmark"
+   ],
+   "published": "2026-11-24T01:27:39Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "I introduce MLISP, a Turing-complete language with nine single-character commands (a b c d f 0 i j k), and use it to define 88 mathematical structures and a family tree of 65 theories that they model, with three aims: Pedagogy: It presents the mathematical structures in a unified way, with standardized presentation tableaus that define them and axiomatized theories that describe them. Connections: It highlights how they are related in the family tree via added symbols, axioms, etc. While the full tree is obviously infinite, its lower parts naturally separate into six main branches: the…",
+   "summary": "Defines mathematical structures and a theory family tree using a minimal programming language, with no formal verification or proof checking focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "u:d13658d18a086f0b",
    "type": "lean",
    "source": "OpenAI math (GitHub)",
@@ -136,6 +265,64 @@
    "source_text": "Add VP != VNP manuscript and Lean.",
    "summary": "Commit adding a VP != VNP manuscript and Lean files.",
    "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31762",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Verified Proof Refactoring with Codex and Qwen",
+   "url": "https://arxiv.org/abs/2611.31762",
+   "authors": [
+    "Lazar Milikic",
+    "Gordan Đurić",
+    "Viktor Kunčak"
+   ],
+   "published": "2026-11-24T01:06:35Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We refactor existing Lean 4 proofs to reduce source length and checking cost while preserving theorem statements and compatibility across Lean versions. A locally served Qwen model uses the open-source Codex CLI to inspect source, retrieve declarations, and test proof replacements. The host keeps a replacement only if it improves the objective and Lean accepts it on every required version. A deterministic CPU pass then refines the verified proofs. On the 60 problems in Lean Refactor Arena, model search achieves a local mean combined score of 82.07, and cleanup raises it to 82.18. The final…",
+   "summary": "Uses a local Qwen model with Codex CLI to refactor Lean 4 proofs while keeping theorem statements and checking across Lean versions.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31751",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Density elimination for weakly commutative pseudo-uninorm logic:a correction and an explicit theory-level completeness proof",
+   "url": "https://arxiv.org/abs/2611.31751",
+   "authors": [
+    "SanMin Wang"
+   ],
+   "published": "2026-11-24T01:00:06Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We correct the density-elimination argument for weakly commutative pseudo-uninorm logic in Wang, \\emph{Symmetry} 11 (2019), 368, retaining its basic ideas and overall strategy. The published definition of a labelled copy permits independent renamings of antecedent and succedent labels. Under the syntactic splicing interpretation used in that argument, a contraction-free derivable hypersequent and a four-element residuated chain refute the claimed compatibility of the resulting contraction with ordered density elimination. We require a single renaming on both sides of each closed block and…",
+   "summary": "Corrects a density-elimination argument for weakly commutative pseudo-uninorm logic and gives an explicit completeness proof.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31692",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "Compositional Symbolic Execution à la Carte (Extended Version)",
+   "url": "https://arxiv.org/abs/2611.31692",
+   "authors": [
+    "Sacha-Élie Ayoun",
+    "Andreas Lööw",
+    "Seung Hoon Park",
+    "Opale Sjöstedt",
+    "Petar Maksimović",
+    "Philippa Gardner"
+   ],
+   "published": "2026-11-23T23:27:53Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We introduce compositional symbolic execution à la carte, a modular approach for building compositional symbolic execution (CSE) tools, powered by combinator-based design of key components, including memory models, management and automation of user-defined predicates, and bi-abductive analysis. Our approach is grounded on meta-theory mechanised in the Rocq proof assistant and allows tool developers to easily build correct-by-construction CSE tools for symbolic analysis of their programming languages of choice, with minimal implementation and proof effort. We show how our approach scales to…",
+   "summary": "Presents compositional symbolic execution tooling built from combinators, with meta-theory mechanised in the Rocq proof assistant.",
+   "score": 3,
    "relevant": true
   },
   {
@@ -190,6 +377,41 @@
    "relevant": true
   },
   {
+   "id": "arxiv:2611.31591",
+   "type": "paper",
+   "source": "arXiv math.LO",
+   "source_id": "arxiv-api",
+   "title": "Provability of Consistency: A New Foundational Landscape",
+   "url": "https://arxiv.org/abs/2611.31591",
+   "authors": [
+    "Sergei Artemov"
+   ],
+   "published": "2026-11-23T21:37:27Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "This paper surveys recent developments on the provability of consistency. For nearly a century, the Unprovability of Consistency Thesis (UCT) has held that sufficiently rich systems, such as Peano Arithmetic (PA), cannot formalize a proof of their own consistency. Recent studies show that the standard Gödelian consistency formula, Con_PA, on which the UCT argument rests, represents a non-equivalent redefinition of the original Hilbertian notion of consistency. We construct a rigorous mathematical proof of the Hilbertian consistency of PA that is formalizable within PA itself, thereby…",
+   "summary": "Survey and a claimed formalization within Peano Arithmetic of its Hilbertian consistency, addressing whether consistency is provable.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31571",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Safe Autoformalization: Sufficiency and Necessity with Entailment Graphs",
+   "url": "https://arxiv.org/abs/2611.31571",
+   "authors": [
+    "Umut A. Acar",
+    "Eli Goldweber"
+   ],
+   "published": "2026-11-23T21:13:39Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Autoformalization translates a natural-language statement into a formula that captures its intent, which depends on the statement's context: the background that disambiguates it. LLMs make autoformalization practical, but their probabilistic output carries no formal guarantees. We propose techniques for safe autoformalization that certify one-sided logical adequacy: a formula sufficient for the intent is safe to enforce, and a formula necessary for it is safe to rely on. We use LLMs to generate candidate formulas and order them by logical strength in an Entailment Graph (EG), an ordering a…",
+   "summary": "Uses LLMs to generate candidate formulas for autoformalization and certifies one-sided logical adequacy via entailment graphs.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:3bb089a1d8c6c38f",
    "type": "lean",
    "source": "Anthropic formal-math (GitHub)",
@@ -204,6 +426,59 @@
    "source_text": "vp-vnp: VP != VNP, paper and Lean proof",
    "summary": "Anthropic repository with a paper and Lean proof of VP != VNP.",
    "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31449",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "CrossCheck II: A Compiler Plugin for Certified Cost Bounds of Real-Time C and C++ Code, and its Evaluation",
+   "url": "https://arxiv.org/abs/2611.31449",
+   "authors": [
+    "Luca Dall'Olio"
+   ],
+   "published": "2026-11-23T19:25:05Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "We describe a plugin for the Clang compiler that bounds the cost of C and C++ functions intended for real-time use, and rejects at compile time the functions that allocate, throw, call through pointers, or contain a loop or a recursion for which no bound is found. Loops are bounded by affine ranking potentials synthesized with an SMT solver through Farkas' Lemma, or by logarithmic ones, recursion by depth and size potentials, and callees are analyzed in the calling context in which they are used. For functions in a linear fragment, the plugin emits a cost certificate that a checker, compiled…",
+   "summary": "A Clang plugin that certifies cost bounds for real-time C and C++ functions, using SMT-synthesized ranking potentials and emitting checkable certificates.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31430",
+   "type": "paper",
+   "source": "arXiv cs.LO",
+   "source_id": "arxiv-api",
+   "title": "CrossCheck I: Cost Bounds of Imperative Programs as Constrained Optimization, with a Sound Cost Logic and a Verified Certificate Checker",
+   "url": "https://arxiv.org/abs/2611.31430",
+   "authors": [
+    "Luca Dall'Olio"
+   ],
+   "published": "2026-11-23T19:15:57Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Static analysis of imperative programs often relies on iterative fixed-point approximations or concrete path exploration. We show that structured imperative control flow---while loops, linear recursion and branching recursion---can be mapped into constrained optimization problems over the free monoid of execution traces and the free algebra of computation trees. Ordering traces and trees by an intensional \\textit{order-by-composition} ($\\sqsubseteq$), halting is characterized as finding the minimal trace or tree that satisfies the exit condition, and we prove that this characterization…",
+   "summary": "Maps imperative program cost bounds to constrained optimization and presents a sound cost logic with a verified certificate checker.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.31127",
+   "type": "paper",
+   "source": "arXiv eess.SY",
+   "source_id": "arxiv-api",
+   "title": "Data-Driven Identification of Uncertainty Sets with Conformance Guarantees",
+   "url": "https://arxiv.org/abs/2611.31127",
+   "authors": [
+    "Laura Lützow",
+    "Mykel J. Kochenderfer",
+    "Matthias Althoff"
+   ],
+   "published": "2026-11-23T18:00:06Z",
+   "fetched": "2026-11-25T06:31:39Z",
+   "source_text": "Formal verification and controller synthesis require accurate models. Conformance relations specify the required accuracy of a model such that properties established for the model carry over to the target system. Existing methods for establishing them from measured data are typically restricted to a single relation, a specific model class, or a downstream verification algorithm. We present ConfID, a unified framework that establishes reachset, trace, and simulation conformance with respect to measured traces by identifying uncertainty sets for a given, possibly nonlinear nominal model…",
+   "summary": "ConfID, a framework for identifying uncertainty sets from measured traces that give reachset, trace and simulation conformance guarantees for formal…",
+   "score": 3,
    "relevant": true
   },
   {

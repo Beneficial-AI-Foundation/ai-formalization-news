@@ -79,6 +79,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "arxiv:2611.32123",
+   "paper",
+   "arXiv cs.PL",
+   "Verifying Type Soundness for Nontransitive Information Flow Security",
+   "https://arxiv.org/abs/2611.32123",
+   "2026-11-24T07:40:10Z",
+   "A machine-checked soundness proof in Dafny of a type system for nontransitive noninterference information flow security.",
+   "Chenyi Zhang",
+   "arxiv-api"
+  ],
+  [
    "u:e4163c7a33d62c86",
    "news",
    "Hacker News",
@@ -90,6 +101,17 @@
    "hackernews"
   ],
   [
+   "arxiv:2611.31811",
+   "paper",
+   "arXiv cs.LO",
+   "How Far Apart Are Two Proofs? Measuring Proof Dissimilarity in a Proof Kernel and in Lean/Mathlib",
+   "https://arxiv.org/abs/2611.31811",
+   "2026-11-24T02:02:33Z",
+   "Measures distances between proofs in a proof kernel and in Lean/Mathlib, motivated by machine-generated mathematical proofs.",
+   "Nikolaos Nikolaou",
+   "arxiv-api"
+  ],
+  [
    "u:d13658d18a086f0b",
    "lean",
    "OpenAI math (GitHub)",
@@ -99,6 +121,39 @@
    "Commit adding a VP != VNP manuscript and Lean files.",
    "dr-openai",
    "openai-math"
+  ],
+  [
+   "arxiv:2611.31762",
+   "paper",
+   "arXiv cs.AI",
+   "Verified Proof Refactoring with Codex and Qwen",
+   "https://arxiv.org/abs/2611.31762",
+   "2026-11-24T01:06:35Z",
+   "Uses a local Qwen model with Codex CLI to refactor Lean 4 proofs while keeping theorem statements and checking across Lean versions.",
+   "Lazar Milikic, Gordan Đurić, Viktor Kunčak",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.31751",
+   "paper",
+   "arXiv math.LO",
+   "Density elimination for weakly commutative pseudo-uninorm logic:a correction and an explicit theory-level completeness proof",
+   "https://arxiv.org/abs/2611.31751",
+   "2026-11-24T01:00:06Z",
+   "Corrects a density-elimination argument for weakly commutative pseudo-uninorm logic and gives an explicit completeness proof.",
+   "SanMin Wang",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.31692",
+   "paper",
+   "arXiv cs.PL",
+   "Compositional Symbolic Execution à la Carte (Extended Version)",
+   "https://arxiv.org/abs/2611.31692",
+   "2026-11-23T23:27:53Z",
+   "Presents compositional symbolic execution tooling built from combinators, with meta-theory mechanised in the Rocq proof assistant.",
+   "Sacha-Élie Ayoun, Andreas Lööw, Seung Hoon Park, Opale Sjöstedt, Petar Maksimović",
+   "arxiv-api"
   ],
   [
    "u:b84001c676297b44",
@@ -134,6 +189,28 @@
    "hackernews"
   ],
   [
+   "arxiv:2611.31591",
+   "paper",
+   "arXiv math.LO",
+   "Provability of Consistency: A New Foundational Landscape",
+   "https://arxiv.org/abs/2611.31591",
+   "2026-11-23T21:37:27Z",
+   "Survey and a claimed formalization within Peano Arithmetic of its Hilbertian consistency, addressing whether consistency is provable.",
+   "Sergei Artemov",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.31571",
+   "paper",
+   "arXiv cs.AI",
+   "Safe Autoformalization: Sufficiency and Necessity with Entailment Graphs",
+   "https://arxiv.org/abs/2611.31571",
+   "2026-11-23T21:13:39Z",
+   "Uses LLMs to generate candidate formulas for autoformalization and certifies one-sided logical adequacy via entailment graphs.",
+   "Umut A. Acar, Eli Goldweber",
+   "arxiv-api"
+  ],
+  [
    "u:3bb089a1d8c6c38f",
    "lean",
    "Anthropic formal-math (GitHub)",
@@ -143,6 +220,39 @@
    "Anthropic repository with a paper and Lean proof of VP != VNP.",
    "steinke-ant",
    "anthropic-formal-math"
+  ],
+  [
+   "arxiv:2611.31449",
+   "paper",
+   "arXiv cs.LO",
+   "CrossCheck II: A Compiler Plugin for Certified Cost Bounds of Real-Time C and C++ Code, and its Evaluation",
+   "https://arxiv.org/abs/2611.31449",
+   "2026-11-23T19:25:05Z",
+   "A Clang plugin that certifies cost bounds for real-time C and C++ functions, using SMT-synthesized ranking potentials and emitting checkable certificates.",
+   "Luca Dall'Olio",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.31430",
+   "paper",
+   "arXiv cs.LO",
+   "CrossCheck I: Cost Bounds of Imperative Programs as Constrained Optimization, with a Sound Cost Logic and a Verified Certificate Checker",
+   "https://arxiv.org/abs/2611.31430",
+   "2026-11-23T19:15:57Z",
+   "Maps imperative program cost bounds to constrained optimization and presents a sound cost logic with a verified certificate checker.",
+   "Luca Dall'Olio",
+   "arxiv-api"
+  ],
+  [
+   "arxiv:2611.31127",
+   "paper",
+   "arXiv eess.SY",
+   "Data-Driven Identification of Uncertainty Sets with Conformance Guarantees",
+   "https://arxiv.org/abs/2611.31127",
+   "2026-11-23T18:00:06Z",
+   "ConfID, a framework for identifying uncertainty sets from measured traces that give reachset, trace and simulation conformance guarantees for formal…",
+   "Laura Lützow, Mykel J. Kochenderfer, Matthias Althoff",
+   "arxiv-api"
   ],
   [
    "u:9016d6da961860c1",

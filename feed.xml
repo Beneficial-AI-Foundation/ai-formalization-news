@@ -3,7 +3,7 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T03:24:45Z</updated>
+ <updated>2026-11-25T06:31:39Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
@@ -82,6 +82,18 @@
   <summary type="text">A Mastodon post announcing a site where a coordinated AI agent fleet attacks whether P = NP, tagged for AI for math and Lean. (#leanprover on Mathstodon)</summary>
  </entry>
  <entry>
+  <id>https://arxiv.org/abs/2611.32123</id>
+  <title>Verifying Type Soundness for Nontransitive Information Flow Security</title>
+  <link href="https://arxiv.org/abs/2611.32123" rel="alternate" />
+  <published>2026-11-24T07:40:10Z</published>
+  <updated>2026-11-24T07:40:10Z</updated>
+  <author>
+   <name>Chenyi Zhang</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">A machine-checked soundness proof in Dafny of a type system for nontransitive noninterference information flow security. (arXiv cs.PL)</summary>
+ </entry>
+ <entry>
   <id>https://github.com/anthropics/formal-math/blob/main/vp-vnp/paper.pdf</id>
   <title>Anthropic proved VP \neq NVP for every field [pdf]</title>
   <link href="https://github.com/anthropics/formal-math/blob/main/vp-vnp/paper.pdf" rel="alternate" />
@@ -94,6 +106,18 @@
   <summary type="text">A linked Anthropic formal-math repository contains a PDF claiming a proof that VP is not equal to VNP over every field, discussed on Hacker News. (Hacker News)</summary>
  </entry>
  <entry>
+  <id>https://arxiv.org/abs/2611.31811</id>
+  <title>How Far Apart Are Two Proofs? Measuring Proof Dissimilarity in a Proof Kernel and in Lean/Mathlib</title>
+  <link href="https://arxiv.org/abs/2611.31811" rel="alternate" />
+  <published>2026-11-24T02:02:33Z</published>
+  <updated>2026-11-24T02:02:33Z</updated>
+  <author>
+   <name>Nikolaos Nikolaou</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Measures distances between proofs in a proof kernel and in Lean/Mathlib, motivated by machine-generated mathematical proofs. (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
   <id>https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47</id>
   <title>Add VP != VNP manuscript and Lean.</title>
   <link href="https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47" rel="alternate" />
@@ -104,6 +128,60 @@
   </author>
   <category term="lean" />
   <summary type="text">Commit adding a VP != VNP manuscript and Lean files. (OpenAI math (GitHub))</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31762</id>
+  <title>Verified Proof Refactoring with Codex and Qwen</title>
+  <link href="https://arxiv.org/abs/2611.31762" rel="alternate" />
+  <published>2026-11-24T01:06:35Z</published>
+  <updated>2026-11-24T01:06:35Z</updated>
+  <author>
+   <name>Lazar Milikic</name>
+  </author>
+  <author>
+   <name>Gordan Đurić</name>
+  </author>
+  <author>
+   <name>Viktor Kunčak</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Uses a local Qwen model with Codex CLI to refactor Lean 4 proofs while keeping theorem statements and checking across Lean versions. (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31751</id>
+  <title>Density elimination for weakly commutative pseudo-uninorm logic:a correction and an explicit theory-level completeness proof</title>
+  <link href="https://arxiv.org/abs/2611.31751" rel="alternate" />
+  <published>2026-11-24T01:00:06Z</published>
+  <updated>2026-11-24T01:00:06Z</updated>
+  <author>
+   <name>SanMin Wang</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Corrects a density-elimination argument for weakly commutative pseudo-uninorm logic and gives an explicit completeness proof. (arXiv math.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31692</id>
+  <title>Compositional Symbolic Execution à la Carte (Extended Version)</title>
+  <link href="https://arxiv.org/abs/2611.31692" rel="alternate" />
+  <published>2026-11-23T23:27:53Z</published>
+  <updated>2026-11-23T23:27:53Z</updated>
+  <author>
+   <name>Sacha-Élie Ayoun</name>
+  </author>
+  <author>
+   <name>Andreas Lööw</name>
+  </author>
+  <author>
+   <name>Seung Hoon Park</name>
+  </author>
+  <author>
+   <name>Opale Sjöstedt</name>
+  </author>
+  <author>
+   <name>Petar Maksimović</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Presents compositional symbolic execution tooling built from combinators, with meta-theory mechanised in the Rocq proof assistant. (arXiv cs.PL)</summary>
  </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/VNP.20.21.3D.20VP.20in.20Lean/near/643069715</id>
@@ -142,6 +220,33 @@
   <summary type="text">Hacker News item linking to a GitHub Anthropic formal-math paper on VP != VNP over every field. (Hacker News)</summary>
  </entry>
  <entry>
+  <id>https://arxiv.org/abs/2611.31591</id>
+  <title>Provability of Consistency: A New Foundational Landscape</title>
+  <link href="https://arxiv.org/abs/2611.31591" rel="alternate" />
+  <published>2026-11-23T21:37:27Z</published>
+  <updated>2026-11-23T21:37:27Z</updated>
+  <author>
+   <name>Sergei Artemov</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Survey and a claimed formalization within Peano Arithmetic of its Hilbertian consistency, addressing whether consistency is provable. (arXiv math.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31571</id>
+  <title>Safe Autoformalization: Sufficiency and Necessity with Entailment Graphs</title>
+  <link href="https://arxiv.org/abs/2611.31571" rel="alternate" />
+  <published>2026-11-23T21:13:39Z</published>
+  <updated>2026-11-23T21:13:39Z</updated>
+  <author>
+   <name>Umut A. Acar</name>
+  </author>
+  <author>
+   <name>Eli Goldweber</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Uses LLMs to generate candidate formulas for autoformalization and certifies one-sided logical adequacy via entailment graphs. (arXiv cs.AI)</summary>
+ </entry>
+ <entry>
   <id>https://github.com/anthropics/formal-math/commit/918c8e2778aee18b0283dc5a33ed39ab3cd63a96</id>
   <title>vp-vnp: VP != VNP, paper and Lean proof</title>
   <link href="https://github.com/anthropics/formal-math/commit/918c8e2778aee18b0283dc5a33ed39ab3cd63a96" rel="alternate" />
@@ -152,6 +257,48 @@
   </author>
   <category term="lean" />
   <summary type="text">Anthropic repository with a paper and Lean proof of VP != VNP. (Anthropic formal-math (GitHub))</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31449</id>
+  <title>CrossCheck II: A Compiler Plugin for Certified Cost Bounds of Real-Time C and C++ Code, and its Evaluation</title>
+  <link href="https://arxiv.org/abs/2611.31449" rel="alternate" />
+  <published>2026-11-23T19:25:05Z</published>
+  <updated>2026-11-23T19:25:05Z</updated>
+  <author>
+   <name>Luca Dall'Olio</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">A Clang plugin that certifies cost bounds for real-time C and C++ functions, using SMT-synthesized ranking potentials and emitting checkable certificates. (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31430</id>
+  <title>CrossCheck I: Cost Bounds of Imperative Programs as Constrained Optimization, with a Sound Cost Logic and a Verified Certificate Checker</title>
+  <link href="https://arxiv.org/abs/2611.31430" rel="alternate" />
+  <published>2026-11-23T19:15:57Z</published>
+  <updated>2026-11-23T19:15:57Z</updated>
+  <author>
+   <name>Luca Dall'Olio</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">Maps imperative program cost bounds to constrained optimization and presents a sound cost logic with a verified certificate checker. (arXiv cs.LO)</summary>
+ </entry>
+ <entry>
+  <id>https://arxiv.org/abs/2611.31127</id>
+  <title>Data-Driven Identification of Uncertainty Sets with Conformance Guarantees</title>
+  <link href="https://arxiv.org/abs/2611.31127" rel="alternate" />
+  <published>2026-11-23T18:00:06Z</published>
+  <updated>2026-11-23T18:00:06Z</updated>
+  <author>
+   <name>Laura Lützow</name>
+  </author>
+  <author>
+   <name>Mykel J. Kochenderfer</name>
+  </author>
+  <author>
+   <name>Matthias Althoff</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">ConfID, a framework for identifying uncertainty sets from measured traces that give reachset, trace and simulation conformance guarantees for formal… (arXiv eess.SY)</summary>
  </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557</id>
@@ -506,134 +653,5 @@
   </author>
   <category term="social" />
   <summary type="text">684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a mapping to Lean declarations. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.20AI-proof.3A.20danger.20of.20reversing.20the.20human.E2.80.93tool.20relationship/near/642696350</id>
-  <title>RH AI-proof: danger of reversing the human–tool relationship</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.20AI-proof.3A.20danger.20of.20reversing.20the.20human.E2.80.93tool.20relationship/near/642696350" rel="alternate" />
-  <published>2026-11-22T19:18:04Z</published>
-  <updated>2026-11-22T19:18:04Z</updated>
-  <author>
-   <name>Shirin Shafaie</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Lean Zulip discussion on the role of AI and human-tool relationships after a formally verified Riemann hypothesis proof in Lean. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513</id>
-  <title>RH: conserving original proof</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20conserving.20original.20proof/near/642695513" rel="alternate" />
-  <published>2026-11-22T19:10:59Z</published>
-  <updated>2026-11-22T19:10:59Z</updated>
-  <author>
-   <name>Hang Lu Su</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Lean Zulip thread on hosting a repo that freezes the original Riemann Hypothesis proof attempt so it can be compiled and publicly verified. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.29603</id>
-  <title>Hashing Theorems Modulo Rewrites and Binder Permutation Enables Equivalence Search over 200k Mathlib Theorems</title>
-  <link href="https://arxiv.org/abs/2611.29603" rel="alternate" />
-  <published>2026-11-22T16:52:44Z</published>
-  <updated>2026-11-22T16:52:44Z</updated>
-  <author>
-   <name>Samuel Leßmann</name>
-  </author>
-  <author>
-   <name>Simon Henniger</name>
-  </author>
-  <author>
-   <name>Gabriel Poesia</name>
-  </author>
-  <author>
-   <name>Nada Amin</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Hashing-based equivalence search that finds duplicate theorems across about 200k Mathlib theorems, beyond the syntactic duplicate linter. (arXiv cs.LO)</summary>
- </entry>
- <entry>
-  <id>https://mastodon.social/@EvoMRI/117660098331068750</id>
-  <title>A neat way to explore the #LEAN proof of the #riemannhypothesis is via its dependency tree: https://nasqret.github.io/riemann-rev/atlas/…</title>
-  <link href="https://mastodon.social/@EvoMRI/117660098331068750" rel="alternate" />
-  <published>2026-11-22T12:30:21Z</published>
-  <updated>2026-11-22T12:30:21Z</updated>
-  <author>
-   <name>@EvoMRI@mastodon.social</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Link to an interactive dependency tree for exploring the Lean proof of the Riemann Hypothesis. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819</id>
-  <title>Lean through examples: From the basics to AI-assisted formalization. ~ David Muñoz-Lahoz. https://github.com/davidmunozlahoz/lean-course…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659728715770819" rel="alternate" />
-  <published>2026-11-22T10:56:21Z</published>
-  <updated>2026-11-22T10:56:21Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean course through examples, from basics to AI-assisted formalization, by David Muñoz-Lahoz. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093</id>
-  <title>Autoformalize your Math. ~ David Muñoz-Lahoz. https://lean.functionalanalysismadrid.com/ #LeanProver #LeanLang #ITP #AI4Math #AI #Math</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659706513468093" rel="alternate" />
-  <published>2026-11-22T10:50:42Z</published>
-  <updated>2026-11-22T10:50:42Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Site offering tools to autoformalize mathematics in Lean by David Muñoz-Lahoz. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498</id>
-  <title>A beginner’s guide on how to autoformalize mathematics in Lean. ~ Lukas Liehr, David Muñoz-Lahoz, Mitchell A. Taylor…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659136821091498" rel="alternate" />
-  <published>2026-11-22T08:25:50Z</published>
-  <updated>2026-11-22T08:25:50Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Beginner's guide to autoformalizing mathematics in Lean by Liehr, Muñoz-Lahoz and Taylor. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529</id>
-  <title>Lean for the working mathematician. ~ Mitchell Taylor. https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117659127890929529" rel="alternate" />
-  <published>2026-11-22T08:23:33Z</published>
-  <updated>2026-11-22T08:23:33Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Mitchell Taylor's post Lean for the working mathematician, shared on Mathstodon. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://manganiello.tech/@nemo/117658037494589749</id>
-  <title>Nov. 21, 2026 — The Lean and Mathlib communities confirm Levent Alpöge’s 17-million-line Lean proof of the Riemann Hypothesis passed…</title>
-  <link href="https://manganiello.tech/@nemo/117658037494589749" rel="alternate" />
-  <published>2026-11-22T03:46:15Z</published>
-  <updated>2026-11-22T03:46:15Z</updated>
-  <author>
-   <name>@nemo@manganiello.tech</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean and Mathlib communities confirm Alpöge's 17-million-line Riemann Hypothesis proof passed independent checks including the kernel. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184</id>
-  <title>Reintroduction to proofs (Lean game that introduces informal dependent type theory at the level of an introduction to proofs course). ~…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117655751084126184" rel="alternate" />
-  <published>2026-11-21T18:04:47Z</published>
-  <updated>2026-11-21T18:04:47Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean game by Emily Riehl introducing informal dependent type theory at an introduction-to-proofs level. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>
