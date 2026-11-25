@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:eeae32f6d664109e",
+   "lean",
+   "Lean Zulip discussions",
+   "RH: managing citations",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20managing.20citations/near/643428879",
+   "2026-11-25T00:39:29Z",
+   "Lean Zulip thread discussing how to manage citations as a graph linked to Lean formalizations, including crawling citations and matching them to library…",
+   "Rohan Arun",
+   "lean-zulip-discussions"
+  ],
+  [
    "u:88f828918873667e",
    "lean",
    "OpenAI math (GitHub)",

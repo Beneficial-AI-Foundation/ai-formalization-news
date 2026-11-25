@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-25T00:41:33Z",
+ "updated": "2026-11-25T03:24:45Z",
  "items": [
+  {
+   "id": "u:eeae32f6d664109e",
+   "type": "lean",
+   "source": "Lean Zulip discussions",
+   "source_id": "lean-zulip-discussions",
+   "title": "RH: managing citations",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20managing.20citations/near/643428879",
+   "authors": [
+    "Rohan Arun"
+   ],
+   "published": "2026-11-25T00:39:29Z",
+   "fetched": "2026-11-25T03:24:45Z",
+   "source_text": "Discussed on the Lean Zulip in #general: 90 messages from 9 people. Citations lend itself well to formalizing into a graph. Google Scholar seems to have a graph like this already. Could we crawl citations first with code to create a strictly correct but limited graph, then have humans link them to root Lean formalizations so it starts correct and prevents errors? Then Lean could loop through the library to gather citations automatically by matching equivalences(but it would still be limited until the full graph is built).",
+   "summary": "Lean Zulip thread discussing how to manage citations as a graph linked to Lean formalizations, including crawling citations and matching them to library…",
+   "score": 2,
+   "relevant": true
+  },
   {
    "id": "u:88f828918873667e",
    "type": "lean",

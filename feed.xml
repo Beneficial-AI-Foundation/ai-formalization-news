@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T00:41:33Z</updated>
+ <updated>2026-11-25T03:24:45Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20managing.20citations/near/643428879</id>
+  <title>RH: managing citations</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20managing.20citations/near/643428879" rel="alternate" />
+  <published>2026-11-25T00:39:29Z</published>
+  <updated>2026-11-25T00:39:29Z</updated>
+  <author>
+   <name>Rohan Arun</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Lean Zulip thread discussing how to manage citations as a graph linked to Lean formalizations, including crawling citations and matching them to library… (Lean Zulip discussions)</summary>
+ </entry>
  <entry>
   <id>https://github.com/openai/math/commit/92b516ef8e2abf66c3db7aa31438d3010bc7956f</id>
   <title>Add November 24 mathematics manuscripts and Lean formalizations</title>
@@ -623,17 +635,5 @@
   </author>
   <category term="social" />
   <summary type="text">Lean game by Emily Riehl introducing informal dependent type theory at an introduction-to-proofs level. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician</id>
-  <title>Lean for the working mathematician</title>
-  <link href="https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician" rel="alternate" />
-  <published>2026-11-21T17:16:37Z</published>
-  <updated>2026-11-21T17:16:37Z</updated>
-  <author>
-   <name>xenaproject</name>
-  </author>
-  <category term="blog" />
-  <summary type="text">Guest post by Mitchell Taylor on using Lean for working mathematicians, adapted from a talk at Imperial's PDE seminar. (Xena (Kevin Buzzard))</summary>
  </entry>
 </feed>
