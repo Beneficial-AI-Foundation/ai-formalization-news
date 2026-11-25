@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T19:21:08Z</updated>
+ <updated>2026-11-25T20:20:54Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://scottaaronson.blog/?p=10379</id>
+  <title>Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]</title>
+  <link href="https://scottaaronson.blog/?p=10379" rel="alternate" />
+  <published>2026-11-25T19:11:27Z</published>
+  <updated>2026-11-25T19:11:27Z</updated>
+  <author>
+   <name>Kotlopou</name>
+  </author>
+  <category term="blog" />
+  <summary type="text">Scott Aaronson's blog post on algorithmic complexity lower bounds, shared on Hacker News; the text is too thin to confirm any formal-methods content. (Hacker News (200+ points))</summary>
+ </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Paralever.3A.20Proving.20parallel.20Sequential.20Programs.20equivalent/near/643672366</id>
   <title>Paralever: Proving parallel Sequential Programs equivalent</title>
@@ -635,17 +647,5 @@
   </author>
   <category term="social" />
   <summary type="text">Hacker News item linking to a treemap visualization of the Riemann Hypothesis Lean proof. (Hacker News)</summary>
- </entry>
- <entry>
-  <id>https://mastodon.social/@orderwithchaos/117662656557828227</id>
-  <title>This post aptly captures the "limitations" of formal verification and how they apply to the recent proof of RH. I wish everyone chiming…</title>
-  <link href="https://mastodon.social/@orderwithchaos/117662656557828227" rel="alternate" />
-  <published>2026-11-22T23:20:56Z</published>
-  <updated>2026-11-22T23:20:56Z</updated>
-  <author>
-   <name>@orderwithchaos@mastodon.social</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Post on the limitations of formal verification, applied to the recent Lean proof of the Riemann Hypothesis. (#formalverification on Mathstodon)</summary>
  </entry>
 </feed>

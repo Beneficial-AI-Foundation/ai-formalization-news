@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:c31465abe4a576c3",
+   "blog",
+   "Hacker News (200+ points)",
+   "Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]",
+   "https://scottaaronson.blog/?p=10379",
+   "2026-11-25T19:11:27Z",
+   "Scott Aaronson's blog post on algorithmic complexity lower bounds, shared on Hacker News; the text is too thin to confirm any formal-methods content.",
+   "Kotlopou",
+   "hackernews-top"
+  ],
+  [
    "u:db1eefc7606d9ab4",
    "lean",
    "Lean Zulip announcements",

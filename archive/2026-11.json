@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:c31465abe4a576c3",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "authors": [
+    "Kotlopou"
+   ],
+   "published": "2026-11-25T19:11:27Z",
+   "fetched": "2026-11-25T20:20:54Z",
+   "source_text": "Link: https://scottaaronson.blog/?p=10379. Discussed on Hacker News: 226 points, 144 comments. https://news.ycombinator.com/item?id=50646108",
+   "summary": "Scott Aaronson's blog post on algorithmic complexity lower bounds, shared on Hacker News; the text is too thin to confirm any formal-methods content.",
+   "score": 2,
+   "relevant": true
+  },
+  {
    "id": "u:db1eefc7606d9ab4",
    "type": "lean",
    "source": "Lean Zulip announcements",
