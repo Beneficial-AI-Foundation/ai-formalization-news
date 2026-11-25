@@ -13,6 +13,28 @@
  ],
  "rows": [
   [
+   "u:88f828918873667e",
+   "lean",
+   "OpenAI math (GitHub)",
+   "Add November 24 mathematics manuscripts and Lean formalizations",
+   "https://github.com/openai/math/commit/92b516ef8e2abf66c3db7aa31438d3010bc7956f",
+   "2026-11-25T00:04:41Z",
+   "A GitHub commit adding November 24 mathematics manuscripts together with their Lean formalizations.",
+   "dr-openai",
+   "openai-math"
+  ],
+  [
+   "u:d7b4da5585693ea1",
+   "social",
+   "Lean Zulip discussions",
+   "RH: nonconstructive axioms in Alpöge's proof",
+   "https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20nonconstructive.20axioms.20in.20Alp.C3.B6ge.27s.20proof/near/643404362",
+   "2026-11-24T22:13:24Z",
+   "Lean Zulip thread asks which non-constructive principles, such as the axiom of choice, are used in the Lean proof of GRH in Alpöge's work.",
+   "Ian Shillito",
+   "lean-zulip-discussions"
+  ],
+  [
    "u:b1de6c65dd1db693",
    "social",
    "#formalverification on Mathstodon",

@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-24T15:21:33Z</updated>
+ <updated>2026-11-25T00:41:33Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://github.com/openai/math/commit/92b516ef8e2abf66c3db7aa31438d3010bc7956f</id>
+  <title>Add November 24 mathematics manuscripts and Lean formalizations</title>
+  <link href="https://github.com/openai/math/commit/92b516ef8e2abf66c3db7aa31438d3010bc7956f" rel="alternate" />
+  <published>2026-11-25T00:04:41Z</published>
+  <updated>2026-11-25T00:04:41Z</updated>
+  <author>
+   <name>dr-openai</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">A GitHub commit adding November 24 mathematics manuscripts together with their Lean formalizations. (OpenAI math (GitHub))</summary>
+ </entry>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20nonconstructive.20axioms.20in.20Alp.C3.B6ge.27s.20proof/near/643404362</id>
+  <title>RH: nonconstructive axioms in Alpöge's proof</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20nonconstructive.20axioms.20in.20Alp.C3.B6ge.27s.20proof/near/643404362" rel="alternate" />
+  <published>2026-11-24T22:13:24Z</published>
+  <updated>2026-11-24T22:13:24Z</updated>
+  <author>
+   <name>Ian Shillito</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Lean Zulip thread asks which non-constructive principles, such as the axiom of choice, are used in the Lean proof of GRH in Alpöge's work. (Lean Zulip discussions)</summary>
+ </entry>
  <entry>
   <id>https://infosec.exchange/@david_chisnall/117671879185759191</id>
   <title>June Rousseau has written an excellent blog post about her formal verification work on the CHERIoT switcher. The switcher is the core of…</title>
@@ -611,35 +635,5 @@
   </author>
   <category term="blog" />
   <summary type="text">Guest post by Mitchell Taylor on using Lean for working mathematicians, adapted from a talk at Imperial's PDE seminar. (Xena (Kevin Buzzard))</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.28916</id>
-  <title>An End-to-End Theory for Compositional Symbolic Execution: From Expressive Specifications to SMT (Extended Version)</title>
-  <link href="https://arxiv.org/abs/2611.28916" rel="alternate" />
-  <published>2026-11-21T16:44:48Z</published>
-  <updated>2026-11-21T16:44:48Z</updated>
-  <author>
-   <name>Shivanandan Tamil Kumaran</name>
-  </author>
-  <author>
-   <name>Andreas Lööw</name>
-  </author>
-  <author>
-   <name>Philippa Gardner</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">End-to-end theory of compositional symbolic execution formalized in Rocq, connecting expressive specifications to verified SMT-LIB solver use. (arXiv cs.PL)</summary>
- </entry>
- <entry>
-  <id>https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v</id>
-  <title>The Lean and Mathlib communities have released a joint statement certifying Levent Alpöge’s Lean proof of the Riemann Hypothesis as…</title>
-  <link href="https://bsky.app/profile/lean-lang.org/post/3n2tjrtzpfc2v" rel="alternate" />
-  <published>2026-11-21T16:34:00Z</published>
-  <updated>2026-11-21T16:34:00Z</updated>
-  <author>
-   <name>Lean FRO</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Lean and Mathlib communities certify Levent Alpöge's Lean proof of the Riemann Hypothesis as correct. (Lean FRO on Bluesky)</summary>
  </entry>
 </feed>
