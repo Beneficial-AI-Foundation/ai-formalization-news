@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:8b94c66e8a517a89",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "garry-ultimate-oss v4.0.0: 3D Navier-Stokes verification",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/garry-ultimate-oss.20v4.2E0.2E0.3A.203D.20Navier-Stokes.20verification/near/643545153",
+   "authors": [
+    "Nhat Nam Nguyen"
+   ],
+   "published": "2026-11-25T11:14:44Z",
+   "fetched": "2026-11-25T11:21:54Z",
+   "source_text": "Hi everyone, I'm Nam. I've been working solo on a formal verification project for the 3D incompressible Navier-Stokes equations on T³ and R³, and just put out v4.0.0 of `garry-ultimate-oss`. It combines a zero-dependency pure-Rust checker (128-bit interval/Riccati checks emitting Z3 SMT-LIB 2.6 and Lean 4 certificates) with a Lean 4 / Mathlib4 library of 463 declarations audited with `#print axioms` (0 `sorryAx`, standard axioms only). To be clear right away, I'm not claiming to have solved the Millennium problem. The unconditional results and certified supercritical trajectory checks are in…",
+   "summary": "Release of garry-ultimate-oss v4.0.0, a Rust checker and Lean 4/Mathlib library for verifying 3D Navier-Stokes results, with 463 declarations audited for…",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:eeae32f6d664109e",
    "type": "lean",
    "source": "Lean Zulip discussions",

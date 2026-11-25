@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T06:31:39Z</updated>
+ <updated>2026-11-25T11:21:54Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/garry-ultimate-oss.20v4.2E0.2E0.3A.203D.20Navier-Stokes.20verification/near/643545153</id>
+  <title>garry-ultimate-oss v4.0.0: 3D Navier-Stokes verification</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/garry-ultimate-oss.20v4.2E0.2E0.3A.203D.20Navier-Stokes.20verification/near/643545153" rel="alternate" />
+  <published>2026-11-25T11:14:44Z</published>
+  <updated>2026-11-25T11:14:44Z</updated>
+  <author>
+   <name>Nhat Nam Nguyen</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Release of garry-ultimate-oss v4.0.0, a Rust checker and Lean 4/Mathlib library for verifying 3D Navier-Stokes results, with 463 declarations audited for… (Lean Zulip announcements)</summary>
+ </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/RH.3A.20managing.20citations/near/643428879</id>
   <title>RH: managing citations</title>
@@ -641,17 +653,5 @@
   </author>
   <category term="paper" />
   <summary type="text">TPTL-dist temporal logic and sequent calculus for verifying real-time distributed systems, formalised in Agda with proof search. (arXiv cs.LO)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@arhamzahid235711/117661742180814394</id>
-  <title>I've written a natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis: 684 pages covering the whole argument, with a…</title>
-  <link href="https://mathstodon.xyz/@arhamzahid235711/117661742180814394" rel="alternate" />
-  <published>2026-11-22T19:28:24Z</published>
-  <updated>2026-11-22T19:28:24Z</updated>
-  <author>
-   <name>@arhamzahid235711@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">684-page natural-language exposition of Alpöge's Lean proof of the Riemann Hypothesis, with a mapping to Lean declarations. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

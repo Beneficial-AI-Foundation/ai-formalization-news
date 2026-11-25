@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:8b94c66e8a517a89",
+   "lean",
+   "Lean Zulip announcements",
+   "garry-ultimate-oss v4.0.0: 3D Navier-Stokes verification",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/garry-ultimate-oss.20v4.2E0.2E0.3A.203D.20Navier-Stokes.20verification/near/643545153",
+   "2026-11-25T11:14:44Z",
+   "Release of garry-ultimate-oss v4.0.0, a Rust checker and Lean 4/Mathlib library for verifying 3D Navier-Stokes results, with 463 declarations audited for…",
+   "Nhat Nam Nguyen",
+   "lean-zulip"
+  ],
+  [
    "u:eeae32f6d664109e",
    "lean",
    "Lean Zulip discussions",
