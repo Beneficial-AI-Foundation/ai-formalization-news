@@ -3,6 +3,24 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:cbdde3b97d33780e",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Hello Mathstodon! #introduction I'm Carles Marín, an independent researcher. What moves me is curiosity about the details that nature…",
+   "url": "https://mathstodon.xyz/@karlesmarin/117679206356143697",
+   "authors": [
+    "@karlesmarin@mathstodon.xyz"
+   ],
+   "published": "2026-11-25T21:29:46Z",
+   "fetched": "2026-11-25T22:20:57Z",
+   "source_text": "Hello Mathstodon! #introduction I'm Carles Marín, an independent researcher. What moves me is curiosity about the details that nature hides. Mathematics, physics and computing: sums of squares, Dyck words, friezes, gauge–Higgs, quantum speed limits, transformers. Each paper with its proofs, data…",
+   "summary": "An independent researcher introduces themselves on Mastodon, listing interests in mathematics, physics and computing without any formal-methods content.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "u:c31465abe4a576c3",
    "type": "blog",
    "source": "Hacker News (200+ points)",

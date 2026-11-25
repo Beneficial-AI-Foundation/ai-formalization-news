@@ -1,15 +1,15 @@
 {
  "version": 1,
- "last_run": "2026-11-25T21:21:16Z",
- "duration_seconds": 18.5,
+ "last_run": "2026-11-25T22:20:57Z",
+ "duration_seconds": 20.0,
  "counts": {
   "items_in_news": 256,
-  "items_in_hidden": 41,
-  "archive_total": 297,
+  "items_in_hidden": 42,
+  "archive_total": 298,
   "new_kept": 0,
   "new_rejected": 0,
-  "new_hidden": 0,
-  "new_dropped": 1
+  "new_hidden": 1,
+  "new_dropped": 0
  },
  "sources": [
   {
@@ -66,7 +66,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "hackernews",
@@ -75,12 +75,12 @@
    "enabled": true,
    "status": "ok",
    "http_status": 200,
-   "fetched": 4,
+   "fetched": 3,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "hackernews-top",
@@ -89,12 +89,12 @@
    "enabled": true,
    "status": "ok",
    "http_status": 200,
-   "fetched": 42,
-   "new": 1,
+   "fetched": 41,
+   "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "lean-zulip",
@@ -108,7 +108,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "lean-zulip-discussions",
@@ -122,7 +122,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "afp",
@@ -164,7 +164,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "rocq-discourse",
@@ -185,28 +185,28 @@
    "name": "Rocq changelog",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "ok",
+   "http_status": 200,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T16:25:20Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "agda-releases",
    "name": "Agda releases",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 1,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T16:25:20Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "quanta-math",
@@ -286,11 +286,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 18,
-   "new": 0,
+   "new": 1,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "mathstodon-formalverification",
@@ -304,7 +304,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "mathstodon-itp",
@@ -318,7 +318,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "mathstodon-agda",
@@ -332,7 +332,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "mathstodon-rocq",
@@ -346,7 +346,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "mathstodon-isabelle",
@@ -360,35 +360,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "forsyte",
    "name": "Forsyte, TU Wien",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "ok",
+   "http_status": 200,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T16:25:20Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "sigil-logic",
    "name": "Sigil Logic",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T16:25:20Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "anthropic-formal-math",
@@ -402,7 +402,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "openai-math",
@@ -416,7 +416,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   },
   {
    "id": "deepmind-blog",
@@ -458,7 +458,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-25T21:21:16Z"
+   "last_fetch": "2026-11-25T22:20:57Z"
   }
  ],
  "errors": [],
@@ -467,17 +467,17 @@
   "model": "claude-haiku-5-5",
   "route": "anthropic",
   "fallback": false,
-  "input_tokens": 1829,
+  "input_tokens": 1890,
   "output_tokens": 93,
   "requests": 1,
   "items_sent": 1,
   "judged": 1,
-  "hidden": 0,
-  "dropped": 1,
+  "hidden": 1,
+  "dropped": 0,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
   "errors": [],
-  "seconds": 1.5
+  "seconds": 1.7
  }
 }
