@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-25T13:22:23Z",
+ "updated": "2026-11-25T16:25:20Z",
  "items": [
+  {
+   "id": "u:abef7dcffe0c6e9b",
+   "type": "news",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "authors": [
+    "rgwohlbold"
+   ],
+   "published": "2026-11-25T13:33:07Z",
+   "fetched": "2026-11-25T16:25:20Z",
+   "source_text": "Link: https://github.com/google-research/google-research/tree/master/cogentic_research_papers. Discussed on Hacker News: 227 points, 183 comments. https://news.ycombinator.com/item?id=50642086",
+   "summary": "Google research repository releasing Cogentic papers on integer factorization and discrete logarithms; the text is only a link and a discussion count, so the…",
+   "score": 2,
+   "relevant": true
+  },
   {
    "id": "u:06c11231112b85cd",
    "type": "event",

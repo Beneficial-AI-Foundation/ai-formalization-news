@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T13:22:23Z</updated>
+ <updated>2026-11-25T16:25:20Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://github.com/google-research/google-research/tree/master/cogentic_research_papers</id>
+  <title>Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More</title>
+  <link href="https://github.com/google-research/google-research/tree/master/cogentic_research_papers" rel="alternate" />
+  <published>2026-11-25T13:33:07Z</published>
+  <updated>2026-11-25T13:33:07Z</updated>
+  <author>
+   <name>rgwohlbold</name>
+  </author>
+  <category term="news" />
+  <summary type="text">Google research repository releasing Cogentic papers on integer factorization and discrete logarithms; the text is only a link and a discussion count, so the… (Hacker News (200+ points))</summary>
+ </entry>
  <entry>
   <id>https://discourse.rocq-prover.org/t/itp-2027-call-for-workshops/3209</id>
   <title>ITP 2027: Call for Workshops</title>
@@ -635,17 +647,5 @@
   </author>
   <category term="lean" />
   <summary type="text">Lean Zulip post from the Lean FRO and Mathlib Initiative about community statements, with a dissenting comment. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3</id>
-  <title>Progress map for the Lean formalization of Alessandro Masullo's manuscript</title>
-  <link href="https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3" rel="alternate" />
-  <published>2026-11-22T23:12:10Z</published>
-  <updated>2026-11-22T23:12:10Z</updated>
-  <author>
-   <name>Qision</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Hacker News item linking to a progress map for a Lean formalization of Alessandro Masullo's manuscript. (Hacker News)</summary>
  </entry>
 </feed>

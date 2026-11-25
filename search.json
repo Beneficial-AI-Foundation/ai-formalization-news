@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:abef7dcffe0c6e9b",
+   "news",
+   "Hacker News (200+ points)",
+   "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+   "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "2026-11-25T13:33:07Z",
+   "Google research repository releasing Cogentic papers on integer factorization and discrete logarithms; the text is only a link and a discussion count, so the…",
+   "rgwohlbold",
+   "hackernews-top"
+  ],
+  [
    "u:06c11231112b85cd",
    "event",
    "Rocq Discourse",
