@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T12:28:24Z</updated>
+ <updated>2026-11-25T13:22:23Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/itp-2027-call-for-workshops/3209</id>
+  <title>ITP 2027: Call for Workshops</title>
+  <link href="https://discourse.rocq-prover.org/t/itp-2027-call-for-workshops/3209" rel="alternate" />
+  <published>2026-11-25T13:03:26Z</published>
+  <updated>2026-11-25T13:03:26Z</updated>
+  <author>
+   <name>gallais</name>
+  </author>
+  <category term="event" />
+  <summary type="text">Call for workshop and tutorial proposals for ITP 2027, the 18th Interactive Theorem Proving conference, held 2-7 August 2027 at Strathclyde, Glasgow. (Rocq Discourse)</summary>
+ </entry>
  <entry>
   <id>https://infosec.exchange/@trailofbits/117676985588161841</id>
   <title>Trailmark parses source code into a graph of functions, types, and calls, then answers structural questions: which entrypoints reach this…</title>
@@ -635,17 +647,5 @@
   </author>
   <category term="social" />
   <summary type="text">Hacker News item linking to a progress map for a Lean formalization of Alessandro Masullo's manuscript. (Hacker News)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Solved.20a.2020-year-old.20problem.3A.20max.20balanced.20nl.289.29.20is.20240/near/642708002</id>
-  <title>Solved a 20-year-old problem: max balanced nl(9) is 240</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Solved.20a.2020-year-old.20problem.3A.20max.20balanced.20nl.289.29.20is.20240/near/642708002" rel="alternate" />
-  <published>2026-11-22T20:57:56Z</published>
-  <updated>2026-11-22T20:57:56Z</updated>
-  <author>
-   <name>Daniel Shittu</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Claims a Lean-verified result that the maximum nonlinearity of a balanced 9-variable Boolean function is 240. (Lean Zulip discussions)</summary>
  </entry>
 </feed>

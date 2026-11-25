@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-25T12:28:24Z",
+ "updated": "2026-11-25T13:22:23Z",
  "items": [
+  {
+   "id": "u:06c11231112b85cd",
+   "type": "event",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "ITP 2027: Call for Workshops",
+   "url": "https://discourse.rocq-prover.org/t/itp-2027-call-for-workshops/3209",
+   "authors": [
+    "gallais"
+   ],
+   "published": "2026-11-25T13:03:26Z",
+   "fetched": "2026-11-25T13:22:23Z",
+   "source_text": "18th International Conference on Interactive Theorem Proving - ITP’27 University of Strathclyde, Glasgow, Scotland, 2-7 August 2027 https://itp-conference-2027.github.io/ Call for Workshop and Tutorial Proposals The ITP conference organisers are soliciting proposals for affiliated workshops and tutorials. Members of the community are invited to submit proposals on any topic related to interactive theorem proving. Workshops typically feature presentations of ongoing research that is not ready yet for formal publication, and tutorials may e.g. present extended demos of particular software. The…",
+   "summary": "Call for workshop and tutorial proposals for ITP 2027, the 18th Interactive Theorem Proving conference, held 2-7 August 2027 at Strathclyde, Glasgow.",
+   "score": 4,
+   "relevant": true
+  },
   {
    "id": "u:8eebf1ba75f66ad0",
    "type": "social",

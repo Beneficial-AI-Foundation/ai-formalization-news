@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:06c11231112b85cd",
+   "event",
+   "Rocq Discourse",
+   "ITP 2027: Call for Workshops",
+   "https://discourse.rocq-prover.org/t/itp-2027-call-for-workshops/3209",
+   "2026-11-25T13:03:26Z",
+   "Call for workshop and tutorial proposals for ITP 2027, the 18th Interactive Theorem Proving conference, held 2-7 August 2027 at Strathclyde, Glasgow.",
+   "gallais",
+   "rocq-discourse"
+  ],
+  [
    "u:8eebf1ba75f66ad0",
    "social",
    "#formalverification on Mathstodon",
