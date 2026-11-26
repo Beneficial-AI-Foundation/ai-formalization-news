@@ -1,7 +1,43 @@
 {
  "version": 1,
- "updated": "2026-11-26T04:23:42Z",
+ "updated": "2026-11-26T06:31:27Z",
  "items": [
+  {
+   "id": "u:f63b444c28a023e4",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "🧩 A practical guide to the Reusable layer of my formalizations: 56 machine-checked Lean 4 theorems from my papers, ready to import into…",
+   "url": "https://mathstodon.xyz/@karlesmarin/117681113451491662",
+   "authors": [
+    "@karlesmarin@mathstodon.xyz"
+   ],
+   "published": "2026-11-26T05:34:46Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "🧩 A practical guide to the Reusable layer of my formalizations: 56 machine-checked Lean 4 theorems from my papers, ready to import into your own proofs. One line, for instance: example : Nat.choose 13 6 ≡ 1 [MOD 7 ^ 3] := (wolstenholme_choose_modEq 7 (by norm_num) (by norm_num)).1 Also: counting…",
+   "summary": "Guide to a reusable layer of 56 machine-checked Lean 4 theorems from formalization papers, with an example importing a Wolstenholme congruence.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.33181",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-rss",
+   "title": "SeQLean: Verifying SQL queries using Lean",
+   "url": "https://arxiv.org/abs/2611.33181",
+   "authors": [
+    "Siddhartha Gadgil",
+    "Anirudh Gupta",
+    "Ajay Kumar Nair"
+   ],
+   "published": "2026-11-26T05:00:00Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "We present SeQLean, a system that uses formal verification in Lean to increase the accuracy of translation from natural language to SQL. This is based on modelling SQL in Lean via relational algebras. Since we do not have a translation known to be correct, we cannot directly prove correctness. Instead, we use proof challenges: tests of internal consistency that are unlikely to be satisfied by an incorrect translation. The simplest proof challenge is based on generating two translations of the same natural language query into SQL, ideally with one being optimized for performance and the other…",
+   "summary": "SeQLean uses Lean formal verification, with SQL modelled via relational algebra, to check natural-language-to-SQL translations using internal consistency…",
+   "score": 4,
+   "relevant": true
+  },
   {
    "id": "u:e78d2ef884e8ada4",
    "type": "social",
@@ -169,6 +205,69 @@
    "fetched": "2026-11-25T11:21:54Z",
    "source_text": "Hi everyone, I'm Nam. I've been working solo on a formal verification project for the 3D incompressible Navier-Stokes equations on T³ and R³, and just put out v4.0.0 of `garry-ultimate-oss`. It combines a zero-dependency pure-Rust checker (128-bit interval/Riccati checks emitting Z3 SMT-LIB 2.6 and Lean 4 certificates) with a Lean 4 / Mathlib4 library of 463 declarations audited with `#print axioms` (0 `sorryAx`, standard axioms only). To be clear right away, I'm not claiming to have solved the Millennium problem. The unconditional results and certified supercritical trajectory checks are in…",
    "summary": "Release of garry-ultimate-oss v4.0.0, a Rust checker and Lean 4/Mathlib library for verifying 3D Navier-Stokes results, with 463 declarations audited for…",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.33817",
+   "type": "paper",
+   "source": "arXiv cs.PL",
+   "source_id": "arxiv-api",
+   "title": "SentryWard: Formal Verification of Warp-Specialized GPU Kernels",
+   "url": "https://arxiv.org/abs/2611.33817",
+   "authors": [
+    "Mengdi Wu",
+    "Sreeram Vennam",
+    "Stephen Mell",
+    "Ziwei Zhou",
+    "Advay Kadam",
+    "Xinhao Cheng",
+    "Francois Costa",
+    "Alex Aiken",
+    "Oded Padon",
+    "Zhihao Jia"
+   ],
+   "published": "2026-11-25T05:47:19Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "Modern GPU kernels overlap asynchronous data movement, computation on general-purpose cores (e.g., CUDA cores), and computation on specialized cores (e.g., tensor cores) using warp specialization. These asynchronous-overlap optimizations introduce complex synchronization requirements, where incorrect ordering of asynchronous operations can lead to data races, premature resource reuse, and incorrect results. Testing alone cannot guarantee correctness because such errors are nondeterministic and may only manifest in rare execution schedules, and existing GPU formal verification techniques have…",
+   "summary": "SentryWard applies formal verification to warp-specialized GPU kernels to check synchronization ordering that testing alone cannot guarantee.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.33741",
+   "type": "paper",
+   "source": "arXiv cs.CR",
+   "source_id": "arxiv-api",
+   "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+   "url": "https://arxiv.org/abs/2611.33741",
+   "authors": [
+    "Liang Song"
+   ],
+   "published": "2026-11-25T04:01:37Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "Clients of closed-weight LLM APIs cannot verify whether a provider ran the advertised model, precision, hidden prompt, and reasoning budget. Existing approaches either trust hardware or third parties, or re-prove every layer of an integer surrogate at high cost while diverging from native floating-point serving. FlashProve-Next produces verifiable, zero-knowledge-masked proofs for individual LLM API responses without modifying native serving (bf16/fp8/mxfp4, random sampling, FlashAttention, CUDA graphs, batching, prefix caching) and without disclosing weights, hidden prompts, hidden…",
+   "summary": "FlashProve-Next produces zero-knowledge proofs that individual LLM API responses were generated by the advertised model, without modifying native serving.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.33676",
+   "type": "paper",
+   "source": "arXiv cs.AI",
+   "source_id": "arxiv-api",
+   "title": "Interactive Proofs as a Unified Framework for Evaluating and Leveraging Verifiable Proof Generation by LLM Agents",
+   "url": "https://arxiv.org/abs/2611.33676",
+   "authors": [
+    "Yankai Shu",
+    "Xingyu Zhao",
+    "Chuan Mao",
+    "Congchi Yin"
+   ],
+   "published": "2026-11-25T02:42:59Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "Recent advances in LLM-assisted theorem proving and program verification have attracted widespread attention. Beyond determining whether a proposition is true, LLM agents must produce evidence that can be independently checked by humans or formal verification tools. To evaluate the underlying, protocol-agnostic ability of LLM agents to construct verifiable proofs-rather than their proficiency with any particular proof language or verification tool, we introduce Merlin-Bench. Drawing on interactive proof systems from computational complexity theory, we cast an LLM agent as the prover: under a…",
+   "summary": "Merlin-Bench evaluates LLM agents on producing proofs that formal verification tools or humans can independently check, using interactive proof systems.",
    "score": 3,
    "relevant": true
   },
@@ -2298,6 +2397,28 @@
    "source_text": "I'm merely just trying to get familiar with the syntax. It's been quite a ride. The main issue is trying to figure out how I can do the things I'm used to from using #Idris and #Agda. Tactics still feel a little heavy handed to me, but I'm getting there.",
    "summary": "Programmer learning Agda syntax and tactics, comparing them with Idris.",
    "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "arxiv:2611.33193",
+   "type": "paper",
+   "source": "arXiv cs.GT",
+   "source_id": "arxiv-api",
+   "title": "Formalization, Transparency, and Collusion in Open-Source Game Theory",
+   "url": "https://arxiv.org/abs/2611.33193",
+   "authors": [
+    "Colomban Duclaux",
+    "Riccardo Formenti",
+    "Pepijn Cobben",
+    "Terry Jingchen Zhang",
+    "Bernhard Schölkopf",
+    "Zhijing Jin"
+   ],
+   "published": "2026-11-15T21:55:37Z",
+   "fetched": "2026-11-26T06:31:27Z",
+   "source_text": "Cooperation among AI agents will undermine alignment protocols when it takes the form of collusion. Under these protocols, agents often have some information about one another, and how much they have may determine whether they collude. Open-source game theory studies the extreme case, in which each program reads its opponent's source code and acts based on what it can prove about it. We develop formal foundations for this theory: we specify a concrete proof system, resolve an open problem concerning DupocBot and CupodBot through a transposition argument, and mechanize the framework in Lean…",
+   "summary": "Formal foundations for open-source game theory, with a concrete proof system, a resolved open problem, and the framework mechanized in Lean.",
+   "score": 4,
    "relevant": true
   },
   {
