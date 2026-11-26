@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:e78d2ef884e8ada4",
+   "social",
+   "Rocq Discourse",
+   "Can the Rocq Prover run on a small mini PC for a beginner's learning setup?",
+   "https://discourse.rocq-prover.org/t/can-the-rocq-prover-run-on-a-small-mini-pc-for-a-beginners-learning-setup/3211",
+   "2026-11-26T00:56:06Z",
+   "A beginner asks whether a GMKtec G3 Pro mini PC with a Core i3 is sufficient for running the Rocq Prover comfortably.",
+   "michaelwilson",
+   "rocq-discourse"
+  ],
+  [
    "u:cfeb72fa187c686b",
    "paper",
    "Lean Zulip announcements",

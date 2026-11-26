@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-26T00:40:04Z</updated>
+ <updated>2026-11-26T01:21:28Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://discourse.rocq-prover.org/t/can-the-rocq-prover-run-on-a-small-mini-pc-for-a-beginners-learning-setup/3211</id>
+  <title>Can the Rocq Prover run on a small mini PC for a beginner's learning setup?</title>
+  <link href="https://discourse.rocq-prover.org/t/can-the-rocq-prover-run-on-a-small-mini-pc-for-a-beginners-learning-setup/3211" rel="alternate" />
+  <published>2026-11-26T00:56:06Z</published>
+  <updated>2026-11-26T00:56:06Z</updated>
+  <author>
+   <name>michaelwilson</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A beginner asks whether a GMKtec G3 Pro mini PC with a Core i3 is sufficient for running the Rocq Prover comfortably. (Rocq Discourse)</summary>
+ </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Formalizing.20Lifted.20Collatz.20Orbits.20in.20Lean.204/near/643730780</id>
   <title>Formalizing Lifted Collatz Orbits in Lean 4</title>
@@ -629,23 +641,5 @@
   </author>
   <category term="blog" />
   <summary type="text">Blog post discussing the scale of a 17-million-line Lean codebase. (Hacker News (200+ points))</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.26906</id>
-  <title>Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers</title>
-  <link href="https://arxiv.org/abs/2611.26906" rel="alternate" />
-  <published>2026-11-23T05:00:00Z</published>
-  <updated>2026-11-23T05:00:00Z</updated>
-  <author>
-   <name>Wei Jiang</name>
-  </author>
-  <author>
-   <name>Ziran Liu</name>
-  </author>
-  <author>
-   <name>Wei Wang</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving. (arXiv cs.AI)</summary>
  </entry>
 </feed>

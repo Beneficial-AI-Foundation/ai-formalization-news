@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-26T00:40:04Z",
+ "updated": "2026-11-26T01:21:28Z",
  "items": [
+  {
+   "id": "u:e78d2ef884e8ada4",
+   "type": "social",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Can the Rocq Prover run on a small mini PC for a beginner's learning setup?",
+   "url": "https://discourse.rocq-prover.org/t/can-the-rocq-prover-run-on-a-small-mini-pc-for-a-beginners-learning-setup/3211",
+   "authors": [
+    "michaelwilson"
+   ],
+   "published": "2026-11-26T00:56:06Z",
+   "fetched": "2026-11-26T01:21:28Z",
+   "source_text": "I’m a beginner working through the Rocq Prover on my own in Omaha, and I’m deciding what hardware to use for a dedicated learning machine. I’ve been reading about the GMKtec G3 Pro Mini PC with a Core i3, primarily from a hardware review I found online (not something I wrote or tested myself). It seems affordable and compact, which appeals to me since I’m just starting out and don’t want to overinvest. My main concern is whether the Core i3 and whatever RAM these small desktops ship with are enough to handle Rocq comfortably, or if the build and compilation steps will feel sluggish. I’m not…",
+   "summary": "A beginner asks whether a GMKtec G3 Pro mini PC with a Core i3 is sufficient for running the Rocq Prover comfortably.",
+   "score": 2,
+   "relevant": true
+  },
   {
    "id": "u:cfeb72fa187c686b",
    "type": "paper",
