@@ -3,7 +3,7 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-26T01:21:28Z</updated>
+ <updated>2026-11-26T04:23:42Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
@@ -68,6 +68,18 @@
   </author>
   <category term="lean" />
   <summary type="text">A Lean Zulip post presents Paralever, a project to prove that parallel programs such as CUDA code are equivalent to their sequential runs and race-free. (Lean Zulip announcements)</summary>
+ </entry>
+ <entry>
+  <id>https://s.conao3.com/blog/2026/e4f733</id>
+  <title>I checked Clojure's core with Lean and found unreported bugs</title>
+  <link href="https://s.conao3.com/blog/2026/e4f733" rel="alternate" />
+  <published>2026-11-25T14:56:52Z</published>
+  <updated>2026-11-25T14:56:52Z</updated>
+  <author>
+   <name>encyclopedism</name>
+  </author>
+  <category term="blog" />
+  <summary type="text">A blog post reports checking Clojure's core library with Lean and finding previously unreported bugs; a Hacker News discussion is linked. (Hacker News (200+ points))</summary>
  </entry>
  <entry>
   <id>https://github.com/google-research/google-research/tree/master/cogentic_research_papers</id>
@@ -629,17 +641,5 @@
   </author>
   <category term="lean" />
   <summary type="text">Lean Zulip discussion on why to clean up the multimillion-line Riemann hypothesis proof and what it would achieve. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot</id>
-  <title>Yes, 17M lines of Lean is a lot</title>
-  <link href="https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot" rel="alternate" />
-  <published>2026-11-23T05:00:49Z</published>
-  <updated>2026-11-23T05:00:49Z</updated>
-  <author>
-   <name>seizethecheese</name>
-  </author>
-  <category term="blog" />
-  <summary type="text">Blog post discussing the scale of a 17-million-line Lean codebase. (Hacker News (200+ points))</summary>
  </entry>
 </feed>

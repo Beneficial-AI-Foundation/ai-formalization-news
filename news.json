@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T01:21:28Z",
+ "updated": "2026-11-26T04:23:42Z",
  "items": [
   {
    "id": "u:e78d2ef884e8ada4",
@@ -85,6 +85,23 @@
    "source_text": "Hi all, I would like to share a project I am working on called Paralever, meaning (true) parallel program lean verification. As parallel programs are becoming more prominent for AI workloads, a need to verify correctness that the parallel programs (for example) written in CUDA, torch etc. are in fact equivalent to the sequential run and No Race conditions can occur. Hence, the goal is to prove sequential and parallel programs are equivalent(output wise) i.e. `ParSeqEq`. This project is done under Professor Siddhartha Gadgil, as part of my Semester Project at Indian Institute of Science…",
    "summary": "A Lean Zulip post presents Paralever, a project to prove that parallel programs such as CUDA code are equivalent to their sequential runs and race-free.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:f13df2f7366e7faa",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "I checked Clojure's core with Lean and found unreported bugs",
+   "url": "https://s.conao3.com/blog/2026/e4f733",
+   "authors": [
+    "encyclopedism"
+   ],
+   "published": "2026-11-25T14:56:52Z",
+   "fetched": "2026-11-26T04:23:42Z",
+   "source_text": "Link: https://s.conao3.com/blog/2026/e4f733. Discussed on Hacker News: 200 points, 70 comments. https://news.ycombinator.com/item?id=50642939",
+   "summary": "A blog post reports checking Clojure's core library with Lean and finding previously unreported bugs; a Hacker News discussion is linked.",
+   "score": 4,
    "relevant": true
   },
   {

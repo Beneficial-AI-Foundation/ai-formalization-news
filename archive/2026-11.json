@@ -106,6 +106,23 @@
    "relevant": true
   },
   {
+   "id": "u:f13df2f7366e7faa",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "I checked Clojure's core with Lean and found unreported bugs",
+   "url": "https://s.conao3.com/blog/2026/e4f733",
+   "authors": [
+    "encyclopedism"
+   ],
+   "published": "2026-11-25T14:56:52Z",
+   "fetched": "2026-11-26T04:23:42Z",
+   "source_text": "Link: https://s.conao3.com/blog/2026/e4f733. Discussed on Hacker News: 200 points, 70 comments. https://news.ycombinator.com/item?id=50642939",
+   "summary": "A blog post reports checking Clojure's core library with Lean and finding previously unreported bugs; a Hacker News discussion is linked.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:abef7dcffe0c6e9b",
    "type": "news",
    "source": "Hacker News (200+ points)",

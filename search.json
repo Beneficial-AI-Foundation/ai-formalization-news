@@ -68,6 +68,17 @@
    "lean-zulip"
   ],
   [
+   "u:f13df2f7366e7faa",
+   "blog",
+   "Hacker News (200+ points)",
+   "I checked Clojure's core with Lean and found unreported bugs",
+   "https://s.conao3.com/blog/2026/e4f733",
+   "2026-11-25T14:56:52Z",
+   "A blog post reports checking Clojure's core library with Lean and finding previously unreported bugs; a Hacker News discussion is linked.",
+   "encyclopedism",
+   "hackernews-top"
+  ],
+  [
    "u:abef7dcffe0c6e9b",
    "news",
    "Hacker News (200+ points)",
