@@ -1,7 +1,41 @@
 {
  "version": 1,
- "updated": "2026-11-25T20:20:54Z",
+ "updated": "2026-11-26T00:40:04Z",
  "items": [
+  {
+   "id": "u:cfeb72fa187c686b",
+   "type": "paper",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Formalizing Lifted Collatz Orbits in Lean 4",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Formalizing.20Lifted.20Collatz.20Orbits.20in.20Lean.204/near/643730780",
+   "authors": [
+    "Jeff Caldwell"
+   ],
+   "published": "2026-11-26T00:31:04Z",
+   "fetched": "2026-11-26T00:40:04Z",
+   "source_text": "# Lifted Collatz Trajectories in Lean 4 A formalization of division-free (\"lifted\") Collatz dynamics in Lean 4 and Mathlib, proving trajectory reversibility, Euler totient periodicity, infinite cycle tower reduction, sharpened 2-step growth bounds, and the non-existence of non-trivial odd Collatz cycles of length $n \\le 6$. All theorems and lemmas have blue checkmarks. No linter notes. No sorrys. Everything is done in the naturals, i.e. no $\\mathbb{Q}$ or $\\mathbb{Z}$. Repository URL: https://github.com/jdcal/LiftedCollatz",
+   "summary": "A Lean 4 and Mathlib formalization of division-free Collatz dynamics, with proofs of reversibility, periodicity, and non-existence of short odd cycles, all…",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:f63f4cad14680799",
+   "type": "news",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "authors": [
+    "nb-t"
+   ],
+   "published": "2026-11-25T21:48:10Z",
+   "fetched": "2026-11-26T00:40:04Z",
+   "source_text": "Link: https://github.com/lsernau/grh-lean. Discussed on Hacker News: 224 points, 99 comments. https://news.ycombinator.com/item?id=50648050",
+   "summary": "A shorter Lean verification of the generalized Riemann hypothesis (GRH) attributed to Anthropic, linked to a GitHub repository with a Hacker News discussion.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:c31465abe4a576c3",
    "type": "blog",

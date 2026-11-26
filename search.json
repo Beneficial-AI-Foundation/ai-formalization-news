@@ -13,6 +13,28 @@
  ],
  "rows": [
   [
+   "u:cfeb72fa187c686b",
+   "paper",
+   "Lean Zulip announcements",
+   "Formalizing Lifted Collatz Orbits in Lean 4",
+   "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Formalizing.20Lifted.20Collatz.20Orbits.20in.20Lean.204/near/643730780",
+   "2026-11-26T00:31:04Z",
+   "A Lean 4 and Mathlib formalization of division-free Collatz dynamics, with proofs of reversibility, periodicity, and non-existence of short odd cycles, all…",
+   "Jeff Caldwell",
+   "lean-zulip"
+  ],
+  [
+   "u:f63f4cad14680799",
+   "news",
+   "Hacker News (200+ points)",
+   "Much shorter version of GRH Lean verification from Anthropic",
+   "https://github.com/lsernau/grh-lean",
+   "2026-11-25T21:48:10Z",
+   "A shorter Lean verification of the generalized Riemann hypothesis (GRH) attributed to Anthropic, linked to a GitHub repository with a Hacker News discussion.",
+   "nb-t",
+   "hackernews-top"
+  ],
+  [
    "u:c31465abe4a576c3",
    "blog",
    "Hacker News (200+ points)",

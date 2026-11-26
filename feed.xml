@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-25T20:20:54Z</updated>
+ <updated>2026-11-26T00:40:04Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Formalizing.20Lifted.20Collatz.20Orbits.20in.20Lean.204/near/643730780</id>
+  <title>Formalizing Lifted Collatz Orbits in Lean 4</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Formalizing.20Lifted.20Collatz.20Orbits.20in.20Lean.204/near/643730780" rel="alternate" />
+  <published>2026-11-26T00:31:04Z</published>
+  <updated>2026-11-26T00:31:04Z</updated>
+  <author>
+   <name>Jeff Caldwell</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">A Lean 4 and Mathlib formalization of division-free Collatz dynamics, with proofs of reversibility, periodicity, and non-existence of short odd cycles, all… (Lean Zulip announcements)</summary>
+ </entry>
+ <entry>
+  <id>https://github.com/lsernau/grh-lean</id>
+  <title>Much shorter version of GRH Lean verification from Anthropic</title>
+  <link href="https://github.com/lsernau/grh-lean" rel="alternate" />
+  <published>2026-11-25T21:48:10Z</published>
+  <updated>2026-11-25T21:48:10Z</updated>
+  <author>
+   <name>nb-t</name>
+  </author>
+  <category term="news" />
+  <summary type="text">A shorter Lean verification of the generalized Riemann hypothesis (GRH) attributed to Anthropic, linked to a GitHub repository with a Hacker News discussion. (Hacker News (200+ points))</summary>
+ </entry>
  <entry>
   <id>https://scottaaronson.blog/?p=10379</id>
   <title>Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]</title>
@@ -623,29 +647,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Presents BudgetPV, a budget-aware predict-and-verify system allocating heterogeneous LLM solvers across subgoals in theorem proving. (arXiv cs.AI)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/lean4lean.2C.20ZFC.2C.20equiconsistency/near/642764902</id>
-  <title>lean4lean, ZFC, equiconsistency</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/lean4lean.2C.20ZFC.2C.20equiconsistency/near/642764902" rel="alternate" />
-  <published>2026-11-23T04:34:57Z</published>
-  <updated>2026-11-23T04:34:57Z</updated>
-  <author>
-   <name>Timothy Chow</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Lean Zulip discussion on whether Lean 4 is equiconsistent with ZFC, noting a gap in an earlier thesis and the lack of an agreed definition of Lean 4. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://pengowray.github.io/riemann-zeta-proof-visualizer</id>
-  <title>Treemap of the Riemann Hypothesis Lean Proof</title>
-  <link href="https://pengowray.github.io/riemann-zeta-proof-visualizer" rel="alternate" />
-  <published>2026-11-23T01:50:23Z</published>
-  <updated>2026-11-23T01:50:23Z</updated>
-  <author>
-   <name>pengowray</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Hacker News item linking to a treemap visualization of the Riemann Hypothesis Lean proof. (Hacker News)</summary>
  </entry>
 </feed>
