@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T06:31:27Z",
+ "updated": "2026-11-26T19:20:49Z",
  "items": [
   {
    "id": "u:f63b444c28a023e4",
@@ -2012,6 +2012,21 @@
    "fetched": "2026-11-23T06:45:41Z",
    "source_text": "Safe reinforcement learning (RL) aims to prevent agents from taking actions that are dangerous or destructive to their environment. This is especially important for safety-critical domains, such as robotics or autonomous driving. Formal verification can be used to prove agent safety through safety constraints. However, in practice, many policies do violate safety constraints, and thus are verified to be unsafe. Since the goal is to obtain a safe policy, we would need to retrain a new policy from scratch and then verify it again until a candidate happens to pass. Both training and…",
    "summary": "Proposes verifiable symbolic policy adaptation for safe reinforcement learning, using formal verification to check policy safety constraints.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:6b47f3e610f3622c",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Formalization of Lexicographic Breadth-First Search",
+   "url": "https://isa-afp.org/entries/Lexicographic_BFS.html",
+   "authors": [],
+   "published": "2026-11-18T00:00:00Z",
+   "fetched": "2026-11-26T19:20:49Z",
+   "source_text": "Formalization of Lexicographic Breadth-First Search in the AFP",
+   "summary": "Formalization of lexicographic breadth-first search entered in the Archive of Formal Proofs.",
    "score": 3,
    "relevant": true
   },

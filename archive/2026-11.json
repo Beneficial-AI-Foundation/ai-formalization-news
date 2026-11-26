@@ -2241,6 +2241,21 @@
    "relevant": true
   },
   {
+   "id": "u:6b47f3e610f3622c",
+   "type": "paper",
+   "source": "Archive of Formal Proofs",
+   "source_id": "afp",
+   "title": "Formalization of Lexicographic Breadth-First Search",
+   "url": "https://isa-afp.org/entries/Lexicographic_BFS.html",
+   "authors": [],
+   "published": "2026-11-18T00:00:00Z",
+   "fetched": "2026-11-26T19:20:49Z",
+   "source_text": "Formalization of Lexicographic Breadth-First Search in the AFP",
+   "summary": "Formalization of lexicographic breadth-first search entered in the Archive of Formal Proofs.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:2226859d230100de",
    "type": "social",
    "source": "Lean FRO on Bluesky",
