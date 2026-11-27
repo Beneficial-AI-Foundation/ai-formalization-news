@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:895ee05f2dddba85",
+   "news",
+   "Hacker News",
+   "Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis",
+   "https://maic.me/alpoge",
+   "2026-11-26T20:28:30Z",
+   "A Show HN post presenting an interactive explorer for a 17-million-line Lean proof of the Riemann Hypothesis.",
+   "Maicon",
+   "hackernews"
+  ],
+  [
    "u:f63b444c28a023e4",
    "social",
    "#leanprover on Mathstodon",

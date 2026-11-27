@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-26T06:31:27Z</updated>
+ <updated>2026-11-27T07:22:50Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://maic.me/alpoge</id>
+  <title>Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis</title>
+  <link href="https://maic.me/alpoge" rel="alternate" />
+  <published>2026-11-26T20:28:30Z</published>
+  <updated>2026-11-26T20:28:30Z</updated>
+  <author>
+   <name>Maicon</name>
+  </author>
+  <category term="news" />
+  <summary type="text">A Show HN post presenting an interactive explorer for a 17-million-line Lean proof of the Riemann Hypothesis. (Hacker News)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@karlesmarin/117681113451491662</id>
   <title>🧩 A practical guide to the Reusable layer of my formalizations: 56 machine-checked Lean 4 theorems from my papers, ready to import into…</title>
@@ -656,17 +668,5 @@
   </author>
   <category term="social" />
   <summary type="text">A post by Dhruv Gupta says he formalized the fundamental theorem of statistical learning in Lean in three weeks, linking an OpenReview paper. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665325741464147</id>
-  <title>Interval-based verification of neural networks: formally verified!. ~ Achim D. Brucker, Amy Stell…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665325741464147" rel="alternate" />
-  <published>2026-11-23T10:39:45Z</published>
-  <updated>2026-11-23T10:39:45Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Paper on interval-based verification of neural networks, presented as formally verified in Isabelle/HOL. (#itp on Mathstodon)</summary>
  </entry>
 </feed>

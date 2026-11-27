@@ -1,7 +1,24 @@
 {
  "version": 1,
- "updated": "2026-11-26T19:20:49Z",
+ "updated": "2026-11-27T07:22:50Z",
  "items": [
+  {
+   "id": "u:895ee05f2dddba85",
+   "type": "news",
+   "source": "Hacker News",
+   "source_id": "hackernews",
+   "title": "Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis",
+   "url": "https://maic.me/alpoge",
+   "authors": [
+    "Maicon"
+   ],
+   "published": "2026-11-26T20:28:30Z",
+   "fetched": "2026-11-27T07:22:50Z",
+   "source_text": "Link: https://maic.me/alpoge/. Discussed on Hacker News: 5 points, 0 comments. https://news.ycombinator.com/item?id=50659404",
+   "summary": "A Show HN post presenting an interactive explorer for a 17-million-line Lean proof of the Riemann Hypothesis.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:f63b444c28a023e4",
    "type": "social",
