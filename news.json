@@ -1,7 +1,41 @@
 {
  "version": 1,
- "updated": "2026-11-27T11:21:13Z",
+ "updated": "2026-11-27T12:27:52Z",
  "items": [
+  {
+   "id": "u:7aa9aa5a892f67f7",
+   "type": "social",
+   "source": "#itp on Mathstodon",
+   "source_id": "mathstodon-itp",
+   "title": "Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688226601697288",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:43:44Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel. https://isa-afp.org/entries/Lexicographic_BFS.html #IsabelleHOL #ITP",
+   "summary": "Announces an Isabelle/HOL formalization of lexicographic breadth-first search in the Archive of Formal Proofs.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:e35dbdbf6c3b7f68",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Anatomia d’un projecte en Lean. ~ Joaquim Puig. https://web.mat.upc.edu/joaquim.puig/posts/anatomia_dun_projecte_en_lean/ #LeanProver…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688185032670172",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:33:10Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Anatomia d’un projecte en Lean. ~ Joaquim Puig. https://web.mat.upc.edu/joaquim.puig/posts/anatomia_dun_projecte_en_lean/ #LeanProver #LeanLang #ITP",
+   "summary": "A Catalan-language blog post by Joaquim Puig describing the anatomy of a Lean project.",
+   "score": 3,
+   "relevant": true
+  },
   {
    "id": "u:f8ff7915aa72f1b8",
    "type": "social",

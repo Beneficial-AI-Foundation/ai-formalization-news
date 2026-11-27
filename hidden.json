@@ -1,7 +1,25 @@
 {
  "version": 1,
- "updated": "2026-11-25T22:20:57Z",
+ "updated": "2026-11-27T12:27:52Z",
  "items": [
+  {
+   "id": "u:870f3639fc42e78f",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Avances matemáticos de ayer y hoy: VP ≠ VNP, multiplicaciones de matrices y cuestionamiento sobre lo de Riemann. ~ Alvy…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688209792596235",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:39:28Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Avances matemáticos de ayer y hoy: VP ≠ VNP, multiplicaciones de matrices y cuestionamiento sobre lo de Riemann. ~ Alvy. https://www.microsiervos.com/archivo/matematicas/vp-vnp-multiplicacion-matrices-riemann.html #AI4Math #AI #Math #LeanProver #LeanLang",
+   "summary": "A Spanish-language roundup of math advances covering VP versus VNP, matrix multiplication and the Riemann hypothesis, with no formalization content in the text.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
   {
    "id": "u:cbdde3b97d33780e",
    "type": "social",

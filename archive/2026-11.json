@@ -3,6 +3,58 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:7aa9aa5a892f67f7",
+   "type": "social",
+   "source": "#itp on Mathstodon",
+   "source_id": "mathstodon-itp",
+   "title": "Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688226601697288",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:43:44Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel. https://isa-afp.org/entries/Lexicographic_BFS.html #IsabelleHOL #ITP",
+   "summary": "Announces an Isabelle/HOL formalization of lexicographic breadth-first search in the Archive of Formal Proofs.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:870f3639fc42e78f",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Avances matemáticos de ayer y hoy: VP ≠ VNP, multiplicaciones de matrices y cuestionamiento sobre lo de Riemann. ~ Alvy…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688209792596235",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:39:28Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Avances matemáticos de ayer y hoy: VP ≠ VNP, multiplicaciones de matrices y cuestionamiento sobre lo de Riemann. ~ Alvy. https://www.microsiervos.com/archivo/matematicas/vp-vnp-multiplicacion-matrices-riemann.html #AI4Math #AI #Math #LeanProver #LeanLang",
+   "summary": "A Spanish-language roundup of math advances covering VP versus VNP, matrix multiplication and the Riemann hypothesis, with no formalization content in the text.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:e35dbdbf6c3b7f68",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Anatomia d’un projecte en Lean. ~ Joaquim Puig. https://web.mat.upc.edu/joaquim.puig/posts/anatomia_dun_projecte_en_lean/ #LeanProver…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688185032670172",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T11:33:10Z",
+   "fetched": "2026-11-27T12:27:52Z",
+   "source_text": "Anatomia d’un projecte en Lean. ~ Joaquim Puig. https://web.mat.upc.edu/joaquim.puig/posts/anatomia_dun_projecte_en_lean/ #LeanProver #LeanLang #ITP",
+   "summary": "A Catalan-language blog post by Joaquim Puig describing the anatomy of a Lean project.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:f8ff7915aa72f1b8",
    "type": "social",
    "source": "#itp on Mathstodon",

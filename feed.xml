@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-27T11:21:13Z</updated>
+ <updated>2026-11-27T12:27:52Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117688226601697288</id>
+  <title>Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117688226601697288" rel="alternate" />
+  <published>2026-11-27T11:43:44Z</published>
+  <updated>2026-11-27T11:43:44Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Announces an Isabelle/HOL formalization of lexicographic breadth-first search in the Archive of Formal Proofs. (#itp on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117688185032670172</id>
+  <title>Anatomia d’un projecte en Lean. ~ Joaquim Puig. https://web.mat.upc.edu/joaquim.puig/posts/anatomia_dun_projecte_en_lean/ #LeanProver…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117688185032670172" rel="alternate" />
+  <published>2026-11-27T11:33:10Z</published>
+  <updated>2026-11-27T11:33:10Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A Catalan-language blog post by Joaquim Puig describing the anatomy of a Lean project. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117688009211453855</id>
   <title>Countable infinite version of Dilworth’s theorem. ~ Fabián Fernando Serrano Suárez, Thaynara Arielly de Lima, Mauricio Ayala-Rincón…</title>
@@ -644,29 +668,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Non-amplification rule for AI agent tool schema updates, with a Coq proof of composition and regression tests. (arXiv cs.AI)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Lean0/near/642896868</id>
-  <title>Lean0</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI.20authored.20projects/topic/Lean0/near/642896868" rel="alternate" />
-  <published>2026-11-23T13:20:41Z</published>
-  <updated>2026-11-23T13:20:41Z</updated>
-  <author>
-   <name>Graham Leach-Krouse</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Lean0 is a work-in-progress axiomatization of Lean 4's type theory in Metamath Zero, with proof extraction from nanoda and validation of Init and Std. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Extensible.20Auto-Formatter.20for.20Lean/near/642879444</id>
-  <title>Discussion: Extensible Auto-Formatter for Lean</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Extensible.20Auto-Formatter.20for.20Lean/near/642879444" rel="alternate" />
-  <published>2026-11-23T12:18:31Z</published>
-  <updated>2026-11-23T12:18:31Z</updated>
-  <author>
-   <name>Marc Huisinga</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Lean Zulip discussion thread for the new extensible auto-formatter announcement. (Lean Zulip discussions)</summary>
  </entry>
 </feed>
