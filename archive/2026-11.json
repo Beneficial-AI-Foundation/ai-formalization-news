@@ -141,6 +141,23 @@
    "relevant": true
   },
   {
+   "id": "u:46cd86bf0efb5023",
+   "type": "blog",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "The need for a formally verifiable mainstream programming language",
+   "url": "https://blainehansen.me/post/mainstream-verifiable-language",
+   "authors": [
+    "todsacerdoti"
+   ],
+   "published": "2026-11-27T05:22:06Z",
+   "fetched": "2026-11-27T14:21:42Z",
+   "source_text": "Link: https://blainehansen.me/post/mainstream-verifiable-language/. Discussed on Hacker News: 214 points, 195 comments. https://news.ycombinator.com/item?id=50663089",
+   "summary": "Blog post arguing for a mainstream programming language that is formally verifiable, discussed on Hacker News with 195 comments.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:895ee05f2dddba85",
    "type": "news",
    "source": "Hacker News",
@@ -155,6 +172,40 @@
    "source_text": "Link: https://maic.me/alpoge/. Discussed on Hacker News: 5 points, 0 comments. https://news.ycombinator.com/item?id=50659404",
    "summary": "A Show HN post presenting an interactive explorer for a 17-million-line Lean proof of the Riemann Hypothesis.",
    "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:e25551c98e2b4987",
+   "type": "lean",
+   "source": "Anthropic formal-math (GitHub)",
+   "source_id": "anthropic-formal-math",
+   "title": "README: add vp-vnp to project table",
+   "url": "https://github.com/anthropics/formal-math/commit/6b92873c997b87a3ed423000d77f03f4bfa5b062",
+   "authors": [
+    "juliwind"
+   ],
+   "published": "2026-11-26T16:20:23Z",
+   "fetched": "2026-11-27T14:21:42Z",
+   "source_text": "README: add vp-vnp to project table",
+   "summary": "A README update adding the vp-vnp project to a formal-math project table.",
+   "score": 2,
+   "relevant": true
+  },
+  {
+   "id": "u:2b486b30a6ceff4e",
+   "type": "lean",
+   "source": "Anthropic formal-math (GitHub)",
+   "source_id": "anthropic-formal-math",
+   "title": "README: drop review note from vp-vnp row",
+   "url": "https://github.com/anthropics/formal-math/commit/d817c088ead81eb68dc1632eee84f7b176185ecd",
+   "authors": [
+    "juliwind"
+   ],
+   "published": "2026-11-26T16:20:23Z",
+   "fetched": "2026-11-27T14:21:42Z",
+   "source_text": "README: drop review note from vp-vnp row",
+   "summary": "A README edit removing a review note from the vp-vnp row of a formal-math project table.",
+   "score": 1,
    "relevant": true
   },
   {

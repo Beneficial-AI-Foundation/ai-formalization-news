@@ -79,6 +79,17 @@
    "mathstodon-leanprover"
   ],
   [
+   "u:46cd86bf0efb5023",
+   "blog",
+   "Hacker News (200+ points)",
+   "The need for a formally verifiable mainstream programming language",
+   "https://blainehansen.me/post/mainstream-verifiable-language",
+   "2026-11-27T05:22:06Z",
+   "Blog post arguing for a mainstream programming language that is formally verifiable, discussed on Hacker News with 195 comments.",
+   "todsacerdoti",
+   "hackernews-top"
+  ],
+  [
    "u:895ee05f2dddba85",
    "news",
    "Hacker News",
@@ -88,6 +99,28 @@
    "A Show HN post presenting an interactive explorer for a 17-million-line Lean proof of the Riemann Hypothesis.",
    "Maicon",
    "hackernews"
+  ],
+  [
+   "u:e25551c98e2b4987",
+   "lean",
+   "Anthropic formal-math (GitHub)",
+   "README: add vp-vnp to project table",
+   "https://github.com/anthropics/formal-math/commit/6b92873c997b87a3ed423000d77f03f4bfa5b062",
+   "2026-11-26T16:20:23Z",
+   "A README update adding the vp-vnp project to a formal-math project table.",
+   "juliwind",
+   "anthropic-formal-math"
+  ],
+  [
+   "u:2b486b30a6ceff4e",
+   "lean",
+   "Anthropic formal-math (GitHub)",
+   "README: drop review note from vp-vnp row",
+   "https://github.com/anthropics/formal-math/commit/d817c088ead81eb68dc1632eee84f7b176185ecd",
+   "2026-11-26T16:20:23Z",
+   "A README edit removing a review note from the vp-vnp row of a formal-math project table.",
+   "juliwind",
+   "anthropic-formal-math"
   ],
   [
    "u:f63b444c28a023e4",
