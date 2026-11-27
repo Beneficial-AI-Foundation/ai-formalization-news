@@ -3,12 +3,48 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-27T08:25:10Z</updated>
+ <updated>2026-11-27T11:21:13Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117688009211453855</id>
+  <title>Countable infinite version of Dilworth’s theorem. ~ Fabián Fernando Serrano Suárez, Thaynara Arielly de Lima, Mauricio Ayala-Rincón…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117688009211453855" rel="alternate" />
+  <published>2026-11-27T10:48:27Z</published>
+  <updated>2026-11-27T10:48:27Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A countable infinite version of Dilworth's theorem, presented as an Isabelle/HOL Archive of Formal Proofs entry. (#itp on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117687999900104780</id>
+  <title>Mechanizations of Gödel’s incompleteness theorems. ~ Andrea Vestrucci. https://www.researchgate.net/publication/418153755_Mechanizations_of…</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117687999900104780" rel="alternate" />
+  <published>2026-11-27T10:46:05Z</published>
+  <updated>2026-11-27T10:46:05Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Andrea Vestrucci's work on machine-checked mechanizations of Gödel's incompleteness theorems in systems such as Nqthm, HOL Light, Rocq and Isabelle/HOL. (#itp on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117687957657283935</id>
+  <title>Moonshine conjecture formalized. ~ Jin-Cheng Guu. https://arxiv.org/abs/2611.27001 #LeanProver #LeanLang #ITP #Math</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117687957657283935" rel="alternate" />
+  <published>2026-11-27T10:35:21Z</published>
+  <updated>2026-11-27T10:35:21Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Jin-Cheng Guu's paper formalizing the Moonshine conjecture in Lean. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117687389159672737</id>
   <title>Lean: Machine-checked mathematics, software, and AI. ~ Leonardo de Moura. https://youtu.be/hhB8X0quC1g #LeanProver #LeanLang #Math #AI</title>
@@ -632,41 +668,5 @@
   </author>
   <category term="lean" />
   <summary type="text">Lean Zulip discussion thread for the new extensible auto-formatter announcement. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Extensible.20Auto-Formatter.20for.20Lean/near/642879013</id>
-  <title>Extensible Auto-Formatter for Lean</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/113486-General.20announcements/topic/Extensible.20Auto-Formatter.20for.20Lean/near/642879013" rel="alternate" />
-  <published>2026-11-23T12:16:53Z</published>
-  <updated>2026-11-23T12:16:53Z</updated>
-  <author>
-   <name>Marc Huisinga</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Announcement that an extensible auto-formatter for Lean has been merged, to be released in v4.38.0-rc1. (Lean Zulip announcements)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191</id>
-  <title>Validating a Lean proof. https://lean-lang.org/doc/reference/latest/ValidatingProofs #LeanProver #LeanLang #ITP</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665605444478191" rel="alternate" />
-  <published>2026-11-23T11:50:53Z</published>
-  <updated>2026-11-23T11:50:53Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Post linking to the Lean reference documentation page on validating Lean proofs. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053</id>
-  <title>Lean for mathematics. ~ Peter Selinger. https://www.mathstat.dal.ca/~selinger/4680/ #LeanProver #LeanLang #ITP #Math</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665589777466053" rel="alternate" />
-  <published>2026-11-23T11:46:54Z</published>
-  <updated>2026-11-23T11:46:54Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">Post linking to Peter Selinger's course page on using Lean for mathematics. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

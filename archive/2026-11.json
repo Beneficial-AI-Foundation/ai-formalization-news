@@ -3,6 +3,57 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:f8ff7915aa72f1b8",
+   "type": "social",
+   "source": "#itp on Mathstodon",
+   "source_id": "mathstodon-itp",
+   "title": "Countable infinite version of Dilworth’s theorem. ~ Fabián Fernando Serrano Suárez, Thaynara Arielly de Lima, Mauricio Ayala-Rincón…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117688009211453855",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T10:48:27Z",
+   "fetched": "2026-11-27T11:21:13Z",
+   "source_text": "Countable infinite version of Dilworth’s theorem. ~ Fabián Fernando Serrano Suárez, Thaynara Arielly de Lima, Mauricio Ayala-Rincón. https://isa-afp.org/browser_info/current/AFP/Dilworth_Countable/document.pdf #IsabelleHOL #ITP #Math",
+   "summary": "A countable infinite version of Dilworth's theorem, presented as an Isabelle/HOL Archive of Formal Proofs entry.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:820feee778b0b131",
+   "type": "social",
+   "source": "#itp on Mathstodon",
+   "source_id": "mathstodon-itp",
+   "title": "Mechanizations of Gödel’s incompleteness theorems. ~ Andrea Vestrucci. https://www.researchgate.net/publication/418153755_Mechanizations_of…",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117687999900104780",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T10:46:05Z",
+   "fetched": "2026-11-27T11:21:13Z",
+   "source_text": "Mechanizations of Gödel’s incompleteness theorems. ~ Andrea Vestrucci. https://www.researchgate.net/publication/418153755_Mechanizations_of_Godel's_Incompleteness_Theorems #Nqthm #HOL_Light #Rocq #Isabelle/HOL #ITP #Logic #Math",
+   "summary": "Andrea Vestrucci's work on machine-checked mechanizations of Gödel's incompleteness theorems in systems such as Nqthm, HOL Light, Rocq and Isabelle/HOL.",
+   "score": 4,
+   "relevant": true
+  },
+  {
+   "id": "u:98c3c19a86436942",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Moonshine conjecture formalized. ~ Jin-Cheng Guu. https://arxiv.org/abs/2611.27001 #LeanProver #LeanLang #ITP #Math",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117687957657283935",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T10:35:21Z",
+   "fetched": "2026-11-27T11:21:13Z",
+   "source_text": "Moonshine conjecture formalized. ~ Jin-Cheng Guu. https://arxiv.org/abs/2611.27001 #LeanProver #LeanLang #ITP #Math",
+   "summary": "Jin-Cheng Guu's paper formalizing the Moonshine conjecture in Lean.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:434b175e0c1fc34e",
    "type": "social",
    "source": "#leanprover on Mathstodon",
