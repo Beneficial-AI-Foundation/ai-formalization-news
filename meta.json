@@ -1,7 +1,7 @@
 {
  "version": 1,
- "last_run": "2026-11-27T05:22:33Z",
- "duration_seconds": 17.0,
+ "last_run": "2026-11-27T06:31:24Z",
+ "duration_seconds": 24.8,
  "counts": {
   "items_in_news": 267,
   "items_in_hidden": 42,
@@ -9,7 +9,7 @@
   "new_kept": 0,
   "new_rejected": 0,
   "new_hidden": 0,
-  "new_dropped": 1
+  "new_dropped": 2
  },
  "sources": [
   {
@@ -17,28 +17,28 @@
    "name": "arXiv",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 127,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-26T06:31:27Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "arxiv-rss",
    "name": "arXiv cs.LO and cs.PL",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "ok",
+   "http_status": 200,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-26T06:31:27Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "lean-blog",
@@ -66,7 +66,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "hackernews",
@@ -80,7 +80,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "hackernews-top",
@@ -89,12 +89,12 @@
    "enabled": true,
    "status": "ok",
    "http_status": 200,
-   "fetched": 36,
-   "new": 1,
+   "fetched": 38,
+   "new": 2,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "lean-zulip",
@@ -108,7 +108,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "lean-zulip-discussions",
@@ -122,7 +122,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "afp",
@@ -164,7 +164,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "rocq-discourse",
@@ -290,7 +290,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "mathstodon-formalverification",
@@ -304,7 +304,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "mathstodon-itp",
@@ -318,7 +318,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "mathstodon-agda",
@@ -332,7 +332,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "mathstodon-rocq",
@@ -346,7 +346,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "mathstodon-isabelle",
@@ -360,7 +360,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "forsyte",
@@ -402,7 +402,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "openai-math",
@@ -416,35 +416,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "deepmind-blog",
    "name": "Google DeepMind blog",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 14,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T00:40:51Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "openai-news",
    "name": "OpenAI news",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 98,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T00:40:51Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   },
   {
    "id": "lab-lean-repos",
@@ -458,7 +458,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T05:22:33Z"
+   "last_fetch": "2026-11-27T06:31:24Z"
   }
  ],
  "errors": [],
@@ -467,17 +467,17 @@
   "model": "claude-haiku-5-5",
   "route": "anthropic",
   "fallback": false,
-  "input_tokens": 1828,
-  "output_tokens": 89,
+  "input_tokens": 1937,
+  "output_tokens": 158,
   "requests": 1,
-  "items_sent": 1,
-  "judged": 1,
+  "items_sent": 2,
+  "judged": 2,
   "hidden": 0,
-  "dropped": 1,
+  "dropped": 2,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
   "errors": [],
-  "seconds": 1.5
+  "seconds": 1.7
  }
 }
