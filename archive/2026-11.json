@@ -55,6 +55,24 @@
    "relevant": true
   },
   {
+   "id": "u:c7e50e0086f57ff1",
+   "type": "news",
+   "source": "Rocq Discourse",
+   "source_id": "rocq-discourse",
+   "title": "Tenure-track Openings at Max Planck Institutes in Computer Science (Deadline: December 1, 2026)",
+   "url": "https://discourse.rocq-prover.org/t/tenure-track-openings-at-max-planck-institutes-in-computer-science-deadline-december-1-2026/3215",
+   "authors": [
+    "catalin.hritcu"
+   ],
+   "published": "2026-11-27T11:13:07Z",
+   "fetched": "2026-11-27T13:21:19Z",
+   "source_text": "We are hiring! Tenure-track faculty positions The Max Planck Institutes (MPIs) for Informatics, for Security & Privacy, and for Software Systems invite applications for tenure-track faculty in all areas of computer science. We expect to fill several positions. Deadline: December 1st, 2026 Why should you apply? Faculty enjoy full academic freedom, lead a team of doctoral students and post-docs, and have the opportunity to teach university courses; at the same time, they enjoy ongoing institutional funding in addition to third-party funds, a technical infrastructure unrivaled for an academic…",
+   "summary": "Tenure-track faculty openings at Max Planck Institutes for Informatics, Security & Privacy, and Software Systems, with a December 1, 2026 deadline; no…",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
    "id": "u:f8ff7915aa72f1b8",
    "type": "social",
    "source": "#itp on Mathstodon",
