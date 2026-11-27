@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-27T07:22:50Z</updated>
+ <updated>2026-11-27T08:25:10Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mathstodon.xyz/@Jose_A_Alonso/117687389159672737</id>
+  <title>Lean: Machine-checked mathematics, software, and AI. ~ Leonardo de Moura. https://youtu.be/hhB8X0quC1g #LeanProver #LeanLang #Math #AI</title>
+  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117687389159672737" rel="alternate" />
+  <published>2026-11-27T08:10:46Z</published>
+  <updated>2026-11-27T08:10:46Z</updated>
+  <author>
+   <name>@Jose_A_Alonso@mathstodon.xyz</name>
+  </author>
+  <category term="social" />
+  <summary type="text">Post promoting a talk by Leonardo de Moura on Lean for machine-checked mathematics, software and AI, with a video link. (#leanprover on Mathstodon)</summary>
+ </entry>
  <entry>
   <id>https://maic.me/alpoge</id>
   <title>Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis</title>
@@ -656,17 +668,5 @@
   </author>
   <category term="social" />
   <summary type="text">Post linking to Peter Selinger's course page on using Lean for mathematics. (#leanprover on Mathstodon)</summary>
- </entry>
- <entry>
-  <id>https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897</id>
-  <title>The fundamental theorem of statistical learning in three weeks. ~ Dhruv Gupta. https://openreview.net/pdf?id=Q12q9GTGKY #LeanProver…</title>
-  <link href="https://mathstodon.xyz/@Jose_A_Alonso/117665485834063897" rel="alternate" />
-  <published>2026-11-23T11:20:28Z</published>
-  <updated>2026-11-23T11:20:28Z</updated>
-  <author>
-   <name>@Jose_A_Alonso@mathstodon.xyz</name>
-  </author>
-  <category term="social" />
-  <summary type="text">A post by Dhruv Gupta says he formalized the fundamental theorem of statistical learning in Lean in three weeks, linking an OpenReview paper. (#leanprover on Mathstodon)</summary>
  </entry>
 </feed>

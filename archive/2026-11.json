@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:434b175e0c1fc34e",
+   "type": "social",
+   "source": "#leanprover on Mathstodon",
+   "source_id": "mathstodon-leanprover",
+   "title": "Lean: Machine-checked mathematics, software, and AI. ~ Leonardo de Moura. https://youtu.be/hhB8X0quC1g #LeanProver #LeanLang #Math #AI",
+   "url": "https://mathstodon.xyz/@Jose_A_Alonso/117687389159672737",
+   "authors": [
+    "@Jose_A_Alonso@mathstodon.xyz"
+   ],
+   "published": "2026-11-27T08:10:46Z",
+   "fetched": "2026-11-27T08:25:10Z",
+   "source_text": "Lean: Machine-checked mathematics, software, and AI. ~ Leonardo de Moura. https://youtu.be/hhB8X0quC1g #LeanProver #LeanLang #Math #AI",
+   "summary": "Post promoting a talk by Leonardo de Moura on Lean for machine-checked mathematics, software and AI, with a video link.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:895ee05f2dddba85",
    "type": "news",
    "source": "Hacker News",

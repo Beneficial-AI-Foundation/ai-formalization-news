@@ -13,6 +13,17 @@
  ],
  "rows": [
   [
+   "u:434b175e0c1fc34e",
+   "social",
+   "#leanprover on Mathstodon",
+   "Lean: Machine-checked mathematics, software, and AI. ~ Leonardo de Moura. https://youtu.be/hhB8X0quC1g #LeanProver #LeanLang #Math #AI",
+   "https://mathstodon.xyz/@Jose_A_Alonso/117687389159672737",
+   "2026-11-27T08:10:46Z",
+   "Post promoting a talk by Leonardo de Moura on Lean for machine-checked mathematics, software and AI, with a video link.",
+   "@Jose_A_Alonso@mathstodon.xyz",
+   "mathstodon-leanprover"
+  ],
+  [
    "u:895ee05f2dddba85",
    "news",
    "Hacker News",
