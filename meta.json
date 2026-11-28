@@ -1,15 +1,15 @@
 {
  "version": 1,
- "last_run": "2026-11-28T05:20:50Z",
- "duration_seconds": 14.8,
+ "last_run": "2026-11-28T07:21:03Z",
+ "duration_seconds": 92.4,
  "counts": {
   "items_in_news": 279,
   "items_in_hidden": 44,
   "archive_total": 323,
-  "new_kept": 2,
+  "new_kept": 0,
   "new_rejected": 0,
   "new_hidden": 0,
-  "new_dropped": 0
+  "new_dropped": 2
  },
  "sources": [
   {
@@ -17,12 +17,12 @@
    "name": "arXiv",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "error",
+   "http_status": 429,
    "fetched": 0,
    "new": 0,
    "kept": 0,
-   "error": null,
+   "error": "HTTP 429 from https://export.arxiv.org/api/query",
    "warning": null,
    "last_fetch": "2026-11-27T06:31:24Z"
   },
@@ -38,21 +38,21 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-27T06:31:24Z"
+   "last_fetch": "2026-11-28T06:28:33Z"
   },
   {
    "id": "lean-blog",
    "name": "Lean community blog",
    "type": "lean",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 1,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "lean4-releases",
@@ -66,7 +66,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "hackernews",
@@ -80,7 +80,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "hackernews-top",
@@ -90,11 +90,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 32,
-   "new": 1,
-   "kept": 1,
+   "new": 2,
+   "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "lean-zulip",
@@ -108,7 +108,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "lean-zulip-discussions",
@@ -122,35 +122,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "afp",
    "name": "Archive of Formal Proofs",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "xena",
    "name": "Xena (Kevin Buzzard)",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "lean-fro-bluesky",
@@ -164,21 +164,21 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "rocq-discourse",
    "name": "Rocq Discourse",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 16,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "rocq-changelog",
@@ -213,70 +213,70 @@
    "name": "Quanta Magazine, mathematics",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "quanta-cs",
    "name": "Quanta Magazine, computer science",
    "type": "news",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "hf-daily-papers",
    "name": "Hugging Face Daily Papers",
    "type": "paper",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 20,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "tao-blog",
    "name": "Terence Tao, What's new",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 10,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "paulson-blog",
    "name": "Lawrence Paulson, Machine Logic",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
+   "status": "not_modified",
+   "http_status": 304,
    "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T01:21:48Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-leanprover",
@@ -290,7 +290,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-formalverification",
@@ -300,11 +300,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 15,
-   "new": 1,
-   "kept": 1,
+   "new": 0,
+   "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-itp",
@@ -318,7 +318,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-agda",
@@ -332,7 +332,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-rocq",
@@ -346,7 +346,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "mathstodon-isabelle",
@@ -360,7 +360,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "forsyte",
@@ -402,7 +402,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "openai-math",
@@ -416,35 +416,35 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "deepmind-blog",
    "name": "Google DeepMind blog",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 13,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T00:39:14Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "openai-news",
    "name": "OpenAI news",
    "type": "blog",
    "enabled": true,
-   "status": "skipped",
-   "http_status": null,
-   "fetched": 0,
+   "status": "ok",
+   "http_status": 200,
+   "fetched": 92,
    "new": 0,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T00:39:14Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   },
   {
    "id": "lab-lean-repos",
@@ -458,10 +458,14 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T05:20:50Z"
+   "last_fetch": "2026-11-28T07:21:03Z"
   }
  ],
  "errors": [
+  {
+   "source": "arxiv-api",
+   "error": "HTTP 429 from https://export.arxiv.org/api/query"
+  },
   {
    "source": "claude",
    "error": "Anthropic failed (BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.'}, 'requ); this run used OpenRouter instead"
@@ -472,19 +476,19 @@
   "model": "anthropic/claude-haiku-5.5",
   "route": "openrouter",
   "fallback": true,
-  "input_tokens": 2024,
-  "output_tokens": 189,
+  "input_tokens": 1973,
+  "output_tokens": 160,
   "requests": 1,
   "items_sent": 2,
   "judged": 2,
   "hidden": 0,
-  "dropped": 0,
+  "dropped": 2,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
   "errors": [
    "Anthropic failed (BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.'}, 'requ); this run used OpenRouter instead"
   ],
-  "seconds": 1.4
+  "seconds": 1.8
  }
 }
