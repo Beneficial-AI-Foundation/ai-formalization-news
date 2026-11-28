@@ -1,15 +1,15 @@
 {
  "version": 1,
- "last_run": "2026-11-28T04:22:08Z",
- "duration_seconds": 16.4,
+ "last_run": "2026-11-28T05:20:50Z",
+ "duration_seconds": 14.8,
  "counts": {
-  "items_in_news": 277,
+  "items_in_news": 279,
   "items_in_hidden": 44,
-  "archive_total": 321,
-  "new_kept": 0,
+  "archive_total": 323,
+  "new_kept": 2,
   "new_rejected": 0,
   "new_hidden": 0,
-  "new_dropped": 1
+  "new_dropped": 0
  },
  "sources": [
   {
@@ -66,7 +66,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "hackernews",
@@ -80,7 +80,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "hackernews-top",
@@ -91,10 +91,10 @@
    "http_status": 200,
    "fetched": 32,
    "new": 1,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "lean-zulip",
@@ -108,7 +108,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "lean-zulip-discussions",
@@ -122,7 +122,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "afp",
@@ -164,7 +164,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "rocq-discourse",
@@ -185,8 +185,8 @@
    "name": "Rocq changelog",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -199,9 +199,9 @@
    "name": "Agda releases",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 1,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -290,7 +290,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "mathstodon-formalverification",
@@ -299,12 +299,12 @@
    "enabled": true,
    "status": "ok",
    "http_status": 200,
-   "fetched": 14,
-   "new": 0,
-   "kept": 0,
+   "fetched": 15,
+   "new": 1,
+   "kept": 1,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "mathstodon-itp",
@@ -318,7 +318,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "mathstodon-agda",
@@ -332,7 +332,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "mathstodon-rocq",
@@ -346,7 +346,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "mathstodon-isabelle",
@@ -360,15 +360,15 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "forsyte",
    "name": "Forsyte, TU Wien",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -381,8 +381,8 @@
    "name": "Sigil Logic",
    "type": "news",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -402,7 +402,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "openai-math",
@@ -416,7 +416,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   },
   {
    "id": "deepmind-blog",
@@ -458,7 +458,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T04:22:08Z"
+   "last_fetch": "2026-11-28T05:20:50Z"
   }
  ],
  "errors": [
@@ -472,19 +472,19 @@
   "model": "anthropic/claude-haiku-5.5",
   "route": "openrouter",
   "fallback": true,
-  "input_tokens": 1829,
-  "output_tokens": 103,
+  "input_tokens": 2024,
+  "output_tokens": 189,
   "requests": 1,
-  "items_sent": 1,
-  "judged": 1,
+  "items_sent": 2,
+  "judged": 2,
   "hidden": 0,
-  "dropped": 1,
+  "dropped": 0,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
   "errors": [
    "Anthropic failed (BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.'}, 'requ); this run used OpenRouter instead"
   ],
-  "seconds": 1.3
+  "seconds": 1.4
  }
 }

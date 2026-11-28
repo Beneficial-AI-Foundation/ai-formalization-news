@@ -3,6 +3,40 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:35bf6a73d3b632e9",
+   "type": "social",
+   "source": "#formalverification on Mathstodon",
+   "source_id": "mathstodon-formalverification",
+   "title": "Umm…Ada/SPARK? “To Save Software Engineering From LLMs, We Need A Mainstream Verifiable Language”, Blaine Hansen…",
+   "url": "https://mastodon.social/@rmathew/117692263065895956",
+   "authors": [
+    "@rmathew@mastodon.social"
+   ],
+   "published": "2026-11-28T04:50:16Z",
+   "fetched": "2026-11-28T05:20:50Z",
+   "source_text": "Umm…Ada/SPARK? “To Save Software Engineering From LLMs, We Need A Mainstream Verifiable Language”, Blaine Hansen (https://blainehansen.me/post/mainstream-verifiable-language/). Via HN: https://news.ycombinator.com/item?id=50663089 On Lobsters…",
+   "summary": "A Mastodon post pointing to an essay arguing for a mainstream verifiable language such as Ada/SPARK to counter LLM-generated software.",
+   "score": 3,
+   "relevant": true
+  },
+  {
+   "id": "u:e20b8c05499c1f61",
+   "type": "news",
+   "source": "Hacker News (200+ points)",
+   "source_id": "hackernews-top",
+   "title": "False computer-checked proofs",
+   "url": "https://cr.yp.to/proofs/falseccp.html",
+   "authors": [
+    "_tk_"
+   ],
+   "published": "2026-11-27T15:26:09Z",
+   "fetched": "2026-11-28T05:20:50Z",
+   "source_text": "Link: https://cr.yp.to/proofs/falseccp.html. Discussed on Hacker News: 202 points, 79 comments. https://news.ycombinator.com/item?id=50667989",
+   "summary": "Daniel J. Bernstein's page on false computer-checked proofs, linked from a Hacker News discussion with 202 points and 79 comments.",
+   "score": 3,
+   "relevant": true
+  },
+  {
    "id": "u:7aa9aa5a892f67f7",
    "type": "social",
    "source": "#itp on Mathstodon",

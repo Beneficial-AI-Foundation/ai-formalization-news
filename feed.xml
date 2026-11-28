@@ -3,12 +3,36 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-27T14:21:42Z</updated>
+ <updated>2026-11-28T05:20:50Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://mastodon.social/@rmathew/117692263065895956</id>
+  <title>Umm…Ada/SPARK? “To Save Software Engineering From LLMs, We Need A Mainstream Verifiable Language”, Blaine Hansen…</title>
+  <link href="https://mastodon.social/@rmathew/117692263065895956" rel="alternate" />
+  <published>2026-11-28T04:50:16Z</published>
+  <updated>2026-11-28T04:50:16Z</updated>
+  <author>
+   <name>@rmathew@mastodon.social</name>
+  </author>
+  <category term="social" />
+  <summary type="text">A Mastodon post pointing to an essay arguing for a mainstream verifiable language such as Ada/SPARK to counter LLM-generated software. (#formalverification on Mathstodon)</summary>
+ </entry>
+ <entry>
+  <id>https://cr.yp.to/proofs/falseccp.html</id>
+  <title>False computer-checked proofs</title>
+  <link href="https://cr.yp.to/proofs/falseccp.html" rel="alternate" />
+  <published>2026-11-27T15:26:09Z</published>
+  <updated>2026-11-27T15:26:09Z</updated>
+  <author>
+   <name>_tk_</name>
+  </author>
+  <category term="news" />
+  <summary type="text">Daniel J. Bernstein's page on false computer-checked proofs, linked from a Hacker News discussion with 202 points and 79 comments. (Hacker News (200+ points))</summary>
+ </entry>
  <entry>
   <id>https://mathstodon.xyz/@Jose_A_Alonso/117688226601697288</id>
   <title>Formalization of lexicographic breadth-first search (in Isabelle/HOL). ~ Thomas Holme Surlykke, Dmitriy Traytel…</title>
@@ -638,29 +662,5 @@
   </author>
   <category term="lean" />
   <summary type="text">Student asks how autoformalized Navier-Stokes code can stay faithful to the original informal statement, citing arXiv 2610.08144. (Lean Zulip discussions)</summary>
- </entry>
- <entry>
-  <id>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification</id>
-  <title>Finding faster quantum algorithms with agents and formal verification</title>
-  <link href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification" rel="alternate" />
-  <published>2026-11-23T16:59:40Z</published>
-  <updated>2026-11-23T16:59:40Z</updated>
-  <author>
-   <name>Google DeepMind blog</name>
-  </author>
-  <category term="news" />
-  <summary type="text">DeepMind blog on using agent teams and formal verification to improve quantum algorithms for fusion and chemistry. (Google DeepMind blog)</summary>
- </entry>
- <entry>
-  <id>https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207</id>
-  <title>ITP 2027: Call for Papers</title>
-  <link href="https://discourse.rocq-prover.org/t/itp-2027-call-for-papers/3207" rel="alternate" />
-  <published>2026-11-23T16:33:45Z</published>
-  <updated>2026-11-23T16:33:45Z</updated>
-  <author>
-   <name>traytel</name>
-  </author>
-  <category term="event" />
-  <summary type="text">Call for papers for ITP 2027, the eighteenth Interactive Theorem Proving conference, held August 3–6, 2027 in Glasgow. (Rocq Discourse)</summary>
  </entry>
 </feed>
