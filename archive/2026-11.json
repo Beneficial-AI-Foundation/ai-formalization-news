@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:1ade05498a3430d5",
+   "type": "paper",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Zero-Mathlib Lean 4.36 Schrijver PSD: 12 <= M_3(12) <= 13",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Zero-Mathlib.20Lean.204.2E36.20Schrijver.20PSD.3A.2012.20.3C.3D.20M_3.2812.29.20.3C.3D.2013/near/644378124",
+   "authors": [
+    "Mizo Pl"
+   ],
+   "published": "2026-11-28T16:10:57Z",
+   "fetched": "2026-11-28T16:20:55Z",
+   "source_text": "We put together a standalone, zero-Mathlib Lean 4 (`v4.36.0`) proof suite (`180` `.lean` files, `36` target theorems) certifying binary `s`-deletion-correcting code bounds up to `N = 2^12 = 4,096` vertices inside the pure kernel (`0 sorryAx`, `0 native_decide`, `0 Lean.ofReduceBool`, `0 Lean.trustCompiler`, strictly `[propext, Classical.choice, Quot.sound]`, checked with `lake env leanchecker` and `comparator.json` with `enable_nanoda: true`). ### Limitations First - **Prior known `n = 226` (and companion modules certify validity + inclusion-maximality for `137`, `31`, `44`, `219`), not…",
+   "summary": "A zero-Mathlib Lean 4 proof suite certifying binary deletion-correcting code bounds up to 4,096 vertices, checked in the pure kernel without native_decide or…",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:81a7e9efd637659f",
    "type": "lean",
    "source": "Lean Zulip announcements",

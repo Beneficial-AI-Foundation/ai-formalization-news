@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-28T14:21:04Z</updated>
+ <updated>2026-11-28T16:20:55Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Zero-Mathlib.20Lean.204.2E36.20Schrijver.20PSD.3A.2012.20.3C.3D.20M_3.2812.29.20.3C.3D.2013/near/644378124</id>
+  <title>Zero-Mathlib Lean 4.36 Schrijver PSD: 12 &lt;= M_3(12) &lt;= 13</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Zero-Mathlib.20Lean.204.2E36.20Schrijver.20PSD.3A.2012.20.3C.3D.20M_3.2812.29.20.3C.3D.2013/near/644378124" rel="alternate" />
+  <published>2026-11-28T16:10:57Z</published>
+  <updated>2026-11-28T16:10:57Z</updated>
+  <author>
+   <name>Mizo Pl</name>
+  </author>
+  <category term="paper" />
+  <summary type="text">A zero-Mathlib Lean 4 proof suite certifying binary deletion-correcting code bounds up to 4,096 vertices, checked in the pure kernel without native_decide or… (Lean Zulip announcements)</summary>
+ </entry>
  <entry>
   <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Real.20velocities.20in.20the.20eight-runner.20Lonely.20Runner.20theorem/near/644366245</id>
   <title>Real velocities in the eight-runner Lonely Runner theorem</title>
@@ -644,23 +656,5 @@
   </author>
   <category term="paper" />
   <summary type="text">Maps imperative program cost bounds to constrained optimization and presents a sound cost logic with a verified certificate checker. (arXiv cs.LO)</summary>
- </entry>
- <entry>
-  <id>https://arxiv.org/abs/2611.31127</id>
-  <title>Data-Driven Identification of Uncertainty Sets with Conformance Guarantees</title>
-  <link href="https://arxiv.org/abs/2611.31127" rel="alternate" />
-  <published>2026-11-23T18:00:06Z</published>
-  <updated>2026-11-23T18:00:06Z</updated>
-  <author>
-   <name>Laura Lützow</name>
-  </author>
-  <author>
-   <name>Mykel J. Kochenderfer</name>
-  </author>
-  <author>
-   <name>Matthias Althoff</name>
-  </author>
-  <category term="paper" />
-  <summary type="text">ConfID, a framework for identifying uncertainty sets from measured traces that give reachset, trace and simulation conformance guarantees for formal… (arXiv eess.SY)</summary>
  </entry>
 </feed>
