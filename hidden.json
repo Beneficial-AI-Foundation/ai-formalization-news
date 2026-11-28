@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T13:21:19Z",
+ "updated": "2026-11-28T09:21:16Z",
  "items": [
   {
    "id": "u:870f3639fc42e78f",
@@ -109,6 +109,24 @@
    "fetched": "2026-11-25T06:31:39Z",
    "source_text": "Complex data structures are difficult to manipulate declaratively while preserving their shape invariants. Functional languages offer pattern matching and strong static guarantees, but their type systems primarily describe tree-shaped data. Graph transformation languages support richer structures, yet their state-oriented models do not integrate naturally with value- and function-based programming. This dissertation introduces $λ_{GT}$, a functional language that integrates port-hypergraph transformation. It represents complex data as port hypergraphs, manipulates them by pattern matching…",
    "summary": "A functional language integrating port-hypergraph transformation with pattern matching, without a stated verification or proof focus.",
+   "score": 1,
+   "relevant": false,
+   "hidden": true
+  },
+  {
+   "id": "u:0300f8b15bfa7c75",
+   "type": "social",
+   "source": "#isabelle on Mathstodon",
+   "source_id": "mathstodon-isabelle",
+   "title": "While I was drawing the Digby picture, I realized it'd be super easy to change it up and make versions of his twin, so… Here's Isabelle!…",
+   "url": "https://pain.moe/@yaginioi/117669068227122482",
+   "authors": [
+    "@yaginioi@pain.moe"
+   ],
+   "published": "2026-11-24T02:31:31Z",
+   "fetched": "2026-11-28T09:21:16Z",
+   "source_text": "While I was drawing the Digby picture, I realized it'd be super easy to change it up and make versions of his twin, so… Here's Isabelle! #Isabelle #AnimalCrossing #furry #dog #pussy #butthole #paws #pawpads #gape #gaping #creampie #wink #cum #kemono",
+   "summary": "A fan art post about drawing an Animal Crossing dog character with explicit sexual hashtags; unrelated to proof assistants or formal methods.",
    "score": 1,
    "relevant": false,
    "hidden": true
