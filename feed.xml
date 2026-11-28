@@ -3,12 +3,24 @@
  <id>https://beneficial-ai-foundation.github.io/ai-formalization-news/</id>
  <title>AI and formalization news (Beneficial AI Foundation)</title>
  <subtitle>New papers, Lean and Mathlib updates, and writing on AI for formal verification.</subtitle>
- <updated>2026-11-28T05:20:50Z</updated>
+ <updated>2026-11-28T14:21:04Z</updated>
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/" rel="alternate" type="text/html" />
  <link href="https://beneficial-ai-foundation.github.io/ai-formalization-news/feed.xml" rel="self" type="application/atom+xml" />
  <author>
   <name>Beneficial AI Foundation</name>
  </author>
+ <entry>
+  <id>https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Real.20velocities.20in.20the.20eight-runner.20Lonely.20Runner.20theorem/near/644366245</id>
+  <title>Real velocities in the eight-runner Lonely Runner theorem</title>
+  <link href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Real.20velocities.20in.20the.20eight-runner.20Lonely.20Runner.20theorem/near/644366245" rel="alternate" />
+  <published>2026-11-28T14:09:34Z</published>
+  <updated>2026-11-28T14:09:34Z</updated>
+  <author>
+   <name>Leon</name>
+  </author>
+  <category term="lean" />
+  <summary type="text">Announces a Lean 4 formalization of the eight-runner Lonely Runner theorem for real velocities, building on Rosenfeld's integer result. (Lean Zulip announcements)</summary>
+ </entry>
  <entry>
   <id>https://mastodon.social/@rmathew/117692263065895956</id>
   <title>Umm…Ada/SPARK? “To Save Software Engineering From LLMs, We Need A Mainstream Verifiable Language”, Blaine Hansen…</title>
@@ -650,17 +662,5 @@
   </author>
   <category term="paper" />
   <summary type="text">ConfID, a framework for identifying uncertainty sets from measured traces that give reachset, trace and simulation conformance guarantees for formal… (arXiv eess.SY)</summary>
- </entry>
- <entry>
-  <id>https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557</id>
-  <title>Discussion : Navier-Stokes lost in translation</title>
-  <link href="https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Discussion.20.3A.20Navier-Stokes.20lost.20in.20translation/near/642986557" rel="alternate" />
-  <published>2026-11-23T17:28:47Z</published>
-  <updated>2026-11-23T17:28:47Z</updated>
-  <author>
-   <name>Nx</name>
-  </author>
-  <category term="lean" />
-  <summary type="text">Student asks how autoformalized Navier-Stokes code can stay faithful to the original informal statement, citing arXiv 2610.08144. (Lean Zulip discussions)</summary>
  </entry>
 </feed>

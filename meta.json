@@ -1,15 +1,15 @@
 {
  "version": 1,
- "last_run": "2026-11-28T13:20:39Z",
- "duration_seconds": 20.3,
+ "last_run": "2026-11-28T14:21:04Z",
+ "duration_seconds": 18.2,
  "counts": {
-  "items_in_news": 279,
+  "items_in_news": 280,
   "items_in_hidden": 45,
-  "archive_total": 324,
-  "new_kept": 0,
+  "archive_total": 325,
+  "new_kept": 1,
   "new_rejected": 0,
   "new_hidden": 0,
-  "new_dropped": 2
+  "new_dropped": 1
  },
  "sources": [
   {
@@ -45,9 +45,9 @@
    "name": "Lean community blog",
    "type": "lean",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 1,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -66,7 +66,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "hackernews",
@@ -80,7 +80,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "hackernews-top",
@@ -90,11 +90,11 @@
    "status": "ok",
    "http_status": 200,
    "fetched": 34,
-   "new": 2,
+   "new": 1,
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "lean-zulip",
@@ -103,12 +103,12 @@
    "enabled": true,
    "status": "ok",
    "http_status": 200,
-   "fetched": 9,
-   "new": 0,
-   "kept": 0,
+   "fetched": 10,
+   "new": 1,
+   "kept": 1,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "lean-zulip-discussions",
@@ -122,15 +122,15 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "afp",
    "name": "Archive of Formal Proofs",
    "type": "paper",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -143,8 +143,8 @@
    "name": "Xena (Kevin Buzzard)",
    "type": "blog",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -164,16 +164,16 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "rocq-discourse",
    "name": "Rocq Discourse",
    "type": "news",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 16,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -213,8 +213,8 @@
    "name": "Quanta Magazine, mathematics",
    "type": "news",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -227,8 +227,8 @@
    "name": "Quanta Magazine, computer science",
    "type": "news",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -241,9 +241,9 @@
    "name": "Hugging Face Daily Papers",
    "type": "paper",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 20,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -255,8 +255,8 @@
    "name": "Terence Tao, What's new",
    "type": "blog",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -269,8 +269,8 @@
    "name": "Lawrence Paulson, Machine Logic",
    "type": "blog",
    "enabled": true,
-   "status": "not_modified",
-   "http_status": 304,
+   "status": "skipped",
+   "http_status": null,
    "fetched": 0,
    "new": 0,
    "kept": 0,
@@ -290,7 +290,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "mathstodon-formalverification",
@@ -304,7 +304,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "mathstodon-itp",
@@ -318,7 +318,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "mathstodon-agda",
@@ -332,7 +332,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "mathstodon-rocq",
@@ -346,7 +346,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "mathstodon-isabelle",
@@ -360,7 +360,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "forsyte",
@@ -402,7 +402,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "openai-math",
@@ -416,16 +416,16 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   },
   {
    "id": "deepmind-blog",
    "name": "Google DeepMind blog",
    "type": "blog",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 13,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -437,9 +437,9 @@
    "name": "OpenAI news",
    "type": "blog",
    "enabled": true,
-   "status": "ok",
-   "http_status": 200,
-   "fetched": 91,
+   "status": "skipped",
+   "http_status": null,
+   "fetched": 0,
    "new": 0,
    "kept": 0,
    "error": null,
@@ -458,7 +458,7 @@
    "kept": 0,
    "error": null,
    "warning": null,
-   "last_fetch": "2026-11-28T13:20:39Z"
+   "last_fetch": "2026-11-28T14:21:04Z"
   }
  ],
  "errors": [
@@ -472,19 +472,19 @@
   "model": "anthropic/claude-haiku-5.5",
   "route": "openrouter",
   "fallback": true,
-  "input_tokens": 1938,
-  "output_tokens": 181,
+  "input_tokens": 2118,
+  "output_tokens": 173,
   "requests": 1,
   "items_sent": 2,
   "judged": 2,
   "hidden": 0,
-  "dropped": 2,
+  "dropped": 1,
   "kept_trusted": 0,
   "released": 0,
   "refusals": [],
   "errors": [
    "Anthropic failed (BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.'}, 'requ); this run used OpenRouter instead"
   ],
-  "seconds": 2.0
+  "seconds": 1.6
  }
 }

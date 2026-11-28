@@ -3,6 +3,23 @@
  "month": "2026-11",
  "items": [
   {
+   "id": "u:81a7e9efd637659f",
+   "type": "lean",
+   "source": "Lean Zulip announcements",
+   "source_id": "lean-zulip",
+   "title": "Real velocities in the eight-runner Lonely Runner theorem",
+   "url": "https://leanprover.zulipchat.com/#narrow/channel/579630-Project.20announcements/topic/Real.20velocities.20in.20the.20eight-runner.20Lonely.20Runner.20theorem/near/644366245",
+   "authors": [
+    "Leon"
+   ],
+   "published": "2026-11-28T14:09:34Z",
+   "fetched": "2026-11-28T14:21:04Z",
+   "source_text": "We have formalized the classical statement for eight distinct real velocities in Lean 4.36.0. For each chosen runner, the theorem supplies a time when every other runner is at least one eighth of a lap away. The underlying integer theorem formalizes Matthieu Rosenfeld’s eight-runner result with a different geometric cutoff and prime schedule. [Rosenfeld](https://doi.org/10.1090/mcom/4243) The closed endpoint matters here. Rescaling preserves it exactly when the speeds are commensurate. Otherwise the reduction finds opposite, nonzero phase errors, applies the preceding real-speed case, and…",
+   "summary": "Announces a Lean 4 formalization of the eight-runner Lonely Runner theorem for real velocities, building on Rosenfeld's integer result.",
+   "score": 4,
+   "relevant": true
+  },
+  {
    "id": "u:35bf6a73d3b632e9",
    "type": "social",
    "source": "#formalverification on Mathstodon",
